@@ -4,6 +4,11 @@ Um pipeline completo e simulador web interativo de alto padrão para o Exame Nac
 
 ---
 
+> [!WARNING]
+> **Status do Projeto**: Este repositório está em **desenvolvimento ativo (WIP)** e contém erros conhecidos e ajustes pendentes na extração e mapeamento de dados. Não deve ser considerado uma versão finalizada de produção.
+
+---
+
 ## 🚀 Principais Funcionalidades
 
 ### 🖥️ Simulador Web Premium
