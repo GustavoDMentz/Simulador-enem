@@ -1,0 +1,1346 @@
+[
+  {
+    "posicao": 91,
+    "enunciado": "Na prática, à medida que se aumenta o comprimento do barbante, ocorre a redução de qual característica da onda sonora?",
+    "texto_base": "Na minha de Mauricio de Sousa, os personagens Cebolinha e Cascão fazem uma brincadeira utilizando duas latas e um barbante. Ao perceberem que o som pode ser transmitido através do barbante, resolvem alterar o comprimento do barbante para ficar cada vez mais extenso. As demais condições permaneceram inalteradas durante a brincadeira.",
+    "alternativas": {
+      "A": "Altura.",
+      "B": "Período.",
+      "C": "Amplitude.",
+      "D": "Velocidade.",
+      "E": "Comprimento de onda."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tirinha de Maurício de Sousa. À esquerda, Cebolinha, um menino com cinco fios de cabelo, está segurando uma lata com um barbante esticado. À direita, Cascão, um menino com cabelo espetado, está segurando a outra ponta do barbante, que está conectado a uma lata. Acima de Cascão, há um balão de fala com a palavra 'LIXO' riscada, indicando que ele está falando algo. O barbante está esticado entre os dois personagens. A tirinha é colorida, com fundo verde e os personagens em suas cores habituais. Abaixo da imagem, a fonte é 'SOUSA, M. Disponível em: www.monica.com.br. Acesso em: 2 out. 2012 (adaptado).'"
+    }
+  },
+  {
+    "posicao": 92,
+    "enunciado": "Em qual região espectral se situa o comprimento de onda do laser que otimiza o armazenamento e a leitura de dados em discos de uma mesma área?",
+    "texto_base": "Informações digitais — dados — são gravadas em discos ópticos, como CD e DVD, na forma de cavidades microscópicas. A gravação e a leitura óptica dessas informações são realizadas por um laser (fonte de luz monocromática). Quanto menores as dimensões dessas cavidades, mais dados são armazenados na mesma área do disco. O fator limitante para a leitura de dados é o espalhamento da luz pelo efeito de difração, fenômeno que ocorre quando a luz atravessa um obstáculo com dimensões da ordem de seu comprimento de onda. Essa limitação motivou o desenvolvimento de lasers com emissão em menores comprimentos de onda, possibilitando armazenar e ler dados em cavidades cada vez menores.",
+    "alternativas": {
+      "A": "Violeta.",
+      "B": "Azul.",
+      "C": "Verde.",
+      "D": "Vermelho.",
+      "E": "Infravermelho."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 93,
+    "enunciado": "Para que o sinal de bluetooth seja detectado pelas antenas, o valor mínimo de sua intensidade, em W/m², é mais próximo de",
+    "texto_base": "O bluetooth é uma tecnologia de comunicação sem fio, de curto alcance, presente em diferentes dispositivos eletrônicos de consumo. Ele permite que aparelhos eletrônicos diferentes se conectem e troquem dados entre si. No padrão bluetooth, denominado de Classe 2, as antenas transmitem sinais de potência igual a 2,5 mW e possibilitam conectar dois dispositivos distanciados até 10 m. Considere que essas antenas se comportam como fontes pontiformes que emitem ondas eletromagnéticas esféricas e que a intensidade do sinal é calculada pela potência por unidade de área. Considere o como valor aproximado para π.",
+    "alternativas": {
+      "A": "2,0 x 10⁻⁶.",
+      "B": "2,0 x 10⁻⁵.",
+      "C": "2,4 x 10⁻⁵.",
+      "D": "2,4 x 10⁻³.",
+      "E": "2,4 x 10⁻¹."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 94,
+    "enunciado": "O cátion que resultará em uma interação de maior caráter iônico com o ânion carboxilato será aquele proveniente do elemento",
+    "texto_base": "Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes. Contudo, descobertas arqueológicas têm demonstrado que os antigos habitantes da Amazônia dominavam a técnica de preparo de um mesmo agrícola natural, denominado terra preta. Esse insumo era constituído principalmente de uma espécie de biocarvão (biochar) obtido da queima de matéria orgânica, como troncos de árvores, pedaços de ossos e esterco, capaz de manter um solo fértil por anos.Admita-se que o efeito do biocarvão na fertilização do solo estava, em parte, relacionado à presença de grupos orgânicos do tipo carboxilato em sua superfície, carregados negativamente (—COO⁻). Esses grupos atraem íons positivos necessários como nutrientes, tais quais os provenientes do potássio (K), do cálcio (Ca), do magnésio (Mg), além de micronutrientes, como zinco (Zn) e ferro (Fe). Essa ligação no solo fertilizado é predominantemente iônica, conforme ilustra a figura, em que Mⁿ⁺ representa os cátions metálicos. De acordo com a escala de Pauling, a eletronegatividade do elemento oxigênio é igual a 3,44.O quadro apresenta os valores de eletronegatividade desses cinco elementos metálicos.",
+    "alternativas": {
+      "A": "potássio.",
+      "B": "cálcio.",
+      "C": "magnésio.",
+      "D": "zinco.",
+      "E": "ferro."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é composta por duas partes: uma figura e uma tabela.A figura mostra um esquema de ligação iônica. À esquerda, um círculo com 'O⁻' e um traço, representando um oxigênio com carga negativa. À direita, um círculo com 'Mⁿ⁺', representando um cátion metálico. Uma seta aponta do 'O⁻' para o 'Mⁿ⁺', indicando uma ligação. Abaixo, há duas caixas de texto: 'Solo com biocarvão' e 'Solo fertilizado', com uma seta apontando da primeira para a segunda, sugerindo um processo de fertilização.A tabela tem duas colunas: 'Elemento metálico' e 'Eletronegatividade'. As linhas são: K com 0,82; Ca com 1,00; Mg com 1,31; Zn com 1,65; Fe com 1,83.A fonte da tabela é 'MICHALOVIC, M. Ancient Soil Chemists of the Amazon. ChemMatters, fev. 2009 (adaptado).'"
+    }
+  },
+  {
+    "posicao": 95,
+    "enunciado": "No processo de concentração do produto, é utilizada energia proveniente",
+    "texto_base": "Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 °C e uma saída para água líquida em equilíbrio com o vapor a 100 °C. Ao passar pela parede oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.",
+    "alternativas": {
+      "A": "somente do calor latente de vaporização.",
+      "B": "somente do calor latente de condensação.",
+      "C": "do calor sensível e do calor latente de vaporização.",
+      "D": "do calor sensível e do calor latente de condensação.",
+      "E": "do calor latente de condensação e do calor latente de vaporização."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 96,
+    "enunciado": "Entre esses compostos, aquele que conferirá maior desempenho como combustível é o",
+    "texto_base": "A gasolina é uma mistura de hidrocarbonetos de cadeias saturadas contendo de 8 a 12 átomos de carbono. Além disso, a gasolina de alto desempenho deve conter elevados teores de hidrocarbonetos de cadeias ramificadas, de forma a resistir à compressão e entrar em ignição apenas quando a vela aciona uma centelha elétrica no motor. No quadro, estão apresentados compostos que podem ser utilizados como combustíveis.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas colunas: 'Composto' e 'Nomenclatura'. As linhas são: I com n-decano; II com n-heptano; III com 2,2,4-trimetilpentano; IV com 3-etil-4-metilex-1-eno; V com 3-etil-2-metilpentan-1-ol."
+    }
+  },
+  {
+    "posicao": 97,
+    "enunciado": "A pressão, em atm, dentro do frasco, no momento da explosão, é mais próxima de",
+    "texto_base": "De acordo com a Constituição Federal, é competência dos municípios o gerenciamento dos serviços de limpeza e coleta dos resíduos urbanos (lixo). No entanto, há relatos de que parte desse lixo acaba sendo incinerado, liberando substâncias tóxicas para o ambiente e causando acidentes por explosões, principalmente quando ocorre a incineração de frascos de aerossóis (por exemplo: desodorantes, inseticidas e repelentes). A temperatura elevada provocará a vaporização de todo o conteúdo dentro desse tipo de frasco, aumentando a pressão em seu interior até culminar na explosão da embalagem.Suponha um frasco metálico de um aerossol de capacidade igual a 100 mL, contendo 0,1 mol de produtos gasosos à temperatura de 650 °C, no momento da explosão.Considere: R = 0,082 L·atm/mol·K",
+    "alternativas": {
+      "A": "756.",
+      "B": "533.",
+      "C": "76.",
+      "D": "53.",
+      "E": "13."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 98,
+    "enunciado": "Em relação à situação em que todas as lâmpadas funcionam, após a queima de L₂, os brilhos das lâmpadas serão",
+    "texto_base": "O circuito com três lâmpadas incandescentes idênticas, representado na figura, consiste em uma associação mista de resistores. Cada lâmpada (L₁, L₂ e L₃) é associada, em paralelo, a um resistor de resistência R, formando um conjunto. Esses conjuntos são associados em série, tendo todas as lâmpadas o mesmo brilho quando ligadas à fonte de energia. Após vários dias de uso, apenas a lâmpada L₂ queima, enquanto as demais permanecem acesas.",
+    "alternativas": {
+      "A": "os mesmos.",
+      "B": "mais intensos.",
+      "C": "menos intensos.",
+      "D": "menos intenso para L₁ e o mesmo para L₃.",
+      "E": "mais intenso para L₁ e menos intenso para L₃."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um diagrama de circuito elétrico. Uma fonte de energia é representada por uma bateria com o polo positivo (+) na parte superior e o polo negativo (-) na parte inferior. A partir do polo positivo, o circuito se divide em dois ramos paralelos. No ramo superior, há um resistor R em série com uma lâmpada L₁. No ramo inferior, há um resistor R em série com duas lâmpadas L₂ e L₃ conectadas em paralelo entre si. Após os ramos paralelos, o circuito se une e retorna ao polo negativo da fonte de energia. A fonte de energia está rotulada como 'Fonte de energia'."
+    }
+  },
+  {
+    "posicao": 99,
+    "enunciado": "A tecnologia de vacinas de RNA mensageiro (RNAm) é investigada há anos. Avanços científicos em genética molecular permitiram desenvolver uma vacina para controle da pandemia da covid-19 causada pelo vírus de RNA SARS-CoV-2. A vacina de RNAm tem sequências de genes do vírus. Entretanto, por ser muito instável, o RNAm deve ser recoberto por uma capa lipídica que evita sua degradação e favorece sua ação. Dessa forma, o RNAm desempenhará sua função específica atuando no mesmo compartimento celular de sempre.Disponível em: www.uol.com.br. Acesso em: 24 nov. 2021 (adaptado).A imunização produzida por esse tipo de vacina é alcançada por meio da",
+    "texto_base": "Disponível em: www.uol.com.br. Acesso em: 24 nov. 2021 (adaptado).",
+    "alternativas": {
+      "A": "estimulação de leucócitos induzida pela capa lipídica contendo RNAm.",
+      "B": "atuação do RNAm como sequestrador do vírus para o meio extracelular.",
+      "C": "indução do RNAm em proteína viral, desencadeando a resposta antigênica.",
+      "D": "competição entre o RNAm vacinal e o RNA viral pelos sítios dos ribossomos.",
+      "E": "incorporação do RNAm viral ao genoma do hospedeiro, gerando novo fenótipo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 100,
+    "enunciado": "Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura.O coquetel de inibidores impediu o(a)",
+    "texto_base": "",
+    "alternativas": {
+      "A": "formação do pronúcleo masculino.",
+      "B": "início da divisão mitótica do zigoto.",
+      "C": "término da segunda divisão meiótica do ovócito.",
+      "D": "passagem do espermatozoide pela corona radiata e zona pelúcida.",
+      "E": "fusão das membranas plasmáticas do ovócito e do espermatozoide."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 101,
+    "enunciado": "O fogão por indução funciona a partir do surgimento de uma corrente elétrica induzida no fundo da panela, com consequente transformação de energia elétrica em calor por efeito Joule. A principal vantagem desses fogões é a eficiência energética, que é substancialmente maior que a dos fogões convencionais.A corrente elétrica mencionada é induzida por",
+    "texto_base": "",
+    "alternativas": {
+      "A": "radiação.",
+      "B": "condução.",
+      "C": "campo elétrico variável.",
+      "D": "campo magnético variável.",
+      "E": "ressonância eletromagnética."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 102,
+    "enunciado": "Uma academia decide trocar gradualmente seus aparelhos de musculação. Agora, os frequentadores que utilizam os aparelhos do tipo 1 podem também utilizar os aparelhos do tipo 2, representados na figura, para elevar cargas correspondentes às massas M₁ e M₂ com velocidade constante. A fim de que o exercício seja realizado com a mesma força F, os usuários devem ter orientados a respeito da relação entre as cargas dos dois tipos de aparelhos, já que as polias fixas apenas mudam a direção das forças, enquanto a polia móvel divide as forças.Em ambos os aparelhos, considere as cordas inextensíveis, as massas desprezíveis das cordas desprezíveis e que não há dissipação de energia.Para essa academia, qual deve ser a razão M₂/M₁ informada aos usuários?",
+    "texto_base": "Uma academia decide trocar gradualmente seus aparelhos de musculação. Agora, os frequentadores que utilizam os aparelhos do tipo 1 podem também utilizar os aparelhos do tipo 2, representados na figura, para elevar cargas correspondentes às massas M₁ e M₂ com velocidade constante. A fim de que o exercício seja realizado com a mesma força F, os usuários devem ter orientados a respeito da relação entre as cargas dos dois tipos de aparelhos, já que as polias fixas apenas mudam a direção das forças, enquanto a polia móvel divide as forças.Em ambos os aparelhos, considere as cordas inextensíveis, as massas desprezíveis das cordas desprezíveis e que não há dissipação de energia.",
+    "alternativas": {
+      "A": "1/4",
+      "B": "1/2",
+      "C": "1",
+      "D": "2",
+      "E": "4"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra dois diagramas de aparelhos de musculação, rotulados como 'Aparelho do tipo 1' e 'Aparelho do tipo 2'.No 'Aparelho do tipo 1', há uma polia fixa no topo. Uma corda passa por ela, desce, passa por uma polia móvel (onde a massa M₁ está presa), e a outra extremidade da corda é fixada no suporte superior. A força F é aplicada na parte da corda que desce da polia fixa. A polia móvel é suportada por duas seções da corda.No 'Aparelho do tipo 2', há uma polia fixa no topo. Uma corda passa por ela, desce, passa por uma polia móvel (onde a massa M₂ está presa), e a outra extremidade da corda é fixada no suporte superior. A força F é aplicada na parte da corda que desce da polia fixa. A polia móvel é suportada por quatro seções da corda."
+    }
+  },
+  {
+    "posicao": 103,
+    "enunciado": "Um garoto comprou vários abacates na feira, mas descobriu que eles não estavam maduros o suficiente para serem consumidos. Sua mãe recomendou que ele colocasse os abacates em um recipiente fechado, pois isso aceleraria seu amadurecimento. Com certa dúvida, o garoto realizou esta experiência: colocou alguns abacates no recipiente e deixou os demais em uma fruteira aberta. Surpreendeu-se, ele percebeu que os frutos que estavam no recipiente fechado amadureceram mais rapidamente.A aceleração desse processo é causada por",
+    "texto_base": "",
+    "alternativas": {
+      "A": "acúmulo de gás etileno.",
+      "B": "redução da umidade do ar.",
+      "C": "aumento da concentração de CO₂.",
+      "D": "diminuição da intensidade luminosa.",
+      "E": "isolamento do contato com O₂ atmosférico."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 104,
+    "enunciado": "Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade ímpar: guardar parte da maquinaria das células das algas que consomem — os cloroplastos — e mantê-las funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem.Disponível em: www.cienciahoje.pt. Acesso em: 10 fev. 2015 (adaptado).Essa adaptação confere a esse organismo a capacidade de obter primariamente",
+    "texto_base": "Disponível em: www.cienciahoje.pt. Acesso em: 10 fev. 2015 (adaptado).",
+    "alternativas": {
+      "A": "ácidos nucleicos.",
+      "B": "carboidratos.",
+      "C": "proteínas.",
+      "D": "vitaminas.",
+      "E": "lipídios."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 105,
+    "enunciado": "A leishmaniose visceral é uma zoonose causada por um protozoário do gênero Leishmania que é encontrado em diversos tecidos. Ela é transmitida ao homem por fêmeas de flebotomíneos, popularmente conhecidos como mosquito-palha, que se alimentam de sangue. O cão é considerado um importante hospedeiro desse protozoário, podendo ou não apresentar os sintomas da doença, como perda de peso, anemia, ferimentos na pele, diarreia, conjuntivite e insuficiência renal. Em uma região que sofre com alta incidência dessa doença, uma campanha do centro de zoonoses buscou verificar a presença desse protozoário nos cães para tentar controlar a doença.Em qual material biológico dos cães a presença desse protozoário representa risco de transmissão dessa zoonose?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "Urina.",
+      "B": "Saliva.",
+      "C": "Fezes.",
+      "D": "Sangue.",
+      "E": "Secreção ocular."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 106,
+    "enunciado": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.",
+    "texto_base": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.",
+    "alternativas": {
+      "A": "v = 0 e a = 0 para cima.",
+      "B": "v ≠ 0 e a = 0 para cima.",
+      "C": "v = 0 e a ≠ 0 para cima.",
+      "D": "v ≠ 0 para cima e a = 0 para baixo.",
+      "E": "v ≠ 0 para baixo e a ≠ 0 para baixo."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem apresenta uma tabela com três colunas: 'Grandeza cinemática', 'Módulo' e 'Sentido'.A primeira linha da tabela, sob 'Grandeza cinemática', é 'Velocidade'. As células correspondentes em 'Módulo' e 'Sentido' são: 'v = 0' e 'Para cima', 'v ≠ 0' e 'Para cima', 'v = 0' e 'Indefinido*', 'v ≠ 0' e 'Para baixo'.A segunda linha da tabela, sob 'Grandeza cinemática', é 'Aceleração'. As células correspondentes em 'Módulo' e 'Sentido' são: 'a ≠ 0' e 'Para cima', 'a = 0' e 'Indefinido*', 'a ≠ 0' e 'Para baixo'.Abaixo da tabela, há uma nota: '*Grandezas com módulo nulo não têm sentido definido.'.A questão continua com o comando: 'Ele solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.A escolha que corresponde à combinação correta é'."
+    }
+  },
+  {
+    "posicao": 107,
+    "enunciado": "Muitas mulheres sofrem com desconfortos nos dias que antecedem a menstruação, a chamada tensão pré-menstrual. Entre outros sintomas, podem ocorrer alterações de humor. Atualmente, acredita-se que os sintomas são resultado da queda na concentração do neurotransmissor serotonina, que, por sua vez, está relacionado com a diminuição na produção dos hormônios ovarianos estrógeno e progesterona, observada nessa fase do ciclo feminino.DIMMOCK, P. W. et al. Efficacy of Selective Serotonin-Reuptake Inhibitors in Premenstrual Syndrome: A Systematic Review. The Lancet, n. 9 238, 2000 (adaptado).A redução da produção desses hormônios nessa fase está relacionada com o(a)",
+    "texto_base": "DIMMOCK, P. W. et al. Efficacy of Selective Serotonin-Reuptake Inhibitors in Premenstrual Syndrome: A Systematic Review. The Lancet, n. 9 238, 2000 (adaptado).",
+    "alternativas": {
+      "A": "regressão do corpo lúteo ovariano.",
+      "B": "diminuição na produção de ocitocina.",
+      "C": "liberação do gameta feminino na ovulação.",
+      "D": "aumento nos níveis dos hormônios LH e FSH.",
+      "E": "elevação nos níveis sorológicos de adrenalina."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 108,
+    "enunciado": "As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo desses compostos voláteis responsáveis pelo aroma, podendo ser obtida por processos energéticos realizados em meio ácido, na presença de oxidantes como o permanganato de potássio.Para se produzir esse composto volátil em laboratório, deve-se oxidar a molécula de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "hexanal.",
+      "B": "hexan-1-ol.",
+      "C": "hexan-3-ol.",
+      "D": "hex-1-en-1-ol.",
+      "E": "ácido hexanoico."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 109,
+    "enunciado": "Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgimento de algumas estruturas que as tornaram independentes da água. Esse fato permitiu maior dispersão desse grupo de seres vivos, sendo possível observá-los em diferentes ambientes na atualidade.Qual estrutura possibilitou a independência da água para a fecundação dos seres vivos citados acima?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "Fruto.",
+      "B": "Esporo.",
+      "C": "Semente.",
+      "D": "Tubo polínico.",
+      "E": "Vaso condutor."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 110,
+    "enunciado": "O vidro contendo alumínio em sua composição é um excelente material para acondicionar medicamentos e suplementos, porque pode ser esterilizado por aquecimento. No entanto, quando o medicamento ou suplemento contém substâncias que se ligam fortemente ao íon desse metal, a dissolução do alumínio é promovida em função do deslocamento do equilíbrio químico estabelecido entre a espécie imobilizada no vidro e a espécie em solução. Por essa razão, recomenda-se que suplementos de nutrição de recém-nascidos contendo gluconato de cálcio sejam acondicionados em embalagens plásticas, e não nesse tipo de vidro.Atualização da recomendação da Sociedade Portuguesa de Neonatologia sobre a administração de gluconato de cálcio. Acta Pediátrica Portuguesa, v. 52, n. 4, 2021 (adaptado).Caso esse suplemento seja acondicionado em embalagem desse tipo de vidro, o risco de contaminação por alumínio será maior se o(a)",
+    "texto_base": "Atualização da recomendação da Sociedade Portuguesa de Neonatologia sobre a administração de gluconato de cálcio. Acta Pediátrica Portuguesa, v. 52, n. 4, 2021 (adaptado).",
+    "alternativas": {
+      "A": "vidro do frasco for translúcido.",
+      "B": "concentração de gluconato de cálcio for alta.",
+      "C": "frasco de vidro apresentar uma maior espessura.",
+      "D": "vidro for previamente esterilizado em altas temperaturas.",
+      "E": "reação do alumínio com gluconato de cálcio for endotérmica."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 111,
+    "enunciado": "Barbatião é o nome popular de uma árvore cuja casca é utilizada para fins medicinais. Essa casca é constituída principalmente de dois tecidos vegetais: periderme e floema. A extração da casca tem levado à morte muitos indivíduos dessa espécie, quando o corte retira um anel completo ao longo da circunferência do tronco. Aqueles que têm parte da casca retirada sem completar essa circunferência podem sobreviver.A morte desses indivíduos, decorrente da retirada do anel completo da casca, é provocada pela interrupção da",
+    "texto_base": "",
+    "alternativas": {
+      "A": "fotossíntese.",
+      "B": "transpiração.",
+      "C": "troca de gases.",
+      "D": "formação de brotos.",
+      "E": "nutrição das raízes."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 112,
+    "enunciado": "O descarte de detergentes comuns nos esgotos domésticos ocasiona a formação de uma camada de espuma que impede a entrada de oxigênio na água. Os microrganismos que vivem nessas águas não são capazes de quebrar moléculas ramificadas, ocorrendo assim um desequilíbrio ambiental nos rios. A fórmula a seguir representa a estrutura química de um tensoativo presente na composição de um detergente não biodegradável.Tensoativo não biodegradávelQual modificação química na estrutura desse tensoativo o tornaria um detergente biodegradável?",
+    "texto_base": "O descarte de detergentes comuns nos esgotos domésticos ocasiona a formação de uma camada de espuma que impede a entrada de oxigênio na água. Os microrganismos que vivem nessas águas não são capazes de quebrar moléculas ramificadas, ocorrendo assim um desequilíbrio ambiental nos rios. A fórmula a seguir representa a estrutura química de um tensoativo presente na composição de um detergente não biodegradável.",
+    "alternativas": {
+      "A": "Retirar a parte polar da molécula.",
+      "B": "Eliminar as insaturações do anel aromático.",
+      "C": "Trocar o grupo aniônico por um grupo neutro.",
+      "D": "Alterar o grupo aniônico por um grupo catiônico.",
+      "E": "Modificar a cadeia carbônica para cadeia normal."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra a fórmula estrutural de um tensoativo não biodegradável. A estrutura é composta por uma longa cadeia carbônica ramificada, um anel benzênico e um grupo sulfonato (SO₃⁻) ligado a um íon sódio (Na⁺). A cadeia carbônica tem várias ramificações metil, tornando-a uma cadeia ramificada. O anel benzênico está ligado à cadeia carbônica e ao grupo sulfonato de sódio."
+    }
+  },
+  {
+    "posicao": 113,
+    "enunciado": "O ensaio de micronúcleos é um teste de avaliação de genotoxicidade que associa a presença de micronúcleos (pequenos núcleos que aparecem próximo aos núcleos das células) com lesões genéticas. Os micronúcleos são fragmentos de DNA encapsulados, provenientes do fuso mitótico durante a divisão celular.DIAS, V. M. Micronúcleos em células tumorais: biologia e implicações para a toxicogenômica. Dissertação de Mestrado. USP, 2006 (adaptado).Os micronúcleos se originam dos(as)",
+    "texto_base": "DIAS, V. M. Micronúcleos em células tumorais: biologia e implicações para a toxicogenômica. Dissertação de Mestrado. USP, 2006 (adaptado).",
+    "alternativas": {
+      "A": "nucléolos.",
+      "B": "lisossomos.",
+      "C": "ribossomos.",
+      "D": "mitocôndrias.",
+      "E": "cromossomos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 114,
+    "enunciado": "O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar a composição de materiais estratificados medindo-se a velocidade de propagação do som (onda mecânica) através deles. Considere que uma camada de 450 m de um líquido se encontra presa no subsolo entre duas camadas rochosas, conforme o esquema. Um pulso acústico (que gera uma vibração mecânica) é emitido a partir da superfície do solo, onde são posteriormente recebidas duas vibrações (refletidas ecos). A primeira corresponde à reflexão do pulso na interface superior do líquido e a segunda corresponde à reflexão do pulso na interface inferior do líquido. O tempo entre a emissão do pulso e a chegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após a emissão do pulso.A velocidade do som na camada líquida, em metro por segundo, é",
+    "texto_base": "O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar a composição de materiais estratificados medindo-se a velocidade de propagação do som (onda mecânica) através deles. Considere que uma camada de 450 m de um líquido se encontra presa no subsolo entre duas camadas rochosas, conforme o esquema. Um pulso acústico (que gera uma vibração mecânica) é emitido a partir da superfície do solo, onde são posteriormente recebidas duas vibrações (refletidas ecos). A primeira corresponde à reflexão do pulso na interface superior do líquido e a segunda corresponde à reflexão do pulso na interface inferior do líquido. O tempo entre a emissão do pulso e a chegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após a emissão do pulso.",
+    "alternativas": {
+      "A": "270.",
+      "B": "540.",
+      "C": "818.",
+      "D": "1 500.",
+      "E": "1 800."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um diagrama esquemático que representa a prospecção de petróleo. No topo, há um emissor e detector de pulsos na superfície do solo. Abaixo da superfície, há uma camada de 'Rocha', seguida por uma camada de 'Líquido' com 450 m de espessura, e finalmente outra camada de 'Rocha' na parte inferior. Setas indicam que um pulso é emitido, atinge a interface superior do líquido e reflete (primeiro eco), e outro pulso atinge a interface inferior do líquido e reflete (segundo eco), retornando ao detector."
+    }
+  },
+  {
+    "posicao": 115,
+    "enunciado": "É comum em viagens de avião sermos solicitados a desligar aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas, como celulares. A justificativa dada para esse procedimento é, entre outras coisas, a necessidade de eliminar fontes de sinais eletromagnéticos que possam interferir nas comunicações, via rádio, dos pilotos com a torre de controle.Essa interferência poderá ocorrer somente se as ondas emitidas pelo celular e as recebidas pelo rádio do avião",
+    "texto_base": "",
+    "alternativas": {
+      "A": "forem ambas audíveis.",
+      "B": "tiverem a mesma potência.",
+      "C": "tiverem a mesma frequência.",
+      "D": "tiverem a mesma intensidade.",
+      "E": "propagarem-se com velocidades diferentes."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 116,
+    "enunciado": "O Aldrin é um inseticida agrícola organoclorado sintético de baixa polaridade, cuja estrutura molecular, simétrica, de fórmula C₁₂H₈Cl₆, está representada na figura. Introduzido na agricultura a partir da década de 1950, esse composto apresenta alta persistência no meio ambiente e acumulação nos organismos, sendo danoso para a saúde.Um pesquisador coletou fluidos biológicos de indivíduos de uma população contaminada por esse inseticida agrícola. Ele analisou amostras de saliva, sangue, lágrima, urina e leite quanto à presença dessa substância.Em qual dos fluidos o pesquisador provavelmente encontrou a maior concentração dessa substância?",
+    "texto_base": "VIEGAS JÚNIOR, C. Terpenos com atividade inseticida: uma alternativa para o controle químico de insetos. Química Nova, v. 26, n. 3, 2003 (adaptado).",
+    "alternativas": {
+      "A": "Saliva, por consequência da atividade de enzimas.",
+      "B": "Sangue, em função das hemácias e leucócitos.",
+      "C": "Lágrima, em razão da concentração de sais.",
+      "D": "Urina, pela presença de moléculas de ureia.",
+      "E": "Leite, por causa do alto teor de gorduras."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra a estrutura química do Aldrin. É uma molécula complexa com um anel de seis carbonos no centro, ligado a outros anéis e átomos de cloro. A estrutura é tridimensional, com ligações simples e duplas. A fórmula química C₁₂H₈Cl₆ está indicada."
+    }
+  },
+  {
+    "posicao": 117,
+    "enunciado": "Uma cafeteria adotou copos fabricados a partir de uma composição de 80% de plástico reciclado não biodegradável e 20% de casca de café. O copo é reutilizável e retornável, pois o material, semelhante a uma cerâmica, suporta a lavagem. Embora ele seja comercializado por um preço considerado alto quando comparado ao de um copo de plástico descartável, essa cafeteria possibilita aos clientes retornarem o copo sujo e levarem o café quente servido em outro copo já limpo e higienizado. O material desse copo oferece também o conforto de não esquentar na parte externa.Quais duas vantagens esse copo apresenta em comparação ao copo descartável?",
+    "texto_base": "Cafeteria adota copo reutilizável feito com casca de café. Disponível em: www.ecycle.com.br. Acesso em: 10 dez. 2022 (adaptado).",
+    "alternativas": {
+      "A": "Ter a durabilidade de uma cerâmica e ser totalmente biodegradável.",
+      "B": "Ser tão durável quanto uma cerâmica e ter alta condutividade térmica.",
+      "C": "Ser um mau condutor térmico e aumentar o resíduo biodegradável na natureza.",
+      "D": "Ter baixa condutividade térmica e reduzir o resíduo não biodegradável na natureza.",
+      "E": "Ter alta condutividade térmica e possibilitar a degradação do material no meio ambiente."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 118,
+    "enunciado": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuem a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.Em duas das versões apresentadas, o refrigerante comum possui",
+    "texto_base": "CAVAGIS, A. D.; PEREIRA, E. A.; COUTINHO, E. C. Um método simples para avaliar o teor de açúcar em refrigerantes. Química Nova na Escola, n. 4, ago. 2014 (adaptado).",
+    "alternativas": {
+      "A": "maior densidade.",
+      "B": "menor viscosidade.",
+      "C": "maior volume de gás dissolvido.",
+      "D": "menor massa de solutos dissolvidos.",
+      "E": "maior temperatura de congelamento."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 119,
+    "enunciado": "O manual de um automóvel alerta sobre os cuidados em relação à pressão do ar no interior dos pneus. Recomenda-se que a pressão seja verificada com os pneus frios (à temperatura ambiente). Um motorista, desejando ir para informação, realizou uma viagem longa sobre o asfalto quente e, em seguida, verificou que a pressão P₀ no interior dos pneus não era a recomendada pelo fabricante. Na ocasião, a temperatura dos pneus era T₀. Após um longo período em repouso, os pneus do carro atingiram a temperatura ambiente T. Durante o resfriamento, não há alteração no volume dos pneus nem na quantidade de ar no seu interior. Considere o ar dos pneus um gás perfeito (também denominado gás ideal).Durante o processo de resfriamento, os valores de pressão em relação à temperatura (P × T) são representados pelo gráfico:",
+    "texto_base": "",
+    "alternativas": {
+      "A": "P(Pa) versus T(K). O processo começa em (T₀, P₀), desce verticalmente até uma pressão menor (mantendo T₀), depois segue horizontalmente para a esquerda até uma temperatura T menor (mantendo a pressão), e então sobe verticalmente até a pressão P₀ (mantendo T). As setas indicam o sentido do processo.",
+      "B": "P(Pa) versus T(K). O processo começa em (T₀, P₀), segue horizontalmente para a esquerda até uma temperatura T menor (mantendo P₀), depois desce verticalmente até uma pressão menor (mantendo T), e então segue horizontalmente para a direita até T₀ (mantendo a pressão menor). As setas indicam o sentido do processo.",
+      "C": "P(Pa) versus T(K). O processo começa em (T₀, P₀) e segue uma curva decrescente e côncava para cima até um ponto (T, P) onde T < T₀ e P < P₀. As setas indicam o sentido do processo.",
+      "D": "P(Pa) versus T(K). O processo começa em (T₀, P₀) e segue uma linha reta com inclinação negativa até um ponto (T, P) onde T < T₀ e P < P₀. As setas indicam o sentido do processo.",
+      "E": "P(Pa) versus T(K). O processo começa em (T₀, P₀) e segue uma linha reta com inclinação positiva até um ponto (T, P) onde T < T₀ e P < P₀. As setas indicam o sentido do processo, da direita para a esquerda ao longo da linha."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta cinco gráficos (A, B, C, D, E) de Pressão (P) em função da Temperatura (T) para um gás. Cada gráfico tem eixos P(Pa) no vertical e T(K) no horizontal. Gráfico A: O processo começa em (T₀, P₀), desce verticalmente até uma pressão menor (mantendo T₀), depois segue horizontalmente para a esquerda até uma temperatura T menor (mantendo a pressão), e então sobe verticalmente até a pressão P₀ (mantendo T). As setas indicam o sentido do processo. Gráfico B: O processo começa em (T₀, P₀), segue horizontalmente para a esquerda até uma temperatura T menor (mantendo P₀), depois desce verticalmente até uma pressão menor (mantendo T), e então segue horizontalmente para a direita até T₀ (mantendo a pressão menor). As setas indicam o sentido do processo. Gráfico C: O processo começa em (T₀, P₀) e segue uma curva decrescente e côncava para cima até um ponto (T, P) onde T < T₀ e P < P₀. As setas indicam o sentido do processo. Gráfico D: O processo começa em (T₀, P₀) e segue uma linha reta com inclinação negativa até um ponto (T, P) onde T < T₀ e P < P₀. As setas indicam o sentido do processo. Gráfico E: O processo começa em (T₀, P₀) e segue uma linha reta com inclinação positiva até um ponto (T, P) onde T < T₀ e P < P₀. As setas indicam o sentido do processo, da direita para a esquerda ao longo da linha."
+    }
+  },
+  {
+    "posicao": 120,
+    "enunciado": "A síndrome de Down é uma alteração genética associada à trissomia do cromossomo 21, ou seja, o indivíduo possui três cromossomos 21 e não um par, como é normal. Isso ocorre pela meiose de um gameta contendo um cromossomo 21 extra, um número possuidor de dois cromossomos 21. Embora, normalmente, as mulheres com a síndrome sejam estéreis, em 2008, no interior de São Paulo, uma delas deu à luz uma menina sem a síndrome de Down.Sabendo disso, um jovem casal, com essa síndrome, procura um médico especialista para aconselhamento genético porque querem ter um bebê.O médico informa ao casal que, com relação ao cromossomo 21, os zigotos formados serão",
+    "texto_base": "MOREIRA, T. Mulher com síndrome de Down dá à luz menina sem a síndrome. Folha de S.Paulo, 20 dez. 2008. Disponível em: www1.folha.uol.com.br. Acesso em: 10 dez. 2022 (adaptado).",
+    "alternativas": {
+      "A": "todos normais.",
+      "B": "todos trissômicos.",
+      "C": "apenas normais ou tetrassômicos.",
+      "D": "apenas trissômicos ou tetrassômicos.",
+      "E": "normais, trissômicos ou tetrassômicos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 121,
+    "enunciado": "Para que uma molécula dê origem a um medicamento de administração oral, além de apresentar atividade farmacológica, deve ser capaz de atingir o local de ação. Para tanto, essa molécula não deve se degradar no estômago (onde o meio é fortemente ácido e há várias enzimas que reagem mediante catálise ácida), deve ser capaz de atravessar as membranas celulares e ser solúvel no plasma sanguíneo (sistema aquoso). Para os fármacos cujas estruturas são formadas por cadeias carbônicas longas contendo pelo menos um grupamento amino, um recurso tecnológico empregado é sua conversão no cloridrato correspondente. Essa conversão é representada, de forma genérica, pela equação química:O aumento da eficiência de circulação do fármaco no sangue, promovido por essa conversão, deve-se ao incremento de seu(sua)",
+    "texto_base": "",
+    "alternativas": {
+      "A": "basicidade.",
+      "B": "lipofilicidade.",
+      "C": "caráter iônico.",
+      "D": "cadeia carbônica.",
+      "E": "estado de oxidação."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra uma equação química genérica: R₃N + HCl → (R₃NH)⁺ Cl⁻. R₃N representa uma amina, HCl é ácido clorídrico. A reação forma um sal de amônio quaternário, (R₃NH)⁺ Cl⁻."
+    }
+  },
+  {
+    "posicao": 122,
+    "enunciado": "A produção de ATP depende do gradiente de prótons gerado pela cadeia respiratória. Nessas reações, os elétrons provenientes da oxidação do NADH em NAD⁺ percorrem a cadeia até chegarem à citocromo c oxidase reduzindo o Fe³⁺ a Fe²⁺. O oxigênio atua como aceptor final desses elétrons formando água. O cianeto é uma espécie química altamente tóxica que tem grande afinidade pelo Fe³⁺. Quando células são expostas ao cianeto, ele se liga ao sítio de Fe³⁺ da citocromo c oxidase, impedindo a sua conversão em Fe²⁺ e bloqueando a cadeia respiratória.Esse bloqueio aumenta a concentração celular de",
+    "texto_base": "ALBERTS, B. et al. Biologia molecular da célula. Porto Alegre: Artmed, 2010 (adaptado).",
+    "alternativas": {
+      "A": "ATP.",
+      "B": "água.",
+      "C": "NADH.",
+      "D": "dióxido de carbono.",
+      "E": "citocromo c oxidase."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um diagrama de fluxo intitulado \"Toxicidade do cianeto\". Ele mostra um substrato proveniente do nutriente que é oxidado a NAD⁺. NAD⁺ passa por \"Transportador 1\", \"Transportador 2\" e \"Transportador 3\". O Transportador 3 interage com a citocromo c oxidase, que converte Fe³⁺ em Fe²⁺. O oxigênio (O₂) é o aceptor final de elétrons, formando H₂O. O cianeto (CN⁻) é mostrado bloqueando a conversão de Fe³⁺ em Fe²⁺ na citocromo c oxidase. As setas indicam o fluxo de elétrons e as transformações."
+    }
+  },
+  {
+    "posicao": 123,
+    "enunciado": "O número de abelhas encontra-se em declínio em várias regiões do mundo, inclusive no Brasil, sendo que vários fatores contribuem para o colapso de suas colônias. Nos Estados Unidos, bombas de sementes de espécies vegetais nativas têm sido utilizadas para combater o desaparecimento desses insetos. Elas são pequenas bolinhas recheadas com sementes, adubo e argila. Quando são arremessadas, ficam expostas ao sol e à chuva, germinam até mesmo em solo pouco fértil.Esse método contribui para a preservação das abelhas porque",
+    "texto_base": "DARAYA, V. Disponível em: http://planetasustentavel.abril.com.br. Acesso em: 20 maio 2015 (adaptado).",
+    "alternativas": {
+      "A": "reduz sua predação.",
+      "B": "reduz o uso de pesticidas.",
+      "C": "reduz a competição por abrigo.",
+      "D": "aumenta a oferta de alimento.",
+      "E": "aumenta os locais de reprodução."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 124,
+    "enunciado": "Os mais antigos cozinhavam o feijão na panela de ferro a fim de acabar com a palidez de seus filhos. Alguns chegavam até a colocar um prego enferrujado nesse cozimento para liberar o ferro contido nele. Sabe-se que esse elemento pode ser encontrado na sua forma metálica ou iônica, sendo essencial para a manutenção da vida humana.As estratégias citadas eram utilizadas com o objetivo de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "tratar a diarreia.",
+      "B": "prevenir a anemia.",
+      "C": "evitar as criminoses.",
+      "D": "remediar o raquitismo.",
+      "E": "combater a febre amarela."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 125,
+    "enunciado": "A utilização da tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos e descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.A geração dessa energia tem como característica:",
+    "texto_base": "",
+    "alternativas": {
+      "A": "Formar resíduos facilmente recicláveis.",
+      "B": "Promover o aumento do desmatamento.",
+      "C": "Contribuir para a produção de chuva ácida.",
+      "D": "Emitir gases tóxicos que são lançados no ambiente.",
+      "E": "Produzir calor sem o consumo de combustíveis fósseis."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 126,
+    "enunciado": "Em uma indústria, o controle da dureza da água é importante quando ela é utilizada em caldeiras, uma vez que sais pouco solúveis, formados a partir de sulfatos e carbonatos, podem acumular-se no interior das tubulações, causando obstruções. Para avaliar a água utilizada nessa indústria, foram realizados testes de qualidade que consideraram os seguintes parâmetros:Qual teste deve ser considerado para controlar a formação desse tipo de obstrução às tubulações?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é uma tabela com duas colunas: \"Teste\" e \"Parâmetro medido\". As linhas da tabela são: Teste 1: Cálcio, Teste 2: Cloreto, Teste 3: Turbidez, Teste 4: Coliformes totais, Teste 5: Sólidos sedimentáveis."
+    }
+  },
+  {
+    "posicao": 127,
+    "enunciado": "As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e patos selvagens têm os músculos vermelhos bem desenvolvidos, com ampla rede de vasos sanguíneos. Nas viagens por grandes distâncias, tais músculos são fundamentais, pois favorecem o(a)",
+    "texto_base": "",
+    "alternativas": {
+      "A": "execução de manobras.",
+      "B": "metabolismo corpóreo elevado.",
+      "C": "manutenção da aerodinâmica.",
+      "D": "deslocamento a grandes velocidades.",
+      "E": "capacidade de voo em grandes altitudes."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 128,
+    "enunciado": "Existe no comércio um produto antimofo constituído por uma embalagem com tampa perfurada contendo cloreto de cálcio anidro, CaCl₂. Uma vez aberto o lacre, essa substância absorve a umidade ambiente, transformando-se em cloreto de cálcio di-hidratado, CaCl₂.2H₂O.Considere a massa molar da água igual a 18 g mol⁻¹, e a massa molar do cloreto de cálcio anidro igual a 111 g mol⁻¹.Na migração da substância presente no antimofo, o ganho percentual, em massa, é mais próximo de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "14%",
+      "B": "16%",
+      "C": "24%",
+      "D": "32%",
+      "E": "70%"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 129,
+    "enunciado": "O produto obtido em cada experimento foi filtrado, secado e teve sua massa aferida. O assistente organizou os resultados na forma de um gráfico que correlaciona a massa de NaCl adicionada com a massa de Hg₂Cl₂ obtida em cada frasco. A massa molar do Hg₂(NO₃)₂ é 523 g mol⁻¹, a do NaCl é 58 g mol⁻¹ e a do Hg₂Cl₂ é 472 g mol⁻¹.Qual foi o gráfico obtido pelo assistente de laboratório?",
+    "texto_base": "Um assistente de laboratório precisou descartar sete frascos contendo solução de nitrato de mercúrio(I) que não foram utilizados em uma aula prática. Cada frasco continha 5,25 g de Hg₂(NO₃)₂ dissolvidos em água. Temendo a toxidez do mercúrio e sabendo que o Hg₂Cl₂ tem solubilidade muito baixa, o assistente optou por retirar o mercúrio da solução por precipitação com cloreto de sódio (NaCl), conforme a equação química:Hg₂(NO₃)₂(aq) + 2 NaCl(aq) → Hg₂Cl₂(s) + 2 NaNO₃(aq)Na dúvida sobre a massa de NaCl a ser utilizada, o assistente aumentou gradativamente a quantidade adicionada em cada frasco, como apresentado no quadro.Frasco I II III IV V VI VIIMassa de NaCl em grama (g) 0,2 0,4 0,6 0,8 1,0 1,2 1,4",
+    "alternativas": {
+      "A": "Gráfico de linha com o eixo X rotulado 'Massa de NaCl (g)' e o eixo Y rotulado 'Massa de Hg₂Cl₂ (g)'. Ambos os eixos variam de 0 a 1,4 para o eixo X e de 0 a 7 para o eixo Y. A linha começa em (0,0), sobe linearmente até aproximadamente (0,6, 4,5) e depois se mantém constante em 4,5 até (1,4, 4,5).",
+      "B": "Gráfico de linha com o eixo X rotulado 'Massa de NaCl (g)' e o eixo Y rotulado 'Massa de Hg₂Cl₂ (g)'. Ambos os eixos variam de 0 a 1,4 para o eixo X e de 0 a 7 para o eixo Y. A linha começa em (0,0), sobe linearmente até aproximadamente (0,8, 6) e depois se mantém constante em 6 até (1,4, 6).",
+      "C": "Gráfico de linha com o eixo X rotulado 'Massa de NaCl (g)' e o eixo Y rotulado 'Massa de Hg₂Cl₂ (g)'. Ambos os eixos variam de 0 a 1,4 para o eixo X e de 0 a 7 para o eixo Y. A linha começa em (0,0), sobe linearmente até aproximadamente (0,4, 3) e depois se mantém constante em 3 até (1,4, 3).",
+      "D": "Gráfico de linha com o eixo X rotulado 'Massa de NaCl (g)' e o eixo Y rotulado 'Massa de Hg₂Cl₂ (g)'. Ambos os eixos variam de 0 a 1,4 para o eixo X e de 0 a 7 para o eixo Y. A linha começa em (0,0), sobe linearmente até aproximadamente (1,0, 5) e depois se mantém constante em 5 até (1,4, 5).",
+      "E": "Gráfico de linha com o eixo X rotulado 'Massa de NaCl (g)' e o eixo Y rotulado 'Massa de Hg₂Cl₂ (g)'. Ambos os eixos variam de 0 a 1,4 para o eixo X e de 0 a 7 para o eixo Y. A linha começa em (0,0), sobe linearmente até aproximadamente (1,2, 7) e depois se mantém constante em 7 até (1,4, 7)."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta uma tabela e cinco gráficos.A tabela tem duas linhas e oito colunas. A primeira linha é 'Frasco' e as colunas são I, II, III, IV, V, VI, VII. A segunda linha é 'Massa de NaCl em grama (g)' e os valores correspondentes são 0,2; 0,4; 0,6; 0,8; 1,0; 1,2; 1,4.Os cinco gráficos (A, B, C, D, E) são gráficos de linha com o eixo X rotulado 'Massa de NaCl (g)' e o eixo Y rotulado 'Massa de Hg₂Cl₂ (g)'. Ambos os eixos variam de 0 a 1,4 para o eixo X e de 0 a 7 para o eixo Y, com incrementos de 0,2 no X e 1 no Y."
+    }
+  },
+  {
+    "posicao": 130,
+    "enunciado": "Nas situações de aceleração e frenagem do caminhão, as tensões nas cordas 1 e 2, em newton, serão",
+    "texto_base": "Uma equipe de segurança do transporte de uma empresa avaliou o comportamento das tensões que aparecem em duas cordas, 1 e 2, usadas para prender uma carga de massa M = 200 kg na carroceria, conforme a ilustração. Quando o caminhão parte do repouso, sua aceleração é constante e igual a 3 m/s², e quando ele é freado bruscamente, sua frenagem é constante e igual a 5 m/s². Em ambas as situações, a carga encontra-se na iminência de movimento, e o sentido do movimento do caminhão está indicado na figura. O coeficiente de atrito estático entre a carga e o assoalho da carroceria é igual a 0,2. Considere a aceleração da gravidade igual a 10 m/s², as tensões iniciais nas cordas iguais a zero e as duas cordas ideais.",
+    "alternativas": {
+      "A": "aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 600 e T₂ = 0.",
+      "B": "aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 1 400 e T₂ = 0.",
+      "C": "aceleração: T₁ = 0 e T₂ = 600; frenagem: T₁ = 600 e T₂ = 0.",
+      "D": "aceleração: T₁ = 560 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 960.",
+      "E": "aceleração: T₁ = 640 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 1 040."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma ilustração mostra a parte traseira de um caminhão com uma carga retangular grande, identificada como 'M', presa por duas cordas. A corda 1 está na parte superior esquerda da carga e a corda 2 está na parte superior direita. Ambas as cordas se estendem para trás e para baixo, fixadas na carroceria do caminhão. Uma seta 'v' aponta para a direita, indicando o sentido do movimento do caminhão."
+    }
+  },
+  {
+    "posicao": 131,
+    "enunciado": "Dentro do corpo do vegetal, esses contaminantes serão",
+    "texto_base": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal.",
+    "alternativas": {
+      "A": "digeridos por enzimas.",
+      "B": "acumulados nos tecidos.",
+      "C": "eliminados pelos estômatos.",
+      "D": "metabolizados por glândulas.",
+      "E": "utilizados como fonte energética."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 132,
+    "enunciado": "Se o grupo dos microrganismos decompositores fosse exterminado, qual etapa não ocorreria?",
+    "texto_base": "O ciclo do nitrogênio é composto por várias etapas, conforme a figura, sendo cada uma desempenhada por um grupo específico de microrganismos.",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um fluxograma intitulado 'Gás nitrogênio' mostra as etapas do ciclo do nitrogênio. Uma seta de 'Gás nitrogênio' aponta para um bloco '1'. Do bloco '1', uma seta aponta para 'Amônia'. De 'Amônia', uma seta aponta para '2'. De '2', uma seta aponta para 'Nitrito'. De 'Nitrito', uma seta aponta para '3'. De '3', uma seta aponta para 'Nitrato'. De 'Nitrato', uma seta aponta para '4'. De '4', uma seta aponta para 'Detritos'. De 'Detritos', uma seta aponta para '5'. De '5', uma seta aponta de volta para 'Amônia'."
+    }
+  },
+  {
+    "posicao": 133,
+    "enunciado": "A quantas radiografias torácicas corresponde a dose de radiação ionizante à qual um tripulante que atue no trecho Rio de Janeiro-Roma é exposto ao longo de um ano?",
+    "texto_base": "Os raios cósmicos são fontes de radiação ionizante potencialmente perigosas para o organismo humano. Para quantificar a dose de radiação recebida, utiliza-se o sievert (Sv), definido como a unidade de energia recebida por unidade de massa. A exposição à radiação proveniente de raios cósmicos aumenta com a altitude, o que pode representar um problema para as tripulações de aeronaves. Recentemente, foram realizadas medições acuradas das doses de radiação ionizante para voos entre Rio de Janeiro e Roma. Os resultados têm indicado que a dose média de radiação recebida na fase de cruzeiro (que geralmente representa 80% do tempo total de voo) desse trecho intercontinental é 2 μSv/h. As normas internacionais da aviação civil limitam em 1 000 horas por ano o tempo de trabalho para as tripulações que atuam em voos intercontinentais. Considera-se que a dose de radiação ionizante para uma radiografia torácica é estimada em 0,2 mSv.RUAS, A. C. O tripulante de aeronaves e a radiação ionizante. Disponível em: www.scielo.br. Acesso em: 10 dez. 2019 (adaptado).",
+    "alternativas": {
+      "A": "8",
+      "B": "10",
+      "C": "80",
+      "D": "100",
+      "E": "1 000"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 134,
+    "enunciado": "O princípio ativo que apresenta o mesmo tipo de isomeria espacial que o ibuprofeno é o(a)",
+    "texto_base": "Entre os medicamentos mais comuns consumidos para o alívio da dor está o ibuprofeno, um composto quiral com ação anti-inflamatória e efeito analgésico, que é comercializado como fármaco opticamente puro, ou seja, sem a mistura com outro isômero óptico. A fórmula estrutural plana do ibuprofeno é:Alem do ibuprofeno, destacam-se também os princípios ativos a seguir, presentes em outros medicamentos para o alívio da dor:",
+    "alternativas": {
+      "A": "fenacetina.",
+      "B": "paracetamol.",
+      "C": "dipirona sódica.",
+      "D": "diclofenaco sódico.",
+      "E": "butilbrometo de escopolamina."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta as fórmulas estruturais de seis compostos químicos.Primeiro, a fórmula estrutural do Ibuprofeno, que mostra um anel benzênico ligado a um grupo isobutil e a um grupo ácido carboxílico (-COOH). O carbono quiral está no grupo ácido carboxílico, ligado ao anel benzênico.Abaixo, são apresentadas as fórmulas de outros cinco compostos:1. Fenacetina: anel benzênico com um grupo etóxi (-O-CH₂-CH₃) e um grupo amida (-NH-CO-CH₃).2. Paracetamol: anel benzênico com um grupo hidroxila (-OH) e um grupo amida (-NH-CO-CH₃).3. Dipirona sódica: estrutura complexa com um anel pirazolônico, um grupo metil, um grupo sulfonato de sódio (-SO₃⁻Na⁺) e um grupo metilamino (-N(CH₃)₂).4. Diclofenaco sódico: anel benzênico com dois átomos de cloro (-Cl), um grupo amina (-NH-) e um grupo carboxilato de sódio (-COO⁻Na⁺).5. Butilbrometo de escopolamina: estrutura complexa com um anel tropano, um grupo éster e um grupo amônio quaternário com bromo (-N⁺(CH₃)₂-CH₂-CH₂-CH₃ Br⁻)."
+    }
+  },
+  {
+    "posicao": 135,
+    "enunciado": "Comparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda a rodovia?",
+    "texto_base": "Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho, foram construídas 20 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 km/h, para veículos leves, e 80 km/h, para veículos de grande porte.Considere um carro e um caminhão viajando, ambos com velocidades constantes e iguais às máximas permitidas, e que somente o caminhão tenha o serviço automático de cobrança.",
+    "alternativas": {
+      "A": "30",
+      "B": "42",
+      "C": "72",
+      "D": "288",
+      "E": "360"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 136,
+    "enunciado": "A quantidade mínima de pacotes de pão de forma necessários para prover o suprimento a esse casal é",
+    "texto_base": "Alguns estudos comprovam que os carboidratos fornecem energia ao corpo, preservam as proteínas estruturais dos músculos durante a prática de atividade física e ainda dão força para o cérebro coordenar os movimentos e o de fato têm impacto positivo no desenvolvimento do praticante. O ideal é consumir 1 grama de carboidrato para cada minuto de caminhada.CIRINO, C. Boa pergunta: consumir carboidratos antes dos exercícios melhora o desempenho? Disponível em: www.uol.com.br. Acesso em: 10 dez. 2019 (adaptado).Um casal realizará diariamente 30 minutos de caminhada, ingerindo, antes dessa atividade, a quantidade ideal de carboidratos recomendada. Para ter o consumo ideal apenas por meio do consumo de pão de forma integral, o casal planeja garantir o suprimento de pães para um período de 30 dias ininterruptos. Sabe-se que cada pacote desse pão vem com 18 fatias, e que cada uma delas tem 15 gramas de carboidratos.",
+    "alternativas": {
+      "A": "1.",
+      "B": "4.",
+      "C": "6.",
+      "D": "7.",
+      "E": "8."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 137,
+    "enunciado": "Qual será a medida, em metro, de cada um dos cabos a serem instalados?",
+    "texto_base": "A opção a ser escolhida é aquela em que a medida dos cabos seja a menor possível.O mastro de uma bandeira foi instalado perpendicularmente ao solo em uma região plana. Devido aos fortes ventos, três cabos de aço, de mesmo comprimento, serão instalados para dar sustentação ao mastro. Cada cabo de aço ficará perfeitamente esticado, com uma extremidade num ponto P do mastro, a uma altura h do solo, e a outra extremidade, num ponto no chão, como mostra a figura.Os cabos de aço formam um ângulo α com o plano do chão.Por medida de segurança, há apenas três opções de instalação:• opção I: h = 11 m e α = 30°• opção II: h = 12 m e α = 45°• opção III: h = 18 m e α = 60°",
+    "alternativas": {
+      "A": "22√3",
+      "B": "11√2",
+      "C": "12√2",
+      "D": "12√3",
+      "E": "22"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um diagrama mostra um mastro vertical (linha preta) fixado ao solo. Um ponto P está no mastro a uma altura 'h' do solo. Um cabo de aço (linha vermelha) se estende do ponto P até um ponto no chão, formando um triângulo retângulo com o mastro e o solo. O ângulo entre o cabo e o solo é rotulado como 'α'."
+    }
+  },
+  {
+    "posicao": 138,
+    "enunciado": "Essa tela apresenta os dados de um voo cuja maior altitude alcançada foi de 5 km.A escala em que essa tela representa as medidas reais é",
+    "texto_base": "Um controlador de voo dispõe de um instrumento que descreve a altitude de uma aeronave em voo, em função da distância em solo. Essa distância em solo é a medida na horizontal entre o ponto de origem do voo e o ponto que representa a projeção ortogonal da posição da aeronave, em voo, no solo. Essas duas grandezas são dadas numa mesma unidade de medida.A tela do instrumento apresenta proporcionalmente as dimensões reais das distâncias associadas ao voo. A figura apresenta a tela do instrumento depois de concluída a viagem de um avião, sendo a medida do lado de cada quadradinho da malha igual a 1 cm.",
+    "alternativas": {
+      "A": "1 : 5",
+      "B": "1 : 11",
+      "C": "1 : 55",
+      "D": "1 : 5 000",
+      "E": "1 : 500 000"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de linha intitulado 'Altitude' com o eixo X rotulado 'Origem Destino Distância' e o eixo Y rotulado 'Altitude'. O gráfico mostra uma curva que começa em (0,0), sobe até um pico e depois desce novamente para o eixo X. O eixo Y tem uma escala de 0 a 5, com 5 no topo. O eixo X tem uma escala que vai de 'Origem' a 'Destino'. O gráfico é desenhado sobre uma grade quadriculada. O ponto mais alto da curva atinge a linha horizontal correspondente ao valor 5 no eixo Y. A distância total no eixo X, da origem ao destino, abrange 11 unidades da grade."
+    }
+  },
+  {
+    "posicao": 139,
+    "enunciado": "O dia da semana em que será comemorado o aniversário é",
+    "texto_base": "Uma pessoa pratica quatro atividades físicas — caminhar, correr, andar de bicicleta e jogar futebol — como parte de seu programa de emagrecimento. Essas atividades são praticadas semanalmente de acordo com o quadro, que apresenta o número de horas diárias por atividade. Tabela: Dias da semana | Caminhar | Correr | Andar de bicicleta | Jogar futebol Segunda-feira | 1,0 | 0,5 | 0,0 | 2,0 Terça-feira | 0,5 | 1,0 | 0,5 | 1,0 Quarta-feira | 0,0 | 1,5 | 1,0 | 0,5 Quinta-feira | 0,0 | 2,0 | 0,0 | 0,0 Sexta-feira | 0,0 | 0,5 | 0,0 | 2,5 Ela deseja comemorar seu aniversário e escolhe o dia da semana em que o gasto calórico com as atividades físicas praticadas for o maior. Para tanto, considera que os valores dos gastos calóricos das atividades por hora (cal/h) são os seguintes. Tabela: Atividade física | Caminhar | Correr | Andar de bicicleta | Jogar futebol Gasto calórico (cal/h) | 248 | 764 | 356 | 492",
+    "alternativas": {
+      "A": "segunda-feira.",
+      "B": "terça-feira.",
+      "C": "quarta-feira.",
+      "D": "quinta-feira.",
+      "E": "sexta-feira."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas tabelas. A primeira tabela mostra o número de horas diárias dedicadas a quatro atividades físicas (caminhar, correr, andar de bicicleta, jogar futebol) para cada dia da semana (segunda a sexta-feira). Os valores são: Segunda-feira (1,0; 0,5; 0,0; 2,0), Terça-feira (0,5; 1,0; 0,5; 1,0), Quarta-feira (0,0; 1,5; 1,0; 0,5), Quinta-feira (0,0; 2,0; 0,0; 0,0), Sexta-feira (0,0; 0,5; 0,0; 2,5). A segunda tabela mostra o gasto calórico por hora (cal/h) para cada atividade: Caminhar (248), Correr (764), Andar de bicicleta (356), Jogar futebol (492)."
+    }
+  },
+  {
+    "posicao": 140,
+    "enunciado": "O desconto necessário no preço final da compra, em porcentagem, pertence ao intervalo",
+    "texto_base": "A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos. A diretora só pode gastar R$ 220,00 nessa compra e sabe que o fornecedor da escola vende as folhas de papel ofício em embalagens de 100 unidades a R$ 4,00 a embalagem. Assim, será preciso convencer o fornecedor a dar um desconto à escola, de modo que seja possível comprar a quantidade total de papel ofício necessária para o bimestre.",
+    "alternativas": {
+      "A": "[5,0; 5,5).",
+      "B": "[8,0; 8,5).",
+      "C": "[11,5; 12,5).",
+      "D": "[19,5; 20,5).",
+      "E": "[3,5; 4,0)."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 141,
+    "enunciado": "De acordo com as informações fornecidas, durante quantos anos Tzolkin aquela comunidade maia foi governada por tal família?",
+    "texto_base": "O calendário maia apresenta duas contagens simultâneas de anos: o chamado Ano Tzolkin, composto por 260 dias e que determinava o calendário religioso, e o ano Haab, composto por 365 dias e que determinava o calendário agrícola. Um historiador encontrou evidências de que gerações de uma mesma família governaram certa comunidade maia pelo período de 20 ciclos, sendo cada ciclo formado por 52 anos Haab. Disponível em: www.suapesquisa.com. Acesso em: 20 ago. 2014.",
+    "alternativas": {
+      "A": "741",
+      "B": "1 040",
+      "C": "1 460",
+      "D": "2 100",
+      "E": "5 200"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 142,
+    "enunciado": "A área da pizza do professor de matemática é maior do que a soma das áreas das outras duas pizzas, pois",
+    "texto_base": "Sejam a, b e c as medidas dos lados de um triângulo retângulo, tendo a como medida da hipotenusa. Esses valores a, b e c são, respectivamente, os diâmetros dos círculos C₁, C₂ e C₃, como apresentados na figura. Observe que essa construção assegura, pelo teorema de Pitágoras, que área (C₁) = área (C₂) + área (C₃). Um professor de matemática ao contornar dessa construção, confraternizando com dois amigos em uma pizzaria onde são vendidas pizzas somente em formato de círculo, lançou um desafio: mesmo sem usar um instrumento de medição, poderia afirmar com certeza se a área do círculo representante a pizza que ele pedisse era maior, igual ou menor do que a soma das áreas das pizzas dos dois amigos. Assim, foram pedidas três pizzas. O professor as dividiu ao meio e formou um triângulo com os diâmetros das pizzas, conforme indicado na figura. A partir da medida do ângulo α, o professor afirmou que a área de sua pizza é maior do que a soma das áreas das outras duas pizzas.",
+    "alternativas": {
+      "A": "0° < α < 90°",
+      "B": "α < 90°",
+      "C": "90° < α < 180°",
+      "D": "α = 180°",
+      "E": "180° < α < 360°"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas figuras. A primeira figura mostra um triângulo retângulo com lados a, b e c. Sobre cada lado, há um semicírculo. O semicírculo sobre a hipotenusa 'a' é C₁, sobre 'b' é C₂, e sobre 'c' é C₃. A segunda figura mostra três pizzas. Uma pizza maior, rotulada \"Meia pizza do professor de matemática\", é um semicírculo dividido em dois setores, um deles com ângulo α. As outras duas pizzas menores são rotuladas \"Meia pizza do amigo 1\" e \"Meia pizza do amigo 2\"."
+    }
+  },
+  {
+    "posicao": 143,
+    "enunciado": "A medida da unidade da grandeza descrita pelo parâmetro EC é",
+    "texto_base": "Entre maratonistas, um parâmetro utilizado é o de economia de corrida (EC). O valor desse parâmetro é calculado pela razão entre o consumo de oxigênio, em mililitro (mL) por minuto (min), e a massa, em quilograma (kg), do atleta correndo a uma velocidade constante. Disponível em: www.treinamentoonline.com.br. Acesso em: 23 out. 2019 (adaptado). Um maratonista, visando melhorar sua performance, auxilia-se por um médico, mensura o seu consumo de oxigênio por minuto e velocidade constante. Com base nesse consumo e na massa do atleta, o médico calcula o EC do atleta.",
+    "alternativas": {
+      "A": "mLmin⋅kg",
+      "B": "mLmin⋅kg",
+      "C": "min⋅kgmL",
+      "D": "min⋅kg",
+      "E": "mLkgmin"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 144,
+    "enunciado": "Em qual mês o produto II parou de ser produzido?",
+    "texto_base": "O gerente de uma fábrica pretende comparar a evolução das vendas de dois produtos similares (I e II). Para isso, passou a verificar o número de unidades vendidas de cada um desses produtos em cada mês. Os resultados dessa verificação, para os meses de abril a junho, são apresentados na tabela. Tabela: Produto | Vendas em abril (unidade) | Vendas em maio (unidade) | Vendas em junho (unidade) I | 80 | 90 | 100 II | 190 | 170 | 150 O gerente estava decidido a cessar a produção do produto II no mês seguinte àquele em que as vendas do produto I superassem as do produto II. Suponha que a variação na quantidade de unidades vendidas dos produtos I e II se manteve, mês a mês, como no período representado na tabela.",
+    "alternativas": {
+      "A": "Junho.",
+      "B": "Julho.",
+      "C": "Agosto.",
+      "D": "Setembro.",
+      "E": "Outubro."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela mostra as vendas em unidades de dois produtos (I e II) para os meses de abril, maio e junho. Para o Produto I: 80 em abril, 90 em maio, 100 em junho. Para o Produto II: 190 em abril, 170 em maio, 150 em junho."
+    }
+  },
+  {
+    "posicao": 145,
+    "enunciado": "Comparando os valores da média, da mediana e da moda da distribuição das quantidades de viagens realizadas pelos motoristas cadastrados nessa empresa, obtém-se",
+    "texto_base": "Uma empresa de transporte faz regularmente um levantamento do número de viagens realizadas durante o dia por todos os 160 motoristas cadastrados em seu aplicativo. Em um certo dia, foi gerado um relatório, por meio de um gráfico de barras, no qual se relacionaram a quantidade de motoristas com a quantidade de viagens realizadas até aquele instante do dia. Gráfico de barras: Eixo Y: Quantidade de viagens realizadas (de 1 a 7) Eixo X: Quantidade de motoristas (de 0 a 55, em intervalos de 5) Barras: 1 viagem: 5 motoristas 2 viagens: 10 motoristas 3 viagens: 15 motoristas 4 viagens: 20 motoristas 5 viagens: 25 motoristas 6 viagens: 30 motoristas 7 viagens: 55 motoristas",
+    "alternativas": {
+      "A": "mediana = média < moda.",
+      "B": "mediana = moda < média.",
+      "C": "mediana < média < moda.",
+      "D": "moda < média < mediana.",
+      "E": "moda < mediana < média."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de barras. O eixo vertical (Y) é rotulado \"Quantidade de viagens realizadas\" e vai de 1 a 7. O eixo horizontal (X) é rotulado \"Quantidade de motoristas\" e vai de 0 a 55, com marcações a cada 5 unidades. As barras mostram: 5 motoristas realizaram 1 viagem, 10 motoristas realizaram 2 viagens, 15 motoristas realizaram 3 viagens, 20 motoristas realizaram 4 viagens, 25 motoristas realizaram 5 viagens, 30 motoristas realizaram 6 viagens, e 55 motoristas realizaram 7 viagens."
+    }
+  },
+  {
+    "posicao": 146,
+    "enunciado": "Qual foi a vazão, em metro cúbico por hora, do curso-d'água que abasteceu a cisterna?",
+    "texto_base": "A foto mostra a construção de uma cisterna destinada ao armazenamento de água. Uma cisterna como essa, na forma de cilindro circular reto com 3 m² de área da base, foi abastecida por um curso-d'água com vazão constante. O seu proprietário registrou a altura do nível da água no interior da cisterna durante o abastecimento em diferentes momentos de um mesmo dia, conforme o quadro. Tabela: Horário (h) | Nível da água (m) 6:00 | 0,5 8:00 | 1,1 12:00 | 2,3 15:00 | 3,2 Disponível em: www.parabamix.com. Acesso em: 3 dez. 2012.",
+    "alternativas": {
+      "A": "0,3",
+      "B": "0,5",
+      "C": "0,9",
+      "D": "1,8",
+      "E": "2,7"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela mostra o nível da água (em metros) em uma cisterna em diferentes horários do dia. Às 6:00, o nível é 0,5 m; às 8:00, 1,1 m; às 12:00, 2,3 m; às 15:00, 3,2 m. Abaixo da tabela, há uma fotografia de uma cisterna cilíndrica sendo construída ou já construída, parcialmente enterrada no solo, com uma escada de acesso."
+    }
+  },
+  {
+    "posicao": 147,
+    "enunciado": "Qual é o jogador que receberá a bola?",
+    "texto_base": "Num certo momento de um jogo digital, a tela representa a posição de um jogador que está com a bola, os pontos Q₁, Q₂, Q₃, Q₄ e Q₅ também indicam posições de jogadores da mesma equipe, e os pontos A e B indicam os dois pés da trave mais próxima deles. No momento da jogada retratado, o jogador Q₀ tem a posse da bola, que será passada para um dos outros jogadores das posições Qₙ, n ∈ {2, 3, 4, 5}, cujo ângulo AQₙB tenha a mesma medida do ângulo A Q₀ B.",
+    "alternativas": {
+      "A": "Q₁",
+      "B": "Q₂",
+      "C": "Q₃",
+      "D": "Q₄",
+      "E": "Q₅"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem representa um campo de futebol com um gol à direita. Vários pontos estão marcados no campo: A e B representam os pés da trave do gol. Q₀ é o jogador com a bola. Q₁, Q₂, Q₃, Q₄ e Q₅ são outros jogadores. Q₀ está mais próximo do gol, ligeiramente à esquerda do centro. Q₁ está à esquerda de Q₀. Q₂ está à frente e à direita de Q₀. Q₃ está mais à frente e à direita de Q₂. Q₄ está mais à frente e à direita de Q₃. Q₅ está à direita de Q₀, mais próximo da linha lateral. Linhas tracejadas conectam A a Q₀ e Q₀ a B, formando o ângulo A Q₀ B. Outras linhas tracejadas conectam A a Q₁, Q₂, Q₃, Q₄, Q₅ e B a Q₁, Q₂, Q₃, Q₄, Q₅, formando ângulos A Qₙ B."
+    }
+  },
+  {
+    "posicao": 148,
+    "enunciado": "Nas condições propostas, quais as possíveis soluções para as somas dos números que formam os lados do triângulo?",
+    "texto_base": "O triângulo da figura é denominado triângulo mágico. Nos círculos, escrevem-se os números de 1 a 6, sem repetição, com um número em cada círculo. O objetivo é distribuir os números de forma que as somas dos números em cada lado do triângulo sejam iguais. Considere que os números colocados nos vértices do triângulo estejam em progressão aritmética de razão igual a 2.",
+    "alternativas": {
+      "A": "Há somente uma solução possível, e as somas em cada lado do triângulo são iguais a 7.",
+      "B": "Há somente uma solução possível, e as somas em cada lado do triângulo são iguais a 9.",
+      "C": "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 7 e outra em que as somas são iguais a 9.",
+      "D": "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 9 e outra em que as somas são iguais a 12.",
+      "E": "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 10 e outra em que as somas são iguais a 11."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma figura de um triângulo com círculos nos vértices e no meio de cada lado. Há 6 círculos no total, um em cada vértice e um no ponto médio de cada lado. Os círculos estão vazios, indicando que números devem ser preenchidos."
+    }
+  },
+  {
+    "posicao": 149,
+    "enunciado": "Qual a probabilidade de o vencedor do sorteio ser um estudante do terceiro ano?",
+    "texto_base": "No alojamento de uma universidade, há alguns quartos com o padrão superior ao dos demais. Um desses quartos ficou disponível, e muitos estudantes se candidataram para morar no local. Para escolher qual ficará com o quarto, um sorteio será realizado. Para esse sorteio, cartões individuais com os nomes de todos os estudantes interessados serão depositados em uma urna, sendo que, para cada estudante do primeiro ano, será depositado um único cartão com seu nome; para cada estudante do segundo ano, dois cartões com seu nome; e, para cada estudante do terceiro ano, três cartões com seu nome. Foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Todos os cartões têm a mesma probabilidade de serem sorteados.",
+    "alternativas": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "1/8",
+      "D": "2/9",
+      "E": "3/8"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 150,
+    "enunciado": "Qual é a quantidade mínima de água, em litro, que cada morador, em média, deverá economizar por dia, de modo que o reservatório não fique sem água nos próximos 10 dias?",
+    "texto_base": "A água utilizada pelos 75 moradores de um vilarejo provém de um reservatório de formato cilíndrico circular reto cujo raio da base mede 5 metros, sempre abastecido no primeiro dia de cada mês por caminhões-pipa. Cada morador desse vilarejo consome, em média, 200 litros de água por dia.No mês de junho de um determinado ano, o vilarejo festejou o dia do seu padroeiro e houve um gasto extra de água nos primeiros 20 dias. Passado esse período, as pessoas verificaram a quantidade de água presente no reservatório e constataram que o nível da coluna de água estava em 1,5 metro. Decidiram, então, fazer um racionamento de água durante os 10 dias seguintes. Considere 3 como aproximação para π.",
+    "alternativas": {
+      "A": "50",
+      "B": "60",
+      "C": "80",
+      "D": "140",
+      "E": "150"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 151,
+    "enunciado": "O número mínimo de salas que deverão ser construídas é",
+    "texto_base": "Em janeiro do ano passado, a direção de uma fábrica abriu uma creche para os filhos de seus funcionários, com 10 salas, cada uma com capacidade para atender 10 crianças a cada ano. As vagas são sorteadas entre os filhos dos funcionários inscritos, enquanto os não contemplados pelo sorteio formam uma lista de espera. No ano passado, a lista de espera teve 400 nomes e, neste ano, esse número cresceu 10%.A direção da fábrica realizou uma pesquisa e constatou que a lista de espera para o próximo ano terá a mesma quantidade de nomes da lista de espera deste ano. Decidiu, então, construir, ao longo desse ano, novas salas para a creche, também com capacidade de atendimento para 10 crianças cada, de modo que o número de nomes na lista de espera no próximo ano seja 25% menor que o deste ano.",
+    "alternativas": {
+      "A": "10.",
+      "B": "11.",
+      "C": "13.",
+      "D": "26.",
+      "E": "33."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 152,
+    "enunciado": "O oitavo número pentagonal é",
+    "texto_base": "Os números figurados pentagonais provavelmente foram introduzidos pelos pitagóricos por volta do século V a.C. As figuras ilustram como obter os seis primeiros deles, sendo os demais obtidos seguindo o mesmo padrão geométrico.",
+    "alternativas": {
+      "A": "59.",
+      "B": "83.",
+      "C": "86.",
+      "D": "99.",
+      "E": "92."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra uma sequência de seis figuras geométricas que representam números pentagonais. Cada figura é um polígono com cinco lados, construído a partir de pontos. A primeira figura é um único ponto (representando o número 1). A segunda figura é um pentágono com 5 pontos. A terceira figura é um pentágono maior com 12 pontos. A quarta figura é um pentágono ainda maior com 22 pontos. A quinta figura é um pentágono com 35 pontos. A sexta figura é um pentágono com 51 pontos. Os números de pontos são 1, 5, 12, 22, 35, 51."
+    }
+  },
+  {
+    "posicao": 153,
+    "enunciado": "Com o passar do tempo, à medida que a roda-gigante gira com velocidade angular constante e no sentido horário, a altura da cadeira onde se encontra a pessoa P, em relação ao solo, vai se alterando.O gráfico que melhor representa a variação dessa altura, em função do tempo, contado a partir do instante em que a cadeira da pessoa P se encontra na posição mais alta da roda-gigante, é",
+    "texto_base": "A figura ilustra uma roda-gigante no exato instante em que a cadeira onde se encontra a pessoa P está no ponto mais alto dessa roda-gigante.",
+    "alternativas": {
+      "A": "Gráfico com eixo vertical \"Altura em relação ao solo\" e eixo horizontal \"Tempo\". A curva começa no ponto mais alto, desce até o ponto mais baixo e sobe novamente, formando uma onda senoidal suave.",
+      "B": "Gráfico com eixo vertical \"Altura em relação ao solo\" e eixo horizontal \"Tempo\". A curva começa no ponto mais alto, desce linearmente até o ponto mais baixo, sobe linearmente até o ponto mais alto, formando um padrão triangular.",
+      "C": "Gráfico com eixo vertical \"Altura em relação ao solo\" e eixo horizontal \"Tempo\". A curva começa no ponto mais alto, desce rapidamente, permanece no ponto mais baixo por um tempo, sobe rapidamente, permanece no ponto mais alto por um tempo, formando um padrão de onda quadrada.",
+      "D": "Gráfico com eixo vertical \"Altura em relação ao solo\" e eixo horizontal \"Tempo\". A curva começa no ponto mais alto, desce até o ponto médio, permanece no ponto médio por um tempo, desce até o ponto mais baixo, permanece no ponto mais baixo por um tempo, sobe até o ponto médio, permanece no ponto médio por um tempo, sobe até o ponto mais alto.",
+      "E": "Gráfico com eixo vertical \"Altura em relação ao solo\" e eixo horizontal \"Tempo\". A curva começa no ponto mais alto, desce até o ponto mais baixo, sobe até o ponto mais alto, mas com uma forma de onda que não é suave nem linear, parecendo uma série de picos e vales irregulares."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra uma roda-gigante vista de perfil. Há uma pessoa P sentada em uma cadeira no ponto mais alto da roda-gigante. A roda-gigante tem um eixo central e várias cadeiras distribuídas uniformemente ao longo de sua circunferência. Abaixo da roda-gigante, há uma base retangular com a palavra \"Solo\". À direita, há cinco gráficos (A, B, C, D, E) com eixos \"Altura em relação ao solo\" (vertical) e \"Tempo\" (horizontal). Cada gráfico mostra uma curva diferente. Gráfico A: Curva senoidal suave, começando no pico, descendo ao vale e subindo ao pico. Gráfico B: Curva triangular, começando no pico, descendo linearmente ao vale e subindo linearmente ao pico. Gráfico C: Curva de onda quadrada, começando no pico, descendo abruptamente ao vale, permanecendo no vale, subindo abruptamente ao pico, permanecendo no pico. Gráfico D: Curva que começa no pico, desce suavemente, estabiliza, desce novamente, estabiliza, sobe suavemente, estabiliza, sobe novamente. Gráfico E: Curva que começa no pico, desce, sobe, desce, sobe, com picos e vales de diferentes alturas e larguras, não simétrica."
+    }
+  },
+  {
+    "posicao": 154,
+    "enunciado": "Qual é o percentual de estudantes dessa amostra com massa corporal abaixo da média e altura acima da média?",
+    "texto_base": "Um professor, para promover a aprendizagem dos estudantes em estatística, propôs uma atividade. O objetivo era verificar o percentual de estudantes com massa corporal abaixo da média e altura acima da média de um grupo de estudantes. Para isso, usando uma balança e uma fita métrica, avaliou uma amostra de dez estudantes, anotando as medidas observadas. O gráfico apresenta a massa corporal, em quilograma, e a altura, em metro, obtidas na atividade.Após a coleta dos dados, os estudantes calcularam a média dos valores obtidos, referentes à massa corporal e à altura, obtendo, respectivamente, 80 kg e 1,65 m.",
+    "alternativas": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "50",
+      "E": "70"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "O gráfico de dispersão intitulado \"Massa corporal e altura de estudantes\" mostra a relação entre a massa corporal (eixo horizontal, em kg) e a altura (eixo vertical, em m) de dez estudantes. Eixo horizontal (Massa corporal (kg)): de 0 a 140, com intervalos de 20. Eixo vertical (Altura (m)): de 1,45 a 1,75, com intervalos de 0,05. Os pontos plotados são aproximadamente: (20, 1.55), (40, 1.6), (60, 1.65), (80, 1.7), (80, 1.5), (100, 1.75), (100, 1.6), (120, 1.65), (120, 1.5), (140, 1.55)."
+    }
+  },
+  {
+    "posicao": 155,
+    "enunciado": "A quantidade mínima de ajudantes que esse pescador precisa contratar para conseguir o lucro diário pretendido é",
+    "texto_base": "Um pescador tem um custo fixo diário de R$ 900,00 com combustíveis, iscas, manutenção de seu barco e outras pequenas despesas. Ele vende um quilograma de peixe por R$ 5,00. Sua meta é obter um lucro mínimo de R$ 800,00 por dia. Sozinho, ele consegue, ao final de um dia de trabalho, pescar 180 kg de peixe, o que representa apenas para cobrir o custo fixo diário. Portanto, precisa contratar ajudantes, pagando para cada um R$ 250,00 por dia de trabalho. Além desse valor, 4% da receita obtida pela venda de peixe é repartida igualmente entre os ajudantes. Considerando o tamanho de seu barco, ele pode contratar até 6 ajudantes. Ele sabe que com um ajudante a pesca diária é de 300 kg e que, a partir do segundo ajudante contratado, aumenta-se em 100 kg a quantidade de peixe pescado por ajudante em um dia de trabalho.",
+    "alternativas": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 156,
+    "enunciado": "Quantos dias após iniciada esse método o agricultor deverá aplicar o produto X?",
+    "texto_base": "Um agricultor é informado sobre um método de proteção para sua lavoura que consiste em inserir larvas específicas, de rápida reprodução. A reprodução dessas larvas faz com que sua população multiplique por 10 a cada 3 dias e, para evitar eventuais desequilíbrios, é possível cessar essa reprodução aplicando-se um produto X. O agricultor decide iniciar esse método com 100 larvas. Depois de 5 dias do produto X, cuja aplicação recomendada é de exatamente 1 litro para cada população de 200 000 larvas. A quantidade total do produto X de que ele dispõe deverá ser aplicada de uma única vez.",
+    "alternativas": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "12",
+      "E": "18"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 157,
+    "enunciado": "Considerando as duas primeiras tentativas, as senhas dos tipos I, II e III, respectivamente,Nessa condição, o tipo de senha que apresenta a menor probabilidade de ser descoberta ao acaso, na primeira tentativa, é o",
+    "texto_base": "Ao solicitar o cadastro em um aplicativo de investimentos, foi realizado ao usuário que criasse uma senha, sendo permitido o uso somente dos seguintes caracteres:\n- algarismos de 0 a 9;\n- 26 letras minúsculas do alfabeto;\n- 26 letras maiúsculas do alfabeto;\n- 8 caracteres especiais !, @, #, $, %, &, *, &\nTrês tipos de estrutura para senha foram apresentadas ao usuário:\n- Tipo I: formada por quaisquer quatro caracteres distintos, escolhidos dentre os permitidos;\n- Tipo II: formada por cinco caracteres distintos, iniciando por três letras, seguidas por um algarismo e, ao final, um caractere especial;\n- Tipo III: formada por seis caracteres distintos, iniciando por duas letras, seguidas por dois algarismos e, ao final, dois caracteres especiais.",
+    "alternativas": {
+      "A": "tipo I, pois P_I < P_II < P_III probabilidade de se descobrir ao acaso, na primeira tentativa, as senhas dos tipos I, II e III, respectivamente.",
+      "B": "tipo I, pois tem maior quantidade de caracteres.",
+      "C": "tipo II, pois P_II < P_I < P_III.",
+      "D": "tipo III, pois P_III < P_II < P_I.",
+      "E": "tipo III, pois tem maior quantidade de caracteres."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 158,
+    "enunciado": "As probabilidades de os candidatos de inscrição número 50 e 02 serem sorteados são, respectivamente,",
+    "texto_base": "Em um colégio público, a admissão no primeiro ano se dá por sorteio. Neste ano há 55 candidatos, cujas inscrições são numeradas de 01 a 55. O sorteio de cada número de inscrição será realizado em 3 etapas, utilizando-se duas urnas. Da primeira urna será sorteada uma bola, dentre bolas numeradas de 0 a 9, que representará o algarismo das unidades do número de inscrição a ser sorteado e, em seguida, da segunda urna, será sorteada uma bola para representar o algarismo das dezenas desse número. Depois do primeiro sorteio, e antes de se sortear o algarismo das dezenas, as bolas que estarão presentes na segunda urna serão apenas aquelas cujos números formam, com o algarismo já sorteado, um número de 01 a 55.",
+    "alternativas": {
+      "A": "1/50 e 1/60",
+      "B": "1/50 e 1/50",
+      "C": "1/50 e 1/10",
+      "D": "1/55 e 1/54",
+      "E": "1/100 e 1/100"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 159,
+    "enunciado": "Considere que a intensidade luminosa diminui, a cada metro acrescido na profundidade, segundo o mesmo padrão do esquema.A intensidade luminosa correspondente à profundidade de 6 m é igual a",
+    "texto_base": "O esquema mostra como a intensidade luminosa decresce com o aumento da profundidade em um rio, sendo L_0 a intensidade na sua superfície.",
+    "alternativas": {
+      "A": "1/9 L_0",
+      "B": "16/27 L_0",
+      "C": "32/243 L_0",
+      "D": "64/729 L_0",
+      "E": "128/2187 L_0"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "O esquema mostra a relação entre profundidade e intensidade luminosa. Na superfície (0 m), a intensidade luminosa é L_0. A 1 m de profundidade, a intensidade é 2/3 L_0. A 2 m de profundidade, a intensidade é 4/9 L_0. A 3 m de profundidade, a intensidade é 8/27 L_0. A cada metro de profundidade, a intensidade luminosa é multiplicada por 2/3."
+    }
+  },
+  {
+    "posicao": 160,
+    "enunciado": "No caso analisado, qual seria a classificação do desempenho da empresa?",
+    "texto_base": "Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhão de real, poderia ser calculado pela expressão V(x) = x^2/4 - 10x + 105, em que os valores de x representam os dias do mês, variando de 1 a 30.Um dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário V_0 arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real:\n- Ótimo: V_0 ≥ 24\n- Bom: 20 ≤ V_0 < 24\n- Normal: 10 ≤ V_0 < 20\n- Ruim: 4 ≤ V_0 < 10\n- Péssimo: V_0 < 4",
+    "alternativas": {
+      "A": "Ótimo.",
+      "B": "Bom.",
+      "C": "Normal.",
+      "D": "Ruim.",
+      "E": "Péssimo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 161,
+    "enunciado": "Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (Q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.Disponível em: http://info.abril.com.br. Acesso em: 1 dez. 2015 (adaptado).Nessas condições, ao final da primeira hora após a ingestão da quantidade Q de álcool, a concentração C dessa substância no sangue é expressa algebricamente por",
+    "texto_base": "",
+    "alternativas": {
+      "A": "C = 0,9Q",
+      "B": "C = 1 – 0,1Q",
+      "C": "C = 1 – 0,9Q",
+      "D": "C = Q – 10",
+      "E": "C = 4 – 10"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 162,
+    "enunciado": "Um investidor iniciante observou o gráfico que apresenta a evolução dos valores de duas criptomoedas A e B em relação ao tempo.Durante horas consecutivas, esses valores foram observados em nove instantes, representados por horas exatas.Em quantos desses instantes a criptomoeda A estava mais valorizada do que a criptomoeda B?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "7",
+      "E": "9"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linhas mostrando a evolução do valor de duas criptomoedas, A e B, ao longo do tempo. O eixo horizontal representa o tempo em horas, numerado de 1 a 7. O eixo vertical representa o valor em milhares de reais, com números de 1 a 9. A linha tracejada é identificada como 'Criptomoeda A (milhar de real)' e a linha contínua como 'Criptomoeda B (milhar de real)'. Os pontos de dados com seus respectivos valores são: Criptomoeda A: (Hora 1, Valor 5), (Hora 2, Valor 6), (Hora 3, Valor 4), (Hora 4, Valor 2), (Hora 5, Valor 3), (Hora 6, Valor 4), (Hora 7, Valor 6). Criptomoeda B: (Hora 1, Valor 6), (Hora 2, Valor 5), (Hora 3, Valor 7), (Hora 4, Valor 4), (Hora 5, Valor 1), (Hora 6, Valor 2), (Hora 7, Valor 3)."
+    }
+  },
+  {
+    "posicao": 166,
+    "enunciado": "Qual é o número mínimo de bolinhas brancas que o gerente deve adicionar a urna B?",
+    "texto_base": "Visando atrair mais clientes, o gerente de uma loja anunciou uma promoção em que cada cliente que realizar uma compra pode ganhar um voucher para ser usado em sua próxima compra. Para ganhar seu voucher, o cliente precisa retirar, ao acaso, uma bolinha de dentro de uma das duas urnas A e B, disponibilizadas pelo gerente, nas quais há apenas bolinhas pretas e brancas. Atualmente, a probabilidade de se escolher, ao acaso, uma bolinha preta na urna A é igual a 20% e a probabilidade de se escolher uma bolinha preta na urna B é 25%. Ganha o voucher o cliente que retirar duas bolinhas pretas, uma de cada urna.Com o passar dos dias, o gerente percebeu que, para a promoção ser viável aos negócios, era preciso alterar a probabilidade de acerto do cliente sem alterar a regra da promoção. Para isso, resolveu alterar a quantidade de bolinhas brancas na urna B, de forma que a probabilidade de um cliente ganhar o voucher passasse a ser menor ou igual a 1%. Sabe-se que a urna B tem 4 bolinhas pretas e que, em ambas as urnas, todas as bolinhas têm a mesma probabilidade de serem retiradas.",
+    "alternativas": {
+      "A": "20",
+      "B": "60",
+      "C": "64",
+      "D": "68",
+      "E": "80"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 167,
+    "enunciado": "Um escoço de gráfico que descreve o volume de água acumulado, em litro, liberado por essa torneira durante um ciclo de lavagem das mãos, em função do tempo (t), em segundo, é",
+    "texto_base": "Estudantes trabalhando com robótica criaram uma \"torneira inteligente\" que automatiza sua abertura e seu fechamento durante a limpeza das mãos. A tecnologia funciona da seguinte forma: ao se colocarem as mãos sob a torneira, ela libera água durante 2 segundos para que a pessoa possa molhá-las. Em seguida, interrompe o fornecimento de água por 5 segundos, enquanto a pessoa ensaboa suas mãos, e finaliza o ciclo liberando água para o enxágue por mais 3 segundos. Considere o tempo (t), em segundo, contado a partir do instante em que se inicia o ciclo. A vazão de água nessa torneira é constante.",
+    "alternativas": {
+      "A": "Gráfico com eixo horizontal t (s) de 0 a 12 e eixo vertical Volume de água (L). O gráfico começa em (0,0), sobe linearmente até (2,2), permanece constante até (7,2), sobe linearmente até (10,5), e permanece constante até (12,5).",
+      "B": "Gráfico com eixo horizontal t (s) de 0 a 12 e eixo vertical Volume de água (L). O gráfico começa em (0,0), sobe linearmente até (2,2), permanece constante até (7,2), sobe linearmente até (10,4), e permanece constante até (12,4).",
+      "C": "Gráfico com eixo horizontal t (s) de 0 a 12 e eixo vertical Volume de água (L). O gráfico começa em (0,0), sobe linearmente até (2,2), permanece constante até (7,2), sobe linearmente até (10,6), e permanece constante até (12,6).",
+      "D": "Gráfico com eixo horizontal t (s) de 0 a 12 e eixo vertical Volume de água (L). O gráfico começa em (0,0), sobe linearmente até (2,2), permanece constante até (7,2), sobe linearmente até (10,7), e permanece constante até (12,7).",
+      "E": "Gráfico com eixo horizontal t (s) de 0 a 12 e eixo vertical Volume de água (L). O gráfico começa em (0,0), sobe linearmente até (2,2), permanece constante até (7,2), sobe linearmente até (10,8), e permanece constante até (12,8)."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Cinco gráficos (A, B, C, D, E) que mostram o volume de água (L) em função do tempo (t, em segundos). Todos os gráficos têm o eixo horizontal de 0 a 12 segundos e o eixo vertical de 0 a 8 litros. Todos os gráficos começam em (0,0), sobem linearmente até (2,2), permanecem constantes até (7,2), e depois sobem linearmente novamente até 10 segundos, permanecendo constantes até 12 segundos. A diferença entre os gráficos está no volume final atingido aos 10 segundos: A atinge 5L, B atinge 4L, C atinge 6L, D atinge 7L, e E atinge 8L."
+    }
+  },
+  {
+    "posicao": 168,
+    "enunciado": "Segundo o padrão de contagem indicado na figura, as representações dos números cinco e sete, nessa cultura, devem ser, respectivamente,",
+    "texto_base": "As características culturais variam de povo para povo. Há notícias de um povo que possuía formas de contar diferentes das nossas, como indicado no quadrinho a seguir.",
+    "alternativas": {
+      "A": "okosa urapum urapum urapum e okosa okosa urapum urapum urapum.",
+      "B": "okosa okosa urapum e okosa okosa okosa urapum.",
+      "C": "okosa okosa urapum e okosa okosa okosa urapum urapum.",
+      "D": "okosa okosa urapum urapum e okosa okosa okosa urapum.",
+      "E": "okosa okosa urapum e okosa okosa okosa okosa."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma charge intitulada 'Maneira Nativa de Contar e Escrever os Números' apresenta seis figuras de pessoas com gestos de mão, cada uma associada a um número e uma palavra, exceto a quinta figura. 1: Uma pessoa com uma mão aberta, associada a 'okosa'. 2: Uma pessoa com duas mãos abertas, associada a 'okosa okosa'. 3: Uma pessoa com uma mão aberta e a outra fechada, associada a 'urapum'. 4: Uma pessoa com uma mão aberta e a outra com o polegar para cima, associada a 'urapum okosa'. ?: Uma pessoa com uma mão aberta e a outra com o polegar para cima, com um ponto de interrogação, associada ao número 5 (inferido pela sequência numérica abaixo). 6: Uma pessoa com uma mão aberta e a outra com o polegar para cima, associada a 'urapum urapum'. Abaixo das figuras, há uma sequência de números arábicos: 1 2 3 4 5 6."
+    }
+  },
+  {
+    "posicao": 172,
+    "enunciado": "A vista superior da trajetória realizada pelo vigilante durante a patrulha registrada no gráfico é descrita pela representação",
+    "texto_base": "Uma empresa de segurança domiciliar oferece o serviço de patrulha noturna, no qual vigilantes em motocicletas fazem o monitoramento periódico de residências. A empresa conta com uma base, de onde acompanha o trajeto realizado pelos vigilantes durante as patrulhas e orienta o deslocamento de equipes de reforço quando necessário. Numa patrulha rotineira, sem ocorrências, um vigilante conduziu sua motocicleta a uma velocidade constante durante todo o itinerário estabelecido, levando 30 minutos para conclusão. De acordo com os registros do GPS alocado na motocicleta, a distância da posição do vigilante à base, ao longo do tempo de realização do trajeto, é descrita pelo gráfico.",
+    "alternativas": {
+      "A": "Um triângulo com o vértice superior arredondado, com setas azuis indicando um movimento de ida e volta ao longo dos lados e um arco na parte superior.",
+      "B": "Um triângulo com setas azuis indicando um movimento circular no sentido anti-horário.",
+      "C": "Um formato de 'V' invertido, com setas azuis indicando um movimento de ida e volta ao longo dos lados.",
+      "D": "Um trapézio com setas azuis indicando um movimento ao longo da base superior e depois descendo pelos lados inclinados.",
+      "E": "Um semicírculo com setas azuis indicando um movimento ao longo do arco e depois ao longo da base reta, retornando ao ponto inicial."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de linha intitulado 'Distância do vigilante em relação à base em função do tempo'. O eixo horizontal representa o Tempo (min), variando de 0 a 30. O eixo vertical representa a Distância do vigilante à base (km), variando de 0 a 4. A linha do gráfico começa em (0,0), sobe linearmente até (10,3), permanece constante em 3 km de distância de (10,3) a (20,3), e desce linearmente até (30,0). Abaixo do enunciado, há cinco diagramas (A, B, C, D, E) que representam possíveis trajetórias. A: Um triângulo com o vértice superior arredondado, com setas azuis indicando um movimento de ida e volta ao longo dos lados e um arco na parte superior. B: Um triângulo com setas azuis indicando um movimento circular no sentido anti-horário. C: Um formato de 'V' invertido, com setas azuis indicando um movimento de ida e volta ao longo dos lados. D: Um trapézio com setas azuis indicando um movimento ao longo da base superior e depois descendo pelos lados inclinados. E: Um semicírculo com setas azuis indicando um movimento ao longo do arco e depois ao longo da base reta, retornando ao ponto inicial."
+    }
+  },
+  {
+    "posicao": 173,
+    "enunciado": "Para alcançar seu objetivo, o cliente deverá escolher o caixa",
+    "texto_base": "Um supermercado conta com cinco caixas disponíveis para pagamento. Foram instaladas telas que apresentam o tempo médio gasto por cada caixa para iniciar e finalizar o atendimento de cada cliente, e o número de pessoas presentes na fila de cada caixa em tempo real. Um cliente, na hora de passar sua compra, sabendo que cada um dos cinco caixas iniciará um novo atendimento naquele momento, pretende gastar o menor tempo possível de espera na fila. Ele observa que as telas apresentavam as informações a seguir: * Caixa I: atendimento 12 minutos, 5 pessoas na fila. * Caixa II: atendimento 6 minutos, 9 pessoas na fila. * Caixa III: atendimento 5 minutos, 6 pessoas na fila. * Caixa IV: atendimento 15 minutos, 2 pessoas na fila. * Caixa V: atendimento 9 minutos, 3 pessoas na fila.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 174,
+    "enunciado": "Nessa quadro, a parte da lua escondida atrás da torre mais alta do castelo pode ser representada por um",
+    "texto_base": "As figuras pintadas no quadro da sala de estar de uma residência representam as silhuetas de parte das torres de um castelo e, ao fundo, a de uma lua cheia. A lua foi pintada na forma de um círculo, e o telhado da torre mais alta, na forma de triângulo equilátero, foi pintado sobrepondo parte da lua. O centro da lua coincide com um dos vértices do telhado da torre mais alta.",
+    "alternativas": {
+      "A": "cone.",
+      "B": "setor circular.",
+      "C": "segmento circular.",
+      "D": "triângulo isósceles.",
+      "E": "arco de circunferência."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Imagem em preto e branco mostrando a silhueta de um castelo com torres pontiagudas. Atrás da torre mais alta, há uma lua cheia circular, parcialmente obscurecida pelo telhado triangular da torre. O centro da lua parece coincidir com o vértice superior do telhado triangular."
+    }
+  },
+  {
+    "posicao": 175,
+    "enunciado": "Qual é a medida da área, em metro quadrado, ocupada pela calçada?",
+    "texto_base": "Na planta baixa de um clube, a piscina é representada por um quadrado cuja área real mede 400 m². Ao redor dessa piscina, será construída uma calçada, de largura constante igual a 5 m.",
+    "alternativas": {
+      "A": "1 000",
+      "B": "900",
+      "C": "800",
+      "D": "600",
+      "E": "400"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de uma piscina quadrada cercada por uma calçada. A piscina está no centro, rotulada 'Piscina'. A calçada envolve a piscina. As dimensões da calçada são indicadas como 5 m de largura em todos os lados (superior, inferior, esquerdo, direito). A calçada é rotulada 'Calçada'."
+    }
+  },
+  {
+    "posicao": 176,
+    "enunciado": "Por quantos minutos, durante essa caminhada, o celular dessa pessoa ficou sem receber sinal de internet?",
+    "texto_base": "Uma pessoa caminha por 30 minutos e utiliza um aplicativo instalado em seu celular para monitorar a variação da intensidade do sinal de internet recebido pelo aparelho durante o deslocamento. Chegando ao seu destino, o aplicativo forneceu este gráfico:",
+    "alternativas": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "14",
+      "E": "24"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha intitulado 'Intensidade do sinal de internet' no eixo Y e 'Tempo (min)' no eixo X. O eixo Y varia de 0 a 10, com marcações a cada 2 unidades. O eixo X varia de 0 a 30 minutos, com marcações a cada 2 minutos. A linha do gráfico mostra a intensidade do sinal ao longo do tempo. O sinal está em 0 (sem sinal) nos seguintes intervalos de tempo: de 4 a 6 minutos, de 12 a 14 minutos, de 18 a 20 minutos, e de 24 a 28 minutos. Em outros pontos, o sinal varia entre 2 e 8."
+    }
+  },
+  {
+    "posicao": 177,
+    "enunciado": "De acordo com o gráfico, entre as demais categorias, a que está mais exposta ao vírus da gripe A-H1N1 é a categoria de",
+    "texto_base": "O gráfico expõe alguns números da gripe A-H1N1. Entre as categorias que estão em processo de imunização, uma já está completamente imunizada, a dos trabalhadores da saúde. Fonte: Época, 26 abr. 2010 (adaptado).",
+    "alternativas": {
+      "A": "indígenas.",
+      "B": "gestantes.",
+      "C": "doentes crônicos.",
+      "D": "adultos entre 20 e 29 anos.",
+      "E": "crianças de 6 meses a 2 anos."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de barras horizontais intitulado 'Números da campanha contra a gripe A-H1N1'. O eixo Y lista categorias: Adultos entre 20 e 29 anos, Gestantes, Doentes crônicos, Indígenas, Crianças de 6 meses a 2 anos, Trabalhadores da saúde. O eixo X representa a porcentagem, variando de 0,0% a 100,0% com incrementos de 10,0%. As barras mostram as seguintes porcentagens de imunização: Adultos entre 20 e 29 anos: aproximadamente 45%; Gestantes: aproximadamente 55%; Doentes crônicos: aproximadamente 65%; Indígenas: aproximadamente 75%; Crianças de 6 meses a 2 anos: aproximadamente 85%; Trabalhadores da saúde: 100%."
+    }
+  },
+  {
+    "posicao": 178,
+    "enunciado": "Nessa escada, pisos e espelhos têm formato retangular, e as paredes laterais têm formato de um polígono cujos lados adjacentes são perpendiculares. Pisos, espelhos e paredes laterais serão revestidos em cerâmica. A área a ser revestida em cerâmica, em metro quadrado, mede",
+    "texto_base": "A figura representa uma escada com três degraus, construída em concreto maciço, com suas medidas especificadas.",
+    "alternativas": {
+      "A": "1,20.",
+      "B": "1,35.",
+      "C": "1,65.",
+      "D": "1,80.",
+      "E": "1,95."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Desenho em perspectiva de uma escada com três degraus. As dimensões são indicadas: a largura total da escada é 1,0 m. Cada degrau tem uma altura (espelho) de 0,20 m e uma profundidade (piso) de 0,25 m. Há uma parede lateral à esquerda da escada, rotulada 'Parede lateral'. Os pisos são rotulados 'Piso' e os espelhos 'Espelho'."
+    }
+  },
+  {
+    "posicao": 179,
+    "enunciado": "Nesse cinema, as poltronas são identificadas por uma letra, que indica a fileira, e um número, que fornece a posição da poltrona na fileira, respectivamente. A poltrona dessa pessoa é a identificada por",
+    "texto_base": "Uma pessoa comprou um ingresso para o cinema em cuja entrada está afixado um mapa com a representação bidimensional do posicionamento das poltronas, conforme a figura. Essa pessoa, após consultar o mapa, começou a subir uma das escadas e parou na posição indicada pela estrela, direcionada para o norte. Ela conferiu seu bilhete e observou que, para encontrar sua poltrona, deveria partir do ponto onde estava, continuar subindo a escada na direção norte por mais quatro fileiras e olhar à sua direita, e sua poltrona será a terceira.",
+    "alternativas": {
+      "A": "A6.",
+      "B": "H1.",
+      "C": "H6.",
+      "D": "I1.",
+      "E": "I6."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Mapa de um cinema com poltronas dispostas em fileiras e colunas. Há uma 'Entrada' na parte inferior esquerda. As fileiras são rotuladas de A a J no lado esquerdo. As colunas são numeradas de 1 a 12. Existem três blocos de poltronas separados por corredores, com 'Escada' indicada entre os blocos. Um ponto de partida é marcado com uma estrela na fileira E, coluna 4. Uma rosa dos ventos no canto superior direito indica as direções N (Norte), S (Sul), L (Leste), O (Oeste). A parte inferior do mapa é rotulada 'Tela'."
+    }
+  },
+  {
+    "posicao": 180,
+    "enunciado": "Qual é o preço, em real, de uma cartela de tíquetes vermelhos?",
+    "texto_base": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.",
+    "alternativas": {
+      "A": "4,68",
+      "B": "9,30",
+      "C": "9,39",
+      "D": "10,50",
+      "E": "10,65"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  }
+]

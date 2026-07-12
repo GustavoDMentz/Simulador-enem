@@ -1,0 +1,36 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Local configurations / API keys / Secrets
+.env
+.env.local
+
+# Databases & large raw files
+arangodb/
+logs/
+*.log
+
+# Large intermediate PDF extractions & raw data
+data/tri/
+data/extracted/ENEM_*
+data/extracted/caderno-*
+data/extracted/enem-*
+microdados_enem_*
+
+# Temp visual files at root
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.cif
+*.mmcif
+*.pdb

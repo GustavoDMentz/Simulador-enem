@@ -1,0 +1,1346 @@
+[
+  {
+    "posicao": 91,
+    "enunciado": "O garoto fez cinco circuitos elétricos usando os dois interruptores, mas apenas um satisfaz a sua necessidade.Esse circuito é representado por",
+    "texto_base": "Um garoto precisa montar um circuito que acenda três lâmpadas de cores diferentes, uma de cada vez. Ele dispõe das lâmpadas, de fios, uma bateria e dois interruptores, como ilustrado, junto com seu símbolo de três pontos. Quando esse interruptor fecha AB, abre BC e vice-versa.",
+    "alternativas": {
+      "A": "Circuito elétrico da opção A, mostrando a bateria, as três lâmpadas (VERDE, VERMELHA, AZUL) e os dois interruptores com suas conexões específicas.",
+      "B": "Circuito elétrico da opção B, mostrando a bateria, as três lâmpadas (VERDE, VERMELHA, AZUL) e os dois interruptores com suas conexões específicas.",
+      "C": "Circuito elétrico da opção C, mostrando a bateria, as três lâmpadas (VERDE, VERMELHA, AZUL) e os dois interruptores com suas conexões específicas.",
+      "D": "Circuito elétrico da opção D, mostrando a bateria, as três lâmpadas (VERDE, VERMELHA, AZUL) e os dois interruptores com suas conexões específicas.",
+      "E": "Circuito elétrico da opção E, mostrando a bateria, as três lâmpadas (VERDE, VERMELHA, AZUL) e os dois interruptores com suas conexões específicas."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem apresenta dois esquemas. O primeiro esquema, acima do texto base, ilustra os componentes disponíveis: uma bateria, três lâmpadas (VERDE, VERMELHA, AZUL) conectadas em paralelo, e um interruptor de três pontos com terminais A, B e C. O segundo esquema, abaixo do enunciado, mostra cinco opções de circuitos elétricos (A, B, C, D, E). Cada opção contém uma bateria, as três lâmpadas (VERDE, VERMELHA, AZUL) conectadas em paralelo, e dois interruptores de três pontos. As conexões dos terminais A, B e C de cada interruptor com as lâmpadas e a bateria variam em cada uma das cinco opções de circuito."
+    }
+  },
+  {
+    "posicao": 92,
+    "enunciado": "Esses mecanismos são, respectivamente,",
+    "texto_base": "Na cidade de São Paulo, as ilhas de calor são responsáveis pela alteração da direção do fluxo da brisa marítima que deveria atingir a região de mananciais. Mas, ao cruzar a ilha de calor, a brisa marítima agora encontra um fluxo de ar vertical, que transfere para ela energia térmica absorvida das superfícies quentes da cidade, deslocando-a para altas altitudes. Dessa maneira, há condensação e chuvas fortes no centro da cidade, em vez de na região de mananciais. A imagem apresenta os três subsistemas que trocam energia nesse fenômeno.VIVEIROS, M. Ilhas de calor afastam chuvas de represas. Disponível em: www2.feis.unesp.br. Acesso em: 3 dez. 2019 (adaptado).",
+    "alternativas": {
+      "A": "irradiação e convecção.",
+      "B": "irradiação e irradiação.",
+      "C": "condução e irradiação.",
+      "D": "convecção e irradiação.",
+      "E": "convecção e convecção."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um diagrama esquemático que ilustra o fenômeno da ilha de calor e da brisa marítima. Na parte superior esquerda, há um sol. No centro, uma área elevada representa a 'ilha de calor' com edifícios. À direita, uma linha ondulada representa a 'brisa marítima'. Setas indicam o fluxo de energia: do Sol para a ilha de calor, e da ilha de calor para a brisa marítima. A brisa marítima é mostrada como uma massa de ar que se eleva ao passar sobre a ilha de calor."
+    }
+  },
+  {
+    "posicao": 93,
+    "enunciado": "O aspecto físico comum que explica a diferença de comportamento dos corpos em queda nessa discussão é o(a)",
+    "texto_base": "No seu estudo sobre a queda dos corpos, Aristóteles afirmava que se abandonarmos corpos leves e pesados de uma mesma altura, o mais pesado chegaria mais rápido ao solo. Essa ideia está apoiada em algo que é difícil de refutar, a observação direta da realidade baseada no senso comum.Após uma aula de física, dois colegas estavam discutindo sobre a queda dos corpos, e um tentava convencer o outro de que tinha razão:Colega A: \"O corpo mais pesado cai mais rápido que um menos pesado, quando largado de uma mesma altura. Eu provo, largando uma pedra e uma rolha. A pedra chega antes. Pronto! Tá provado!\".Colega B: \"Eu não acho! Peguei uma folha de papel esticado e deixei cair. Quando amassei, ela caiu mais rápido. Como isso é possível? Se era a mesma folha de papel, deveria cair do mesmo jeito. Tem que ter outra explicação!\".HÜLSENDEGER, M. Uma análise das concepções dos alunos sobre a queda dos corpos. Caderno Brasileiro de Ensino de Física. n. 3, dez. 2004 (adaptado).",
+    "alternativas": {
+      "A": "peso dos corpos.",
+      "B": "resistência do ar.",
+      "C": "massa dos corpos.",
+      "D": "densidade dos corpos.",
+      "E": "aceleração da gravidade."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 94,
+    "enunciado": "O volume de etanol, em litro, obtido nesse processo é mais próximo de",
+    "texto_base": "A obtenção de etanol utilizando a cana-de-açúcar envolve a fermentação dos monossacarídeos formadores da sacarose contida no melaço. Um desses formadores é a glicose (C6 H12 O6), cuja fermentação produz cerca de 50 g de etanol a partir de 100 g de glicose, conforme a equação química descrita.C6 H12 O6 Fermentação alcoólica → 2 CH3CH2OH + 2 CO2Em uma condição específica de fermentação, obtém-se 80% de conversão em etanol que, após sua purificação, apresenta densidade igual a 0,80 g/mL. O melaço utilizado apresentou 50 kg de monossacarídeos na forma de glicose.",
+    "alternativas": {
+      "A": "16.",
+      "B": "20.",
+      "C": "25.",
+      "D": "64.",
+      "E": "100."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 95,
+    "enunciado": "Para correção do pH da solução nutritiva preparada, esse produtor pode empregar uma solução de",
+    "texto_base": "No cultivo por hidroponia, são utilizadas soluções nutritivas contendo macronutrientes e micronutrientes essenciais. Além dos nutrientes, o pH é um parâmetro de extrema importância, uma vez que ele afeta a preparação da solução nutritiva e a absorção dos nutrientes pelas plantas. Para o cultivo de alface, valores de pH entre 5,5 e 6,5 são ideais para o seu desenvolvimento. As correções de pH são feitas pela adição de compostos ácidos ou básicos, mas não devem introduzir elementos nocivos às plantas. Na tabela, são apresentados alguns dados da composição da solução nutritiva de referência para esse cultivo. Também é apresentada a composição de uma solução preparada por um produtor de cultivo hidropônico.LENZI, E.; FAVERO, L. O. B.; LUCHESE, E. B. Introdução à química da água: ciência, vida e sobrevivência. Rio de Janeiro: LTC, 2012 (adaptado).",
+    "alternativas": {
+      "A": "ácido fosfórico, H3PO4.",
+      "B": "sulfato de cálcio, CaSO4.",
+      "C": "óxido de alumínio, Al2O3.",
+      "D": "cloreto de ferro(II), FeCl2.",
+      "E": "hidróxido de potássio, KOH."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela com o título 'Concentração, mmol/L'. A tabela tem três colunas: 'Espécies químicas', 'Composição de referência (5,5 < pH < 6,5)', e 'Solução nutritiva preparada (pH = 4,3)'. As linhas são divididas em 'Macronutrientes' e 'Micronutrientes'. Para Macronutrientes, as espécies químicas são N (NH4+), P (H2PO4-), K+, Ca2+, SO42-. Para Micronutrientes, as espécies químicas são Fe2+ e Cl-. Os valores de concentração em mmol/L são: N (NH4+): 1,0 (referência), 0,8 (preparada); P (H2PO4-): 1,0 (referência), 1,0 (preparada); K+: 6,0 (referência), 3,5 (preparada); Ca2+: 4,0 (referência), 3,0 (preparada); SO42-: 2,0 (referência), 1,0 (preparada); Fe2+: 90 x 10^-3 (referência), 70 x 10^-3 (preparada); Cl-: - (referência), 4,5 x 10^-3 (preparada)."
+    }
+  },
+  {
+    "posicao": 96,
+    "enunciado": "Considere f1 e v1, respectivamente, como a frequência fundamental e a velocidade de propagação do som emitido pela barra de menor comprimento, e f2 e v2 são essas mesmas grandezas para o som emitido pela barra de maior comprimento.As relações entre as frequências fundamentais e entre as velocidades de propagação são, respectivamente,",
+    "texto_base": "O sino dos ventos é composto por várias barras metálicas de mesmo material e espessura, mas de comprimentos diferentes, conforme a figura.",
+    "alternativas": {
+      "A": "f1 < f2 e v1 < v2.",
+      "B": "f1 < f2 e v1 = v2.",
+      "C": "f1 < f2 e v1 > v2.",
+      "D": "f1 > f2 e v1 = v2.",
+      "E": "f1 > f2 e v1 > v2."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem de um sino dos ventos. Ele é composto por várias barras metálicas cilíndricas suspensas verticalmente, de diferentes comprimentos. Há uma barra mais curta à esquerda, rotulada 'Comprimento 1', e uma barra mais longa à direita, rotulada 'Comprimento 2'. As barras estão penduradas em uma estrutura superior e há um pêndulo central que as atinge."
+    }
+  },
+  {
+    "posicao": 97,
+    "enunciado": "Do ponto de vista evolutivo, a capacidade apresentada se estabeleceu porque os polvos",
+    "texto_base": "O polvo mimético apresenta padrões cromáticos e comportamentos muito curiosos. Frequentemente, muda a orientação de seus tentáculos, assemelhando-se a alguns animais. As imagens 1, 3 e 5 apresentam polvos mimetizando, respectivamente, um peixe-linguado (2), um peixe-leão (4) e uma serpente-marinha (6).NORMAN, M. D.; FINN, J.; TREGENZA, T. Dynamic mimicry in an Indo-Malayan octopus. In: Proceedings of the Royal Society B: Biological Sciences, n. 268, out. 2001.Disponível em: www.researchgate.net. Acesso em: 15 mar. 2014 (adaptado).",
+    "alternativas": {
+      "A": "originaram-se do mesmo ancestral que esses animais.",
+      "B": "passaram por mutações similares a esses organismos.",
+      "C": "observaram esses animais em seus nichos ecológicos.",
+      "D": "resultaram de convergência adaptativa com essas espécies.",
+      "E": "sobreviveram às pressões seletivas com esses comportamentos."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Seis imagens numeradas de 1 a 6, dispostas em duas colunas de três. As imagens 1, 3 e 5 mostram polvos mimetizando outros animais. A imagem 1 mostra um polvo com o corpo achatado e tentáculos estendidos, mimetizando um peixe-linguado. A imagem 2 mostra um peixe-linguado. A imagem 3 mostra um polvo com tentáculos abertos e espinhosos, mimetizando um peixe-leão. A imagem 4 mostra um peixe-leão. A imagem 5 mostra um polvo com o corpo alongado e tentáculos juntos, mimetizando uma serpente-marinha. A imagem 6 mostra uma serpente-marinha."
+    }
+  },
+  {
+    "posicao": 98,
+    "enunciado": "Para completar a ação proposta no ambiente escolar, o que falta ser inserido no planejamento?",
+    "texto_base": "Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis. Para atingir seus objetivos, a instituição planejou:1) sensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua;2) capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados com a coleta seletiva; e3) distribuir coletores de materiais recicláveis específicos nas salas, pátio e outros ambientes para acondicionamento dos resíduos.",
+    "alternativas": {
+      "A": "Realizar campanhas educativas de sensibilização em bairros vizinhos para fortalecer a coleta seletiva.",
+      "B": "Firmar parceria com a prefeitura ou cooperativa de catadores para recolhimento dos materiais recicláveis e destinação apropriada.",
+      "C": "Organizar visitas ao lixão ou aterro local para identificar aspectos importantes sobre a disposição final do lixo.",
+      "D": "Divulgar na rádio local, no jornal impresso e nas redes sociais que a escola está realizando a coleta seletiva.",
+      "E": "Colocar recipientes coletores de lixo reciclável fora da escola para entrega voluntária pela população."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 99,
+    "enunciado": "Qual procedimento biotecnológico prévio é recomendado nessa situação?",
+    "texto_base": "Os búfalos são animais considerados rústicos pelos criadores e, por isso, são deixados no campo sem controle reprodutivo. Por causa desse tipo de criação, a consanguinidade é favorecida, proporcionando o aparecimento de enfermidades, como o albinismo, defeitos cardíacos, entre outros. Separar os animais de forma adequada minimizaria a ocorrência desses problemas.DAMÉ, M. C. F.; RIET-CORRÊA, F.; SCHILD, A. L. Pesq. Vet. Bras., n. 7, 2013 (adaptado).",
+    "alternativas": {
+      "A": "Transgenia.",
+      "B": "Terapia gênica.",
+      "C": "Vacina de DNA.",
+      "D": "Clonagem terapêutica.",
+      "E": "Mapeamento genético."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 100,
+    "enunciado": "A reação de redução do cobre ocorre na etapa",
+    "texto_base": "O ciclo do cobre é um experimento didático em que o cobre metálico é utilizado como reagente de partida. Após uma sequência de reações (I, II, III, IV e V), o cobre retorna ao seu estado inicial ao final do ciclo.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de um ciclo de reações químicas envolvendo cobre. O ciclo começa com Cu (cobre metálico). A etapa I é a reação de Cu com HNO3, formando Cu(NO3)2. A etapa II é a reação de Cu(NO3)2 com NaOH, formando Cu(OH)2. A etapa III é a reação de Cu(OH)2 com aquecimento (símbolo de triângulo), formando CuO. A etapa IV é a reação de CuO com H2SO4, formando CuSO4. A etapa V é a reação de CuSO4 com Zn, HCl, retornando a Cu (cobre metálico)."
+    }
+  },
+  {
+    "posicao": 101,
+    "enunciado": "Qual região específica do sistema nervoso coordena essa resposta?",
+    "texto_base": "Um dos exames clínicos mais tradicionais para medir a capacidade reflexa dos indivíduos é o exame do reflexo patelar. Esse exame consiste na estimulação da patela, um pequeno osso localizado na parte anterior da articulação do joelho, com um pequeno martelo. A resposta reflexa ao estímulo é caracterizada pelo levantamento da perna em que o estímulo foi aplicado.",
+    "alternativas": {
+      "A": "Ponte.",
+      "B": "Medula.",
+      "C": "Cerebelo.",
+      "D": "Hipotálamo.",
+      "E": "Neuro-hipófise."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 102,
+    "enunciado": "A ordem crescente da mais econômica para a menos econômica é",
+    "texto_base": "Na montagem de uma cozinha para um restaurante, a escolha do material correto para as panelas é importante, pois a panela que conduz mais calor é capaz de cozinhar os alimentos mais rapidamente e, com isso, há economia de gás. A taxa de condução do calor depende da condutividade k do material, de sua área A, da diferença de temperatura ΔT e da espessura d do material, sendo dada pela relação ΔQ/Δt = k A ΔT/d. Em panelas com dois materiais, a taxa de condução é dada por ΔQ/Δt = A ΔT / (d1/k1 + d2/k2), em que d1 e d2 são as espessuras dos dois materiais, e k1 e k2 são as condutividades de cada material. Os materiais mais comuns no mercado para panelas são o alumínio (k = 20 W/m K), o ferro (k = 8 W/m K) e o aço (k = 5 W/m K) combinado com o cobre (k = 40 W/m K).Compara-se uma panela de ferro, uma de alumínio e uma composta de 1/2 da espessura em cobre e 1/2 da espessura em aço, todas com a mesma espessura total e com a mesma área de fundo.",
+    "alternativas": {
+      "A": "cobre-aço, alumínio e ferro.",
+      "B": "alumínio, cobre-aço e ferro.",
+      "C": "cobre-aço, ferro e alumínio.",
+      "D": "alumínio, ferro e cobre-aço.",
+      "E": "ferro, alumínio e cobre-aço."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 103,
+    "enunciado": "Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de |v₀| que permitiria ao disparo efetuado pelo canhão B atingir o canhão A?",
+    "texto_base": "A figura foi extraída de um antigo jogo para computadores, chamado Bang! Bang!No jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo da velocidade inicial de disparo (|v₀|) e para o ângulo de disparo (θ).Em determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada anteriormente, θ = 53°, passou tangenciando o ponto P.No jogo, |g| é igual a 10 m/s². Considere sen 53° = 0,8, cos 53° = 0,6 e desprezível a ação de forças dissipativas.Disponível em: http://msbdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).",
+    "alternativas": {
+      "A": "30 m/s.",
+      "B": "35 m/s.",
+      "C": "40 m/s.",
+      "D": "45 m/s.",
+      "E": "50 m/s."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de um jogo de computador chamado Bang! Bang! mostrando dois canhões, A e B, em plataformas elevadas. O canhão A está à esquerda, em uma plataforma de 35 m de altura. O canhão B está à direita, em uma plataforma mais baixa. Entre os canhões há uma elevação do terreno. Uma trajetória parabólica é mostrada, partindo do canhão B, passando por um ponto P no topo da elevação e descendo em direção ao canhão A. As distâncias horizontais são indicadas: 10 m da plataforma A até o ponto P, e 120 m da plataforma A até a base da elevação onde o canhão B está. Um vetor de velocidade inicial v₀ com ângulo θ é mostrado saindo do canhão B. Um vetor de aceleração da gravidade g aponta para baixo. As plataformas são representadas por retângulos cinzas e o terreno por uma linha curva preta. Bandeiras estão hasteadas nas plataformas dos canhões."
+    }
+  },
+  {
+    "posicao": 104,
+    "enunciado": "A massa do pesticida no decorrer de 35 anos será mais próxima de",
+    "texto_base": "Os pesticidas organoclorados foram amplamente empregados na agricultura, contudo, em razão das suas elevadas toxicidades e persistências no meio ambiente, eles foram banidos. Considere a aplicação de 500 g de um pesticida organoclorado em uma cultura e que, em certas condições, o tempo de meia-vida do pesticida no solo seja de 5 anos.",
+    "alternativas": {
+      "A": "3,9 g.",
+      "B": "31,2 g.",
+      "C": "62,5 g.",
+      "D": "125,0 g.",
+      "E": "250,0 g."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 105,
+    "enunciado": "Qual mutação produzirá a menor proteína?",
+    "texto_base": "A sequência de nucleotídeos do RNA mensageiro presentes em um gene de um fungo, constituída de sete códons, está escrita a seguir.Pesquisadores submeteram a sequência a mutações independentes. Sabe-se que os códons UAG e UAA são terminais, ou seja, indicam a interrupção da tradução.",
+    "alternativas": {
+      "A": "Deleção de G no códon 3.",
+      "B": "Substituição de C por U no códon 4.",
+      "C": "Substituição de G por C no códon 6.",
+      "D": "Substituição de A por G no códon 7.",
+      "E": "Deleção dos dois primeiros nucleotídeos no códon 5."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas linhas e sete colunas. A primeira linha é o cabeçalho com os números dos códons de 1 a 7. A segunda linha contém os códons correspondentes: AUG, UUU, GUU, CAA, UGU, AGU, UAG."
+    }
+  },
+  {
+    "posicao": 106,
+    "enunciado": "Com base no texto, a reação química que permite o reaproveitamento do óleo vegetal é denominada",
+    "texto_base": "A simples atitude de não jogar direto no lixo ou no ralo da pia o óleo de cozinha usado pode contribuir para a redução da poluição ambiental. Mas o que fazer com o óleo vegetal que não será mais usado? Não existe um modelo ideal de descarte, mas uma alternativa simples tem sido reaproveitá-lo para fazer sabão. Para isso, são necessários, além do próprio óleo, água e soda cáustica.LOBO, I. Sabão feito com óleo de cozinha. Disponível em: http://pqa.agr.msf.gov.br. Acesso em: 23 fev. 2012 (adaptado).",
+    "alternativas": {
+      "A": "redução.",
+      "B": "epoxidação.",
+      "C": "substituição.",
+      "D": "esterificação.",
+      "E": "saponificação."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 107,
+    "enunciado": "Os prejuízos no período embrionário são evitados porque a circulação fetal se assemelha à dos(as)",
+    "texto_base": "Durante o desenvolvimento embrionário humano ocorre uma comunicação entre os átrios direito e esquerdo através do forame oval (ou forame de Botal). Essa comunicação não causa prejuízos à circulação do bebê em formação, exceto se ela perdurar após o nascimento.",
+    "alternativas": {
+      "A": "aves, porque a pequena circulação e a grande circulação estão presentes.",
+      "B": "répteis, porque a mistura de sangue é minimizada por um metabolismo lento.",
+      "C": "crocodilianos, porque a separação dos ventrículos impede a mistura sanguínea.",
+      "D": "peixes, porque a circulação é simples, ocorrendo uma passagem única pelo coração.",
+      "E": "anfíbios, porque pressões diferenciais isolam temporalmente o sangue venoso do arterial."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 109,
+    "enunciado": "As resistências elétricas dos fios, em ordem crescente, são",
+    "texto_base": "Cientistas da Universidade de New South Wales, na Austrália, demonstraram em 2012 que a Lei de Ohm é válida mesmo para fios finíssimos, cuja área da seção reta compreende alguns poucos átomos. A tabela apresenta as áreas e comprimentos de alguns dos fios construídos (respectivamente com as mesmas unidades de medida). Considere que a resistividade mantém-se constante para todas as geometrias (uma aproximação confirmada pelo estudo).WEBER, S. B. et al. Ohm's Law Survives to the Atomic Scale. Science, n. 335, jan. 2012 (adaptado).",
+    "alternativas": {
+      "A": "R1 < R2 < R3 < R4.",
+      "B": "R2 < R1 < R3 < R4.",
+      "C": "R2 < R3 < R1 < R4.",
+      "D": "R4 < R1 < R3 < R2.",
+      "E": "R4 < R3 < R2 < R1."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com 4 colunas e 5 linhas. A primeira linha é o cabeçalho: 'Área', 'Comprimento', 'Resistência elétrica'. A primeira coluna lista 'Fio 1', 'Fio 2', 'Fio 3', 'Fio 4'. A segunda coluna, 'Área', tem os valores: 9, 4, 2, 1. A terceira coluna, 'Comprimento', tem os valores: 312, 47, 54, 106. A quarta coluna, 'Resistência elétrica', tem os valores: R1, R2, R3, R4."
+    }
+  },
+  {
+    "posicao": 110,
+    "enunciado": "O processo metabólico associado à expressão combustíveis ambientais é a",
+    "texto_base": "Organismos autótrofos e heterótrofos realizam processos complementares que associam os ciclos do carbono e do oxigênio. O carbono fixado pela energia luminosa ou a partir de compostos inorgânicos é eventualmente degradado pelos organismos, resultando em fontes de carbono como metano ou gás carbônico. Ainda, outros compostos orgânicos são catabolizados pelos seres com menor rendimento energético, produzindo compostos secundários (subprodutos) que podem funcionar como combustíveis ambientais.",
+    "alternativas": {
+      "A": "fotossíntese.",
+      "B": "fermentação.",
+      "C": "quimiossíntese.",
+      "D": "respiração aeróbica.",
+      "E": "fosforilação oxidativa."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 111,
+    "enunciado": "A tecnologia testada mais adequada para o emprego em veículos automotivos é a célula de combustível",
+    "texto_base": "O emprego de células de combustível a hidrogênio pode ser uma tecnologia adequada ao transporte automotivo. O quadro apresenta características de cinco tecnologias mais proeminentes de células de combustível.Testes operacionais com esses tipos de células têm indicado que as melhores alternativas para veículos são as que operam em baixos níveis de energia térmica, são formadas por membranas de eletrólitos poliméricos e ocorrem em meio ácido.THOMAS, S; ZALBOWITZ, M. Full cells, green power. Los Alamos National Laboratory, Los Alamos, NM, 1999 (adaptado).",
+    "alternativas": {
+      "A": "AFC.",
+      "B": "MSFC.",
+      "C": "PEM.",
+      "D": "PAFC.",
+      "E": "SOFC."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com 4 colunas e 6 linhas. A primeira linha é o cabeçalho: 'Tipo de célula de combustível', 'Temperatura operacional (°C)', 'Eletrólito', 'Semirreações nos eletrodos'. A primeira coluna lista 'AFC', 'MSFC', 'PEM', 'PAFC', 'SOFC'. A segunda coluna, 'Temperatura operacional (°C)', tem os valores: 90 - 100, 600 - 1 000, 80 - 100, 175 - 200, 600 - 1 000. A terceira coluna, 'Eletrólito', tem os valores: Hidróxido de potássio aquoso, Carbonatos de lítio, sódio e/ou potássio fundidos, Ácido poliperfluorossulfônico sólido, Ácido fosfórico líquido, Óxido de zircônio(IV) sólido. A quarta coluna, 'Semirreações nos eletrodos', tem os valores: H₂ + 2 OH⁻ → 2 H₂O + 2 e⁻ e ½ O₂ + H₂O + 2 e⁻ → 2 OH⁻; H₂ + CO₃²⁻ → H₂O + CO₂ + 2 e⁻ e ½ O₂ + CO₂ + 2 e⁻ → CO₃²⁻; H₂ → 2 H⁺ + 2 e⁻ e ½ O₂ + 2 H⁺ + 2 e⁻ → H₂O; H₂ → 2 H⁺ + 2 e⁻ e ½ O₂ + 2 H⁺ + 2 e⁻ → H₂O; H₂ + O²⁻ → H₂O + 2 e⁻ e ½ O₂ + 2 e⁻ → O²⁻."
+    }
+  },
+  {
+    "posicao": 112,
+    "enunciado": "O incômodo mencionado pelo personagem da tirinha deve-se ao fato de que, em dias úmidos,",
+    "texto_base": "Considere a tirinha, na situação em que a temperatura do ambiente é inferior à temperatura corporal dos personagens.WATTERSON, B. Disponível em: https://novaescola.org.br. Acesso em: 11 ago. 2014.",
+    "alternativas": {
+      "A": "a temperatura do vapor-d'água presente no ar é alta.",
+      "B": "o suor apresenta maior dificuldade para evaporar do corpo.",
+      "C": "a taxa de absorção de radiação pelo corpo torna-se maior.",
+      "D": "o ar torna-se mau condutor e dificulta o processo de liberação de calor.",
+      "E": "o vapor-d'água presente no ar condensa-se ao entrar em contato com a pele."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tirinha em quatro quadros com os personagens Calvin e Haroldo. No primeiro quadro, Calvin e Haroldo correm e Calvin diz: 'É MESMO. TÁ QUENTE PRA CARAMBA!'. No segundo quadro, Calvin e Haroldo continuam correndo e Calvin diz: 'MAS O QUE ME INCOMODA MESMO É A UMIDADE.'. No terceiro quadro, Calvin e Haroldo continuam correndo, Haroldo pergunta: 'VOCÊ NÃO GOSTA DE UMIDADE?' e Calvin responde: 'NÃO MESMO.'. No quarto quadro, Calvin e Haroldo continuam correndo e Calvin diz: 'ENTÃO SALTA CORRENDO.'."
+    }
+  },
+  {
+    "posicao": 113,
+    "enunciado": "Segundo as informações do texto e aplicando princípios de evolução biológica às relações do tipo patógeno-hospedeiro, qual dos dois vírus infecta seres humanos há mais tempo?",
+    "texto_base": "Entre 2014 e 2016, as regiões central e oeste da África sofreram uma grave epidemia de febre hemorrágica causada pelo vírus ebola, que se manifesta em até 21 dias após a infecção e cuja taxa de letalidade (enfermos que vão a óbito) pode chegar a 90%. Em regiões de clima tropical e subtropical, um outro vírus também pode causar febre hemorrágica: o vírus da dengue, que, embora tenha período de incubação menor (até 10 dias), apresenta taxa de letalidade abaixo de 1%.Disponível em: www.who.int. Acesso em: 1 fev. 2017 (adaptado).",
+    "alternativas": {
+      "A": "Ebola, pois o maior período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "B": "Dengue, pois o menor período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.",
+      "C": "Ebola, cuja alta letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo de sua evolução.",
+      "D": "Ebola, cujos surtos epidêmicos concentram-se no continente africano, reconhecido como berço da origem evolutiva dos seres humanos.",
+      "E": "Dengue, cuja baixa letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo da coevolução patógeno-hospedeiro."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 114,
+    "enunciado": "Em qual etapa decanta-se o lodo a ser separado do esgoto residencial?",
+    "texto_base": "A imagem apresenta as etapas do funcionamento de uma estação individual para tratamento do esgoto residencial.TAVARES, K. Estações de tratamento de esgoto individuais permitem a reutilização da água. Disponível em: https://extra.globo.com. Acesso em: 18 nov. 2014 (adaptado).",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "5",
+      "E": "6"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um diagrama intitulado 'Como funciona a estação individual' que ilustra um sistema de tratamento de esgoto residencial. O diagrama mostra uma casa com um encanamento de esgoto que passa por várias etapas numeradas: 1. Caixa de gordura, que retém detritos da pia da cozinha. 2. Caixa de passagem, que recebe o esgoto dos banheiros e lavanderia. 3. Tanque séptico, onde a água fica em repouso. 4. Caixa de inspeção, que faz a distribuição dos efluentes. 5. Filtro biológico, onde colônias de bactérias consomem matéria orgânica. 6. Cisternas, onde a água é tratada com cloro como etapa final. Setas indicam o fluxo do esgoto através do sistema."
+    }
+  },
+  {
+    "posicao": 115,
+    "enunciado": "A utilização de auxinas no método de estaquia das roseiras contribui para",
+    "texto_base": "O plantio por estaquia é um método de propagação de plantas no qual partes de um espécime são colocadas no solo para produzir novas gerações. Na floricultura, é comum utilizar o caule das roseiras para estaquia, pois a propagação da planta é positiva em razão da aplicação de auxinas na porção inferior do caule.",
+    "alternativas": {
+      "A": "floração da planta.",
+      "B": "produção de gemas laterais.",
+      "C": "formação de folhas maiores.",
+      "D": "formação de raízes adventícias.",
+      "E": "produção de compostos energéticos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 116,
+    "enunciado": "Essa é uma doença hereditária de caráter",
+    "texto_base": "A deficiência de lipase ácida lisossômica é uma doença hereditária associada a um gene do cromossomo 10. Os pais dos pacientes podem não saber que são portadores dos genes da doença até o nascimento do primeiro filho afetado. Quando ambos os progenitores são portadores, existe uma chance, em quatro, de que seu bebê possa nascer com essa doença.ANDERSON, R. A. et al. In: Situ Localization of the Genetic Locus Encoding the Lysosomal Acid Lipase/Cholesteryl Esterase (LIPA) Deficient in Wolman Disease to Chromosome 10q23.2-q23.3. Genomics, n. 1, jan. 1993 (adaptado).",
+    "alternativas": {
+      "A": "recessivo.",
+      "B": "dominante.",
+      "C": "codominante.",
+      "D": "poligênico.",
+      "E": "polialélico."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 117,
+    "enunciado": "Essa bateria é adequada para o funcionamento de qual dispositivo eletrônico?",
+    "texto_base": "O quadro lista alguns dispositivos eletrônicos que estão presentes no dia a dia, bem como a faixa de força eletromotriz necessária ao seu funcionamento.Dispositivo eletrônicoFaixa de força eletromotriz (V)I Relógio de parede1,2 a 1,5II Celular3,5 a 3,8III Câmera digital7,5 a 7,6IV Carrinho de controle remoto10,5 a 10,9V Notebook/Laptop19,5 a 20,0Considere que uma bateria é construída pela associação em série de três pilhas de lítio-iodo, nas condições-padrão, conforme as semiequações de redução apresentadas.I₂ + 2 e⁻ → 2 I⁻ E° = +0,54 VLi⁺ + e⁻ → Li E° = –3,05 V",
+    "alternativas": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas colunas e seis linhas. A primeira linha é o cabeçalho: 'Dispositivo eletrônico' e 'Faixa de força eletromotriz (V)'. As linhas seguintes listam os dispositivos e suas faixas de força eletromotriz: I - Relógio de parede, 1,2 a 1,5; II - Celular, 3,5 a 3,8; III - Câmera digital, 7,5 a 7,6; IV - Carrinho de controle remoto, 10,5 a 10,9; V - Notebook/Laptop, 19,5 a 20,0."
+    }
+  },
+  {
+    "posicao": 118,
+    "enunciado": "É necessária a correção da medida do instrumento, pois um aumento na temperatura promove o(a)",
+    "texto_base": "O alcoômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v), de soluções de água e álcool na faixa de 0°GL a 100°GL, com divisões de 0,1°GL. A concepção do alcoômetro se baseia no princípio de flutuabilidade de Arquimedes, semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20°C, sendo necessária a correção da medida, caso a temperatura da solução não esteja na temperatura de aferição. É apresentada parte da tabela de correção de um alcoômetro, com a temperatura.Tabela de correção do alcoômetro com temperatura 20 °C°GLLeitura da temperatura (°C)2021222324253535,034,634,233,833,433,03636,035,635,234,834,434,0Manual alcoômetro Gay Lussac. Disponível em: www.incoterm.com.br. Acesso em: 4 dez. 2018 (adaptado).",
+    "alternativas": {
+      "A": "aumento da dissociação da água.",
+      "B": "aumento da densidade da água e do álcool.",
+      "C": "mudança do volume dos materiais por dilatação.",
+      "D": "aumento da concentração de álcool durante a medida.",
+      "E": "alteração das propriedades químicas da mistura álcool e água."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada 'Tabela de correção do alcoômetro com temperatura 20 °C'. A tabela tem uma coluna para '°GL' e cinco colunas para 'Leitura da temperatura (°C)': 20, 21, 22, 23, 24, 25. As linhas de dados são: 35°GL com valores 35,0, 34,6, 34,2, 33,8, 33,4, 33,0; e 36°GL com valores 36,0, 35,6, 35,2, 34,8, 34,4, 34,0."
+    }
+  },
+  {
+    "posicao": 119,
+    "enunciado": "Um exemplo desse polímero é representado pela estrutura",
+    "texto_base": "O Prêmio Nobel de Química de 2000 deveu-se à descoberta e ao desenvolvimento de polímeros condutores. Esses materiais têm ampla aplicação em novos dispositivos eletroluminescentes (LEDs), células fotovoltaicas etc. Uma propriedade-chave de um polímero condutor é a presença de ligações duplas conjugadas ao longo da cadeia principal do polímero.ROCHA FILHO, R. C. Polímeros condutores: descoberta e aplicações. Química Nova na Escola, n. 12, 2000 (adaptado).",
+    "alternativas": {
+      "A": "Estrutura química de um polímero com uma cadeia carbônica saturada e um anel benzênico lateral, com 'n' indicando repetição.",
+      "B": "Estrutura química de um polímero com uma cadeia carbônica saturada e um grupo carbonila (C=O) na cadeia principal, com 'n' indicando repetição.",
+      "C": "Estrutura química de um polímero com uma cadeia carbônica contendo ligações duplas alternadas (conjugadas) e saturadas, com 'n' indicando repetição.",
+      "D": "Estrutura química de um polímero com uma cadeia carbônica contendo ligações duplas isoladas e saturadas, com 'n' indicando repetição.",
+      "E": "Estrutura química de um polímero com uma cadeia carbônica saturada e um grupo carbonila (C=O) lateral, com 'n' indicando repetição."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Cinco estruturas químicas de polímeros são apresentadas como alternativas. A estrutura A mostra uma cadeia principal saturada com um grupo fenil (anel benzênico) ligado a um dos carbonos da cadeia. A estrutura B mostra uma cadeia principal saturada com um grupo carbonila (C=O) incorporado na cadeia principal. A estrutura C mostra uma cadeia principal com ligações duplas e simples alternadas (conjugadas). A estrutura D mostra uma cadeia principal com ligações duplas isoladas por vários carbonos saturados. A estrutura E mostra uma cadeia principal saturada com um grupo carbonila (C=O) ligado a um dos carbonos da cadeia, mas não incorporado na cadeia principal. Todas as estruturas são representadas com colchetes e um 'n' subscrito, indicando a repetição da unidade monomérica."
+    }
+  },
+  {
+    "posicao": 120,
+    "enunciado": "Qual espécie corresponde ao objetivo proposto?",
+    "texto_base": "Com o objetivo de identificar a melhor espécie produtora de madeira para construção (com resistência mecânica e à degradação), foram analisadas as estruturas anatômicas de cinco espécies, conforme o quadro.",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada \"Tecido analisado\" com cinco colunas: \"Espécie\", \"Periderme/Esclerênquima\", \"Floema/Esclerênquima\", \"Alburno\" e \"Cerne\". Há cinco linhas numeradas de 1 a 5, representando as espécies. Os valores nas células são símbolos \"+\", \"-\", \"++\", \"+++\", indicando a presença ou ausência e a quantidade de cada tecido. A legenda abaixo da tabela explica: \"Legenda: (-) ausente ou presente em pequena quantidade, (++) presente em média quantidade, (+++) presente em grande quantidade.\". Os dados da tabela são: Espécie 1: Periderme/Esclerênquima (+/+), Floema/Esclerênquima (+/-), Alburno (+++), Cerne (---). Espécie 2: Periderme/Esclerênquima (+/-), Floema/Esclerênquima (+++), Alburno (+++), Cerne (---). Espécie 3: Periderme/Esclerênquima (+++/+++), Floema/Esclerênquima (+++/+++), Alburno (+++), Cerne (+++). Espécie 4: Periderme/Esclerênquima (+++/+), Floema/Esclerênquima (+++/+), Alburno (+), Cerne (+). Espécie 5: Periderme/Esclerênquima (+++/+++), Floema/Esclerênquima (+++/+++), Alburno (+++), Cerne (+++)."
+    }
+  },
+  {
+    "posicao": 121,
+    "enunciado": "Em qual faixa do espectro visível os carotenos absorvem majoritariamente?",
+    "texto_base": "No outono, as folhas das árvores mudam de cor, de verde para tons de amarelo, castanho, laranja e vermelho. A cor verde das folhas deve-se ao pigmento clorofila. Nas plantas de folhas caducas, a produção de clorofila diminui e o tom verde desvanece, permitindo assim que outros pigmentos, como o caroteno, de coloração amarelo-alaranjado, e a antocianina, de tons avermelhados, passem a dominar a tonalidade das folhas. A coloração observada se dá em função da interação desses pigmentos com a radiação solar.Conforme apresentado no espectro de absorção, as moléculas de clorofila absorvem a radiação solar nas regiões do azul e do vermelho, assim a luz refletida pelas folhas tem falta desses dois tons e as vemos na cor verde. Já as antocianinas absorvem a luz desde o azul até o verde. Nesse caso, a luz refletida pelas folhas que contêm antocianinas aparece conforme as cores complementares, ou seja, vermelho-alaranjado.Disponível em: https://vidauniversosydemas.wordpress.com. Acesso em: 6 dez. 2017 (adaptado).",
+    "alternativas": {
+      "A": "Entre o violeta e o azul.",
+      "B": "Entre o azul e o verde.",
+      "C": "Entre o verde e o amarelo.",
+      "D": "Entre o amarelo e o laranja.",
+      "E": "Entre o laranja e o vermelho."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas figuras lado a lado. A figura da esquerda é um gráfico de linha intitulado \"Espectro de absorção na região do visível\". O eixo X é \"Comprimento de onda (nm)\" variando de 300 a 700. O eixo Y é \"Absorção\". Há duas curvas: uma para \"Clorofila\" que mostra picos de absorção em torno de 430-470 nm (azul) e 650-670 nm (vermelho), e baixa absorção na região verde (500-600 nm). A outra curva é para \"Antocianina\" que mostra um pico de absorção na região de 500-550 nm (verde-amarelo) e decai para comprimentos de onda maiores. A figura da direita é um círculo cromático intitulado \"Cores complementares\". O círculo é dividido em setores com cores e seus respectivos comprimentos de onda em nm: Vermelho (750-400), Violeta (430), Azul (480), Verde (560), Amarelo (590), Laranja (630). As cores complementares são indicadas por setores opostos no círculo."
+    }
+  },
+  {
+    "posicao": 122,
+    "enunciado": "O teste positivo será observado com o pesticida",
+    "texto_base": "As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualmente encontradas, algumas são apresentadas na figura. A distinção dessas substâncias pode ser feita por meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente específico. O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base de Brönsted-Lowry.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Cinco estruturas químicas numeradas de I a V. A estrutura I é 2-cloro-N-(2-cloro-4-metilfenil)acetamida. A estrutura II é 2,6-dinitro-N,N-dipropil-4-(trifluorometil)anilina. A estrutura III é 2,2-bis(4-hidroxifenil)-1,1,1-tricloroetano. A estrutura IV é 4-metilbenzenossulfonato de metila. A estrutura V é 1-(4-fluorofenil)-3-(3-(trimetilsilil)propil)benzeno."
+    }
+  },
+  {
+    "posicao": 123,
+    "enunciado": "O biocombustível a que se refere o texto é o",
+    "texto_base": "Com o aumento da população de suínos no Brasil, torna-se necessária a adoção de métodos para reduzir o potencial poluidor dos resíduos dessa agroindústria, uma vez que, comparativamente ao esgoto doméstico, os dejetos suínos são 200 vezes mais poluentes. Sendo assim, a utilização desses resíduos como matéria-prima na obtenção de combustíveis é uma alternativa que permite diversificar a matriz energética nacional, ao mesmo tempo em que parte dos recursos hídricos do país são preservados.BECK, A. M. Resíduos suínos como alternativa energética sustentável. XXVII Encontro Nacional de Engenharia de Produção. Anais ENEGEP. Foz do Iguaçu, 2007 (adaptado).",
+    "alternativas": {
+      "A": "etanol.",
+      "B": "biogás.",
+      "C": "butano.",
+      "D": "metanol.",
+      "E": "biodiesel."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 124,
+    "enunciado": "A forma de combate relatada tem como atividade o(a)",
+    "texto_base": "A curcumina, uma das substâncias que confere a cor alaranjada ao açafrão, pode auxiliar no combate à dengue quando adicionada à água de criadouros do mosquito transmissor. Essa substância acumula-se no intestino do inseto após ser ingerida com a água do criadouro e, quando ativada pela luz, induz a produção de espécies reativas de oxigênio que danificam de forma fatal o tecido do tubo digestório.TOLEDO, K. Corante extraído do açafrão pode ser útil no combate à dengue. Disponível em: http://agencia.fapesp.br. Acesso em: 25 abr. 2017 (adaptado).",
+    "alternativas": {
+      "A": "morte do indivíduo adulto.",
+      "B": "redução da eclosão dos ovos.",
+      "C": "comprometimento da metamorfose.",
+      "D": "impedimento do desenvolvimento da larva.",
+      "E": "repelência da forma transmissora da doença."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 125,
+    "enunciado": "Na fototerapia, a luz provoca a conversão da bilirrubina no seu isômero",
+    "texto_base": "A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos. Um bebê com icterícia não consegue metabolizar e excretar de forma eficiente a bilirrubina. Com isso, o acúmulo dessa substância deixa-o com a pele amarelada. A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina, que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.MOREIRA, M. et al. O recém-nascido de alto risco: teoria e prática do cuidar [on-line]. Rio de Janeiro: Fiocruz, 2004 (adaptado).",
+    "alternativas": {
+      "A": "ótico.",
+      "B": "funcional.",
+      "C": "de cadeia.",
+      "D": "de posição.",
+      "E": "geométrico."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um diagrama intitulado 'Radiação 400 a 500 nm' mostra duas estruturas químicas. À esquerda, 'Lumirrubina' com a fórmula HOOC COOH e uma estrutura cíclica com nitrogênio e hidrogênio, e setas apontando para 'Excreção' e 'Bile, urina'. À direita, 'Bilirrubina' com a fórmula HOOC COOH e uma estrutura cíclica similar, mas com uma ligação dupla diferente, e uma seta com um 'X' indicando 'Não é suficientemente excretada pelo recém-nascido' e 'Hiperbilirrubinemia'. Uma seta bidirecional entre Lumirrubina e Bilirrubina é rotulada 'Forma isomérica'. A radiação de 400 a 500 nm incide sobre a Bilirrubina, convertendo-a em Lumirrubina."
+    }
+  },
+  {
+    "posicao": 126,
+    "enunciado": "Considerando desprezível a resistência do ar, qual versão apresenta a maior potência?",
+    "texto_base": "Analisando a ficha técnica de um automóvel popular, verificam-se algumas características em relação ao seu desempenho. Considerando o mesmo automóvel em duas versões, uma delas funcionando a álcool e outra, a gasolina, tem-se os dados apresentados no quadro, em relação ao desempenho de cada motor.Um quadro com duas linhas e três colunas. A primeira coluna é \"Parâmetro\". A segunda é \"Motor a gasolina\". A terceira é \"Motor a álcool\".Na linha \"Aceleração\", para \"Motor a gasolina\" é \"de 0 a 100 km/h em 13,4 s\", e para \"Motor a álcool\" é \"de 0 a 100 km/h em 12,9 s\".Na linha \"Velocidade máxima\", para \"Motor a gasolina\" é \"165 km/h\", e para \"Motor a álcool\" é \"163 km/h\".",
+    "alternativas": {
+      "A": "Como a versão a gasolina consegue a maior aceleração, esta é a que desenvolve a maior potência.",
+      "B": "Como a versão a gasolina atinge o maior valor de energia cinética, esta é a que desenvolve a maior potência.",
+      "C": "Como a versão a álcool apresenta a maior taxa de variação de energia cinética, esta é a que desenvolve a maior potência.",
+      "D": "Como ambas as versões apresentam a mesma variação de velocidade no cálculo da aceleração, a potência desenvolvida é a mesma.",
+      "E": "Como a versão a gasolina fica com o motor trabalhando por mais tempo para atingir os 100 km/h, esta é a que desenvolve a maior potência."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com três colunas: \"Parâmetro\", \"Motor a gasolina\" e \"Motor a álcool\". As linhas da tabela são: \"Aceleração\" (de 0 a 100 km/h em 13,4 s para gasolina e 12,9 s para álcool) e \"Velocidade máxima\" (165 km/h para gasolina e 163 km/h para álcool)."
+    }
+  },
+  {
+    "posicao": 127,
+    "enunciado": "O evento descrito com a flora ocorreu em razão da redução",
+    "texto_base": "Estudo aponta que a extinção de preguiças-gigantes, cuja base da dieta eram frutos e sementes, provocou impactos consideráveis na vegetação do Pantanal brasileiro. A flora, embora não tenha desaparecido, tornou-se menos abundante que no passado, além de ocupar áreas mais restritas.BICUDO, F. Jardineiros da pesada. Ecologia. Pesquisa Fapesp, ed. 231, maio 2015 (adaptado).",
+    "alternativas": {
+      "A": "da produção de flores.",
+      "B": "do tamanho das plantas.",
+      "C": "de fatores de disseminação das sementes.",
+      "D": "da quantidade de sementes por fruto.",
+      "E": "dos hábitats disponíveis para as plantas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 128,
+    "enunciado": "Quantas horas são necessárias para recarregar a energia utilizada nesse percurso?",
+    "texto_base": "Carros elétricos estão cada vez mais baratos, no entanto, os órgãos governamentais e a indústria se preocupam com o tempo de recarga das baterias, que é muito mais lento quando comparado ao tempo gasto para encher o tanque de combustível. Portanto, os usuários de transporte individual precisam se conscientizar dos ganhos ambientais dessa mudança e planejar com antecedência seus percursos, pensando em pausas necessárias para recargas.Após realizar um percurso de 110 km, um motorista pretende recarregar as baterias de seu carro elétrico, que tem um desempenho médio de 5,0 km/kWh, usando um carregador ideal que opera a uma tensão de 220 V e é percorrido por uma corrente de 20 A.",
+    "alternativas": {
+      "A": "0,005",
+      "B": "0,125",
+      "C": "2,5",
+      "D": "5,0",
+      "E": "8,0"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 129,
+    "enunciado": "Essa segunda fertilização foi importante evolutivamente, pois viabilizou a formação de um tecido de",
+    "texto_base": "Nas angiospermas, além da fertilização da oosfera, existe uma segunda fertilização que resulta num tecido triploide.",
+    "alternativas": {
+      "A": "nutrição para o fruto.",
+      "B": "reserva para o embrião.",
+      "C": "revestimento para a semente.",
+      "D": "proteção para o megagametófito.",
+      "E": "vascularização para a planta jovem."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 130,
+    "enunciado": "O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
+    "texto_base": "Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. Em geral, essas substâncias são ésteres, como as apresentadas no quadro.",
+    "alternativas": {
+      "A": "kiwi.",
+      "B": "banana.",
+      "C": "pêssego.",
+      "D": "rum.",
+      "E": "uva."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com três colunas: 'Nome', 'Fórmula' e 'Aroma'. A tabela lista cinco flavorizantes. O primeiro é 'Benzoato de metila' com fórmula 'C8H8O2' e aroma 'Kiwi'. O segundo é 'Acetato de isoamila' com fórmula 'CH3CO2(CH2)2CH(CH3)2' e aroma 'Banana'. O terceiro é 'Acetato de benzila' com fórmula 'CH3CO2CH2C6H5' e aroma 'Pêssego'. O quarto é 'Propanoato de isobutila' com fórmula 'CH3CH2CO2CH2CH(CH3)2' e aroma 'Rum'. O quinto é 'Antranilato de metila' com fórmula 'C8H9NO2' e aroma 'Uva'."
+    }
+  },
+  {
+    "posicao": 131,
+    "enunciado": "De acordo com o eletrocardiograma apresentado, qual foi o número de batimentos cardíacos por minuto desse paciente durante o exame?",
+    "texto_base": "O eletrocardiograma é um exame cardíaco que mede a intensidade dos sinais elétricos advindos do coração. A imagem apresenta o resultado típico obtido em um paciente saudável e a intensidade do sinal (VEC) em função do tempo.",
+    "alternativas": {
+      "A": "30",
+      "B": "60",
+      "C": "100",
+      "D": "120",
+      "E": "180"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de eletrocardiograma. O eixo vertical é rotulado 'VEC (mV)' e o eixo horizontal é rotulado 'tempo (s)'. O gráfico exibe uma série de ondas características de um eletrocardiograma, com picos e vales. Uma seção do gráfico, correspondente a um ciclo cardíaco completo (do início de um complexo QRS ao início do próximo), é delimitada por linhas pontilhadas, e a duração dessa seção é indicada como '0,2 s' no eixo do tempo."
+    }
+  },
+  {
+    "posicao": 132,
+    "enunciado": "O teste que permitiu reprovar o lote de analgésicos foi o de número",
+    "texto_base": "Um técnico analisou um lote de analgésicos que supostamente estava fora das especificações. A composição prevista era 100 mg de ácido acetilsalicílico por comprimido (princípio ativo, cuja estrutura está apresentada na figura), além do amido e da celulose (componentes inertes). O técnico realizou os seguintes testes:1) obtenção da massa do comprimido;2) medição da densidade do comprimido;3) verificação do pH com papel indicador;4) determinação da temperatura de fusão do comprimido;5) titulação com solução aquosa de NaOH.Após a realização dos testes, o lote do medicamento foi reprovado porque a quantidade de ácido acetilsalicílico por comprimido foi de apenas 40% da esperada.",
+    "alternativas": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem mostra a estrutura química do ácido acetilsalicílico. É um anel benzênico com um grupo carboxila (-COOH) e um grupo acetoxi (-OCOCH3) ligados a carbonos adjacentes do anel. O grupo acetoxi é representado como -O-C(=O)-CH3. A legenda abaixo da estrutura é 'Ácido acetilsalicílico'."
+    }
+  },
+  {
+    "posicao": 133,
+    "enunciado": "Concentrações mais elevadas dos compostos citados são encontradas em",
+    "texto_base": "O rompimento da barragem de rejeitos de mineração no município mineiro de Mariana e o derramamento de produtos tóxicos nas águas do Rio Doce, ocorridos em 2015, ainda têm consequências para os organismos que habitam o Parque Nacional Marinho de Abrolhos, localizado a mais de 1000 quilômetros de distância. Esse desastre ambiental afetou o fitoplâncton, as esponjas, as algas macroscópicas, os peixes herbívoros e os golfinhos.FRAINER, G.; SICILIANO, S.; TAVARES, D. C. Franciscana calls for help: [...] International Whaling Commission, Conference Paper, jun. 2016 (adaptado).",
+    "alternativas": {
+      "A": "esponjas.",
+      "B": "golfinhos.",
+      "C": "fitoplâncton.",
+      "D": "peixes herbívoros.",
+      "E": "algas macroscópicas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 134,
+    "enunciado": "Visto de cima, o diagrama esquemático das forças magnéticas que atuam no sistema, no momento inicial em que as cargas penetram na região de campo magnético, está representado em",
+    "texto_base": "Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob ação da gravidade numa região que tem um campo magnético horizontal uniforme (B), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (g) que atua na região.",
+    "alternativas": {
+      "A": "Uma haste horizontal com uma esfera carregada positivamente à esquerda e uma esfera carregada negativamente à direita. Duas setas verticais apontam para cima, uma saindo de cada esfera.",
+      "B": "Uma haste horizontal com uma esfera carregada positivamente à esquerda e uma esfera carregada negativamente à direita. Duas setas verticais apontam para baixo, uma saindo de cada esfera.",
+      "C": "Uma haste horizontal com uma esfera carregada positivamente à esquerda e uma esfera carregada negativamente à direita. Uma seta vertical aponta para cima saindo da esfera positiva e uma seta vertical aponta para baixo saindo da esfera negativa.",
+      "D": "Uma haste horizontal com uma esfera carregada positivamente à esquerda e uma esfera carregada negativamente à direita. Uma seta vertical aponta para baixo saindo da esfera positiva e uma seta vertical aponta para cima saindo da esfera negativa.",
+      "E": "Uma haste horizontal com uma esfera carregada positivamente à esquerda e uma esfera carregada negativamente à direita. Duas setas horizontais apontam para a direita, uma saindo de cada esfera."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem principal mostra um diagrama esquemático. Há uma haste horizontal com uma esfera com sinal de mais (+) à esquerda e uma esfera com sinal de menos (-) à direita. Acima da haste, uma seta horizontal aponta para a direita, representando o vetor de campo magnético B. Abaixo da haste, uma seta vertical aponta para baixo, representando o vetor de aceleração da gravidade g.As alternativas A, B, C, D e E mostram variações deste diagrama, com setas indicando forças magnéticas.Todas as alternativas mostram uma haste horizontal com uma esfera com sinal de mais (+) à esquerda e uma esfera com sinal de menos (-) à direita.A alternativa A tem duas setas verticais apontando para cima, uma saindo de cada esfera.A alternativa B tem duas setas verticais apontando para baixo, uma saindo de cada esfera.A alternativa C tem uma seta vertical apontando para cima saindo da esfera positiva e uma seta vertical apontando para baixo saindo da esfera negativa.A alternativa D tem uma seta vertical apontando para baixo saindo da esfera positiva e uma seta vertical apontando para cima saindo da esfera negativa.A alternativa E tem duas setas horizontais apontando para a direita, uma saindo de cada esfera."
+    }
+  },
+  {
+    "posicao": 135,
+    "enunciado": "Utilizando a representação de projetos elétricos, o circuito equivalente a esse sistema é",
+    "texto_base": "É possível ligar aparelhos elétricos de baixa corrente utilizando materiais comuns de laboratório no lugar das tradicionais pilhas. A ilustração apresenta uma montagem que faz funcionar um cronômetro digital.",
+    "alternativas": {
+      "A": "Um circuito com um resistor em série com uma fonte de tensão (representada por um círculo com 'V' dentro) e uma bateria (representada por duas linhas paralelas, uma longa e uma curta).",
+      "B": "Um circuito com um resistor em série com uma fonte de tensão (representada por um círculo com 'V' dentro) e duas baterias em série (duas representações de bateria, cada uma com uma linha longa e uma curta).",
+      "C": "Um circuito com um resistor em série com uma fonte de tensão (representada por um círculo com 'V' dentro) e três baterias em série.",
+      "D": "Um circuito com um resistor em série com uma fonte de tensão (representada por um círculo com 'V' dentro) e quatro baterias em série.",
+      "E": "Um circuito com um resistor em série com uma fonte de tensão (representada por um círculo com 'V' dentro) e cinco baterias em série."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem principal mostra um esquema de um sistema elétrico. Há dois conjuntos de células eletroquímicas. Cada conjunto consiste em um béquer contendo uma solução aquosa (CuSO4(aq) ou ZnSO4(aq)) e dois eletrodos (Cu(s) e Zn(s)). Os béqueres são conectados por papel umedecido com Na2SO4(aq), funcionando como ponte salina. O primeiro conjunto tem um eletrodo de Cu em CuSO4(aq) e um eletrodo de Zn em ZnSO4(aq). O segundo conjunto é idêntico. Os eletrodos de Cu de ambos os conjuntos estão conectados entre si, e os eletrodos de Zn de ambos os conjuntos também estão conectados entre si. Os eletrodos de Cu e Zn de cada conjunto estão conectados a um voltímetro e um cronômetro digital. O voltímetro exibe '2,20 v' e o cronômetro exibe '00:06'.As alternativas A, B, C, D e E mostram diagramas de circuitos elétricos.Todos os diagramas mostram um resistor (linha em zigue-zague) em série com um círculo contendo a letra 'V' (representando um voltímetro ou fonte de tensão) e uma série de símbolos de bateria (uma linha longa e uma curta).A alternativa A mostra uma bateria.A alternativa B mostra duas baterias em série.A alternativa C mostra três baterias em série.A alternativa D mostra quatro baterias em série.A alternativa E mostra cinco baterias em série."
+    }
+  },
+  {
+    "posicao": 136,
+    "enunciado": "Os trechos do percurso nos quais esse ciclista se mantém dentro de sua faixa aeróbica ideal, para o ganho de condicionamento físico, são",
+    "texto_base": "Um ciclista amador de 61 anos de idade utilizou um monitor cardíaco para medir suas frequências cardíacas em quatro diferentes tipos de trechos do percurso. Os resultados das frequências cardíacas máximas alcançadas nesses trechos foram:Trechos do percursoFrequências cardíacas máximas (bpm)Leve no plano90Forte no plano120Subida moderada130Subida forte140Sabe-se que a faixa aeróbica ideal para o ganho de condicionamento físico é entre 65% e 85% da frequência cardíaca máxima (Fc máx.), que, por sua vez, é determinada pela fórmula:Fc máx. = 220 – idade,em que a idade é dada em ano e Fc máx. é dada em bpm (batimento por minuto).",
+    "alternativas": {
+      "A": "leve no plano, forte no plano, subida moderada e subida forte.",
+      "B": "leve no plano, forte no plano e subida moderada.",
+      "C": "forte no plano, subida moderada e subida forte.",
+      "D": "forte no plano e subida moderada.",
+      "E": "leve no plano e subida forte."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas colunas: 'Trechos do percurso' e 'Frequências cardíacas máximas (bpm)'. As linhas da tabela são: 'Leve no plano' com 90 bpm, 'Forte no plano' com 120 bpm, 'Subida moderada' com 130 bpm, e 'Subida forte' com 140 bpm."
+    }
+  },
+  {
+    "posicao": 137,
+    "enunciado": "Para não ter prejuízo, o menor número de lavagens diárias que o lava-rápido deve efetuar é",
+    "texto_base": "Um lava-rápido oferece dois tipos de lavagem de veículos: lavagem simples, ao preço de R$ 20,00, e lavagem completa, ao preço de R$ 35,00. Para cobrir as despesas com produtos e funcionários, e não ter prejuízos, o lava-rápido deve ter uma receita diária de, pelo menos, R$ 300,00.",
+    "alternativas": {
+      "A": "6.",
+      "B": "8.",
+      "C": "9.",
+      "D": "15.",
+      "E": "20."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 138,
+    "enunciado": "De acordo com as informações fornecidas, o paciente deve comprar os medicamentos da seguinte forma:",
+    "texto_base": "Após consulta médica, um paciente deve seguir um tratamento composto por três medicamentos: X, Y e Z. O paciente, para adquirir os três medicamentos, faz um orçamento em três farmácias diferentes, conforme o quadro.Farmácia 1Farmácia 2Farmácia 3XYZR$ 45,00R$ 50,00R$ 50,00R$ 50,00R$ 50,00R$ 45,00R$ 50,00R$ 45,00R$ 35,00Dessas farmácias algumas oferecem descontos:• na compra dos medicamentos X e Y na Farmácia 2, recebe-se um desconto de 20% em ambos os produtos, independentemente da compra do medicamento Z, e não há desconto para o medicamento Z;• na compra dos 3 medicamentos na Farmácia 3, recebe-se 20% de desconto no valor total da compra.O paciente deseja efetuar a compra de modo a minimizar sua despesa com os medicamentos.",
+    "alternativas": {
+      "A": "X, Y e Z na Farmácia 1.",
+      "B": "X e Y na Farmácia 1, e Z na Farmácia 3.",
+      "C": "X e Y na Farmácia 2, e Z na Farmácia 3.",
+      "D": "X na Farmácia 2, e Y e Z na Farmácia 3.",
+      "E": "X, Y e Z na Farmácia 3."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com quatro colunas: 'Farmácia 1', 'Farmácia 2', 'Farmácia 3' e 'X', 'Y', 'Z' como subcabeçalhos para os medicamentos. As linhas da tabela são: 'Farmácia 1' com preços R$ 45,00 para X, R$ 50,00 para Y, R$ 50,00 para Z. 'Farmácia 2' com preços R$ 50,00 para X, R$ 50,00 para Y, R$ 45,00 para Z. 'Farmácia 3' com preços R$ 65,00 para X, R$ 45,00 para Y, R$ 35,00 para Z."
+    }
+  },
+  {
+    "posicao": 139,
+    "enunciado": "Com base na proposta apresentada, quantas figuras geométricas planas de cada tipo são formadas pela união das hastes?",
+    "texto_base": "Muitos brinquedos que frequentemente são encontrados em praças e parques públicos apresentam formatos de figuras geométricas bidimensionais e tridimensionais. Uma empresa foi contratada para desenvolver uma nova forma de brinquedo. A proposta apresentada pela empresa foi de uma estrutura formada apenas por hastes metálicas, conectadas umas às outras, como apresentado na figura. As hastes de mesma tonalidade e espessura são congruentes.",
+    "alternativas": {
+      "A": "12 trapézios isósceles e 12 quadrados.",
+      "B": "24 trapézios isósceles e 12 quadrados.",
+      "C": "12 paralelogramos e 12 quadrados.",
+      "D": "8 trapézios isósceles e 12 quadrados.",
+      "E": "12 trapézios escalenos e 12 retângulos."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem de uma estrutura tridimensional formada por hastes metálicas. A estrutura é composta por um cubo central, e de cada vértice desse cubo, hastes se estendem para fora, formando um cubo maior que envolve o cubo central. As hastes são representadas por linhas cinzas, criando uma perspectiva de um objeto vazado."
+    }
+  },
+  {
+    "posicao": 140,
+    "enunciado": "Com base nessas informações, a gerência decidiu incluir no cardápio o lanche de tipo",
+    "texto_base": "Uma rede de hamburgueria tem três franquias em cidades distintas. Visando incluir um novo tipo de lanche no cardápio, o gerente de marketing da rede sugeriu que fossem colocados à venda cinco novos tipos de lanche, em edições especiais. Os lanches foram oferecidos pelo mesmo período de tempo em todos os franqueados. O tipo que apresentasse a maior média por franquia seria incluído definitivamente no cardápio. Terminado o período de experiência, a gerência recebeu um relatório descrevendo as quantidades vendidas, em unidade, de cada um dos cinco tipos de lanche nas três franquias.Tabela com o título 'Lanche' e colunas 'Lanche I', 'Lanche II', 'Lanche III', 'Lanche IV', 'Lanche V'. As linhas são 'Franquia I', 'Franquia II', 'Franquia III'.Valores da tabela:Franquia I: Lanche I=415, Lanche II=395, Lanche III=425, Lanche IV=430, Lanche V=435Franquia II: Lanche I=415, Lanche II=445, Lanche III=370, Lanche IV=370, Lanche V=425Franquia III: Lanche I=415, Lanche II=390, Lanche III=425, Lanche IV=433, Lanche V=420",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada 'Lanche' com cinco colunas para tipos de lanche (I, II, III, IV, V) e três linhas para franquias (I, II, III). A tabela mostra as quantidades vendidas de cada tipo de lanche em cada franquia. Os dados são: Franquia I: Lanche I=415, Lanche II=395, Lanche III=425, Lanche IV=430, Lanche V=435. Franquia II: Lanche I=415, Lanche II=445, Lanche III=370, Lanche IV=370, Lanche V=425. Franquia III: Lanche I=415, Lanche II=390, Lanche III=425, Lanche IV=433, Lanche V=420."
+    }
+  },
+  {
+    "posicao": 141,
+    "enunciado": "Nas condições apresentadas, os representantes desse supermercado avaliam que receberão, no ano seguinte, a comissão de tipo",
+    "texto_base": "Uma grande rede de supermercados adota um sistema de avaliação dos faturamentos de suas filiais, considerando a média de faturamento mensal em milhão. A matriz da rede paga uma comissão para os representantes dos supermercados que atingirem uma média de faturamento mensal (M), conforme apresentado no quadro.Quadro 1: Tabela com o título 'Comissão' e 'Média de faturamento mensal (M)'.Comissão I: 1 <= M < 2Comissão II: 2 <= M < 4Comissão III: 4 <= M < 5Comissão IV: 5 <= M < 6Comissão V: M >= 6Um supermercado da rede obteve os faturamentos num dado ano, conforme apresentado no quadro.Quadro 2: Tabela com o título 'Faturamento mensal (em milhão de real)' e 'Quantidade de meses'.Faturamento mensal (em milhão de real): 3,5, Quantidade de meses: 3Faturamento mensal (em milhão de real): 2,5, Quantidade de meses: 2Faturamento mensal (em milhão de real): 5, Quantidade de meses: 2Faturamento mensal (em milhão de real): 3, Quantidade de meses: 4Faturamento mensal (em milhão de real): 7,5, Quantidade de meses: 1",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas tabelas. A primeira tabela, intitulada 'Comissão', define faixas de média de faturamento mensal (M) em milhões de reais para diferentes níveis de comissão. Comissão I: 1 <= M < 2. Comissão II: 2 <= M < 4. Comissão III: 4 <= M < 5. Comissão IV: 5 <= M < 6. Comissão V: M >= 6. A segunda tabela, intitulada 'Faturamento mensal (em milhão de real)' e 'Quantidade de meses', mostra os faturamentos mensais de um supermercado e a quantidade de meses em que cada faturamento ocorreu. Os dados são: 3,5 milhões por 3 meses, 2,5 milhões por 2 meses, 5 milhões por 2 meses, 3 milhões por 4 meses, e 7,5 milhões por 1 mês."
+    }
+  },
+  {
+    "posicao": 142,
+    "enunciado": "Nessa situação, o preço a ser pago ao aplicativo para uma hospedagem de n diárias pode ser obtido pela expressão",
+    "texto_base": "Aplicativos que gerenciam serviços de hospedagem têm ganhado espaço no Brasil e no mundo por oferecer opções diferenciadas em termos de localização e valores de hospedagem. Em um desses aplicativos, o preço P a ser pago pela hospedagem é calculado considerando um preço por diária d, acrescido de uma taxa fixa de limpeza L e de uma taxa de serviço. Essa taxa de serviço é um valor percentual s calculado sobre o valor pago pelo total das diárias.",
+    "alternativas": {
+      "A": "P = d . n + L + d . n . s",
+      "B": "P = d . n + L + d . s",
+      "C": "P = d + L + s",
+      "D": "P = d . n . s + L",
+      "E": "P = d . n + L + s"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 143,
+    "enunciado": "Com base nos valores considerados pelo organizador da competição, a quantidade mínima de dardos que devem ser disponibilizados em uma rodada para tornar o jogo mais atrativo é",
+    "texto_base": "O organizador de uma competição de lançamento de dardos pretende tornar o campeonato mais competitivo. Pelas regras atuais da competição, numa rodada, o jogador lança 3 dardos e pontua caso acerte pelo menos um deles no alvo. O organizador considera que, em média, os jogadores têm, em cada lançamento, 2/3 de probabilidade de acertar um dardo no alvo.A fim de tornar o jogo mais atrativo, planeja modificar as regras de modo que a probabilidade de um jogador pontuar em uma rodada seja igual ou superior a 9/10. Para isso, decide aumentar a quantidade de dardos a serem lançados em cada rodada.",
+    "alternativas": {
+      "A": "2.",
+      "B": "4.",
+      "C": "6.",
+      "D": "9.",
+      "E": "10."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 144,
+    "enunciado": "Quantos anos de fundação essa cidade comemorará em 2050?",
+    "texto_base": "O sistema de numeração romano ainda é utilizado na indicação de capítulos e volumes de livros, na designação de séculos e, em ordem cronológica, de papas e reis de mesmo nome. São utilizadas sete letras do alfabeto:Quatro fundamentais: I (vale 1); X (vale 10); C (vale 100) e M (vale 1 000).Três secundárias: V (vale 5); L (vale 50) e D (vale 500).As regras para escrever números romanos são:1. Não existe símbolo correspondente ao zero;2. Os símbolos fundamentais podem ser repetidos até três vezes e seus valores são adicionados. Exemplo: XXX = 30;3. Uma letra posta à esquerda de outra de maior valor indica subtração dos respectivos valores. Exemplo: IX = 10 – 1 = 9;4. Uma letra posta à direita de outra de maior valor indica adição dos respectivos valores. Exemplo: XI = 10 + 1 = 11.Em uma cidade europeia há uma placa indicando o ano de sua fundação: MCDLXIX.",
+    "alternativas": {
+      "A": "379",
+      "B": "381",
+      "C": "579",
+      "D": "581",
+      "E": "601"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 145,
+    "enunciado": "Considerando as informações do texto, o resultado da adição 9 + 12 será representado, na base binária, por",
+    "texto_base": "Uma das bases mais utilizadas para representar um número é a base decimal. Entretanto, os computadores trabalham com números na base binária. Nessa base, qualquer número natural é representado usando apenas os algarismos 0 e 1. Por exemplo, as representações dos números 9 e 12 na base binária, são 1001 e 1100, respectivamente. A operação de adição, na base binária, segue um algoritmo similar ao utilizado na base decimal, como detalhado no quadro:a b a + b0 0 00 1 11 0 11 1 10Por exemplo, na base binária, a soma dos números 10 e 10 é 100, como apresentado.10+ 10---100",
+    "alternativas": {
+      "A": "101.",
+      "B": "1101.",
+      "C": "1111.",
+      "D": "10101.",
+      "E": "11001."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com três colunas 'a', 'b' e 'a + b' e quatro linhas de dados. Na primeira linha: a=0, b=0, a+b=0. Na segunda linha: a=0, b=1, a+b=1. Na terceira linha: a=1, b=0, a+b=1. Na quarta linha: a=1, b=1, a+b=10. Abaixo da tabela, um exemplo de adição binária: 10 + 10 = 100, formatado verticalmente como uma soma."
+    }
+  },
+  {
+    "posicao": 146,
+    "enunciado": "Nas condições estabelecidas, o valor total, em real, obtido pelo fazendeiro com a venda de todos os terrenos será igual a",
+    "texto_base": "Uma unidade de medida comum usada para expressar áreas de terrenos de grandes dimensões é o hectare, que equivale a 10 000 m². Um fazendeiro decide fazer um loteamento utilizando 3 hectares de sua fazenda, dos quais 0,9 hectare será usado para a construção de ruas e calçadas e o restante será dividido em terrenos com área de 300 m² cada um. Os 20 primeiros terrenos vendidos terão preços promocionais de R$ 20 000,00 cada, e os demais, R$ 30 000,00 cada.",
+    "alternativas": {
+      "A": "700 000.",
+      "B": "1 600 000.",
+      "C": "1 900 000.",
+      "D": "2 200 000.",
+      "E": "2 800 000."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 147,
+    "enunciado": "A quantidade de fantasias com materiais diferentes que podem ser produzidas é representada pela expressão",
+    "texto_base": "Uma pessoa produzirá uma fantasia utilizando como materiais: 2 tipos de tecidos diferentes e 5 tipos distintos de pedras ornamentais. Essa pessoa tem à sua disposição 6 tecidos diferentes e 15 pedras ornamentais distintas.",
+    "alternativas": {
+      "A": "6! / 4!2! + 15! / 10!5!",
+      "B": "6! / 4!2! * 15! / 10!5!",
+      "C": "6! / 2! + 15! / 5!",
+      "D": "6! / 2! * 15! / 5!",
+      "E": "21! / 7!14!"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 148,
+    "enunciado": "A economia da escola, na utilização de um laboratório tipo B, em vez de um laboratório tipo A, num período de 4 anos, por usuário, será de",
+    "texto_base": "Os diretores de uma escola precisam construir um laboratório para uso dos alunos. Há duas possibilidades: (i) um laboratório do tipo A, com capacidade para 100 usuários, a um custo de 180 mil reais e gastos de 60 mil reais por ano para manutenção; (ii) um laboratório do tipo B, com capacidade para 80 usuários, a um custo de 120 mil reais e gastos com manutenção de 16 mil reais por ano. Considera-se que, em qualquer caso, o laboratório implantado será utilizado na totalidade de sua capacidade.",
+    "alternativas": {
+      "A": "1,31 mil reais.",
+      "B": "1,90 mil reais.",
+      "C": "2,30 mil reais.",
+      "D": "2,36 mil reais.",
+      "E": "2,95 mil reais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 149,
+    "enunciado": "A potência φ⁷, escrita na forma aφ + b (a e b são inteiros positivos), é",
+    "texto_base": "Um segmento de reta está dividido em duas partes na proporção áurea quando o todo está para uma das partes na mesma razão em que essa parte está para a outra. Essa constante de proporcionalidade é comumente representada pela letra grega φ, e seu valor é dado pela solução positiva da equação φ² = φ + 1. Assim como a potência φ², as potências superiores de φ podem ser expressas da forma aφ + b, em que a e b são inteiros positivos, como apresentado no quadro. Quadro: φ² = φ + 1; φ³ = 2φ + 1; φ⁴ = 3φ + 2; φ⁵ = 5φ + 3; φ⁶ = 8φ + 5; ...",
+    "alternativas": {
+      "A": "5φ + 3",
+      "B": "7φ + 2",
+      "C": "9φ + 6",
+      "D": "11φ + 7",
+      "E": "13φ + 8"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas linhas e seis colunas. A primeira linha contém as potências de φ: φ², φ³, φ⁴, φ⁵, φ⁶, e reticências. A segunda linha contém as expressões correspondentes: φ + 1, 2φ + 1, 3φ + 2, 5φ + 3, 8φ + 5, e reticências."
+    }
+  },
+  {
+    "posicao": 151,
+    "enunciado": "As quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são",
+    "texto_base": "A Cifra de César é um exemplo de um método de codificação de mensagens usado por Júlio César para se comunicar com seus generais.No método, cada letra era trocada por uma letra que aparecia no alfabeto um número fixo de casas adiante (ou atrás) de forma cíclica. A seguir temos um exemplo em que cada letra é substituída pela que vem três posições à frente.Original A B C D E F G H I J K L M N O P Q R S T U V W X Y ZCodificado D E F G H I J K L M N O P Q R S T U V W X Y Z A B CPara quebrar um código como esse, a análise de frequências das letras de um texto é uma ferramenta importante.Uma análise do texto do romance O guarani, de José de Alencar, que é composto por 491 631 letras, gerou o seguinte gráfico de frequências:Disponível em: www.dominiopublico.gov.br. Acesso em: 7 fev. 2015.Após codificar esse texto com a regra do exemplo fornecido, faz-se nova análise de frequência no texto codificado.",
+    "alternativas": {
+      "A": "A, E, O e S.",
+      "B": "D, E, F e G.",
+      "C": "D, H, R e V.",
+      "D": "R, L, B e X.",
+      "E": "X, B, L e P."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela mostra a correspondência entre letras originais e codificadas. A linha 'Original' vai de A a Z. A linha 'Codificado' vai de D a Z, e depois A, B, C. Abaixo, um gráfico de barras mostra a frequência de letras de A a Z. O eixo horizontal representa as letras do alfabeto (A a Z). O eixo vertical representa a frequência, em milhares, de 0 a 70 000. As barras mais altas estão em A (cerca de 65 000), E (cerca de 60 000), O (cerca de 50 000) e S (cerca de 35 000). Outras letras têm frequências menores, com algumas próximas de zero."
+    }
+  },
+  {
+    "posicao": 152,
+    "enunciado": "Segundo esse pesquisador, o número anual típico de terremotos de magnitude maior ou igual a 7 é",
+    "texto_base": "O quadro apresenta o número de terremotos de magnitude maior ou igual a 7, na escala Richter, ocorridos em nosso planeta nos anos de 2000 a 2011.Ano 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011Terremotos 15 16 13 15 16 11 11 18 12 17 24 20Disponível em: https://earthquake.usgs.gov/earthquakes/browse/m7-world.php.Acesso em: 13 ago. 2012 (adaptado)Um pesquisador acredita que a mediana representa bem o número anual típico de terremotos em um período.",
+    "alternativas": {
+      "A": "11.",
+      "B": "15.",
+      "C": "15,5.",
+      "D": "15,7.",
+      "E": "17,5."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas linhas e doze colunas. A primeira linha contém os anos de 2000 a 2011. A segunda linha, intitulada 'Terremotos', contém os números de terremotos para cada ano: 15 (2000), 16 (2001), 13 (2002), 15 (2003), 16 (2004), 11 (2005), 11 (2006), 18 (2007), 12 (2008), 17 (2009), 24 (2010), 20 (2011)."
+    }
+  },
+  {
+    "posicao": 153,
+    "enunciado": "Nessas condições, o lucro mensal para os próximos meses deve ser maior ou igual ao do mês de",
+    "texto_base": "A receita R de uma empresa ao final de um mês é o dinheiro captado com a venda de mercadorias ou com a prestação de serviços nesse mês, e a despesa D é todo o dinheiro utilizado para pagamento de salários, contas de água e luz, impostos, entre outros. O lucro mensal obtido ao final do mês é a diferença entre a receita e a despesa registrada no mês. O gráfico apresenta as receitas e despesas, em milhão de real, de uma empresa ao final dos cinco primeiros meses de um dado ano.A previsão para os próximos meses é que o lucro mensal não seja inferior ao maior lucro obtido até o mês de maio.",
+    "alternativas": {
+      "A": "janeiro.",
+      "B": "fevereiro.",
+      "C": "março.",
+      "D": "abril.",
+      "E": "maio."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de linhas intitulado 'Receitas e despesas'. O eixo horizontal representa os meses: janeiro, fevereiro, março, abril, maio. O eixo vertical representa valores em milhões de real, de 0 a 28, com incrementos de 5. Duas linhas são plotadas: uma linha contínua para 'Receita' e uma linha tracejada para 'Despesa'. Os pontos para 'Receita' são: janeiro (10), fevereiro (20), março (15), abril (25), maio (28). Os pontos para 'Despesa' são: janeiro (5), fevereiro (15), março (10), abril (20), maio (25)."
+    }
+  },
+  {
+    "posicao": 154,
+    "enunciado": "No período de 2005 a 2009, o aumento percentual no volume de vendas foi de",
+    "texto_base": "A depressão caracteriza-se por um desequilíbrio na química cerebral. Os neurônios de um deprimido não respondem bem aos estímulos dos neurotransmissores. Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico.Veja, 10 fev. 2010 (adaptado).",
+    "alternativas": {
+      "A": "45,4.",
+      "B": "54,5.",
+      "C": "120.",
+      "D": "220.",
+      "E": "283,2."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha mostrando o volume de vendas (em milhão) de medicamentos para depressão por ano. O eixo horizontal representa o Ano, de 2005 a 2009. O eixo vertical representa o Volume de vendas (em milhão), de 0 a 600, com incrementos de 100. Os pontos de dados são: 2005: 236 milhões; 2006: 294 milhões; 2007: 370 milhões; 2008: 465 milhões; 2009: 519,2 milhões. Os valores de cada ponto estão indicados acima deles."
+    }
+  },
+  {
+    "posicao": 155,
+    "enunciado": "Com base no gráfico obtido, o menor preço, p (em mil reais), para o qual pelo menos 50% dos apartamentos apresenta preço inferior a p é",
+    "texto_base": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados.O gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por [300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300].A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 850 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.",
+    "alternativas": {
+      "A": "600.",
+      "B": "700.",
+      "C": "800.",
+      "D": "900.",
+      "E": "1 000."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Histograma intitulado 'Distribuição dos preços'. O eixo horizontal representa o Preço (em mil reais) com intervalos de 100, começando em 300 e indo até 1300. Os intervalos são: 300-400, 400-500, 500-600, 600-700, 700-800, 800-900, 900-1000, 1000-1100, 1100-1200, 1200-1300. O eixo vertical representa o Número de imóveis, de 0 a 20, com incrementos de 5. As barras do histograma mostram as seguintes frequências: 300-400: 0 imóveis; 400-500: 0 imóveis; 500-600: 5 imóveis; 600-700: 10 imóveis; 700-800: 15 imóveis; 800-900: 15 imóveis; 900-1000: 10 imóveis; 1000-1100: 5 imóveis; 1100-1200: 5 imóveis; 1200-1300: 5 imóveis."
+    }
+  },
+  {
+    "posicao": 156,
+    "enunciado": "O gráfico que mais se assemelha ao que deve ser elaborado pelo administrador é",
+    "texto_base": "O administrador de um teatro percebeu que, com o ingresso do evento a R$ 20,00, um show conseguiria atrair 200 pessoas e que, a cada R$ 1,00 de redução no preço do ingresso, o número de pessoas aumentava em 40. Ele sabe que os donos do teatro só admitem trabalhar com valores inteiros para os ingressos, pela dificuldade de disponibilizar troco, e pretende convencer-los a diminuir o preço do ingresso. Assim, apresentará um gráfico da arrecadação em função do valor do desconto no preço atual do ingresso.",
+    "alternativas": {
+      "A": "Gráfico de linha. Eixo vertical 'Arrecadação' de 500 a 7000 em incrementos de 500. Eixo horizontal 'Desconto' de 0 a 23 em incrementos de 1. A linha começa em (0, 4000) e sobe linearmente, atingindo aproximadamente 6000 no desconto 23.",
+      "B": "Gráfico de pontos. Eixo vertical 'Arrecadação' de 500 a 7000 em incrementos de 500. Eixo horizontal 'Desconto' de 0 a 23 em incrementos de 1. Os pontos formam uma curva crescente, com concavidade para baixo, começando em (0, 4000) e atingindo aproximadamente 6000 no desconto 23.",
+      "C": "Gráfico de linha. Eixo vertical 'Arrecadação' de 500 a 7000 em incrementos de 500. Eixo horizontal 'Desconto' de 0 a 23 em incrementos de 1. A linha começa em (0, 4000) e sobe linearmente, atingindo aproximadamente 6000 no desconto 23.",
+      "D": "Gráfico de linha. Eixo vertical 'Arrecadação' de 500 a 7000 em incrementos de 500. Eixo horizontal 'Desconto' de 0 a 23 em incrementos de 1. A linha começa em (0, 4000), sobe formando uma parábola com concavidade para baixo, atinge um pico de aproximadamente 6200-6300 entre os descontos 10 e 11, e depois desce, cruzando o eixo horizontal por volta do desconto 20.",
+      "E": "Gráfico de pontos. Eixo vertical 'Arrecadação' de 500 a 7000 em incrementos de 500. Eixo horizontal 'Desconto' de 0 a 23 em incrementos de 1. Os pontos formam uma curva que começa em (0, 4000), sobe formando uma parábola com concavidade para baixo, atinge um pico de aproximadamente 6200-6300 entre os descontos 10 e 11, e depois desce, cruzando o eixo horizontal por volta do desconto 20."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Cinco gráficos são apresentados como alternativas (A, B, C, D, E). Todos os gráficos possuem um eixo vertical rotulado 'Arrecadação' (variando de 500 a 7000, em incrementos de 500) e um eixo horizontal rotulado 'Desconto' (variando de 0 a 23, em incrementos de 1). O gráfico A é uma linha reta crescente, começando em (0, 4000) e terminando em (23, aproximadamente 6000). O gráfico B é uma série de pontos que formam uma curva crescente com concavidade para baixo, começando em (0, 4000) e terminando em (23, aproximadamente 6000). O gráfico C é uma linha reta crescente, idêntica ao gráfico A. O gráfico D é uma linha curva que representa uma parábola com concavidade para baixo, começando em (0, 4000), atingindo um pico de aproximadamente 6200-6300 entre os descontos 10 e 11, e depois descendo, cruzando o eixo horizontal por volta do desconto 20. O gráfico E é uma série de pontos que formam uma curva idêntica à do gráfico D, representando uma parábola com concavidade para baixo, começando em (0, 4000), atingindo um pico de aproximadamente 6200-6300 entre os descontos 10 e 11, e depois descendo, cruzando o eixo horizontal por volta do desconto 20."
+    }
+  },
+  {
+    "posicao": 157,
+    "enunciado": "Qual expressão determina a quantidade de painéis diferentes que a CBF poderá montar?",
+    "texto_base": "A Copa do Brasil teve, até a edição de 2018, 15 diferentes times como campeões da competição, conforme apresentado na imagem. Suponha que, como homenagem aos times campeões, a Confederação Brasileira de Futebol (CBF) pretenda colocar um painel na sua sede. Esse painel teria 6 linhas e, em cada uma delas, 5 placas, referentes a cada edição da competição, com o nome do time vencedor, o brasão e o ano do título. O painel deve ser fabricado de modo que a primeira linha só tenha clubes gaúchos (Internacional, Grêmio e Juventude); a segunda, apenas times cariocas (Flamengo, Vasco e Fluminense); a terceira, somente times mineiros (Cruzeiro e Atlético Mineiro); a quarta, exclusivamente clubes paulistas (Corinthians, Palmeiras, Santos, Paulista FC, Santo André); e as duas últimas nem nenhuma restrição.Disponível em: http://campeoesdofutebol.com.br. Acesso em: 1 nov. 2018 (adaptado).",
+    "alternativas": {
+      "A": "7! / (5! 3!) . 7! / (6! 3!) . 9! / (3! 10!)",
+      "B": "7! . 5! . 7! . 9! . 10!",
+      "C": "30!",
+      "D": "7! / (5! 5!) . 7! / (5! 2!) . 9! / (5! 4!)",
+      "E": "9! / 3! . 7! / 2! . 9! / 4!"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem mostra os brasões de 15 times de futebol, com seus respectivos estados e número de títulos da Copa do Brasil até 2018. Os times são: Internacional (Rio Grande do Sul, 01 Título), Grêmio (Rio Grande do Sul, 05 Títulos), Cruzeiro (Minas Gerais, 06 Títulos), Flamengo (Rio de Janeiro, 03 Títulos), Palmeiras (São Paulo, 03 Títulos), Corinthians (São Paulo, 03 Títulos), Sport (Pernambuco, 01 Título), Fluminense (Rio de Janeiro, 01 Título), Vasco da Gama (Rio de Janeiro, 01 Título), Atlético (Minas Gerais, 01 Título), Santos (São Paulo, 01 Título), Paulista F.C. (São Paulo, 01 Título), Santo André (São Paulo, 01 Título), Juventude (Rio Grande do Sul, 01 Título), Criciúma E.C. (Santa Catarina, 01 Título)."
+    }
+  },
+  {
+    "posicao": 158,
+    "enunciado": "O gráfico que melhor representa essa relação é",
+    "texto_base": "O quadro representa a relação entre o preço de um produto (R) e seu respectivo imposto devido (I).Tabela:Preço do produto (R) | Imposto devido (I)R <= 5 000 | isento5 000 < R <= 10 000 | 10% de (R - 5 000)10 000 < R <= 15 000 | 500 + 30% de (R - 10 000)",
+    "alternativas": {
+      "A": "Gráfico A",
+      "B": "Gráfico B",
+      "C": "Gráfico C",
+      "D": "Gráfico D",
+      "E": "Gráfico E"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Cinco gráficos (A, B, C, D, E) são apresentados, cada um com um eixo horizontal R (preço do produto) e um eixo vertical I (imposto devido).Gráfico A: O eixo R vai de 0 a 15000, com marcações em 5000, 10000, 15000. O eixo I vai de 0 a 2000, com marcações em 500, 1000, 1500, 2000. O gráfico começa em (0,0), segue uma linha horizontal até (5000,0). De (5000,0) a (10000,500), a linha sobe linearmente. De (10000,500) a (15000,2000), a linha sobe linearmente com uma inclinação maior. Os pontos (5000,0), (10000,500) e (15000,2000) são marcados com círculos preenchidos.Gráfico B: O eixo R vai de 0 a 15000, com marcações em 5000, 10000, 15000. O eixo I vai de 0 a 1000, com marcações em 500, 1000. O gráfico começa em (0,0), segue uma linha horizontal até (5000,0). De (5000,0) a (10000,500), a linha sobe linearmente. De (10000,500) a (15000,1000), a linha sobe linearmente. Os pontos (5000,0), (10000,500) e (15000,1000) são marcados com círculos preenchidos.Gráfico C: Idêntico ao Gráfico B.Gráfico D: O eixo R vai de 0 a 15000, com marcações em 5000, 10000, 15000. O eixo I vai de 0 a 2000, com marcações em 500, 1000, 1500, 2000. O gráfico começa em (0,0), segue uma linha horizontal até (5000,0). No ponto (5000,0), há um círculo preenchido com um círculo aberto sobreposto. De (5000,0) a (10000,500), a linha sobe linearmente. No ponto (10000,500), há um círculo preenchido com um círculo aberto sobreposto. De (10000,500) a (15000,2000), a linha sobe linearmente. No ponto (15000,2000), há um círculo preenchido.Gráfico E: Idêntico ao Gráfico B."
+    }
+  },
+  {
+    "posicao": 159,
+    "enunciado": "Nessa data, o reservatório com o maior volume de água era o",
+    "texto_base": "O gráfico apresenta o nível de ocupação dos cinco reservatórios de água que abasteciam uma cidade em 2 de fevereiro de 2015.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de barras verticais intitulado 'Nível dos reservatórios em 2 fev. 2015'. O eixo horizontal mostra os reservatórios I, II, III, IV, V. O eixo vertical, intitulado 'Nível de ocupação (%)', vai de 0 a 100, com marcações a cada 10%. Acima do gráfico, há uma tabela com 'Capacidade (bilhão de litros)' para cada reservatório: I (105), II (100), III (20), IV (80), V (40). As barras mostram os seguintes níveis de ocupação: Reservatório I: aproximadamente 20%, Reservatório II: aproximadamente 10%, Reservatório III: aproximadamente 55%, Reservatório IV: aproximadamente 40%, Reservatório V: aproximadamente 65%."
+    }
+  },
+  {
+    "posicao": 160,
+    "enunciado": "Qual é a média das idades, em ano, desses alunos?",
+    "texto_base": "Uma pessoa realizou uma pesquisa com alguns alunos de uma escola, coletando suas idades, e organizou esses dados no gráfico.",
+    "alternativas": {
+      "A": "9",
+      "B": "12",
+      "C": "18",
+      "D": "19",
+      "E": "27"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de barras verticais. O eixo horizontal é rotulado 'Idade (ano)' e mostra os valores 9, 18, 27. O eixo vertical é rotulado 'Frequência de ocorrência' e mostra os valores 6, 9, 12. Há três barras: a barra para idade 9 tem altura até 6 na frequência; a barra para idade 18 tem altura até 12 na frequência; a barra para idade 27 tem altura até 9 na frequência."
+    }
+  },
+  {
+    "posicao": 161,
+    "enunciado": "Os valores de x e y do quadro são, respectivamente, iguais a",
+    "texto_base": "Em um estudo realizado pelo IBGE em quatro estados e no Distrito Federal, com mais de 5 mil pessoas com 10 anos ou mais, observou-se que a leitura ocupa, em média, apenas seis minutos do dia de cada pessoa. Na faixa de idade de 10 a 24 anos, a média diária é de dez minutos. No entanto, no grupo de idades entre 24 e 60 anos, o tempo médio diário dedicado à leitura é de 5 minutos. Entre os mais velhos, com 60 anos ou mais, a média é de 12 minutos.A quantidade de pessoas entrevistadas de cada faixa de idade seguiu a distribuição percentual descrita no quadro.Disponível em: www.oglobo.globo.com. Acesso em: 16 ago. 2013 (adaptado).",
+    "alternativas": {
+      "A": "10 e 80.",
+      "B": "10 e 90.",
+      "C": "20 e 60.",
+      "D": "20 e 80.",
+      "E": "25 e 50."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas colunas: 'Faixa etária' e 'Percentual de entrevistados'. As linhas da tabela são: 'De 10 a 24 anos' com 'x' no percentual; 'Entre 24 e 60 anos' com 'y' no percentual; 'A partir de 60 anos' com 'x' no percentual."
+    }
+  },
+  {
+    "posicao": 162,
+    "enunciado": "A substituição da ração ocorrerá se a média da distribuição das massas dos coelhos da amostra, em quilograma, for superior a",
+    "texto_base": "Um zootecnista pretende testar se uma nova ração para coelhos é mais eficiente do que a que ele vem utilizando atualmente. A ração atual proporciona uma massa média de 10 kg por coelho, com um desvio padrão de 1 kg, alimentado com essa ração durante um período de três meses.O zootecnista selecionou uma amostra de coelhos e os alimentou com a nova ração pelo mesmo período de tempo. Ao final, anotou a massa de cada coelho, obtendo um desvio padrão de 1,5 kg para a distribuição das massas dos coelhos dessa amostra.Para avaliar a eficiência dessa ração, ele utilizará o coeficiente de variação (CV) que é uma medida de dispersão definida por CV = s/x, em que s representa o desvio padrão e x, a média das massas dos coelhos que foram alimentados com uma determinada ração.O zootecnista substituirá a ração que vinha utilizando pela nova, caso o coeficiente de variação da distribuição das massas dos coelhos que foram alimentados com a nova ração for menor do que o coeficiente de variação da distribuição das massas dos coelhos que foram alimentados com a ração atual.",
+    "alternativas": {
+      "A": "5,0.",
+      "B": "9,5.",
+      "C": "10,0.",
+      "D": "10,5.",
+      "E": "15,0."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 163,
+    "enunciado": "Dessa forma, o valor recebido pelo navio receptor será",
+    "texto_base": "Para a comunicação entre dois navios é utilizado um sistema de codificação com base em valores numéricos. Para isso, são consideradas as operações triângulo Δ e estrela *, definidas sobre o conjunto dos números reais por xΔy = x² + xy - y² e x * y = xy + x.O navio que deseja enviar uma mensagem deve fornecer um valor de entrada b, que irá gerar um valor de saída, a ser enviado ao navio receptor, dado pela soma das duas maiores soluções da equação (aΔb) * (bΔa) = 0. Cada valor possível de entrada e saída representa uma mensagem diferente já conhecida pelos dois navios.Um navio deseja enviar ao outro a mensagem “ATENÇÃO!”. Para isso, deve utilizar o valor de entrada b = 1.",
+    "alternativas": {
+      "A": "√5",
+      "B": "√3",
+      "C": "√1",
+      "D": "-1 + √5 / 2",
+      "E": "3 + √5 / 2"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 168,
+    "enunciado": "Nessa parada específica, com um dos grupos reduzido, qual foi o tempo gasto, em segundo, para trocar os quatro pneus?",
+    "texto_base": "Em uma corrida automobilística, os carros podem fazer paradas nos boxes para efetuar trocas de pneus. Nessas trocas, o trabalho é feito por um grupo de três pessoas em cada pneu. Considere que os grupos iniciam o trabalho no mesmo instante, trabalham à mesma velocidade e cada grupo trabalha em um único pneu. Com os quatro grupos completos, são necessários 4 segundos para que a troca seja efetuada. O tempo gasto por um grupo para trocar um pneu é inversamente proporcional ao número de pessoas trabalhando nele. Em uma dessas paradas, um dos trabalhadores passou mal, não pôde participar da troca e nem foi substituído, de forma que um dos quatro grupos de troca ficou reduzido.",
+    "alternativas": {
+      "A": "6,0",
+      "B": "5,7",
+      "C": "5,0",
+      "D": "4,5",
+      "E": "4,4"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 169,
+    "enunciado": "Nessas condições, o cliente deverá comprar sachês do suplemento",
+    "texto_base": "Um nutricionista verificou, na dieta diária do seu cliente, a falta de 800 mg do mineral A, de 1 000 mg do mineral B e de 1 200 mg do mineral C. Por isso, recomendou a compra de suplementos alimentares que forneçam os minerais faltantes e informou que não haveria problema se consumisse mais desses minerais do que o recomendado.O cliente encontrou cinco suplementos, vendidos em sachês unitários, cujos preços e as quantidades dos minerais estão apresentados a seguir:Suplemento I: contém 50 mg do mineral A, 100 mg do mineral B e 200 mg do mineral C e custa R$ 2,00;Suplemento II: contém 800 mg do mineral A, 250 mg do mineral B e 200 mg do mineral C e custa R$ 3,00;Suplemento III: contém 250 mg do mineral A, 1 000 mg do mineral B e 300 mg do mineral C e custa R$ 5,00;Suplemento IV: contém 600 mg do mineral A, 500 mg do mineral B e 1 000 mg do mineral C e custa R$ 6,00;Suplemento V: contém 400 mg do mineral A, 800 mg do mineral B e 1 200 mg do mineral C e custa R$ 8,00.O cliente decidiu comprar sachês de um único suplemento no qual gastasse menos dinheiro e ainda suprisse a falta de minerais indicada pelo nutricionista, mesmo que consumisse alguns deles além de sua necessidade.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 170,
+    "enunciado": "Qual deve ser a redução percentual da quantidade de frango para que o atleta alcance seu objetivo?",
+    "texto_base": "Um atleta produz sua própria refeição com custo fixo de R$ 10,00. Ela é composta por 400 g de frango, 600 g de batata-doce e uma hortaliça. Atualmente, os preços dos produtos para essa refeição são:RefeiçãoFrango (kg)Batata-doce (kg)Hortaliças (unidade)R$ 12,50R$ 5,00R$ 2,00Em relação a esses preços, haverá um aumento de 50% no preço do quilograma de batata-doce, e os outros preços não serão alterados. O atleta deseja manter o custo da refeição, a quantidade de batata-doce e a hortaliça. Portanto, terá que reduzir a quantidade de frango.",
+    "alternativas": {
+      "A": "12,5",
+      "B": "28,0",
+      "C": "30,0",
+      "D": "50,0",
+      "E": "70,0"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela com três colunas: 'Refeição', 'Frango (kg)', 'Batata-doce (kg)', 'Hortaliças (unidade)'. A linha de dados mostra os preços: 'R$ 12,50' para Frango (kg), 'R$ 5,00' para Batata-doce (kg), e 'R$ 2,00' para Hortaliças (unidade)."
+    }
+  },
+  {
+    "posicao": 171,
+    "enunciado": "A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é",
+    "texto_base": "Uma mola é solta da posição distendida conforme a figura. A figura à direita representa o gráfico da posição P (em cm) da massa m em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do tipo P(t) = ± A cos (ωt) ou P(t) = ± A sen (ωt), em que A > 0 é a amplitude de deslocamento máximo e ω é a frequência, que se relaciona com o período T pela fórmula ω = 2π/T.Considere a ausência de quaisquer forças dissipativas.",
+    "alternativas": {
+      "A": "− 3 cos (2t)",
+      "B": "− 3 sen (2t)",
+      "C": "3 cos (2t)",
+      "D": "− 6 cos (2t)",
+      "E": "6 sen (2t)"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem contém duas partes: à esquerda, um diagrama de uma mola e massa, e à direita, um gráfico.O diagrama da esquerda mostra uma mola vertical presa a um ponto superior, com uma massa 'm' suspensa na extremidade inferior. Uma linha horizontal pontilhada indica a 'Posição de equilíbrio'. Abaixo dela, outra mola com a massa 'm' está mais esticada, indicada como 'Mola distendida'.O gráfico da direita, intitulado 'Gráfico', mostra a posição P em função do tempo t. O eixo vertical (P) varia de -3 a 3, e o eixo horizontal (t) mostra valores como π/2, π, 3π/2, 2π, 5π/2, 3π. A curva do gráfico é uma onda senoidal que começa em P=0 no t=0, desce para P=-3 em t=π/4, volta a P=0 em t=π/2, sobe para P=3 em t=3π/4, e retorna a P=0 em t=π. O ciclo se repete. A amplitude máxima é 3 e a amplitude mínima é -3. A curva passa por (0,0), (π/4, -3), (π/2, 0), (3π/4, 3), (π, 0)."
+    }
+  },
+  {
+    "posicao": 172,
+    "enunciado": "Nessa relação, a unidade de medida adequada para o módulo volumétrico é",
+    "texto_base": "A relação de Newton-Laplace estabelece que o módulo volumétrico de um fluido é diretamente proporcional ao quadrado da velocidade do som (em metro por segundo) no fluido e à sua densidade (em quilograma por metro cúbico), com uma constante de proporcionalidade adimensional.",
+    "alternativas": {
+      "A": "kg·m⁻²·s⁻¹",
+      "B": "kg·m⁻¹·s⁻²",
+      "C": "kg·m⁻⁵·s⁻²",
+      "D": "kg⁻¹·m¹·s²",
+      "E": "kg⁻¹·m⁵·s⁻²"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 173,
+    "enunciado": "Qual a quantidade máxima de camisetas que essa pessoa poderá levar?",
+    "texto_base": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg.Em duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens:ViagemCamisetasCalçasSapatosI1243II1832Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.",
+    "alternativas": {
+      "A": "22",
+      "B": "24",
+      "C": "26",
+      "D": "33",
+      "E": "39"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com quatro colunas: 'Viagem', 'Camisetas', 'Calças', 'Sapatos'. A primeira linha de dados, 'I', mostra 12 camisetas, 4 calças e 3 sapatos. A segunda linha de dados, 'II', mostra 18 camisetas, 3 calças e 2 sapatos."
+    }
+  },
+  {
+    "posicao": 174,
+    "enunciado": "O valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é",
+    "texto_base": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 20 km percorridos.",
+    "alternativas": {
+      "A": "15,9.",
+      "B": "16,1.",
+      "C": "16,4.",
+      "D": "17,4.",
+      "E": "18,0."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 175,
+    "enunciado": "Qual dos fornecedores prestou as informações adequadas, devendo ser o escolhido pelo construtor para a aquisição do material?",
+    "texto_base": "O projeto de um contêiner, em forma de paralelepípedo reto retangular, previa a pintura dos dois lados (interno e externo) de cada uma das quatro paredes com tinta acrílica e a pintura do piso interno com tinta epóxi. O construtor havia pedido, a cinco fornecedores diferentes, orçamentos das tintas necessárias, mas, antes de iniciar a obra, resolveu mudar o projeto original, alterando o comprimento e a largura para o dobro do originalmente previsto, mantendo inalterada a altura. Ao pedir novos orçamentos aos fornecedores, para as novas dimensões, cada um deu uma resposta diferente sobre as novas quantidades de tinta necessárias.Em relação ao previsto para o projeto original, as novas quantidades de tinta necessárias informadas pelos fornecedores foram as seguintes:Fornecedor I: “O dobro, tanto para as paredes quanto para o piso.”Fornecedor II: “O dobro para as paredes e quatro vezes para o piso.”Fornecedor III: “Quatro vezes, tanto para as paredes quanto para o piso.”Fornecedor IV: “Quatro vezes para as paredes e o dobro para o piso.”Fornecedor V: “Oito vezes para as paredes e quatro vezes para o piso.”Analisando as informações dos fornecedores, o construtor providenciará a quantidade adequada de material. Considere a porta de acesso do contêiner como parte de uma das paredes.",
+    "alternativas": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 176,
+    "enunciado": "Nas condições apresentadas, o reservatório deverá ser construído com uma altura interna mínima, em metro, igual a",
+    "texto_base": "Um povoado com 100 habitantes está passando por uma situação de seca prolongada e os responsáveis pela administração pública local decidem contratar a construção de um reservatório. Ele deverá ter a forma de um cilindro circular reto, cuja base tenha 5 metros de diâmetro interno, e atender à demanda de água da população por um período de exatamente sete dias consecutivos. No oitavo dia, o reservatório vazio é completamente reabastecido por carros-pipa.Considere que o consumo médio diário por habitante é de 120 litros de água. Use 3 como aproximação para π.",
+    "alternativas": {
+      "A": "1,12.",
+      "B": "3,10.",
+      "C": "4,35.",
+      "D": "4,48.",
+      "E": "5,60."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 177,
+    "enunciado": "Qual(is) face(s) ficará(ão) oposta(s) à face de cor cinza escuro, quando o octaedro for reconstruído a partir da planificação dada?",
+    "texto_base": "Num octaedro regular, duas faces são consideradas opostas quando não têm nem arestas, nem vértices em comum. Na figura, observa-se um octaedro regular e uma de suas planificações, na qual há uma face colorida na cor cinza escuro e outras quatro faces numeradas.",
+    "alternativas": {
+      "A": "1, 2, 3 e 4",
+      "B": "1 e 3",
+      "C": "1",
+      "D": "2",
+      "E": "4"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra duas figuras. A primeira figura é um octaedro regular tridimensional, com suas arestas visíveis. A segunda figura é a planificação de um octaedro, que consiste em oito triângulos equiláteros dispostos de forma a poderem ser dobrados para formar o sólido. Nesta planificação, há um triângulo central na parte inferior que está sombreado em cinza escuro. Acima dele, há uma linha de três triângulos. O triângulo mais à esquerda é numerado '1'. O triângulo do meio é numerado '2'. O triângulo mais à direita é numerado '3'. Abaixo do triângulo sombreado, há um triângulo numerado '4'."
+    }
+  },
+  {
+    "posicao": 178,
+    "enunciado": "Nessas condições, o valor que mais se aproxima da medida do comprimento da barra, em centímetro, é",
+    "texto_base": "O instrumento de percussão conhecido como triângulo é composto por uma barra fina de aço, dobrada em um formato que se assemelha a um triângulo, com uma abertura e uma haste, conforme ilustra a Figura 1.Uma empresa de brindes promocionais contrata uma fundição para a produção de miniaturas de instrumentos desse tipo. A fundição produz, inicialmente, peças com o formato de um triângulo equilátero de altura h, conforme ilustra a Figura 2. Após esse processo, cada peça é aquecida, deformando os cantos, e cortada em um dos vértices, dando origem à miniatura. Assuma que não ocorram perdas de material no processo de produção, de forma que o comprimento da barra utilizada seja igual ao perímetro do triângulo equilátero representado na Figura 2.Considere 1,7 como valor aproximado para √3.",
+    "alternativas": {
+      "A": "9,07.",
+      "B": "13,60.",
+      "C": "20,40.",
+      "D": "27,18.",
+      "E": "36,24."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem contém duas figuras. A Figura 1 mostra um instrumento musical chamado triângulo, que é uma barra de metal dobrada em forma de triângulo com uma abertura em um dos vértices e uma pequena haste para segurar. A Figura 2 mostra um triângulo equilátero com sua altura 'h' indicada por uma linha pontilhada vertical do vértice superior até a base, formando um ângulo reto. A altura 'h' é rotulada como 'h = 8 cm'."
+    }
+  },
+  {
+    "posicao": 179,
+    "enunciado": "Qual é a capacidade volumétrica, em mililitro, dessa caneca?",
+    "texto_base": "Uma pessoa comprou uma caneca para tomar sopa, conforme ilustração.Sabe-se que 1 cm³ = 1 mL e que o topo da caneca é uma circunferência de diâmetro (D) medindo 10 cm, e a base é um círculo de diâmetro (d) medindo 8 cm. Além disso, sabe-se que a altura (h) dessa caneca mede 12 cm (distância entre o centro das circunferências do topo e da base).Utilize 3 como aproximação para π.",
+    "alternativas": {
+      "A": "216",
+      "B": "408",
+      "C": "732",
+      "D": "2 196",
+      "E": "2 928"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra um desenho esquemático de uma caneca. A caneca tem uma forma de tronco de cone com uma alça. O topo da caneca é uma circunferência com diâmetro 'D' indicado por uma linha pontilhada horizontal. A base da caneca é uma circunferência com diâmetro 'd' também indicado por uma linha pontilhada horizontal. A altura 'h' da caneca é indicada por uma linha vertical pontilhada entre o centro do topo e o centro da base."
+    }
+  },
+  {
+    "posicao": 180,
+    "enunciado": "Nessas condições, o modelo que deverá ser escolhido tem como face útil para impressão um",
+    "texto_base": "O dono de uma loja pretende usar cartões imantados para a divulgação de sua loja. A empresa que fornecerá o serviço lhe informa que o custo de fabricação do cartão é de R$ 0,01 por centímetro quadrado e que disponibiliza modelos tendo como faces úteis para impressão: * um triângulo equilátero de lado 12 cm; * um quadrado de lado 8 cm; * um retângulo de lados 11 cm e 8 cm; * um hexágono regular de lado 6 cm; * um círculo de diâmetro 10 cm. O dono da loja está disposto a pagar, no máximo, R$ 0,80 por cartão. Ele escolherá, dentro desse limite de preço, o modelo que tiver maior área de impressão. Use 3 como aproximação para π e use 1,7 como aproximação para √3.",
+    "alternativas": {
+      "A": "triângulo.",
+      "B": "quadrado.",
+      "C": "retângulo.",
+      "D": "hexágono.",
+      "E": "círculo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  }
+]

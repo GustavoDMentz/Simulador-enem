@@ -1,0 +1,1250 @@
+[
+  {
+    "posicao": 91,
+    "enunciado": "Esse tipo de doping está diretamente relacionado ao aumento da",
+    "texto_base": "Diversas substâncias são empregadas com a intenção de incrementar o desempenho esportivo de atletas de alto nível. O chamado doping sanguíneo, por exemplo, pela utilização da eritropoetina, é proibido pelas principais federações de esportes no mundo. A eritropoetina é um hormônio produzido pelos rins e fígado e sua principal ação é regular o processo de eritropoiese. Seu uso administrado intravenosamente em quantidades superiores àquelas presentes naturalmente no organismo permite que o indivíduo aumente a sua capacidade de realização de exercícios físicos.",
+    "alternativas": {
+      "A": "frequência cardíaca.",
+      "B": "capacidade pulmonar.",
+      "C": "massa muscular do indivíduo.",
+      "D": "atividade anaeróbica da musculatura.",
+      "E": "taxa de transporte de oxigênio pelo sangue."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 92,
+    "enunciado": "Comparando as duas situações, como ficam a força média exercida sobre o carro e a energia mecânica dissipada?",
+    "texto_base": "Em um autódromo, os carros podem derrapar em uma curva e bater na parede de proteção. Para diminuir o impacto de uma batida, pode-se colocar na parede uma barreira de pneus, isso faz com que a colisão seja mais demorada e o carro retorne com velocidade reduzida. Outra opção é colocar uma barreira de blocos de um material que se deforma, tornando-a tão demorada quanto a colisão com os pneus, mas que não permite a volta do carro após a colisão.",
+    "alternativas": {
+      "A": "A força é maior na colisão com a barreira de pneus, e a energia dissipada é maior na colisão com a barreira de blocos.",
+      "B": "A força é maior na colisão com a barreira de blocos, e a energia dissipada é maior na colisão com a barreira de pneus.",
+      "C": "A força é maior na colisão com a barreira de blocos, e a energia dissipada é a mesma nas duas situações.",
+      "D": "A força é maior na colisão com a barreira de pneus, e a energia dissipada é maior na colisão com a barreira de pneus.",
+      "E": "A força é maior na colisão com a barreira de blocos, e a energia dissipada é maior na colisão com a barreira de blocos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 93,
+    "enunciado": "Qual estrutura derivada da penicilamina é predominantemente encontrada na urina?",
+    "texto_base": "A penicilamina é um medicamento de uso oral utilizado no tratamento de várias doenças. Esse composto é excretado na urina, cujo pH se situa entre 5 e 7. A penicilamina, cuja fórmula estrutural plana está apresentada, possui três grupos funcionais que podem ser ionizados: carboxila: —COOH, cujo pKa é igual a 1,8; amino: —NH₂, que pode ser convertido em amínio (—NH₃⁺, cujo pKa é igual a 7,9); tiol: —SH, cujo pKa é igual a 10,5. Sabe-se que pKa = –log Ka.",
+    "alternativas": {
+      "A": "Uma estrutura química da penicilamina. O grupo carboxila está na forma COO-. O grupo amino está na forma NH2.",
+      "B": "Uma estrutura química da penicilamina. O grupo carboxila está na forma COOH. O grupo amino está na forma NH2.",
+      "C": "Uma estrutura química da penicilamina. O grupo carboxila está na forma COO-. O grupo amino está na forma NH3+.",
+      "D": "Uma estrutura química da penicilamina. O grupo carboxila está na forma COOH. O grupo amino está na forma NH3+.",
+      "E": "Uma estrutura química da penicilamina. O grupo carboxila está na forma COOH. O grupo amino está na forma NH3+."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra a fórmula estrutural plana da penicilamina. A estrutura é composta por um átomo de enxofre (S) ligado a um carbono. Este carbono está ligado a um grupo metil (CH3), um hidrogênio (H) e outro carbono. Este segundo carbono está ligado a um grupo metil (CH3) e a um grupo amino (NH2). O primeiro carbono também está ligado a um grupo carboxila (COOH). A legenda abaixo da estrutura é 'Penicilamina'. Abaixo, há cinco opções de estruturas químicas (A, B, C, D, E), cada uma mostrando uma variação da penicilamina com diferentes estados de ionização para os grupos carboxila e amino."
+    }
+  },
+  {
+    "posicao": 94,
+    "enunciado": "Qual o mecanismo utilizado no experimento para enganar as células de defesa, fazendo com que ataquem o tumor?",
+    "texto_base": "O protozoário Trypanosoma cruzi, causador da doença de Chagas, pode ser a nova arma da medicina contra o câncer. Pesquisadores brasileiros conseguiram criar uma vacina contra a doença usando uma variação do protozoário incapaz de desencadear a patologia (não patogênico). Para isso, realizaram uma modificação genética criando um T. cruzi capaz de produzir também moléculas fabricadas pelas células tumorais. Quando o organismo inicia o combate ao protozoário, entra em contato também com a molécula tumoral, que passa a ser vista também pelo sistema imune como um indicador de células de protozoário. Depois de induzidas as defesas, estas passam a destruir todas as células com a molécula tumoral, como se lutassem apenas contra o protozoário. Disponível em: www.estadao.com.br. Acesso em: 1 mar. 2012 (adaptado).",
+    "alternativas": {
+      "A": "Autoimunidade.",
+      "B": "Hipersensibilidade.",
+      "C": "Ativação da resposta inata.",
+      "D": "Apresentação de antígeno específico.",
+      "E": "Desencadeamento de processo anti-inflamatório."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 95,
+    "enunciado": "Os gráficos indicam, em tempo real, o sinal sonoro detectado pelos dois dispositivos, os quais foram ligados simultaneamente em um instante anterior à queda do bloco de gelo. Ao comparar pontos correspondentes desse sinal em cada dispositivo, é possível obter informações sobre a onda sonora. A distância L, em metro, entre o barco e a geleira é mais próxima de",
+    "texto_base": "O sinal sonoro oriundo da queda de um grande bloco de gelo de uma geleira é detectado por dois dispositivos situados em um barco, sendo que o detector A está imerso em água e o B, na proa da embarcação. Sabe-se que a velocidade do som na água é de 1 540 m/s e no ar é de 340 m/s.",
+    "alternativas": {
+      "A": "339 000.",
+      "B": "78 900.",
+      "C": "14 400.",
+      "D": "5 240.",
+      "E": "100."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem superior mostra um esquema. À esquerda, um barco flutua na água. Na proa do barco, há um detector B (no ar). Abaixo da superfície da água, próximo ao barco, há um detector A (na água). À direita, uma geleira com um bloco de gelo caindo na água, gerando ondas sonoras. Uma linha horizontal pontilhada, rotulada 'L', indica a distância entre o barco e a geleira. Abaixo, há dois gráficos de sinal versus tempo. O primeiro gráfico, rotulado 'A', mostra o sinal detectado pelo dispositivo A. O eixo horizontal é 'Tempo (s)' variando de 208 a 244, com marcas a cada 4 segundos. O eixo vertical é 'Sinal'. O gráfico A exibe dois pulsos principais: o primeiro, mais intenso, começa pouco antes de 209s e atinge o pico por volta de 209.5s; o segundo, menos intenso, começa pouco antes de 229s e atinge o pico por volta de 229.5s. O segundo gráfico, rotulado 'B', mostra o sinal detectado pelo dispositivo B. O eixo horizontal é 'Tempo (s)' variando de 208 a 244, com marcas a cada 4 segundos. O eixo vertical é 'Sinal'. O gráfico B também exibe dois pulsos principais: o primeiro, mais intenso, começa por volta de 209.5s e atinge o pico por volta de 210.5s; o segundo, menos intenso, começa por volta de 230.5s e atinge o pico por volta de 231.5s."
+    }
+  },
+  {
+    "posicao": 96,
+    "enunciado": "Que fenômeno óptico explica o funcionamento da 'luz engarrafada'?",
+    "texto_base": "Em 2002, um mecânico da cidade mineira de Uberaba (MG) teve uma ideia para economizar o consumo de energia elétrica e iluminar a própria casa num dia de sol. Para isso, ele utilizou garrafas plásticas PET com água e cloro, conforme ilustram as figuras. Cada garrafa foi fixada ao telhado de sua casa em um buraco com diâmetro igual ao da garrafa, muito maior que o comprimento de onda da luz. Nos últimos dois anos, sua ideia já alcançou diversas partes do mundo e deve atingir a marca de 1 milhão de casas utilizando a 'luz engarrafada'. Disponível em: www.bbc.com. Acesso em: 23 jun. 2022 (adaptado).",
+    "alternativas": {
+      "A": "Difração.",
+      "B": "Absorção.",
+      "C": "Polarização.",
+      "D": "Reflexão.",
+      "E": "Refração."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra duas fotografias lado a lado. A fotografia da esquerda mostra uma garrafa plástica PET transparente, cheia de líquido, com a parte superior exposta à luz solar e a parte inferior emitindo luz para baixo, como uma lâmpada. A fotografia da direita mostra um homem, possivelmente o mecânico, sentado em um ambiente interno que parece ser iluminado por várias dessas garrafas fixadas no teto, visíveis como pontos de luz. O homem está sorrindo e olhando para a câmera."
+    }
+  },
+  {
+    "posicao": 97,
+    "enunciado": "Qual é a etapa de retirada de grande parte desses sólidos?",
+    "texto_base": "A água bruta coletada de mananciais apresenta alto índice de sólidos suspensos, o que a deixa com um aspecto turvo. Para se obter uma água límpida e potável, ela deve passar por um processo de purificação numa estação de tratamento de água. Nesse processo, as principais etapas são, nesta ordem: coagulação, decantação, filtração, desinfecção e fluoretação.",
+    "alternativas": {
+      "A": "Coagulação.",
+      "B": "Decantação.",
+      "C": "Filtração.",
+      "D": "Desinfecção.",
+      "E": "Fluoretação."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 98,
+    "enunciado": "Em qual etapa do metabolismo energético celular a termogenina interfere?",
+    "texto_base": "Os ursos, por não apresentarem uma hibernação verdadeira, acordam por causa da presença de termogenina, uma proteína mitocondrial que impede a chegada dos prótons até a ATP sintase, gerando calor. Esse calor é importante para aquecer o organismo, permitindo seu despertar.SADAVA, D et al. Vida: a ciência da biologia. Porto Alegre: Artmed, 2009 (adaptado).",
+    "alternativas": {
+      "A": "Glicólise.",
+      "B": "Fermentação lática.",
+      "C": "Ciclo do ácido cítrico.",
+      "D": "Oxidação do piruvato.",
+      "E": "Fosforilação oxidativa."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 99,
+    "enunciado": "Nesse teste, a ordenação das rotas indicadas pelo aplicativo será:",
+    "texto_base": "A fim de classificar as melhores rotas em um aplicativo de trânsito, um pesquisador propõe um modelo com base em circuitos elétricos. Nesse modelo, a corrente representa o número de carros que passam por um ponto da pista no intervalo de 1 s. A diferença de potencial (d.d.p.) corresponde à quantidade de energia por carro necessária para o deslocamento de 1 m. De forma análoga à lei de Ohm, cada via é classificada pela sua resistência, sendo a de maior resistência a mais congestionada. O aplicativo mostra as rotas em ordem crescente, ou seja, da rota de menor para a de maior resistência.Como teste para o sistema, são utilizadas três possíveis vias para uma viagem de A até B, com os valores de d.d.p. e corrente conforme a tabela.",
+    "alternativas": {
+      "A": "1, 2, 3.",
+      "B": "1, 3, 2.",
+      "C": "2, 1, 3.",
+      "D": "3, 1, 2.",
+      "E": "3, 2, 1."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com quatro colunas: 'Rota', 'd.d.p. (J/carro·m)', 'Corrente' e 'carro/s'. A primeira linha de dados é '1', '510', '4'. A segunda linha de dados é '2', '608', '4'. A terceira linha de dados é '3', '575', '3'."
+    }
+  },
+  {
+    "posicao": 100,
+    "enunciado": "Em um solo de menor pH, será favorecida a formação de:",
+    "texto_base": "O esquema representa o ciclo do nitrogênio:A chuva ácida interfere no ciclo do nitrogênio, principalmente, por proporcionar uma diminuição do pH do solo e da atmosfera, alterando a concentração dos compostos presentes nesse ciclo.Disponível em: http://scienceprojectideasforkids.com. Acesso em: 6 ago. 2012 (adaptado).",
+    "alternativas": {
+      "A": "N₂",
+      "B": "NH₃",
+      "C": "NH₄⁺",
+      "D": "NO₂⁻",
+      "E": "NO₃⁻"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um diagrama do ciclo do nitrogênio. No centro, há um solo com raízes de plantas. Acima do solo, plantas e decompositores. Setas indicam as transformações: Bactérias fixadoras de N₂ nos nódulos de raízes de leguminosas levam à Amonificação. Bactérias fixadoras de N₂ no solo também contribuem. Amônia e Amônio (NH₃/NH₄⁺) são formados. Bactérias nitrificantes convertem Amônia e Amônio em Nitritos (NO₂⁻). Outras bactérias nitrificantes convertem Nitritos em Nitratos (NO₃⁻). Plantas assimilam Nitratos. Decompositores (fungos e bactérias aeróbicas e anaeróbicas) também atuam sobre plantas e animais mortos, liberando Amônia e Amônio. Bactérias desnitrificantes convertem Nitratos de volta em N₂ (gás nitrogênio), que retorna à atmosfera."
+    }
+  },
+  {
+    "posicao": 101,
+    "enunciado": "Um animal que tem bastonetes mais sensíveis irá",
+    "texto_base": "No processo de captação da luz pelo olho para a formação de imagens estão envolvidas duas estruturas celulares: os cones e os bastonetes. Os cones são sensíveis à energia dos fótons, e os bastonetes, à quantidade de fótons incidentes. A energia dos fótons que compõem os raios luminosos está associada à sua frequência, e a intensidade, ao número de fótons incidentes.",
+    "alternativas": {
+      "A": "apresentar daltonismo.",
+      "B": "perceber cores fora do espectro do visível.",
+      "C": "enxergar bem em ambientes mal iluminados.",
+      "D": "necessitar de mais luminosidade para enxergar.",
+      "E": "fazer uma pequena distinção de cores em ambientes iluminados."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 102,
+    "enunciado": "A característica estrutural dessa família de compostos é a presença de",
+    "texto_base": "De modo geral, a palavra \"aromático\" invoca associações agradáveis, como cheiro de café fresco ou de um pão doce de canela. Associações similares ocorriam no passado da história da química orgânica, quando os compostos ditos \"aromáticos\" apresentavam um odor agradável e foram isolados de óleos naturais. À medida que as estruturas desses compostos eram elucidadas, foi se descobrindo que vários deles continham uma unidade estrutural específica. Os compostos aromáticos que continham essa unidade estrutural tornaram-se parte de uma grande família, muito mais com base em suas estruturas eletrônicas do que nos seus cheiros, como as substâncias a seguir, encontradas em óleos vegetais.SOLOMONS, T. W. G.; FRYHLE, C. B. Química orgânica. Rio de Janeiro: LTC, 2009 (adaptado).",
+    "alternativas": {
+      "A": "ramificações.",
+      "B": "insaturações.",
+      "C": "anel benzênico.",
+      "D": "átomos de oxigênio.",
+      "E": "carbonos assimétricos."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem apresenta seis estruturas químicas de compostos orgânicos. 1. Benzaldeído (no óleo de amêndoas): Um anel benzênico ligado a um grupo -CHO (aldeído). 2. Salicilato de metila (no óleo de gaultéria): Um anel benzênico com um grupo -OH e um grupo -COOCH3. 3. Anatol (no óleo de anis): Um anel benzênico com um grupo -OCH3 e uma cadeia lateral -CH=CH-CH3. 4. Vanilina (no óleo de baunilha): Um anel benzênico com um grupo -OH, um grupo -OCH3 e um grupo -CHO. 5. Eugenol (no óleo de cravos): Um anel benzênico com um grupo -OH, um grupo -OCH3 e uma cadeia lateral -CH2-CH=CH2. 6. Cinamaaldeído (no óleo de canela): Um anel benzênico ligado a uma cadeia lateral -CH=CH-CHO. Todas as estruturas possuem um anel benzênico (anel de seis carbonos com ligações duplas alternadas)."
+    }
+  },
+  {
+    "posicao": 103,
+    "enunciado": "Essa tecnologia utilizada no combate à dengue consiste na",
+    "texto_base": "Os resultados de um ensaio clínico randomizado na Indonésia apontaram uma redução de 77% dos casos de dengue nas áreas que receberam o mosquito Aedes aegypti infectado com a bactéria Wolbachia. Trata-se da mesma técnica utilizada no Brasil pelo Método Wolbachia, iniciativa conduzida pela Fundação Oswaldo Cruz — Fiocruz. Essa bactéria induz a redução da carga viral no mosquito e, consequentemente, o número de casos de dengue na área, sendo repassada por meio do cruzamento entre os insetos. Como essa bactéria é um organismo intracelular e o vírus também precisa entrar nas células para se reproduzir, ambos necessitarão de recursos comuns.COSTA, G. Agência Fiocruz de Notícias. Estudo confirma eficácia do Método Wolbachia para dengue. Disponível em: https://portal.fiocruz.br. Acesso em: 3 jun. 2022 (adaptado).",
+    "alternativas": {
+      "A": "predação do vírus pela bactéria.",
+      "B": "esterilização de mosquitos infectados.",
+      "C": "alteração no genótipo do mosquito pela bactéria.",
+      "D": "competição do vírus e da bactéria no hospedeiro.",
+      "E": "inserção de material genético do vírus na bactéria."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 104,
+    "enunciado": "Casos como o dessa árvore podem provocar a redução da biodiversidade, pois elas",
+    "texto_base": "A extinção de espécies é uma ameaça real que afeta diversas regiões do país. A introdução de espécies exóticas pode ser considerada um fator maximizador desse processo. A jaqueira (Artocarpus heterophyllus), por exemplo, é uma árvore originária da Índia e de regiões do Sudeste Asiático que foi introduzida ainda na era colonial e se aclimatou muito bem em praticamente todo o território nacional.",
+    "alternativas": {
+      "A": "ocupam áreas de vegetação nativa e substituem parcialmente a flora original.",
+      "B": "estimulam a competição por seus frutos entre animais típicos da região e eliminam as espécies perdedoras.",
+      "C": "alteram os nichos e aumentam o número de possibilidades de relações entre os seres vivos daquele ambiente.",
+      "D": "apresentam alta taxa de reprodução e se mantêm com um número de indivíduos superior à capacidade suporte do ambiente.",
+      "E": "diminuem a relação de competição entre os polinizadores e facilitam a ação de dispersores de sementes de espécies nativas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 105,
+    "enunciado": "Em um dia de calor intenso, dois colegas estão a brincar com a água da mangueira. Um deles quer saber até que altura o jato de água alcança, a partir da saída de água, quando a mangueira está posicionada totalmente na direção vertical. O outro colega propõe então o seguinte experimento: eles posicionarem a saída de água da mangueira na direção horizontal, a 1 m de altura em relação ao chão, e então medirem a distância horizontal entre a mangueira e o local onde a água atinge o chão. A medida dessa distância foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de água. Considere a aceleração da gravidade de 10 m s⁻².O resultado que eles obtiveram foi de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "1,50 m.",
+      "B": "2,25 m.",
+      "C": "4,00 m.",
+      "D": "4,50 m.",
+      "E": "5,00 m."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 106,
+    "enunciado": "O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana-de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de-açúcar e cada uma recebeu um código de identificação. No quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.Pretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50% da concentração de sacarose nesse tempo, para cada 1,0 mg L⁻¹ de microrganismos presentes na cana-de-açúcar.Disponível em: www.inovacao.unicamp.br. Acesso em: 11 ago. 2012 (adaptado).Qual tipo de cana-de-açúcar deve ser escolhido?",
+    "texto_base": "Amostra de cana-de-açúcarRB72 RB84 RB92 SP79 SP80Concentração inicialde sacarose (g L⁻¹)13,0 18,0 16,0 14,0 17,0Concentração demicrorganismos(mg L⁻¹)0,7 0,8 0,6 0,5 0,9",
+    "alternativas": {
+      "A": "RB72",
+      "B": "RB84",
+      "C": "RB92",
+      "D": "SP79",
+      "E": "SP80"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada 'Amostra de cana-de-açúcar' com duas linhas e seis colunas. A primeira coluna lista 'Concentração inicial de sacarose (g L⁻¹)' e 'Concentração de microrganismos (mg L⁻¹)'. As outras cinco colunas são para as amostras RB72, RB84, RB92, SP79 e SP80. Os valores para concentração inicial de sacarose são: RB72=13,0, RB84=18,0, RB92=16,0, SP79=14,0, SP80=17,0. Os valores para concentração de microrganismos são: RB72=0,7, RB84=0,8, RB92=0,6, SP79=0,5, SP80=0,9."
+    }
+  },
+  {
+    "posicao": 107,
+    "enunciado": "Entre as diversas técnicas para diagnóstico da covid-19, destaca-se o teste genético. Considerando as diferentes variantes e cargas virais, um exemplo é a PCR, reação efetuada por uma enzima do tipo polimerase. Essa técnica permite identificar, com confiabilidade, o material genético do SARS-CoV-2, um vírus de RNA. Para comprovação da infecção por esse coronavírus, são coletadas amostras de secreções do indivíduo. Uma etapa que antecede a reação de PCR precisa ser realizada para permitir a amplificação do material genético do vírus.Essa etapa deve ser realizada para",
+    "texto_base": "",
+    "alternativas": {
+      "A": "concentrar o RNA viral para otimizar a técnica.",
+      "B": "identificar nas amostras anticorpos anti-SARS-CoV-2.",
+      "C": "proliferar o vírus em culturas, aumentando a carga viral.",
+      "D": "purificar ácidos nucleicos virais, facilitando a ação da enzima.",
+      "E": "obter moléculas de cDNA viral por meio da transcrição reversa."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 108,
+    "enunciado": "Tribologia é o estudo da interação entre duas superfícies em contato, como desgaste e atrito, sendo de extrema importância na avaliação de diferentes produtos e de bens de consumo em general. Para testar a conformidade de uma muleta, realiza-se um ensaio tribológico, pressionando-a verticalmente contra o piso com uma força F, conforme ilustra a imagem, em que CM representa o centro de massa da muleta.Mantendo-se a força F paralela à muleta, varia-se lentamente o ângulo entre a muleta e a vertical, até o máximo ângulo imediatamente anterior ao de escorregamento, denominado ângulo crítico. Esse ângulo também pode ser calculado a partir da identificação dos pontos de aplicação, da direção e do sentido das forças peso (P), normal (N) e de atrito estático (fₑ).O esquema que representa corretamente todas as forças que atuam sobre a muleta quando ela atinge o ângulo crítico é:",
+    "texto_base": "Uma imagem ilustrativa de uma muleta vertical apoiada no chão. Uma força F é aplicada verticalmente para baixo no topo da muleta. Um ponto CM (centro de massa) é indicado no meio da muleta.",
+    "alternativas": {
+      "A": "Diagrama de uma muleta inclinada para a direita, apoiada no chão. Uma força F é aplicada verticalmente para baixo no topo da muleta. O centro de massa (CM) está no meio da muleta. No ponto de contato com o chão, a força normal (N) aponta verticalmente para cima, a força peso (P) aponta verticalmente para baixo a partir do CM, e a força de atrito estático (fₑ) aponta horizontalmente para a esquerda.",
+      "B": "Diagrama de uma muleta inclinada para a direita, apoiada no chão. Uma força F é aplicada verticalmente para baixo no topo da muleta. O centro de massa (CM) está no meio da muleta. No ponto de contato com o chão, a força normal (N) aponta verticalmente para cima, a força peso (P) aponta verticalmente para baixo a partir do CM, e a força de atrito estático (fₑ) aponta horizontalmente para a direita.",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta uma imagem inicial de uma muleta vertical com uma força F aplicada no topo e o centro de massa (CM) indicado. Abaixo, há duas opções de diagramas de forças, rotuladas A e B. O diagrama A mostra uma muleta inclinada para a direita. Uma força F é aplicada verticalmente para baixo no topo. O centro de massa (CM) está no meio da muleta. No ponto de contato com o chão, a força normal (N) aponta para cima, a força peso (P) aponta para baixo a partir do CM, e a força de atrito estático (fₑ) aponta para a esquerda. O diagrama B também mostra uma muleta inclinada para a direita. Uma força F é aplicada verticalmente para baixo no topo. O centro de massa (CM) está no meio da muleta. No ponto de contato com o chão, a força normal (N) aponta para cima, a força peso (P) aponta para baixo a partir do CM, e a força de atrito estático (fₑ) aponta para a direita."
+    }
+  },
+  {
+    "posicao": 109,
+    "enunciado": "Nessa conversão de polissacarídeos, a função do íon H⁺ é",
+    "texto_base": "A biomassa celulósica pode ser utilizada para a produção de etanol de segunda geração. Entretanto, é necessário que os polissacarídeos sejam convertidos em mono e dissacarídeos, processo que pode ser conduzido em meio ácido, conforme mostra o esquema:OGEDA, T. L.; PETRI, D. F. S. [...] Química Nova, n. 7, 2010 (adaptado).",
+    "alternativas": {
+      "A": "dissolver os reagentes.",
+      "B": "deslocar o equilíbrio químico.",
+      "C": "aumentar a velocidade da reação.",
+      "D": "mudar a constante de equilíbrio da reação.",
+      "E": "formar ligações de hidrogênio com o polissacarídeo."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um esquema de reações químicas que ilustra a hidrólise de um polissacarídeo em meio ácido. O esquema mostra um polissacarídeo (representado por uma unidade de glicose ligada a outras por ligações glicosídicas) reagindo com H⁺. A primeira etapa é a protonação do oxigênio da ligação glicosídica. A segunda etapa é a quebra da ligação, formando um carbocátion e uma molécula de glicose. A terceira etapa é a adição de água ao carbocátion, seguida pela desprotonação para regenerar o H⁺ e formar outra molécula de glicose. As estruturas químicas são representadas com anéis de seis membros contendo oxigênio e grupos hidroxila (OH)."
+    }
+  },
+  {
+    "posicao": 110,
+    "enunciado": "A concentração de ácido tartárico no vinho analisado é mais próxima de:",
+    "texto_base": "O ácido tartárico é o principal ácido do vinho e está diretamente relacionado com sua qualidade. Na avaliação de um vinho branco em produção, uma analista neutralizou uma alíquota de 25,0 mL do vinho com NaOH a 0,10 mol L⁻¹, consumindo um volume igual a 8,0 mL dessa base. A reação para esse processo de titulação é representada pela equação química:Ácido tartárico(massa molar: 150 g mol⁻¹)",
+    "alternativas": {
+      "A": "1,8 g L⁻¹",
+      "B": "2,4 g L⁻¹",
+      "C": "3,6 g L⁻¹",
+      "D": "4,8 g L⁻¹",
+      "E": "9,6 g L⁻¹"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma equação química que representa a reação de neutralização do ácido tartárico com hidróxido de sódio (NaOH). A estrutura do ácido tartárico é mostrada com dois grupos carboxila (-COOH) e dois grupos hidroxila (-OH) em uma cadeia de quatro carbonos. A reação é: Ácido tartárico + 2 NaOH → Sal dissódico do ácido tartárico (com -COONa) + 2 H₂O. O sal dissódico é representado com os grupos carboxila desprotonados e ligados a íons sódio."
+    }
+  },
+  {
+    "posicao": 111,
+    "enunciado": "O disjuntor adequado para a proteção dessa ducha é especificado por:",
+    "texto_base": "O manual de uma ducha elétrica informa que seus três níveis de aquecimento (morno, quente e superquente) apresentam as seguintes variações de temperatura da água em função de sua vazão:Utiliza-se um disjuntor para proteger o circuito dessa ducha contra sobrecargas elétricas em qualquer nível de aquecimento. Por padrão, o disjuntor é especificado pela corrente nominal igual ao múltiplo de 5 A imediatamente superior à corrente máxima do circuito. Considere que a ducha deve ser ligada em 220 V e que toda a energia é dissipada através da resistência do chuveiro e convertida em energia térmica transferida para a água, que apresenta calor específico de 4,2 J g⁻¹ °C⁻¹ e densidade de 1 000 g L⁻¹.",
+    "alternativas": {
+      "A": "60 A",
+      "B": "30 A",
+      "C": "20 A",
+      "D": "10 A",
+      "E": "5 A"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada 'ΔT(°C)' que mostra a variação de temperatura da água em função da vazão para diferentes níveis de aquecimento de uma ducha. A tabela tem quatro colunas: 'Vazão (L/min)', 'Morno', 'Quente' e 'Superquente'. As linhas de dados são: para 3 L/min, as temperaturas são 10 °C (Morno), 20 °C (Quente) e 30 °C (Superquente); para 6 L/min, as temperaturas são 5 °C (Morno), 10 °C (Quente) e 15 °C (Superquente)."
+    }
+  },
+  {
+    "posicao": 116,
+    "enunciado": "O grande risco envolvido no emprego indiscriminado dessa substância deve-se à sua ação química como",
+    "texto_base": "Durante o ano de 2020, impulsionado pela necessidade de respostas rápidas e eficientes para desinfectar ambientes de possíveis contaminações com o SARS-CoV-2, causador da covid-19, diversas alternativas foram buscadas para os procedimentos de descontaminação de materiais e ambientes. Entre elas, o uso de ozônio em meio aquoso como agente sanitizante para pulverização em humanos e equipamentos de proteção em câmaras ou túneis, higienização de automóveis e de ambientes fechados e descontaminação de trajes. No entanto, pouca atenção foi dada à toxicidade do ozônio, à formação de subprodutos, ao nível de concentração segura e às populações necessárias.LIMA, M. J. A.; FELIX, E. P.; CARDOSO, A. A. Aplicações e implicações do ozônio na indústria, ambiente e saúde. Química Nova, n. 9, 2021 (adaptado).",
+    "alternativas": {
+      "A": "catalisador.",
+      "B": "oxidante.",
+      "C": "redutor.",
+      "D": "ácido.",
+      "E": "base."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 117,
+    "enunciado": "Entre mulheres heterozigotas para doenças determinadas por genes recessivos ligados ao sexo, essa inativação tem como consequência a ocorrência de",
+    "texto_base": "Na figura está representado o mosaicismo em função da inativação aleatória de um dos cromossomos X, que ocorre em todas as mulheres sem alterações patológicas.",
+    "alternativas": {
+      "A": "pleiotropia.",
+      "B": "mutação gênica.",
+      "C": "interação gênica.",
+      "D": "penetração incompleta.",
+      "E": "expressividade variável."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama mostrando o processo de formação de um indivíduo feminino e a inativação do cromossomo X. Começa com um Gameta masculino (22+X) e um Gameta feminino (22+X) formando um Zigoto (44+XX). O zigoto se desenvolve em uma Blástula (44+XX). A partir da blástula, são mostradas Amostras de células corporais de uma mulher. As células são representadas por círculos, alguns com um ponto preto no centro e outros com um círculo vazio no centro. Uma legenda indica que Células com cromossomo X paterno inativado são representadas por um círculo preto, e Células com cromossomo X materno inativado são representadas por um círculo vazio. O diagrama mostra que diferentes células no corpo da mulher têm diferentes cromossomos X inativados, resultando em um padrão de mosaicismo."
+    }
+  },
+  {
+    "posicao": 118,
+    "enunciado": "Considerando apenas o campo magnético por causa da corrente i, as respectivas configurações das bússolas nos pontos A, B e C serão",
+    "texto_base": "O físico Hans C. Oersted observou que um fio transportando corrente elétrica produz um campo magnético. A presença do campo magnético foi verificada ao aproximar uma bússola de um fio conduzindo corrente elétrica. A figura ilustra um fio percorrido por uma corrente elétrica i, constante e com sentido para cima. Os pontos A, B e C estão num plano transversal e equidistantes do fio. Em cada ponto foi colocada uma bússola.",
+    "alternativas": {
+      "A": "Diagrama com um fio vertical com corrente para cima. Três bússolas são dispostas em um círculo ao redor do fio. As agulhas das bússolas apontam no sentido horário, com a ponta escura (norte) seguindo a direção do campo magnético circular.",
+      "B": "Diagrama com um fio vertical com corrente para cima. Três bússolas são dispostas em um círculo ao redor do fio. As agulhas das bússolas apontam no sentido anti-horário, com a ponta escura (norte) seguindo a direção do campo magnético circular.",
+      "C": "Diagrama com um fio vertical com corrente para cima. Três bússolas são dispostas em um círculo ao redor do fio. As agulhas das bússolas apontam no sentido horário, mas a ponta escura (norte) de cada agulha está voltada para o fio.",
+      "D": "Diagrama com um fio vertical com corrente para cima. Três bússolas são dispostas em um círculo ao redor do fio. As agulhas das bússolas apontam no sentido anti-horário, mas a ponta escura (norte) de cada agulha está voltada para o fio.",
+      "E": "Diagrama com um fio vertical com corrente para cima. Três bússolas são dispostas em um círculo ao redor do fio. As agulhas das bússolas apontam no sentido horário, mas a ponta escura (norte) de cada agulha está voltada para fora do círculo."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A figura principal ilustra um fio condutor vertical, percorrido por uma corrente elétrica 'i' constante e com sentido para cima. Em um plano horizontal que atravessa o fio, são indicados três pontos (A, B, C) equidistantes do fio, formando um círculo tracejado. Uma seta curva indica o sentido do campo magnético ao redor do fio. Ao lado, há uma imagem de uma bússola com sua agulha apontando para o Norte (N) e Sul (S), para referência."
+    }
+  },
+  {
+    "posicao": 119,
+    "enunciado": "Qual associação de baterias foi responsável pelo acidente?",
+    "texto_base": "O quadro mostra valores de corrente elétrica e seus efeitos sobre o corpo humano.Corrente elétricaDano físicoAté 10 mADor e contração muscularDe 10 mA até 20 mAAumento das contrações muscularesDe 20 mA até 100 mAParada respiratóriaDe 100 mA até 3 AFibrilação ventricularAcima de 3 AParada cardíaca e queimadurasA corrente elétrica que percorrerá o corpo de um indivíduo depende da tensão aplicada e da resistência elétrica média do corpo humano. Esse último fator está intimamente relacionado com a umidade da pele, que seca apresenta resistência elétrica da ordem de 500 kΩ, mas, se molhada, pode chegar a apenas 1 kΩ.Apesar de incomum, é possível sofrer um acidente utilizando baterias de 12 V. Considere que um indivíduo com a pele molhada sofreu uma parada respiratória ao tocar simultaneamente nos pontos A e B de uma associação de duas dessas baterias.DURAN, J. E. R. Biofísica: fundamentos e aplicações. São Paulo: Pearson Prentice Hall, 2003 (adaptado).",
+    "alternativas": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta uma tabela e cinco diagramas de circuitos elétricos. A tabela, intitulada 'Corrente elétrica' e 'Dano físico', descreve os efeitos da corrente elétrica no corpo humano: até 10 mA causa dor e contração muscular; de 10 mA até 20 mA causa aumento das contrações musculares; de 20 mA até 100 mA causa parada respiratória; de 100 mA até 3 A causa fibrilação ventricular; acima de 3 A causa parada cardíaca e queimaduras. Abaixo da tabela, há cinco opções (A, B, C, D, E), cada uma mostrando um diagrama de duas baterias e dois pontos de contato, A e B. As baterias são representadas por retângulos com um lado maior (+) e um lado menor (-). Na opção A, duas baterias estão conectadas em série, com o terminal negativo de uma conectado ao terminal positivo da outra. Os pontos A e B estão nos terminais externos. Na opção B, duas baterias estão conectadas em paralelo, com os terminais positivos conectados entre si e os terminais negativos conectados entre si. Os pontos A e B estão nos terminais externos. Na opção C, duas baterias estão conectadas em série, mas uma delas está invertida, com o terminal positivo de uma conectado ao terminal positivo da outra. Os pontos A e B estão nos terminais externos. Na opção D, duas baterias estão conectadas em paralelo, mas uma delas está invertida, com o terminal positivo de uma conectado ao terminal negativo da outra e vice-versa. Os pontos A e B estão nos terminais externos. Na opção E, duas baterias estão conectadas em série, com ambas invertidas em relação à conexão padrão, ou seja, o terminal negativo de uma está conectado ao terminal positivo da outra, mas a polaridade geral é invertida. Os pontos A e B estão nos terminais externos."
+    }
+  },
+  {
+    "posicao": 120,
+    "enunciado": "Considerando a diferença de massa mencionada entre os dois isótopos, que tipo de procedimento alternativo ao da efusão pode ser empregado para tal finalidade?",
+    "texto_base": "O urânio é empregado como fonte de energia em reatores nucleares. Para tanto, o seu mineral deve ser refinado, convertido a hexafluoreto de urânio e posteriormente enriquecido, para aumentar de 0,7% a 3% a abundância de um isótopo específico — o urânio-235. Uma das formas de enriquecimento utiliza a pequena diferença de massa entre os hexafluoretos de urânio-235 e de urânio-238 para separá-los por efusão, precedida pela vaporização. Esses vapores devem difundir repetidamente milhares de vezes através de barreiras porosas formadas por telas com grande número de pequenos orifícios. No entanto, devido à complexidade e à grande quantidade de energia envolvida, cientistas e engenheiros continuam a pesquisar procedimentos alternativos de enriquecimento.ATKINS, P.; JONES, L. Princípios de química: questionando a vida moderna e o meio ambiente. Porto Alegre: Bookman, 2006 (adaptado).",
+    "alternativas": {
+      "A": "Peneiração.",
+      "B": "Centrifugação.",
+      "C": "Extração por solvente.",
+      "D": "Destilação fracionada.",
+      "E": "Separação magnética."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 121,
+    "enunciado": "O sucesso dessa terapia advém do fato de que o produto favorecerá a",
+    "texto_base": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou um produto de terapia gênica no país, indicado para o tratamento da distrofia hereditária da retina. O procedimento é recomendado para crianças acima de 12 meses e adultos com perda de visão causada pela mutação do gene humano RPE65. O produto, elaborado por engenharia genética, é composto por um vírus, no qual foi inserida uma cópia do gene normal humano RPE65 para corrigir o funcionamento das células da retina.ANVISA. Disponível em: www.gov.br/anvisa. Acesso em: 4 dez. 2021 (adaptado).",
+    "alternativas": {
+      "A": "correção do código genético para a tradução da proteína.",
+      "B": "alteração do RNA ribossômico ligado à síntese da proteína.",
+      "C": "produção de mutações benéficas para a correção do problema.",
+      "D": "liberação imediata da proteína normal na região ocular humana.",
+      "E": "expressão do gene responsável pela produção da enzima normal."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 122,
+    "enunciado": "Esse procedimento de remediação de águas subterrâneas baseia-se em reações de",
+    "texto_base": "A figura ilustra esquematicamente um processo de remediação de solos contaminados com tricloroeteno (TCE), um agente desengraxante. Em razão de vazamentos de tanques de estocagem ou de manejo inapropriado de resíduos industriais, ele se encontra presente em águas subterrâneas, nas quais forma uma fase líquida densa não aquosa (DNAPL) que se deposita no fundo do aquífero. Essa tecnologia de descontaminação emprega o íon persulfato (S2O8²⁻), que é convertido no radical •SO4⁻ por minerais que contêm Fe(II). O esquema representa de forma simplificada mecanismo de ação química sobre o TCE e a formação dos produtos de degradação.BERTAGI, L. T.; BASÍLIO, A. O.; PERALTA-ZAMORA, P. Aplicações ambientais de persulfato: remediação de águas subterrâneas e solos contaminados. Química Nova, n. 9, 2021 (adaptado).",
+    "alternativas": {
+      "A": "oxirredução.",
+      "B": "substituição.",
+      "C": "precipitação.",
+      "D": "desidratação.",
+      "E": "neutralização."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um diagrama esquemático que ilustra um processo de remediação de águas subterrâneas contaminadas com tricloroeteno (TCE). O diagrama mostra o solo na parte superior, com um caminhão e um tanque de armazenamento de S2O8²⁻, indicando 'MONITORAMENTO'. Abaixo do solo, há uma camada de 'SOLO' e, mais abaixo, a 'ÁGUA SUBTERRÂNEA'. Um poço é perfurado através do solo até a água subterrânea, onde o tricloroeteno (TCE) é representado como uma fase líquida densa não aquosa (DNAPL) no fundo do aquífero. O íon persulfato (S2O8²⁻) é injetado no poço e reage com Fe(II) presente nos minerais do solo, formando o radical •SO4⁻. O diagrama mostra setas indicando a reação do •SO4⁻ com o TCE (C2HCl3), resultando na formação de H2O, CO2 e Cl⁻. As moléculas de TCE são representadas com seus átomos de carbono, hidrogênio e cloro. O processo é dividido em 'DNAPL', 'SOLUBILIZAÇÃO' e 'ÁGUA SUBTERRÂNEA'."
+    }
+  },
+  {
+    "posicao": 123,
+    "enunciado": "Uma medida profilática comum a essas duas doenças é o(a)",
+    "texto_base": "De acordo com a Organização Mundial da Saúde, a filaríase e a leishmaniose são consideradas doenças tropicais infecciosas e constituem uma preocupação para a saúde pública por ser alto o índice de mortalidade a elas associado.",
+    "alternativas": {
+      "A": "incineração do lixo orgânico.",
+      "B": "construção de rede de esgoto.",
+      "C": "uso de vermífugo pela população.",
+      "D": "controle das populações dos vetores.",
+      "E": "consumo de carnes vermelhas bem cozidas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 124,
+    "enunciado": "Nessas condições, a área total dos painéis solares que compõem o Parque Solar Lapa é mais próxima de:",
+    "texto_base": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente potência igual a 75 MW, com o parque totalizando uma potência instalada de 150 MW. Considere ainda que a irradiação solar média é de 1 500 W/m² e que a eficiência dos painéis é de 20%.Parque Solar Lapa entra em operação. Disponível em: www.canalenergia.com.br. Acesso em: 9 jun. 2022 (adaptado).",
+    "alternativas": {
+      "A": "1 000 000 m²",
+      "B": "500 000 m²",
+      "C": "250 000 m²",
+      "D": "100 000 m²",
+      "E": "20 000 m²"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 125,
+    "enunciado": "O descarte dos conjuntos (1) e (2) resultará, respectivamente, em",
+    "texto_base": "Os riscos apresentados pelos produtos dependem de suas propriedades e da reatividade quando em contato com outras substâncias. Para prevenir os riscos devido à natureza química dos produtos, devemos conhecer a lista de substâncias incompatíveis e de uso cotidiano em fábricas, hospitais e laboratórios, a fim de observar cuidados na estocagem, manipulação e descarte. O quadro elenca algumas dessas incompatibilidades, que podem levar à ocorrência de acidentes.    | Substância | Incompatibilidade | Riscos associados |    |---|---|---|    | Ácidos minerais fortes concentrados | Bases fortes Cianetos Hipoclorito de sódio | Reação enérgica, explosão, produção de oxidante forte e produto tóxico |    | Ácido nítrico concentrado | Matéria orgânica | Reação enérgica, explosão e produto tóxico |    Considere que houve o descarte indevido de dois conjuntos de substâncias:(1) ácido clorídrico concentrado com cianeto de potássio;(2) ácido nítrico concentrado com sacarose.Disponível em: www.fiocruz.br. Acesso em: 6 dez. 2017 (adaptado).",
+    "alternativas": {
+      "A": "liberação de gás tóxico e reação oxidativa forte.",
+      "B": "reação oxidativa forte e liberação de gás tóxico.",
+      "C": "formação de sais tóxicos e reação oxidativa forte.",
+      "D": "liberação de gás tóxico e liberação de gás oxidante.",
+      "E": "formação de sais tóxicos e liberação de gás oxidante."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com três colunas: 'Substância', 'Incompatibilidade' e 'Riscos associados'. A primeira linha de dados mostra 'Ácidos minerais fortes concentrados' na coluna 'Substância', 'Bases fortes Cianetos Hipoclorito de sódio' na coluna 'Incompatibilidade', e 'Reação enérgica, explosão, produção de oxidante forte e produto tóxico' na coluna 'Riscos associados'. A segunda linha de dados mostra 'Ácido nítrico concentrado' na coluna 'Substância', 'Matéria orgânica' na coluna 'Incompatibilidade', e 'Reação enérgica, explosão e produto tóxico' na coluna 'Riscos associados'."
+    }
+  },
+  {
+    "posicao": 126,
+    "enunciado": "Qual é a tensão de ruptura da corda escolhida?",
+    "texto_base": "Um pai faz um balanço utilizando dois segmentos paralelos e iguais da mesma corda para fixar uma tábua a uma barra horizontal. Por segurança, opta por um tipo de corda cuja tensão de ruptura seja 25% superior à tensão máxima calculada nas seguintes condições:• O ângulo máximo atingido pelo balanço em relação à vertical é igual a 90°;• Os filhos utilizarão o balanço até que tenham uma massa de 24 kg.Além disso, ele aproxima o movimento do balanço para o movimento circular uniforme, considera que a aceleração da gravidade é igual a 10 m/s² e despreza forças dissipativas.",
+    "alternativas": {
+      "A": "120 N",
+      "B": "300 N",
+      "C": "360 N",
+      "D": "450 N",
+      "E": "900 N"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 127,
+    "enunciado": "Essa nanotecnologia aplicada na proteção contra a corrosão se baseia no(a)",
+    "texto_base": "A nanotecnologia é responsável pelo aprimoramento de diversos materiais, incluindo os que são impactados com a presença de poluentes e da umidade na atmosfera, causadores de corrosão. O processo de corrosão é espontâneo e provoca a deterioração de metais como o ferro, que, em presença de oxigênio e água, sofre oxidação, conforme ilustra a equação química:4 Fe (s) + 2 H₂O (l) + 3 O₂ (g) → 2 Fe₂O₃·H₂O (s)Uma forma de garantir a durabilidade da estrutura metálica e a sua resistência à umidade consiste na deposição de filmes finos nanocerâmicos à base de zircônia (ZrO₂) e alumina (Al₂O₃) sobre a superfície do objeto que se deseja proteger.CLEMENTE, G. A. B. F. et al. O uso de materiais híbridos ou nanocompósitos como revestimentos anticorrosivos do aço. Química Nova, n. 9, 2021 (adaptado).",
+    "alternativas": {
+      "A": "proteção catódica, que utiliza um metal fortemente redutor.",
+      "B": "uso de metais de sacrifício, que se oxidam no lugar do ferro.",
+      "C": "passivação do ferro, que fica revestido pelo seu próprio óxido.",
+      "D": "efeito de barreira, que impede o contato com o agente oxidante.",
+      "E": "galvanização, que usa outros metais de menor potencial de redução."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 128,
+    "enunciado": "Durante a observação desse corte, foi possível identificar o(a)",
+    "texto_base": "As células da epiderme da folha da Tradescantia pallida purpurea, uma herbácea popularmente conhecida como trapoeraba-roxa, contêm um vacúolo onde se encontra um pigmento que dá a coloração arroxeada a esse tecido. Em um experimento, um corte da epiderme de uma folha da trapoeraba-roxa foi imerso em ambiente hipotônico e, logo em seguida, foi colocado em uma lâmina e observado em microscópio óptico.",
+    "alternativas": {
+      "A": "acúmulo do solvente com fragmentação da organela.",
+      "B": "rompimento da membrana celular com liberação do citosol.",
+      "C": "aumento do vacúolo com diluição do pigmento no seu interior.",
+      "D": "quebra da parede celular com extravasamento do pigmento.",
+      "E": "murchamento da célula com expulsão do pigmento do vacúolo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 129,
+    "enunciado": "A razão entre as variações de temperatura nas áreas concretada e alagada é mais próxima de",
+    "texto_base": "A variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variaiações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados:",
+    "alternativas": {
+      "A": "1,0.",
+      "B": "2,1.",
+      "C": "2,5.",
+      "D": "5,3.",
+      "E": "13,1."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas colunas, 'Densidade (kg/m³)' e 'Calor específico (J/g°C)', e duas linhas para 'Água' e 'Concreto'. Para Água: Densidade 1 000, Calor específico 4,2. Para Concreto: Densidade 2 500, Calor específico 0,8."
+    }
+  },
+  {
+    "posicao": 130,
+    "enunciado": "Após o período de 40 dias, a massa residual desse isótopo é mais próxima de",
+    "texto_base": "O elemento iodo (I) tem função biológica e é acumulado na tireoide. Nos acidentes nucleares de Chernobyl e Fukushima, ocorreu a liberação para a atmosfera do radioisótopo ¹³¹I, responsável por enfermidades nas pessoas que foram expostas a ele. O decaimento de uma massa de 12 microgramas do isótopo ¹³¹I foi monitorado por 14 dias, conforme o quadro.",
+    "alternativas": {
+      "A": "2,4 µg.",
+      "B": "1,5 µg.",
+      "C": "0,8 µg.",
+      "D": "0,4 µg.",
+      "E": "0,2 µg."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas colunas, 'Tempo (dia)' e 'Massa residual de ¹³¹I (µg)'. Os dados são: Tempo 0, Massa 12,0; Tempo 2, Massa 10,1; Tempo 4, Massa 8,5; Tempo 5, Massa 7,8; Tempo 6, Massa 7,2; Tempo 8, Massa 6,0; Tempo 14, Massa 3,6."
+    }
+  },
+  {
+    "posicao": 131,
+    "enunciado": "Os padrões descritos evidenciam que",
+    "texto_base": "Desde a proposição da teoria de seleção natural por Darwin, os seres vivos nunca mais foram olhados da mesma forma. No que diz respeito à reprodução de anfíbios anuros, os cientistas já descreveram diferentes padrões reprodutivos, como os exemplificados a seguir:Espécie 1 – As fêmeas produzem cerca de 5 000 gametas, que são fecundados na água, em lagoas temporárias de estação chuvosa. Todo o desenvolvimento embrionário, do ovo à metamorfose, ocorre, nesse ambiente, independente dos pais.Espécie 2 – As fêmeas produzem aproximadamente 200 gametas, que são depositados em poças próximas a corpos-d’água. Os embriões são vigiados pelos machos durante boa parte do seu desenvolvimento.Espécie 3 – As fêmeas produzem por volta de 20 gametas, que são fecundados sobre a superfície das folhas de plantas cujos galhos estão dispostos acima da superfície de corpos-d’água e aí se desenvolvem até a eclosão.Espécie 4 – As fêmeas produzem poucos gametas que, quando fecundados, são “abocanhados” pelos machos. Os embriões se desenvolvem no interior do saco vocal do macho até a metamorfose, quando saem através da boca do pai.",
+    "alternativas": {
+      "A": "as fêmeas influenciam o comportamento dos machos.",
+      "B": "o cuidado parental é necessário para o desenvolvimento.",
+      "C": "o grau de evolução determina o comportamento reprodutivo.",
+      "D": "o sucesso reprodutivo pode ser garantido por estratégias diferentes.",
+      "E": "o ambiente induz modificação na produção do número de gametas femininos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 132,
+    "enunciado": "Próximo a que região se situa a residência onde as placas foram instaladas?",
+    "texto_base": "O eixo de rotação da Terra apresenta uma inclinação em relação ao plano de sua órbita em torno do Sol, interferindo na duração do dia e da noite ao longo do ano.Uma pessoa instala em sua residência uma placa fotovoltaica, que transforma energia solar em elétrica. Ela monitora a energia total produzida por essa placa em 4 dias do ano, ensolarados e sem nuvens, e lança os resultados no gráfico.Disponível em: www.fisica.ufpr.br. Acesso em: 27 maio 2022 (adaptado).",
+    "alternativas": {
+      "A": "Trópico de Capricórnio.",
+      "B": "Trópico de Câncer.",
+      "C": "Polo Norte.",
+      "D": "Polo Sul.",
+      "E": "Equador."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta duas imagens.A primeira imagem é um diagrama da Terra em 21 de dezembro, mostrando a inclinação do eixo de rotação em relação ao Sol. O Sol está à esquerda, e raios de incidência direta ao meio-dia atingem o Trópico de Capricórnio. A Terra está dividida em regiões: Polo Norte, Círculo Polar Ártico, Trópico de Câncer, Equador, Trópico de Capricórnio, Círculo Polar Antártico e Polo Sul. A parte iluminada (DIA) e a parte escura (NOITE) são indicadas, com o Trópico de Capricórnio recebendo luz direta e o Polo Norte na escuridão total.A segunda imagem é um gráfico de barras intitulado 'Energia'. O eixo horizontal mostra datas: 10/01, 10/04, 10/07, 10/10. O eixo vertical representa a energia produzida. As barras mostram os seguintes valores aproximados:10/01: alta energia (aproximadamente 90% do máximo)10/04: energia média-alta (aproximadamente 75% do máximo)10/07: energia baixa (aproximadamente 40% do máximo)10/10: energia média (aproximadamente 60% do máximo)A tendência geral é de maior energia no início do ano (verão no hemisfério sul) e menor energia no meio do ano (inverno no hemisfério sul)."
+    }
+  },
+  {
+    "posicao": 133,
+    "enunciado": "Com esse equívoco, qual é a intensidade de corrente que passa pela lâmpada ao se ligar a lanterna?",
+    "texto_base": "Uma lanterna funciona com três pilhas de resistência interna igual a 0,5 Ω cada, ligadas em série. Quando posicionadas corretamente, devem acender a lâmpada incandescente de especificações 4,5 W e 4,5 V. Cada pilha na posição correta gera uma f.e.m. (força eletromotriz) de 1,5 V. Uma pessoa, ao trocar as pilhas da lanterna, comete o equívoco de inverter a posição de uma das pilhas. Considerere que as pilhas mantêm contato independentemente da posição.",
+    "alternativas": {
+      "A": "0,25 A",
+      "B": "0,33 A",
+      "C": "0,75 A",
+      "D": "1,00 A",
+      "E": "1,33 A"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 134,
+    "enunciado": "Os diferentes resultados dos ensaios justificam-se pelo(a)",
+    "texto_base": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H₂O₂), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro.",
+    "alternativas": {
+      "A": "variação do pH do meio.",
+      "B": "aumento da energia de ativação.",
+      "C": "consumo da enzima durante o ensaio.",
+      "D": "diminuição da concentração do substrato.",
+      "E": "modificação da estrutura tridimensional da enzima."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta uma tabela com o título 'Resultado'. A tabela tem três colunas: 'Ensaio', 'Temperatura (°C)' e 'Decomposição de H₂O₂ (10⁻¹² mol/min)'.As linhas da tabela são:Ensaio 1: Temperatura 10 °C, Decomposição de H₂O₂ 3,0Ensaio 2: Temperatura 15 °C, Decomposição de H₂O₂ 10,5Ensaio 3: Temperatura 20 °C, Decomposição de H₂O₂ 9,5Ensaio 4: Temperatura 25 °C, Decomposição de H₂O₂ 5,0Ensaio 5: Temperatura 30 °C, Decomposição de H₂O₂ 3,6Ensaio 6: Temperatura 35 °C, Decomposição de H₂O₂ 3,1A tabela mostra que a taxa de decomposição de H₂O₂ aumenta de 10°C para 15°C, atinge um pico em 15°C (ou próximo a 15-20°C, considerando 20°C é 9.5), e depois diminui progressivamente à medida que a temperatura aumenta de 20°C para 35°C."
+    }
+  },
+  {
+    "posicao": 135,
+    "enunciado": "Qual dos antimicrobianos deve ser utilizado para curar uma infecção causada por um fungo sem afetar as bactérias da microbiota normal do organismo?",
+    "texto_base": "Antimicrobianos são substâncias naturais ou sintéticas que têm capacidade de matar ou inibir o crescimento de microrganismos. A tabela apresenta uma lista de antimicrobianos hipotéticos, bem como suas ações e efeitos sobre o metabolismo microbiano.",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com três colunas: 'Antimicrobiano', 'Ação' e 'Efeito'. A coluna 'Antimicrobiano' lista os números de 1 a 5. A coluna 'Ação' descreve: 1 - Une-se aos ribossomos; 2 - Une-se aos microtúbulos; 3 - Une-se aos fosfolipídios da membrana plasmática; 4 - Interfere na síntese de timina; 5 - Interfere na síntese de uracila. A coluna 'Efeito' descreve: 1 - Impede a síntese proteica; 2 - Impede a segregação das cromátides; 3 - Reduz a permeabilidade da membrana plasmática; 4 - Inibe a síntese de DNA; 5 - Impede a síntese de RNA."
+    }
+  },
+  {
+    "posicao": 136,
+    "enunciado": "Mantido o número atual de professores com suas atuais titulações, o aumento salarial, em porcentagem, a ser concedido aos doutores deverá ser de, no máximo,",
+    "texto_base": "Em uma universidade, atuam professores que estão enquadrados funcionalmente pela sua maior titulação: mestre ou doutor. Nela há, atualmente, 60 mestres e 40 doutores. Os salários mensais dos professores mestres e dos doutores são, respectivamente, R$ 8 000,00 e R$ 12 000,00.A diretoria da instituição pretende proporcionar um aumento salarial diferenciado para o ano seguinte, de tal forma que o salário médio mensal dos professores dessa instituição não ultrapasse R$ 12 240,00. A universidade já estabeleceu que o aumento salarial será de 25% para os mestres e precisa ainda definir o percentual de reajuste para os doutores.",
+    "alternativas": {
+      "A": "14,4.",
+      "B": "20,7.",
+      "C": "22,0.",
+      "D": "30,0.",
+      "E": "37,5."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 137,
+    "enunciado": "A quantidade de inseticida que é liberada a cada acionamento do borrifador, em mililitro, é",
+    "texto_base": "Um borrifador de atuação automática libera, a cada acionamento, uma mesma quantidade de inseticida. O recipiente desse produto, quando cheio, contém 360 mL de inseticida, que duram 60 dias se o borrifador permanecer ligado ininterruptamente e for acionado a cada 48 minutos.",
+    "alternativas": {
+      "A": "0,125.",
+      "B": "0,200.",
+      "C": "4,800.",
+      "D": "6,000.",
+      "E": "12,000."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 138,
+    "enunciado": "Suponha que exista um planeta Z, em algum sistema solar, onde um dia corresponda a 73 dias terrestres e que 2 de seus anos correspondam a 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias.No planeta Z, seu ano corresponderia a quantos de seus dias?",
+    "texto_base": "Definem-se o dia e o ano de um planeta de um sistema solar como sendo, respectivamente, o tempo que o planeta leva para dar 1 volta completa em torno de seu próprio eixo de rotação e o tempo para dar 1 volta completa em torno de seu Sol.",
+    "alternativas": {
+      "A": "2,5",
+      "B": "10,0",
+      "C": "730,0",
+      "D": "13 322,5",
+      "E": "53 290,0"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 143,
+    "enunciado": "Com base nos dados fornecidos, em que ano a rentabilidade do aluguel foi maior?",
+    "texto_base": "No período de 2005 a 2013, o valor da venda dos imóveis em uma cidade apresentou alta, o que resultou no aumento dos aluguéis. Os gráficos apresentam a evolução desses valores, para um mesmo imóvel, no mercado imobiliário dessa cidade.A rentabilidade do aluguel de um imóvel é calculada pela razão entre o valor mensal de aluguel e o valor de mercado desse imóvel.",
+    "alternativas": {
+      "A": "2005",
+      "B": "2007",
+      "C": "2009",
+      "D": "2011",
+      "E": "2013"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Dois gráficos de barras verticais.O primeiro gráfico, intitulado 'Valor de mercado do imóvel (milhar de R$)', mostra o valor de mercado do imóvel em milhares de reais ao longo dos anos. Eixo X: Ano (2005, 2007, 2009, 2011, 2013). Eixo Y: Valor de mercado do imóvel (milhar de R$). Valores das barras: 2005: 630, 2007: 960, 2009: 1 350, 2011: 1 800, 2013: 3 240.O segundo gráfico, intitulado 'Valor mensal do aluguel (R$)', mostra o valor mensal do aluguel em reais ao longo dos anos. Eixo X: Ano (2005, 2007, 2009, 2011, 2013). Eixo Y: Valor mensal do aluguel (R$). Valores das barras: 2005: 90, 2007: 120, 2009: 270, 2011: 450, 2013: 540."
+    }
+  },
+  {
+    "posicao": 144,
+    "enunciado": "O número escrito pelo estudante foi",
+    "texto_base": "Ao escutar a notícia de que um filme recém-lançado arrecadou, no primeiro mês de lançamento, R$ 1,35 bilhão em bilheteria, um estudante escreveu corretamente o número que representa essa quantia, com todos os seus algarismos.",
+    "alternativas": {
+      "A": "135 000,00.",
+      "B": "1 350 000,00.",
+      "C": "13 500 000,00.",
+      "D": "135 000 000,00.",
+      "E": "1 350 000 000,00."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 145,
+    "enunciado": "Dadas as exigências do projeto, qual das localizações sugeridas deve ser a escolhida para o ponto de conexão?",
+    "texto_base": "O governo de um estado pretende realizar uma obra de infraestrutura para auxiliar na integração e no processo de escoamento da produção agrícola de duas cidades. O projeto consiste na interligação direta das cidades A e B com a Rodovia 003, pela construção das Rodovias 001 e 002. As duas rodovias serão construídas em linha reta e deverão se conectar à Rodovia 003 em um mesmo ponto, conforme esboço apresentado na figura, na qual estão também indicadas as posições das cidades A e B, considerando o eixo x posicionado sobre a Rodovia 003, e cinco localizações sugeridas para o ponto de conexão entre as três rodovias.Pretende-se que a distância percorrida entre as duas cidades, pelas Rodovias 001 e 002, passando pelo ponto de conexão, seja a menor possível.",
+    "alternativas": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico cartesiano com eixos x e y. O eixo x vai de 0 a 55, e o eixo y vai de 0 a 40. A Rodovia 003 é representada pelo eixo x. A Cidade A está localizada no ponto (10, 40). A Cidade B está localizada no ponto (50, 20). Existem cinco pontos marcados na Rodovia 003 (eixo x) como possíveis pontos de conexão: I (x=15), II (x=25), III (x=35), IV (x=40), V (x=45). Linhas tracejadas conectam a Cidade A e a Cidade B a cada um desses pontos na Rodovia 003, representando as Rodovias 001 e 002."
+    }
+  },
+  {
+    "posicao": 146,
+    "enunciado": "Se a pessoa pretende gastar o mínimo possível com essa contratação, irá contratar o operário",
+    "texto_base": "Uma pessoa precisa contratar um operário para fazer um serviço em sua casa. Para isso, ela postou um anúncio em uma rede social.Cinco pessoas responderam informando preços por hora trabalhada, gasto diário com transporte e tempo necessário para conclusão do serviço, conforme valores apresentados no quadro.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com quatro colunas: 'Operário', 'Preço por hora (real)', 'Preço do transporte (real)', 'Tempo até conclusão (hora)'.Cinco linhas de dados para os operários I, II, III, IV, V:Operário I: Preço por hora: 120, Preço do transporte: 0,00, Tempo até conclusão: 8.Operário II: Preço por hora: 180, Preço do transporte: 0,00, Tempo até conclusão: 6.Operário III: Preço por hora: 170, Preço do transporte: 20,00, Tempo até conclusão: 6.Operário IV: Preço por hora: 110, Preço do transporte: 10,00, Tempo até conclusão: 9.Operário V: Preço por hora: 110, Preço do transporte: 0,00, Tempo até conclusão: 10."
+    }
+  },
+  {
+    "posicao": 151,
+    "enunciado": "Quantas vezes a velocidade do pistão se anulou durante as 10 horas de funcionamento?",
+    "texto_base": "Uma máquina em operação tem sua temperatura T monitorada por meio de um registro gráfico, ao longo do tempo t. Essa máquina possui um pistão cuja velocidade V varia com a temperatura T da máquina, de acordo com a expressão V = T² – 4. Após a máquina funcionar durante o intervalo de tempo de 10 horas, o seu operador analisa o registro gráfico, apresentado na figura, para avaliar a necessidade de eventuais ajustes, sabendo que a máquina apresenta falhas de funcionamento quando a velocidade do pistão se anula.",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha mostrando a temperatura T (em °C) no eixo vertical em função do tempo t (em horas) no eixo horizontal. O eixo t vai de 0 a 10. O eixo T vai de -2 a 4. A curva da temperatura começa em T=2 para t=0, desce, cruza T=0, atinge um mínimo em T=-2, sobe, cruza T=0, atinge um máximo em T=4, desce, cruza T=0, atinge um mínimo em T=-2, sobe, cruza T=0, e termina em T=2 para t=10. Linhas tracejadas horizontais indicam os níveis T=2, T=0 e T=-2."
+    }
+  },
+  {
+    "posicao": 152,
+    "enunciado": "Qual é a probabilidade de o time campeão ser aquele que venceu a primeira partida da World Series?",
+    "texto_base": "A World Series é a decisão do campeonato norte-americano de beisebol. Os dois times que chegam a essa fase jogam, entre si, até sete partidas. O primeiro desses times que completar quatro vitórias é declarado campeão.Considere que, em todas as partidas, a probabilidade de qualquer um dos dois times vencer é sempre 1/2.",
+    "alternativas": {
+      "A": "35/64",
+      "B": "40/64",
+      "C": "42/64",
+      "D": "44/64",
+      "E": "52/64"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 153,
+    "enunciado": "Qual é a mediana, em milhão de reais, dos valores dos lucros apurados pela empresa nesse ano?",
+    "texto_base": "O gráfico apresenta os totais de receitas e despesas de uma empresa, expressos em milhão de reais, no decorrer dos meses de um determinado ano. A empresa obtém lucro quando a diferença entre receita e despesa é positiva e tem prejuízo quando essa diferença é negativa.",
+    "alternativas": {
+      "A": "1,5",
+      "B": "2,0",
+      "C": "2,9",
+      "D": "3,0",
+      "E": "5,5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de barras duplas mostrando Receitas (barras pretas) e Despesas (barras cinzas) em milhão de reais para cada mês de janeiro a dezembro. O eixo vertical representa os valores de 0 a 9. Os meses são Jan, Fev, Mar, Abr, Maio, Jun, Jul, Ago, Set, Out, Nov, Dez. As barras mostram: Jan (Receita 4, Despesa 3), Fev (Receita 3, Despesa 5), Mar (Receita 5, Despesa 6), Abr (Receita 6, Despesa 5), Maio (Receita 5, Despesa 4), Jun (Receita 6, Despesa 4), Jul (Receita 4, Despesa 3), Ago (Receita 7, Despesa 3), Set (Receita 8, Despesa 4), Out (Receita 4, Despesa 2), Nov (Receita 8, Despesa 7), Dez (Receita 6, Despesa 2)."
+    }
+  },
+  {
+    "posicao": 154,
+    "enunciado": "A quantidade de moedas de ouro que a empresa deverá inserir ao pacote especial, para que seja mantida a mesma proporção existente entre as quantidades de gemas e de moedas de ouro contidas no pacote básico, é",
+    "texto_base": "O pacote básico de um jogo para smartphone, que é vendido a R$ 50,00, contém 2 000 gemas e 100 000 moedas de ouro, que são itens utilizáveis nesse jogo.A empresa que comercializa esse jogo decidiu criar um pacote especial que será vendido a R$ 100,00 e que se diferenciará do pacote básico por apresentar maiores quantidades de gemas e moedas de ouro. Para estimular as vendas desse novo pacote, a empresa decidiu inserir nele 6 000 gemas a mais, em relação ao que o cliente teria caso optasse por comprar, com a mesma quantia, dois pacotes básicos.",
+    "alternativas": {
+      "A": "50 000.",
+      "B": "100 000.",
+      "C": "200 000.",
+      "D": "300 000.",
+      "E": "400 000."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 155,
+    "enunciado": "A soma do número de voltas em torno dos dois circuitos, no segundo dia, será",
+    "texto_base": "Um parque tem dois circuitos de tamanhos diferentes para corridas. Um corredor treina nesse parque e, no primeiro dia, inicia seu treino percorrendo 3 voltas em torno do circuito maior e 2 voltas em torno do menor, perfazendo um total de 1 800 m. Em seguida, dando continuidade a seu treino, corre mais 2 voltas em torno do circuito maior e 1 volta em torno do menor, percorrendo mais 1 100 m. No segundo dia, ele pretende percorrer 5 000 m nos circuitos do parque, fazendo um número inteiro de voltas em torno deles e de modo que o número de voltas seja o maior possível.",
+    "alternativas": {
+      "A": "10.",
+      "B": "13.",
+      "C": "14.",
+      "D": "15.",
+      "E": "16."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 156,
+    "enunciado": "O aumento na quantidade de compradores, em consequência dessa segunda divulgação, em relação ao que foi registrado com a primeira divulgação, foi classificado como",
+    "texto_base": "Uma equipe de marketing digital foi contratada para aumentar as vendas de um produto ofertado em um site de comércio eletrônico. Para isso, elaborou um anúncio que, quando o cliente clica sobre ele, é direcionado para a página de vendas do produto. Esse anúncio foi divulgado em duas redes sociais, A e B, e foram obtidos os seguintes resultados: rede social A: o anúncio foi visualizado por 3 000 pessoas; 10% delas clicaram sobre o anúncio e foram redirecionadas para o site; 3% das que clicaram sobre o anúncio compraram o produto. O investimento feito para a publicação do anúncio nessa rede foi de R$ 100,00. rede social B: o anúncio foi visualizado por 1 000 pessoas; 30% delas clicaram sobre o anúncio e foram redirecionadas para o site; 2% das que clicaram sobre o anúncio compraram o produto. O investimento feito para a publicação do anúncio nessa rede foi de R$ 200,00. Por experiência, o pessoal da equipe de marketing considera que a quantidade de novas pessoas que verão o anúncio é diretamente proporcional ao investimento realizado, e que a quantidade de pessoas que comprarão o produto também se manterá proporcional à quantidade de pessoas que clicarão sobre o anúncio. O responsável pelo produto decidiu, então, investir mais R$ 300,00 em cada uma das duas redes sociais para a divulgação desse anúncio e obteve, de fato, o aumento proporcional esperado na quantidade de clientes que compraram esse produto. Para classificar o aumento obtido na quantidade (Q) de compradores desse produto, em consequência dessa segunda divulgação, em relação aos resultados observados na primeira divulgação, o responsável pelo produto adotou o seguinte critério: Q < 60%: não satisfatório; 60% <= Q < 100%: regular; 100% <= Q < 150%: bom; 150% <= Q < 190%: muito bom; 190% <= Q <= 200%: excelente.",
+    "alternativas": {
+      "A": "não satisfatório.",
+      "B": "regular.",
+      "C": "bom.",
+      "D": "muito bom.",
+      "E": "excelente."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 157,
+    "enunciado": "Para ser fiel à divulgação feita, a quantidade mínima de cores que a montadora deverá disponibilizar a seus clientes é",
+    "texto_base": "Uma montadora de automóveis divulgou que oferta a seus clientes mais de 1 000 configurações diferentes de carro, variando o modelo, a motorização, os opcionais e a cor do veículo. Atualmente, ela oferece 7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. Já em relação aos opcionais, existem 3 escolhas possíveis: central multimídia, rodas de liga leve e bancos de couro, podendo o cliente optar por incluir um, dois, três ou nenhum dos opcionais disponíveis.",
+    "alternativas": {
+      "A": "8.",
+      "B": "9.",
+      "C": "11.",
+      "D": "18.",
+      "E": "24."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 158,
+    "enunciado": "A planificação do cubo da Figura 2, conforme o tipo de planificação apresentada na Figura 1, é",
+    "texto_base": "Dentre as diversas planificações possíveis para o cubo, uma delas é a que se encontra apresentada na Figura 1. Figura 1 Em um cubo, foram pintados, em três de suas faces, quadrados de cor cinza escura, que ocupam um quarto dessas faces, tendo esses três quadrados um vértice em comum, conforme ilustrado na Figura 2. Figura 2",
+    "alternativas": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta duas figuras e duas alternativas visíveis. Figura 1 mostra uma planificação de um cubo, composta por seis quadrados conectados em forma de cruz, com um quadrado central e quatro quadrados adjacentes a ele (um em cada lado), e um sexto quadrado adjacente a um dos quadrados laterais (especificamente, o quadrado superior da cruz tem outro quadrado acima dele). Figura 2 mostra um cubo em perspectiva isométrica, com três de suas faces visíveis. Um vértice do cubo é destacado, e três quadrados menores, de cor cinza escura, são pintados nas três faces que se encontram nesse vértice. Cada quadrado cinza ocupa um quarto da face correspondente. A alternativa A é uma planificação de cubo com três quadrados cinza escuro posicionados nos cantos de três faces diferentes da planificação, de modo que, quando o cubo for montado, esses três quadrados se encontrarão em um vértice comum. A alternativa B é uma planificação de cubo com três quadrados cinza escuro posicionados nos cantos de três faces diferentes da planificação, mas de forma que, quando o cubo for montado, eles não se encontrarão em um vértice comum como na Figura 2."
+    }
+  },
+  {
+    "posicao": 159,
+    "enunciado": "Qual é o dígito verificador N₅ dessa agência bancária?",
+    "texto_base": "Cada número que identifica uma agência bancária tem quatro dígitos: N₁, N₂, N₃, N₄ mais um dígito verificador N₅.N₁ N₂ N₃ N₄ - N₅Todos esses dígitos são números naturais pertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Para a determinação de N₅, primeiramente multiplica-se ordenadamente os quatro primeiros dígitos do número da agência por 5, 4, 3 e 2, respectivamente, somam-se os resultados e obtém-se S = 5 N₁ + 4 N₂ + 3 N₃ + 2 N₄.Posteriormente, encontra-se o resto da divisão de S por 11, denotando por R esse resto. Dessa forma, N₅ é a diferença 11 – R.Considere o número de uma agência bancária cujos quatro primeiros dígitos são 0100.",
+    "alternativas": {
+      "A": "0",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma representação visual dos dígitos de uma agência bancária, mostrando N1, N2, N3, N4 separados por traços e N5 após um hífen, cada dígito dentro de um quadrado."
+    }
+  },
+  {
+    "posicao": 160,
+    "enunciado": "Esse refrigerador tem altura e largura máximas, em metro, respectivamente, iguais a",
+    "texto_base": "Um casal está reformando a cozinha de casa e decidiu comprar um refrigerador novo. Observando a planta da nova cozinha, desenhada na escala de 1 : 50, notaram que o espaço destinado ao refrigerador tinha 3,8 cm de altura e 1,6 cm de largura. Eles sabem que os fabricantes de refrigeradores indicam que, para um bom funcionamento e fácil manejo na limpeza, esses eletrodomésticos devem ser colocados em espaços que permitam uma distância de, pelo menos, 10 cm de outros móveis ou paredes, tanto na parte superior quanto nas laterais. O casal comprou um refrigerador que caberia no local a ele destinado na nova cozinha, seguindo as instruções do fabricante.",
+    "alternativas": {
+      "A": "1,80 e 0,60.",
+      "B": "1,80 e 0,70.",
+      "C": "1,90 e 0,80.",
+      "D": "2,00 e 0,90.",
+      "E": "2,00 e 1,00."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 161,
+    "enunciado": "O número mínimo de dias necessários para a realização desse torneio é",
+    "texto_base": "Foram convidadas 32 equipes para um torneio de futebol, que foram divididas em 8 grupos com 4 equipes, sendo que, dentro de um grupo, cada equipe disputa uma única partida contra cada uma das demais equipes de seu grupo. A primeira e a segunda colocadas de cada grupo seguem para realizar as 8 partidas da próxima fase do torneio, chamada oitavas de final. Os vencedores das partidas das oitavas de final seguem para jogar as 4 partidas das quartas de final. Os vencedores das quartas de final disputam as 2 partidas das semifinais, e os vencedores avançam para a grande final, que define a campeã do torneio.Pelas regras do torneio, cada equipe deve ter um período de descanso de, no mínimo, 3 dias entre dois jogos por ela disputados, ou seja, se um time disputar uma partida, por exemplo, num domingo, só poderá disputar a partida seguinte a partir da quinta-feira da mesma semana.",
+    "alternativas": {
+      "A": "22.",
+      "B": "25.",
+      "C": "28.",
+      "D": "48.",
+      "E": "64."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 162,
+    "enunciado": "A probabilidade de Pedro ganhar o jogo em uma das duas próximas rodadas é",
+    "texto_base": "Em um jogo de bingo, as cartelas contêm 16 quadrículas dispostas em linhas e colunas. Cada quadrícula tem impresso um número, dentre os inteiros de 1 a 50, sem repetição de número. Na primeira rodada, um número é sorteado, aleatoriamente, dentre os 50 possíveis. Em todas as rodadas, o número sorteado é descartado e não participa dos sorteios das rodadas seguintes. Caso o jogador tenha em sua cartela o número sorteado, ele o assinala na cartela. Ganha o jogador que primeiro conseguir preencher quatro quadrículas que formam uma linha, uma coluna ou uma diagonal, conforme os tipos de situações ilustradas na Figura 1.O jogo inicia e, nas quatro primeiras rodadas, foram sorteados os seguintes números: 03, 27, 07 e 48. Ao final da quarta rodada, somente Pedro possuía uma cartela que continha esses quatro números sorteados, sendo que todos os demais jogadores conseguiram assinalar, no máximo, um desses números em suas cartelas. Observe na Figura 2 o cartão de Pedro após as quatro primeiras rodadas.",
+    "alternativas": {
+      "A": "1/46 + 1/45",
+      "B": "1/46 + 2/46x45",
+      "C": "1/46 + 8/46x45",
+      "D": "1/46 + 43/46x45",
+      "E": "1/46 + 49/46x45"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Figura 1 mostra três exemplos de preenchimento de cartelas de bingo 4x4. O primeiro, 'Preenchimento em linha', tem quatro pontos pretos na primeira linha. O segundo, 'Preenchimento em coluna', tem quatro pontos pretos na segunda coluna. O terceiro, 'Preenchimento em diagonal', tem quatro pontos pretos na diagonal principal. Figura 2 mostra o cartão de Pedro, uma grade 4x4 com números. Os números sorteados (03, 48, 27, 07) estão circulados em vermelho. Os números na cartela são: primeira linha (03, 48, 12, 27), segunda linha (49, 11, 22, 05), terceira linha (29, 50, 19, 45), quarta linha (33, 23, 38, 07)."
+    }
+  },
+  {
+    "posicao": 163,
+    "enunciado": "Após desdobrado o papel que restou na Figura 5, a figura plana que os estudantes obterão será",
+    "texto_base": "O professor de artes orientou seus estudantes a realizarem a seguinte sequência de atividades:Dobrar uma folha de papel em formato quadrado duas vezes, em sequência, ao longo das linhas tracejadas, conforme ilustrado nas figuras 1 e 2, para obter o papel dobrado, conforme Figura 3.Em seguida, no papel dobrado da Figura 3, considerar o ponto R, sobre o segmento OM, sendo M o ponto médio do lado do quadrado original, de modo que OR = 1/4 OM, traçar um arco de circunferência de raio medindo 1/2 OM com centro no ponto R, obtendo a Figura 4. Por último, recortar o papel ao longo do arco de circunferência e excluir a parte que contém o setor circular, obtendo o papel dobrado, conforme Figura 5.",
+    "alternativas": {
+      "A": "Imagem de uma forma irregular com bordas curvas e quatro 'lóbulos' arredondados, como uma flor de quatro pétalas.",
+      "B": "Imagem de um círculo perfeito dentro de um quadrado.",
+      "C": "Imagem de uma forma irregular com bordas curvas, semelhante a uma flor de quatro pétalas, mas com as pétalas mais abertas e o centro mais quadrado.",
+      "D": "Imagem de uma elipse.",
+      "E": "Imagem de uma forma de 'oito' ou infinito, com duas curvas que se encontram no centro."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Figura 1 mostra uma folha quadrada com uma linha tracejada diagonal do canto superior esquerdo ao canto inferior direito. Uma seta indica a dobra. Figura 2 mostra a folha dobrada ao meio, formando um triângulo, com uma nova linha tracejada indicando outra dobra. Uma seta indica a dobra. Figura 3 mostra a folha dobrada duas vezes, formando um triângulo menor. Figura 4 mostra o triângulo dobrado da Figura 3. Um ponto O está no vértice superior, e um segmento OM é desenhado na base. Um ponto R está no segmento OM. Um arco de circunferência é traçado com centro em R, cortando o triângulo. Figura 5 mostra o triângulo após o recorte do setor circular, resultando em uma forma com uma concavidade. As figuras ilustram o processo de dobrar e cortar um papel."
+    }
+  },
+  {
+    "posicao": 164,
+    "enunciado": "Pode-se observar que a esperança de vida ao nascer em 2012 foi exatamente a média das registradas nos anos de 2011 e 2013. Suponha que esse fato também ocorreu com a esperança de vida ao nascer em 2013, em relação às esperanças de vida de 2012 e de 2014.Caso a suposição feita tenha sido confirmada, a esperança de vida ao nascer no Brasil no ano de 2014 terá sido, em ano, igual a",
+    "texto_base": "A esperança de vida ao nascer é o número médio de anos que um indivíduo tende a viver a partir de seu nascimento, considerando dados da população. No Brasil, esse número vem aumentando consideravelmente, como mostra o gráfico.Disponível em: http://cod.ibge.gov.br. Acesso em: 6 mar. 2014 (adaptado).",
+    "alternativas": {
+      "A": "74,23.",
+      "B": "74,51.",
+      "C": "75,07.",
+      "D": "75,23.",
+      "E": "78,49."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha intitulado 'Esperança de vida ao nascer'. O eixo horizontal representa os anos de 2008 a 2013. O eixo vertical representa a esperança de vida em anos, de 72 a 75. Os pontos de dados são: 2008 (72,78), 2009 (73,09), 2010 (73,4), 2011 (73,67), 2012 (73,95), 2013 (74,23). A linha mostra uma tendência crescente da esperança de vida ao longo dos anos."
+    }
+  },
+  {
+    "posicao": 165,
+    "enunciado": "A vista superior da projeção ortogonal sobre o plano α dessas duas trajetórias é",
+    "texto_base": "Na figura estão destacadas duas trajetórias sobre a superfície do globo terrestre, descritas ao se percorrer parte dos meridianos 1 e 2 e da Linha do Equador, sendo que os meridianos 1 e 2 estão contidos em planos perpendiculares entre si. O plano α é paralelo ao que contém a Linha do Equador.",
+    "alternativas": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem principal mostra um globo terrestre com os polos Norte (N) e Sul (S) indicados. Duas linhas curvas, chamadas Meridiano 1 (sólida) e Meridiano 2 (tracejada), partem do polo Norte e se estendem em direção ao Equador. Uma linha horizontal, a Linha do Equador, circunda o globo. Um plano α é representado como uma superfície retangular inclinada abaixo do globo. As alternativas são cinco imagens de projeções ortogonais. Alternativa A: Um círculo dividido em quatro partes iguais por duas linhas perpendiculares que se cruzam no centro. Um dos quatro setores é sombreado. Alternativa B: Duas formas semelhantes a hélices ou 'S' invertidos, conectadas no centro. Uma das formas é sombreada. Alternativa C: Duas formas semelhantes a 'D' ou semicírculos, conectadas no centro. Uma das formas é sombreada. Alternativa D: Um círculo dividido em quatro partes iguais por duas linhas perpendiculares que se cruzam no centro. Dois setores opostos são sombreados. Alternativa E: Duas formas semelhantes a 'D' ou semicírculos, conectadas no centro, mas com a parte curva voltada para fora em relação ao centro. Uma das formas é sombreada."
+    }
+  },
+  {
+    "posicao": 166,
+    "enunciado": "O jogador que precisa fazer a menor quantidade de pontos no quinto jogo, para igualar a média de pontos do melhor jogador da temporada passada, é o",
+    "texto_base": "Nos cinco jogos finais da última temporada, com uma média de 18 pontos por jogo, um jogador foi eleito o melhor do campeonato de basquete. Na atual temporada, cinco jogadores têm a chance de igualar ou melhorar essa média. No quadro estão registradas as pontuações desses cinco jogadores nos quatro primeiros jogos das finais deste ano.Quadro: Pontuações dos jogadores nos jogos 1 a 4.Jogadores | Jogo 1 | Jogo 2 | Jogo 3 | Jogo 4I         | 12     | 25     | 20     | 20II        | 12     | 12     | 27     | 20III       | 14     | 14     | 17     | 26IV        | 15     | 18     | 21     | 21V         | 22     | 15     | 23     | 15",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada 'Pontuações dos jogadores nos jogos 1 a 4'. A tabela tem 5 colunas: 'Jogadores', 'Jogo 1', 'Jogo 2', 'Jogo 3', 'Jogo 4'. E 5 linhas de dados para os jogadores I, II, III, IV, V. Jogador I: Jogo 1 (12), Jogo 2 (25), Jogo 3 (20), Jogo 4 (20). Jogador II: Jogo 1 (12), Jogo 2 (12), Jogo 3 (27), Jogo 4 (20). Jogador III: Jogo 1 (14), Jogo 2 (14), Jogo 3 (17), Jogo 4 (26). Jogador IV: Jogo 1 (15), Jogo 2 (18), Jogo 3 (21), Jogo 4 (21). Jogador V: Jogo 1 (22), Jogo 2 (15), Jogo 3 (23), Jogo 4 (15)."
+    }
+  },
+  {
+    "posicao": 167,
+    "enunciado": "O projeto que o casal deverá escolher será o",
+    "texto_base": "Um casal planeja construir em sua chácara uma piscina com o formato de um paralelepípedo retângulo com capacidade para 90 000 L de água. O casal contratou uma empresa de construções que apresentou cinco projetos com diferentes combinações nas dimensões internas de profundidade, largura e comprimento. A piscina a ser construída terá revestimento interno em suas paredes e fundo com uma mesma cerâmica, e o casal irá escolher o projeto que exija a menor área de revestimento.As dimensões internas de profundidade, largura e comprimento, respectivamente, para cada um dos projetos, são:• projeto I: 1,8 m, 2,0 m e 25,0 m;• projeto II: 2,0 m, 5,0 m e 9,0 m;• projeto III: 1,0 m, 6,0 m e 15,0 m;• projeto IV: 1,5 m, 15,0 m e 4,0 m;• projeto V: 2,5 m, 3,0 m e 12,0 m.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 168,
+    "enunciado": "Qual foi o número total de candidatos inscritos nesse processo seletivo?",
+    "texto_base": "Uma instituição de ensino superior ofereceu vagas em um processo seletivo de acesso a seus cursos. Finalizadas as inscrições, foi divulgada a relação do número de candidatos por vaga em cada um dos cursos oferecidos. Esses dados são apresentados no quadro.Quadro: Relação de candidatos por vaga.Curso                 | Número de vagas oferecidas | Número de candidatos por vagaAdministração         | 30                         | 6Ciências Contábeis    | 40                         | 6Engenharia Elétrica   | 50                         | 7História              | 30                         | 8Letras                | 25                         | 4Pedagogia             | 25                         | 5",
+    "alternativas": {
+      "A": "200",
+      "B": "400",
+      "C": "1 200",
+      "D": "1 235",
+      "E": "7 200"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada 'Relação de candidatos por vaga'. A tabela tem 3 colunas: 'Curso', 'Número de vagas oferecidas', 'Número de candidatos por vaga'. E 6 linhas de dados para os cursos: Administração (Vagas: 30, Candidatos por vaga: 6), Ciências Contábeis (Vagas: 40, Candidatos por vaga: 6), Engenharia Elétrica (Vagas: 50, Candidatos por vaga: 7), História (Vagas: 30, Candidatos por vaga: 8), Letras (Vagas: 25, Candidatos por vaga: 4), Pedagogia (Vagas: 25, Candidatos por vaga: 5)."
+    }
+  },
+  {
+    "posicao": 169,
+    "enunciado": "Quantas dessas esferas poderão ser obtidas a partir de cada peça cilíndrica?",
+    "texto_base": "Peças metálicas de aeronaves abandonadas em aeroportos serão recicladas. Uma dessas peças é maciça e tem o formato cilíndrico, com a medida do raio da base igual a 4 cm e a da altura igual a 50 cm. Ela será derretida, e o volume de metal resultante será utilizado para a fabricação de esferas maciças com diâmetro de 1 cm, a serem usadas para confeccionar rolamentos. Para estimar a quantidade de esferas que poderão ser produzidas a partir de cada uma das peças cilíndricas, admite-se que não ocorre perda de material durante o processo de derretimento.",
+    "alternativas": {
+      "A": "800",
+      "B": "1 200",
+      "C": "2 400",
+      "D": "4 800",
+      "E": "6 400"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 170,
+    "enunciado": "Para que a recomendação médica tenha efetivamente sido respeitada, a atividade física dessa pessoa, nesse dia, durou",
+    "texto_base": "Um médico faz o acompanhamento clínico de um grupo de pessoas que realizam atividades físicas diariamente. Ele observou que a perda média de massa dessas pessoas para cada hora de atividade física era de 1,5 kg. Sabendo que a massa de 1 L de água é de 1 kg, ele recomendou que ingerissem, ao longo das 3 horas seguintes ao final da atividade, uma quantidade total de água correspondente a 40% a mais do que a massa perdida na atividade física, para evitar desidratação.Seguindo a recomendação médica, uma dessas pessoas ingeriu, certo dia, um total de 1,7 L de água após terminar seus exercícios físicos.",
+    "alternativas": {
+      "A": "30 minutos ou menos.",
+      "B": "mais de 35 e menos de 45 minutos.",
+      "C": "mais de 45 e menos de 55 minutos.",
+      "D": "mais de 60 e menos de 70 minutos.",
+      "E": "70 minutos ou mais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 171,
+    "enunciado": "Pretende-se ampliar essa sala, mantendo-se na mesma posição a tela e todas as poltronas já instaladas, ampliando-se ao máximo a sala para os fundos (área de instalação de novas poltronas), respeitando-se o limite aceitável da norma da ABNT. A intenção é aumentar, ao máximo, a quantidade de poltronas da sala, instalando-se novas unidades, iguais às já instaladas.Quantas fileiras de poltronas a sala comportará após essa ampliação?",
+    "texto_base": "Em uma sala de cinema, para garantir que os espectadores vejam toda a imagem projetada na tela, a disposição das poltronas deve obedecer à norma técnica da Associação Brasileira de Normas Técnicas (ABNT), que faz as seguintes indicações:Distância mínima (Dmin) entre a tela de projeção e o encosto da poltrona da primeira fileira deve ser de, pelo menos, 60% da largura (L) da tela.Distância máxima (Dmax) entre a tela de projeção e o encosto da poltrona da última fileira deve ser o dobro da largura (L) da tela, sendo aceitável uma distância de até 2,9 vezes a largura (L) da tela.Para o espaçamento entre as fileiras de poltronas, é considerada a distância de 1 metro entre os encostos de poltronas em duas fileiras consecutivas.Disponível em: www.ctav.gov.br. Acesso em: 14 nov. 2013.Uma sala de cinema, cuja largura da tela mede 12 m, está montada em conformidade com as normas da ABNT e tem suas dimensões especificadas na figura.",
+    "alternativas": {
+      "A": "26",
+      "B": "27",
+      "C": "28",
+      "D": "29",
+      "E": "35"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama esquemático de uma sala de cinema com a tela à esquerda e fileiras de poltronas à direita. A tela tem largura L. A distância mínima (Dmin) da tela à primeira fileira de poltronas é 0,6L. A distância máxima (Dmax) da tela à última fileira de poltronas é 2L. A distância aceitável máxima da tela é Daceitável = 2,9L. A distância entre as fileiras de poltronas é de 1 metro. O diagrama mostra 3 fileiras de poltronas, cada uma com 4 assentos. As poltronas são representadas por retângulos com encosto e assento. As setas indicam a direção das fileiras e as distâncias."
+    }
+  },
+  {
+    "posicao": 172,
+    "enunciado": "A relação entre as luminosidades dessas duas estrelas é dada por",
+    "texto_base": "A luminosidade L de uma estrela está relacionada com o raio R e com a temperatura T dessa estrela segundo a Lei de Stefan-Boltzmann: L = c ⋅ R² ⋅ T⁴, em que c é uma constante igual para todas as estrelas.Disponível em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado).Considere duas estrelas E e F, sendo que a estrela E tem metade do raio da estrela F e o dobro da temperatura de F.Indique por LE e LF suas respectivas luminosidades.",
+    "alternativas": {
+      "A": "L_E = L_F / 2",
+      "B": "L_E = L_F / 4",
+      "C": "L_E = L_F",
+      "D": "L_E = 4L_F",
+      "E": "L_E = 8L_F"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 173,
+    "enunciado": "O número que representa a mediana da quantidade de crianças por família nessa região é",
+    "texto_base": "Uma das informações que pode auxiliar no dimensionamento do número de pediatras que devem atender em uma Unidade Básica de Saúde (UBS) é o número que representa a mediana da quantidade de crianças por família existente na região sob sua responsabilidade. O quadro mostra a distribuição das frequências do número de crianças por família na região de responsabilidade de uma UBS.Número de crianças por famíliaFrequência01001200230031504100550",
+    "alternativas": {
+      "A": "1.0.",
+      "B": "1.5.",
+      "C": "1.9.",
+      "D": "2.1.",
+      "E": "2.5."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com duas colunas. A primeira coluna é 'Número de crianças por família' e a segunda é 'Frequência'. As linhas da tabela são: 0 com frequência 100, 1 com frequência 200, 2 com frequência 300, 3 com frequência 150, 4 com frequência 100, e 5 com frequência 50."
+    }
+  },
+  {
+    "posicao": 174,
+    "enunciado": "O saque desse atleta foi invalidado",
+    "texto_base": "Em jogos de voleibol, um saque é invalidado se a bola atingir o teto do ginásio onde ocorre o jogo. Um jogador de uma equipe tem um saque que atinge uma grande altura. Seu recorde foi quando a batida do saque se iniciou a uma altura de 1,5 m do piso da quadra, e a trajetória da bola foi descrita pela parábola y = x²/6 - 7x/3 + 12, em que y representa a altura da bola em relação ao eixo x (das abscissas) que está localizado a 1,5 m do piso da quadra, como representado na figura. Suponha que em todas as partidas algum saque desse jogador atinja a mesma altura do seu recorde.A equipe desse jogador participou de um torneio de voleibol no qual jogou cinco partidas, cada uma delas em um ginásio diferente. As alturas dos tetos desses ginásios, em relação aos pisos das quadras, são:• ginásio I: 17 m;• ginásio II: 18 m;• ginásio III: 19 m;• ginásio IV: 21 m;• ginásio V: 40 m.",
+    "alternativas": {
+      "A": "apenas no ginásio I.",
+      "B": "apenas nos ginásios I e II.",
+      "C": "apenas nos ginásios I, II e III.",
+      "D": "apenas nos ginásios I, II, III e IV.",
+      "E": "em todos os ginásios."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico cartesiano com um eixo x horizontal e um eixo y vertical. Uma parábola é desenhada, representando a trajetória de uma bola de vôlei. A parábola começa em um ponto no eixo y acima do eixo x, atinge um ponto máximo e desce. Abaixo da parábola, há uma representação de uma quadra de vôlei com uma rede no centro. Um jogador está à esquerda da rede, e a bola é mostrada saindo de suas mãos. Há marcações de distância de 1,5 m no eixo x, indicando a posição do jogador em relação à rede e a distância da rede. A altura inicial da bola é marcada como 1,5 m acima do piso da quadra."
+    }
+  },
+  {
+    "posicao": 175,
+    "enunciado": "A expressão algébrica que descreve S(q) em função de q é",
+    "texto_base": "O funcionário de uma loja tem seu salário mensal formado por uma parcela fixa de 675 reais mais uma comissão que depende da quantidade de peças vendidas por ele no mês. O cálculo do valor dessa comissão é feito de acordo com estes critérios:• até a quinquagésima peça vendida, paga-se 5 reais por peça;• a partir da quinquagésima primeira peça vendida, o valor pago é de 7 reais por peça.Represente por q a quantidade de peças vendidas no mês por esse funcionário, e por S(q) o seu salário mensal, em real, nesse mês.",
+    "alternativas": {
+      "A": "S(q) = 675 + 12q",
+      "B": "S(q) = 325 + 12q",
+      "C": "S(q) = 675 + 7q",
+      "D": "S(q) = { 625 + 5q, se q ≤ 50 { 925 + 7q, se q > 50",
+      "E": "S(q) = { 625 + 5q, se q ≤ 50 { 575 + 7q, se q > 50"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 176,
+    "enunciado": "A proposta escolhida foi a",
+    "texto_base": "Ao analisar os dados de uma epidemia em uma cidade, peritos obtiveram um modelo que avalia a quantidade de pessoas infectadas a cada mês, ao longo de um ano. O modelo é dado por p(t) = -t² + 10t + 24, sendo t um número natural, variando de 1 a 12, que representa os meses do ano, e p(t) a quantidade de pessoas infectadas no mês t do ano. Para tentar diminuir o número de infectados no próximo ano, a Secretaria Municipal de Saúde decidiu intensificar a propaganda oficial sobre os cuidados com a epidemia. Foram apresentadas cinco propostas (I, II, III, IV e V), com diferentes períodos de intensificação das propagandas:• I: 1 ≤ t ≤ 2;• II: 3 ≤ t ≤ 4;• III: 5 ≤ t ≤ 6;• IV: 7 ≤ t ≤ 9;• V: 10 ≤ t ≤ 12.A sugestão dos peritos é que seja escolhida a proposta cujo período de intensificação da propaganda englobe o mês em que, segundo o modelo, há a maior quantidade de infectados.",
+    "alternativas": {
+      "A": "I.",
+      "B": "II.",
+      "C": "III.",
+      "D": "IV.",
+      "E": "V."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 177,
+    "enunciado": "A sequência de treinamentos que o atleta realizará na 24ª semana de treinos é",
+    "texto_base": "Um atleta iniciou seu treinamento visando as competições de fim de ano. Seu treinamento consiste em cinco tipos diferentes de treinos: treino T1, treino T2, treino T3, treino T4 e treino T5. A sequência dos treinamentos deve seguir esta ordem:Dia 1º 2º 3º 4º 5º 6º 7º 8º 9º 10º 11º 12º 13ºTreino T1 R R T2 R R T3 R R T4 R R T5 RA letra R significa repouso. Após completar a sequência de treinamentos, o atleta começa novamente a sequência a partir do treino T1 e segue a ordem descrita. Após 24 semanas completas de treinamento, se dará o início das competições.",
+    "alternativas": {
+      "A": "T3 R T4 R R T5 R.",
+      "B": "R T3 R T4 R R T5.",
+      "C": "R T4 R R T5 R T1.",
+      "D": "R R T5 R T1 R R.",
+      "E": "R T5 R T1 R R T2."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 178,
+    "enunciado": "A projeção ortogonal do trajeto descrito por esse robô sobre o plano da base, após terminada sua movimentação, visualizada da posição em que se está enxergando esse cubo, é",
+    "texto_base": "Um robô, que tem um imã em sua base, se desloca sobre a superfície externa de um cubo metálico, ao longo de segmentos de reta cujas extremidades são pontos médios de arestas e centros de faces. Ele inicia seu deslocamento no ponto P, centro da face superior do cubo, segue para o centro da próxima face, converte à esquerda e segue para o centro da face seguinte, converte à direita e continua sua movimentação, sempre alternando entre conversões à esquerda e à direita quando alcança o centro de uma face. O robô só termina sua movimentação quando retorna ao ponto P. A figura apresenta os deslocamentos iniciais desse robô.",
+    "alternativas": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem principal mostra um cubo em perspectiva. No centro da face superior, há um ponto P. Uma linha com setas indica o trajeto inicial do robô: de P (centro da face superior), ele se move para o centro da face frontal, vira à esquerda e se move para o centro da face lateral direita. As alternativas A, B, C, D, E são imagens de projeções ortogonais de caminhos em um plano 2D, cada uma mostrando um quadrado que representa a base do cubo com um trajeto diferente desenhado em seu interior."
+    }
+  },
+  {
+    "posicao": 179,
+    "enunciado": "A medida real da área da varanda, em metro quadrado, é",
+    "texto_base": "Uma empresa de engenharia projetou uma casa com a forma de um retângulo para um de seus clientes. Esse cliente solicitou a inclusão de uma varanda em forma de L. A figura apresenta a planta baixa desenhada pela empresa, já com a varanda incluída, cujas medidas, indicadas em centímetro, representam os valores das dimensões da varanda na escala de 1 : 50.",
+    "alternativas": {
+      "A": "33,40.",
+      "B": "66,80.",
+      "C": "89,24.",
+      "D": "133,60.",
+      "E": "534,40."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra a planta baixa de uma casa com uma varanda em forma de L. A planta é retangular no total, com dimensões externas de 16 cm (largura) e 18,4 cm (altura) na escala. A varanda ocupa a parte superior e a lateral esquerda da planta, formando um L. As dimensões da varanda são indicadas: a parte superior tem 16 cm de largura e 5 cm de profundidade. A parte lateral esquerda tem 18,4 cm de altura e 4 cm de profundidade. O restante da casa é dividido em cômodos como SALA, COZINHA, BANHO SOCIAL, BANHO SUÍTE, QUARTO e QUARTO. A escala indicada é 1:50."
+    }
+  },
+  {
+    "posicao": 180,
+    "enunciado": "Ao final do trigésimo dia, quanto faltará no volume de vendas, em real, para que a meta fixada para o mês seja alcançada?",
+    "texto_base": "Uma loja de roupas fixou uma meta de vendas de 77 000 reais para um determinado mês de 30 dias. O gráfico mostra o volume de vendas dessa loja, em real, nos dez primeiros dias do mês e entre o dia dez e o dia vinte desse mês, nos seus dois únicos setores (infantil e adulto). Suponha que a variação no volume de vendas, para o período registrado, tenha se dado de forma linear, como mostrado no gráfico, e que essa tendência se mantenha a mesma para os próximos dez dias.",
+    "alternativas": {
+      "A": "5 000",
+      "B": "7 000",
+      "C": "11 000",
+      "D": "18 000",
+      "E": "29 000"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "O gráfico de linhas mostra o volume de vendas (em reais) ao longo de 30 dias para dois setores: Adulto e Infantil. O eixo horizontal representa os Dias (de 10 a 30). O eixo vertical representa o volume de vendas. Para o setor Adulto: No dia 10, as vendas são de 18 000 reais. No dia 20, as vendas são de 15 000 reais. Uma linha contínua conecta esses dois pontos, indicando uma tendência linear decrescente. Para o setor Infantil: No dia 10, as vendas são de 8 000 reais. No dia 20, as vendas são de 7 000 reais. Uma linha tracejada conecta esses dois pontos, indicando uma tendência linear decrescente."
+    }
+  }
+]

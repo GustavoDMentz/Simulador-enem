@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador ENEM & Análise TRI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Top Bar -->
+    <header class="app-header">
+      <div class="header-logo">
+        <span class="logo-icon">📊</span>
+        <h1>Simulador ENEM <span class="logo-sub">TRI Analytics</span></h1>
+      </div>
+      <div class="header-stats">
+        <span class="stat-badge">🗄️ 1.822 Questões Únicas</span>
+        <span class="stat-badge">🖼️ 557 Imagens Recortadas</span>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="workspace">
+      
+      <!-- Left Sidebar: Filters & Navigation -->
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <h2>Filtros</h2>
+          
+          <div class="form-group">
+            <label for="filter-year">Ano</label>
+            <select id="filter-year">
+              <option value="">Todos os Anos</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="filter-day">Dia</label>
+            <select id="filter-day">
+              <option value="">Todos os Dias</option>
+              <option value="1">Dia 1</option>
+              <option value="2">Dia 2</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="filter-area">Área de Conhecimento</label>
+            <select id="filter-area">
+              <option value="">Todas as Áreas</option>
+              <option value="LC">Linguagens e Códigos (LC)</option>
+              <option value="CH">Ciências Humanas (CH)</option>
+              <option value="CN">Ciências da Natureza (CN)</option>
+              <option value="MT">Matemática (MT)</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="filter-position">Número da Questão (1 a 180)</label>
+            <input type="number" id="filter-position" min="1" max="180" placeholder="Ex: 35 ou 110">
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="filter-image">
+            <label for="filter-image">Apenas com Imagens</label>
+          </div>
+          
+          <button id="btn-random" class="btn-primary">🎲 Questão Aleatória</button>
+        </div>
+
+        <div class="sidebar-section list-section">
+          <h2>Questões Disponíveis (<span id="questions-count">0</span>)</h2>
+          <div id="questions-list" class="questions-list">
+            <!-- Filled dynamically -->
+            <p class="empty-msg">Carregando lista...</p>
+          </div>
+          <div class="pagination">
+            <button id="btn-prev" class="btn-nav" disabled>◀</button>
+            <span id="page-indicator">1 / 1</span>
+            <button id="btn-next" class="btn-nav" disabled>▶</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Center Panel: Question Simulator -->
+      <section class="content-panel">
+        
+        <!-- Question Meta Card -->
+        <div class="question-meta-bar">
+          <div class="meta-badges">
+            <span id="badge-id" class="badge badge-purple">Q00000</span>
+            <span class="badge badge-gray">ENEM</span>
+            <span id="badge-year" class="badge badge-gray">0000</span>
+            <span id="badge-area" class="badge badge-gray">Área</span>
+            <span id="badge-color" class="badge badge-gray">Cor</span>
+          </div>
+          <div class="meta-options">
+            <span class="filter-toggle">👁️ Mostrar filtros</span>
+            <button class="btn-dots">⋮</button>
+          </div>
+        </div>
+
+        <!-- Question Body Card -->
+        <article class="question-card">
+          <!-- Text Base -->
+          <div id="question-text-base" class="text-base"></div>
+          
+          <!-- Image Section -->
+          <div id="question-image-container" class="image-container hidden">
+            <img id="question-img" src="" alt="Imagem de apoio da questão">
+            <button id="btn-toggle-desc" class="btn-secondary-outline">👁️ Ver Descrição IA (Acessibilidade)</button>
+            <div id="question-desc-text" class="image-desc hidden"></div>
+          </div>
+          
+          <!-- Command/Enunciado -->
+          <div id="question-enunciado" class="enunciado"></div>
+          
+          <!-- Alternatives Stack -->
+          <div class="alternatives-stack">
+            <div class="alternative-card" data-letter="A">
+              <button class="btn-eliminate" title="Eliminar alternativa">✂️</button>
+              <div class="letter-badge">A</div>
+              <div class="alternative-text">Carregando alternativa A...</div>
+            </div>
+            <div class="alternative-card" data-letter="B">
+              <button class="btn-eliminate" title="Eliminar alternativa">✂️</button>
+              <div class="letter-badge">B</div>
+              <div class="alternative-text">Carregando alternativa B...</div>
+            </div>
+            <div class="alternative-card" data-letter="C">
+              <button class="btn-eliminate" title="Eliminar alternativa">✂️</button>
+              <div class="letter-badge">C</div>
+              <div class="alternative-text">Carregando alternativa C...</div>
+            </div>
+            <div class="alternative-card" data-letter="D">
+              <button class="btn-eliminate" title="Eliminar alternativa">✂️</button>
+              <div class="letter-badge">D</div>
+              <div class="alternative-text">Carregando alternativa D...</div>
+            </div>
+            <div class="alternative-card" data-letter="E">
+              <button class="btn-eliminate" title="Eliminar alternativa">✂️</button>
+              <div class="letter-badge">E</div>
+              <div class="alternative-text">Carregando alternativa E...</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Action Area -->
+        <div class="action-bar">
+          <button id="btn-submit" class="btn-submit" disabled>Responder <span class="arrow">→</span></button>
+          <button id="btn-next-question" class="btn-submit btn-next hidden">Próxima Questão <span class="arrow">→</span></button>
+        </div>
+
+        <!-- Interactive TRI Dashboard -->
+        <div id="tri-dashboard" class="tri-dashboard hidden">
+          <div class="dashboard-header">
+            <h3>📈 Análise da Teoria de Resposta ao Item (TRI)</h3>
+            <div id="answer-feedback" class="feedback-badge">Acertou!</div>
+          </div>
+          <div class="dashboard-grid">
+            
+            <!-- Parameter A -->
+            <div class="tri-card">
+              <div class="tri-header">
+                <span class="tri-letter">Parâmetro a</span>
+                <span class="tri-name">Discriminação</span>
+              </div>
+              <div id="tri-val-a" class="tri-value">0.00</div>
+              <div class="tri-gauge-container">
+                <div id="gauge-bar-a" class="tri-gauge-bar" style="width: 0%"></div>
+              </div>
+              <p class="tri-desc">Mede o poder de diferenciar alunos com proficiências distintas. Quanto maior (> 1.5), melhor o item.</p>
+            </div>
+            
+            <!-- Parameter B -->
+            <div class="tri-card">
+              <div class="tri-header">
+                <span class="tri-letter">Parâmetro b</span>
+                <span class="tri-name">Dificuldade</span>
+              </div>
+              <div id="tri-val-b" class="tri-value">0.00</div>
+              <div class="tri-gauge-container bi-directional">
+                <div id="gauge-bar-b" class="tri-gauge-bar bi" style="left: 50%; width: 0%"></div>
+                <div class="scale-zero">|</div>
+              </div>
+              <p class="tri-desc">Posição da questão na escala do ENEM. Valores negativos são mais fáceis, positivos são difíceis.</p>
+            </div>
+            
+            <!-- Parameter C -->
+            <div class="tri-card">
+              <div class="tri-header">
+                <span class="tri-letter">Parâmetro c</span>
+                <span class="tri-name">Chute</span>
+              </div>
+              <div id="tri-val-c" class="tri-value">0.00</div>
+              <div class="tri-gauge-container">
+                <div id="gauge-bar-c" class="tri-gauge-bar chute" style="width: 0%"></div>
+              </div>
+              <p class="tri-desc">Probabilidade de acertar por adivinhação. Quanto menor (< 0.20), mais confiável é a questão.</p>
+            </div>
+            
+          </div>
+          
+          <!-- AI Help Section -->
+          <div class="ai-help-section">
+            <button id="btn-ai-explain" class="btn-ai-explain">✨ Explicar com IA (Gemini)</button>
+            <div id="ai-explanation-container" class="ai-explanation hidden">
+              <div class="ai-header">
+                <span class="ai-icon">🤖</span>
+                <h4>Explicação Customizada da IA</h4>
+              </div>
+              <div id="ai-explanation-content" class="ai-explanation-content">
+                <!-- Preenchido dinamicamente -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      
+    </main>
+
+  </div>
+  
+  <button id="highlighter-btn" class="highlighter-btn hidden" title="Marcar Texto">🖍️</button>
+  
+  <script src="app.js"></script>
+</body>
+</html>

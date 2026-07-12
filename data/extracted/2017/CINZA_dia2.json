@@ -1,0 +1,978 @@
+[
+  {
+    "posicao": 91,
+    "enunciado": "A reação em cadeia da polimerase (PCR, na sigla em inglês) é uma técnica de biologia molecular que permite replicação in vitro do DNA de forma rápida. Essa técnica surgiu na década de 1980 e permitiu avanços científicos em todas as áreas de investigação genômica. A dupla hélice é estabilizada por ligações hidrogênio, duas entre as bases adenina (A) e timina (T) e três entre as bases guanina (G) e citosina (C). Inicialmente, para que o DNA possa ser replicado, a dupla hélice precisa ser totalmente desnaturada (desemparelhada) pelo aumento da temperatura, criando são desfeitas as ligações hidrogênio entre as diferentes bases nitrogenadas.Qual dos segmentos de DNA será o primeiro a desnaturar totalmente durante o aumento da temperatura na reação de PCR?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "G G C C T T G C C G G A A G C",
+      "B": "C C T G A C T G G A C T G A",
+      "C": "G A A T G C G T T A A G G A T",
+      "D": "A A T G C G G C C T A G G A A",
+      "E": "G G A T C G T"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 92,
+    "enunciado": "No ar que respiramos existem os chamados \"gases inertes\". Tratam curiosos nomes gregos, que significam \"o Novo\", \"o Oculto\", \"o Inativo\". É de fato hão de tal modo inertes, tão satisfeitos em sua condição, que não interferem em nenhuma reação química, não se combinam com nenhum outro elemento e justamente por esse motivo ficaram sem ser observados durante séculos: só em 1962 um químico, depois de longos e engenhosos esforços, conseguiu forçar \"o Estrangeiro\" (o xenônio) a combinar-se fugazmente com o flúor ávido e voraz, e a façanha pareceu tão extraordinária que lhe foi conferido o Prêmio Nobel.Qual propriedade do flúor justifica sua escolha como reagente para o processo mencionado?",
+    "texto_base": "LEVI, P. A tabela periódica. Rio de Janeiro: Relume-Dumará, 1994 (adaptado).",
+    "alternativas": {
+      "A": "Densidade.",
+      "B": "Condutância.",
+      "C": "Eletronegatividade.",
+      "D": "Estabilidade nuclear.",
+      "E": "Temperatura de ebulição."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 93,
+    "enunciado": "No manual fornecido pelo fabricante de uma ducha elétrica de 220 V é apresentado um gráfico com a variação da temperatura da água em função da vazão para três condições (morno, quente e superquente). Na condição superquente, a potência dissipada é de 6 600 W. Considere o calor específico da água igual a 4 200 J/(kg °C) e densidade da água igual a 1 kg/L.Com base nas informações dadas, a potência na condição morno corresponde a que fração da potência na condição superquente?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "1/3",
+      "B": "1/5",
+      "C": "3/5",
+      "D": "3/8",
+      "E": "5/8"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha intitulado 'Elevação de temperatura x Curva vazão'. O eixo horizontal é 'Vazão (L/min)' variando de 1 a 10. O eixo vertical é 'ΔT (°C)' variando de 0 a 40. Há três linhas no gráfico, cada uma representando uma condição: 1 - MORNO, 2 - QUENTE, 3 - SUPERQUENTE. A linha 1 (MORNO) começa em ΔT=10°C para Vazão=1 L/min e diminui para ΔT=1°C para Vazão=10 L/min. A linha 2 (QUENTE) começa em ΔT=20°C para Vazão=1 L/min e diminui para ΔT=2°C para Vazão=10 L/min. A linha 3 (SUPERQUENTE) começa em ΔT=30°C para Vazão=1 L/min e diminui para ΔT=3°C para Vazão=10 L/min. Todas as linhas mostram uma tendência decrescente de ΔT com o aumento da vazão."
+    }
+  },
+  {
+    "posicao": 94,
+    "enunciado": "A retina é um tecido sensível à luz, localizado na parte posterior do olho, onde ocorre o processo de formação de imagem. Nesse tecido, encontram-se vários tipos celulares específicos. Um desses tipos celulares são os cones, os quais convertem os diferentes comprimentos de onda da luz visível em sinais elétricos, que são transmitidos pelo nervo óptico até o cérebro.Em relação à visão, a degeneração desse tipo celular irá",
+    "texto_base": "Disponível em: www.oftalmologia.org.br. Acesso em: 2 jun. 2012 (adaptado).",
+    "alternativas": {
+      "A": "comprometer a capacidade de visão em cores.",
+      "B": "impedir a projeção dos raios luminosos na retina.",
+      "C": "provocar a formação de imagens invertidas na retina.",
+      "D": "causar dificuldade de visualização de objetos próximos.",
+      "E": "acarretar a perda da capacidade de alterar o diâmetro da pupila."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 95,
+    "enunciado": "Em algumas residências, cercas eletrificadas são utilizadas com o objetivo de afastar possíveis invasores. Uma cerca eletrificada funciona com uma diferença de potencial elétrico de aproximadamente 10 000 V. Para que não seja letal, a corrente que pode ser transmitida através de uma pessoa não deve ser maior do que 0,01 A. Já a resistência elétrica corporal entre as mãos e os pés de uma pessoa é da ordem de 1 000 Ω.Para que a corrente não seja letal a uma pessoa que toca a cerca eletrificada, o gerador de tensão deve possuir uma resistência interna que, em relação à do corpo humano, é",
+    "texto_base": "",
+    "alternativas": {
+      "A": "praticamente nula.",
+      "B": "aproximadamente igual.",
+      "C": "milhares de vezes maior.",
+      "D": "da ordem de 10 vezes maior.",
+      "E": "da ordem de 10 vezes menor."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 96,
+    "enunciado": "A cromatografia em papel é um método de separação que se baseia na migração diferencial dos componentes de uma mistura entre duas fases imiscíveis. Os componentes da amostra são separados entre a fase estacionária e a fase móvel em movimento no papel. A fase estacionária consiste de celulose praticamente pura, que pode absorver até 22% de água. É a água absorvida que funciona como fase estacionária líquida e que interage com a fase móvel, também líquida (partícula líquido/líquido). Os componentes capazes de formar interações intermoleculares mais fortes com a fase estacionária migram mais lentamente.Uma mistura de hexano com 5% (v/v) de acetona foi utilizada como fase móvel na separação dos componentes de um extrato vegetal obtido a partir de pimentões. Considere que esse extrato contém as substâncias representadas.A substância presente na mistura que migra mais lentamente é o(a)",
+    "texto_base": "RIBEIRO, N. M.; NUNES, C. R. Análise de pigmentos de pimentões por cromatografia em papel. Química Nova na Escola, n. 29, ago. 2008 (adaptado).",
+    "alternativas": {
+      "A": "licopeno.",
+      "B": "α-caroteno.",
+      "C": "γ-caroteno.",
+      "D": "capsorrubina.",
+      "E": "α-criptoxantina."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Quatro estruturas químicas de moléculas orgânicas são apresentadas.1. Licopeno: Uma cadeia longa de hidrocarbonetos insaturados com 11 ligações duplas conjugadas e dois grupos metila em cada extremidade.2. α-caroteno: Uma cadeia longa de hidrocarbonetos insaturados com um anel de ciclohexeno em uma extremidade e um anel de β-ionona na outra.3. Capsorrubina: Uma cadeia longa de hidrocarbonetos insaturados com dois anéis de ciclohexeno, cada um contendo um grupo hidroxila (-OH) e um grupo cetona (C=O) adjacente ao anel.4. α-criptoxantina: Uma cadeia longa de hidrocarbonetos insaturados com um anel de ciclohexeno contendo um grupo hidroxila (-OH) em uma extremidade e um anel de β-ionona na outra."
+    }
+  },
+  {
+    "posicao": 97,
+    "enunciado": "Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes. Ocorrem em razão do aumento de seu tempo de reação. Considere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s². Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s². O motorista atento aciona o freio à velocidade de 10,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.Que distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "2,90 m",
+      "B": "14,0 m",
+      "C": "14,9 m",
+      "D": "15,0 m",
+      "E": "17,4 m"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 98,
+    "enunciado": "Uma das estratégias para conservação de alimentos é o salgamento, adição de cloreto de sódio (NaCl), historicamente utilizado por tropeiros, vaqueiros e sertanejos para conservar carnes de boi, porco e peixe.O que ocorre com as células presentes nos alimentos preservados com essa técnica?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "O sal adicionado diminui a concentração de solutos em seu interior.",
+      "B": "O sal adicionado desorganiza e destrói suas membranas plasmáticas.",
+      "C": "A adição de sal altera as propriedades de suas membranas plasmáticas.",
+      "D": "Os íons Na⁺ e Cl⁻ provenientes da dissociação do sal entram livremente nelas.",
+      "E": "A grande concentração de sal no meio extracelular provoca a saída de água de dentro delas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 99,
+    "enunciado": "Para demonstrar o processo de transformação de energia elétrica em mecânica, um estudante constrói um pequeno gerador utilizando:um fio de cobre de diâmetro D enrolado em N espiras circulares de área A;dois ímãs que criam no espaço entre eles um campo magnético uniforme de intensidade B;eum sistema de engrenagens que lhe permite girar as espiras em torno de um eixo com uma frequência f.Ao fazer o gerador funcionar, o estudante obteve uma tensão máxima V e uma corrente de curto-circuito I.Para dobrar o valor da tensão máxima V do gerador mantendo constante o valor da corrente de curto I, o estudante deve dobrar o(a)",
+    "texto_base": "",
+    "alternativas": {
+      "A": "número de espiras.",
+      "B": "frequência de giro.",
+      "C": "intensidade do campo magnético.",
+      "D": "área das espiras.",
+      "E": "diâmetro do fio."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 100,
+    "enunciado": "A ozonólise, reação utilizada na indústria madeireira para a produção de papel, é também utilizada em escala de laboratório na síntese de aldeídos e cetonas. As duplas ligações dos alcenos são clivadas pela ozonólise com o ozônio (O₃), em presença de água e zinco metálico, e a reação produz aldeídos e/ou cetonas, dependendo do grau de substituição da ligação dupla. Ligações duplas dissustituídas geram cetonas, enquanto as ligações duplas terminais ou monossubstituídas dão origem a aldeídos, como mostra o esquema.Considere a ozonólise do composto 1-fenil-2-metilprop-1-eno:Quais são os produtos formados nessa reação?",
+    "texto_base": "MARTINO, A. Química, a ciência global. Goiânia: Editora W, 2014 (adaptado).",
+    "alternativas": {
+      "A": "Benzaldeído e propanona.",
+      "B": "Propanal e benzaldeído.",
+      "C": "2-fenil-etanal e metanal.",
+      "D": "Benzeno e propanona.",
+      "E": "Benzaldeído e etanal."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas reações químicas são mostradas.A primeira reação mostra um alceno genérico (R-CH=CH-R') reagindo com O₃, H₂O e Zn para formar dois aldeídos ou cetonas (R-CHO e R'-CHO ou R-CO-R' e R-CHO, dependendo dos substituintes).A segunda reação mostra a estrutura do 1-fenil-2-metilprop-1-eno, que possui um anel benzênico ligado a um carbono de uma ligação dupla, e o outro carbono da ligação dupla ligado a um grupo metil e um grupo isopropil. A ligação dupla é entre um carbono ligado ao anel benzênico e um hidrogênio, e o outro carbono ligado a dois grupos metil. A estrutura é C₆H₅-CH=C(CH₃)₂. A seta indica a ozonólise."
+    }
+  },
+  {
+    "posicao": 101,
+    "enunciado": "A terapia celular tem sido amplamente divulgada como revolucionária, por permitir a regeneração de tecidos a partir de células novas. Entretanto, a técnica de se introduzirem novas células em um tecido, para o tratamento de enfermidades em indivíduos, já era aplicada rotineiramente em hospitais.A que técnica refere-se o texto?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "Vacina.",
+      "B": "Biópsia.",
+      "C": "Hemodiálise.",
+      "D": "Quimioterapia.",
+      "E": "Transfusão de sangue."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 102,
+    "enunciado": "A explicação científica que justifica essa prática se baseia na",
+    "texto_base": "Na Idade Média, para elaborar preparados a partir de plantas produtoras de óleos essenciais, as coletas das espécies eram realizadas ao luar do dia. Naquela época, essa prática era fundamentada misticamente pelo efeito mágico dos raios lunares, que seria anulado pela emissão dos raios solares. Com a evolução da ciência, foi comprovado que a coleta de algumas espécies ao raiar do dia garante a obtenção de material com maiores quantidades de óleos essenciais.",
+    "alternativas": {
+      "A": "volatilização das substâncias de interesse.",
+      "B": "polimerização dos óleos catalisada pela radiação solar.",
+      "C": "solubilização das substâncias de interesse pelo orvalho.",
+      "D": "oxidação do óleo pelo oxigênio produzido na fotossíntese.",
+      "E": "liberação das moléculas de óleo durante o processo de fotossíntese."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 106,
+    "enunciado": "A distrofia muscular Duchenne (DMD) é uma doença causada por uma mutação em um gene localizado no cromossomo X. Pesquisadores estudaram uma família na qual gêmeas monozigóticas eram portadoras de um alelo mutante recessivo para esse gene (heterozigotas). O interessante é que uma das gêmeas apresentava o fenótipo relacionado ao alelo mutante, isto é, DMD, enquanto a sua irmã apresentava fenótipo normal.RICHARDS, C. S. et al. The American Journal of Human Genetics, n. 4, 1990 (adaptado).A diferença na manifestação da DMD entre as gêmeas pode ser explicada pela",
+    "texto_base": "",
+    "alternativas": {
+      "A": "dominância incompleta do alelo mutante em relação ao alelo normal.",
+      "B": "falha na separação dos cromossomos X no momento da separação dos dois embriões.",
+      "C": "recombinação cromossômica em uma divisão celular embrionária anterior à separação dos dois embriões.",
+      "D": "inativação aleatória de um dos cromossomos X em fase posterior à divisão que resultou nos dois embriões.",
+      "E": "origem materna do cromossomo portador do alelo mutante em uma das gêmeas e origem materna na outra."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 107,
+    "enunciado": "Diversos produtos naturais podem ser obtidos de plantas por processo de extração. O lapachol é da classe das naftoquinonas. Sua estrutura apresenta uma hidroxila enólica (pK = 6,0) que permite que este composto seja isolado da serragem dos ipês por extração com solução adequada, seguida de filtração simples. Considere que pK = -log K em que K é a constante ácida da reação de ionização do lapachol.Qual solução deve ser usada para extração do lapachol da serragem do ipê com maior eficiência?",
+    "texto_base": "LapacholCOSTA, P. R. R. et al. Ácidos e bases em química orgânica. Porto Alegre: Bookman, 2005 (adaptado).",
+    "alternativas": {
+      "A": "Solução de Na2CO3, para formar um sal de lapachol.",
+      "B": "Solução-tampão ácido acético/acetato de sódio (pH = 4,5).",
+      "C": "Solução de NaCl a fim de aumentar a força iônica do meio.",
+      "D": "Solução de Na2SO4 para formar um par iônico com lapachol.",
+      "E": "Solução de HCl a fim de extraí-lo por meio de reação ácido-base."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de uma molécula de Lapachol. A estrutura consiste em dois anéis fundidos. Um anel é um benzeno com um grupo hidroxila (-OH) ligado. O outro anel é uma quinona, com uma cadeia lateral de três carbonos (propil) ligada a ele. A cadeia propil tem um grupo metil na extremidade. As ligações duplas e simples são mostradas nos anéis."
+    }
+  },
+  {
+    "posicao": 108,
+    "enunciado": "Para se adequar às normas ambientais atuais, as construtoras precisam prever em suas obras a questão do uso de materiais de modo a minimizar os impactos causados no local. Entre esses materiais está o chamado concreto-grama ou pisograma, que é um tipo de revestimento composto por peças de concreto com áreas vazadas preenchidas com solo gramado. As figuras apresentam essas duas formas de piso feito de concreto.A utilização desse tipo de piso em uma obra tem o objetivo de evitar, no solo, a",
+    "texto_base": "Piso tradicional de concretoPiso concregramaPONTES, K. L. Estudo de caso de um protótipo experimental [...]. Disponível em: http://engenhariacivil.ufsc.br. Acesso em: 10 dez. 2015 (adaptado).",
+    "alternativas": {
+      "A": "impermeabilização.",
+      "B": "diminuição da temperatura.",
+      "C": "acumulação de matéria orgânica.",
+      "D": "alteração do pH.",
+      "E": "salinização."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas ilustrações de pisos. A primeira ilustração mostra um bloco retangular sólido de concreto cinza. A segunda ilustração mostra um arranjo de blocos de concreto cinza com espaços vazios entre eles, preenchidos com grama verde. Os blocos formam um padrão de grade ou colmeia, permitindo o crescimento da grama nos interstícios."
+    }
+  },
+  {
+    "posicao": 112,
+    "enunciado": "O ferro é encontrado na natureza na forma de seus minérios, tais como a hematita (α-Fe₂O₃), a magnetita (Fe₃O₄) e a wustita (FeO). Na siderurgia, o ferro-gusa é obtido pela fusão de minérios de ferro em altos fornos em condições adequadas. Uma das etapas nesse processo é a formação de monóxido de carbono. O CO (gasoso) é utilizado para reduzir o FeO (sólido), conforme a equação química:FeO (s) + CO (g) → Fe (s) + CO₂ (g)Considere as seguintes equações termoquímicas:Fe₂O₃ (s) + 3 CO (g) → 2 Fe (s) + 3 CO₂ (g)ΔH° = –25 kJ/mol de Fe₂O₃3 FeO (s) + CO₂ (g) → Fe₃O₄ (s) + CO (g)ΔH° = –36 kJ/mol de CO₂2 FeO₃ (s) + CO₂ (g) → 3 Fe₃O₄ (s) + CO (g)ΔH° = +47 kJ/mol de CO₂O valor mais próximo de ΔH°, em kJ/mol de FeO, para a reação indicada do FeO (sólido) com o CO (gasoso) é",
+    "texto_base": "",
+    "alternativas": {
+      "A": "-14.",
+      "B": "-17.",
+      "C": "-50.",
+      "D": "-64.",
+      "E": "-100."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 113,
+    "enunciado": "Essa intervenção antrópica prejudica a piracema porque reduz o(a)",
+    "texto_base": "O fenômeno da piracema (subida do rio) é um importante mecanismo que influencia a reprodução de algumas espécies de peixes, pois induz o processo que estimula a queima de gordura e ativa mecanismos hormonais complexos, preparando-os para a reprodução. Intervenções antrópicas nos ambientes aquáticos, como a construção de barragens, interferem na reprodução desses animais.MALTA, P. Impacto ambiental das barragens hidrelétricas. Disponível em: http://futurambiental.com. Acesso em: 19 maio 2013 (adaptado).",
+    "alternativas": {
+      "A": "percurso da migração.",
+      "B": "longevidade dos indivíduos.",
+      "C": "disponibilidade de alimentos.",
+      "D": "período de migração da espécie.",
+      "E": "número de espécies de peixes no local."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 114,
+    "enunciado": "Qual é o máximo valor da tensão U para que o fusível não queime?",
+    "texto_base": "Fusível é um dispositivo de proteção contra sobrecorrente em circuitos. Quando a corrente que passa por esse componente elétrico é maior que sua máxima corrente nominal, o fusível queima. Dessa forma, evita que a corrente elevada danifique os aparelhos do circuito. Suponha que o circuito elétrico mostrado seja alimentado por uma fonte de tensão U e que o fusível suporte uma corrente nominal de 500 mA.",
+    "alternativas": {
+      "A": "20 V",
+      "B": "40 V",
+      "C": "60 V",
+      "D": "120 V",
+      "E": "185 V"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de um circuito elétrico. No centro, um fusível. À esquerda do fusível, um resistor de 120 Ω. Acima do fusível, um resistor de 60 Ω. À direita do fusível, um resistor de 40 Ω. Abaixo do fusível, um resistor de 60 Ω. Todos os resistores estão conectados em uma configuração que forma um losango ou diamante, com o fusível no centro. A fonte de tensão U está conectada na parte inferior do losango, entre os dois resistores de 60 Ω, e na parte superior, entre os resistores de 120 Ω e 60 Ω. A corrente nominal do fusível é 500 mA."
+    }
+  },
+  {
+    "posicao": 115,
+    "enunciado": "Os botos-cinza acumulam maior concentração dessas substâncias porque",
+    "texto_base": "Os botos-cinza (Sotalia guianensis), mamíferos da família dos golfinhos, são excelentes indicadores da poluição das áreas em que vivem, pois passam toda a sua vida – cerca de 30 anos – na mesma região. Além disso, a espécie acumula mais contaminantes em seu organismo, como o mercúrio, do que outros animais da sua cadeia alimentar.MARCOLINO, B. Sentinelas do mar. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 1 ago. 2012 (adaptado).",
+    "alternativas": {
+      "A": "são animais herbívoros.",
+      "B": "são animais detrívoros.",
+      "C": "são animais de grande porte.",
+      "D": "digerem o alimento lentamente.",
+      "E": "estão no topo da cadeia alimentar."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 116,
+    "enunciado": "O valor da frequência, em hertz, do som produzido pela fonte sonora é",
+    "texto_base": "O trombone de Quincke é um dispositivo experimental que utiliza para demonstração o fenômeno da interferência de ondas sonoras. Uma fonte emite ondas sonoras de determinada frequência na entrada do dispositivo. Essas ondas se dividem pelos dois caminhos (ADC e AEC) e se encontram no ponto C, a saída do dispositivo, onde se posiciona um detector. O trajeto ADC pode ser aumentado pelo deslocamento dessa parte do dispositivo. Com o trajeto ADC igual ao AEC, capta-se um som muito intenso na saída. Entretanto, aumentando-se gradativamente o trajeto ADC, até que ele fique como mostrado na figura, a intensidade do som na saída fica praticamente nula. Dessa forma, conhecendo a velocidade do som no interior do tubo (320 m/s), é possível determinar o valor da frequência do som produzido pela fonte.",
+    "alternativas": {
+      "A": "3 200.",
+      "B": "1 600.",
+      "C": "800.",
+      "D": "640.",
+      "E": "400."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de um trombone de Quincke. O dispositivo tem uma entrada para a fonte sonora e uma saída para o detector. O som se divide em dois caminhos: um caminho superior (ADC) e um caminho inferior (AEC). O caminho superior é ajustável em comprimento. A figura mostra o caminho superior (ADC) com um comprimento de 63 cm (30 cm + 33 cm) e o caminho inferior (AEC) com um comprimento de 30 cm. A diferença de caminho é de 33 cm. A fonte sonora está à esquerda, o detector à direita. As setas indicam o sentido do som. Há uma régua indicando 30 cm e uma seta indicando o deslocamento de uma parte do tubo."
+    }
+  },
+  {
+    "posicao": 117,
+    "enunciado": "Qual(is) grupo(s) terá(ão) uma mortalidade mínima de 10 ratos?",
+    "texto_base": "A toxicidade de algumas substâncias é normalmente representada por um índice conhecido como DL₅₀ (dose letal mediana). Ele representa a dosagem aplicada a uma população de seres vivos que mata 50% desses indivíduos e é normalmente medido utilizando-se ratos como cobaias. Esse índice é muito importante para os seres humanos, pois ao se extrapolar os dados obtidos com o uso de cobaias, pode-se determinar o nível tolerável de contaminação de alimentos, para que possam ser consumidos de forma segura pelas pessoas. O quadro apresenta três pesticidas e suas toxicidades. A unidade mg/kg indica a massa da substância ingerida pela massa da cobaia.Tabela:Pesticidas | DL₅₀ (mg/kg)Diazinon | 70Malation | 1 000Atrazina | 3 100Sessenta ratos, com massa de 200 g cada, foram divididos em três grupos de vinte. Três amostras de ração, contaminadas, cada uma delas com um dos pesticidas indicados no quadro, na concentração de 3 mg por grama de ração, foram administradas para cada grupo de cobaias. Cada rato consumiu 100 g de ração.",
+    "alternativas": {
+      "A": "O grupo que se contaminou somente com atrazina.",
+      "B": "O grupo que se contaminou somente com diazinon.",
+      "C": "Os grupos que se contaminaram com atrazina e malation.",
+      "D": "Os grupos que se contaminaram com diazinon e malation.",
+      "E": "Nenhum dos grupos contaminados com atrazina, diazinon e malation."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela com duas colunas: 'Pesticidas' e 'DL₅₀ (mg/kg)'. As linhas são: Diazinon com 70, Malation com 1 000, e Atrazina com 3 100."
+    }
+  },
+  {
+    "posicao": 118,
+    "enunciado": "Na terapêutica das doenças mencionadas, alguns desses fármacos atuam",
+    "texto_base": "Os medicamentos são rotineiramente utilizados pelo ser humano com o intuito de diminuir ou, por muitas vezes, curar processos transtornos de saúde. Os antibióticos são grupos de fármacos inseridos no tratamento de doenças causadas por bactérias.",
+    "alternativas": {
+      "A": "ativando o sistema imunológico do hospedeiro.",
+      "B": "interferindo na cascata bioquímica da inflamação.",
+      "C": "removendo as toxinas sintetizadas pelas bactérias.",
+      "D": "combatendo as células hospedeiras das bactérias.",
+      "E": "danificando estruturas específicas da célula bacteriana."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 119,
+    "enunciado": "O valor da resistência elétrica da polianilina na presença de altas concentrações de amônia, em ohm, é igual a",
+    "texto_base": "Dispositivos eletrônicos que utilizam materiais de baixo custo, como polímeros semicondutores, têm sido desenvolvidos para monitorar a concentração de amônia (gás tóxico e incolor) em granjas avícolas. A polianilina é um polímero semicondutor que tem o valor de sua resistência elétrica nominal quadruplicado quando exposto a altas concentrações de amônia. Na ausência de amônia, a polianilina se comporta como um resistor ôhmico e a sua resposta elétrica é mostrada no gráfico.",
+    "alternativas": {
+      "A": "0,5 x 10³.",
+      "B": "1,0 x 10³.",
+      "C": "2,0 x 10³.",
+      "D": "5,0 x 10³.",
+      "E": "2,0 x 10⁴."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha com o eixo Y rotulado 'Corrente (10⁻⁴ A)' e o eixo X rotulado 'Diferença de potencial (V)'. O eixo Y varia de 0 a 6 (em unidades de 10⁻⁴ A) e o eixo X varia de 0 a 3 (em V). A linha do gráfico é reta e passa pela origem (0,0), subindo linearmente. Pontos notáveis: (0.5V, 1.0 x 10⁻⁴ A), (1.0V, 2.0 x 10⁻⁴ A), (1.5V, 3.0 x 10⁻⁴ A), (2.0V, 4.0 x 10⁻⁴ A), (2.5V, 5.0 x 10⁻⁴ A)."
+    }
+  },
+  {
+    "posicao": 120,
+    "enunciado": "O aumento da eficiência fotossintética ocorreu pelo fato de os nanotubos de carbono promoverem diretamente a",
+    "texto_base": "Pesquisadores conseguiram estimular a absorção de energia luminosa em plantas graças ao uso de nanotubos de carbono. Para isso, nanotubos de carbono se inseriram no interior dos cloroplastos por uma montagem espontânea, através das membranas dos cloroplastos. Pigmentos da planta absorvem as radiações luminosas, os elétrons são excitados, e se deslocam no interior de membranas dos cloroplastos, e a planta utiliza em seguida essa energia elétrica para a fabricação de açúcares. Os nanotubos de carbono podem absorver comprimentos de onda habitualmente não utilizados pelos cloroplastos, e os pesquisadores tiveram a ideia de utilizá-los como “antenas”, otimizando a conversão de energia solar pelos cloroplastos, com o aumento do transporte de elétrons.Nanotubos de carbono incrementam a fotossíntese de plantas. Disponível em: http://www.inovacaotecnologica.com.br. Acesso em: 17 jul. 2015 (adaptado).",
+    "alternativas": {
+      "A": "utilização de água.",
+      "B": "absorção de fótons.",
+      "C": "formação de gás oxigênio.",
+      "D": "proliferação dos cloroplastos.",
+      "E": "captação de dióxido de carbono."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 121,
+    "enunciado": "No processo eletrolítico ilustrado, o produto secundário obtido é o",
+    "texto_base": "A eletrólise é um processo não espontâneo de grande importância para a indústria química. Uma de suas aplicações é a obtenção do gás cloro e do hidróxido de sódio, a partir de uma solução aquosa de cloreto de sódio. Nesse procedimento, utiliza-se uma célula eletroquímica, como ilustrado.",
+    "alternativas": {
+      "A": "vapor de água.",
+      "B": "oxigênio molecular.",
+      "C": "hipoclorito de sódio.",
+      "D": "hidrogênio molecular.",
+      "E": "cloreto de hidrogênio."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de uma célula eletroquímica para eletrólise de solução aquosa de NaCl. A célula consiste em dois compartimentos separados por uma diafragma de amianto. No compartimento esquerdo, há um ânodo de carbono imerso em solução aquosa de NaCl. Elétrons saem do ânodo e vão para uma bateria, e retornam para o cátodo de carbono no compartimento direito. No compartimento direito, há um cátodo de carbono imerso em solução para hidróxido alcalina. O produto secundário (Cl₂(g)) é liberado acima do ânodo. O dreno para solução aquosa alcalina está na parte inferior do compartimento do cátodo. A bateria está conectada entre o ânodo e o cátodo, com o polo positivo conectado ao ânodo e o polo negativo ao cátodo. As setas indicam o fluxo de elétrons."
+    }
+  },
+  {
+    "posicao": 122,
+    "enunciado": "No ciclo natural do nitrogênio, o equivalente ao principal componente desses fertilizantes industriais é produzido na etapa de",
+    "texto_base": "Uma grande virada na moderna história da agricultura ocorreu depois da Segunda Guerra Mundial. Após a guerra, os governos haviam se deparado com um enorme excedente de nitrato de amônio, ingrediente usado na fabricação de explosivos. A partir daí as fábricas de munição foram adaptadas para começar a produzir fertilizantes tendo como componente principal os nitratos.SOUZA, F. A. Agricultura natural/orgânica como instrumento de fixação biológica e manutenção do nitrogênio no solo: um modelo sustentável da NDL. Disponível em: www.planetorganico.com.br. Acesso em: 17 jul. 2015 (adaptado).",
+    "alternativas": {
+      "A": "nitratação.",
+      "B": "nitrosação.",
+      "C": "amonificação.",
+      "D": "desnitrificação.",
+      "E": "fixação biológica do N₂."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 123,
+    "enunciado": "A idade desse fóssil, em anos, é",
+    "texto_base": "A técnica do carbono-14 permite a datação de fósseis pela medição dos valores de emissão beta desse isótopo presente no fóssil. Para um ser em vida, o máximo são 15 emissões beta/(min g). Após a morte, a quantidade de ¹⁴C se reduz pela metade a cada 5 730 anos.A prova do carbono 14. Disponível em: http://noticias.terra.com.br. Acesso em: 9 nov. 2013 (adaptado).Considere que um fragmento fóssil de massa igual a 30 g foi encontrado em um sítio arqueológico, e a medição de radiação apresentou 6 750 emissões beta por hora.",
+    "alternativas": {
+      "A": "450.",
+      "B": "1 433.",
+      "C": "11 460.",
+      "D": "17 190.",
+      "E": "27 000."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 124,
+    "enunciado": "Mesmo com ausência de ventos por curtos períodos, essa estação continua abastecendo a cidade onde está instalada, pois o(a)",
+    "texto_base": "A figura mostra o funcionamento de uma estação híbrida de geração de eletricidade movida a energia eólica e biogás. Essa estação possibilita que a energia gerada no parque eólico seja armazenada na forma de gás hidrogênio, usado no fornecimento de energia para a rede elétrica comum e para abastecer células a combustível.",
+    "alternativas": {
+      "A": "planta mista de geração de energia realiza eletrólise para enviar energia à rede de distribuição elétrica.",
+      "B": "hidrogênio produzido e armazenado é utilizado na combustão com o biogás para gerar calor e eletricidade.",
+      "C": "conjunto de turbinas continua girando com a mesma velocidade, por inércia, mantendo a eficiência anterior.",
+      "D": "combustão da mistura biogás-hidrogênio gera diretamente energia elétrica adicional para a manutenção da estação.",
+      "E": "planta mista de geração de energia é capaz de utilizar todo o calor fornecido na combustão para a geração de eletricidade."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de uma estação híbrida de geração de eletricidade. À esquerda, uma rede de distribuição elétrica conectada a torres de transmissão. Abaixo, uma planta mista de geração de energia, que gera eletricidade e calor. A eletricidade da planta eólica e da planta mista de geração de energia alimenta um eletrolisador que produz hidrogênio. O hidrogênio é armazenado. O biogás é gerado a partir da planta mista de geração de energia e também alimenta o sistema. O hidrogênio armazenado pode ser usado para gerar eletricidade através de turbinas eólicas e células a combustível, que por sua vez alimentam a rede de distribuição elétrica e também produzem calor. O diagrama mostra um ciclo de energia com várias etapas: Rede de distribuição elétrica, Turbinas eólicas, Produção de hidrogênio, Eletricidade, Mistura, Hidrogênio, Armazenamento de hidrogênio, Calor, Biogás, Combustível. As setas indicam o fluxo de energia e materiais."
+    }
+  },
+  {
+    "posicao": 127,
+    "enunciado": "Qual é a máxima distância, em km, que um sinal pode ser enviado nessa fibra sem ser necessária uma retransmissão?",
+    "texto_base": "Em uma linha de transmissão de informações por fibra óptica, quando um sinal diminui sua intensidade para valores inferiores a 10 dB, este precisa ser retransmitido. No entanto, intensidades superiores a 100 dB não podem ser transmitidas adequadamente. A figura apresenta como se dá a perda de sinal (perda óptica) para diferentes comprimentos de onda para certo tipo de fibra óptica.",
+    "alternativas": {
+      "A": "6",
+      "B": "18",
+      "C": "60",
+      "D": "90",
+      "E": "100"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha com título 'Perda óptica (dB/km) x Comprimento de onda (nm)'. O eixo Y (vertical) representa a Perda óptica em dB/km, variando de 1 a 7. O eixo X (horizontal) representa o Comprimento de onda em nm, variando de 0,8 a 1,8 em intervalos de 0,1. A linha do gráfico mostra a perda óptica em função do comprimento de onda. A perda começa alta em 0,8 nm (cerca de 6 dB/km), diminui para um mínimo em torno de 1,3 nm (cerca de 0,1 dB/km), e depois aumenta novamente para 1,8 nm (cerca de 1,5 dB/km). Há pontos marcados no eixo X em 0,8, 0,9, 1,0, 1,1, 1,2, 1,3, 1,4, 1,5, 1,6, 1,7, 1,8. A legenda abaixo do gráfico é 'Atenuação e limitações das fibras ópticas. Disponível em: http://www.gta.ufrj.br. Acesso em: 25 maio 2017 (adaptado).'"
+    }
+  },
+  {
+    "posicao": 128,
+    "enunciado": "A diferença básica nas classificações citadas é que a mais recente se baseia fundamentalmente em",
+    "texto_base": "A classificação biológica proposta por Whittaker permite distinguir cinco grandes linhas evolutivas utilizando, como critérios de classificação, a organização celular e o modo de nutrição. Woese e seus colaboradores, com base na comparação das sequências que codificam o RNA ribossômico dos seres vivos, estabeleceram relações de ancestralidade entre os grupos e concluíram que os procariontes do reino Monera não eram um grupo coeso do ponto de vista evolutivo.",
+    "alternativas": {
+      "A": "tipos de células.",
+      "B": "aspectos ecológicos.",
+      "C": "relações filogenéticas.",
+      "D": "propriedades fisiológicas.",
+      "E": "características morfológicas."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela comparando duas classificações de reinos/domínios. A tabela tem duas colunas: 'Whittaker (1969) Cinco reinos' e 'Woese (1990) Três domínios'. Na coluna 'Whittaker (1969) Cinco reinos', as linhas são: Monera, Protista, Fungi, Plantae, Animalia. Na coluna 'Woese (1990) Três domínios', as linhas correspondentes são: Archaea, Eubacteria, Eukarya. As linhas para Fungi, Plantae e Animalia estão agrupadas sob Eukarya."
+    }
+  },
+  {
+    "posicao": 129,
+    "enunciado": "Qual doença cujos pacientes teriam melhora de seu estado de saúde com o uso desse material?",
+    "texto_base": "Pesquisadores criaram um tipo de plaqueta artificial, feita com um polímero gelatinoso coberto de anticorpos, que promete agilizar o processo de coagulação quando injetada no corpo. Se houver sangramento, esses anticorpos fazem com que a plaqueta mude sua forma e se transforme em uma espécie de rede que gruda nas lesões dos vasos sanguíneos e da pele.MOUTINHO, S. Coagulação acelerada. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 21 maio 2013 (adaptado).",
+    "alternativas": {
+      "A": "Filariose.",
+      "B": "Hemofilia.",
+      "C": "Aterosclerose.",
+      "D": "Doença de Chagas.",
+      "E": "Síndrome da imunodeficiência adquirida."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 133,
+    "enunciado": "A função química presente no produto que representa o biodiesel é",
+    "texto_base": "O biodiesel é um biocombustível obtido a partir de fontes renováveis, que surgiu como alternativa ao uso do diesel de petróleo para motores de combustão interna. Ele pode ser obtido pela reação entre triglicerídeos, presentes em óleos vegetais e gorduras animais, entre outros, e álcoois de baixa massa molar, como o metanol ou etanol, na presença de um catalisador, de acordo com a equação química:R-C(=O)-O-CH2-CH(-O-C(=O)-R)-CH2-O-C(=O)-R + 3 CH3OH catalisador CH2OH-CHOH-CH2OH + 3 CH3-O-C(=O)-R",
+    "alternativas": {
+      "A": "éter.",
+      "B": "éster.",
+      "C": "álcool.",
+      "D": "cetona.",
+      "E": "ácido carboxílico."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Equação química mostrando a reação de um triglicerídeo com 3 moléculas de metanol (CH3OH) na presença de um catalisador, resultando em um glicerol e 3 moléculas de biodiesel (CH3-O-C(=O)-R). A estrutura do triglicerídeo é R-C(=O)-O-CH2-CH(-O-C(=O)-R)-CH2-O-C(=O)-R. A estrutura do glicerol é CH2OH-CHOH-CH2OH. A estrutura do biodiesel é CH3-O-C(=O)-R."
+    }
+  },
+  {
+    "posicao": 134,
+    "enunciado": "Nesse aparelho, a separação das substâncias ocorre em função",
+    "texto_base": "As centrífugas são equipamentos utilizados em laboratórios, clínicas e indústrias. Seu funcionamento faz uso da aceleração centrífuga obtida pela rotação de um recipiente e que serve para a separação de sólidos em suspensão em líquidos ou de líquidos imiscíveis entre si.RODITI, I. Dicionário Houaiss de física. Rio de Janeiro: Objetiva, 2005 (adaptado).",
+    "alternativas": {
+      "A": "das diferentes densidades.",
+      "B": "das diferentes razões de rotação.",
+      "C": "das diferentes velocidades angulares.",
+      "D": "das diferentes quantidades de cada substância.",
+      "E": "da diferente coesão molecular de cada substância."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 135,
+    "enunciado": "A mudança observada da etapa 3 para a etapa 4 do experimento ocorre porque as proteínas",
+    "texto_base": "Visando explicar uma das propriedades da membrana plasmática, fusionou-se uma célula do camundongo com uma célula humana, formando uma célula híbrida. Em seguida, com o intuito de marcar as proteínas da membrana, dois anticorpos foram inseridos no experimento: um específico para as proteínas de membrana do camundongo e outro para as proteínas de membrana humana. Os anticorpos foram conjugados ao microscópio por meio de fluorescência de cores diferentes.ALBERTS, B. et al. Biologia molecular da célula. Porto Alegre: Artmed Médicas, 1997 (adaptado).",
+    "alternativas": {
+      "A": "permanecem confinadas em determinadas regiões da bicamada.",
+      "B": "aumentam o deslocamento dos fosfolipídios da membrana plasmática.",
+      "C": "são mobilizadas em razão da inserção de anticorpos.",
+      "D": "são bloqueadas pelos anticorpos.",
+      "E": "difundem-se livremente no plano da bicamada lipídica."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Quatro diagramas ilustrando a fusão de células e a distribuição de proteínas na membrana. ETAPA 1 mostra uma Célula camundongo e uma Célula humana. A Célula camundongo tem proteínas da membrana representadas por triângulos escuros. A Célula humana tem proteínas da membrana representadas por quadrados claros. ETAPA 2 mostra a Fusão celular, onde as duas células se juntam, formando uma Célula híbrida. ETAPA 3 mostra a Célula híbrida logo após a fusão, com as proteínas do camundongo (triângulos escuros) e as proteínas humanas (quadrados claros) ainda segregadas em lados opostos da membrana. Há uma legenda indicando 'Anticorpos contra proteína de membrana do camundongo marcados com fluoresceína' e 'Anticorpos contra proteína de membrana humana marcados com rodamina'. O tempo é 0 minuto. ETAPA 4 mostra a Célula híbrida após 40 minutos a 37 °C. As proteínas do camundongo (triângulos escuros) e as proteínas humanas (quadrados claros) estão agora misturadas e distribuídas uniformemente por toda a membrana da célula híbrida."
+    }
+  },
+  {
+    "posicao": 140,
+    "enunciado": "Quantos minutos o veículo permaneceu imóvel ao longo do intervalo de tempo total analisado?",
+    "texto_base": "Os congestionamentos de trânsito constituem um problema que aflige todos os dias, milhares de motoristas brasileiros. O gráfico ilustra a situação, representando, ao longo de um intervalo definido de tempo, a variação da velocidade de um veículo durante um congestionamento.VelocidadeTempo (min)",
+    "alternativas": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1",
+      "E": "0"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de linha com o eixo Y rotulado 'Velocidade' e o eixo X rotulado 'Tempo (min)'. O eixo X vai de 0 a 10, com marcações a cada 2 unidades. O eixo Y não tem valores explícitos. A linha do gráfico mostra a velocidade variando ao longo do tempo. A velocidade é zero entre os tempos 2 e 4, e também entre os tempos 6 e 8."
+    }
+  },
+  {
+    "posicao": 141,
+    "enunciado": "A bandeja a ser escolhida deverá ter uma área mínima, em centímetro quadrado, igual a",
+    "texto_base": "Um garçom precisa escolher uma bandeja de base retangular para servir quatro taças de espumante que precisam ser dispostas em uma única fileira, paralela ao lado maior da bandeja, e com suas bases totalmente apoiadas na bandeja. A base e a borda superior das taças são círculos de raio 4 cm e 5 cm, respectivamente.",
+    "alternativas": {
+      "A": "192",
+      "B": "300",
+      "C": "304",
+      "D": "320",
+      "E": "400"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem de uma taça de espumante com um pé longo e uma base circular."
+    }
+  },
+  {
+    "posicao": 142,
+    "enunciado": "A embalagem escolhida pelo casal deve ser a de número",
+    "texto_base": "Em uma cantina, o sucesso de venda no verão são sucos preparados à base de polpa de frutas. Um dos sucos mais vendidos é o de morango com acerola, que é preparado com 2/3 de polpa de morango e 1/3 de polpa de acerola.Para o comerciante, as polpas são vendidas em embalagens de igual volume. Atualmente, a embalagem da polpa de morango custa R$ 18,00 e a de acerola, R$ 14,70. Porém, está prevista uma alta no preço da embalagem da polpa de acerola no próximo mês, passando a custar R$ 15,30.Para não aumentar o preço do suco, o comerciante negociou com o fornecedor uma redução no preço da embalagem da polpa de morango.A redução, em real, no preço da embalagem da polpa de morango deverá ser de",
+    "alternativas": {
+      "A": "1,20.",
+      "B": "0,90.",
+      "C": "0,60.",
+      "D": "0,40.",
+      "E": "0,30."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 143,
+    "enunciado": "O casal precisa escolher uma caixa na qual o objeto caiba, de modo que sobre o menor espaço livre em seu interior.A caixa escolhida pelo casal deve ser a de número",
+    "texto_base": "Um casal realiza sua mudança de domicílio e necessita colocar numa caixa de papelão um objeto cúbico, de 80 cm de aresta, que não pode ser desmontado. Eles têm à disposição cinco caixas, com diferentes dimensões, conforme descrito:• Caixa 1: 86 cm × 86 cm × 86 cm• Caixa 2: 85 cm × 82 cm × 90 cm• Caixa 3: 85 cm × 82 cm × 85 cm• Caixa 4: 82 cm × 95 cm × 82 cm• Caixa 5: 80 cm × 85 cm × 85 cm",
+    "alternativas": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 144,
+    "enunciado": "Para recolocar a tela na sua posição original, deve-se girá-la, rente à parede, no menor ângulo possível inferior a 360°.A forma de recolocar a tela na posição original, obedecendo ao que foi estabelecido, é girando-a em um ângulo de",
+    "texto_base": "A imagem apresentada na figura é uma cópia em preto e branco da tela quadrada intitulada O paixão, de Marcos Pinto, que foi emoldurada em uma parede para exposição e fixada nos pontos A e B.Por um problema na fixação de um dos pontos, a tela se desprendeu, girando rente à parede. Após o giro, ela ficou posicionada como ilustra na figura, formando um ângulo de 45° com a linha do horizonte.A B",
+    "alternativas": {
+      "A": "90° no sentido horário.",
+      "B": "135° no sentido horário.",
+      "C": "180° no sentido anti-horário.",
+      "D": "270° no sentido anti-horário.",
+      "E": "315° no sentido horário."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas imagens de uma tela quadrada com um desenho abstrato em preto e branco. A primeira imagem mostra a tela em sua posição original, com os pontos A e B na parte superior. A segunda imagem mostra a mesma tela girada no sentido horário, com o ponto B agora na parte inferior direita e o ponto A na parte superior esquerda, formando um ângulo de 45 graus com a linha do horizonte. Uma seta indica o ângulo de 45 graus."
+    }
+  },
+  {
+    "posicao": 145,
+    "enunciado": "Para que atinja seu objetivo, a nota mínima que ele deve conseguir na disciplina I é",
+    "texto_base": "A avaliação do rendimento de alunos de um curso universitário baseia-se na média ponderada das notas obtidas nas disciplinas pelos respectivos números de créditos, como mostra o quadro:AvaliaçãoMédia de notas (M)Excelente9 ≤ M ≤ 10Bom7 ≤ M < 9Regular5 ≤ M < 7Ruim3 ≤ M < 5PéssimoM < 3Quanto melhor a avaliação de um aluno em determinado período letivo, maior sua prioridade na escolha de disciplinas para o período seguinte.Determinado aluno sabe que se obtiver avaliação \"Bom\" ou \"Excelente\" conseguirá matrícula nas disciplinas que deseja. Ele já realizou as provas de 4 das 5 disciplinas em que está matriculado, mas ainda não realizou a prova da disciplina I, conforme o quadro.DisciplinasNotasNúmero de créditosI12II8,008III6,008IV7,5010V7,5010",
+    "alternativas": {
+      "A": "7,00.",
+      "B": "7,38.",
+      "C": "7,50.",
+      "D": "8,25.",
+      "E": "9,00."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas tabelas. A primeira tabela, intitulada 'Avaliação', tem duas colunas: 'Avaliação' e 'Média de notas (M)'. As linhas são: Excelente (9 ≤ M ≤ 10), Bom (7 ≤ M < 9), Regular (5 ≤ M < 7), Ruim (3 ≤ M < 5), Péssimo (M < 3). A segunda tabela, intitulada 'Disciplinas', tem três colunas: 'Disciplinas', 'Notas' e 'Número de créditos'. As linhas são: I (Nota vazia, 12 créditos), II (8,00, 8 créditos), III (6,00, 8 créditos), IV (7,50, 10 créditos), V (7,50, 10 créditos)."
+    }
+  },
+  {
+    "posicao": 146,
+    "enunciado": "Com base nessas informações, quantos são os modelos distintos do brinquedo caminhão-cegonha que essa empresa poderá produzir?",
+    "texto_base": "Um brinquedo infantil caminhão-cegonha é formado por uma carroceria e dez carrinhos nela transportados, conforme a figura.No setor de produção da empresa que fabrica esse brinquedo, é feita a pintura de todos os carrinhos para que o aspecto do brinquedo fique mais atraente. São utilizadas as cores amarelo, branco, laranja e verde, e cada carrinho é pintado apenas com uma cor. O caminhão-cegonha tem uma cor fixa. A empresa determinou que em todo caminhão-cegonha deve haver pelo menos um carrinho de cada uma das quatro cores disponíveis. Mudança de posição dos carrinhos no caminhão-cegonha não gera um novo modelo do brinquedo.",
+    "alternativas": {
+      "A": "6^4",
+      "B": "9^3",
+      "C": "10^4",
+      "D": "6^4",
+      "E": "4^6"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma ilustração de um caminhão-cegonha de brinquedo. O caminhão tem uma cabine e uma plataforma de dois andares, transportando dez carrinhos pequenos."
+    }
+  },
+  {
+    "posicao": 147,
+    "enunciado": "A quantidade desse produto, em mililitro, que deve ser adicionada a essa piscina de modo a atender às suas especificações técnicas é",
+    "texto_base": "Uma empresa especializada em conservação de piscinas utiliza um produto para tratamento da água cujas especificações técnicas sugerem que seja adicionado 1,5 mL desse produto para cada 1 000 L de água da piscina. Essa empresa foi contratada para cuidar de uma piscina de base retangular, de profundidade constante igual a 1,2 m, com largura e comprimento iguais a 3 m e 5 m, respectivamente. O nível da lâmina d'água dessa piscina é mantido a 50 cm da borda da piscina.",
+    "alternativas": {
+      "A": "11,25.",
+      "B": "27,00.",
+      "C": "28,80.",
+      "D": "32,25.",
+      "E": "49,50."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 148,
+    "enunciado": "em que σ é um parâmetro e N é o número de pessoas entrevistadas pela pesquisa.Qual pesquisa deverá ser utilizada?",
+    "texto_base": "Um instituto de pesquisas eleitorais recebe uma encomenda na qual a margem de erro deverá ser de, no máximo, 2 pontos percentuais (0,02).O instituto tem 5 pesquisas recentes, P1 a P5, sobre o tema objeto da encomenda e irá usar a que tiver o erro menor que o pedido.Os dados sobre as pesquisas são os seguintes:PesquisaσN√NO erro e pode ser expresso por|e| < 1,96 * σ/√N",
+    "alternativas": {
+      "A": "P1",
+      "B": "P2",
+      "C": "P3",
+      "D": "P4",
+      "E": "P5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com o título 'Pesquisa'. As colunas são: 'Pesquisa', 'σ', 'N', '√N'. As linhas são: P1 (0,5, 1764, 42), P2 (0,4, 784, 28), P3 (0,3, 576, 24), P4 (0,2, 441, 21), P5 (0,1, 64, 8)."
+    }
+  },
+  {
+    "posicao": 149,
+    "enunciado": "Quantos segundos após a partida do bondinho B partiu o bondinho A?",
+    "texto_base": "Em um teleférico turístico, bondinhos saem de estações ao nível do mar e do topo de uma montanha. A travessia dura 15 minutos e ambos os bondinhos se deslocam à mesma velocidade. Quarenta segundos após o bondinho A partir da estação ao nível do mar, ela cruza com o bondinho B, que havia saído do topo da montanha.",
+    "alternativas": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20",
+      "E": "25"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 150,
+    "enunciado": "Às 16 horas, qual é a profundidade do rio, em metro, no local onde foram feitos os registros?",
+    "texto_base": "Num dia de tempestade, a alteração na profundidade de um rio, num determinado local, foi registrada durante um período de 4 horas. Os resultados estão indicados no gráfico de linhas. Nele, a profundidade h, registrada às 13 horas, não foi alterada e, a partir das N, cada unidade sobre o eixo vertical representa um metro.Registro de profundidadeProfundidade (m)Hora",
+    "alternativas": {
+      "A": "18",
+      "B": "20",
+      "C": "24",
+      "D": "36",
+      "E": "40"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de linha intitulado 'Registro de profundidade'. O eixo Y é rotulado 'Profundidade (m)' e o eixo X é rotulado 'Hora', com valores de 13 a 17. A linha do gráfico mostra a profundidade em 13 horas, depois sobe, atinge um pico, e depois desce. Os pontos marcados no eixo X são 13, 14, 15, 16, 17. Os valores no eixo Y não são explicitamente numerados, mas há uma grade. O ponto em 13 horas está em uma profundidade, em 14 horas a profundidade é maior, em 15 horas atinge o pico, em 16 horas a profundidade é menor que o pico mas maior que em 13 horas, e em 17 horas a profundidade é a mesma que em 13 horas."
+    }
+  },
+  {
+    "posicao": 151,
+    "enunciado": "A forma geométrica da superfície cujas arestas estão representadas na Figura 2 é",
+    "texto_base": "Uma rede hoteleira dispõe de cabanas simples na ilha de Gotland, na Suécia, conforme Figura 1. A estrutura de sustentação de cada uma dessas cabanas está representada na Figura 2. A ideia é permitir ao hóspede uma estada livre de tecnologia, mas conectada com a natureza.Figura 1Figura 2ROMERO, L. Tendências. Superinteressante, n. 315, fev. 2013 (adaptado).",
+    "alternativas": {
+      "A": "tetraedro.",
+      "B": "pirâmide retangular.",
+      "C": "tronco de pirâmide retangular.",
+      "D": "prisma quadrangular reto.",
+      "E": "prisma triangular reto."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas imagens. Figura 1 mostra uma cabana com telhado triangular e paredes inclinadas, integrada à natureza. Figura 2 mostra um diagrama esquemático da estrutura de sustentação da cabana, que é um prisma triangular reto deitado, com uma base retangular e duas faces triangulares nas extremidades. As arestas da base retangular e das faces triangulares são visíveis."
+    }
+  },
+  {
+    "posicao": 152,
+    "enunciado": "Em sua próxima jogada, o jogador deve escolher dentre os quadrados marcados com as letras P, Q, R, S e T um para abrir, sendo que deve escolher aquele com a menor probabilidade de conter uma mina.O jogador deverá abrir o quadrado marcado com a letra",
+    "texto_base": "A figura ilustra uma partida de Campo Minado, o jogo presente, em praticamente todo computador pessoal. Quatro quadrados em um tabuleiro 10 × 16 foram abertos, e os números em suas faces indicam quantos dos seus 8 vizinhos contêm minas (seis deles evitados). O número 40 no canto inferior direito é o número total de minas no tabuleiro, cujas posições foram escolhidas ao acaso, de forma uniforme, antes de se abrir qualquer quadrado.",
+    "alternativas": {
+      "A": "P.",
+      "B": "Q.",
+      "C": "R.",
+      "D": "S.",
+      "E": "T."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem de um tabuleiro de Campo Minado. O tabuleiro é uma grade de quadrados. Alguns quadrados estão abertos e mostram números: um quadrado no canto superior esquerdo mostra '2', outro à direita mostra '1'. Um quadrado no meio mostra '4'. Um quadrado na parte inferior esquerda mostra '109' e outro no canto inferior direito mostra '40'. Há vários quadrados fechados, e alguns deles estão marcados com letras: P, Q, R, S, T. O quadrado 'P' está adjacente ao '2' e ao '1'. O quadrado 'Q' está adjacente ao '1'. O quadrado 'R' está adjacente ao '4'. O quadrado 'S' está adjacente ao '109'. O quadrado 'T' está adjacente ao '40'."
+    }
+  },
+  {
+    "posicao": 154,
+    "enunciado": "Qual é o menor custo, em real, para uma pessoa visitar os topos dos dois mirantes e retornar ao solo?",
+    "texto_base": "O custo da passagem de teleférico partindo do topo do mirante 1 para o topo do mirante 2 é de R$ 2,00, e do topo do mirante 2 para o topo do mirante 1 é de R$ 2,50.",
+    "alternativas": {
+      "A": "2,25",
+      "B": "3,90",
+      "C": "4,35",
+      "D": "4,40",
+      "E": "4,45"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 155,
+    "enunciado": "A razão entre as distâncias percorridas às cegas por X e Y, nessa ordem, é igual a",
+    "texto_base": "A mensagem digitada no celular, enquanto você dirige, tira a sua atenção e, por isso, deve ser evitada. Pesquisas mostram que um motorista que dirige um carro a uma velocidade constante percorre \"às cegas\" (isto é, sem ter visão da pista) uma distância proporcional ao tempo gasto ao olhar para o celular durante a digitação da mensagem. Considere que isso de fato aconteça. Suponha que dois motoristas (X e Y) dirigem com a mesma velocidade constante e digitam a mesma mensagem em seus celulares. Suponha, ainda, que o tempo gasto pelo motorista X olhando para seu celular enquanto digita a mensagem corresponde a 25% do tempo gasto pelo motorista Y para executar a mesma tarefa.Disponível em: http://g1.globo.com. Acesso em: 21 jul. 2012 (adaptado).",
+    "alternativas": {
+      "A": "5/4",
+      "B": "1/4",
+      "C": "4/3",
+      "D": "4/1",
+      "E": "3/4"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 160,
+    "enunciado": "Considere 1,7 como aproximação para √3. Qual deveria ser a altura mínima do viaduto, em metro, para que esse caminhão pudesse passar com segurança sob seu vão?",
+    "texto_base": "Um manchete demonstra que o transporte de grandes cargas representa cada vez mais preocupação quando feito em vias urbanas.Caminhão entala em viaduto no CentroUm caminhão de grande porte entalou embaixo do viaduto no cruzamento das avenidas Borges de Medeiros e Loureiro da Silva no sentido Centro-Bairro, próximo à Ponte de Pedra, na capital. Esse veículo vinha de São Paulo para Porto Alegre e transportava três grandes tubos, conforme ilustrado na foto.Disponível em: www.caminhoes-e-carretas.com. Acesso em: 21 maio 2012 (adaptado).Considere que o raio externo de cada cano da imagem seja 0,60 m e que eles estejam em cima de uma carroceria cuja parte superior está a 1,30 m do solo. O desenho representa a vista traseira do empilhamento dos canos.",
+    "alternativas": {
+      "A": "2,82",
+      "B": "3,52",
+      "C": "3,70",
+      "D": "4,02",
+      "E": "4,20"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A primeira imagem mostra um caminhão de grande porte com três tubos cilíndricos empilhados na carroceria, entalado sob um viaduto. Os tubos estão dispostos em uma camada inferior com dois tubos lado a lado e um terceiro tubo centralizado sobre eles. A segunda imagem é um diagrama da vista traseira do empilhamento dos canos. Mostra dois círculos na base, um ao lado do outro, e um terceiro círculo centralizado acima deles, formando um triângulo equilátero com os centros dos círculos. O raio de cada círculo é indicado como 0,60 m. Há uma linha horizontal tracejada acima do círculo superior, representando a altura máxima do empilhamento."
+    }
+  },
+  {
+    "posicao": 161,
+    "enunciado": "A padaria está representada pelo ponto numerado com",
+    "texto_base": "Um menino acaba de se mudar para um novo bairro e deseja ir à padaria. Para ajudar um amigo que lhe forneceu um mapa com pontos numerados, que representam cinco locais de interesse, entre os quais está a padaria. Além disso, o amigo passou as seguintes instruções: a partir do ponto em que você se encontra, representado pela letra X, ande para oeste, vire à direita na primeira rua que encontrar, siga em frente e vire à esquerda na próxima rua. A padaria estará logo a seguir.",
+    "alternativas": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um mapa quadriculado com ruas e quarteirões. As ruas horizontais são nomeadas Rua A, Rua B, Rua C, Rua D, Rua E de cima para baixo. As ruas verticais são numeradas Rua 1, Rua 2, Rua 3, Rua 4, Rua 5 da esquerda para a direita. Os quarteirões são numerados de 1 a 16. O ponto de partida do menino é marcado com um 'X' no quarteirão 6. Há uma rosa dos ventos no canto superior direito indicando Norte (N), Sul (S), Leste (L) e Oeste (O)."
+    }
+  },
+  {
+    "posicao": 162,
+    "enunciado": "Com base nos dados da tabela e nas informações dadas, ficará(ão) reprovado(s)",
+    "texto_base": "Três alunos, X, Y e Z, estão matriculados em um curso de inglês. Para avaliar esses alunos, o professor optou por fazer cinco provas. Para que seja aprovado nesse curso, o aluno deverá ter a média aritmética das notas das cinco provas maior ou igual a 6. Na tabela, estão dispostas as notas que cada aluno tirou em cada prova.",
+    "alternativas": {
+      "A": "apenas o aluno Y.",
+      "B": "apenas o aluno Z.",
+      "C": "apenas os alunos X e Y.",
+      "D": "apenas os alunos X e Z.",
+      "E": "os alunos X, Y e Z."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é uma tabela intitulada 'Aluno' e 'Prova'. As colunas são 'Aluno', '1ª Prova', '2ª Prova', '3ª Prova', '4ª Prova', '5ª Prova'. As linhas são para os alunos X, Y e Z. As notas são: Aluno X: 5, 5, 5, 5, 10. Aluno Y: 4, 9, 3, 9, 5. Aluno Z: 5, 5, 8, 5, 6."
+    }
+  },
+  {
+    "posicao": 172,
+    "enunciado": "Qual a medida da altura H, em metro, indicada na Figura 2?",
+    "texto_base": "A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em Belo Horizonte, possui abóbadas parabólicas. A seta na Figura 1 ilustra uma das abóbadas na entrada principal da capela. A Figura 2 fornece uma vista frontal dessa abóbada, com medidas hipotéticas para simplificar os cálculos.",
+    "alternativas": {
+      "A": "16",
+      "B": "3",
+      "C": "5",
+      "D": "4",
+      "E": "2"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Figura 1 mostra uma vista lateral da Igreja de São Francisco de Assis, com uma seta apontando para uma abóbada parabólica na entrada. Figura 2 mostra um corte transversal da abóbada parabólica. A base da abóbada tem 4 metros de largura. No centro da base, há um ponto que se eleva 3 metros. A altura total da abóbada é indicada por H metros. A abóbada tem uma largura de 2 metros no topo, a uma altura de 3 metros acima da base. A altura H é a altura máxima da abóbada."
+    }
+  },
+  {
+    "posicao": 173,
+    "enunciado": "Analisando os gráficos do computador, a maior taxa de aumento no tempo de acesso, da sexta-feira para o sábado, foi no site",
+    "texto_base": "Quanto tempo você fica conectado à internet? Para responder a essa pergunta foi criado um miniaplicativo de computador que gera na área de trabalho, para gerar automaticamente um gráfico de setores, mapeando o tempo que uma pessoa acessa cinco sites visitados. Em um computador, foi observado que houve um aumento significativo do tempo de acesso da sexta-feira para o sábado, nos cinco sites mais acessados. A seguir, temos os dados do miniaplicativo para esses dias.",
+    "alternativas": {
+      "A": "X.",
+      "B": "Y.",
+      "C": "Z.",
+      "D": "W.",
+      "E": "U."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Dois gráficos de setores (pizza) lado a lado. O primeiro, 'Tempo de acesso na sexta-feira (minuto)', mostra a distribuição do tempo de acesso para cinco sites: Site U (40 minutos), Site X (12 minutos), Site Y (30 minutos), Site Z (10 minutos), Site W (38 minutos). O segundo, 'Tempo de acesso no sábado (minuto)', mostra a distribuição para os mesmos sites: Site U (56 minutos), Site X (21 minutos), Site Y (51 minutos), Site Z (11 minutos), Site W (57 minutos)."
+    }
+  },
+  {
+    "posicao": 174,
+    "enunciado": "A diferença entre as razões da altura da coluna B pela coluna A nos gráficos 1 e 2 é",
+    "texto_base": "O resultado de uma pesquisa eleitoral, sobre a preferência dos eleitores em relação a dois candidatos, foi representado por meio do Gráfico 1.Ao ser divulgado esse resultado em jornal, o Gráfico 1 foi cortado durante a diagramação, como mostra o Gráfico 2.A largura das colunas ser a mesma, muitos leitores criticaram o formato do gráfico e, impresso no jornal, alegando que houve prejuízo visual para o candidato B.",
+    "alternativas": {
+      "A": "0",
+      "B": "1/2",
+      "C": "1",
+      "D": "2",
+      "E": "8"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico 1 é um gráfico de barras verticais mostrando a preferência de eleitores. O eixo Y é 'Eleitores (%)' de 0 a 70 em incrementos de 10. O eixo X é 'Candidato' com duas categorias: A e B. A barra para o Candidato A atinge 60%. A barra para o Candidato B atinge 30%.Gráfico 2 é outro gráfico de barras verticais, similar ao Gráfico 1, mas com o eixo Y cortado. O eixo Y é 'Eleitores (%)' de 20 a 70 em incrementos de 10. O eixo X é 'Candidato' com categorias A e B. A barra para o Candidato A atinge 60%. A barra para o Candidato B atinge 30%."
+    }
+  },
+  {
+    "posicao": 175,
+    "enunciado": "A função P(t) obtida, por este cientista, ao analisar o caso específico foi",
+    "texto_base": "Um cientista, em seus estudos para modelar a pressão arterial de uma pessoa, utiliza uma função do tipo P(t) = A + Bcos(kt) em que A, B e K são constantes reais positivas e t representa a variável tempo, medida em segundo. Considere que um batimento cardíaco representa o intervalo de tempo entre duas sucessivas pressões máximas.Ao analisar um caso específico, o cientista obteve os dados:Tabela:Pressão mínima: 78Pressão máxima: 120Número de batimentos cardíacos por minuto: 90",
+    "alternativas": {
+      "A": "P(t) = 99 + 21cos(3πt)",
+      "B": "P(t) = 78 + 42cos(3πt)",
+      "C": "P(t) = 99 + 21cos(2πt)",
+      "D": "P(t) = 78 + 21cos(t)",
+      "E": "P(t) = 78 + 42cos(t)"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela com três linhas e duas colunas. A primeira coluna contém 'Pressão mínima', 'Pressão máxima', 'Número de batimentos cardíacos por minuto'. A segunda coluna contém os valores correspondentes: '78', '120', '90'."
+    }
+  },
+  {
+    "posicao": 176,
+    "enunciado": "Para atingir todos os seus objetivos, o chefe deverá cortar a calota do melão numa altura h, em centímetro, igual a",
+    "texto_base": "Para decorar uma mesa de festa infantil, um chefe de cozinha usará um melão esférico com diâmetro medindo 10 cm, o qual servirá de suporte para espetar diversos doces. Ele vai retirar uma calota esférica do melão, conforme ilustra a figura, para garantir a estabilidade deste suporte, dificultando que o melão role sobre a mesa. O corte fará o melão de modo que o raio r da seção circular de corte seja de pelo menos 3 cm. Por outro lado, o chefe desejará dispor da maior área possível da região em que serão afixados os doces.",
+    "alternativas": {
+      "A": "5 - √91/2",
+      "B": "10 - √91",
+      "C": "1",
+      "D": "4",
+      "E": "5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um diagrama de um melão esférico cortado. O melão é uma esfera com centro O e raio R. Uma parte superior do melão foi cortada, formando uma calota esférica. A superfície de corte é um círculo com raio r. A distância do centro O até a superfície de corte é indicada por 'a'. A altura da calota cortada é indicada por 'h'. Uma seta aponta para a região onde serão afixados os doces, que é a superfície curva da calota. Outra seta aponta para a parte hachurada que será apoiada na mesa, que é a base plana da calota. O diâmetro total do melão é 10 cm, então o raio R é 5 cm."
+    }
+  },
+  {
+    "posicao": 177,
+    "enunciado": "A quantidade de gasolina utilizada, em litro, no reabastecimento foi",
+    "texto_base": "Para uma temporada das corridas de Fórmula 1, a capacidade do tanque de combustível de cada carro passou a ser de 100 kg de gasolina. Uma equipe optou por utilizar uma gasolina com densidade de 750 gramas/litro, iniciando a corrida com o tanque cheio. Na primeira parada de reabastecimento, um carro dessa equipe apresentou um registro em seu computador de bordo acusando o consumo de quatro décimos da gasolina originalmente existente no tanque. Para minimizar o peso desse carro e garantir o término da corrida, a equipe de apoio reabasteceu o carro com a terça parte do que restou no tanque na chegada ao reabastecimento.Disponível em: www.esportes.estadao.com.br. Acesso em: 6 jul. 2015 (adaptado).",
+    "alternativas": {
+      "A": "20",
+      "B": "0,075",
+      "C": "0,75",
+      "D": "7,5",
+      "E": "0,75"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 178,
+    "enunciado": "A mediana dessa taxa de desemprego, no período de março de 2008 a abril de 2009, foi de",
+    "texto_base": "O gráfico apresenta a taxa de desemprego (em %) para o período de março de 2008 a abril de 2009, obtida com base nos dados observados nas regiões metropolitanas de Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo e Porto Alegre.Disponível em: ibge.gov.br. Acesso em: 30 jul. 2012 (adaptado).",
+    "alternativas": {
+      "A": "8,1%",
+      "B": "8,0%",
+      "C": "7,9%",
+      "D": "7,7%",
+      "E": "7,6%"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de linha intitulado 'Taxa de desemprego (%)'. O eixo X representa os meses de março de 2008 a abril de 2009, com marcações para 03/08, 04/08, 05/08, 06/08, 07/08, 08/08, 09/08, 10/08, 11/08, 12/08, 01/09, 02/09, 03/09, 04/09. O eixo Y representa a taxa de desemprego em porcentagem, de 6.5 a 9.0 em incrementos de 0.5. Os pontos de dados são aproximadamente: 03/08: 8.6, 04/08: 8.5, 05/08: 8.1, 06/08: 7.9, 07/08: 7.6, 08/08: 7.5, 09/08: 7.6, 10/08: 7.8, 11/08: 8.2, 12/08: 8.5, 01/09: 8.9, 02/09: 9.0, 03/09: 8.4, 04/09: 8.3."
+    }
+  },
+  {
+    "posicao": 179,
+    "enunciado": "Qual a probabilidade de que esta pessoa tenha observado exatamente um sinal na cor verde?",
+    "texto_base": "Numa avenida existem 10 semáforos. Por causa de um pane no sistema, os semáforos ficaram sem controle durante uma hora, e fixaram suas luzes unicamente em verde ou vermelho. Os semáforos funcionam de forma independente; a probabilidade de acender a cor verde é de 2/3 e a de acender a cor vermelha é de 1/3. Uma pessoa percorreu a pé toda essa avenida durante o período da pane, observando a cor da luz de cada um desses semáforos.",
+    "alternativas": {
+      "A": "10 x (2/3)^10",
+      "B": "10 x (2/3)^9 x (1/3)",
+      "C": "(2/3)^10",
+      "D": "(2/3)^9",
+      "E": "(1/3)^10"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 180,
+    "enunciado": "Para se obter o dobro da quantidade de energia economizada diariamente em relação à primeira fase, a área total dos painéis que geram energia térmica, em metro quadrado, deverá ter o valor mais próximo de",
+    "texto_base": "A energia solar vai abastecer parte da demanda de energia do campus de uma universidade brasileira. A instalação de painéis solares na área dos estacionamentos e na cobertura do hospital pediátrico será aproveitada nas instalações universitárias e também ligada na rede da companhia elétrica distribuidora de energia.O projeto inclui 100 m² de painéis solares que ficarão instalados nos estacionamentos, produzindo energia elétrica e proporcionando sombra para os carros. Sobre o hospital pediátrico, serão colocados aproximadamente 300 m² de painéis, sendo 100 m² para gerar energia elétrica utilizada no campus e 200 m² para geração de energia térmica, produzindo aquecimento de água utilizada no calefator do hospital.Suponha que cada metro quadrado de painel solar para energia elétrica gere uma economia de 1 kWh por dia e cada metro quadrado de painel para energia térmica permita economia de 0,7 kWh por dia para a universidade. Em uma segunda fase, no projeto será aumentada em 75% a área coberta pelos painéis solares que geram energia elétrica. Nessa fase, também deverá ser ampliada a área de cobertura com painéis para geração de energia térmica.Disponível em: http://agenciabrasil.ebc.com.br. Acesso em: 30 out. 2015 (adaptado).",
+    "alternativas": {
+      "A": "231.",
+      "B": "431.",
+      "C": "472.",
+      "D": "523.",
+      "E": "672."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  }
+]

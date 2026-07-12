@@ -1,0 +1,738 @@
+[
+  {
+    "posicao": 1,
+    "enunciado": "Ao retratar a trajetória de refugiados, o poema recorre à imagem de viagem marítima para destacar o(a)",
+    "texto_base": "Things We Carry on the Sea We carry tears in our eyes: good-bye father, good-bye mother We carry soil in small bags: may home never fade in our chests We carry carnage of mining, droughts, floods, genocides We carry dust of our families and neighbors incinerated in mushroom clouds We carry our islands sinking under the sea We carry our hands, feet, bones, hearts and best minds for a new life We carry diplomas: medicine, engineer, nurse, education, math, poetry, even if they mean nothing to the other shore We carry railroads, plantations, laundromats, bodegas, taco trucks, farms, factories, nursing homes, hospitals, schools, temples... built on our ancestors' backs We carry old homes along the spine, new dreams in our chests We carry yesterday, today and tomorrow We're orphans of the wars forced upon us We're refugees of the sea rising from industrial wastes And we carry our mother tongues [...] We drift... in our rubber boats... from shore... to shore... to shore... PING, W. Disponível em: https://poets.org. Acesso em: 1 jun. 2023 (fragmento).",
+    "alternativas": {
+      "A": "risco de choques culturais.",
+      "B": "impacto do ensino de história.",
+      "C": "importância da luta ambiental.",
+      "D": "existência de experiências plurais.",
+      "E": "necessidade de capacitação profissional."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 2,
+    "enunciado": "Ao retratar o ambiente de trabalho em um escritório, esse cartum tem por objetivo",
+    "texto_base": "\"Oh, you'll love working here. Nobody treats you any differently just because of your age, race, or gender.\" Disponível em: www.cartoonstock.com. Acesso em: 25 out. 2021.",
+    "alternativas": {
+      "A": "criticar um padrão de vestimenta.",
+      "B": "destacar a falta de diversidade.",
+      "C": "indicar um modo de interação.",
+      "D": "elogiar um modelo de organização.",
+      "E": "salientar o espírito de cooperação."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma charge em preto e branco mostra um escritório com vários homens de terno e gravata, todos com a mesma aparência, sentados em mesas ou em pé. Um homem, também de terno, está de costas para o observador, de frente para um grupo de outros homens idênticos. Ele está falando, e um balão de fala acima dele contém a frase: 'Oh, you'll love working here. Nobody treats you any differently just because of your age, race, or gender.'"
+    }
+  },
+  {
+    "posicao": 3,
+    "enunciado": "Nesse poema de Tato Laviera, o eu lírico destaca uma",
+    "texto_base": "Spanglish pues estoy creando Spanglish bi-cultural systems scientific lexicographical inter-textual integrations two expressions existentially wired two dominant languages continentally abrazándose in colloquial complate imperio spanglish emerges sobre territorio bi-lingua llas novelas mexicanas mixing with radiorockroll immigrant/migrant nassal mispronouncements hip-hop, street salsa, spanish pop standard english classroom with computer technicalities spanglish is literally perfect LAVIERA, T. Benediction: The Complete Poetry of Tato Laviera. Houston: Arte Público Press, 2014 (fragmento).",
+    "alternativas": {
+      "A": "convergência linguístico-cultural.",
+      "B": "característica histórico-cultural.",
+      "C": "tendência estilístico-literária.",
+      "D": "discriminação cultural.",
+      "E": "censura musical."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 4,
+    "enunciado": "Esse cartaz de campanha sugere que",
+    "texto_base": "The average american tosses 300 pounds of food each year, making food the number one contributor to America's landfills. Eat your leftovers and keep your perishables in the fridge – the Earth is counting on it. Disponível em: https://mrs-a3-cdn.cf.behanace.net. Acesso em: 29 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "os lixões precisam de ampliação.",
+      "B": "o desperdício degrada o ambiente.",
+      "C": "os mercados doam alimentos perecíveis.",
+      "D": "a desnutrição compromete o raciocínio.",
+      "E": "as residências carecem de refrigeradores."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem com um fundo escuro e a palavra 'FOOD' em letras grandes e brancas no topo. Abaixo, em letras menores e brancas, está 'FOR THE UGH T', com a letra 'T' cortada. No centro da imagem, há uma grande pilha de lixo, incluindo restos de comida como cascas de banana, maçãs, e outros detritos orgânicos. A pilha de lixo está sobre um fundo que parece ser um aterro sanitário ou um ambiente degradado."
+    }
+  },
+  {
+    "posicao": 5,
+    "enunciado": "Nesse poema, a expressão “No man is an island” ressalta o(a)",
+    "texto_base": "No man is an island, Entire of itself; Every man is a piece of the continent, A part of the main. [...] Any man's death diminishes me, Because I am involved in mankind. DONNE, J. The Works of John Donne. Londres: John W. Parker, 1839 (fragmento).",
+    "alternativas": {
+      "A": "medo da morte.",
+      "B": "ideia de conexão.",
+      "C": "conceito de solidão.",
+      "D": "risco de devastação.",
+      "E": "necessidade de empatia."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 26,
+    "enunciado": "Descrevendo seu gato, o narrador remete ao contexto e a protagonistas da Inconfidência para criar um efeito desconcertante centrado no",
+    "texto_base": "Era um gato preto, como convinha a um cultor das boas letras, que já lia Poe traduzido por Baudelaire. Preto e gordo o felino. Tão gordo e preto que a certa altura observei que ia perdendo inteiramente as qualidades características da raça, que são em suma o lado de morte nos gatos. Já nem os rufianizava! Os ratos de Ouro Preto são também dignos e solenes – não no tradicionalistas, descendentes de outros ratos que naqueles mesmos casarões presenciaram acontecimentos importantes de nossa história... No sobrado do desembargador Tomás Antônio Gonzaga, imagine o senhor uma reunião dos sonhadores inconfidentes, com os antepassados daqueles ratos a passearem pelo sótão ou mesmo pelo assoalho por entre os pernas dos homens absortos na esperança da independência nacional! E depois, os ancestrais daqueles roedores que eu via agora deslizar sutilmente no meu quarto podiam ter subido pelo poste da ignomínia colonial, onde estava exposta a cabeça do Tiradentes! E quando as órbitas se descarnaram ignominiosamente, podiam até ter registrado no recesso daquele crânio onde verdadeiramente estava a literatura, com a simplicidade do heroísmo, a febre nacionalista...ALPHONSUS, J. Contos e novelas. Rio de Janeiro: Imago; Brasília: INL, 1976.",
+    "alternativas": {
+      "A": "desenho imaginativo do casario colonial de Ouro Preto.",
+      "B": "efeito de apagamento de limites entre ficção e realidade.",
+      "C": "vínculo estabelecido entre animais urbanos e literatura.",
+      "D": "questionamento sutil quanto à sanidade dos inconfidentes.",
+      "E": "contraste entre austeridade pomposa e imagem repugnante."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 27,
+    "enunciado": "Sob a perspectiva do menino que narra, os fatos ficcionais obtiveram um esboço do momento político vigente na década de 1970. Aqui representado pelo",
+    "texto_base": "Enquanto estivemos entretidos com os urubus outras coisas andaram acontecendo na cidade. E Companhia baixou novas proibições, umas inteiramente bobocas, só pelo prazer de proibir (ninguém podia cuspir pra cima nem carregar água em jacá, nem tapar o sol com peneira, como se todo mundo estivesse abusando desses requisitos); mas outras bem irritantes, como a de pular muro pra cortar caminho, tática que quase todo mundo que não sofria de reumatismo tinha adotado ultimamente, principalmente os meninos. E não contentando só proibindo só, nem na força dos castigos, que eram rigorosos, a Companhia ainda mandou fincar cacos de garrafa nos muros. Achei isso um exagero. E comentei o assunto com mamãe. Meu pai ouviu lá do quarto e veio verificar. Disse que em épocas normais bastava uma coisa ou outra; mas agora a Companhia não podia admitir nenhuma brecha em suas ordens, se alguém desobedecesse à proibição podia de cortar nos cacos, se alguém conseguisse pular um muro quebrando o corte de alguns cacos, ou jogando um couro por cima, era apanhado pela proibição, nhô? – e fez o gesto de quem torce o pescoço de um frango.VEIGA, J. J. Sombras de rios barbudos. Rio de Janeiro: Civilização Brasileira, 1978.",
+    "alternativas": {
+      "A": "culto ao medo, infiltrado em situações do cotidiano.",
+      "B": "sentimento de dúvida quanto à veracidade das informações.",
+      "C": "ambiente de sonho, delineado por imagens perturbadoras.",
+      "D": "incentivo ao desenvolvimento econômico com a iniciativa privada.",
+      "E": "espaço urbano marcado por uma política de isolamento das crianças."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 28,
+    "enunciado": "Nesse poema, a representação do sentimento amoroso recupera a tradição lírica, mas se ajusta à visão contemporânea ao",
+    "texto_base": "MigalhasEntre a toalha branca e um bule de caféseria inapropriado dizerEu não te amo mais.Era necessário algo mais solene,um jardim japonês,para as perdidas pensadas,um noturno de tempestadepara arrebentar de dor,uma praia de pedras para chorarem silêncio, uma cama altapara o incenso da despedida,uma janeladando para o abismo.No entanto você abaixa os olhose recolhe lentamente as migalhas de pãosempre à meia porta para dois.MARQUES, M. A. A vida submarina. São Paulo: Cia. das Letras, 2021.",
+    "alternativas": {
+      "A": "provocar o interlocutor para uma tomada de posição.",
+      "B": "questionar a validade do envolvimento romântico.",
+      "C": "diluir em banalidade a comoção de um amor frustrado.",
+      "D": "transformar em paz as emoções conflituosas do casal.",
+      "E": "condicionar a existência da paixão a espaços idealizados."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 29,
+    "enunciado": "O texto do livro permite reconhecer a \"cantiga de voltar\" como patrimônio linguístico que",
+    "texto_base": "Alguém muito recentemente cortara o mato, que na época da chuvosa crescia e rodeava a casa da mãe de Ponciá. Vicêncio e eu, e Luandi. Havia também vestígios de que a terra fora revolvida, como se ali fosse plantar uma pequena roça. Luandi sorria. A mãe devia estar bastante forte, pois ainda labutava a terra. Cantou alto uma cantiga que aprendera com o pai, quando eles trabalhavam na terra dos brancos. Era uma canção que os negros mais velhos entoavam aos seus novos. Eles diziam ser uma cantiga de voltar, que os homens, lá na África, entoavam sempre, quando estavam regressando da pesca, da caça ou de algum lugar. O pai de Luandi, no dia em que queria agradar à mulher, costumava então aquela cantiga que se aproximava de casa. Luandi não entendia as palavras do canto; sabia, porém, que era uma língua que alguns negros falavam ainda, principalmente os velhos. Era uma cantiga negra. Luandi, além de cantar, acompanhava o ritmo batendo com as palmas das mãos em um atabaque imaginário. Estava de regresso à terra. Estava em casa. Chegava cantando, dançando a doce e vitoriosa cantiga de retornar.EVARISTO, C. Ponciá Vicêncio. Rio de Janeiro: Pallas, 2018.",
+    "alternativas": {
+      "A": "representa a memória de uma língua africana extinta.",
+      "B": "exalta a rotina executada por jovens afrodescendentes.",
+      "C": "preserva a ancestralidade africana por meio da tradição oral.",
+      "D": "resgata a musicalidade africana por meio de palavras inteligíveis.",
+      "E": "remonta à tristeza dos negros mais velhos com saudade da África."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 30,
+    "enunciado": "A representação da mulher apresentada no Texto I pode ser explicada pelo Texto II no que diz respeito à(s)",
+    "texto_base": "TEXTO IIMasculino e feminino são campos escorregadios que só se definem por oposição, sempre incompleta, um do outro. Não formações imaginárias que buscam produzir uma diferença radical e complementar onde só existem, de fato, mínimas diferenças. O resto é questão de estilo. Até perto menos da segunda metade do século 19, o divisor de águas era claro: os homens ocupavam o espaço público, as mulheres tratavam da vida privada. Privada de quê? De visibilidade, diria Hannah Arendt. De visibilidade pública. Do que as mulheres estiveram privadas até o século 20 foi da presença pública manifesta não em imagem, mas em palavra. A palavra feminina, ligada ao espaço doméstico, não produzia diferença na vida social.KHEL, M. R. Disponível em: https://alias.estadao.com.br. Acesso em: 21 out. 2021 (adaptado).TEXTO IZapeei os canais, como há dezenas de anos faço, e pá! Parei num que exibia um episódio daquela velha família do futuro: Os Jetsons.Nesse episódio em particular, a Jane Jetson, esposa do George, tratava de dirigir aquele veículo voador deles. Meu queixo foi caindo à medida que as piadinhas machistas sobre mulheres dirigindo foram se acumulando. Impressionante! Que futuro careta aqueles roteiristas imaginavam! Seriam incapazes de projetar algo melhor, e não apenas em termos de tecnologias, robôs e carros voadores? Seria sua nossa máxima meta de futuro se atinge as coisas, e jamais as pessoas? Como a Jane, uma mulher de 33 anos no desenho, poderia ser o que foram as minhas bisavós?No futuro, naquele desenho, se esqueceu de ter melhor nas relações entre as pessoas. Aliás, não parecido com vida.Fiquei de cara, como dizemos aqui, ou como dizíamos na minha adolescência, pobre adolescência, aprendendo, sem saber e sem muita defesa, um futuro tão besta quanto o passado.RIBEIRO, A. E. Disponível em: www.rascunho.com.br. Acesso em: 21 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "ausência da forma de expressão femininas.",
+      "B": "censura à figura feminina na vida pública.",
+      "C": "construções imaginárias cristalizadas na sociedade.",
+      "D": "limitações inerentes às figuras femininas e masculinas.",
+      "E": "dificuldade na atribuição de papéis masculinos e femininos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 31,
+    "enunciado": "Esse anúncio publicitário, veiculado durante o contexto da pandemia de covid-19, tem por finalidade",
+    "texto_base": "",
+    "alternativas": {
+      "A": "divulgar o canal telefônico de atendimento a casos de violência contra a mulher.",
+      "B": "informar sobre a atuação de uma entidade defensora da mulher vítima de violência.",
+      "C": "evidenciar o trabalho da Defensoria Pública em relação ao problema do abuso contra a mulher.",
+      "D": "alertar a sociedade sobre o aumento da violência contra a mulher em decorrência do coronavírus.",
+      "E": "incentivar o público feminino a denunciar crimes de violência contra a mulher durante o período de isolamento."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra um anúncio publicitário com o título \"#JuntasSomosMaisFortes\" e \"Disque 180\". Abaixo, em destaque, a frase \"A Defensoria não para! Eu uso máscara mas não me calo!\". Há uma imagem de uma mulher com máscara, olhando para a frente. No canto inferior esquerdo, há uma ilustração de uma casa com uma família dentro, e um homem com máscara. No canto inferior direito, há um texto menor que diz: \"Em tempos de isolamento social por conta da pandemia de Covid-19, a Defensoria Pública alerta para o aumento da violência contra a mulher! Não se cale! Denuncie!\". Abaixo, o site \"defensoriapublica.mt.def.br\"."
+    }
+  },
+  {
+    "posicao": 32,
+    "enunciado": "Esse é um trecho do discurso de Rui Barbosa na Academia Brasileira de Letras em homenagem a Machado de Assis por ocasião de sua morte. Uma das características desse discurso de homenagem é a presença de",
+    "texto_base": "Mestre e companheiro, disse eu que nos íamos despedir. Mas disse mal. A morte não extingue, transforma; não aniquila; renova, não divorcia; aproxima. Um dia suporeste \"morte e separada\" e comporeste dos teus sonhos e das tuas agonias que te soubera \"pôr um mundo inteiro no recanto\" do teu ninho e, todavia, nunca ela te esteve mais presente, e íntima, do que mesmo na expansão do teu canto, no furor do teu ser na face de tuas ações. Esses catorze versos inimitáveis, em que o enlevo dos teus discípulos resume o valor de toda uma literatura, eram a aliança do gênio do segundo noivado, o anel de ouro nupcial, para a vida nova do seu renascimento e da tua glorificação, com a sócia sem nódoa dos teus anos de mocidade e madureza, da florescência e frutificação de tua alma. Para os eleitos do mundo das letras a matéria está na derradeira, e não na morte. A nobreza de uma nos preserva das ruínas da cultura. Quando eles atravessavam essa passagem do invisível, que os conduzia à região da verdade sem mácula, então é que sentimos a sentir o começo do seu reino, o reino dos mortos sobre os vivos.BARBOSA, R. O adeus de Machado de Assis. Rio de Janeiro: Agir, 1962.",
+    "alternativas": {
+      "A": "metáforas relacionadas à trajetória pessoal e criadora do homenageado.",
+      "B": "recursos fonológicos empregados para a valorização do ritmo do texto.",
+      "C": "frases curtas e diretas no relato da vida e da morte do homenageado.",
+      "D": "contraposição de ideias presentes na obra do homenageado.",
+      "E": "seleção vocabular representativa do sentimento de nostalgia."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 33,
+    "enunciado": "O objetivo desse texto é",
+    "texto_base": "",
+    "alternativas": {
+      "A": "sensibilizar o idoso a respeito dos cuidados com a saúde.",
+      "B": "alertar os governantes sobre os cuidados requeridos pelo idoso.",
+      "C": "divulgar o trabalho da Sociedade Brasileira de Geriatria e Gerontologia.",
+      "D": "informar o setor público sobre o retrocesso da legislação destinada à população idosa.",
+      "E": "chamar a atenção da população sobre a qualidade dos serviços de saúde pública para o idoso."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra um anúncio publicitário com o título \"POR QUE É TÃO IMPORTANTE AMAMENTAR?\". Abaixo, há uma lista de benefícios em tópicos, cada um acompanhado de um pequeno ícone de coração: \"O bebê recebe anticorpos da mãe para proteção contra diversas doenças, como diarreia e como infecções, principalmente respiratórias.\", \"Diminui o risco de asma, diabetes e obesidade em crianças.\", \"É um ótimo exercício para o desenvolvimento da face do bebê e para o alinhamento dos dentes fortes e bonitos.\", \"Desenvolve a fala e uma boa respiração.\". No lado direito, há uma imagem de uma mãe amamentando um bebê. No rodapé, \"Disponível em: www.facebook.com/minsaude. Acesso em: 13 jun. 2018.\"."
+    }
+  },
+  {
+    "posicao": 34,
+    "enunciado": "O objetivo desse texto é",
+    "texto_base": "Carta aberta à população brasileiraPrezados Cidadãos e Cidadãs,O envelhecimento populacional é um fenômeno mundial. Infelizmente, nosso país ainda não está preparado para atender às demandas dessa população.Este é o retrato da saúde pública no Brasil, que, apesar dos indiscutíveis avanços, apresenta um cenário de deficiências e falta de integração em todos os níveis de atenção à saúde: primária (atendimento deficiente nas unidades de saúde da atenção básica), secundária (carência de centros de referência com atendimento por especialistas) e terciária (atendimento hospitalar com abordagem ao idoso centrada na doença), ou seja, não há, na prática, uma rede de atenção à saúde do idoso.Diante desse cenário, a Sociedade Brasileira de Geriatria e Gerontologia (SBGG) vem a público manifestar suas preocupações com o presente e o futuro dos idosos no Brasil. É preciso garantir a saúde como direito universal.Esperamos que tanto nossos atuais quanto os futuros governantes e legisladores reflitam sobre a necessidade de investir na saúde e na qualidade de vida associada ao envelhecimento.Dignidade à saúde do idoso!Rio de Janeiro, 15 de setembro de 2014.Disponível em: www.sbgg.org.br. Acesso em: 20 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "sensibilizar o idoso a respeito dos cuidados com a saúde.",
+      "B": "alertar os governantes sobre os cuidados requeridos pelo idoso.",
+      "C": "divulgar o trabalho da Sociedade Brasileira de Geriatria e Gerontologia.",
+      "D": "informar o setor público sobre o retrocesso da legislação destinada à população idosa.",
+      "E": "chamar a atenção da população sobre a qualidade dos serviços de saúde pública para o idoso."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 35,
+    "enunciado": "A notícia tratada na mídia ocorrida em um dicionário da língua portuguesa. Segundo o texto, essa mudança foi impulsionada pela",
+    "texto_base": "A petição on-line criada por um cidadão paulista surtiu efeito: casado já traz, junto com seu companheiro, ele pedia a alteração da definição de \"casamento\" no tradicional dicionário Michaelis em português. Na definição anterior casamento aparecia como \"união legítima entre homem e mulher\" e \"união legal entre homem e mulher, para constituir família\".O novo verbete não traz em nenhum momento as palavras homem ou mulher — agora a definição de casamento se refere a \"pessoas\".Para o diretor de comunicação do site onde a petição foi publicada, a iniciativa mostra a eficiência da mobilização. \"Em dois dias, mudou-se uma definição que permanecia a mesma há décadas\", afirma. E conclui: \"A plataforma serve para todos os tipos de causas, para as mudanças que importam para as pessoas.\"SENRA, R. Disponível em: www.bbc.com. Acesso em: 29 out. 2015.",
+    "alternativas": {
+      "A": "inclusão de informações no verbete.",
+      "B": "relevância social da instituição casamento.",
+      "C": "utilização pública da petição pelos cidadãos.",
+      "D": "rapidez na disseminação digital do verbete.",
+      "E": "divulgação de plataformas para a criação de petições."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 36,
+    "enunciado": "No texto, os limites do potencial inclusivo do esporte são dados pela",
+    "texto_base": "A neozelandesa Laurel Hubbard fez história nos Jogos Olímpicos. Apesar de ter saído de sua disputa por medalhas, a levantadora de peso deixou sua marca na edição de Tóquio por ser a primeira mulher abertamente transgênero a participar de uma competição olímpica. No início da carreira, na década de 1990, a neozelandesa participava de disputas na categoria masculina. Em 2001, aos 23 anos, ela se afastou da atividade. \"Acho que tentar me encaixar em um mundo que talvez não tenha sido feito para pessoas como eu se tornou um fardo muito grande para suportar.\" Em 2012, Laurel começou sua transição de gênero por meio de terapias hormonais e, em 2013, declarou abertamente ser uma mulher. Para o Comitê Olímpico Internacional, a participação de mulheres trans nos Jogos é permitida caso o nível de testosterona, hormônio que aumenta a massa muscular, esteja abaixo de 10 nanomols por litro por pelo menos 12 meses.Disponível em: https://revistagalileu.globo.com. Acesso em: 18 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "dificuldade de conseguir bons resultados esportivos.",
+      "B": "dependência de características biológicas padronizadas.",
+      "C": "inexistência de uma categoria para pessoas transgenero.",
+      "D": "necessidade de afastamento temporário das competições.",
+      "E": "impossibilidade de uso controlado de substâncias exógenas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 37,
+    "enunciado": "O fator relatado na notícia chama a atenção acerca da necessidade de reflexão sobre a relação entre o esporte e",
+    "texto_base": "\"Ganhei 25 medalhas em mundiais, sete em Jogos Olímpicos, e sou uma sobrevivente do abuso sexual.\" Foi assim que Simon Biles apresentou ao comitê do Senado norte-americano que investiga as supostas falhas do FBI no caso Larry Nassar. Biles e outras três atletas, vítimas dos abusos do ex-médico da equipe de ginástica feminina dos EUA, exigem que os agentes da investigação sejam processados por falta de ação prévia contra Nassar, agora preso. \"Eles esclarecem que culpar Larry Nassar é todo o sistema que o permitiu e o perpetuou\", acusaram a Federação de Ginástica e o Comitê Olímpico dos Estados Unidos de saberem \"muito antes\" que ela havia sofrido abusos. A melhor ginasta do mundo e um ícone dos Jogos Olímpicos de Tóquio, uma lição psicológica a impedir de competir como previa. No entanto, ela chegou ao topo como uma líder no trabalho de acabar com o preconceito com os problemas de saúde mental. \"Não quero que nenhum outro atleta olímpico sofra o horror que eu e outras centenas suportamos e continuamos suportando até hoje\", afirmou.Disponível em: https://brasil.elpais.com. Acesso em: 11 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "o desempenho atlético internacional.",
+      "B": "a dimensão emocional dos atletas.",
+      "C": "os comitês olímpicos nacionais.",
+      "D": "as instituições de inteligência.",
+      "E": "as federações esportivas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 38,
+    "enunciado": "O texto central que impacta a realização de práticas corporais/atividades físicas no tempo de lazer no Brasil é a",
+    "texto_base": "O acesso às Práticas Corporais/Atividades Físicas (PC/AF) é desigual no Brasil, à semelhança de outros indicadores sociais e de saúde. Em geral, PC/AF prazerosas, diversificadas, mais afeitas ao período de lazer estão concentradas nas populações mais abastadas. As atividades físicas de deslocamento, trajeto a pé ou de bicicleta para estudar ou trabalhar, por exemplo, são mais frequentes nas classes social menos favorecidas. Aqui, há uma relação inversa e perversa entre variáveis socioeconômicas de acesso às PC/AF. As maiores prevalências de inatividade física foram em mulheres, pessoas com 60 anos ou mais, negros, pessoas com escolaridade de ensino fundamental ou médio, com renda familiar de até quatro salários mínimos por pessoa, pessoas que desconhecem programas públicos de PC/AF e residentes em áreas sem locais públicos para a prática.KNUTH, A. G.; ANTUNES, P. C. Saúde e Sociedade, n. 2, 2021 (adaptado).",
+    "alternativas": {
+      "A": "diversidade de horários.",
+      "B": "inexistência de políticas públicas.",
+      "C": "diversidade de faixa etária.",
+      "D": "variação de condição étnica.",
+      "E": "desigualdade entre classes sociais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 39,
+    "enunciado": "O texto lido permite reconhecer a \"cantiga de voltar\" como patrimônio linguístico que",
+    "texto_base": "Algum muito recentemente cortara o mato, que na época da chuvas crescia e rodeava a casa da mãe de Poncia. Vicêncio e o de Luandi haviam também vestígios de que a terra fora revolvida, como se ali fosse plantar uma pequena roça. Luandi sorria. A mãe devia estar bastante forte, pois ainda labutava a terra. Cantou alto uma cantiga que aprendera com o pai, quando eles trabalhavam na terra dos brancos. Era uma canção que os negros mais velhos entoavam aos mais novos. Eles diziam ser uma cantiga de voltar, que os homens, lá na África, entoavam sempre, quando estavam regressando da pesca, da caça ou de algum lugar. O pai de Luandi, no dia em que quisera agradar à mulher, costumava então aquela cantiga ao se aproximar de casa. Luandi não entendia as palavras do canto; sabia, porém, que era uma língua que alguns negros falavam ainda, principalmente os velhos. Era uma cantiga nagô. Luandi, além de cantar, acompanhava o ritmo batendo com as palmas das mãos em um atabaque imaginário. Estava de regresso à terra. Estava em casa. Chegava cantando, dançando a doce e vitoriosa cantiga de reencontrar. EVARISTO, C. Poncia Vicêncio. Rio de Janeiro: Pallas, 2018.",
+    "alternativas": {
+      "A": "representa a memória de uma língua africana extinta.",
+      "B": "exalta a rotina executada por jovens afrodescendentes.",
+      "C": "preserva a ancestralidade africana por meio da tradição oral.",
+      "D": "resgata a musicalidade africana por meio de palavras inteligíveis.",
+      "E": "remonta à tristeza dos negros mais velhos com saudade da África."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 49,
+    "enunciado": "Escrito em 1828, o texto expressa a seguinte ideia de origem iluminista:",
+    "texto_base": "Havia já muito tempo que a Europa desfrutava os benefícios da vadiação e arrecadava enorme milhares de inocentes, condenados a serem vítimas do terrível regateio das bexigas, e o governo de Portugal nunca se lembrara de transmitir ao Brasil a mais útil das descobertas humanas, quando aliás nenhum país mais do que ele carecia dessa salutar invenção ou se interessava da vantagem da população ou ao perdimento de imensas somas na mortandade contínua de escravos, que essa flagela devorava. O certo é que mais ocupado do seu ouro que de seus habitantes, Portugal, como em muitos outros casos, esqueceu que o Brasil por seu próprio impulso remediasse a este mal.PEREIRA, N. M. da S. A. e PIMENTA, J. F. R. R. A. A vacina contra a varíola no Brasil: um manuscrito inédito de Bento e Macedo. História, Ciências, Saúde – Manguinhos, n. 3, set.-dez. 1997 (adaptado).",
+    "alternativas": {
+      "A": "As leis observáveis regem o mundo material.",
+      "B": "O monarca racional promove a sociedade justa.",
+      "C": "O direito natural justifica a liberdade dos homens.",
+      "D": "A produção da terra garante a riqueza das nações.",
+      "E": "A responsabilidade dos governantes assegura a saúde dos povos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 50,
+    "enunciado": "O amálgama prático agrícola destacado no texto apresenta como vantagem no espaço urbano a",
+    "texto_base": "Os movimentos da agricultura urbana no Rio de Janeiro vêm crescendo nos últimos vinte anos, tanto por meio de reproduções de modelos de vida antigos, vinculados ao resgate dos próprios costumes, como – e cada vez mais – são revelados hábitos inventivos nos quais moradoras urbanas de diferentes classes sociais, sem nenhuma referência anterior com o campo, passam a se dedicar a essas atividades. Ao possibilitar o acesso ao plantio e, consequentemente, à alimentação, permite-se uma nova relação com o que se come, reduzindo o perigo da cadeia produtiva e aproximando produtores de consumidores, pois ambos se confundem nas experiências de agricultura urbana.PORTILHO, M.; RODRIGUES, C. G. O. Fernandez, A. C. P. Cultivando relações no asfalto: novos hábitos e sociabilidades em experiências de agricultura urbana na favela. Cidades, Comunidades e Territórios, n. 42, jun. 2021.",
+    "alternativas": {
+      "A": "ocupação de lugares ociosos.",
+      "B": "gentrificação da área central.",
+      "C": "valorização do mercado externo.",
+      "D": "priorização de insumos químicos.",
+      "E": "mecanização de técnicas de cultivo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 51,
+    "enunciado": "A postura determinista adotada pelo personagem Gerineldo contrasta com a ideia existencialista contida no pensamento filosófico de Sartre porque",
+    "texto_base": "TEXTO IGerineldo dorme porque já está conformado com o seu mundo. Porque já sabia tudo o que lhe podia acontecer após haver percorrido todos os objetos que o rodeiam e um minucioso inventário de possibilidades. Seu apartamento, mais que um apartamento, é uma teoria de sorte e de azar. Melhor que ninguém, Gerineldo conhecia o coeficiente de dilatação de suas janelas, o mantém marcado no termômetro, com uma linha vermelha, o ponto em que se quebram os vidros, respeitados seus estilhaços de morte. Sabe que os arquitetos e os engenheiros já previram tudo, menos o que nunca já aconteceu.MÁRQUEZ, G. G. O pessimista. In: Textos do Caribe. Rio de Janeiro: Record, 1981.TEXTO IIA situação é o sujeito inteiro (ele não é nada a não ser a sua situação) e é também a coisa inteira (nunca foi mais nada senão as coisas). É o sujeito a educação as coisas pela sua própria superação, se assim quisermos; ou são as coisas a reenviar ao sujeito a imagem dele. É a total facticidade, a contingência absoluta do mundo, do meu nascimento, do meu lugar, do meu passado, dos meus redores – e é a minha liberdade sem limites que faz com que haja para mim uma facticidade.SARTRE, J.-P. O ser e o nada: ensaio de ontologia fenomenológica. Petrópolis: Vozes, 1997 (adaptado).",
+    "alternativas": {
+      "A": "evidencia a manifestação do inconsciente.",
+      "B": "nega a possibilidade de transcendência.",
+      "C": "contraria o conhecimento difuso.",
+      "D": "sustenta a fugacidade da vida.",
+      "E": "refuta a evolução biológica."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 52,
+    "enunciado": "Os sindicatos rurais foram tratados da forma descrita no texto porque o governo pretendia utilizá-los para",
+    "texto_base": "O Golpe Militar de 1964 foi implacável no combate ao que restava das Ligas Camponesas, generalizadas na década anterior. No entanto, em relação aos sindicatos, sua atitude foi ambígua. Por meio de acordos com os estados Unidos, foram concebidos centros sindicais e cursos de liderança com base em princípios conservadores e ministrados por membros da Igreja Católica.DEL PRIORE, M.; VENÂNCIO, R. Uma história da vida rural no Brasil. Rio de Janeiro: Ediouro, 2006 (adaptado).",
+    "alternativas": {
+      "A": "controlar as tensões políticas.",
+      "B": "limitar a legislação trabalhista.",
+      "C": "divulgar o programa populista.",
+      "D": "regularizar a propriedade da terra.",
+      "E": "estimular a oferta de mão de obra."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 53,
+    "enunciado": "Qual acontecimento do período contribuiu diretamente para o agravamento da situação descrita?",
+    "texto_base": "Os séculos XV e XVI, quando se vão desmoronando as estruturas socioeconômicas da Idade Média perante os novos imperativos da Época moderna, constituem um momento-chave na história florestal de toda a Europa Ocidental. Abre-se, genericamente, um longo período de crise florestal, que se manifesta com atividades nos países onde mais se desenvolveram as atividades industriais e comerciais. As necessidades em produtos lenhosos aumentam drasticamente com o crescimento do consumo nos mercados urbanos e nas regiões onde progridem a metalurgia e a construção naval, além da sua utilização na vida quotidiana de toda a população.DEAN, W. A. A ferro e fogo: a história e a devastação da floresta atlântica brasileira. Revista da Faculdade de Letras – Geografia, n. 1, 1986 (adaptado).",
+    "alternativas": {
+      "A": "O processo de expansão marítima.",
+      "B": "A eclosão do renascimento cultural.",
+      "C": "A concretização da centralização política.",
+      "D": "O movimento de reforma religiosa.",
+      "E": "A manutenção do sistema feudal."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 54,
+    "enunciado": "Ao comparar, no texto, a vertente da dominação territorial com os aspectos culturais, os incas tinham uma postura",
+    "texto_base": "Tahuantinsuyu — nome do Império Inca em quéchua — era dividido em quatro partes ou suyus: Chinchaysuyu (noroeste do Peru e Equador), Antisuyu (parte amazônica do Peru), Collasuyu (atual Bolívia) e Cuntisuyu (costa do Oceano Pacífico). A linha Cuzco, no atual Peru, como sua capital imperial. Oficialmente, todas as etnias dominadas pelos incas deveriam adotar a língua quéchua, adorar o Sapa Inca e o Sol e pagar taxas em forma de horas de trabalhos periódicos. No entanto, pode-se dizer que o Império Inca era como um mosaico cultural em que vários e diferentes grupos étnicos adoravam o Sapa Inca e o Sol mas, simultaneamente, continuavam a adorar seus deuses locais e também a falar em suas línguas nativas.MARTINS, C. Os incas e o Tahuantinsuyu: apresentação. Disponível em: https://www.historiadomundo.com.br. Acesso em: 6 dez. 2021 (adaptado).",
+    "alternativas": {
+      "A": "aceitável no que alude aos direitos humanos.",
+      "B": "admissível no que remete às crenças coloniais.",
+      "C": "tolerável no que se refere aos regimes tributários.",
+      "D": "flexível no que diz respeito aos costumes religiosos.",
+      "E": "compreensível no que concerne às normas laborais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 55,
+    "enunciado": "Qual mudança no comportamento social a proposta no texto reflete?",
+    "texto_base": "A Torcida do Fluminense inicia um movimento para mudar a letra de uma das músicas mais populares das arquibancadas tricolores. Grupos pedem a remoção do termo \"mulambo mundo\", em uma provocação direta ao Flamengo. Mulambo é um termo que surgiu em Angola, na época da escravatura, e eles eram chamados de mulambos, pelos senhores de engenho, os patrões das fazendas.Disponível em: https://blogdoblobo.globo.com. Acesso em: 23 nov. 2021.",
+    "alternativas": {
+      "A": "Rejeição de costumes elitistas.",
+      "B": "Repudiação de condutas misóginas.",
+      "C": "Condenação do preconceito racial.",
+      "D": "Criminalização de práticas homofóbicas.",
+      "E": "Contestação do comportamento machista."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 56,
+    "enunciado": "Qual fator determinante para a mudança do indicador apresentado no gráfico?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "Flexibilização legal da prática de aborto.",
+      "B": "Envelhecimento da população brasileira.",
+      "C": "Crescimento dos casos de gravidez precoce.",
+      "D": "Participação feminina no mercado de trabalho.",
+      "E": "Diminuição dos benefícios na licença-maternidade."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de barras verticais intitulado 'Taxa de fecundidade no Brasil'. O eixo Y, à esquerda, representa 'Filhos por mulher' com valores de 0 a 7. O eixo X, na parte inferior, representa os anos em intervalos de 10 anos, de 1960 a 2050. As barras mostram a seguinte tendência: em 1960, a taxa era de 6,3 filhos por mulher; em 1970, 5,8; em 1980, 4,1; em 1990, 2,8; em 2000, 2,4; em 2010, 1,8; em 2020, 1,5; em 2030, 1,5; em 2040, 1,5; e em 2050, 1,5. Há um destaque em vermelho para o valor de 1,5 filhos por mulher em 2020, com a frase 'De 1960 a 2020, número de filhos baixa de 6,3 para 1,5'. A fonte é IBGE."
+    }
+  },
+  {
+    "posicao": 57,
+    "enunciado": "As mudanças culturais mencionadas no texto caracterizam-se pela presença de",
+    "texto_base": "A Cavalgada de Sant'Ana é uma expressão da devoção dos vaqueiros à padroeira de Caicó (RN). Nas décadas de 1950 e 1970, esse evento, então denominado Cavalaria, era celebrado pelas pessoas que residiam na zona rural do município de Caicó. Essas pessoas usavam os animais (jegues, mulas e cavalos) como único meio de transporte, sobretudo para se dirigirem à cidade nos dias de feiras, trazendo seus produtos para comercializarem. Estando em Caicó no período da Festa de Sant'Ana, esses agricultores se organizavam em cavalgada até o pátio da Catedral de Sant'Ana para louvar a santa e receber bênção para seus animais. Por volta da década de 1970, com a chegada da automobilização rural do município, essa expressão cultural foi alterada. O meio de transporte utilizado os animais passou a ser substituído por carros, sobretudo caminhonetes e caminhões, que transportavam os camponeses para a cidade em dias de feira e festas. Desde 2007, um grupo de caicoenses retomou essa expressão cultural, no município com a associação dos vaqueiros, realiza no primeiro domingo da festa a Cavalgada de Sant'Ana. O evento, além de contar com a participação dos cavaleiros que residem nas zonas rurais, atrai também pessoas que residem em Caicó, cidades vizinhas e amantes das vaquejadas.FEITOSA, M. A. S. Diálogos em rede. Disponível em: www.dialogosemrede.com.br. Acesso em: 12 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "elementos tradicionais e modernos em torno de uma crença religiosa.",
+      "B": "argumentos teológicos e históricos em consequência de uma ordem papal.",
+      "C": "fundamentos estéticos e etnográficos em função de uma cerimônia clerical.",
+      "D": "práticas corporais e esportivas em decorrência de uma imposição eclesiástica.",
+      "E": "discursos filosóficos e antropológicos em resultado de uma determinação paroquial."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 58,
+    "enunciado": "O texto critica a mudança tecnológica em razão da seguinte consequência:",
+    "texto_base": "Mais do século XVI passou a ser usado como utensílio para comer, chegando através da Itália primeiramente à França e, em seguida, à Inglaterra e à Alemanha, depois de ter servido durante algum tempo para retirar muitos alimentos sólidos da travessa. Henrique III introduziu-o na França, trazendo-o provavelmente de Veneza. Seus cortesãos não foram pouco ridicularizados por essa maneira \"afetada\" de comer e no princípio não eram muito hábeis no uso do utensílio, pelo menos se dizia que metade da comida caía do garfo no caminho do prato à boca. Em data tão recente como o século XVII, o garfo era ainda eticamente algo de luxo, geralmente feito de prata ou ouro.ELIAS, N. O processo civilizador: uma história dos costumes. Rio de Janeiro: Zahar, 1994.",
+    "alternativas": {
+      "A": "Diversificação da função.",
+      "B": "Mobilidade da população.",
+      "C": "Autonomia do empregado.",
+      "D": "Concentração da produção.",
+      "E": "Inabilidade do profissional."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 59,
+    "enunciado": "O processo social relatado indica a formação de uma etiqueta que tem como princípio a",
+    "texto_base": "Negar o pedido por dinheiro indispensável para necessidades pessoais ou comprar bens usando o nome da pessoa sem o consentimento dela. Ameaçar o corte de recursos dependendo de atitudes pessoais. Esconder documentos ou trocar senhas do banco sem avisar. Ou, ainda, proibir a pessoa de trabalhar ou destruir seus pertences. As histórias são comuns, mas às vezes não são reconhecidas como abuso. Mas é uma das cinco formas de conduta contra a mulher previstas na Lei Maria da Penha.LEWGOY, J. Conduta quase invisível destrói a vida de mulheres. Disponível em: www.uol.com.br. Acesso em: 24 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "distinção das classes sociais.",
+      "B": "valorização de hábitos de higiene.",
+      "C": "exaltação da cultura mediterrânea.",
+      "D": "consagração de tradições medievais.",
+      "E": "disseminação de produtos manufaturados."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 60,
+    "enunciado": "O texto apresenta tipos de conduta sujeitos a punição, conforme previsto na Lei Maria da Penha, porque consistem em formas de",
+    "texto_base": "Por trás da \"mágica\" do Google Assistant de sua capacidade de interpretar 26 idiomas está uma enorme equipe de linguistas distribuídos globalmente, trabalhando como subcontratados, que devem regular periodicamente os dados de treinamento para que funcione. Eles ganham baixos salários e são rotineiramente forçados a trabalhar horas extras não remuneradas. A inteligência artificial não funciona sem trabalho humano. Ela funciona por meio de trabalhadores que treinam algoritmos e precariamente até que eles automatizem seus próprios trabalhos.A inteligência Artificial (IA) da economia freelancer está vindo atrás de você. Disponível em: https://www.nytimes.com. Acesso em: 24 out. 2021 (adaptado).",
+    "alternativas": {
+      "A": "ação difamatória.",
+      "B": "assédio comportamental.",
+      "C": "exploração psicoconceitual.",
+      "D": "violência patrimonial.",
+      "E": "desentendimento matrimonial."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 61,
+    "enunciado": "O texto apresenta uma relação de cálculo político-econômico que caracteriza o poder punitivo por meio da",
+    "texto_base": "A economia das ilegalidades se reestruturou com o desenvolvimento da sociedade capitalista. A ilegalidade dos bens foi separada da ilegalidade dos direitos. Divisão que corresponde a uma oposição de classes, pois, de um lado, a ilegalidade mais acessível às classes populares será a dos bens – transferências violentas das propriedades; de outro, a burguesia, então, se reservará a ilegalidade dos direitos: a possibilidade de desviar seus próprios regulamentos e suas próprias leis, e essa grande rearticulação das ilegalidades se traduzirá por uma especialização dos circuitos judiciários; para as ilegalidades de bens – para o roubo – os tribunais ordinários e os castigos; para as ilegalidades de direitos – fraudes, evasões fiscais, operações comerciais irregulares – jurisdições especiais com transações, acomodações, multas atenuadas etc.FOUCAULT, M. Vigiar e punir: nascimento da prisão. Petrópolis: Vozes, 1987.",
+    "alternativas": {
+      "A": "gestão das ilicitudes pelo sistema judicial.",
+      "B": "aplicação das sanções pelo modelo equânime.",
+      "C": "supressão dos crimes pela penalização severa.",
+      "D": "regulamentação dos privilégios pela justiça social.",
+      "E": "repartição de vantagens pela hierarquização cultural."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 62,
+    "enunciado": "Conforme o texto, as correspondências trocadas entre imigrantes no Brasil e seus países de procedência constituíam um dispositivo tecnológico que possibilitava o(a)",
+    "texto_base": "Os varões cruzavam os mares transportando pessoas, mercadorias e ideias, e onde carregavam a mais postal repleta de mensagens. Múltiplas histórias escritas atravessavam o oceano buscando por notícias de filhos e pais, irmãos, maridos e esposas, noivos e noivas. As missivas traziam boas e más novas, comunicavam alegremente nascimentos e casamentos, doenças e mortes, e mortes; enviavam declarações de amor e fidelidade, fotos de família; encaminhavam conselhos de velhos, pedidos de ajuda e de dinheiro; expediam cartas bancárias e de chamada. Essa literatura epistolar possibilitava a transmissão e reestruturação das tradições. Os deslocamentos tornaram-se um dos mais potentes produtores de escritura ao longo da história.TRUZZI, O. Patrícios: migração e comércio em São Paulo (imigrantes portugueses (Portugal-Brasil 1890-1930). Rev. hist. n. 70, jul.-dez. 2015.",
+    "alternativas": {
+      "A": "disputa ideológica entre a comunidade de estrangeiros e a de nativos.",
+      "B": "circularidade cultural entre a sociedade de partida e a de acolhimento.",
+      "C": "controle doutrinário nas narrativas do cotidiano de origem e de destino.",
+      "D": "fiscalização política dos fluxos de populações do Novo e do Velho Mundo.",
+      "E": "monitoramento social dos grupos de trabalhadores da cidade e do campo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 63,
+    "enunciado": "A partir da ocupação do recurso natural destacado, o que impede a recuperação do recurso natural destacado é a",
+    "texto_base": "Diversos são os fatores causadores da degradação do solo, atuando de forma direta ou indireta, mas quase sempre a grande maioria das terras degradadas inicia-se no processo com o desmatamento, que pode ser seguido por diversas formas de ocupação desordenada, como: corte de taludes para a construção de casas, rodovias e ferrovias, agricultura com uso da queimada, vários tipos de mineração, irrigação excessiva, crescimento desordenado das cidades, superpastoreio, uso do solo para diversos tipos de despejos industriais e domésticos, sem tratamento da área que recebe esses despejos, enfim, de uma forma ou de outra, os solos tornam-se degradados, sendo muitas vezes difícil, ou quase impossível, a sua recuperação.OLIVEIRA, A. T. de; RODRIGUES, S. C.; OLIVEIRA, L. M. de; SILVA, A. Y.; JORGE, M. C. O. (org.). Degradação dos solos no Brasil. Rio de Janeiro: UFRJ, 2010.",
+    "alternativas": {
+      "A": "elevação da biomassa.",
+      "B": "redução da salinização.",
+      "C": "eliminação da fertilidade.",
+      "D": "ampliação do microclima.",
+      "E": "decomposição do substrato."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 64,
+    "enunciado": "No contexto descrito, as mudanças mencionadas proporcionaram às mulheres o(a)",
+    "texto_base": "A partir da década de 1930, começam a ser discutidos no Brasil os princípios de racionalização do trabalho. As preocupações com a cozinha e o trabalho doméstico foram introduzidas com a medicina sanitária e a oferta de gás e eletricidade para o domicílio no início do século XX. A organização da cozinha moveu-se de uma simplificação das tarefas, com a economia de movimentos, e o barateamento dos equipamentos. A padronização do trabalho em grande escala, a padronização e racionalização da habitação e seus componentes trouxe uma radical transformação da casa, em especial da cozinha, e apoiava-se tanto no desenvolvimento de novos equipamentos quanto nos estudos de racionalização do trabalho doméstico. A principal preocupação era o desenvolvimento de um novo tipo de habitação, que deveria induzir um novo comportamento social.MACHADO, M. C. T. A casa como máquina: a racionalização do trabalho doméstico e a casa paulistana, 1870-1930. Anais do Museu Paulista, n. 2, jul.-dez. 2007 (adaptado).",
+    "alternativas": {
+      "A": "controle do orçamento familiar.",
+      "B": "libertação das tradições religiosas.",
+      "C": "exercício da representatividade política.",
+      "D": "ampliação dos momentos de socialização.",
+      "E": "afastamento das atividades especializadas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 80,
+    "enunciado": "Em relação ao conhecimento sobre a formação cultural brasileira, iniciativas como a descrita no texto favorecem o(a)",
+    "texto_base": "Superar a história da escravidão como principal marca da trajetória do negro no país tem sido uma tônica daqueles que se dedicam a pesquisar as heranças de origem afro na cultura brasileira. E esse esforço de reconstrução da própria história do país, alia-se agora à criação da plataforma digital Encruzilhadas. \"A história do negro no Brasil vai continuar sendo contada, e para outros que a gente dá para trás é um passo que a gente avança\", diz Márcio Black, idealizador da plataforma, sobre o estudo de figuras ainda encontradas pela perspectiva histórica imposta pelos colonizadores da América. IORATI, G. Projeto joga luz sobre negros e revê perspectiva histórica. Disponível em: https://www.uol.com.br. Acesso em: 12 dez. 2022 (adaptado).",
+    "alternativas": {
+      "A": "recuperação do tradicionalismo.",
+      "B": "estímulo ao antropocentrismo.",
+      "C": "reforço do etnocentrismo.",
+      "D": "resgate do teocentrismo.",
+      "E": "crítica ao eurocentrismo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 81,
+    "enunciado": "A análise do resultado do processo em questão revela que o governo inglês foi incapaz de garantir seu objetivo de",
+    "texto_base": "Durante a Primeira Guerra Mundial, o seguinte trecho faz parte da carta enviada pelo secretário do gabinete britânico, Sir Arthur James Balfour, ao banqueiro Lord Rothschild, presidente da Liga Sionista, em 2 de novembro de 1917, a carta ficou conhecida como Declaração Balfour: \"O governo de Sua Majestade vê com aprovação o estabelecimento na Palestina de um lar nacional para o povo judeu, e fará todos os esforços para facilitar tal objetivo. Nada será feito que possa prejudicar os direitos civis e religiosos das comunidades não judaicas na Palestina.\" GATTAZ, A. A Guerra da Palestina. São Paulo: Usina do Livro, 2002 (adaptado).",
+    "alternativas": {
+      "A": "promover o bem-estar social.",
+      "B": "negociar o apoio muçulmano.",
+      "C": "mediar os conflitos territoriais.",
+      "D": "estimular a cooperação regional.",
+      "E": "combater os governos autocráticos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 82,
+    "enunciado": "No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por",
+    "texto_base": "Como presença consciente no mundo não posso escapar à responsabilidade ética no meu mover-me no mundo. Se sou puro produto da determinação genética ou cultural ou de classe, sou irresponsável pelo que faço no meu mover-me no mundo e, se careço de responsabilidade, não posso falar em ética. FREIRE, P. Pedagogia da autonomia: saberes necessários à prática educativa. São Paulo: Paz e Terra, 1996.",
+    "alternativas": {
+      "A": "apresentar uma visão dualista.",
+      "B": "confirmar uma tese naturalista.",
+      "C": "demonstrar uma premissa realista.",
+      "D": "sustentar um argumento idealista.",
+      "E": "defender uma posição intencionalista."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 83,
+    "enunciado": "Qual dinâmica natural é responsável pelo fenômeno apresentado?",
+    "texto_base": "A Cordilheira do Himalaia tem mais de 50 milhões de anos, sendo classificada como a maior cordilheira do planeta. Originada da língua sânscrita, comum na região, seu nome quer dizer \"morada da neve\". É possível encontrar nessa cordilheira as quinze maiores montanhas do mundo. Ao todo, existem mais de cem picos, que contam com altitudes bem maiores que 7 000 m. O Everest, considerado o ponto mais alto da Terra, tem nada menos que 8 848 m de altitude, e continua crescendo, aproximadamente, 0,8 mm a cada ano. Disponível em: www.meioambiente.culturamix.com. Acesso em: 10 nov. 2021 (adaptado).",
+    "alternativas": {
+      "A": "Derrame de lava vulcânica.",
+      "B": "Encontro de placas tectônicas.",
+      "C": "Ação do intemperismo química.",
+      "D": "Sedimentação de erosão eólica.",
+      "E": "Derretimento de geleiras glaciais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 84,
+    "enunciado": "No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por",
+    "texto_base": "Eu poderia concluir que a raiva é um pensamento, que estar com raiva é pensar que alguém é detestável, e que esse pensamento, como todos os outros — assim como Descartes o mostrou — não poderia residir em nenhum fragmento da matéria. A alma seria, portanto, espírito. Porém, quando me volto para minha própria experiência da raiva, devo confessar que ela não estava fora do meu corpo, mas inexplicavelmente nele. MERLEAU-PONTY, M. Fenomenologia da percepção. São Paulo: Martins Fontes, 1999.",
+    "alternativas": {
+      "A": "apresentar uma visão dualista.",
+      "B": "confirmar uma tese naturalista.",
+      "C": "demonstrar uma premissa realista.",
+      "D": "sustentar um argumento idealista.",
+      "E": "defender uma posição intencionalista."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 85,
+    "enunciado": "Qual medida é capaz de minimizar as mudanças apresentadas nas simulações?",
+    "texto_base": "Simulação de mudança da temperatura média anual em relação ao período pré-industrial em três cenários de aquecimento global 1,5 °C de aquecimento global 2 °C de aquecimento global 4 °C de aquecimento global Variação (°C) 0 0,5 1 1,5 2 2,5 3 3,5 4 4,5 5 5,5 6 6,5 7 Mais quente Simulação de mudança da pluviosidade média anual em relação ao período pré-industrial em três cenários de aquecimento global 1,5 °C de aquecimento global 2 °C de aquecimento global 4 °C de aquecimento global Variação (%) -40 -30 -20 -10 0 10 20 30 40 Mais seco Mais úmido PIVETTA, M. O clima no Antropoceno. Revista Pesquisa Fapesp, n. 307, set. 2021.",
+    "alternativas": {
+      "A": "Expandir o transporte marítimo.",
+      "B": "Incentivar os fluxos migratórios.",
+      "C": "Monitorar as atividades vulcânicas.",
+      "D": "Controlar as emissões de carbono.",
+      "E": "Priorizar a utilização de termoelétricas."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta duas séries de três mapas-múndi cada, simulando mudanças climáticas em cenários de aquecimento global de 1,5 °C, 2 °C e 4 °C em relação ao período pré-industrial. A primeira série de mapas mostra a variação da temperatura média anual. No cenário de 1,5 °C, há um aquecimento leve, mais visível nas latitudes do norte. No cenário de 2 °C, o aquecimento é mais pronunciado, especialmente no Ártico. No cenário de 4 °C, há um aquecimento significativo em quase todas as massas de terra, com aquecimento extremo no Ártico. Uma escala de cores abaixo indica a variação de temperatura em °C, de -30 (mais frio) a 7 (mais quente), com cores que vão do verde/amarelo ao vermelho escuro. A segunda série de mapas mostra a variação da pluviosidade média anual. No cenário de 1,5 °C, há mudanças mistas, com algumas áreas mais úmidas e outras mais secas. No cenário de 2 °C, essas mudanças são mais acentuadas. No cenário de 4 °C, as mudanças na pluviosidade são generalizadas e significativas, com grandes áreas tornando-se muito mais úmidas ou muito mais secas. Uma escala de cores abaixo indica a variação da pluviosidade em %, de -40 (mais seco) a 40 (mais úmido), com cores que vão do marrom/laranja ao azul escuro."
+    }
+  },
+  {
+    "posicao": 86,
+    "enunciado": "A descrição crítica do personagem de Machado de Assis assemelha-se às características dos sofistas, contestados pelos filósofos gregos da Antiguidade, porque se mostra alinhada à",
+    "texto_base": "Não tinha outra filosofia. Nem eu. Não digo que a Universidade me não tivesse ensinado alguma; mas eu decorei-lhe só as fórmulas, o vocabulário, o esqueleto. Tratei-a como tratei o latim; embolsei três versos de Virgílio, dois de Horácio, uma dúzia de locuções morais e políticas, para as despesas da conversação. Tratei-os como tratei a história e a jurisprudência. Colhi de todas as cousas a fraseologia, a casca, a ornamentação. ASSIS, M. Memórias póstumas de Brás Cubas. Belo Horizonte: Autêntica, 1999.",
+    "alternativas": {
+      "A": "elaboração conceitual de entendimentos.",
+      "B": "utilização persuasiva do discurso.",
+      "C": "narração alegórica dos rapazes.",
+      "D": "investigação empírica da physis.",
+      "E": "expressão pictográfica da pólis."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 87,
+    "enunciado": "A definição de Sertão descrita no bordado associa esse recorte espacial a",
+    "texto_base": "Fotografia da avó bordada SCARELLI, G. A máquina de costura e os fios da memória. Revista Brasileira de Pesquisa (Auto)Biográfica, n. 18, maio-ago. 2021.",
+    "alternativas": {
+      "A": "percursos e roteiros turísticos.",
+      "B": "trajetos e movimentos holísticos.",
+      "C": "vivências e itinerários socioafetivos.",
+      "D": "fronteiras e demarcações territoriais.",
+      "E": "profissões e interesses econômicos."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta uma imagem de um bordado retangular. O bordado, intitulado \"Sertão c'a avó bordando caminhos com linhas coloridas\", mostra um cenário estilizado com colinas em tons de verde e marrom, um céu azul claro e pequenas formas abstratas coloridas no primeiro plano. As palavras \"Sertão\", \"c'a avó bordando\" e \"caminhos com linhas coloridas\" estão bordadas em diferentes cores e estilos de letra no centro da imagem. A imagem é uma fotografia de um trabalho manual, com textura visível do tecido e dos fios."
+    }
+  },
+  {
+    "posicao": 88,
+    "enunciado": "Na perspectiva do autor, as tradições e os costumes sociofamiliares sofreram alterações, no século XIX, decorrentes de quais fatores?",
+    "texto_base": "Felizes tempos eram esses! As moças iam à missa de madrugada. De dia ninguém as via e se alguma, em dia de festa, queria passear com a avó e as tias, havia de ir de cadeirinha. Bem raro têm os nossos velhos de chorar por esses tempos, em que as filhas não sabiam escrever, e por isso não mandavam nem recebiam bilhetinhos. NORONHA, E. Memórias de uma moça. In: COSTA, H. (Org.). A mulher no século XIX. Uma antologia de textos. São Paulo: Contexto, 2016.",
+    "alternativas": {
+      "A": "Hábitos de leitura e mobilidade regional.",
+      "B": "Valorização de interesses e trânsito religioso.",
+      "C": "Valorização da língua e imigração estrangeira.",
+      "D": "Práticas de letramento e transformação cultural.",
+      "E": "Flexibilização do ensino e reformismo pedagógico."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 89,
+    "enunciado": "Os elementos descritos no texto, a respeito da territorialização da produção, demonstram que há um",
+    "texto_base": "No Cerrado, o conhecimento local está sendo cada vez mais subordinado à lógica do agronegócio. De um lado, o capital impõe os conhecimentos biotecnológicos como mecanismo de universalização de práticas agrícolas e de novas tecnologias, e de outro, o modelo capitalista subordina homens e mulheres à lógica do mercado. Assim, as águas, os alimentos, os minerais, as terras (bens comuns) tornam-se propriedade privada. Além do mais, há outros fatores negativos, como a mecanização pesada, a fragilização dos seres humanos e não humanos, a violência simbólica, a superexploração, a situação de veneno e a violência contra a pessoa. CALAÇA, M.; SILVA, M. A territorialização da produção do agronegócio e a subordinação do campesinato no Cerrado. Etnos. Rev. Geo. UEG, n. 1, jan.-jun. 2021 (adaptado).",
+    "alternativas": {
+      "A": "escasso ao latifundiário, impactando a plantação de alimentos para a exportação.",
+      "B": "desprezo ao assalariado, afetando o engajamento dos sindicatos para o trabalhador.",
+      "C": "desapreço aos governantes, comprometendo a criação de empregos para o lavrador.",
+      "D": "assédio ao empresariado, dificultando o investimento de maquinários para a produção.",
+      "E": "avanço do capital, subordinando o conhecimento local e os bens comuns à lógica do mercado."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 90,
+    "enunciado": "A política demográfica para a província mencionada nos textos é parte da seguinte ação estratégica do governo chinês:",
+    "texto_base": "Com uma população de 25 milhões de habitantes (cerca de 80% de minorias muçulmanas, principalmente da etnia Uigur), Xinjiang é uma região estratégica para a China. Faz fronteira com oito países, é uma artéria crucial do megaprojeto de infraestrutura chinês Cinto e Rota e tem as maiores reservas nacionais de carvão e gás natural. NINO, M. Disponível em: https://oglobo.globo.com. Acesso em: 5 out. 2021 (adaptado). Dentro das províncias da Região Oeste, Xinjiang se destaca ao receber mais de 1,7 milhão de migrantes entre 2000 e 2010. O principal motivo desse fluxo migratório é que o governo fornece subsídios à população, visando aumentar a proporção de chineses da etnia Han na população e a população local de etnias turca e muçulmana. ALVES, J.; TOYOSHIMA, S. Disparidade socioeconômica e fluxo migratório chinês: uma análise da província de Xinjiang e da região autônoma de Ningxia Hui. Revista de Economia Contemporânea, n. 1, jan.-abr. 2017 (adaptado).",
+    "alternativas": {
+      "A": "Promover a ocupação rural.",
+      "B": "Favorecer a liberdade religiosa.",
+      "C": "Descentralizar a gestão pública.",
+      "D": "Incentivar a pluralidade cultural.",
+      "E": "Assegurar a integridade territorial."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  }
+]

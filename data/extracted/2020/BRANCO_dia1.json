@@ -1,0 +1,786 @@
+[
+  {
+    "posicao": 1,
+    "enunciado": "O poema de Robert Frost, as palavras \"faul\" e \"blame\" revelam por parte do eu lírico uma",
+    "texto_base": "A Minor BirdI have wished a bird would fly away,And not sing by my house all day;I have clapped my hands at him from the doorWhen it seemed as if I could bear no more.The fault must partly have been in me.The bird was not to blame for his key.And of course there must be something wrongIn wanting to silence any song.FROST, R. West-running Brook. New York: Henry Holt and Company, 1928.",
+    "alternativas": {
+      "A": "culpa por não poder cuidar do pássaro.",
+      "B": "atitude errada por querer maltratar o pássaro.",
+      "C": "necessidade de defender o silêncio do pássaro.",
+      "D": "sensibilização com relação à natureza do pássaro.",
+      "E": "irritação quanto à persistência do canto do pássaro."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 2,
+    "enunciado": "A passagem do romance da escritora nigeriana traz um diálogo entre duas mulheres negras: a cabeleireira, Aisha, e a cliente, Ifemelu. O posicionamento da cliente é sustentado por argumentos que",
+    "texto_base": "Finally, Aisha finished with her customer and asked what colour Ifemelu wanted for her hair attachments.\"Colour four.\"\"Not good colour,\" Aisha said promptly.\"That's what I use.\"\"It don't look dirty. You don't want colour one?\"\"Colour one is too black, it looks fake,\" Ifemelu said, loosening her headwrap. \"Sometimes I use colour two, but colour four is closest to my natural colour.\"[...]She touched Ifemelu's hair. \"Why you don't have relaxer?\"\"I like my hair the way God made it.\"\"But how you comb it? Hard to comb,\" Aisha said.Ifemelu had brought her own comb. She gently combed her hair, dense, soft and lightly coiled, until it framed her head like a halo. \"It's not hard to comb if you moisturize it properly,\" she said, slipping into the coaxing tone of the proselytizer that she used whenever she was trying to convince other black women about the merits of wearing their hair natural. Aisha snorted; she clearly could not understand why anybody would choose to suffer through combing natural hair, instead of simply relaxing it. She sectioned out Ifemelu's hair, plucked a little attachment from the pile on the table and began deftly to twist.ADICHIE, C. Americanah. A novel. New York: Anchor Books, 2013.",
+    "alternativas": {
+      "A": "reforçam um padrão de beleza.",
+      "B": "retratam um conflito de gerações.",
+      "C": "revelam uma atitude de resistência.",
+      "D": "demonstram uma postura de imaturidade.",
+      "E": "evidenciam uma mudança de comportamento."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 3,
+    "enunciado": "O escritor nigeriano Chinua Achebe traz uma reflexão sobre a situação dos refugiados em um cenário pós-guerra civil em seu país. Essa reflexão é construída no poema por meio da representação de uma mãe, explorando a(s)",
+    "texto_base": "A Mother in a Refugee CampNo Madonna and Child could touchHer tenderness for a sonShe soon would have to forget.The air was heavy with odors of diarrhea,Of unwashed children with washed-out ribsAnd dried-up bottoms waddling in labored stepsBehind blown-empty bellies. Other mothers thereHad long ceased to care, but not this one:She held a ghost-smile between her teeth,And in her eyes the memoryOf a mother's pride... She had bathed himAnd rubbed him down with bare palms.She took from her bundle of possessionsA broken comb and combedThe rust-colored hair left on his skullAnd then — humming in her eyes — began carefully[to part it.In their former life this was perhapsA little daily act of no consequenceBefore his breakfast and school; now she did itLike putting flowers on a tiny grave.ACHEBE, C. Collected Poems. New York: Anchor Books, 2004.",
+    "alternativas": {
+      "A": "demonstração de orgulho por não precisar pedir doações.",
+      "B": "descrições artísticas detalhadas de uma obra conhecida.",
+      "C": "aceitação de um diagnóstico de doença terminal do filho.",
+      "D": "consternação ao visitar o túmulo do filho recém-falecido.",
+      "E": "impressões sensoriais experimentadas no ambiente."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 4,
+    "enunciado": "Os recursos usados nesse pôster de divulgação de uma campanha levam o leitor a refletir sobre a necessidade de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "criticar o tipo de tratamento dado à mulher.",
+      "B": "rever o desempenho da mulher no trabalho.",
+      "C": "questionar a sobrecarga de atribuições da mulher.",
+      "D": "analisar as pesquisas acerca dos direitos da mulher.",
+      "E": "censurar a mulher pelo uso de determinadas palavras."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um pôster em preto e branco com o rosto de uma mulher olhando diretamente para a câmera. Abaixo do rosto, há um campo de busca simulado com o texto 'women shouldn't' e uma lista de sugestões de autocompletar: 'women shouldn't have rights', 'women shouldn't vote', 'women shouldn't work', 'women shouldn't box'. Abaixo dessas sugestões, em letras maiores, está a frase 'women shouldn't suffer from discrimination anymore'. A fonte é Disponível em: https://sites.psu.edu. Acesso em: 12 jun. 2018."
+    }
+  },
+  {
+    "posicao": 5,
+    "enunciado": "Nesse pôster de divulgação de uma campanha que aborda a diversidade e a inclusão, a interação dos elementos verbais e não verbais faz referência ao ato de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "estereotipar povos de certas culturas.",
+      "B": "discriminar hábitos de grupos minoritários.",
+      "C": "banir imigrantes de determinadas origens.",
+      "D": "julgar padrões de beleza de diversas etnias.",
+      "E": "desvalorizar costumes de algumas sociedades."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um pôster dividido em quatro seções, cada uma com uma pessoa diferente. No topo, em letras grandes e brancas sobre um fundo escuro, está a frase 'WE'RE A CULTURE, NOT A COSTUME'. Abaixo, no centro, em letras brancas sobre um fundo escuro, está 'This is NOT Who We Are, and this is NOT OK'. As quatro pessoas representadas são: uma mulher negra com um cocar indígena e maquiagem facial, uma mulher asiática com um chapéu de cone asiático, um homem branco com um cocar indígena e pintura facial, e uma mulher branca com um cocar indígena e pintura facial. Todas as pessoas estão com expressões sérias. No canto inferior direito, há um logotipo 'CSU Diversity CHICO & Inclusion'. A fonte é Disponível em: www.csuchico.edu. Acesso em: 11 dez. 2017."
+    }
+  },
+  {
+    "posicao": 6,
+    "enunciado": "Na prática artística mencionada no texto, o corpo assume papel de destaque ao articular diferentes linguagens com o intuito de",
+    "texto_base": "Silgo é um corpo em movimento pensado para ruas e quintais, existente desde 2014 em São Paulo. Uma iniciativa pioneira do grupo Corposimizante, criado em 2008. (Antes de seguirmos, vale a explicação: o termo sigm vem do inglês e significa — numa nova acepção para o verbo geralmente utilizado para fazer bater com força — \"poesia falada nos ritmos das palavras e da cidade\"). No sarau, o primeiro objetivo foi o de botar os poemas em libras na roda, colocar os surdos para circular e entender esse encontro entre a poesia e a língua de sinais, compreender o encontro dessas duas línguas. Poemas da autora própria, cem minutos, um microfone. Sem figurino, nem adereços, nem acompanhamento musical. O que vale é modular a voz e o corpo, um trabalho artesanal de tornar a palavra \"visível\", numa ação cujo objetivo maior é o de emocionar a plateia, tirar o público da passividade, seja pelo humor, horror, caos, doçura e outras tantas sensações. NOVELLI, G. Poesia incorporada. Revista Continente, n. 189, set. 2016 (adaptado).",
+    "alternativas": {
+      "A": "imprimir um tom irônico à reportagem.",
+      "B": "incorporar citações de especialistas à reportagem.",
+      "C": "atribuir maior valor aos metais, objeto da reportagem.",
+      "D": "esclarecer termos científicos empregados na reportagem.",
+      "E": "marcar a apropriação de termos de outra ciência pela reportagem."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 7,
+    "enunciado": "A leitura do texto permite ao leitor entrar em contato com",
+    "texto_base": "É possível afirmar que muitas expressões idiomáticas transmitidas pela cultura regional possuem autores anônimos, no entanto algumas delas surgiram em consequência de contextos históricos bem curiosos. \"Aquele é um cabra da peste\" é um bom exemplo dessas construções. Para compreender essa expressão tão repetida no Nordeste brasileiro, faz-se necessário voltar o olhar para o século 16. \"Cabra\" remete à forma com que os navegadores portugueses chamavam os índios. Já o peste estaria ligada à questão da superação e resistência, ou mesmo uma associação com o diabo. Assim, com o passar dos anos, passou-se a utilizar tal expressão para denominar qualquer indivíduo que se mostre corajoso, ou mesmo insolente, já que a expressão pode ter caráter positivo ou negativo. Aliás, qual já não ficou de \"cabra-macho\" por aí? O termo, que normalmente tem significado de conotação discriminatória, monótona ou resumgo, tem origem no tupi-guarani e \"nhém\" significa \"falar\". Disponível em: http://leituradehistoria.uol.com.br. Acesso em: 13 dez. 2017.",
+    "alternativas": {
+      "A": "registros do inventário do português brasileiro.",
+      "B": "justificativas da corrente linguística do país.",
+      "C": "influências da fala do nordestino no tipo de língua.",
+      "D": "explorações do falar de um grupo social específico.",
+      "E": "representações da mudança linguística do português."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 8,
+    "enunciado": "As aspas sinalizam expressões metafóricas empregadas intencionalmente pelo autor do texto para",
+    "texto_base": "O ouro do século 21 Cério, gadolínio, lutécio, promécio e érbio; sumário, térbio e disprósio; hólmio, túlio e itérbio. Essa lista de nomes esquisitos é pouco conhecida, mas garante o escoamento de um time de futebol, que ainda teria no banco de reservas lantânio, neodímio, praseodímio, európio, escândio e ítrio. Mais esses 17 metais, chamados de terras-raras, fazem parte da vida de quase todos os humanos do planeta. Chamados por muitos de \"ouro do século 21\", elementos do futuro\" ou \"vitaminas da indústria\", eles estão nos materiais usados na fabricação de lâmpadas, telas de computadores, tablets e celulares, motores de carros elétricos, baterias e até turbinas eólicas. Apesar de tantas aplicações, o Brasil tem a segunda maior reserva de mundo desses metais, parou de extraí-los e usá-los em 2002. Agora, volta a pensar em retomar sua exploração. SILVEIRA, E. Disponível em: www.revistalanda.com.br. Acesso em: 6 dez. 2017 (adaptado).",
+    "alternativas": {
+      "A": "imprimir um tom irônico à reportagem.",
+      "B": "incorporar citações de especialistas à reportagem.",
+      "C": "atribuir maior valor aos metais, objeto da reportagem.",
+      "D": "esclarecer termos científicos empregados na reportagem.",
+      "E": "marcar a apropriação de termos de outra ciência pela reportagem."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 9,
+    "enunciado": "No trecho, o narrador mobiliza recursos da linguagem que geram uma expressividade sentida na percepção de",
+    "texto_base": "Na sua imaginação perturbada sentia a natureza toda agitando-se para sufocá-la, aumentavam as sombras. No céu, nuvens colossais e túmidas rolavam para o mesmo do horizonte... Na várzea, ao clarão indeciso do crepúsculo, os seres tomavam ares de monstros. As montanhas, subindo amontoavam-se para perfilarem-se tenebrosas. Os caminhos, espreguiçando-se sobre os campos, alongavam-se quais serpentes incertas. As árvores soltas choravam ao vento, como carpideiras, fantásticas na natureza morta. Os altivos pássaros noturnos gemiam agourentos com pios fúnebres. Maria, que fugia, via-os e mexia-os; cansada não, acuada, aos impulsos do terror, o deixavam-na prostrada em uma angústia desesperada. ARANHA, J. P. G. Canaã. São Paulo: Ática, 1997.",
+    "alternativas": {
+      "A": "relação entre a natureza opressiva e o desejo de libertação da personagem.",
+      "B": "confluência entre o estado emocional da personagem e a configuração da paisagem.",
+      "C": "prevalência do mundo natural em relação à fragilidade humana.",
+      "D": "depreciação do sentido da vida diante da consciência da morte iminente.",
+      "E": "instabilidade psicológica da personagem face à realidade hostil."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 10,
+    "enunciado": "O esporte é uma manifestação cultural na qual se estabelecem relações sociais. Considerando o texto, o futebol é uma modalidade que",
+    "texto_base": "O suor para estar em competições nacionais e internacionais de alto nível é o mesmo para homens e mulheres, mas não raramente as remunerações são menores para elas. Se no tênis, um dos esportes mais equânimes em termos de gênero, todos os principais torneios oferecem prêmios idênticos nas disputas femininas e masculinas, no futebol a desigualdade atinge seu ápice. Neymar e Marta são dois expoentes dessa paixão nacional. Ela já foi eleita cinco vezes a melhor jogadora do mundo pela Fifa. Ele conquistou o terceiro lugar na última votação para melhor do mundo. Mas é na conta bancária que a diferença entre os dois se sobressai. QUANTO VALE O GOL? MARTA US$ 400 mil salário anual 103 gols pela seleção US$ 3,9 mil por gol NEYMAR US$ 14,5 milhões salário anual 50 gols pela seleção US$ 290 mil por gol Disponível em: http://apublica.org. Acesso em: 9 ago. 2017 (adaptado).",
+    "alternativas": {
+      "A": "apresenta proximidades com o tênis, no que tange às relações de gênero entre homens e mulheres.",
+      "B": "se caracteriza por uma identidade masculina no Brasil, conferindo maior remuneração aos jogadores.",
+      "C": "traz remunerações, aos jogadores e jogadoras, proporcionais aos seus esforços no treinamento esportivo.",
+      "D": "resulta em melhor eficiência para as mulheres e, consequentemente, em remuneração mais alta às jogadoras.",
+      "E": "possui jogadores e jogadoras com a mesma visibilidade, apesar de haver expoentes femininas de destaque, como Marta."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de barras comparando os salários anuais e o valor por gol de Marta e Neymar. Marta: salário anual US$ 400 mil, 103 gols pela seleção, US$ 3,9 mil por gol. Neymar: salário anual US$ 14,5 milhões, 50 gols pela seleção, US$ 290 mil por gol. O gráfico mostra barras horizontais para cada valor, com as barras de Neymar sendo significativamente maiores que as de Marta para salário anual e valor por gol, enquanto Marta tem mais gols pela seleção."
+    }
+  },
+  {
+    "posicao": 11,
+    "enunciado": "As reivindicações dos operários, quanto às condições aviltantes de trabalho a que são submetidos, recebem algumas tentativas de neutralização dos representantes do empregador, das quais a mais forte é o(a)",
+    "texto_base": "Fomos falar com o tal encarregado, depois com um engenheiro, depois com um supervisor que mandou chamar um engenheiro da nossa companhia. Esses homens são da sua companhia, engenheiro, ele falou, estão pedindo a conta. A companhia está empenhada nessa ponte, gente, falou o engenheiro, vocês não podem sair assim sem mais nem menos. Tinha uma serra circular cortando uns caibros ali perto; então só dava pra falar quando a serra parava, e aquilo foi dando nos nervos. Falei que a gente tinha o direito de sair quando a gente quisesse, e pronto. Nisso encostou um sujeito de paletó mas sem gravata; o engenheiro continuou falando e a serra cortando. Quando ela parou de falar, 50 Volts aproveitou uma parada da serra e falou que a gente não era bicho pra trabalhar naquele jeito; daí o supervisor falou que, se era falta de mulher, eles daviam um jeito. O engenheiro falou que tinha mais de vinte companhias trabalhando na ponte, a maioria com prejuízo, porque era mais uma questão de honra, a gente tinha de acabar a ponte, a nossa companhia nunca ia esquecer nosso trabalho ali naquela ponte, um orgulho nacional. PELLEGRINI, D. A maior ponte do mundo. In: Melhores contos. São Paulo: Global, 2005.",
+    "alternativas": {
+      "A": "sequência de atribuição de responsabilidades e de poder decisório a terceiros.",
+      "B": "solicitação em nome dos prejuízos e compromissos para entrega da obra.",
+      "C": "intimidação pela discreta presença de um agente de segurança na cena.",
+      "D": "promessa de imediato atendimento da carência sexual dos operários.",
+      "E": "apelo pela identificação com a empresa extensiva ao amor patriótico."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 12,
+    "enunciado": "Essa campanha de conscientização sobre o assédio sofrido pelas mulheres nas ruas constrói-se pela combinação da linguagem verbal e não verbal. A imagem da mulher com o nariz e a boca cobertos por um lenço é a representação não verbal do(a)",
+    "texto_base": "UM CAMPO DE BATALHA Disponível em: www.tnhaz.com.br. Acesso em: 14 jun. 2018.",
+    "alternativas": {
+      "A": "silêncio imposto às mulheres, que não podem denunciar o assédio sofrido.",
+      "B": "metáfora de que as mulheres precisam defender-se do assédio masculino.",
+      "C": "constrangimento pelo qual passam as mulheres e sua tentativa de esconderem-se.",
+      "D": "necessidade que as mulheres têm de passarem despercebidas para evitar o assédio.",
+      "E": "incapacidade de as mulheres protegerem-se da agressão verbal dos assediadores."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem em preto e branco de uma mulher com o rosto parcialmente coberto por um lenço. O lenço cobre o nariz e a boca, deixando apenas os olhos visíveis. Acima da imagem, o texto 'UM CAMPO DE BATALHA' em letras maiúsculas. A mulher tem uma expressão séria e olha diretamente para frente."
+    }
+  },
+  {
+    "posicao": 13,
+    "enunciado": "Pelas características do texto lido, que trata das consequências da perda de um animal de estimação, considera-se que ele se enquadra no gênero",
+    "texto_base": "Mulher tem coração clinicamente partido após morte de cachorro Como explica o The New England Journal of Medicine, a paciente, chamada Joanie Simpson, tinha sinais de infarto, como dores no peito e pressão alta, e apresentava problemas nas artérias coronárias. Ao fazerem um ecocardiograma, os médicos encontraram o problema: cardiomiopatia de takotsubo, conhecida como síndrome do coração partido. Essa condição médica tipicamente acontece com mulheres em fase pós-menopausa e pode ser precedida por um evento muito estressante ou emotivo. Nesse caso, o coração apresenta um movimento dissincronico transitório da parede anterior do ventrículo esquerdo, com acentuação da cinética da base ventricular, de acordo com um artigo médico brasileiro que relata um caso semelhante. Simpson foi encaminhada para casa após dois dias e passou a tomar medicamentos regulares. Ao Washington Post, ela contou que estava quase inconsolável após a perda do seu animal de estimação, um cão da raça yorkshire terrier. Relembrando após cerca de um ano, ela diz que não abriria mão de ter um animal de estimação porque aprecia a companhia e o amor que os cachorros dão aos humanos. O caso aconteceu em Houston, nos Estados Unidos. Disponível em: https://exame.abril.com.br. Acesso em: 1 dez. 2017.",
+    "alternativas": {
+      "A": "conto, pois exibe a história de vida de Joanie Simpson.",
+      "B": "reportagem, pois expõe o sofrimento da dona do animal.",
+      "C": "reportagem, pois discute cientificamente a cardiomiopatia.",
+      "D": "relato, pois narra um fato estressante vivido pela paciente.",
+      "E": "notícia, pois divulga fatos sobre a síndrome do coração partido."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 14,
+    "enunciado": "Os ditados populares são frases de sabedoria criadas pelo povo, utilizadas em várias situações da vida. Nesse texto, a personagem emprega um ditado popular com a intenção de",
+    "texto_base": "Chiquito tinha quase trinta quando conheceu Mariana num baile de casamento na Forquilha, onde moravam uns parentes dele. Foi lá no Riachão, remanchando. Fez mal à moça, como costumavam dizer, deram de casa as pressas. Morou uns tempos com o sogro, descombinaram. Foi só conta de colher o milho e vender. Mudou pra casa do velho Chico Lourenço [seu pai]. Fumaça própria só viu surgir um par de olhos depois, quando o pai repartiu as terras. De tão parecidos, pai e filho nunca combinaram direito. Cada qual mais topetudo, muitas vezes dona Aparecida ouvia o marido reclamar da natureza forte do filho. Ela escutava com paciência e respondia dum jeito sempre igual: \"Quem herda, não rouba\". Vinha um brilho nos olhos, o velho se acalmava. ROMANO, O. Casos de Minas. Rio de Janeiro: Paz e Terra, 1982.",
+    "alternativas": {
+      "A": "criticar a natureza forte do filho.",
+      "B": "justificar o gênio difícil de Chiquito.",
+      "C": "legitimar o direito do filho à herança.",
+      "D": "conter o ânimo violento de Chico Lourenço.",
+      "E": "condenar a agressividade do marido contra o filho."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 15,
+    "enunciado": "Considerando-se a função que os cartazes colados em postes normalmente exercem nas ruas das cidades grandes, esse texto evidencia a",
+    "texto_base": "TEXTO I Poesia em cartaz O caminho habitual para o trabalho, aquele em que a gente já nem repara direito, pode ficar mais belo com um poema. O projeto #UmLambrePorDia nasce desta intenção: trazer mais cor e energia para a cidade por meio de cartazes convites ao estilo lambe-lambe. Quem teve a ideia foi o escritor Leonardo Beltrão, em Belo Horizonte. \"Em meio a olhares cada vez mais viciados, acabamos nos esquecendo da beleza envolvida em cada esquina e no próprio poder transformador da palavra\". Assim, a cada dia um cartaz é colocado por aí, para nos lembrar de reparar na cidade, na vida que corre ao redor e também em nós mesmos. TEXTO II [IMAGEM] Disponível em: www.vidasimples.uol.com.br. Acesso em: 5 dez. 2017 (adaptado).",
+    "alternativas": {
+      "A": "disseminação da arte poética em um veículo não convencional.",
+      "B": "manutenção da expectativa das pessoas ao andarem pelas ruas.",
+      "C": "necessidade de exposição de poemas pequenos em diferentes suportes.",
+      "D": "característica corriqueira do suporte lambe-lambe, muito comum nas ruas.",
+      "E": "exposição da beleza escondida das esquinas da cidade de Belo Horizonte."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem de um cartaz lambe-lambe colado em um poste. O cartaz tem um fundo escuro e texto em letras brancas e amarelas. O texto diz: 'ONTEM, FUI DORMIR COM SAUDADES DE MIM E HOJE, SUBITAMENTE, VOLTEI.' Abaixo do texto, há a informação 'Disponível em: www.vidasimples.uol.com.br. Acesso em: 5 dez. 2017 (adaptado).'"
+    }
+  },
+  {
+    "posicao": 16,
+    "enunciado": "As significativas quebras engendradas no fragmento pressupõem o reconhecimento da",
+    "texto_base": "A vida às vezes é como um jogo brincado na rua: estamos no último minuto de uma brincadeira bem quente e não sabemos que a qualquer momento pode chegar um mais velho a avisar que a brincadeira já acabou e está na hora de jantar. A vida afinal acontece muito de repente — nunca ninguém nos avisou que aquele era mesmo o último carnaval da Vitória. O Carnaval também chegava sempre de repente. Nós, as crianças, vivíamos sem tempo fora do tempo, sem nunca sabermos dos calendários de verdade. [...] O “Dia da véspera do Carnaval”, como dizia a avó Nhá, era dia de confusão com roupas e pinturas a serem preparadas, sonhadas e inventadas. Mas quando acontecia era um dia rápido, porque os dias mágicos passam depressa, deixando marcas fundas na nossa memória, que alguns chamam também de coração. ONDJAKI. Os da minha rua. Rio de Janeiro: Língua Geral, 2007.",
+    "alternativas": {
+      "A": "perspectiva infantil assumida pela voz narrativa.",
+      "B": "suspensão da linearidade temporal da narração.",
+      "C": "tentativa de materializar lembranças da infância.",
+      "D": "incidência da memória sobre as imagens narradas.",
+      "E": "assimetria entre impressões subjetivas e relatos factuais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 17,
+    "enunciado": "Os jogos eletrônicos presentes na cultura juvenil podem desempenhar uma relevante função na abordagem do futebol ao",
+    "texto_base": "Em 2000 tivemos a primeira experiência do futebol feminino em um jogo de videogame, o Mia Hamm Soccer. Doze anos depois, uma petição online pedia que a EA Sports incluísse o futebol feminino no Fifa 13. Contudo, só em 2015, com uma nova petição on-line, que arrecadou milhares de assinaturas, tivemos o futebol feminino incluído no Fifa 16. Verão um nicho de mercado inexplorado, a EA Sports produziu o jogo com 12 seleções femininas e o apresentou como inovação. A empresa sabe que mais de 40% dos praticantes de futebol nos EUA são meninas. Para elas, ver o futebol feminino representado em um jogo de videogame é extremamente importante. Ter o futebol feminino no Fifa 16 é um grande passo para a sua popularização na luta pela igualdade de gênero, num contexto machista, sexista, misógino e homofóbico. Disponível em: www.ludopedio.com.br. Acesso em: 5 jun. 2018 (adaptado).",
+    "alternativas": {
+      "A": "disseminarem uma modalidade, promovendo a igualdade de gênero.",
+      "B": "superarem jogos malsucedidos no mercado, lançados anteriormente.",
+      "C": "inovarem a modalidade com novas ofertas de jogos ao mercado.",
+      "D": "explorarem nichos de mercado antes ignorados, produzindo mais lucro.",
+      "E": "reforçarem estereótipos de gênero masculino ou feminino nos esportes."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 18,
+    "enunciado": "O texto permite o desnudamento da sociedade ao relacionar as tecnologias de informação e comunicação com a(a)",
+    "texto_base": "Quando quis agilizar o processo de seleção de novos alunos, a tradicional faculdade britânica de medicina St. George usou um software para definir quem deveria ser entrevistado. Ao reproduzir a forma como os funcionários faziam essa escolha, o programa eliminou da cara 60 de 2 500 candidatos. Só por causa do sexo ou da origem racial, numa dedução baseada em sobrenome e local de nascimento. Um estudo sobre o caso foi publicado em 1988, mas, 25 anos depois, outra pesquisa apontou que esse tipo de discriminação segue firme. O exemplo recente envolve o buscador do Google: ao digitar nomes comuns entre negros dos EUA, a chance de os anúncios automáticos oferecerem checagem de antecedentes criminais pode aumentar 25%. E pode piorar com a pergunta “detido?” logo após a palavra procurada. Disponível em: https://lab.uol.com.br. Acesso em: 11 ago. 2017 (adaptado).",
+    "alternativas": {
+      "A": "agilidade dos softwares.",
+      "B": "passar dos anos.",
+      "C": "linguagem.",
+      "D": "preconceito.",
+      "E": "educação."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 19,
+    "enunciado": "Nessa campanha publicitária, a imagem da família e o texto verbal unem-se para reforçar a ideia de que",
+    "texto_base": "[IMAGEM] Disponível em: www.acontecendoaqui.com.br. Acesso em: 15 jun. 2018.",
+    "alternativas": {
+      "A": "a família que adota é mais feliz.",
+      "B": "a adoção tardia é muito positiva.",
+      "C": "as famílias preferem adotar bebês.",
+      "D": "a adoção de adolescentes é mais simples.",
+      "E": "os filhos adotivos são companheiros dos pais."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem colorida de uma família sorrindo. Há um homem, uma mulher e três crianças. Abaixo de cada pessoa, há um nome e uma idade, e a frase 'Adotado aos X anos'. Da esquerda para a direita: 'André Adotado aos 13 anos', 'Salvador Adotado aos 29 anos', 'Bruna Adotada aos 28 anos', 'Débora Adotada aos 17 anos', 'Adotou aos 4 anos'. No canto inferior esquerdo, há um logotipo com a palavra 'Adoção' em destaque e a frase 'Pra garantir a sua verdadeira família não existe idade'. Abaixo da imagem, a fonte: 'Disponível em: www.acontecendoaqui.com.br. Acesso em: 15 jun. 2018.'"
+    }
+  },
+  {
+    "posicao": 20,
+    "enunciado": "A tematização de Curitiba é frequente na obra de Dalton Trevisan. No fragmento, a relação do narrador com o espaço urbano é caracterizada por um olhar",
+    "texto_base": "Viajo Curitiba das conferências positivistas, elas são onze em Curitiba, há treze no mundo inteiro; do tocador de realejo que não roda a manivela desde que o macaquinho morreu; dos bravos soldados do fogo que passam chispando no carro vermelho atrás do incêndio que ninguém não viu, esta Curitiba e a do cachorro-quente com chope duplo no Buraco do Tatu eu viajo. Curitiba, aquela do Burro Brabo, um cidadão misterioso morreu nos braços da Rosicler, quem foi? quem não foi? foi o reizinho do Sião; da Ponte Preta da estação, a única ponte da cidade, sem rio por baixo, esta Curitiba viajo. Curitiba sem pinheiro ou céu azul, pelo que vosmecê é — província, cárcere, lar —, esta Curitiba, e não a outra para inglês ver, com amor eu viajo, viajo, viajo. TREVISAN, D. Em busca de Curitiba perdida. Rio de Janeiro: Record, 1992.",
+    "alternativas": {
+      "A": "destituído de afetividade, que ironiza os costumes e as tradições da sociedade curitibana.",
+      "B": "marcado pela negatividade, que busca desconstruir perspectivas habituais de representação da cidade.",
+      "C": "carregado de melancolia, que constata a falta de identidade cultural diante dos impactos da urbanização.",
+      "D": "embevecido pela simplicidade do cenário, indiferente à descrição de elementos de reconhecido valor histórico.",
+      "E": "distanciado dos elementos narrados, que recorre ao ponto de vista do viajante como expressão de estranhamento."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 21,
+    "enunciado": "A situação a composição no panorama cultural brasileiro, o Texto II destaca o(a)",
+    "texto_base": "TEXTO I É pau, é pedra, é o fim do caminho É um resto de toco, é um pouco sozinho É um caco de vidro, é a vida, é o sol É a noite, é a morte, é o laço, é o anzol É peroba-do-campo, é o nó da madeira Caingá, candeia, é o matita pereira TOM JOBIM. Águas de março. In: Tom Jobim. Songbook Tom Jobim. Rio de Janeiro: Lumiar Discos (disco de bolso). Salvador: Zen Produtora, 1972 (fragmento). TEXTO II A inspiração súbita e certeira do compositor serve ainda de exemplo do lema antigo: nada vem do nada. Para ninguém, nem mesmo para Tom Jobim. Duas fontes são razoavelmente conhecidas: a primeira é o poema O caçador de esmeraldas, do mestre parnasiano Olavo Bilac: “Foi em março, ao findar da chuva, quase à entrada do outono, quando a terra em sede reluchava/e bebia longamente as águas do coração. [...]” E a outra é um ponto de macumba, gravado com sucesso por J. B. Carvalho, do Conjunto Tupi: “É pau, é pedra, é seixo miúdo, rocha batida por cima de tudo. Combinar Olavo Bilac e macumba já seria bom, mas o que se vê em Águas de março vai muito além: tudo se transforma numa outra coisa e numa outra música, que recompõem o mundo para nós. NEPOMUCENO, R. À sombra das águas do mundo. In: Três canções de Tom Jobim. Rio de Janeiro: Rocco, 2001 (adaptado).",
+    "alternativas": {
+      "A": "diálogo que a letra da canção estabelece com diferentes tradições da cultura nacional.",
+      "B": "singularidade com que o compositor converte referências eruditas em populares.",
+      "C": "caráter inovador com que o compositor concebe o processo de criação artística.",
+      "D": "relativização que a letra da canção promove na concepção tradicional de originalidade.",
+      "E": "resgate que a letra da canção promove de obras pouco conhecidas pelo público no país."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 22,
+    "enunciado": "A inter-relação entre tecnologia e sociedade tem estimulado a criação de aplicativos. Nesse texto, isso é percebido pelo desenvolvimento de aplicativos para",
+    "texto_base": "Deu vontade de jogar, mas não sabe como reunir os amigos... Muitas vezes é difícil encontrar grupos para bater uma bola. Em função disso, estão sendo disponibilizados aplicativos que reúnem times e reservam espaços para os adeptos da paixão nacional. Num exemplo dessas iniciativas, é possível organizar uma partida de futebol, se inscrever para participar de um jogo, alugar campos e quadras, convidar jogadores. O aplicativo tem dois tipos de usuários: um que usa o como ferramenta de gestão do grupo, convidando amigos para jogar versus quem confirmou a avaliação dos jogos. Outro usuário é o que busca partidas perto de onde ele está, caso de pessoas que estão de passagem numa cidade. BENEDICTO, G.; KARLI, M. Bola na rede. Retratos: a revista do IBGE, n. 2, 2017 (adaptado).",
+    "alternativas": {
+      "A": "organização de eventos de competições esportivas.",
+      "B": "agendamento de viagens para eventos de esporte amador.",
+      "C": "mapeamento dos interesses dos praticantes acerca dos esportes.",
+      "D": "identificação da escassez de espaços para a vivência dos esportes.",
+      "E": "formação de grupos em comunidades virtuais para a prática esportiva."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 23,
+    "enunciado": "A obra de arte pelo(a)",
+    "texto_base": "TEXTO I [IMAGEM] HIRST, D. Mother and Child. Becerro dividido em duas partes. 1029 x 1683 x 520mm, 1993 (detalhe). Vidro, aço pintado, silicone, álcool, monocofilamento, aço inoxidável, bezerro e solução de formaldeído. TEXTO II O grupo Jovens Artistas Britânicos (YABs), que surgiu no final da década de 1980, possuiu obras diversificadas que incluem fotografias, instalações, pinturas e carcaças desmembradas. O trabalho desses artistas chamou a atenção no final do período da recessão, por utilizar materiais incomuns, como esterco de elefantes, sangue e legumes, o que expressavam os detritos da vida e uma atmosfera de niilismo, temperada por um humor mordaz. Disponível em: http://damienhirst.com. Acesso em: 13 jul. 2015. FARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).",
+    "alternativas": {
+      "A": "recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.",
+      "B": "fruição racional de materiais e formas que se relacionam com os objetos construídos.",
+      "C": "economia de problemas financeiros gerados pela necessidade que tiveram grande impacto no mercado.",
+      "D": "influência desse grupo junto aos estilos pós-modernos que surgiram nos anos 1990.",
+      "E": "interesse em produtos indesejáveis que revela uma consciência sustentável no mercado."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem em preto e branco de uma obra de arte. A obra consiste em um bezerro cortado ao meio longitudinalmente, com as duas metades separadas e imersas em um líquido transparente dentro de caixas de vidro. O bezerro está preservado em formaldeído. Abaixo da imagem, a legenda: 'HIRST, D. Mother and Child. Becerro dividido em duas partes. 1029 x 1683 x 520mm, 1993 (detalhe). Vidro, aço pintado, silicone, álcool, monocofilamento, aço inoxidável, bezerro e solução de formaldeído.'"
+    }
+  },
+  {
+    "posicao": 24,
+    "enunciado": "Os processos de interação comunicativa preveem a presença ativa de múltiplos elementos da comunicação, entre os quais se destacam as funções da linguagem. Nesse fragmento, a função da linguagem predominante é a",
+    "texto_base": "Vou-me embora p'ra Pasárgada foi o poema de mais longa gestação em toda a minha obra. Vi pela primeira vez esse nome Pasárgada quando tinha os meus dezesseis anos e foi num autor grego. [...] Esse nome de Pasárgada, que significa “campo dos persas” ou “tesouro dos persas”, suscitou na minha imaginação uma paisagem fabulosa, um país de delícias, como o de L'Invitation au Voyage, de Baudelaire. Mais de vinte anos depois, quando eu morava na minha casa da Rua do Curvelo, num momento de tédio desânimo, da mais aguda sensação de tudo o que eu não tinha feito em minha vida por motivo da doença, saltou-me de súbito do subconsciente este grito estapafúrdio: “Vou-me embora p'ra Pasárgada!” Senti na redondilha a primeira célula de um poema, e tentei realizá-lo, mas fracassei. Alguns anos depois, em idênticas circunstâncias de desalento e tédio, me ocorreu o mesmo desabafo de evasão da “vida besta”. Desta vez o poema saiu sem esforço como se já estivesse pronto dentro de mim. Gosto desse poema porque vejo nele, em escorço, toda a minha vida; [...] Não sou arquiteto, como meu pai desejava, não fiz nenhuma casa, mas reconstruí o “não de uma forma imperfeita neste mundo de aparências”, uma cidade ilustre, que hoje não é mais a Pasárgada de Ciro, e sim a “minha” Pasárgada. BANDEIRA, M. Itinerário de Pasárgada. Rio de Janeiro: Nova Fronteira; Brasília: INL, 1994.",
+    "alternativas": {
+      "A": "emotiva, porque o poeta expõe os sentimentos de angústia que o levaram à criação poética.",
+      "B": "referencial, porque o texto informa sobre a origem do nome empregado em um famoso poema de Bandeira.",
+      "C": "metalinguística, porque o poeta tece comentários sobre a gênese e o processo de escrita de um de seus poemas.",
+      "D": "poética, porque o texto aborda os elementos estéticos de um dos poemas mais conhecidos de Bandeira.",
+      "E": "apelativa, porque o poeta tenta convencer os leitores sobre sua dificuldade de compor um poema."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 25,
+    "enunciado": "A frase, título do filme, reproduz uma variedade linguística recorrente na fala de muitos brasileiros. Essa estrutura caracteriza-se pelo(a)",
+    "texto_base": "[IMAGEM] Disponível em: www.globofilmes.globo.com. Acesso em: 13 dez. 2017 (adaptado).",
+    "alternativas": {
+      "A": "uso de uma marcação temporal.",
+      "B": "imprecisão do referente da frase.",
+      "C": "organização interrogativa da pessoa.",
+      "D": "utilização de um verbo de ação.",
+      "E": "apagamento de uma preposição."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem que parece ser um pôster de filme. No centro, há uma mulher sorrindo, com cabelos escuros e vestindo uma blusa escura. Acima dela, o título 'REGINA CASÉ EM'. Abaixo dela, em letras grandes e brancas, a frase 'QUE HORAS ELA VOLTA?'. Abaixo, em letras menores, 'um filme de ANNA MUYLAERT'. Mais abaixo, os nomes de outros atores: 'CAMILA MÁRDILA', 'KARINE TELES', 'LOURENÇO MUTARELLI', 'MICHEL JOELSAS', 'HELENA ALBERGARIA'. Na parte inferior, a fonte: 'Disponível em: www.globofilmes.globo.com. Acesso em: 13 dez. 2017 (adaptado).'"
+    }
+  },
+  {
+    "posicao": 26,
+    "enunciado": "Por que a indústria do empreendedorismo de palco irá destruir você?",
+    "texto_base": "Se, antigamente, os livros, enormes e com suas setentas páginas, custavam fórmulas, equações e cálculos que te ensinavam a lidar com o fluxo de caixa da sua empresa, hoje eles dizem: \"Você irá chegar lá! Acredite, você irá vencer!\".Mindset, empoderamento, millennials, networking, coworking, deal, business, deadline, salesman, soft perfil, hunter... tudo isso faz parte do seu vocabulário. O pacote de livros é sempre idêntico e as experiências são passadas da mesma forma: você está a um único sentimento da vitória. Não pare!Se desejar agora, será para sempre. Tome, leia a estratégia do oceano azul. Faça mais uma mentoria, participe de mais uma sessão de coaching. O problema é que o seu mindset não está ajustado. Você precisa ser mais proativo. Vamos fazer mais um powermind? Eu consigo um precinho bacana para você.CARVALHO, I. C. Disponível em: https://medium.com. Acesso em: 17 ago. 2017 (adaptado).De acordo com o texto, é possível identificar o \"empreendedor de palco\" por",
+    "alternativas": {
+      "A": "livros por ele indicados.",
+      "B": "suas habilidades em língua inglesa.",
+      "C": "experiências por ele compartilhadas.",
+      "D": "padrões de linguagem por ele utilizados.",
+      "E": "preços acessíveis de seus treinamentos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 27,
+    "enunciado": "O que sou o coração do folclore nordestinoEu sou Mateus e Bastian do Boi-bumbáSou o boneco de Mestre VitalinoDançando uma ciranda em ItamaracáEu sou um verso de Carlos Pena FilhoNum frevo de CapibaAo som da Orquestra ArmorialSou CapibaribeNum livro de João CabralSou mamulengo de São Bento do UnaVindo no baque solto do maracatuEu sou um auto do Ariano SuassunaNo meio da Feira de CaruaruSou Frei Caneca do Pastoril do FacetaLevando a flor da liraPra Nova JerusalémSou Luiz GonzagaE sou do mangue tambémEu sou mamulucu, sou de Casa ForteSou de Pernambuco, sou o Leão do NorteLENINE; RIBEIRO, P.C. Leão do Norte. In: LENINE. O Alvo. O olho de peixe. São Paulo: Velas, 1993 (fragmento).",
+    "texto_base": "",
+    "alternativas": {
+      "A": "O fragmento faz parte da canção brasileira contemporânea e celebra a cultura popular nordestina. Nele, o artista exalta as diferentes manifestações culturais pela",
+      "B": "valorização do teatro, música, artesanato, literatura, dança, personagens históricos e artistas populares, compondo um texto diversificado e enriquecedor da cultura popular como patrimônio regional e nacional.",
+      "C": "identificação dos lugares pernambucanos, manifestações culturais, como o bumba meu boi, as cirandas, os bonecos mamulengos e heróis locais, fazendo com que essa canção se apresente como uma referência à cultura popular nordestina.",
+      "D": "exaltação das raízes populares, como a poesia, a literatura de cordel e o frevo, misturadas ao erudito, como a Orquestra Armorial, compondo um rico tecido cultural, que transforma o popular em erudito.",
+      "E": "caracterização das festas populares como identidade cultural localizada e como o representante de uma cultura que reflete valores históricos e sociais próprios da população local."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 28,
+    "enunciado": "Respeita as torcedoras!Conversar?Torcer juntos?Tocar sem permissão?Empurrar?Se sentiu desrespeitada?Denuncie: disque 180#respeitaasminas #geralnopaz",
+    "texto_base": "Disponível em: www.facebook.com/ministeriodoesporte. Acesso em: 7 dez. 2017.Esse anúncio publicitário propõe soluções para um problema social recorrente, ao",
+    "alternativas": {
+      "A": "promover ações de conscientização para reduzir a violência de gênero em eventos esportivos.",
+      "B": "estimular o compartilhamento de políticas públicas sobre a igualdade de gênero no esporte.",
+      "C": "divulgar para a população as novas regras complementares para as torcidas de futebol.",
+      "D": "informar ao público masculino as consequências de condutas imorais.",
+      "E": "regulamentar normas de boa convivência nos estádios."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é uma charge ou cartaz publicitário. No centro, há uma mulher com cabelo escuro, vestindo uma camisa de futebol azul, com o número 10. Ela está com uma expressão séria. Ao redor dela, há balões de fala com perguntas: \"Conversar?\", \"Torcer juntos?\", \"Tocar sem permissão?\", \"Empurrar?\". As duas últimas estão riscadas. Abaixo, em destaque, lê-se \"Se sentiu desrespeitada? Denuncie: disque 180\". No rodapé, há as hashtags \"#respeitaasminas\" e \"#geralnopaz\". O fundo é um estádio de futebol com torcedores borrados."
+    }
+  },
+  {
+    "posicao": 29,
+    "enunciado": "Eu tenho empresas e sou digno do visto para ir a Nova York. O dinheiro que chove em Nova York é para pessoas com poder de compra. Pessoas que tenham um visto de vinculado americano. O dinheiro que chove em Nova York também é para os nova-iorquinos. São milhares de dólares. [...] Estou indo para Nova York, onde está chovendo dinheiro. Sou um grande administrador. Sim, está chovendo dinheiro em Nova York. Deu no rádio. Vejo que há pedestres invadindo a via onde trafega o meu carro vermelho, importado da Alemanha. Vejo que há carros nacionais trafegando pela via onde trafega o meu carro vermelho, importado da Alemanha. Ao chegar em Nova York, tomarei providências.SANT'ANNA, A. O discurso da chuva de Nova York. In: MORICONI, I. (Org.). Os cem melhores contos. Rio de Janeiro: Objetiva, 2001.As repetições e as frases curtas constituem procedimentos linguísticos importantes para a compreensão da temática do texto, pois",
+    "texto_base": "",
+    "alternativas": {
+      "A": "expressam a futilidade do discurso de poder e de distinção do narrador.",
+      "B": "disfarçam a falta de densidade das angústias existenciais narradas.",
+      "C": "ironizam a valorização da cultura norte-americana pelos brasileiros.",
+      "D": "explicitam a ganância financeira do capitalismo contemporâneo.",
+      "E": "criticam os estereótipos sociais das visões de mundo elitistas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 30,
+    "enunciado": "DECRETO N. 28 314, DE 28 DE SETEMBRO DE 2007Demite o Gerúndio do Distrito Federal e dá outras providências.O GOVERNADOR DO DISTRITO FEDERAL, no uso das atribuições que lhe confere o artigo 100, incisos VII e XXVI, da Lei Orgânica do Distrito Federal, DECRETA:Art. 1º Fica demitido o Gerúndio de todos os órgãos do Governo do Distrito Federal.Art. 2º Fica proibido, a partir desta data, o uso do gerúndio para desculpa de INEFICIÊNCIA.Art. 3º Este Decreto entra em vigor na data de sua publicação.Art. 4º Revogam-se as disposições em contrário.Brasília, 28 de setembro de 2007.119º da República e 48º de BrasíliaDisponível em: www.dodf.gov.br. Acesso em: 11 dez. 2017.Esse decreto pauta-se na ideia de que o uso do gerúndio, como \"desculpa de ineficiência\", indica",
+    "texto_base": "",
+    "alternativas": {
+      "A": "conclusão de uma ação.",
+      "B": "realização de um evento.",
+      "C": "repetição de uma prática.",
+      "D": "continuidade de um processo.",
+      "E": "transferência de responsabilidade."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 31,
+    "enunciado": "KOSUTH, J. One and Three Chairs. Museu Reina Sofia, Espanha, 1965.(Disponível em: www.museoreinasofia.es. Acesso em: 8 jul. 2019. Adaptado.)A obra de Joseph Kosuth data de 1965 e constitui por uma fotografia da cadeira, uma cadeira exposta e um quadro com o verbete \"Cadeira\". Trata-se de um exemplo de arte conceitual que revela o paradoxo entre verdade e imitação, já que a arte",
+    "texto_base": "",
+    "alternativas": {
+      "A": "não é a realidade, mas uma representação dela.",
+      "B": "fundamenta-se na repetição, construindo variações.",
+      "C": "não se define, pois depende da interpretação do fruidor.",
+      "D": "resiste ao tempo, beneficiada por múltiplas formas de registro.",
+      "E": "redimensiona a verdade, aproximando-se das definições lexicais."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra uma instalação artística intitulada \"One and Three Chairs\" de Joseph Kosuth. No lado esquerdo, há uma fotografia em preto e branco de uma cadeira de madeira simples. No centro, há uma cadeira de madeira real, idêntica à da fotografia. No lado direito, há um quadro com o texto da definição de \"cadeira\" de um dicionário. A instalação explora a relação entre objeto, imagem e linguagem."
+    }
+  },
+  {
+    "posicao": 32,
+    "enunciado": "(Disponível em: www.wired.com. Acesso em: 22 jan. 2018.Adaptado.)A realidade virtual é uma tecnologia de informação que, conforme sugere a imagem, tem como uma de suas principais funções",
+    "texto_base": "",
+    "alternativas": {
+      "A": "promover a manipulação eficiente de conhecimentos e informações de difícil compreensão no mundo físico.",
+      "B": "conduzir escolhas profissionais da área de ciência da computação, oferecendo um leque de opções de atuação.",
+      "C": "transferir conhecimento da inteligência artificial para as áreas tradicionais, como as das ciências exatas e naturais.",
+      "D": "levar o ser humano a experimentar mentalmente outras realidades, para as quais é transportado sem sair de seu próprio lugar.",
+      "E": "delimitar tecnologias exclusivas de jogos virtuais, a fim de oferecer maior emoção ao jogador por meio de outras realidades."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem mostra uma pessoa, aparentemente uma mulher, usando um óculos de realidade virtual. Ela está com uma expressão de surpresa ou admiração, com a boca ligeiramente aberta. Ao redor de sua cabeça, há uma representação gráfica de elementos digitais e linhas que sugerem conexão e imersão em um ambiente virtual. O fundo é escuro."
+    }
+  },
+  {
+    "posicao": 33,
+    "enunciado": "LUTA: prática corporal imprevisível, caracterizada por determinado estado de contato proposital, que possibilita a duas ou mais pessoas se enfrentarem numa constante troca de ações ofensivas e/ou defensivas, regida por regras, com o objetivo mútuo sobre um alvo móvel personificado no oponente.GOMES, M. S. P. et al. Ensino das lutas: dos princípios conceituais aos gestos situacionais. Movimento, n. 2, abr.-jun. 2010 (adaptado).De acordo com o texto, podemos identificar uma abordagem das lutas nas aulas de educação física quando o professor realiza uma proposta envolvendo",
+    "texto_base": "",
+    "alternativas": {
+      "A": "o contato corporal intenso entre o aluno e seu oponente.",
+      "B": "consulta entre os alunos que se agridem fisicamente.",
+      "C": "confronto corporal em que os vencedores são previamente identificados.",
+      "D": "combate corporal intencional com ações regulamentadas entre os oponentes.",
+      "E": "conflito resolvido pelos alunos por meio de regras previamente estabelecidas."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 34,
+    "enunciado": "O conceito de saúde formulado na histórica VIII Conferência Nacional de Saúde, no ano de 1986, ficou conhecido como um conceito ampliado de saúde, conforme ilustrado na figura. Esse conceito foi fruto de intensa mobilização em diversos países da América Latina nas décadas de 1970 e 1980, como resposta à crise dos sistemas públicos de saúde.",
+    "texto_base": "A imagem é um diagrama circular intitulado \"Condições Socioeconômicas, Culturais e Ambientais Gerais e do Trabalho\". O círculo central contém a palavra \"SAÚDE\". Dele partem setas para quatro grandes áreas: \"Condições de vida e de trabalho\", \"Redes sociais e comunitárias\", \"Meio ambiente\" e \"Acesso a bens e serviços\". Cada uma dessas áreas se subdivide em fatores específicos: \"Condições de vida e de trabalho\" inclui Alimentação, Moradia, Educação, Renda, Emprego, Transporte, Lazer. \"Redes sociais e comunitárias\" inclui Apoio social, Participação, Cultura, Tradições, Valores, Crenças. \"Meio ambiente\" inclui Água e esgoto, Ar, Solo, Moradia, Trabalho. \"Acesso a bens e serviços\" inclui Saúde, Educação, Previdência social, Habitação. A legenda abaixo do diagrama é: BATISTELLA, C. Abordagens contemporâneas do conceito de saúde. Disponível em: www.scielo.br. Acesso em: 25 jul. 2019.Com base no conceito apresentado no texto, a saúde é consequência direta do(a)",
+    "alternativas": {
+      "A": "adoção de um estilo de vida ativo por parte dos indivíduos.",
+      "B": "disponibilidade de emprego no mercado de trabalho.",
+      "C": "condição habitacional presente nas cidades.",
+      "D": "acesso ao sistema educacional.",
+      "E": "forma de organização social."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A imagem é um diagrama circular intitulado \"Condições Socioeconômicas, Culturais e Ambientais Gerais e do Trabalho\". O círculo central contém a palavra \"SAÚDE\". Dele partem setas para quatro grandes áreas: \"Condições de vida e de trabalho\", \"Redes sociais e comunitárias\", \"Meio ambiente\" e \"Acesso a bens e serviços\". Cada uma dessas áreas se subdivide em fatores específicos: \"Condições de vida e de trabalho\" inclui Alimentação, Moradia, Educação, Renda, Emprego, Transporte, Lazer. \"Redes sociais e comunitárias\" inclui Apoio social, Participação, Cultura, Tradições, Valores, Crenças. \"Meio ambiente\" inclui Água e esgoto, Ar, Solo, Moradia, Trabalho. \"Acesso a bens e serviços\" inclui Saúde, Educação, Previdência social, Habitação. A legenda abaixo do diagrama é: BATISTELLA, C. Abordagens contemporâneas do conceito de saúde. Disponível em: www.scielo.br. Acesso em: 25 jul. 2019."
+    }
+  },
+  {
+    "posicao": 35,
+    "enunciado": "Relatos de viagem: nas curvas da Nacional 222, em PortugalEm abril deste ano, fomos a Portugal para uma viagem de um mês que esperávamos há um ano. Pois no dia 4 de maio, chegávamos ao Aeroporto Francisco Sá Carneiro, no Porto. Que linda a \"antiga, muy nobre, sempre leal e invicta\" cidade do Porto! \"Encantei-me\", diriam eles... pelas belas paisagens, construções históricas com lindas fachadas, parques e praças muito bem cuidados.Os tripeiros, sinônimo de portuenses, têm orgulho de sua cidade, apelidada de Invicta — nunca foi invadida. E valorizam tudo o que há de bom ali, como \"a melhor estrada para se dirigir do mundo\", a Nacional 222.Pois na manhã do 25 de abril, dia da Revolução dos Cravos, resolvemos conhecer a tal maravilha. A cada 10 km tínhamos que encostar: corríamos, dançávamos, tomávamos chocolate quente, sopa, tudo que fosse quentinho. E lá íamos para mais uma etapa. Uma aventura deliciosa. Depois de três horas — mais ou menos o dobro do tempo necessário, não fossem as paradas para aquecimento —, chegamos a casa! Congelados, mas maravilhados e invictos!Disponível em: https://oglobo.globo.com. Acesso em: 6 dez. 2017 (adaptado).Nesse texto, busca-se seduzir o leitor por meio da exploração de uma voz externa sobre a identidade histórica do povo português. O trecho que evidencia esse procedimento argumentativo é",
+    "texto_base": "",
+    "alternativas": {
+      "A": "\"Que linda a 'antiga, muy nobre, sempre leal e invicta' cidade do Porto!\".",
+      "B": "\"Encantei-me', diriam eles... pelas belas paisagens, construções históricas com lindas fachadas [...]\".",
+      "C": "\"Os tripeiros, sinônimo de portuenses, têm orgulho de sua cidade [...]\".",
+      "D": "\"E valorizam tudo o que há de bom ali, como 'a melhor estrada para se dirigir do mundo [...]\".",
+      "E": "\"Pois na manhã do 25 de abril, dia da Revolução dos Cravos, resolvemos conhecer a tal maravilha\"."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 36,
+    "enunciado": "Caminhando contra o vento,Sem lenço e sem documentoNo sol de quase dezembroEu vouO sol se reparte em crimesEspaçonaves, guerrilhasEm cardinales bonitasEu vouEm caras de presidentesEm grandes beijos de amorEm dentes, pernas, bandeirasBombas e Brigitte BardotO sol nas bancas de revistaMe enche de alegria e preguiçaQuem lê tanta notíciaEu vouVELOSO, C. Alegria, alegria. In: Caetano Veloso. São Paulo: Philips, 1967 (fragmento).É comum coexistirem sequências tipológicas em um mesmo gênero textual. Nesse fragmento, os tipos textuais que se destacam na organização temática são",
+    "texto_base": "",
+    "alternativas": {
+      "A": "descritivo e argumentativo, pois o enunciador detalha cada lugar por onde passa, argumentando contra a violência urbana.",
+      "B": "dissertativo e argumentativo, pois o enunciador apresenta seu ponto de vista sobre as notícias relativas à cidade.",
+      "C": "expositivo e injuntivo, pois o enunciador fala de seus estados físicos e psicológicos e interage com a mulher amada.",
+      "D": "narrativo e descritivo, pois o enunciador conta sobre suas andanças pelas ruas da cidade ao mesmo tempo que a descreve.",
+      "E": "narrativo e injuntivo, pois o enunciador ensina o interlocutor como andar pelas ruas da cidade contando sobre sua própria experiência."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 37,
+    "enunciado": "Leandro Aparecido Ferreira, o MC Fioti, compôs em 2017 a música Bum bum tam tam, que gerou, em nove meses, 480 milhões de visualizações no YouTube. É o funk brasileiro mais ouvido na história do site.A partir de uma gravação da flauta que achou na internet, MC Fioti fez tudo sozinho: compôs, cantou e produziu em uma noite só. \"Comecei a pesquisar alguns tipos de flauta, coisas antigas. E nisso eu achei a 'flautinha do Sebastian Bach'\", conta. A descoberta foi por acaso: Fioti não sabia quem era o músico alemão e não sabe tocar o instrumento.",
+    "texto_base": "A 'flauta envolvente' da música é um trecho da Partita em Lá menor, escrita pelo alemão Johann Sebastian Bach por volta de 1723.Disponível em: https://g1.globo.com. Acesso em: 6 jun. 2018 (adaptado).A incorporação de um trecho da obra para flauta solo de Johann Sebastian Bach na música de MC Fioti demonstra a",
+    "alternativas": {
+      "A": "influência permanente da cultura eurocêntrica nas produções musicais brasileiras.",
+      "B": "homenagem aos referenciais estéticos que deram origem às produções da música popular.",
+      "C": "necessidade de divulgar a música de concerto nos meios populares nas periferias das grandes cidades.",
+      "D": "utilização desintencional de uma música expressivamente distante da realidade cultural dos jovens brasileiros.",
+      "E": "inter-relação de elementos culturais vindos de realidades distintas na construção de uma nova proposta musical."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 38,
+    "enunciado": "Seu delegadoEu sou viúvo e tenho um filho homemArrumei uma viúva e fui me casarA minha sogra era muito teimosaCom o meu filho foi se matrimoniarDesse matrimônio nasceu um garotoDesde esse dia que eu ando é loucoEsse garoto é filho do meu filhoE o filho da minha sogra é irmão da minha mulherEle é meu neto e eu sou cunhado deleA minha nora é minha sograMeu filho meu sogro éNessa confusão já nem sei quem souAcaba esse garoto sendo meu avô.TRIO FORROZÃO. Agitando a rapaziada. Rio de Janeiro: K-Tel Discos, 2009.Nessa letra da canção, a suposição do último verso sinaliza a intenção do autor de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "ironizar as relações familiares modernas.",
+      "B": "reforçar o humor da situação representada.",
+      "C": "expressar perplexidade em relação ao parente.",
+      "D": "atribuir a criança a causa da dúvida existencial.",
+      "E": "questionar os lugares predeterminados da família."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 80,
+    "enunciado": "Para que haja a redução da pressão sobre o recurso natural mencionado, a expansão da agricultura demanda melhorias no(a)",
+    "texto_base": "A demanda mundial para a produção de alimentos aumentou progressivamente a taxas muito altas. Atualmente, na maioria dos países, continentes e regiões, a água consumida na agricultura é de cerca de 70% da disponibilidade total.TUNDISI, J. G. Recursos hídricos no futuro: problemas e soluções. Estudos Avançados, n. 68, 2010 (adaptado).",
+    "alternativas": {
+      "A": "fertilização química do solo.",
+      "B": "escoamento hídrico do terreno.",
+      "C": "manutenção de poços artesianos.",
+      "D": "eficiência das técnicas de irrigação.",
+      "E": "velocidade das máquinas colheitadeiras."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 81,
+    "enunciado": "Tomando o texto como parâmetro, qual tendência contemporânea impulsiona a formulação de estratégias mais abrangentes por parte do Estado mexicano?",
+    "texto_base": "No caso do Departamento de Defesa dos Estados Unidos, a ênfase está posta no tipo de uma estratégia geral de desarticulação. Não só do inimigo, mais como dos potenciais, inserida na concepção preventiva que supõe que a mínima dissidência é um sinal de perigo e de guerra futura. Deve-se ter capacidade para responder a uma guerra convencional tanto quanto para enfrentar um inimigo difuso, atentando simultaneamente para todas as áreas geográficas do planeta. Trata-se, sem dúvida, da estratégia com pretensões mais abrangentes que se desenvolveu até agora.CECENA, A. E. Hegemonias e emancipações no século XXI. Buenos Aires: CLACSO, 2004 (adaptado).",
+    "alternativas": {
+      "A": "Erradicação dos conflitos em territórios.",
+      "B": "Propagação de organizações em redes.",
+      "C": "Eliminação das diferenças regionais.",
+      "D": "Ampliação de modelo democrático.",
+      "E": "Proteção da diplomacia mundial."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 82,
+    "enunciado": "O modelo de planejamento urbano problematizado no texto é marcado pelo(a)",
+    "texto_base": "O planejamento deixou de controlar o crescimento urbano e passou a encorajá-lo por todos os meios possíveis e imagináveis. Cidades, a nova mensagem soou em alto e bom som, eram máquinas de produzir riquezas; o primeiro e principal objetivo do planejamento devia ser o de azeitar a máquina.HALL, P. Cidades do amanhã: uma história intelectual do planejamento urbano no século XX. São Paulo: Perspectiva, 2016 (adaptado).",
+    "alternativas": {
+      "A": "primazia da gestão popular.",
+      "B": "uso de práticas sustentáveis.",
+      "C": "construção do bem-estar social.",
+      "D": "soberania do poder governamental.",
+      "E": "intensificação da atividade empresarial."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 83,
+    "enunciado": "As estruturas geológicas indicadas no texto são importantes economicamente para o Brasil por concentrarem",
+    "texto_base": "Escudos antigos ou maciços cristalinos são blocos imensos de rochas antigas. Estes escudos são constituídos por rochas cristalinas (magmático-plutônicas), formadas em eras pré-cambrianas, ou por rochas metamórficas (material sedimentar) do Paleozoico. São resistentes, estáveis, porém bastante desgastadas. Correspondem a 36% da área litorânea e dividem-se em duas grandes porções: o Escudo das Guianas (norte da Planície Amazônica) e o Escudo Brasileiro (porção centro-oriental brasileira).Disponível em: http://ambientes.ambientebrasil.com.br. Acesso em: 25 jun. 2015.",
+    "alternativas": {
+      "A": "fontes de águas termais.",
+      "B": "afloramentos de sal-gema.",
+      "C": "jazidas de minerais metálicos.",
+      "D": "depósitos de calcário agrícola.",
+      "E": "reservas de combustível fóssil."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 84,
+    "enunciado": "O texto expressa a experiência do personagem de Tolstói diante de um aspecto incontornável de nossas vidas. Esse aspecto foi um tema central na tradição filosófica",
+    "texto_base": "Em A morte de Ivan Ilitch, Tolstói descreve com detalhes repulsivos o terror de encarar a morte iminente. Ilitch adoece depois de um pequeno acidente e logo compreende que se encaminha para o fim de modo impossível de parar. \"Nas profundezas de seu coração, ele sabia estar morrendo, mas em vez de se acostumar com a ideia, simplesmente não o fazia e não conseguia compreendê-la.\"VAZ, F. O desejo de rebanho: o que é e o bem-viver. Rio de Janeiro: Tinta Negra, 2004.",
+    "alternativas": {
+      "A": "marxista, no contexto do materialismo histórico.",
+      "B": "logicista, no propósito de entendimento dos fatos.",
+      "C": "utilitarista, no sentido da racionalidade das ações.",
+      "D": "existencialista, na discussão da finitude das relações.",
+      "E": "pós-modernista, na questão do reconhecimento de si."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 85,
+    "enunciado": "No contexto das distintas formas de apropriação da terra, o poema de Cora Coralina valoriza a relação entre",
+    "texto_base": "O cântico da terraEu sou a terra, eu sou a vida.A ti, ó lavrador, tudo quanto é meu.Teu arado, tua foice, teu machado.O berço pequenino de teu filho.O algodão de tua veste e o pão de tua casa.E um dia bem distante a mim tu voltarás.E no canteiro materno de meu seio tranquilo dormirás.Plantemos a roça.Lavremos a gleba.CORALINA, C. Textos e contextos: poemas dos becos de Goiás e estórias mais. São Paulo: Global, 1997 (fragmento).",
+    "alternativas": {
+      "A": "grileiros e controle territorial.",
+      "B": "meeiros e divisão do trabalho.",
+      "C": "camponeses e uso da natureza.",
+      "D": "indígenas e manejo agroecológico.",
+      "E": "latifundiários e fertilização do solo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 86,
+    "enunciado": "O novo gênero de escrita aludido no texto é o(a)",
+    "texto_base": "Montaigne deu o nome para um novo gênero literário: foi dos primeiros a instituir na literatura moderna um espaço privado, o \"espaço do 'eu'\", do texto íntimo. Ele cria um novo processo de escrita filosófica no qual hesitações, autocríticas, correções entram no próprio texto.COELHO, M. Montaigne. São Paulo: Publifolha, 2001 (adaptado).",
+    "alternativas": {
+      "A": "confissão, que relata experiências de transformação.",
+      "B": "ensaio, que expõe concepções subjetivas de um tema.",
+      "C": "carta, que comunica informações para um conhecido.",
+      "D": "meditação, que propõe preparações para o conhecimento.",
+      "E": "diálogo, que discute assuntos com diferentes interlocutores."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 87,
+    "enunciado": "Como signatário da Declaração citada, o Brasil comprometeu-se com a elaboração de políticas públicas educacionais que contemplem a",
+    "texto_base": "Declaração de Salamanca – 1994Acreditamos e proclamamos que: toda criança tem direito fundamental à educação e deve ser dada a oportunidade de atingir e manter o nível adequado de aprendizagem. Toda criança possui características, interesses, habilidades e necessidades de aprendizagem que são únicas; sistemas educacionais deveriam ser designados e programas educacionais deveriam ser implementados no sentido de se levar em conta a vasta diversidade de tais características e necessidades.Disponível em: http://portal.mec.gov.br. Acesso em: 2 jul. 2015.",
+    "alternativas": {
+      "A": "criação de privilégios.",
+      "B": "contenção dos gastos.",
+      "C": "pluralidade dos sujeitos.",
+      "D": "padronização do currículo.",
+      "E": "valorização da meritocracia."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 88,
+    "enunciado": "Os textos mostram-se alinhados a um entendimento acerca da ideia de conhecimento, numa perspectiva que ampara a",
+    "texto_base": "TEXTO IOs meus pensamentos são todos sensações.Penso com os olhos e com os ouvidosE com as mãos e os pésE com o nariz e a boca.PESSOA, F. O guardador de rebanhos – in: GALHOZ, M. A. (Org.). Obras poéticas. Rio de Janeiro: Nova Aguilar, 1990 (fragmento).TEXTO IITudo aquilo que sei do mundo, mesmo por ciência, eu o sei a partir de uma visão minha ou de uma experiência do mundo sem a qual os símbolos da ciência não poderiam dizer nada.MERLEAU-PONTY, M. Fenomenologia da percepção. São Paulo: Martins Fontes, 1999 (adaptado).",
+    "alternativas": {
+      "A": "anterioridade da razão no domínio cognitivo.",
+      "B": "confirmação da existência de saberes inatos.",
+      "C": "valorização do corpo na apreensão da realidade.",
+      "D": "verificabilidade de proposições no campo da lógica.",
+      "E": "possibilidade de contemplação de verdades atemporais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 89,
+    "enunciado": "O resultado do processo geográfico descrito foi o(a)",
+    "texto_base": "A expansão das cidades e a formação das aglomerações urbanas no Brasil foram marcadas pela produção industrial e pela consolidação das metrópoles como locais de seu desenvolvimento. Na segunda metade do século XX, as metrópoles brasileiras estenderam-se por áreas de ocupação contínua, configurando densas regiões urbanizadas.MORAES, R. Arranjos urbanos regionais no Brasil: especificações e reprodução da pobreza. Disponível em: www.scielo.br. Acesso em: 11 fev. 2019.",
+    "alternativas": {
+      "A": "valorização da escala local.",
+      "B": "crescimento das áreas periféricas.",
+      "C": "densificação do transporte ferroviário.",
+      "D": "predomínio do planejamento estadual.",
+      "E": "inibição de consórcios intermunicipais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 90,
+    "enunciado": "A dinâmica produtiva apresentada na imagem tem como estratégia central a",
+    "texto_base": "",
+    "alternativas": {
+      "A": "separação pelo tipo de solo.",
+      "B": "exportação da colheita sazonal.",
+      "C": "priorização da tecnologia moderna.",
+      "D": "adequação pelo tempo da natureza.",
+      "E": "intensificação da atividade pecuária."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um diagrama circular intitulado 'Zona de pastoreio e cultura do algodão e cereais do agreste (1963)'. O círculo central mostra 'ALGODÃO' e 'MILHO'. O círculo externo é dividido em meses do ano, de JAN a DEZ, com atividades agrícolas indicadas para cada mês. As atividades incluem: 'PASTOREIO', 'PLANTIO E LIMPA', 'CRESCIMENTO', 'COLHEITA DE FEIJÃO', 'COLHEITA DE MILHO VERDE', 'COLHEITA DE MILHO SECO', 'COLHEITA DE ALGODÃO'. Há setas indicando a duração de cada atividade ao longo dos meses. Por exemplo, 'PASTOREIO' ocorre de JAN a DEZ. 'PLANTIO E LIMPA' ocorre de MAR a MAI. 'COLHEITA DE FEIJÃO' ocorre em JUN. 'COLHEITA DE MILHO VERDE' ocorre em JUL. 'COLHEITA DE MILHO SECO' ocorre em AGO. 'COLHEITA DE ALGODÃO' ocorre de SET a NOV. A legenda abaixo do diagrama lista as 'CONVENÇÕES' para cada tipo de atividade."
+    }
+  }
+]

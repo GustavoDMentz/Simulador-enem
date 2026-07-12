@@ -1,0 +1,1346 @@
+[
+  {
+    "posicao": 91,
+    "enunciado": "O gráfico que representa a variação da absorção de luz pelos pigmentos em função do comprimento de onda é um instrumento para se inferir que a pessoa com daltonismo, em comparação com quem tem visão normal, apresenta dificuldade em",
+    "texto_base": "Muitos primatas, incluindo nós humanos, possuem visão tricromática, têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos visuais não possuam cor, estes são conhecidos como pigmentos \"azul\", \"verde\" e \"vermelho\" e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulamos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaremos o pigmento \"azul\", o pigmento \"verde\" seria ativado em máximo e o \"vermelho\" seria ativado em aproximadamente 75%. Se isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento \"verde\" um pouco e o \"vermelho\" em cerca de 75%, o que nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente.Disponível em: www.colorado.edu. Adaptado.",
+    "alternativas": {
+      "A": "identificar o comprimento de onda do amarelo, uma vez que não possui o pigmento \"verde\".",
+      "B": "ver o estímulo de comprimento de onda laranja, pois não haveria estimulação de um pigmento visual.",
+      "C": "detectar ambos os comprimentos de onda, uma vez que a estimulação dos pigmentos estaria prejudicada.",
+      "D": "visualizar o estímulo do comprimento de onda roxo, já que este se encontra na faixa ponta do espectro.",
+      "E": "distinguir os dois comprimentos de onda, pois ambos estimulam o pigmento \"vermelho\" na mesma intensidade."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico de linha com dois eixos. O eixo Y é 'Ativação (%)' variando de 0 a 100. O eixo X é 'Comprimento de onda (nm)' variando de 400 a 650, com marcações a cada 50 nm. Três linhas representam a absorção de luz por diferentes pigmentos: 'azul' (linha pontilhada), 'verde' (linha tracejada) e 'vermelho' (linha contínua). A linha 'azul' tem um pico em torno de 430-440 nm. A linha 'verde' tem um pico em torno de 530-540 nm. A linha 'vermelho' tem um pico em torno de 560-570 nm. Há duas áreas retangulares sombreadas verticalmente no gráfico, indicadas como 'I' e 'II'. A área 'I' está centrada em 530 nm e a área 'II' está centrada em 600 nm. Abaixo do eixo X, há uma barra de cores que vai do roxo ao vermelho, passando por azul, verde, amarelo e laranja, indicando a correspondência entre comprimento de onda e cor."
+    }
+  },
+  {
+    "posicao": 92,
+    "enunciado": "Nesse arranjo, os átomos de carbono possuem hibridação",
+    "texto_base": "O grafeno é uma forma alotrópica do carbono constituída por uma folha planar (arranjo bidimensional de átomos de carbono compactados) e com a espessura de apenas um átomo. Sua estrutura é hexagonal, conforme a figura.",
+    "alternativas": {
+      "A": "sp de geometria linear.",
+      "B": "sp² de geometria trigonal planar.",
+      "C": "sp³ alternados com carbonos com hibridação sp de geometria linear.",
+      "D": "sp³d² de geometria planar.",
+      "E": "sp³d³ com geometria hexagonal planar."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de uma estrutura hexagonal de átomos de carbono. Os átomos de carbono são representados por esferas cinzas e as ligações entre eles por linhas. A estrutura forma uma rede de hexágonos interconectados, típica do grafeno, mostrando que cada átomo de carbono está ligado a outros três átomos de carbono, formando um arranjo planar."
+    }
+  },
+  {
+    "posicao": 93,
+    "enunciado": "Para que a velocidade de lançamento do cubo seja aumentada quatro vezes, o projetista deve",
+    "texto_base": "Um projetista deseja construir um brinquedo que lance um pequeno cubo ao longo de um trilho horizontal, e o dispositivo precisa oferecer a opção de mudar a velocidade de lançamento. Para isso, ele utiliza uma mola e um trilho onde o atrito pode ser desprezado, conforme a figura.",
+    "alternativas": {
+      "A": "manter a mesma mola e aumentar duas vezes a sua deformação.",
+      "B": "manter a mesma mola e aumentar quatro vezes a sua deformação.",
+      "C": "manter a mesma mola e aumentar dezesseis vezes a sua deformação.",
+      "D": "trocar a mola por outra de constante elástica duas vezes maior e manter a deformação.",
+      "E": "trocar a mola por outra de constante elástica quatro vezes maior e manter a deformação."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de um sistema de lançamento. À esquerda, uma mola comprimida está encostada em uma parede vertical. À direita da mola, há um cubo sobre um trilho horizontal. O trilho se estende para a direita, onde há uma indicação 'Trilho horizontal'. Acima do cubo, há a palavra 'Cubo'. À esquerda da mola, há a palavra 'Mola'. Uma seta indica a direção de lançamento do cubo para a direita."
+    }
+  },
+  {
+    "posicao": 94,
+    "enunciado": "A progênie S1 recebeu o pólen de qual doador?",
+    "texto_base": "Considere, em um fragmento ambiental, uma árvore matriz com frutos (M) e outras cinco que produziram flores e são opções doadoras de pólen (DP1, DP2, DP3, DP4 e DP5). Foi excluída a capacidade de autopolinização das árvores. Os genótipos da matriz, da semente (S1) e das prováveis fontes de pólen foram obtidos pela análise de dois locos (loco A e loco B) de marcadores de DNA, conforme a figura.COLLEVATTI, R. G.; TELLES, M. P.; SOARES, T. N. Detecção do pólen entre pequizeiros: uma atividade para a genética do ensino superior. Genética na Escola, n. 1, 2013 (adaptado).",
+    "alternativas": {
+      "A": "DP1",
+      "B": "DP2",
+      "C": "DP3",
+      "D": "DP4",
+      "E": "DP5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas tabelas de genótipos para dois locos (loco A e loco B) de marcadores de DNA.Cada tabela tem colunas para 'M' (matriz), 'S1' (semente) e 'DP1' a 'DP5' (doadores de pólen). As linhas representam os alelos (alelo 1, alelo 2, alelo 3, alelo 4). As células preenchidas indicam a presença de um alelo específico.No 'Esquema do Gel A' (Loco A):- M tem alelos 1 e 2.- S1 tem alelos 1 e 3.- DP1 tem alelos 1 e 2.- DP2 tem alelos 1 e 3.- DP3 tem alelos 2 e 3.- DP4 tem alelos 1 e 4.- DP5 tem alelos 2 e 4.No 'Esquema do Gel B' (Loco B):- M tem alelos 1 e 2.- S1 tem alelos 2 e 3.- DP1 tem alelos 1 e 3.- DP2 tem alelos 1 e 4.- DP3 tem alelos 2 e 3.- DP4 tem alelos 1 e 2.- DP5 tem alelos 3 e 4."
+    }
+  },
+  {
+    "posicao": 95,
+    "enunciado": "Com os carros orientados de acordo com as figuras, os estudantes ligaram as ventoinhas, aguardaram o fluxo de ar ficar permanente e determinaram os módulos das velocidades médias dos carros A (V_A) e B (V_B) para o mesmo intervalo de tempo.A respeito das intensidades das velocidades médias e do sentido de movimento do carro A, os estudantes observaram que:",
+    "texto_base": "Em desenhos animados é comum vermos a personagem tentando impulsionar um barco soprando ar contra a vela para compensar a falta de vento. Algumas vezes usam o próprio fôlego, foles ou ventiladores. Estudantes de um laboratório didático resolveram investigar essa possibilidade. Para isso, usaram dois pequenos carros de plástico, A e B. Instalaram sobre esses pequenos ventoinhas e fixaram verticalmente uma cartolina de curvatura parabólica para desempenhar uma função análoga à vela de um barco. No carro B inverteu-se o sentido da ventoinha e manteve-se o ar, a fim de manter as características físicas do barco, massa e formato da cartolina. As figuras representam os carros produzidos. A montagem do carro A busca simular a situação dos desenhos animados, pois a ventoinha está direcionada para a vela.",
+    "alternativas": {
+      "A": "V_A > 0; V_B > 0; o carro A não se move.",
+      "B": "0 < V_A < V_B; o carro A se move para a direita.",
+      "C": "0 < V_B < V_A; o carro A se move para a esquerda.",
+      "D": "0 < V_B < V_A; o carro A se move para a direita.",
+      "E": "0 < V_A < V_B; o carro A se move para a esquerda."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas figuras lado a lado, 'Carro A' e 'Carro B', mostrando carrinhos de plástico com ventoinhas e uma cartolina curva que simula uma vela.No 'Carro A', a ventoinha está montada na parte traseira do carrinho e direcionada para a frente, soprando ar contra a cartolina curva que está na frente do carrinho. Uma seta indica o fluxo de ar da ventoinha para a 'vela'.No 'Carro B', a ventoinha está montada na parte traseira do carrinho e direcionada para trás, soprando ar para longe da cartolina curva que está na frente do carrinho. Uma seta indica o fluxo de ar da ventoinha para trás, na direção oposta à 'vela'."
+    }
+  },
+  {
+    "posicao": 96,
+    "enunciado": "As moléculas dos dois fertilizantes químicos produzidas pelas abelhas rainha e operária possuem diferença na",
+    "texto_base": "As abelhas utilizam a sinalização química para distinguir da abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o fertilizante químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias apenas por sua aparência, mas entre si elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.Disponível em: www.scielo.br. Adaptado.",
+    "alternativas": {
+      "A": "fórmula estrutural.",
+      "B": "fórmula molecular.",
+      "C": "identificação dos tipos de ligação.",
+      "D": "contagem do número de carbonos.",
+      "E": "identificação dos grupos funcionais."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 97,
+    "enunciado": "Esse tipo de desenvolvimento está relacionado a um maior número de espécies em razão da",
+    "texto_base": "Insetos podem apresentar três tipos de desenvolvimento. Um deles, a holometabolia (desenvolvimento completo), é constituído pelas fases de ovo, larva, pupa e adulto sexualmente maduro, que ocupam diversos hábitats. Os insetos com holometabolia perfazem as ordens mais numerosas em termos de espécies conhecidas.",
+    "alternativas": {
+      "A": "permanência na fase de pupa, favorecendo a sobrevivência de adultos imaturos.",
+      "B": "produção de muitos ovos, larvas e pupas, aumentando o número de adultos.",
+      "C": "exploração de diferentes nichos, evitando a competição entre as fases de vida.",
+      "D": "ingestão de alimento em todas as fases de vida, garantindo o surgimento do adulto.",
+      "E": "utilização do mesmo alimento em todas as fases, otimizando a nutrição do organismo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 98,
+    "enunciado": "Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro de fora de ambos e sugar, devido à sucção simultaneamente em ambos, haverá dificuldade em bebê-lo.Essa dificuldade ocorre porque (o)",
+    "texto_base": "",
+    "alternativas": {
+      "A": "força necessária para a sucção do ar e do suco simultaneamente dobra de valor.",
+      "B": "densidade do ar é menor que a do suco, portanto, o volume de ar aspirado é muito maior que o volume de suco.",
+      "C": "velocidade com que o suco sobe deve ser constante nos dois canudos, o que é impossível com um dos canudos de fora.",
+      "D": "peso do coluna de suco é consideravelmente maior que o peso do coluna de ar, o que dificulta a sucção do líquido.",
+      "E": "pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 99,
+    "enunciado": "De acordo com os argumentos de Haber, qual fenômeno teria provocado o desequilíbrio no \"balanço do nitrogênio ligado\"?",
+    "texto_base": "O engenheiro Fritz Haber recebeu o Prêmio Nobel de Química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH₃). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que:\"Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica, pois o aumento das safras de alimentos, entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo.Economias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, a produção do salitre levado aos onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado.Isso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado [...]. A demanda por nitrogênio, tal como a do carvão, indica que diferente nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam.Desde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com o extenso calculado desses depósitos, ficou claro que em menos do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.Disponível em: HABER, F. The Synthesis of Ammonia from its Elements. Nobel Lecture, June 2, 1920 (adaptado).",
+    "alternativas": {
+      "A": "O esgotamento das reservas de salitre no Chile.",
+      "B": "O aumento da exploração de carvão vegetal e carvão mineral.",
+      "C": "A intensificação da fertilidade do solo nas economias agrícolas.",
+      "D": "A intensificação no fluxo de pessoas do campo para as cidades.",
+      "E": "A necessidade das plantas de absorverem sais de nitrogênio disponíveis no solo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 100,
+    "enunciado": "Nessa suposta pilha, qual dos componentes atuaria como cátodo?",
+    "texto_base": "Em 1938 o arqueólogo alemão Wilhelm König, diretor do Museu Nacional do Iraque, encontrou um objeto estranho no coleção da instituição, que poderia ter sido usado como uma pilha, similar às utilizadas em nossos dias. A suposta pilha, datada de cerca de 200 a.C., é constituída de um pequeno vaso (cerca de 14 cm de altura por 8 cm de largura) no qual foram instalados um tubo de cobre, uma barra de ferro (aparentemente corroída por ácido) e uma tampa de betume (asfalto), conforme ilustrado. Considere os potenciais-padrão de redução: E°(Fe²⁺|Fe) = –0,44 V; E°(H⁺|H₂) = 0,00 V; e E°(Cu²⁺|Cu) = +0,34 V.As pilhas de Bagdá e a acupuntura. Disponível em: http://spotlight.com.br. Acesso em: 14 dez. 2014 (adaptado).",
+    "alternativas": {
+      "A": "A tampa de betume.",
+      "B": "O vestígio de ácido.",
+      "C": "A barra de ferro.",
+      "D": "O tubo de cobre.",
+      "E": "O vaso de barro."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama esquemático de uma pilha de Bagdá. Mostra um vaso de barro contendo um vestígio de ácido. Dentro do vaso, há um tubo de cobre e uma barra de ferro. A parte superior do vaso é selada por uma tampa de betume. Setas indicam os componentes: 'Tampa de betume', 'Barra de ferro', 'Tubo de cobre', 'Vestígio de ácido', 'Vaso de barro'."
+    }
+  },
+  {
+    "posicao": 101,
+    "enunciado": "Anabolismo e catabolismo são processos celulares antagônicos, que são controlados principalmente pela ação hormonal. Por exemplo, no fígado, a insulina atua como um hormônio com ação anabólica, enquanto o glucagon tem ação catabólica. Ambos são secretados em resposta ao nível de glicose sanguínea.Em caso de um indivíduo com hipoglicemia, o hormônio citado que atua no catabolismo induzirá o organismo a",
+    "texto_base": "",
+    "alternativas": {
+      "A": "realizar a fermentação lática.",
+      "B": "metabolizar aerobicamente a glicose.",
+      "C": "produzir aminoácidos a partir de ácidos graxos.",
+      "D": "transformar ácidos graxos em glicogênio.",
+      "E": "estimular a utilização do glicogênio."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 102,
+    "enunciado": "Em dois outros recipientes A e B contendo 2 litros de água pura, em cada um, ele adicionou 100 g e 200 g de NaCl, respectivamente.Quando o cloreto de sódio é adicionado à água pura ocorre sua dissociação formando os íons Na⁺ e Cl⁻. Considere que esses íons ocupam os espaços intermoleculares na solução.Nestas recipientes, a posição de equilíbrio do densímetro está representada em:",
+    "texto_base": "Usando um densímetro cuja menor divisão da escala, isto é, a diferença entre duas marcações consecutivas, é de 5,0 x 10⁻² g cm⁻³, um estudante realizou um teste de densidade: colocou este instrumento na água pura e observou que ele atingiu o repouso na posição mostrada.Legenda:DensímetroÁgua",
+    "alternativas": {
+      "A": "Imagem de dois densímetros. O primeiro (A) está em um líquido com o densímetro mais submerso. O segundo (B) está em um líquido com o densímetro menos submerso.",
+      "B": "Imagem de dois densímetros. O primeiro (A) está em um líquido com o densímetro menos submerso. O segundo (B) está em um líquido com o densímetro mais submerso.",
+      "C": "Imagem de dois densímetros. Ambos (A e B) estão em líquidos com o densímetro na mesma posição, mais submerso que na imagem da legenda.",
+      "D": "Imagem de dois densímetros. O primeiro (A) está em um líquido com o densímetro mais submerso. O segundo (B) está em um líquido com o densímetro na mesma posição do densímetro da legenda.",
+      "E": "Imagem de dois densímetros. O primeiro (A) está em um líquido com o densímetro na mesma posição do densímetro da legenda. O segundo (B) está em um líquido com o densímetro menos submerso."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem de legenda mostra um densímetro flutuando em um recipiente com água. O densímetro está parcialmente submerso, com a parte superior acima da superfície da água e a parte inferior submersa. A legenda indica 'Densímetro' e 'Água'. Abaixo, cinco opções (A, B, C, D, E) cada uma com duas imagens de densímetros em recipientes, rotulados A e B. Em cada par, os densímetros estão em diferentes níveis de submersão. Opção A: Densímetro A está mais submerso que B. Opção B: Densímetro A está menos submerso que B. Opção C: Densímetro A e B estão igualmente submersos, mais do que na legenda. Opção D: Densímetro A está mais submerso que B. Densímetro B está na mesma posição que o da legenda. Opção E: Densímetro A está na mesma posição que o da legenda. Densímetro B está menos submerso que A."
+    }
+  },
+  {
+    "posicao": 103,
+    "enunciado": "Em populações de quais localidades observamos um processo de especiação evidente?",
+    "texto_base": "O processo de formação de novas espécies é lento e repleto de nuances e estágios intermediários, havendo uma diminuição da viabilidade entre cruzamentos. Assim, plantas originalmente de uma mesma espécie que não cruzam mais entre si podem ser consideradas como uma espécie se diferenciando. Um pesquisador realizou cruzamentos entre nove populações — denominadas de acordo com a localização onde são encontradas — de uma espécie de orquídea (Epidendrum denticulatum). No diagrama estão os resultados dos cruzamentos entre as populações. Considere que o doador fornece o pólen para o receptor.FIORAVANTI, C. Os primeiros passos de novas espécies: plantas e animais se diferenciam por meio de mecanismos surpreendentes. Pesquisa Fapesp, out. 2013 (adaptado).",
+    "alternativas": {
+      "A": "Bertioga e Marambaia; Alcobaça e Olivença.",
+      "B": "Itirapina e Itapeva; Marambaia e Massambaba.",
+      "C": "Itirapina e Marambaia; Alcobaça e Itirapina.",
+      "D": "Itirapina e Peti; Alcobaça e Marambaia.",
+      "E": "Itirapina e Olivença; Marambaia e Peti."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de rede intitulado 'RESULTADOS DOS CRUZAMENTOS'. Nove localidades são representadas por círculos: PÃO DE AÇÚCAR, PETI, ITIRAPINA, ITAPEVA, BERTIOGA, MARAMBAIA, MASSAMBABA, OLIVENÇA, ALCOBAÇA. Setas conectam essas localidades. A legenda indica que linhas contínuas com seta representam 'Polinização induzida bem-sucedida', e linhas pontilhadas com seta representam 'Polinização induzida inviável ou nula'. As localidades são também categorizadas por cor: círculo preto para 'Mata Atlântica' e círculo branco para 'Cerrado'. O diagrama mostra diversas conexões, com algumas pares de localidades (ex: Itirapina-Peti, Bertioga-Marambaia, Alcobaça-Olivença) conectados por setas pontilhadas em ambas as direções, enquanto outros pares têm setas contínuas ou uma mistura."
+    }
+  },
+  {
+    "posicao": 104,
+    "enunciado": "Um dos benefícios dessa forma de plantio é a",
+    "texto_base": "O cruzamento de duas espécies da família das Anonáceas, a cherimola (Annona cherimola) com a fruta-pinha (Annona squamosa), resultou em uma planta híbrida denominada de atemoia. Recomenda-se que o seu plantio seja por meio de enxertia.",
+    "alternativas": {
+      "A": "ampliação da variabilidade genética.",
+      "B": "produção de frutas das duas espécies.",
+      "C": "manutenção do genótipo da planta híbrida.",
+      "D": "reprodução de clones das plantas parentais.",
+      "E": "modificação do genoma decorrente da transgenia."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 105,
+    "enunciado": "Uma adaptação associada a esse bioma, presente nos seres vivos dos grupos citados, é a",
+    "texto_base": "O cerrado é um bioma que se localiza em regiões de poucos umidade. A fauna é, predominantemente, composta por animais roedores, aves, répteis e artrópodes.",
+    "alternativas": {
+      "A": "existência de numerosas glândulas sudoríparas na epiderme.",
+      "B": "eliminação de excretas nitrogenadas de forma concentrada.",
+      "C": "desenvolvimento do embrião no interior de ovo com casca.",
+      "D": "capacidade de controlar a temperatura corporal.",
+      "E": "respiração realizada por pulmões foliáceos."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 106,
+    "enunciado": "Segundo a hipótese proposta, o íon cloreto atua na decomposição fotoquímica do vermilion",
+    "texto_base": "O sulfeto de mercúrio(II) foi usado como pigmento vermelho para pinturas de quadros e murais. Esse pigmento, conhecido como vermilion, escurece com o passar dos anos, fenômeno cuja origem é alvo de pesquisas. Aventou-se a hipótese de que o vermilion seja decomposto sob a ação da luz, produzindo uma fina camada de mercúrio metálico na superfície. Essa reação seria catalisada por íon cloreto presente na umidade do ar.Adaptado de: MENDES, M. et al. Journal of the Brazilian Chemical Society, n. 1, 2010.",
+    "alternativas": {
+      "A": "reagindo como agente oxidante.",
+      "B": "deslocando o equilíbrio químico.",
+      "C": "diminuindo a energia de ativação.",
+      "D": "precipitando cloreto de mercúrio.",
+      "E": "absorvendo a energia da luz visível."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 107,
+    "enunciado": "A frequência da vibração do automóvel percebida pelo condutor durante a passagem nesse sonorizador é mais próxima de",
+    "texto_base": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres. Ao passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passa com velocidade constante igual a 108 km/h sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm.Disponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado).",
+    "alternativas": {
+      "A": "8,6 hertz.",
+      "B": "13,5 hertz.",
+      "C": "375 hertz.",
+      "D": "1 350 hertz.",
+      "E": "4 560 hertz."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 108,
+    "enunciado": "Em qual dos objetos a força é potente e maior que a força resistente?",
+    "texto_base": "As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. A figura mostra alguns exemplos desses objetos.",
+    "alternativas": {
+      "A": "Pinça.",
+      "B": "Alicate.",
+      "C": "Quebra-nozes.",
+      "D": "Carrinho de mão.",
+      "E": "Abridor de garrafa."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Cinco imagens de objetos que funcionam como alavancas, cada uma com seu nome. 1. Pinça: Uma ferramenta com duas hastes longas unidas em uma extremidade, usada para pegar objetos pequenos. 2. Alicate: Uma ferramenta com duas alças e duas mandíbulas, unidas por um pivô, usada para segurar ou cortar. 3. Quebra-nozes: Uma ferramenta com duas hastes unidas em uma extremidade, com um espaço no meio para colocar a noz e alças para aplicar força. 4. Carrinho de mão: Um veículo de uma roda com uma caçamba na frente e duas alças na parte de trás. 5. Abridor de garrafa: Uma ferramenta com uma alavanca e um ponto de apoio para remover tampas de garrafas."
+    }
+  },
+  {
+    "posicao": 109,
+    "enunciado": "A importância econômica e tecnológica desses elementos, pela similaridade de suas propriedades químicas e físicas, deve-se a",
+    "texto_base": "Na mitologia grega, Niobe era a filha de Tântalo, dois personagens conhecidos pelo sofrimento. O elemento químico de número atômico 41, do qual 41 têm propriedades químicas e físicas tão parecidas com as do elemento de número atômico 73 que chegaram a ser confundidos. Por isso, em homenagem a esses dois personagens da mitologia grega, foi conferido a esses elementos os nomes de nióbio (Z = 41) e tântalo (Z = 73). Esses dois elementos químicos adquiriram grande importância econômica na metalurgia, na produção de supercondutores e em outras aplicações na indústria, de ponta, exatamente pelas propriedades químicas e físicas comuns aos dois.KEAN, S. A colher que desaparece: e outras histórias mais de loucura, amor e morte a partir da Tabela Periódica dos Elementos. Rio de Janeiro: Zahar, 2011 (adaptado).",
+    "alternativas": {
+      "A": "terem elétrons no subnível f.",
+      "B": "serem elementos de transição interna.",
+      "C": "pertencerem ao mesmo grupo na tabela periódica.",
+      "D": "terem seus elétrons mais externos nos níveis 4 e 5, respectivamente.",
+      "E": "estarem localizados na família dos alcalinos terrosos e alcalinos, respectivamente."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 110,
+    "enunciado": "A reação 3 é fundamental para o contínuo funcionamento da célula solar, pois",
+    "texto_base": "Células solares à base de TiO₂ sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO₂ é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO₂. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.LONGO, C. de PAOLI, M-A. Dye-Sensitized Solar Cells. A Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado).Reações:(1) TiO₂|S + hν → TiO₂|S*(2) TiO₂|S* → TiO₂|S⁺ + e⁻(3) TiO₂|S⁺ + ³/₂ I⁻ → TiO₂|S + ¹/₂ I₃⁻(4) ¹/₂ I₃⁻ + e⁻ → ³/₂ I⁻",
+    "alternativas": {
+      "A": "reduz íons I⁻ a I₃⁻.",
+      "B": "regenera o corante.",
+      "C": "garante que a reação 4 ocorra.",
+      "D": "promove a oxidação do corante.",
+      "E": "transfere elétrons para o eletrodo de TiO₂."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama esquemático de uma célula solar sensibilizada por corante. Mostra um eletrodo de TiO₂ com corante adsorvido. A luz (hν) incide no corante, excitando-o (S*). O elétron (e⁻) é transferido do corante excitado para o TiO₂, e então para um eletrodo de Pt. O corante oxidado (S⁺) é regenerado por um eletrólito (I⁻/I₃⁻). O eletrólito também recebe elétrons do eletrodo de Pt. As setas indicam o fluxo de elétrons e as transformações. As reações químicas correspondentes são listadas ao lado: (1) TiO₂|S + hν → TiO₂|S*, (2) TiO₂|S* → TiO₂|S⁺ + e⁻, (3) TiO₂|S⁺ + ³/₂ I⁻ → TiO₂|S + ¹/₂ I₃⁻, (4) ¹/₂ I₃⁻ + e⁻ → ³/₂ I⁻."
+    }
+  },
+  {
+    "posicao": 111,
+    "enunciado": "Qual linhagem deve ser escolhida pelo pesquisador?",
+    "texto_base": "O nível metabólico de uma célula pode ser determinado pela taxa de síntese de RNAs e proteínas, processos dependentes da energia. Essa diferença na taxa de síntese de biomoléculas é refletida na abundância e características morfológicas dos componentes celulares. Em uma empresa de produção de hormônios proteicos, a partir do cultivo de células animais, um pesquisador deseja selecionar uma linhagem com o metabolismo de síntese mais elevado, dentre as cinco esquematizadas na figura.",
+    "alternativas": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama mostrando a estrutura de uma célula animal e cinco linhagens celulares. A legenda mostra os componentes celulares: Mitocôndria, Retículo endoplasmático rugoso, Heterocromatina, Nucléolo, Eucromatina. O diagrama de célula animal mostra núcleo (com nucléolo, heterocromatina, eucromatina), retículo endoplasmático rugoso e mitocôndrias. As cinco linhagens (I, II, III, IV, V) são representadas por diagramas de células com variações na quantidade e tamanho de mitocôndrias e retículo endoplasmático rugoso. Linhagem I tem poucas mitocôndrias pequenas e pouco retículo. Linhagem II tem mais mitocôndrias e retículo que I. Linhagem III tem mais mitocôndrias e retículo que II. Linhagem IV tem mais mitocôndrias e retículo que III. Linhagem V tem muitas mitocôndrias grandes e abundante retículo endoplasmático rugoso."
+    }
+  },
+  {
+    "posicao": 112,
+    "enunciado": "Após a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 + I². O gráfico da resistência elétrica (R) do resistor em função da corrente (I) é",
+    "texto_base": "Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão versus corrente.",
+    "alternativas": {
+      "A": "Gráfico de R(Ω) versus I(A) com eixo vertical de 0 a 20. A linha decresce linearmente de (0, 10) a (7, 0).",
+      "B": "Gráfico de R(Ω) versus I(A) com eixo vertical de 0 a 20. A linha é horizontal em R=10.",
+      "C": "Gráfico de R(Ω) versus I(A) com eixo vertical de 0 a 20. A linha cresce linearmente de (0, 10) a (7, 17).",
+      "D": "Gráfico de R(Ω) versus I(A) com eixo vertical de 0 a 18. A linha cresce com uma curva côncava para cima, começando em (0, 10).",
+      "E": "Gráfico de R(Ω) versus I(A) com eixo vertical de 0 a 60. A linha cresce com uma curva côncava para cima, de forma mais acentuada que em D, começando em (0, 10)."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta um gráfico de linha no texto base, intitulado 'Tensão (V) versus Corrente (A)', com Corrente (A) no eixo horizontal (0 a 7) e Tensão (V) no eixo vertical (0 a 180). A curva começa em (0, 10) e sobe com uma curva côncava para cima, passando por (1, 11), (2, 14), (3, 19), (4, 26), (5, 35), (6, 46), (7, 59). As alternativas A, B, C, D, E são cinco gráficos de linha diferentes, cada um intitulado 'R(Ω) versus I(A)', com I (A) no eixo horizontal (0 a 7) e R (Ω) no eixo vertical, mas com escalas e curvas distintas para cada alternativa."
+    }
+  },
+  {
+    "posicao": 113,
+    "enunciado": "Dentre as moléculas testadas, qual delas apresentou menor reatividade?",
+    "texto_base": "A hidroxilamina (NH₂OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada. O produto A é favorecido em relação ao B por um fator de 10⁵. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as moléculas numeradas de 1 a 5.",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta um esquema de reação química. No topo, 'Anidrido acético' (estrutura CH₃-C(=O)-O-C(=O)-CH₃) reage com '+ NH₂OH' (hidroxilamina). A seta da reação aponta para dois produtos: 'Produto A' (estrutura CH₃-C(=O)-NH-OH) e 'Produto B' (estrutura CH₃-C(=O)-OH, ácido acético). Abaixo, são mostradas cinco estruturas químicas numeradas de 1 a 5. Molécula 1: HO-NH₂. Molécula 2: HO-NH-CH₃. Molécula 3: HO-N(CH₃)₂. Molécula 4: HO-NH-C₆H₅. Molécula 5: HO-NH-C(=O)-CH₃."
+    }
+  },
+  {
+    "posicao": 114,
+    "enunciado": "Cientificamente esse conceito é definido como",
+    "texto_base": "Um estudante relatou que o mapeamento do DNA da cevada foi quase todo concluído e seu código genético desvendado. Chamou atenção para o número de genes que compõem esse código genético e que a semente da cevada, apesar de pequena, possui um genoma mais complexo que o humano, sendo que parte desse código constituída de sequências repetidas. Nesse contexto, o conceito de código genético está abordado de forma equivocada.",
+    "alternativas": {
+      "A": "trincas de nucleotídeos que codificam os aminoácidos.",
+      "B": "localização de todos os genes encontrados em um genoma.",
+      "C": "codificação de sequências repetidas presentes em um genoma.",
+      "D": "conjunto de todos os RNAs mensageiros transcritos em um organismo.",
+      "E": "todas as sequências de pares de bases presentes em um organismo."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 118,
+    "enunciado": "O deslocamento observado na distância média revela o fenômeno da",
+    "texto_base": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial da ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observe-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R0) corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T1 a T4 (temperaturas crescentes).",
+    "alternativas": {
+      "A": "ionização.",
+      "B": "dilatação.",
+      "C": "dissociação.",
+      "D": "quebra de ligações covalentes.",
+      "E": "formação de ligações metálicas."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico intitulado 'Energia de ligação' no eixo y e 'Distância interatômica' no eixo x. O gráfico mostra um poço de energia potencial. O eixo y começa em 0 e vai para valores negativos. O eixo x mostra R0 no mínimo do poço. Linhas horizontais T1, T2, T3, T4 são desenhadas acima de R0, indicando temperaturas crescentes. As linhas se estendem horizontalmente, mostrando a faixa de distâncias interatômicas nessas temperaturas. O gráfico também indica 'T = 0 K' na parte inferior do poço."
+    }
+  },
+  {
+    "posicao": 119,
+    "enunciado": "O equipamento elétrico que tem potência similar àquela produzida por esse peixe em perigo é o(a)",
+    "texto_base": "Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir uma corrente elétrica quando se encontram em perigo. Um poraquê ou 1 metro de comprimento, em perigo, produz uma corrente em torno de 2 ampères e uma voltagem de 600 volts. O quadro apresenta a potência aproximada de equipamentos elétricos.",
+    "alternativas": {
+      "A": "exaustor.",
+      "B": "computador.",
+      "C": "aspirador de pó.",
+      "D": "churrasqueira elétrica.",
+      "E": "secadora de roupas."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela com duas colunas: 'Equipamento elétrico' e 'Potência aproximada (watt)'. As linhas da tabela são: Exaustor com 150 W, Computador com 300 W, Aspirador de pó com 600 W, Churrasqueira elétrica com 1200 W, e Secadora de roupas com 3600 W."
+    }
+  },
+  {
+    "posicao": 120,
+    "enunciado": "O que ocorre com os alto-falantes E e D se forem conectados de acordo com o segundo esquema?",
+    "texto_base": "Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som estéreo, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida.",
+    "alternativas": {
+      "A": "O alto-falante E funciona normalmente e o D entra em curto-circuito e não emite som.",
+      "B": "O alto-falante E emite ondas sonoras com frequências ligeiramente diferentes do alto-falante D provocando o fenômeno de batimento.",
+      "C": "O alto-falante E emite ondas sonoras com frequências e fases diferentes do alto-falante D provocando o fenômeno conhecido como ruído.",
+      "D": "O alto-falante E emite ondas sonoras que apresentam um lapso de tempo em relação às emitidas pelo alto-falante D provocando o fenômeno de reverberação.",
+      "E": "O alto-falante E emite ondas sonoras em oposição de fase às emitidas pelo alto-falante D provocando o fenômeno de interferência destrutiva nos pontos equidistantes aos alto-falantes."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Dois diagramas de conexão de alto-falantes. O primeiro, 'Polaridade correta', mostra duas caixas de som (E e D) conectadas a um equipamento de som. Em ambas as caixas, os terminais positivo (+) e negativo (-) do equipamento são conectados aos terminais correspondentes (+) e (-) do alto-falante. O segundo diagrama, 'Polaridade invertida', mostra as mesmas caixas de som E e D conectadas ao equipamento, mas com a polaridade invertida: o terminal positivo (+) do equipamento é conectado ao negativo (-) do alto-falante, e o negativo (-) do equipamento é conectado ao positivo (+) do alto-falante, para ambas as caixas E e D."
+    }
+  },
+  {
+    "posicao": 124,
+    "enunciado": "Qual a fórmula estrutural do tensoativo persistente no ambiente mencionado no texto?",
+    "texto_base": "Tensoativos são compostos orgânicos que possuem comportamento anfifílico, isto é, possuem duas regiões, uma hidrofóbica e outra hidrofílica. O principal tensoativo aniônico sintético surgiu na década de 1940 e teve grande aceitação no mercado de detergentes em razão do melhor desempenho comparado ao do sabão. No entanto, o uso desse produto provocou grandes problemas ambientais, dentre eles a resistência à degradação biológica, por causa dos diversos carbonos terciários na cadeia que compõe a porção hidrofóbica desse tensoativo aniônico. As ramificações na cadeia dificultam sua degradação, levando à persistência no meio ambiente por longos períodos. Isso levou a sua substituição na maioria dos países por tensoativos biodegradáveis, ou seja, com cadeias alquílicas lineares.PENTEADO, J. C. P.; EL SEOUD, O. A.; CARVALHO, L. R. F. [...]: uma abordagem ambiental e analítica. Química Nova, n. 5, 2006 (adaptado).",
+    "alternativas": {
+      "A": "Estrutura química de um polímero com uma cadeia de 15 grupos CH2, seguida por 20 repetições de um grupo OCH2CH2, terminando em um grupo OH.",
+      "B": "Estrutura química de um benzenossulfonato de sódio, onde um anel benzênico está ligado a um grupo SO3- Na+ e a uma cadeia alquílica altamente ramificada, com múltiplos carbonos terciários.",
+      "C": "Estrutura química de um benzenossulfonato de sódio, onde um anel benzênico está ligado a um grupo SO3- Na+ e a uma cadeia alquílica ramificada, com um ponto de ramificação principal.",
+      "D": "Estrutura química de um sal de amônio quaternário, com uma longa cadeia alquílica linear ligada a um grupo N+(CH3)3 e um contra-íon Cl-.",
+      "E": "Estrutura química de um sal de piridínio, com uma longa cadeia alquílica ramificada ligada a um anel piridínico (N+ em um anel aromático de 6 membros) e um contra-íon Cl-."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "As alternativas apresentam cinco fórmulas estruturais de tensoativos. A alternativa A mostra um polímero com uma longa cadeia de hidrocarbonetos e grupos éter-álcool. A alternativa B mostra um benzenossulfonato de sódio com uma cadeia alquílica ramificada, contendo múltiplos carbonos terciários. A alternativa C mostra um benzenossulfonato de sódio com uma cadeia alquílica ramificada, contendo um carbono terciário. A alternativa D mostra um sal de amônio quaternário com uma longa cadeia alquílica linear. A alternativa E mostra um sal de piridínio com uma longa cadeia alquílica ramificada."
+    }
+  },
+  {
+    "posicao": 125,
+    "enunciado": "Essa remediação promove no solo o(a)",
+    "texto_base": "O manejo adequado do solo possibilita a manutenção de sua fertilidade à medida que as trocas de nutrientes entre matéria orgânica, água, solo e o ar são mantidas para garantir a produção. Algumas espécies iônicas de alumínio são tóxicas, mas só para as plantas mais para muitos organismos como as bactérias, responsáveis pelas transformações no ciclo do nitrogênio. O alumínio danifica as membranas das células das raízes e restringe a expansão de suas paredes. Com isso, a planta não cresce adequadamente. Para promover benefícios para a produção agrícola, é recomendada a remediação do solo utilizando calcário (CaCO₃).BRADY, N. C.; WEIL, R. R. Elementos da natureza e propriedades dos solos.Porto Alegre: Bookman, 2013 (adaptado).",
+    "alternativas": {
+      "A": "diminuição do pH, deixando-o fértil.",
+      "B": "solubilização do alumínio, ocorrendo sua lixiviação pela chuva.",
+      "C": "interação do íon cálcio com o íon alumínio, produzindo uma liga metálica.",
+      "D": "reação do carbonato de cálcio com os íons alumínio, formando alumínio metálico.",
+      "E": "aumento da sua alcalinidade, tornando os íons alumínio menos disponíveis."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 126,
+    "enunciado": "Duas consequências provocadas por essa troca de aro são:",
+    "texto_base": "Visando a melhoria estética de um veículo, o vendedor de uma loja sugere ao consumidor que ele troque as rodas de seu automóvel de aro 15 polegadas para aro 17 polegadas, o que corresponde a um diâmetro maior do conjunto roda e pneu.",
+    "alternativas": {
+      "A": "Elevar a posição do centro de massa do veículo tornando-o mais instável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.",
+      "B": "Abaixar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.",
+      "C": "Elevar a posição do centro de massa do veículo tornando-o mais estável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.",
+      "D": "Abaixar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.",
+      "E": "Elevar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 127,
+    "enunciado": "Nesse ciclo, a formação de combustíveis está vinculada à conversão de energia",
+    "texto_base": "As células e os organismos precisam realizar trabalho para permanecerem vivos e se reproduzirem. A energia metabólica necessária para a realização desse trabalho é oriunda da oxidação de combustíveis, gerados no ciclo do carbono, por meio de processos capazes de interconverter diferentes formas da energia.",
+    "alternativas": {
+      "A": "térmica em cinética.",
+      "B": "química em térmica.",
+      "C": "eletroquímica em calor.",
+      "D": "cinética em eletromagnética.",
+      "E": "eletromagnética em química."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Diagrama de fluxo mostrando dois processos. Processo 1 leva a Combustíveis reduzidos e O₂. Combustíveis reduzidos e O₂ levam a CO₂ e H₂O. CO₂ e H₂O levam ao Processo 2. O diagrama ilustra um ciclo de energia. O Processo 1 e o Processo 2 são caixas retangulares. Combustíveis reduzidos e O₂ e CO₂ e H₂O são caixas ovais. Setas indicam o fluxo entre eles."
+    }
+  },
+  {
+    "posicao": 128,
+    "enunciado": "O que ocorre nesse processo?",
+    "texto_base": "O petróleo é uma fonte de energia de baixo custo e de larga utilização como matéria-prima para uma grande variedade de produtos. É um óleo formado de várias substâncias de origem orgânica, em sua maioria hidrocarbonetos de diferentes massas molares. São utilizadas técnicas de separação para obtenção dos componentes comercializáveis do petróleo. Além disso, para aumentar a quantidade de frações comercializáveis, otimizando a produção do craqueamento, utiliza-se o processo de craqueamento.",
+    "alternativas": {
+      "A": "Transformação das frações do petróleo em outras moléculas menores.",
+      "B": "Reação de óxido-redução com transferência de elétrons entre as moléculas.",
+      "C": "Solubilização das frações do petróleo com a utilização de diferentes solventes.",
+      "D": "Decantação das moléculas com diferentes massas molares pelo uso de centrífugas.",
+      "E": "Separação dos diferentes componentes do petróleo em função de suas temperaturas de ebulição."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 129,
+    "enunciado": "O fenômeno do movimento molecular, promovido pela incidência de luz, decorre do(a):",
+    "texto_base": "Pesquisas demonstram que nanodispositivos baseados em movimentos de dimensões atômicas, induzidos por luz, poderão ter aplicações em tecnologias futuras, substituindo micromotores, sem a necessidade de componentes mecânicos. Exemplo de movimento molecular induzido pela luz pode ser observado pela flexão de uma lâmina delgada de silício, ligada a um polímero de azobenzeno e a um material suporte, em dois comprimentos de onda, conforme ilustrado na figura. Com a aplicação de luz ocorrem reações reversíveis da cadeia do polímero, que promovem o movimento observado.",
+    "alternativas": {
+      "A": "movimento vibracional dos átomos, que leva ao encurtamento e à reexpansão das ligações.",
+      "B": "isomerização das ligações N=N, sendo a forma cis do polímero mais compacta que a trans.",
+      "C": "tautomerização das unidades monoméricas do polímero, que leva a um composto mais compacto.",
+      "D": "ressonância entre os elétrons π do grupo azo e os do anel aromático que encurta as ligações duplas.",
+      "E": "variação conformacional das ligações N=N, que resulta em estruturas com diferentes áreas de superfície."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas ilustrações de um sistema molecular. À esquerda, uma estrutura com uma lâmina de silício na parte superior, ligada a um polímero de azobenzeno que se estende para baixo. A luz incide com 365 nm, e o polímero está em uma conformação estendida. À direita, a mesma estrutura, mas com luz de 420 nm, o polímero está em uma conformação contraída, puxando a lâmina de silício para baixo. As moléculas do polímero são representadas como cadeias de esferas. No canto superior direito, uma legenda indica os átomos: Hidrogênio (círculo branco), Carbono (círculo cinza), Nitrogênio (círculo preto)."
+    }
+  },
+  {
+    "posicao": 130,
+    "enunciado": "O volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
+    "texto_base": "Carro flex é uma realidade no Brasil. Estes veículos estão equipados com motor que tem a capacidade de funcionar com mais de um tipo de combustível. No entanto, as pessoas que têm esse tipo de veículo, na hora do abastecimento, têm sempre a dúvida: álcool ou gasolina? Para avaliar o consumo desses combustíveis, realizou-se um percurso com um veículo flex, consumindo 40 litros de gasolina no percurso de volta utilizou-se etanol. Foi considerado o mesmo consumo de energia tanto no percurso de ida quanto no de volta.O quadro resume alguns dados aproximados sobre esses combustíveis.",
+    "alternativas": {
+      "A": "27.",
+      "B": "32.",
+      "C": "37.",
+      "D": "60.",
+      "E": "67."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela com três colunas: Combustível, Densidade (g mL⁻¹) e Calor de combustão (kcal g⁻¹). Para Gasolina: Densidade 0,8, Calor de combustão -6. Para Etanol: Densidade 0,7, Calor de combustão -10."
+    }
+  },
+  {
+    "posicao": 131,
+    "enunciado": "Essas ácidos atuam no processo de modo a",
+    "texto_base": "Para serem absorvidos pelas células do intestino humano, os lipídios ingeridos precisam ser primeiramente emulsificados. Nessa etapa da digestão, torna-se necessária a ação dos ácidos biliares, visto que os lipídios apresentam uma natureza apolar e são insolúveis em água.",
+    "alternativas": {
+      "A": "hidrolisar os lipídios.",
+      "B": "agir como detergentes.",
+      "C": "tornar os lipídios anfífilos.",
+      "D": "promover a secreção de lipases.",
+      "E": "estimular o trânsito intestinal dos lipídios."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 132,
+    "enunciado": "A etiqueta funciona sem pilhas porque o campo",
+    "texto_base": "A tecnologia de comunicação da etiqueta RFID (chamada de etiqueta inteligente) é usada há anos para rastrear gado, valores de bem, bagagem, trens e carros nas pedágios. Um modelo mais barato dessas etiquetas pode funcionar sem baterias e é constituído por três componentes: um microprocessador de silício, uma fina bobina metálica, feita de cobre ou de alumínio, que é enrolada em um padrão circular, e um encapsulamento que é um material de vidro ou polímero envolvendo o microprocessador e a bobina. Na presença de um campo de radiofrequência gerado pelo leitor, a etiqueta transmite dados à distância. Os leitores determinam pelo tamanho da bobina e pela potência da onda de rádio o raio de leitura.Disponível em: http://noticias.uol.com.br. Acesso em: 27 fev. 2012 (adaptado).",
+    "alternativas": {
+      "A": "elétrico da onda de rádio agita elétrons da bobina.",
+      "B": "elétrico da onda de rádio cria um ímã na bobina.",
+      "C": "magnético da onda de rádio induz corrente na bobina.",
+      "D": "magnético da onda de rádio aquece os fios da bobina.",
+      "E": "magnético da onda de rádio diminui a ressonância no interior da bobina."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 133,
+    "enunciado": "Nessa estratégia, a recuperação da biodiversidade é efetiva porque",
+    "texto_base": "Corredores ecológicos visam mitigar os efeitos da fragmentação dos ecossistemas promovendo a ligação entre diferentes áreas, com o objetivo de proporcionar o deslocamento de animais, a dispersão de sementes e o aumento da cobertura vegetal. São instituídos com base em informações como estudos sobre o deslocamento de espécies, sua área de vida (área necessária para o suprimento de suas necessidades vitais e reprodutivas) e a distribuição de suas populações.Disponível em: http://www.icmbio.gov.br. Acesso em: 30 nov. 2017 (adaptado).",
+    "alternativas": {
+      "A": "propicia o fluxo gênico.",
+      "B": "intensifica o manejo de espécies.",
+      "C": "amplia o processo de ocupação humana.",
+      "D": "aumenta o número de indivíduos nas populações.",
+      "E": "favorece a formação de ilhas de proteção integral."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 134,
+    "enunciado": "Considerando a identificação apresentada no caminhão, o código 1005 corresponde à substância:",
+    "texto_base": "A rodoviarização de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inscritas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados.A sinalização mostrada identifica uma substância que está sendo transportada em um caminhão.",
+    "alternativas": {
+      "A": "eteno (C₂H₄).",
+      "B": "nitrogênio (N₂).",
+      "C": "amônia (NH₃).",
+      "D": "propano (C₃H₈).",
+      "E": "dióxido de carbono (CO₂)."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Imagem de um painel de segurança retangular com fundo laranja e borda preta. Na parte superior, o número 268. Na parte inferior, o número 1005. Ao lado, um losango com fundo branco e borda preta, contendo um símbolo de chama preta e o número 2 na parte inferior. Abaixo do losango, o número 1005."
+    }
+  },
+  {
+    "posicao": 135,
+    "enunciado": "A ausência dessa proteína poderá favorecer a",
+    "texto_base": "No ciclo celular atuam moléculas reguladoras. Dentre elas, a proteína p53 é ativada em resposta a mutações no DNA, evitando a propagação de erros até que os danos sejam reparados, ou induzindo a célula à autodestruição.ALBERTS, B. et al. Biologia molecular da célula.Porto Alegre: Artmed, 2011 (adaptado).",
+    "alternativas": {
+      "A": "redução da síntese de DNA, acelerando o ciclo celular.",
+      "B": "saída imediata do ciclo celular, antecipando a produção do DNA.",
+      "C": "ativação de outras proteínas reguladoras, induzindo a apoptose.",
+      "D": "manutenção da estabilidade genética, favorecendo a longevidade.",
+      "E": "proliferação celular exagerada, resultando na formação de um tumor."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 136,
+    "enunciado": "Considere o valor de r com aproximação de, pelo menos, uma casa decimal.Para realizar o percurso mais curto possível ao longo da malha, do ponto B até o ponto A, um objeto deve percorrer uma distância igual a",
+    "texto_base": "Sobre um sistema cartesiano considera-se uma malha formada por circunferências de raios com medidas dadas por números naturais e por 12 semirretas, com extremidade na origem, separadas por ângulos de π/6 rad, conforme a figura.Suponha que os objetos se desloquem apenas pelas semirretas e pelas circunferências dessa malha, não podendo passar pela origem (0; 0).",
+    "alternativas": {
+      "A": "2π/3 + 8",
+      "B": "2π/3 + 6",
+      "C": "2π/3 + 4",
+      "D": "2π/3 + 2",
+      "E": "2π/3 + 2"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico polar com origem no centro. Eixos x e y estão presentes. Há 12 semirretas partindo da origem, espaçadas por 30 graus (π/6 rad). Há circunferências concêntricas com raios inteiros de 1 a 6. O ponto A está localizado na semirreta do ângulo 2π/3 (120 graus) e raio 6. O ponto B está localizado na semirreta do ângulo 5π/3 (300 graus) e raio 2. Os eixos estão rotulados de -6 a 6."
+    }
+  },
+  {
+    "posicao": 137,
+    "enunciado": "Qual desses modelos o artesão deve adquirir para conseguir armazenar o maior número de potes por caixa?",
+    "texto_base": "Um artesão possui potes cilíndricos de tinta cujas medidas externas são 8 cm de diâmetro e 6 cm de altura. Ele pretende adquirir caixas organizadoras para armazenar seus potes de tinta, empilhados verticalmente com tampas voltadas para cima, de forma que as caixas possam ser fechadas.No mercado, existem cinco opções de caixas organizadoras, com tampa, em formato de paralelepípedo reto retângulo, vendidas pelo mesmo preço, possuindo as seguintes dimensões internas:",
+    "alternativas": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela com quatro colunas: Modelo, Comprimento (cm), Largura (cm), Altura (cm). Linha I: Comprimento 8, Largura 8, Altura 40. Linha II: Comprimento 8, Largura 20, Altura 14. Linha III: Comprimento 18, Largura 5, Altura 35. Linha IV: Comprimento 20, Largura 12, Altura 12. Linha V: Comprimento 24, Largura 8, Altura 14."
+    }
+  },
+  {
+    "posicao": 138,
+    "enunciado": "Se a prefeitura pode pagar, no máximo, R$ 8 000,00 por poste colocado, o maior valor que poderá gastar com a colocação desses postes é",
+    "texto_base": "A prefeitura de um pequeno município do interior decide colocar postes para iluminação ao longo de uma estrada retilínea, que inicia em uma praça central e termina numa fazenda na zona rural. Como a praça já possui iluminação, o primeiro poste será colocado a 80 metros da praça, o segundo, a 100 metros, o terceiro, a 120 metros, e assim sucessivamente, mantendo-se sempre uma distância de vinte metros entre os postes, até que o último poste seja colocado a uma distância de 1 380 metros da praça.",
+    "alternativas": {
+      "A": "R$ 512 000,00.",
+      "B": "R$ 520 000,00.",
+      "C": "R$ 528 000,00.",
+      "D": "R$ 552 000,00.",
+      "E": "R$ 584 000,00."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 139,
+    "enunciado": "Com base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
+    "texto_base": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos. Um economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe desses valores em uma matriz A = [aij], em que 1 ≤ i ≤ 5, 1 ≤ j ≤ 5, e o elemento aij corresponde ao total proveniente das operações feitas via TED, em milhão de real, transferidos do banco i para o banco j durante o mês. Observe que os elementos aii = 0, uma vez que TED é uma transferência entre bancos distintos. Esta é a matriz obtida para essa análise:0 2 2 2 00 2 1 0A = 1 2 0 1 10 2 2 0 03 0 1 1 0",
+    "alternativas": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 140,
+    "enunciado": "Aumentando o número de parcelas pagas mensalmente, o valor do desconto superior a 25% do valor da parcela.",
+    "texto_base": "Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, concede-se à uma redução de juros de acordo com o período de antecipação. Nesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ocorrer em uma data futura. Um valor presente P, submetido a juros compostos com taxa i por um período de tempo n, produz um valor futuro V determinado pela fórmulaV = P (1 + i)nUm contrato de empréstimo com sessenta parcelas fixas mensais, de R$ 820,00, a uma taxa de juros de 1,32% ao mês. Junto com a trigésima parcela foi paga antecipadamente uma outra parcela, desde que o desconto seja superior a 25% do valor da parcela.Utilize 0,2877 como aproximação para ln (4/3) e 0,0131 como aproximação para ln (1,0132).",
+    "alternativas": {
+      "A": "56ª",
+      "B": "55ª",
+      "C": "52ª",
+      "D": "51ª",
+      "E": "48ª"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 141,
+    "enunciado": "Passando pelo ponto A, qual equação forneceria a maior pontuação?",
+    "texto_base": "Um jogo pedagógico utiliza-se de uma interface algébrico-geométrica do seguinte modo: os alunos devem eliminar os pontos do plano cartesiano dando \"tiros\", seguindo trajetórias que devem passar pelos pontos escolhidos. Para dar os tiros, o aluno deve descrever em uma janela do programa a equação cartesiana de uma reta ou de uma circunferência que passa pelos pontos e pela origem do sistema de coordenadas. Se o tiro for dado por meio da equação da circunferência, cada ponto diferente da origem que for atingido vale 2 pontos. Se o tiro for dado por meio da equação de uma reta, cada ponto diferente da origem que for atingido vale 1 ponto. Em uma situação de jogo, ainda restam os seguintes pontos para serem eliminados: A(0 , 4), B(4 , 4), C(4 , 0), D(2 , 2) e E(0 , 2).",
+    "alternativas": {
+      "A": "x = 0",
+      "B": "y = 4",
+      "C": "x² + y² = 16",
+      "D": "x² + (y - 2)² = 4",
+      "E": "(x - 2)² + (y - 2)² = 8"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico cartesiano com eixos x e y, numerados de 0 a 6 no eixo x e de 0 a 5 no eixo y. Cinco pontos são marcados e rotulados: A(0,4), B(4,4), C(4,0), D(2,2) e E(0,2). Uma grade de linhas pontilhadas horizontais e verticais preenche o plano."
+    }
+  },
+  {
+    "posicao": 142,
+    "enunciado": "Qual é a porcentagem do total de pessoas desses grupos de risco já vacinadas?",
+    "texto_base": "Devido ao não cumprimento das metas definidas para a campanha de vacinação contra a gripe comum e o vírus H1N1 em um ano, o Ministério da Saúde anunciou a prorrogação da campanha por mais uma semana. A tabela apresenta as quantidades de pessoas vacinadas dentre os cinco grupos de risco até a data de início da prorrogação da campanha.",
+    "alternativas": {
+      "A": "12",
+      "B": "18",
+      "C": "30",
+      "D": "40",
+      "E": "50"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada \"Balanço parcial nacional da vacinação contra a gripe\". A tabela tem três colunas: \"Grupo de risco\", \"População (milhão)\", e \"População já vacinada (milhão) (%)\". As linhas da tabela são: Crianças (4,5 milhão, 0,9 milhão, 20%), Profissionais de saúde (2,0 milhão, 1,0 milhão, 50%), Gestantes (2,5 milhão, 1,5 milhão, 60%), Indígenas (0,5 milhão, 0,4 milhão, 80%), Idosos (20,5 milhão, 8,2 milhão, 40%). Abaixo da tabela, a fonte é \"Disponível em: http://portalms.saude.gov.br. Acesso em: 16 ago. 2012.\""
+    }
+  },
+  {
+    "posicao": 143,
+    "enunciado": "Quantos alunos compraram somente um bilhete?",
+    "texto_base": "Durante uma festa de colégio, um grupo de alunos organizou uma rifa. Oitenta alunos faltaram à festa e não participaram da rifa. Entre os que compareceram, alguns compraram três bilhetes, 20 compraram 2 bilhetes, e muitos compraram apenas um. O total de alunos que comprou um único bilhete era 20% do número total de bilhetes vendidos, e o total de bilhetes vendidos excedeu em 33 o número total de alunos do colégio.",
+    "alternativas": {
+      "A": "34",
+      "B": "42",
+      "C": "47",
+      "D": "48",
+      "E": "79"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 144,
+    "enunciado": "O valor da medida da altura do cilindro, em centímetro, é",
+    "texto_base": "Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em sentido uma diagonal que forma 30° com a borda inferior. O raio da base do cilindro mede 6/π cm, e ao enrolar a faixa obtém-se uma linha em formato de hélice, como na figura.",
+    "alternativas": {
+      "A": "36√3",
+      "B": "24√3",
+      "C": "4√3",
+      "D": "36",
+      "E": "72"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem mostra um cilindro circular reto com uma faixa retangular enrolada em sua superfície. A faixa tem uma diagonal desenhada que forma um ângulo de 30° com a borda inferior do cilindro. A altura do cilindro é representada por 'h' e o raio da base por 'r'."
+    }
+  },
+  {
+    "posicao": 145,
+    "enunciado": "O quebra-cabeça, quando montado, resultará em um quadrado cuja medida do lado, em centímetro, é",
+    "texto_base": "Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura.Uma artesã confecciona um quebra-cabeça como o descrito, de tal modo que a menor das peças é um triângulo retângulo isósceles cujos catetos medem 2 cm.",
+    "alternativas": {
+      "A": "14",
+      "B": "12",
+      "C": "7√2",
+      "D": "6 + 4√2",
+      "E": "6 + 2√2"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem mostra um quadrado dividido em triângulos retângulos isósceles, formando um padrão geométrico. O quadrado é composto por várias peças, incluindo um triângulo menor no canto inferior esquerdo."
+    }
+  },
+  {
+    "posicao": 146,
+    "enunciado": "Com o objetivo de obter a maior probabilidade possível de ganhar o prêmio, a pessoa deve escolher a opção",
+    "texto_base": "Para ganhar um prêmio, uma pessoa deverá retirar, sucessivamente e sem reposição, duas bolas pretas de uma mesma urna.Inicialmente, as quantidades e cores das bolas são como descritas a seguir:• Urna A – Possui três bolas brancas, duas bolas pretas e uma bola verde;• Urna B – Possui seis bolas brancas, três bolas pretas e uma bola verde;• Urna C – Possui duas bolas pretas e duas bolas verdes;• Urna D – Possui três bolas brancas e três bolas pretas;A pessoa deve escolher uma entre as cinco opções apresentadas:• Opção 1 – Retirar, aleatoriamente, duas bolas da urna A;• Opção 2 – Retirar, aleatoriamente, duas bolas da urna B;• Opção 3 – Passar, aleatoriamente, uma bola da urna C para a urna A; após isso, retirar, aleatoriamente, duas bolas da urna A;• Opção 4 – Passar, aleatoriamente, uma bola da urna D para a urna C; após isso, retirar, aleatoriamente, duas bolas da urna C;• Opção 5 – Passar, aleatoriamente, uma bola da urna C para a urna D; após isso, retirar, aleatoriamente, duas bolas da urna D.",
+    "alternativas": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 147,
+    "enunciado": "Esse conjunto é dado pelos pares ordenados (x ; y) ∈ N × N, tais que",
+    "texto_base": "A Ecofont possui design baseado na velha fonte Vera Sans. Porém, ela tem um diferencial: pequenos buraquinhos circulares e quarentes, e no todo ou corpo, presentes em cada símbolo. Assim, furos proporcionam um gasto de tinta menor na hora da impressão.Para construir tal imagem utilizando uma ferramenta gráfica, será necessário escrever algebricamente o conjunto que representa os pontos desse gráfico.",
+    "alternativas": {
+      "A": "0 ≤ x ≤ 10",
+      "B": "0 ≤ y ≤ 10",
+      "C": "0 ≤ x ≤ 10, 0 ≤ y ≤ 10",
+      "D": "0 ≤ x < 10",
+      "E": "0 ≤ x + y < 20"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas imagens. A primeira é o logotipo \"ecofont\" e \"ecofont\" em letras minúsculas, mostrando o design da fonte com pequenos círculos vazados dentro das letras. A segunda imagem é um gráfico cartesiano com eixos x e y, numerados de -15 a 15. No primeiro quadrante, há uma representação de pontos que formam a letra 'E' e a letra 'N' (ou 'M'?) com furos, similar ao estilo da ecofont. Os pontos são discretos, formando um padrão de pixels."
+    }
+  },
+  {
+    "posicao": 148,
+    "enunciado": "Suponha que a palavra ECO esteja escrita nessa fonte, com tamanho 192, e que seja composta por letras formadas por quadrados de lados x com furos circulares de raio r = x/2. Para que a área a ser pintada seja reduzida a 1/16 da área inicial, pretende-se reduzir o tamanho da fonte. Sabe-se que, ao alterar o tamanho da fonte, o tamanho da letra é alterado na mesma proporção.Nessas condições, o tamanho adequado da fonte será",
+    "texto_base": "",
+    "alternativas": {
+      "A": "64.",
+      "B": "48.",
+      "C": "24.",
+      "D": "21.",
+      "E": "12."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 149,
+    "enunciado": "Em que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?",
+    "texto_base": "O avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.Uma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado. Em 1986, uma empresa fabricava um processador contendo 100 000 transistores distribuídos em 0,25 cm² de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore).Disponível em: www.pocket-lint.com. Acesso em: 1 dez. 2017 (adaptado).Considere 0,30 como aproximação para log2 2.",
+    "alternativas": {
+      "A": "1999",
+      "B": "2002",
+      "C": "2022",
+      "D": "2026",
+      "E": "2146"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 150,
+    "enunciado": "Nessas condições, qual é a quantidade N de parcelas a serem pagas de acordo com a proposta inicial da loja?",
+    "texto_base": "Uma loja vende automóveis em N parcelas iguais sem juros. No momento de contratar o financiamento, caso o cliente queira aumentar o prazo, acrescentando mais 5 parcelas, o valor de cada uma das parcelas diminui R$ 200,00, ou se ele quiser diminuir o prazo, com 5 parcelas a menos, o valor de cada uma das parcelas sobe R$ 232,00. Considere ainda que, nas três possibilidades de pagamento, o valor do automóvel é o mesmo, todas são sem juros e não é dado desconto em nenhuma das situações.",
+    "alternativas": {
+      "A": "20",
+      "B": "24",
+      "C": "29",
+      "D": "40",
+      "E": "58"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 151,
+    "enunciado": "O atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar.Considerando essas condições, o salto que o atleta deverá escolher é o de tipo",
+    "texto_base": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (grau de dificuldade de cada salto). Fica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.O atleta irá irá realizar o último salto da final. Ele obteve no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.Ele precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.",
+    "alternativas": {
+      "A": "T1.",
+      "B": "T2.",
+      "C": "T3.",
+      "D": "T4.",
+      "E": "T5."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas tabelas. A primeira tabela, \"Quadro 1\", tem colunas \"Classificação\", \"Atleta\", \"6º Salto\", \"Total\". As linhas são: 1ª (Atleta: 3, 6º Salto: 135,0, Total: 829,0), 2ª (Atleta: 4, 6º Salto: 140,0, Total: 825,2), 3ª (Atleta: 8, 6º Salto: 140,4, Total: 824,2), 6ª (Atleta: 10, 6º Salto: -, Total: 687,5). A segunda tabela, \"Quadro 2\", tem colunas \"Tipo de salto\", \"Nota de partida\", \"Estimativa da soma das notas dos juízes\", \"Probabilidade de obter a nota\". As linhas são: T1 (2,2, 57, 89,76%), T2 (2,4, 58, 93,74%), T3 (2,6, 55, 91,88%), T4 (2,8, 50, 95,38%), T5 (3,0, 53, 87,34%)."
+    }
+  },
+  {
+    "posicao": 152,
+    "enunciado": "Os cubinhos que ainda faltam empilhar para finalizar a construção do cubo, juntos, formam uma peça única, capaz de completar a tarefa.O formato da peça capaz de completar o cubo 4 × 4 × 4 é",
+    "texto_base": "Minecraft é um jogo virtual que pode auxiliar no desenvolvimento de conhecimentos relacionados a espaço e forma. É possível criar casas, edifícios, monumentos e até naves espaciais, tudo em escala real, através do empilhamento de cubinhos.Um jogador deseja construir um cubo com dimensões 4 × 4 × 4. Ele já empilhou alguns dos cubinhos necessários, conforme a figura.",
+    "alternativas": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta uma sequência de três diagramas que mostram a construção de um cubo 4x4x4. O primeiro diagrama mostra uma base 4x4 de cubos. O segundo diagrama mostra a adição de uma segunda camada parcial de cubos sobre a base, formando uma estrutura em 'L' na parte superior. O terceiro diagrama mostra a estrutura parcial já construída (duas camadas parciais) e uma seta apontando para um cubo 4x4x4 completo, indicando que a estrutura parcial é parte desse cubo maior. Abaixo, há cinco alternativas (A, B, C, D, E), cada uma mostrando uma forma tridimensional diferente composta por cubinhos. A alternativa A mostra uma forma em 'L' com 12 cubos. A alternativa B mostra uma forma em 'L' com 12 cubos, mas com uma orientação diferente. A alternativa C mostra uma forma em 'L' com 12 cubos, com outra orientação. A alternativa D mostra uma forma em 'L' com 12 cubos, com outra orientação. A alternativa E mostra uma forma em 'L' com 12 cubos, com outra orientação. Todas as alternativas mostram peças que, se encaixadas na estrutura parcial, completariam o cubo 4x4x4."
+    }
+  },
+  {
+    "posicao": 153,
+    "enunciado": "Dispondo apenas dessa medida, o engenheiro calculou corretamente a medida da área do passeio, em metro quadrado.A medida encontrada pelo engenheiro foi",
+    "texto_base": "A figura mostra uma praça circular que contém um chafariz em seu centro e, em seu entorno, um passeio. Os círculos que definem a praça e o chafariz são concêntricos.O passeio terá seu piso revestido com ladrilhos. Sem condições de calcular os raios, pois o chafariz está cheio, um engenheiro fez a seguinte medição: esticou uma trena tangente ao chafariz, medindo a distância entre dois pontos A e B, conforme a figura. Com isso, obteve a medida do segmento de reta AB: 16 m.",
+    "alternativas": {
+      "A": "4π",
+      "B": "8π",
+      "C": "48π",
+      "D": "64π",
+      "E": "192π"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta duas figuras. A primeira figura é um diagrama esquemático de uma praça circular. No centro, há um círculo menor rotulado 'Chafariz'. Ao redor do chafariz, há um anel rotulado 'Passeio'. O círculo maior externo é rotulado 'Praça'. Todos os círculos são concêntricos. A segunda figura é um diagrama mais detalhado da praça. Mostra dois círculos concêntricos. O círculo interno representa o chafariz. Uma linha reta, tangente ao círculo interno, é desenhada e rotulada como segmento AB. A distância entre os pontos A e B na tangente é indicada como 16 m."
+    }
+  },
+  {
+    "posicao": 154,
+    "enunciado": "O tabuleiro deve ser dimensionado de forma que a probabilidade de se posicionar a segunda peça aleatoriamente, seguindo a regra do jogo, e esta ficar sobre a zona de combate da primeira, seja inferior a 1/5.A dimensão mínima que o designer deve adotar para esse tabuleiro é",
+    "texto_base": "Um designer de jogos planeja um jogo que faz uso de um tabuleiro de dimensão n × n, com n ≥ 2. Em cada jogador, na sua vez, coloca uma peça sobre uma das casas vazias do tabuleiro. Quando uma peça é posicionada, a região formada pelas casas que estão na mesma linha ou coluna dessa peça é chamada de zona de combate dessa peça. Na figura está ilustrada a zona de combate de uma peça colocada em uma das casas de um tabuleiro de dimensão 8 × 8.",
+    "alternativas": {
+      "A": "4 × 4.",
+      "B": "6 × 6.",
+      "C": "8 × 8.",
+      "D": "10 × 10.",
+      "E": "11 × 11."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta uma imagem de um tabuleiro quadriculado 8x8. Uma das casas do tabuleiro, localizada aproximadamente no centro, contém um ponto preto, representando uma peça posicionada. A 'zona de combate' dessa peça é destacada em cinza escuro. Essa zona inclui todas as casas na mesma linha e na mesma coluna da peça, formando uma cruz que se estende por todo o tabuleiro."
+    }
+  },
+  {
+    "posicao": 155,
+    "enunciado": "Para atender às normas técnicas do município, o nível da garagem deverá ser",
+    "texto_base": "A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se x centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de x%, como no exemplo da figura:A figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento.Depois de projetada a rampa, o responsável pela obra foi informado de que as normas técnicas do município onde ela está localizada exigem que a inclinação máxima de uma rampa de acesso a uma garagem residencial seja de 20%.Se a rampa projetada tiver inclinação superior a 20%, o nível da garagem deverá ser alterado para diminuir o percentual de inclinação, mantendo o comprimento da base da rampa.",
+    "alternativas": {
+      "A": "elevado em 40 cm.",
+      "B": "elevado em 50 cm.",
+      "C": "mantido no mesmo nível.",
+      "D": "rebaixado em 40 cm.",
+      "E": "rebaixado em 50 cm."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta duas figuras. A primeira figura é um diagrama de um triângulo retângulo que ilustra o cálculo da inclinação. A base horizontal mede '1 m' e a altura vertical mede '20 cm'. A hipotenusa representa a rampa. A inclinação é indicada como 'Inclinação = 20%'. A segunda figura é um diagrama de um projeto de rampa de acesso a uma garagem. Mostra o 'Nível da rua' e, abaixo dele, o 'Nível da base da garagem'. A rampa conecta esses dois níveis. A altura vertical entre o nível da rua e o nível da base da garagem é de '2 m'. O comprimento horizontal da base da rampa é de '8 m'. A garagem é representada por uma casa simples com telhado."
+    }
+  },
+  {
+    "posicao": 156,
+    "enunciado": "De acordo com as informações dadas, o último andar do edifício é o",
+    "texto_base": "Um edifício tem a numeração dos andares iniciando no térreo (T), continuando com primeiro, segundo, terceiro, ..., até o último andar. Uma criança entrou no elevador e, tocando no painel, seguiu uma sequência de andares, parando, subindo e descendo, e porta em diversos andares. A partir de onde entrou a criança, o elevador subiu sete andares, em seguida desceu dez, desceu mais treze, subiu nove, desceu quatro e parou no quinto andar, finalizando a sequência. Considere que, no trajeto seguido pela criança, o elevador parou uma vez no último andar do edifício.",
+    "alternativas": {
+      "A": "16º",
+      "B": "20º",
+      "C": "23º",
+      "D": "25º",
+      "E": "32º"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 157,
+    "enunciado": "Uma empresa que fornece a quantidade de maneiras diferentes que os estandes podem ser compostos é",
+    "texto_base": "O Salão do Automóvel de São Paulo é um evento no qual vários fabricantes expõem seus modelos mais recentes de veículos, mostrando, principalmente, suas inovações em design e tecnologia.Um montador pretende participar desse evento com dois estandes, um na entrada e outro na região central do salão, expondo, em cada um deles, um carro compacto e uma caminhonete.Para compor os estandes, foram disponibilizados pela montadora quatro carros compactos, de modelos distintos, e seis caminhonetes de diferentes cores, para serem escolhidos aqueles que serão expostos. A posição dos carros dentro de cada estande é irrelevante.",
+    "alternativas": {
+      "A": "A⁴₂A⁶₂",
+      "B": "C⁴₂C⁶₂",
+      "C": "C⁴₂ + C⁶₂",
+      "D": "A⁴₂ × A⁶₂ × 2 × 2",
+      "E": "C⁴₂ × C⁶₂ × 2"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 158,
+    "enunciado": "O mínimo de pontos que esse estudante precisa obter na quarta avaliação para ser aprovado é",
+    "texto_base": "Os alunos da disciplina de estatística, em um curso universitário, realizam quatro avaliações por semestre, com os pesos de 20%, 10%, 30% e 40%, respectivamente. No final do semestre, precisam obter uma média nas quatro avaliações de, no mínimo, 60 pontos para serem aprovados. Um estudante dessa disciplina obteve os seguintes pontos nas três primeiras avaliações: 46, 60 e 50, respectivamente.",
+    "alternativas": {
+      "A": "29.8.",
+      "B": "71.0.",
+      "C": "74.5.",
+      "D": "75.5.",
+      "E": "84.0."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 159,
+    "enunciado": "Com essas informações, a quantidade de perguntas de nível fácil que o gerente deve acrescentar à urna é igual a",
+    "texto_base": "O gerente do setor de recursos humanos de uma empresa está organizando uma avaliação em que uma das etapas é um jogo de perguntas e respostas. Para essa etapa, ele classificou as perguntas pelo nível de dificuldade em fácil, médio e difícil, e escreveu cada pergunta em cartões para colocação em uma urna.Contudo, após depositar vinte perguntas de diferentes níveis na urna, ele observou que 25% delas eram de nível fácil. Sabendo que as perguntas de nível fácil sejam a maioria, o gerente decidiu acrescentar mais perguntas de nível fácil à urna, de modo que a probabilidade de o primeiro participante retirar, aleatoriamente, uma pergunta de nível fácil seja de 75%.",
+    "alternativas": {
+      "A": "10.",
+      "B": "15.",
+      "C": "35.",
+      "D": "40.",
+      "E": "45."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": null
+    }
+  },
+  {
+    "posicao": 160,
+    "enunciado": "De acordo com a Lei Universal da Gravitação, proposta por Isaac Newton, a intensidade da força gravitacional F que a Terra exerce sobre um satélite em órbita circular é proporcional à massa m do satélite e inversamente proporcional ao quadrado do raio r da órbita, ou seja, F = kM/r². No plano cartesiano, três satélites, A, B e C, estão representados, cada um, por um ponto (m ; r) cujas coordenadas são, respectivamente, a massa do satélite e o raio da sua órbita em torno da Terra. Com base nas posições relativas dos pontos no gráfico, deseja-se comparar as intensidades FA, FB e FC da força gravitacional que a Terra exerce sobre os satélites A, B e C, respectivamente. As intensidades FA, FB e FC expressas no gráfico satisfazem a relação",
+    "texto_base": "",
+    "alternativas": {
+      "A": "FA < FB < FC",
+      "B": "FA < FC < FB",
+      "C": "FB < FA < FC",
+      "D": "FB < FC < FA",
+      "E": "FC < FA < FB"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Gráfico cartesiano com o eixo vertical rotulado 'Raio (r)' e o eixo horizontal rotulado 'Massa (m)'. Há três pontos marcados: Ponto A está em (aproximadamente 1.5 na massa, 2.5 no raio), Ponto B está em (aproximadamente 4.5 na massa, 1.5 no raio), e Ponto C está em (aproximadamente 2.5 na massa, 4.5 no raio). As coordenadas são aproximadas, mas a posição relativa é clara. O ponto A tem massa menor e raio maior que B, e C tem massa maior e raio maior que A e B."
+    }
+  },
+  {
+    "posicao": 161,
+    "enunciado": "Os tipos de prata normalmente vendidos são 975, 950 e 925. Essa classificação é feita de acordo com a sua pureza. Por exemplo, a prata 975 é a substância constituída de 975 partes de prata pura e 25 partes de cobre em 1 000 partes da substância. Já a prata 950 é constituída de 950 partes de prata pura e 50 de cobre em 1 000 e a prata 925 é constituída de 925 partes de prata pura e 75 partes de cobre em 1 000. Um ourives possui 10 gramas de prata 925 e deseja obter 40 gramas de prata 950 para produção de uma joia. Nessas condições, quantos gramas de prata e de cobre, respectivamente, devem ser fundidos com os 10 gramas de prata 925?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "29,25 e 0,75",
+      "B": "29,75 e 1,25",
+      "C": "28,50 e 1,50",
+      "D": "27,75 e 2,25",
+      "E": "25,00 e 5,00"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 162,
+    "enunciado": "Em um aeroporto, os passageiros devem submeter suas bagagens a uma das cinco máquinas de raios-X disponíveis no embarque. Cada máquina opera em um tempo distinto, o tempo gasto por essas máquinas para escanear a bagagem de cada passageiro e o número de passageiros presentes em cada fila estão apresentados em um painel, como mostrado na figura. Um passageiro, ao chegar à sala de embarque desse aeroporto no instante indicado, visando esperar o menor tempo possível, deverá se dirigir à máquina",
+    "texto_base": "",
+    "alternativas": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela intitulada 'Painel' com duas linhas e cinco colunas. A primeira linha, 'Tempo gasto para escanear a bagagem', mostra os valores: Máquina 1: 35 segundos; Máquina 2: 22 segundos; Máquina 3: 40 segundos; Máquina 4: 25 segundos; Máquina 5: 30 segundos. A segunda linha, 'Número de passageiros na fila', mostra os valores: Máquina 1: 20 passageiros; Máquina 2: 25 passageiros; Máquina 3: 15 passageiros; Máquina 4: 20 passageiros; Máquina 5: 10 passageiros."
+    }
+  },
+  {
+    "posicao": 163,
+    "enunciado": "A Comissão Interna de Prevenção de Acidentes (CIPA) de uma empresa, observando os altos custos com os frequentes acidentes de trabalho ocorridos, fez, a pedido da diretoria, um levantamento do número de acidentes sofridos por funcionários. Essa pesquisa, realizada com uma amostra de 200 funcionários, norteará as ações da empresa na política de segurança no trabalho. Os resultados obtidos estão no quadro. A média do número de acidentes por funcionário na amostra que a CIPA apresentará à diretoria da empresa é",
+    "texto_base": "",
+    "alternativas": {
+      "A": "0,15.",
+      "B": "0,30.",
+      "C": "0,50.",
+      "D": "1,11.",
+      "E": "2,22."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Tabela com duas colunas. A primeira coluna é 'Número de acidentes sofridos' e a segunda é 'Número de trabalhadores'. As linhas da tabela são: 0 acidentes para 50 trabalhadores; 1 acidente para 17 trabalhadores; 2 acidentes para 15 trabalhadores; 3 acidentes para 10 trabalhadores; 4 acidentes para 2 trabalhadores; 5 acidentes para 6 trabalhadores."
+    }
+  },
+  {
+    "posicao": 164,
+    "enunciado": "Os guindastes são fundamentais em canteiros de obras, no manejo de materiais pesados como vigas de aço. A figura ilustra uma sequência de estágios em que um guindaste içar uma viga de aço que se encontra inicialmente no solo. Na figura, o ponto O representa a projeção ortogonal do cabo de aço sobre o plano do chão e este se mantém na vertical durante todo o movimento de içamento da viga, que se inicia no tempo t = 0 (estágio 1) e finaliza no tempo t1 (estágio 3). Uma das extremidades da viga é içada verticalmente a partir do ponto O, enquanto que a outra extremidade desliza sobre o solo em direção ao ponto O. Considere que o cabo de aço utilizado pelo guindaste para içar a viga fique sempre na posição vertical. Na figura, o ponto M representa o ponto médio do segmento que representa a viga. O gráfico que descreve a distância do ponto M ao ponto O, em função do tempo, entre t = 0 e t1, é",
+    "texto_base": "",
+    "alternativas": {
+      "A": "Gráfico A",
+      "B": "Gráfico B",
+      "C": "Gráfico C",
+      "D": "Gráfico D",
+      "E": "Gráfico E"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta duas seções de imagens. A primeira seção mostra três estágios de um guindaste içando uma viga. No Estágio 1 (t=0), a viga está no chão, com uma extremidade no ponto O e a outra extremidade à direita. O cabo de aço está vertical sobre O. O ponto M (ponto médio da viga) está à direita de O. No Estágio 2, a viga está parcialmente içada, com a extremidade esquerda ainda em O, mas a viga inclinada para cima. A extremidade direita da viga se moveu para a esquerda, em direção a O. O ponto M está mais próximo de O e mais alto. No Estágio 3 (t=t1), a viga está totalmente içada e vertical, com a extremidade esquerda em O e a viga apontando para cima. O ponto M está diretamente acima de O. A segunda seção apresenta cinco gráficos (A, B, C, D, E) de 'Distância' (eixo vertical) versus 'Tempo' (eixo horizontal). Gráfico A: Uma curva que começa em um valor positivo, diminui até um mínimo e depois aumenta. Gráfico B: Uma linha reta que começa em um valor positivo e aumenta linearmente. Gráfico C: Uma linha reta que começa em um valor positivo e diminui linearmente. Gráfico D: Uma curva que começa em um valor positivo, diminui até um mínimo (zero) em t1/2 e depois aumenta. A curva é parabólica, simétrica em relação ao mínimo. Gráfico E: Uma curva que começa em um valor positivo, diminui até um mínimo (zero) em t1/2 e depois aumenta. A curva é parabólica, simétrica em relação ao mínimo."
+    }
+  },
+  {
+    "posicao": 165,
+    "enunciado": "A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais. Uma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido Oeste e o seu controlador efetua três mudanças consecutivas, a saber: 1ª mudança: 135º no sentido anti-horário; 2ª mudança: 60º no sentido horário; 3ª mudança: 45º no sentido anti-horário. Após a 3ª mudança, ele é orientado a reposicionar a câmera para a menor amplitude possível, no sentido Noroeste (NO) devido a um movimento suspeito de um cliente. Qual mudança de sentido o controlador deve efetuar para reposicionar a câmera?",
+    "texto_base": "",
+    "alternativas": {
+      "A": "75º no sentido horário.",
+      "B": "105º no sentido anti-horário.",
+      "C": "120º no sentido anti-horário.",
+      "D": "135º no sentido anti-horário.",
+      "E": "165º no sentido horário."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Imagem de uma rosa dos ventos, um círculo dividido em oito partes iguais, indicando os pontos cardeais (Norte, Leste, Sul, Oeste) e colaterais (Nordeste, Sudeste, Sudoeste, Noroeste). As letras N, NE, E, SE, S, SO, O, NO estão marcadas no círculo."
+    }
+  },
+  {
+    "posicao": 166,
+    "enunciado": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A esse ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes. Em uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking. A poesia vencedora foi a de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "Edu.",
+      "B": "Dani.",
+      "C": "Caio.",
+      "D": "Bia.",
+      "E": "Ana."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Duas tabelas. A primeira tabela, intitulada 'Rankings', tem cinco linhas para 'Colocação' (1º a 5º) e quatro colunas para diferentes tipos de ranking (I, II, III, IV). Os nomes dos alunos (Ana, Bia, Caio, Dani, Edu) são distribuídos nessas células, indicando suas posições em cada ranking. Por exemplo, no Ranking I, Ana é 1ª, Bia é 2ª, Caio é 3ª, Dani é 4ª, Edu é 5ª. A segunda tabela tem duas colunas, 'Ranking' e 'Frequência', mostrando quantas vezes cada tipo de ranking (I, II, III, IV) foi escolhido pelos juízes. Ranking I tem frequência 4; Ranking II tem frequência 9; Ranking III tem frequência 7; Ranking IV tem frequência 5."
+    }
+  },
+  {
+    "posicao": 167,
+    "enunciado": "De acordo com um relatório recente da Agência Internacional de Energia (AIE), o mercado de veículos elétricos atingiu um novo marco em 2016, quando foram vendidos mais de 750 mil automóveis da categoria. Com isso, o total de carros elétricos vendidos no mundo alcançou a marca de 2 milhões de unidades desde que os primeiros modelos começaram a ser comercializados em 2010. No Brasil, a expansão das vendas também se verifica. A marca A, por exemplo, expandiu suas vendas no ano de 2016, superando em 360 unidades as vendas de 2015, conforme representado no gráfico. A média anual do número de carros vendidos pela marca A, nos anos representados no gráfico, foi de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "192.",
+      "B": "240.",
+      "C": "252.",
+      "D": "360.",
+      "E": "420."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Pictograma com o título 'Ano' no eixo vertical e 'Nº de carros' no eixo horizontal. Para o ano 2014, são mostrados 3 desenhos de carros. Para o ano 2015, são mostrados 4 desenhos de carros. Para o ano 2016, são mostrados 7 desenhos de carros. Não há legenda explícita para o valor de cada desenho de carro. A fonte da imagem é 'Disponível em: www.tecmundo.com.br. Acesso em: 5 dez. 2017.'"
+    }
+  },
+  {
+    "posicao": 168,
+    "enunciado": "Para apagar os focos A e B de um incêndio, que estavam a uma distância de 30 m um do outro, os bombeiros de um quartel decidiram se posicionar de modo que a distância de um bombeiro ao foco A, de temperatura mais elevada, fosse sempre o dobro da distância desse bombeiro ao foco B, de temperatura menos elevada. Nessas condições, a maior distância, em metro, que dois bombeiros poderiam ter entre eles é",
+    "texto_base": "",
+    "alternativas": {
+      "A": "30.",
+      "B": "40.",
+      "C": "45.",
+      "D": "60.",
+      "E": "68."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 169,
+    "enunciado": "Torneios de tênis, em geral, são disputados em sistemas de eliminatória simples. Nesse sistema, são disputadas partidas entre dois competidores, com a eliminação do perdedor e promoção do vencedor para a fase seguinte. Dessa forma, se na 1ª fase o torneio conta com 2n competidores, então na 2ª fase restarão n competidores, e assim sucessivamente até a partida final. Em um torneio de tênis, disputado nesse sistema, participam 128 tenistas. Para se definir o campeão desse torneio, o número de partidas necessárias é dado por",
+    "texto_base": "",
+    "alternativas": {
+      "A": "128.",
+      "B": "64 + 32 + 16 + 8 + 4 + 2",
+      "C": "128 + 64 + 32 + 16 + 8 + 4 + 2 + 1",
+      "D": "128 + 64 + 32 + 16 + 8 + 4 + 2",
+      "E": "64 + 32 + 16 + 8 + 4 + 2 + 1"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 170,
+    "enunciado": "O artigo 33 da lei brasileira sobre drogas prevê a pena de reclusão de 5 a 15 anos para qualquer pessoa que seja condenada por tráfico ilícito ou produção não autorizada de drogas. Entretanto, caso o condenado seja réu primário, com bons antecedentes criminais, essa pena pode sofrer uma redução de um sexto a dois terços. Suponha que um réu primário, com bons antecedentes criminais, foi condenado pelo artigo 33 da lei brasileira sobre drogas. Após o benefício da redução de pena, sua pena poderá variar de",
+    "texto_base": "",
+    "alternativas": {
+      "A": "1 ano e 8 meses a 12 anos e 6 meses.",
+      "B": "1 ano e 8 meses a 5 anos.",
+      "C": "4 anos e 2 meses a 10 anos.",
+      "D": "4 anos e 2 meses a 5 anos.",
+      "E": "4 anos e 2 meses a 12 anos e 6 meses."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 171,
+    "enunciado": "Qual teria sido a cobertura dessa campanha no ano de 2017?",
+    "texto_base": "Arrábava uma doença viral e infecciosa, transmitida por mosquitos. A campanha nacional de vacinação antiarrábica tem o objetivo de controlar a circulação do vírus da raiva canina e felina, prevenindo a raiva humana. O gráfico mostra a cobertura (porcentagem de vacinados) da campanha com base nos anos de 2013, 2015 e 2017, no município de Belo Horizonte, em Minas Gerais. Os valores das coberturas dos anos de 2014 e 2016 não estão informados no gráfico e deseja-se estimá-los. Para tal, levou-se em consideração que a variação na cobertura da vacinação da campanha antiarrábica, nos períodos de 2013 a 2015 e de 2015 a 2017, deu-se de forma linear.67%59%37%201320152017Disponível em: http://portal.pbh.gov.br. Acesso em: 5 nov. 2017.",
+    "alternativas": {
+      "A": "62,3%",
+      "B": "63,0%",
+      "C": "63,5%",
+      "D": "64,0%",
+      "E": "65,5%"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um gráfico de linha mostra a porcentagem de cobertura de vacinação antiarrábica ao longo dos anos. O eixo horizontal representa os anos: 2013, 2015, 2017. O eixo vertical representa a porcentagem de cobertura. Os pontos plotados são: (2013, 67%), (2015, 59%), (2017, 37%). A linha conecta esses pontos."
+    }
+  },
+  {
+    "posicao": 172,
+    "enunciado": "Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15 m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Toda a desenho deverá ser feito em uma escala 1 : X.Os valores possíveis para X são, apenas,",
+    "texto_base": "",
+    "alternativas": {
+      "A": "X = 1 500.",
+      "B": "X < 3 000.",
+      "C": "1 500 < X < 2 250.",
+      "D": "1 500 < X < 3 000.",
+      "E": "2 250 < X < 3 000."
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 173,
+    "enunciado": "Após duas voltas completas, t em o seguinte gráfico:A expressão da função altura é dada por",
+    "texto_base": "Em 2014 foi inaugurada a maior roda-gigante do mundo, a High Roller, situada em Las Vegas. A figura representa um esboço dessa roda-gigante no qual o ponto A representa uma de suas cadeiras:SoloSoloDisponível em: http://pt.wikipedia.org. Acesso em: 22 abr. 2014 (adaptado).A partir da posição indicada, em que o segmento OA se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto O. Sejam r o ângulo determinado pelo segmento OA em relação à sua posição inicial, e f a função que descreve a altura do ponto A, em relação ao solo, em função de t.f (metro)168880π/2π2π4πt (radiano)",
+    "alternativas": {
+      "A": "f(t) = 80sen(t) + 88",
+      "B": "f(t) = 80cos(t) + 88",
+      "C": "f(t) = 88cos(t) + 168",
+      "D": "f(t) = 168sen(t) + 88cos(t)",
+      "E": "f(t) = 88sen(t) + 168cos(t)"
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "A questão apresenta duas imagens. A primeira é um diagrama de uma roda-gigante vista de lado, com um ponto central O e um segmento OA que representa o braço de uma cadeira. O segmento OA está horizontal, paralelo ao plano do solo. A roda tem divisões radiais. A segunda imagem é um gráfico cartesiano de uma função f(t) versus t (radiano). O eixo vertical é f (metro) e o eixo horizontal é t (radiano). O gráfico mostra uma curva senoidal que começa em f(0) = 88, diminui até um mínimo, depois aumenta até um máximo em f(2π) = 168, e continua diminuindo. Os pontos marcados no eixo horizontal são 0, π/2, π, 2π, 4π. Os pontos marcados no eixo vertical são 88 e 168."
+    }
+  },
+  {
+    "posicao": 174,
+    "enunciado": "O tipo de triângulo com vértices nos pontos A, B e C, no momento em que o remador está nessa posição, é",
+    "texto_base": "O remo de assento deslizante é um esporte que faz uso de um barco e dois remos do mesmo tamanho.A figura mostra uma das posições de uma técnica chamada afastamento.BCADisponível em: www.esporte.com. Acesso em: 5 jul. 2017 (adaptado).Nessa posição, os dois remos se encontram no ponto A e suas outras extremidades estão indicadas pelos pontos B e C. Essas três pontos formam um triângulo ABC cujo ângulo BÂC tem medida de 170°.",
+    "alternativas": {
+      "A": "acutângulo escaleno.",
+      "B": "acutângulo isósceles.",
+      "C": "obtusângulo escaleno.",
+      "D": "obtusângulo isósceles.",
+      "E": "obtusângulo isósceles."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma imagem mostra um barco a remo com um remador. O barco tem dois remos. As extremidades dos remos são marcadas como B e C. O ponto onde os remos se encontram é marcado como A. O remador está sentado no barco."
+    }
+  },
+  {
+    "posicao": 175,
+    "enunciado": "A probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo,",
+    "texto_base": "Um rapaz estuda em uma escola que fica longa de sua casa, e por isso precisa utilizar o transporte público. Como o muito conservador, seus pais deram a ele a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de ônibus. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6 h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o qual teve 20 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e que a mediana do conjunto de dados é 6 h 22 min.",
+    "alternativas": {
+      "A": "4",
+      "B": "5",
+      "C": "7",
+      "D": "21",
+      "E": "21"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 176,
+    "enunciado": "Considerando que, nesse mapa, o segmento de reta que liga o rio à marca do tesouro meça 7,6 cm.A medida real, em quilômetro, desse segmento de reta é",
+    "texto_base": "Um mapa representa redução e simplificação de uma localidade. Essa redução, que é feita com o uso de uma escala, mantém a proporção do espaço representado em relação ao espaço real.Certo mapa tem escala 1 : 58 000 000.TesouroRioFonte do LagoDisponível em: http://oblogdedavimagnbh.blogspot.com. Acesso em: 5 ago. 2012.",
+    "alternativas": {
+      "A": "4 408.",
+      "B": "7 632.",
+      "C": "44 080.",
+      "D": "76 316.",
+      "E": "440 800."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Um mapa do tesouro estilizado, com uma bússola no canto superior direito. O mapa mostra uma ilha com uma montanha, uma floresta, um rio e um 'X' marcando o tesouro. Há uma linha pontilhada conectando o rio ao 'X' do tesouro."
+    }
+  },
+  {
+    "posicao": 177,
+    "enunciado": "Qual é a área mínima, em hectare, que o produtor precisará comprar?",
+    "texto_base": "Um produtor de milho utiliza uma área de 160 hectares para as suas atividades agrícolas. Essa área é dividida em duas partes: uma de 40 hectares, com menor produtividade, e outra, de 120 hectares, com menor produtividade. A produtividade é dada pela razão entre a produção, em toneladas, e a área cultivada. Sabe-se que a área de 40 hectares tem produtividade igual a 2,5 vezes à da outra. Esse fazendeiro pretende aumentar sua produção total em 15%, aumentando o tamanho da sua propriedade. Para tanto, pretende comprar uma parte de uma fazenda vizinha, que possui a mesma produtividade da parte de 120 hectares de suas terras.",
+    "alternativas": {
+      "A": "36",
+      "B": "30",
+      "C": "27",
+      "D": "24",
+      "E": "21"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 178,
+    "enunciado": "A ordem das distâncias percorridas pelas equipes Alpha, Beta e Gama é",
+    "texto_base": "Numa atividade de treinamento realizada no Exército de um determinado país, três equipes – Alpha, Beta e Gama – foram designadas a percorrer diferentes caminhos, todos com os mesmos pontos de partida e de chegada.• A equipe Alpha realizou seu percurso em 90 minutos com uma velocidade média de 60 km/h.• A equipe Beta também percorreu sua trajetória em 90 minutos, mas sua velocidade média foi de 5,0 km/h.• Com uma velocidade média de 6,5 km/h, a equipe Gama concluiu seu caminho em 60 minutos.Com base nesses dados, foram comparadas as distâncias dAlpha, dBeta e dGama percorridas pelas equipes.",
+    "alternativas": {
+      "A": "dGama < dBeta < dAlpha",
+      "B": "dAlpha < dBeta < dGama",
+      "C": "dGama < dBeta = dAlpha",
+      "D": "dBeta < dAlpha < dGama",
+      "E": "dGama < dAlpha < dBeta"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  },
+  {
+    "posicao": 179,
+    "enunciado": "O quadro apresenta uma classificação de acordo com as taxas de LDL em adultos.O paciente, seguindo as recomendações médicas sobre estilo de vida e alimentação, realizou o exame logo após o primeiro mês, e a taxa de LDL reduziu 25%. No mês seguinte, realizou novo exame e constatou uma redução de mais 20% na taxa de LDL.De acordo com o resultado do segundo exame, a classificação da taxa de LDL do paciente é",
+    "texto_base": "O colesterol total de uma pessoa é obtido pela soma da taxa de seu \"colesterol bom\" com a taxa de seu \"colesterol ruim\". Os exames periódicos, realizados em um paciente adulto, apresentaram taxa normal de \"colesterol bom\", porém taxa de \"colesterol ruim\" (também chamado LDL) de 280 mg/dL.Taxa de LDL (mg/dL)ClassificaçãoMenor do queÓtimaMenor do que 100Próxima de ótimaDe 100 a 129LimiteDe 130 a 159AltaDe 160 a 189Muito alta190 ou maisDisponível em: www.minhavida.com.br. Acesso em: 20 nov. 2015 (adaptado).",
+    "alternativas": {
+      "A": "ótima.",
+      "B": "próxima de ótima.",
+      "C": "limite.",
+      "D": "alta.",
+      "E": "muito alta."
+    },
+    "metadados_visual": {
+      "contem_imagem": true,
+      "descricao_imagem": "Uma tabela intitulada \"Taxa de LDL (mg/dL)\" com duas colunas: \"Classificação\" e \"Menor do que\". As linhas são: Ótima (Menor do que 100), Próxima de ótima (De 100 a 129), Limite (De 130 a 159), Alta (De 160 a 189), Muito alta (190 ou mais)."
+    }
+  },
+  {
+    "posicao": 180,
+    "enunciado": "O número de pessoas alcançadas pela campanha será dado pela expressão",
+    "texto_base": "Uma empresa deseja iniciar uma campanha publicitária divulgando uma promoção para seus possíveis consumidores. Para esse tipo de campanha, os meios mais viáveis são a distribuição de panfletos na rua e anúncios na rádio local. Considera-se que a população alcançada para distribuição de panfletos seja igual à quantidade de panfletos distribuídos, enquanto que a alcançada por um anúncio na rádio seja igual à quantidade de ouvintes desse anúncio. O custo de cada anúncio na rádio é de R$ 120,00, e a estimativa é de que seja ouvido por 1 500 pessoas. Já a produção e a distribuição dos panfletos custam R$ 180,00 cada 1 000 unidades. Considerando que cada pessoa será alcançada por um único desses meios de divulgação, a empresa pretende investir em ambas as mídias.Considere X e Y os valores (em real) gastos em anúncios na rádio e com panfletos, respectivamente.",
+    "alternativas": {
+      "A": "50X + 9Y",
+      "B": "50X + 4Y",
+      "C": "4X + 50Y",
+      "D": "50X + 9Y",
+      "E": "50X + 9Y"
+    },
+    "metadados_visual": {
+      "contem_imagem": false,
+      "descricao_imagem": ""
+    }
+  }
+]
