@@ -2,15 +2,26 @@
 const fs=require('fs');
 const path=require('path');
 const SOURCE=path.resolve(__dirname,'../data/blue-published/questions.jsonl');
+const PREVIEW=path.resolve(__dirname,'../data/blue-published/preview-questions.jsonl');
 function publishedRouter(express){
  const router=express.Router();
- function load(){
-  if(!fs.existsSync(SOURCE))return null;
-  const rows=fs.readFileSync(SOURCE,'utf8').split(/\r?\n/).filter(Boolean).map((line,i)=>{
+ function load(file=SOURCE){
+  if(!fs.existsSync(file))return null;
+  const rows=fs.readFileSync(file,'utf8').split(/\r?\n/).filter(Boolean).map((line,i)=>{
    try{return JSON.parse(line)}catch(e){throw Error('Invalid published JSONL at line '+(i+1))}
   });
   return rows;
  }
+ router.get('/preview/questions',(req,res)=>{
+  try{
+   const all=load(PREVIEW);
+   if(!all)return res.status(503).json({error:'Preview file not generated'});
+   const page=Math.max(1,Number.parseInt(req.query.page,10)||1);
+   const limit=Math.max(1,Math.min(100,Number.parseInt(req.query.limit,10)||10));
+   const filtered=all.filter(q=>(!req.query.year||q.ano===Number(req.query.year))&&(!req.query.day||q.dia===Number(req.query.day)));
+   res.json({total:filtered.length,page,limit,preview:true,certified:false,results:filtered.slice((page-1)*limit,page*limit)});
+  }catch(err){res.status(500).json({error:err.message})}
+ });
  router.get('/questions',(req,res)=>{
   try{
    const all=load();
