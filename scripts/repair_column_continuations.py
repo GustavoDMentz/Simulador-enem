@@ -52,7 +52,10 @@ def repair(pdf, record, output_dir):
     page = pdf[record["page"] - 1]
     left = pymupdf.Rect(record["bbox"])
     mid = page.rect.width / 2
-    if left.x1 > mid + 0.01 or left.y1 < page.rect.height - 2:
+    if left.x0 >= mid:
+        return None
+    # Não exigir que o recorte chegue ao rodapé físico: o PDF possui margens.
+    if "ABCDE" in option_sequence(page, left):
         return None
     # A questão deve ser a última da coluna esquerda: sem cabeçalho posterior.
     for value, bbox in lines_in(page, pymupdf.Rect(0, left.y0 + 1, mid, page.rect.height)):
