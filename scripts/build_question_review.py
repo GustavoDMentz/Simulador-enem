@@ -9,6 +9,7 @@ import argparse
 import hashlib
 import html
 import json
+import os
 from collections import Counter
 from pathlib import Path
 
@@ -46,7 +47,7 @@ def build_review(pdf: Path, candidates_json: Path, output: Path, *,
                 "id": uid, "exam": {"year": year, "application": application, "day": day,
                                     "color": color.lower(), "source_sha256": sha},
                 "original_number": number, "page": page_num, "bbox": list(bbox),
-                "image": str(image_path.relative_to(output.resolve())) if image_path.is_relative_to(output.resolve()) else str(image_path),
+                "image": os.path.relpath(image_path, output.resolve()),
                 "image_sha256": asset_sha,
                 "extracted_text": raw_text,
                 "language_variant": None,
@@ -66,8 +67,7 @@ def build_review(pdf: Path, candidates_json: Path, output: Path, *,
     entries = []
     for r in records:
         rel_image = Path(r["image"])
-        # Caminhos absolutos são usados apenas como origem local, não para publicação.
-        uri = rel_image.as_uri() if rel_image.is_absolute() else rel_image.as_posix()
+        uri = rel_image.as_posix()
         entries.append(
             '<article><h2>' + html.escape(r["id"]) + '</h2>'
             '<p>Status: PENDENTE — ' + html.escape("; ".join(r["review_reasons"])) + '</p>'
