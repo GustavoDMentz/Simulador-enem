@@ -16,7 +16,7 @@ button.primary{background:#4338ca;color:white;border-color:#4338ca}.muted{color:
 <section class="card" id="editor" hidden>
 <div class="row"><button id="prev">← Anterior</button><strong id="position"></strong><button id="next">Próxima →</button></div>
 <h2 id="title"></h2><p id="metadata" class="muted"></p>
-<label for="image">2. Abrir PNG correspondente ao recorte (opcional)</label><input type="file" id="image" accept="image/png,image/jpeg,image/webp">
+<label for="folder">2. Selecionar pasta com os recortes (uma vez)</label><input type="file" id="folder" webkitdirectory multiple><p id="image-status" role="status" class="muted">Nenhuma pasta de imagens selecionada.</p><label for="image">Ou abrir PNG correspondente manualmente (opcional)</label><input type="file" id="image" accept="image/png,image/jpeg,image/webp">
 <p class="muted">O recorte é selecionado manualmente; confira o nome indicado abaixo. Não confie apenas no texto extraído.</p>
 <img id="preview" alt="Recorte da questão selecionada" hidden>
 <label for="stem">Enunciado conferido</label><textarea id="stem"></textarea>
@@ -33,7 +33,7 @@ button.primary{background:#4338ca;color:white;border-color:#4338ca}.muted{color:
 <script>
 "use strict";
 const $=id=>document.getElementById(id);
-let data=null,index=0,objectUrl=null,dirty=false;
+let data=null,index=0,objectUrl=null,dirty=false;\nlet imageFiles=new Map();
 const keys=["A","B","C","D","E"];
 for(const key of keys){
  const label=document.createElement("label");label.htmlFor="opt"+key;label.textContent="Alternativa "+key;
@@ -53,7 +53,7 @@ function save(){
  q.review_status=$("approval").value;
  dirty=true;$("status").textContent="Alterações em memória. Baixe o JSON para persistir.";
 }
-function show(){
+function showImage(file){\n if(objectUrl)URL.revokeObjectURL(objectUrl);\n objectUrl=URL.createObjectURL(file);$("preview").src=objectUrl;$("preview").hidden=false;\n}\nfunction matchImage(q){\n const name=String(q.image||"").replace(/\\\\/g,"/").split("/").pop();\n const matches=imageFiles.get(name)||[];\n if(matches.length===1){showImage(matches[0]);$("image-status").textContent="Recorte encontrado: "+name;}\n else if(matches.length>1){$("image-status").textContent="Nome ambíguo ("+name+"): selecione o PNG manualmente.";}\n else {$("image-status").textContent="Recorte não encontrado na pasta: "+name;}\n}\nfunction show(){
  const q=data.records[index];$("editor").hidden=false;
  $("position").textContent=(index+1)+" / "+data.records.length;
  $("title").textContent=q.id||"Questão sem ID";
@@ -68,7 +68,7 @@ function show(){
  $("approval").value=q.review_status==="approved"?"approved":"pending";
  $("prev").disabled=index===0;$("next").disabled=index===data.records.length-1;
  $("image").value="";if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl=null}
- $("preview").hidden=true;$("preview").removeAttribute("src");
+ $("preview").hidden=true;$("preview").removeAttribute("src");\n if(imageFiles.size)matchImage(q);
 }
 $("json").addEventListener("change",async e=>{
  const file=e.target.files?.[0];if(!file)return;
@@ -79,7 +79,7 @@ $("json").addEventListener("change",async e=>{
   data=parsed;index=0;dirty=false;show();$("status").textContent=parsed.records.length+" registros carregados.";
  }catch(err){$("status").textContent="Erro: "+err.message}
 });
-$("image").addEventListener("change",e=>{
+$("folder").addEventListener("change",e=>{\n imageFiles=new Map();\n for(const file of e.target.files){\n  if(!["image/png","image/jpeg","image/webp"].includes(file.type))continue;\n  const matches=imageFiles.get(file.name)||[];matches.push(file);imageFiles.set(file.name,matches);\n }\n $("image-status").textContent=imageFiles.size+" nomes de imagens disponíveis.";\n if(data)show();\n});\n$("image").addEventListener("change",e=>{
  const file=e.target.files?.[0];if(!file)return;
  if(!["image/png","image/jpeg","image/webp"].includes(file.type)){alert("Selecione uma imagem PNG/JPEG/WebP");return}
  if(objectUrl)URL.revokeObjectURL(objectUrl);
