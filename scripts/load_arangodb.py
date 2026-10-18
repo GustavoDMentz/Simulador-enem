@@ -78,7 +78,7 @@ def carregar_questoes(db, input_path: Path) -> dict:
     q_col = db["Questoes"]
     ph_col = db["QuestaoHabilidade"]
     pp_col = db["QuestaoProva"]
-    pt_col = db["QuestaoParamTRI"]
+    qtri_edge_col = db["QuestaoParamTRI"]
     qi_col = db["QuestaoItem"]
     h_col = db["Habilidades"]
     a_col = db["Areas"]
@@ -182,7 +182,7 @@ def carregar_questoes(db, input_path: Path) -> dict:
             edges = [
                 (ph_col, f"Questoes/{key}", f"Habilidades/{hab_key}", {"ano": doc["ano"]}),
                 (pp_col, f"Questoes/{key}", f"Provas/{prova_key}", {"posicao": doc["posicao_prova"]}),
-                (pt_col, f"Questoes/{key}", f"ParametrosTRI/{tri_key}", {
+                (qtri_edge_col, f"Questoes/{key}", f"ParametrosTRI/{tri_key}", {
                     "a": doc["parametros_tri"]["a_discriminacao"],
                     "b": doc["parametros_tri"]["b_dificuldade"],
                     "c": doc["parametros_tri"]["c_chute"]
