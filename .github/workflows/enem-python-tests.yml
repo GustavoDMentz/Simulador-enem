@@ -45,4 +45,5 @@ jobs:
             tests/test_reconcile_answer_key.py \
             tests/test_diagnose_options.py \
             tests/test_diagnose_pdf_geometry.py \
-            tests/test_repair_column_continuations.py
+            tests/test_repair_column_continuations.py \
+            tests/test_integrate_continuations.py
