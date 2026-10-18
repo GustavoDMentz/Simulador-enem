@@ -18,10 +18,10 @@ def decide(s,t,a):
     existing=s.get("existing_records") or []
     if len(existing)!=1:
         return "HOLD","NO_SINGLE_RECORD"
-    if t.get("status")!="TEXT_MATCH_VISUAL_UNVERIFIED":
-        return "HOLD","TEXT_NOT_EXACT_OR_REGION_UNCERTAIN"
-    if a.get("status")!="ANSWER_TEXT_MATCH_UNVERIFIED":
-        return "HOLD","ANSWER_NOT_MATCHED"
+    if a.get("status")=="ANSWER_DIVERGENCE":
+        return "HOLD","ANSWER_DIVERGENCE"
+    if t.get("status")=="SUSPECTED_TEXT_DIVERGENCE":
+        return "HOLD","TEXT_DIVERGENCE"
     record=existing[0]["record"]
     content=record.get("conteudo") or {}
     options=content.get("alternativas") or {}
@@ -33,12 +33,12 @@ def decide(s,t,a):
     required={"enunciado",*(f"alternativa_{k}" for k in "ABCDE")}
     exact={c["field"] for c in checks if c.get("status")=="EXACT_TOKEN_SEQUENCE"}
     if not required<=exact:
-        return "HOLD","REQUIRED_FIELD_NOT_MATCHED"
+        return "REVIEW_TEXT","REQUIRED_FIELD_NOT_MATCHED"
+    if a.get("status")!="ANSWER_TEXT_MATCH_UNVERIFIED":
+        return "REVIEW_ANSWER","ANSWER_NOT_CONFIRMED"
     visual=content.get("metadados_visual") or {}
     if visual.get("contem_imagem"):
         return "REVIEW_IMAGE","IMAGE_DEPENDENCY"
-    if t.get("visual_warnings") and "DECLARED_IMAGE_WITHOUT_LOCAL_ASSET" in t["visual_warnings"]:
-        return "HOLD","IMAGE_ASSET_MISSING"
     return "CANDIDATE","TEXT_AND_ANSWER_MATCHED"
 
 def main():
@@ -66,7 +66,7 @@ def main():
                 "official_answer_pdf_sha256":a[key].get("official_answer_pdf_sha256"),
                 "published":False},ensure_ascii=False)+"\n")
     print(json.dumps({"counts":counts,"output":str(out/"release-candidates.jsonl"),
-        "published":0,"note":"Candidates are NOT approved or imported; visual inspection is still required."},
+        "published":0,"note":"REVIEW statuses are NOT approved. Candidates are NOT imported."},
         ensure_ascii=False,indent=2))
 
 if __name__=="__main__":
