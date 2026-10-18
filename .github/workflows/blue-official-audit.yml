@@ -68,6 +68,10 @@ jobs:
           summary = '\n'.join(lines) + '\n'
           print(summary)
           Path(os.environ['GITHUB_STEP_SUMMARY']).open('a').write(summary)
+          if len(pdfs) != 18 or not report.is_file():
+              raise SystemExit('FAIL CLOSED: incomplete official PDF sources')
+          if data['total'] != 1620 or data['summary'].get('SOURCE_MISSING', 0):
+              raise SystemExit('FAIL CLOSED: source coverage incomplete')
           PY
       - name: Upload evidence reports (never publish questions)
         if: always()
