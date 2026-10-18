@@ -135,7 +135,8 @@ def _download_once(url: str, context: ssl.SSLContext) -> bytes:
     return b"".join(chunks)
 
 
-def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0,\n            ca_bundle: str | None = None):
+def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0,
+            ca_bundle: str | None = None):
     dest.mkdir(parents=True, exist_ok=True)
     existing = {"exams": []}
     if manifest_path.exists():
