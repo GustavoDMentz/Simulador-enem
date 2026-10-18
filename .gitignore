@@ -34,3 +34,7 @@ microdados_enem_*
 *.cif
 *.mmcif
 *.pdb
+
+# Imported source PDFs and generated visual review artifacts
+data/sources/
+data/visual-audit/
