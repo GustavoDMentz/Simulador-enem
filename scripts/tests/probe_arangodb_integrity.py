@@ -47,7 +47,24 @@ def main():
     finally:
         tri_col.update({"_key": tri_key, "a_discriminacao": original_a})
     assert inspect(db)["ok"], "Failed to undo TRI corruption"
-    print("Negative probes passed: wrong but valid edge + TRI mismatch detected, then reverted")
+
+    # A different document key cannot claim an occupied proof slot.
+    counterfeit = {
+        "_key": "TEST_DUPLICATE_SLOT",
+        "ano": sample["ano"],
+        "dia": sample["dia"],
+        "cor_prova": sample["cor_prova"],
+        "posicao_prova": sample["posicao_prova"],
+    }
+    try:
+        db.collection("Questoes").insert(counterfeit)
+    except Exception as exc:
+        assert "unique" in str(exc).lower() or "1210" in str(exc), exc
+    else:
+        db.collection("Questoes").delete(counterfeit["_key"])
+        raise AssertionError("Unique proof-slot index did not reject a duplicate")
+    assert inspect(db)["ok"], "Duplicate-slot probe damaged the graph"
+    print("Negative probes passed: wrong link, TRI drift and duplicate slot rejected")
 
 if __name__ == "__main__":
     main()
