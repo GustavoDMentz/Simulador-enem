@@ -28,3 +28,22 @@ python3 scripts/check_arangodb_integrity.py --output /tmp/enem-live-db-integrity
 ```
 
 The live database is **not accessible from this workspace**. The checker has not been run against it; therefore the database is **not yet closed**. Existing loader and server still contain legacy unauthenticated/hardcoded defaults and require hardening.
+
+## Confirmed CI integration evidence (2026-10-18)
+
+The `arangodb-integration` GitHub Actions job uses ArangoDB 3.12,
+`data/fused/questoes_enem_2025_AZUL_D1.jsonl` (89 records) and authenticated
+credentials only within a disposable CI container.
+
+Successful checks: default loader dry-run creates no database; first import and
+second import leave all expected counts unchanged; each of the four question-edge
+collections has 89 edges, and there are 89 TRI vertices; read-only checker
+matches source JSONL metadata; injecting a valid-but-wrong item link or a wrong
+TRI value is detected and reverted; a duplicate proof slot is rejected by the
+unique composite index; `arangodump` and `arangorestore` recover 11 collections
+in a second database, preserving counts and graph integrity.
+
+These successes **do not certify the live local database**; it may have a legacy
+unique `co_item` index, randomly generated edge keys or records not in GitHub.
+Run the read-only steps in [db-local-checklist.md](db-local-checklist.md) first.
+**No automatic migration or production merge is authorized.**
