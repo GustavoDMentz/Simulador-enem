@@ -45,7 +45,8 @@ jobs:
             --dest data/enem-pdfs/oficiais \
             --manifest data/enem-pdfs/blue-download-manifest.json \
             --years 2017 2018 2019 2020 2021 2022 2023 2024 2025 \
-            --delay 1
+            --delay 1 \
+            --ca-bundle /etc/ssl/certs/ca-certificates.crt
       - name: Build staging and independently audit official PDF text
         run: python scripts/rebuild_blue.py --all
       - name: Check completeness and publish job summary
