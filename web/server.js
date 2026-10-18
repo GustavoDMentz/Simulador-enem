@@ -19,7 +19,7 @@ if (fs.existsSync(dotenvPath)) {
   });
 }
 
-const ARANGO_HOST = (process.env.ARANGO_HOST || 'http://127.0.0.1:8529').replace(/\\/$/, '');
+const ARANGO_HOST = (process.env.ARANGO_HOST || 'http://127.0.0.1:8529').replace(/\/$/, '');
 const DB_NAME = process.env.ARANGO_DB || 'enem';
 const ARANGO_USER = process.env.ARANGO_USER || 'root';
 const ARANGO_PASSWORD = process.env.ARANGO_PASSWORD;
