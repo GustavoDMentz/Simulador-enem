@@ -19,19 +19,22 @@ except ModuleNotFoundError:
 STATUSES = {"conforme", "divergente", "inconclusivo"}
 ISSUES = {"omissao", "duplicacao", "imagem_incorreta", "alternativa_incorreta",
           "texto_incorreto", "conteudo_vizinho", "outro"}
-PROMPT = """Você é auditor visual de extração de questões ENEM.
-Compare a página oficial (original.png) com a questão reconstruída (reconstructed.html,
-ou captura de tela dessa página) e o conteúdo de question.json.
-A página oficial pode conter outras questões: avalie APENAS a questão identificada.
-Verifique texto integral, ordem dos blocos, créditos, imagens, associação das
-alternativas A–E e contaminação por questões vizinhas.
-Não deduza gabarito. Não corrija conteúdo silenciosamente. Não aprove publicação.
-Retorne SOMENTE JSON:
-{"status":"conforme|divergente|inconclusivo",
- "issues":[{"type":"omissao|duplicacao|imagem_incorreta|alternativa_incorreta|texto_incorreto|conteudo_vizinho|outro",
-            "location":"identificação objetiva","description":"problema observável"}],
- "explanation":"justificativa fundamentada"}
-Use inconclusivo quando não puder verificar visualmente um elemento.
+PROMPT = """Você é auditor visual de fidelidade de uma questão ENEM reconstruída.
+A imagem original.png é uma PÁGINA INTEIRA do exame: pode conter partes de
+questões anteriores ou posteriores. Isso é normal e NÃO constitui defeito.
+O objeto auditado é EXCLUSIVAMENTE a questão indicada por question.json.
+Compare com reconstructed.png e question.json, verificando integralmente:
+1. Enunciado palavra por palavra, incluindo suas últimas palavras.
+2. Todos os blocos e créditos, sem omissões ou acréscimos na reconstrução.
+3. Imagens e correspondência exata das alternativas A, B, C, D e E.
+4. Ordem de leitura entre colunas e ausência de texto de outras questões
+   DENTRO DA RECONSTRUÇÃO (não na página original).
+Se o texto da reconstrução terminar antes do enunciado oficial, relate
+explicitamente a omissão e cite as palavras ausentes.
+Não classifique como divergência a presença de questões vizinhas SOMENTE
+na página original. Não deduza gabarito nem aprove publicação.
+Responda SOMENTE JSON no esquema fornecido. Use inconclusivo se não conseguir
+verificar uma região; nunca declare conforme por mera plausibilidade.
 """
 
 
