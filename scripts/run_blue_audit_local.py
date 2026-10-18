@@ -39,6 +39,7 @@ def main():
     p.add_argument("--pdf-dir",type=Path,default=ROOT/"data/enem-pdfs/oficiais")
     p.add_argument("--fused",type=Path,default=ROOT/"data/fused")
     p.add_argument("--output-dir",type=Path,default=ROOT/"data/blue-staging")
+    p.add_argument("--refresh",action="store_true",help="Extract PDF candidates for existing records too")
     p.add_argument("--require-complete",action="store_true",
                    help="Fail if any of the 18 exam PDFs or 18 keys is absent")
     args=p.parse_args()
@@ -63,6 +64,8 @@ def main():
         raise SystemExit(f"FAIL CLOSED: {len(missing)} PDF sources absent/invalid; see inventory")
     command=[sys.executable,str(ROOT/"scripts/rebuild_blue.py"),"--all",
              "--fused",str(fused),"--pdf-dir",str(pdf_dir),"--output-dir",str(output)]
+    if args.refresh:
+        command.append("--refresh")
     subprocess.run(command,cwd=ROOT,check=True)
     summary_path=output/"audit-matrix-summary.json"
     if not summary_path.is_file():
