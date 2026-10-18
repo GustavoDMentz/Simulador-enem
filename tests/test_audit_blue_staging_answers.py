@@ -25,7 +25,7 @@ class AnswerAuditTests(unittest.TestCase):
 
     @patch("audit_blue_staging_answers.extract_pdf")
     def test_match_is_not_certified(self, parser):
-        parser.return_value = ({91: {"comum": "A"}}, [], 100)
+        parser.return_value = ({p: {"comum": "A"} for p in range(91, 181)}, [], 100)
         r = audit([self.row()])[0]
         self.assertEqual(r["status"], "ANSWER_TEXT_MATCH_UNVERIFIED")
         self.assertFalse(r["answer_verified"])
@@ -33,7 +33,7 @@ class AnswerAuditTests(unittest.TestCase):
 
     @patch("audit_blue_staging_answers.extract_pdf")
     def test_real_mismatch_is_reported(self, parser):
-        parser.return_value = ({91: {"comum": "B"}}, [], 100)
+        parser.return_value = ({p: {"comum": ("B" if p == 91 else "A")} for p in range(91, 181)}, [], 100)
         r = audit([self.row()])[0]
         self.assertEqual(r["status"], "ANSWER_DIVERGENCE")
         self.assertEqual(r["official_answer"], "B")
@@ -41,9 +41,16 @@ class AnswerAuditTests(unittest.TestCase):
 
     @patch("audit_blue_staging_answers.extract_pdf")
     def test_language_variants_not_guessed(self, parser):
-        parser.return_value = ({1: {"ingles": "A", "espanhol": "B"}}, [], 100)
+        parser.return_value = ({p: ({"ingles": "A", "espanhol": "B"} if p <= 5 else {"comum": "A"}) for p in range(1, 91)}, [], 100)
         r = audit([self.row(day=1, position=1)])[0]
         self.assertEqual(r["status"], "INCONCLUSIVE_LANGUAGE")
+        self.assertFalse(r["answer_verified"])
+
+    @patch("audit_blue_staging_answers.extract_pdf")
+    def test_partial_key_never_claims_divergence(self, parser):
+        parser.return_value = ({91: {"comum": "B"}}, [], 100)
+        r = audit([self.row()])[0]
+        self.assertEqual(r["status"], "INCONCLUSIVE_KEY_COVERAGE")
         self.assertFalse(r["answer_verified"])
 
     def test_missing_source_is_blocked(self):
