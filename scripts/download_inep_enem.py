@@ -215,7 +215,8 @@ def main():
     args = parser.parse_args()
     if any(y < 2017 or y > 2025 for y in args.years) or args.delay < 0:
         parser.error("Anos permitidos: 2017–2025; delay não negativo")
-    report = acquire(args.dest, args.manifest, years=args.years, delay=args.delay,\n                     ca_bundle=str(args.ca_bundle) if args.ca_bundle else None)
+    report = acquire(args.dest, args.manifest, years=args.years, delay=args.delay,
+                     ca_bundle=str(args.ca_bundle) if args.ca_bundle else None)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 
