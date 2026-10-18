@@ -57,7 +57,7 @@ def criar_estrutura(db):
     # Índices
     # Questoes
     q = db["Questoes"]
-    q.add_index({"type": "persistent", "fields": ["co_item"], "unique": True, "name": "idx_co_item"})
+    q.add_index({"type": "persistent", "fields": ["co_item"], "unique": False, "name": "idx_co_item"})
     q.add_index({"type": "fulltext", "fields": ["conteudo.enunciado"], "name": "idx_enunciado_fulltext"})
     q.add_index({"type": "persistent", "fields": ["ano", "cor_prova", "dia"], "name": "idx_ano_cor_dia"})
     q.add_index({"type": "persistent", "fields": ["area_conhecimento"], "name": "idx_area"})
@@ -191,7 +191,7 @@ def carregar_questoes(db, input_path: Path) -> dict:
             ]
             
             for col, from_v, to_v, attrs in edges:
-                edge = {"_from": from_v, "_to": to_v, **attrs}
+                edge = {"_key": f"{key}_{col.name}", "_from": from_v, "_to": to_v, **attrs}
                 col.insert(edge, overwrite=True)
                 stats["edges"] += 1
             
