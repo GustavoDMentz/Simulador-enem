@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ENEM 2.0 — resolução experimental</title>
+<style>
+:root{font:16px system-ui,sans-serif;color:#202333;background:#f5f6fa}*{box-sizing:border-box}body{margin:0}main{max-width:880px;margin:32px auto;padding:0 16px}header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}h1{font-size:1.5rem;margin:0}p{line-height:1.65}.muted{color:#596274}.card{background:white;border:1px solid #dce0e8;border-radius:16px;padding:24px;margin-top:18px;box-shadow:0 2px 8px #1c243008}.tag{display:inline-block;background:#eef0f8;border-radius:30px;padding:5px 12px;font-size:.85rem;margin:0 5px 8px 0}.option{display:flex;gap:14px;align-items:center;width:100%;background:white;border:1px solid #dce0e8;border-radius:10px;padding:14px;text-align:left;font:inherit;cursor:pointer;margin:8px 0}.option[aria-pressed=true]{border-color:#4338ca;background:#f1f0ff}.option:disabled{cursor:default}.option.correct{border-color:#16834a;background:#eaf8ef}.option.wrong{border-color:#ba2e40;background:#fff0f1}.letter{font-weight:700;width:24px}.primary{background:#4338ca;color:white;border:0;border-radius:9px;padding:12px 18px;font:inherit;cursor:pointer}.primary:disabled{opacity:.5;cursor:not-allowed}.secondary{background:white;border:1px solid #c9cfdd;border-radius:9px;padding:10px 14px;font:inherit;cursor:pointer}.hidden{display:none}.status{border-left:4px solid #4338ca;padding:10px 14px;background:#f4f3ff;margin-top:14px}.question-image{max-width:100%;max-height:500px;object-fit:contain}input[type=file]{max-width:100%}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #8b83ff;outline-offset:2px}.nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.details{margin-top:16px;border-top:1px solid #e2e5ec;padding-top:16px}summary{cursor:pointer;font-weight:600}pre{white-space:pre-wrap;overflow-wrap:anywhere}
+</style>
+</head>
+<body><main>
+<header><div><h1>Simulador ENEM <span class="muted">2.0</span></h1><p class="muted">Protótipo isolado · nenhuma resposta enviada a servidores</p></div><a href="./index.html">Interface anterior</a></header>
+<section class="card" aria-label="Carregar questões">
+<label for="file"><strong>Carregar questões revisadas (JSON)</strong></label>
+<p class="muted">Aceita o formato <code>published-questions.json</code> do exportador. Sem arquivo, usa um exercício fictício. Imagens locais externas ao site não são carregadas automaticamente.</p>
+<input id="file" type="file" accept=".json,application/json">
+<p id="load-status" role="status" class="muted">Exibindo questão demonstrativa.</p>
+</section>
+<section class="card" aria-labelledby="question-title">
+<div id="meta"></div><h2 id="question-title">Questão</h2>
+<p id="stem"></p><img id="figure" class="question-image hidden" alt="Figura original da questão">
+<div id="options" role="group" aria-label="Alternativas"></div>
+<div class="nav"><button id="submit" class="primary" disabled>Responder</button><button id="previous" class="secondary">Anterior</button><button id="next" class="secondary">Próxima</button><span id="progress" class="muted"></span></div>
+<div id="feedback" role="status" class="status hidden"></div>
+<div id="post" class="hidden">
+<details class="details"><summary>Parâmetros TRI</summary><p id="tri" class="muted"></p></details>
+<details class="details"><summary>Minitutor</summary><p class="muted">Integração com Gemini ainda não implementada. O gabarito revisado é exibido acima; não há explicação gerada por IA.</p></details>
+<details class="details"><summary>Proveniência</summary><pre id="source"></pre></details>
+</div>
+</section>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+const example={id:"demo-fisica",original_number:1,stem:"Uma bateria de 3,6 V possui resistência interna de 1,2 Ω e alimenta um resistor de 6,0 Ω. Qual é a tensão no resistor externo?",alternatives:{A:"0,6 V",B:"3,0 V",C:"3,6 V",D:"4,3 V",E:"7,2 V"},correct_option:"B",exam:{year:"Exemplo",day:1,color:"—",application:"fictícia"},calibration:null,answer_key_source:"Cálculo didático; não é questão do INEP",asset:null};
+let questions=[example],index=0,selected=null,submitted=false;
+function render(){
+ const q=questions[index];selected=null;submitted=false;
+ $("meta").replaceChildren();const tag=document.createElement("span");tag.className="tag";tag.textContent=String(q.exam?.year??"")+(q.exam?.day?" · Dia "+q.exam.day:"");$("meta").append(tag);
+ $("question-title").textContent="Questão "+q.original_number+(q.language_variant?" · "+q.language_variant:"");
+ $("stem").textContent=q.stem;
+ $("figure").classList.add("hidden");$("figure").removeAttribute("src");
+ const choices=$("options");choices.replaceChildren();
+ for(const letter of ["A","B","C","D","E"]){
+  const btn=document.createElement("button");btn.type="button";btn.className="option";btn.setAttribute("aria-pressed","false");
+  const label=document.createElement("span");label.className="letter";label.textContent=letter;
+  const body=document.createElement("span");body.textContent=q.alternatives[letter];btn.append(label,body);
+  btn.addEventListener("click",()=>{if(submitted)return;selected=letter;for(const b of choices.children)b.setAttribute("aria-pressed",String(b===btn));$("submit").disabled=false});
+  choices.append(btn);
+ }
+ $("submit").disabled=true;$("submit").classList.remove("hidden");$("feedback").classList.add("hidden");$("post").classList.add("hidden");
+ $("progress").textContent=(index+1)+" / "+questions.length;
+ $("previous").disabled=index===0;$("next").disabled=index===questions.length-1;
+ $("tri").textContent=q.calibration?"Calibração informada no JSON; ainda não validada pela interface. Consulte a fonte e a metodologia antes de interpretar.":"Parâmetros a, b e c indisponíveis. Não há nota TRI calculada.";
+ $("source").textContent=JSON.stringify({id:q.id,exam:q.exam,answer_key_source:q.answer_key_source,asset:q.asset?.sha256??null},null,2);
+}
+$("submit").addEventListener("click",()=>{
+ if(!selected||submitted)return;submitted=true;const q=questions[index];
+ const ok=selected===q.correct_option;
+ $("feedback").textContent=(ok?"Resposta correta. ":"Resposta incorreta. ")+"Gabarito: "+q.correct_option+". Fonte: "+q.answer_key_source;
+ $("feedback").classList.remove("hidden");$("post").classList.remove("hidden");$("submit").classList.add("hidden");
+ for(const btn of $("options").children){const letter=btn.querySelector(".letter").textContent;btn.disabled=true;if(letter===q.correct_option)btn.classList.add("correct");else if(letter===selected)btn.classList.add("wrong")}
+});
+$("previous").addEventListener("click",()=>{if(index>0){index--;render()}});
+$("next").addEventListener("click",()=>{if(index<questions.length-1){index++;render()}});
+$("file").addEventListener("change",async e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ try{
+  if(file.size>10*1024*1024)throw Error("Arquivo excede 10 MB.");
+  const data=JSON.parse(await file.text());
+  if(!Array.isArray(data.questions)||data.questions.length===0)throw Error("JSON sem questões publicadas.");
+  for(const q of data.questions){
+   if(!q||typeof q.stem!=="string"||!q.stem.trim()||!q.alternatives||!["A","B","C","D","E"].every(k=>typeof q.alternatives[k]==="string"&&q.alternatives[k].trim())||!["A","B","C","D","E"].includes(q.correct_option)||!q.exam||!q.answer_key_source)throw Error("Questão incompleta ou formato incompatível.");
+  }
+  questions=data.questions;index=0;render();$("load-status").textContent=questions.length+" questões carregadas em memória, sem upload.";
+ }catch(err){$("load-status").textContent="Falha: "+err.message}
+});
+render();
+</script></body></html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ENEM 2.0 — revisão editorial</title>
+<style>
+body{font:16px system-ui;background:#f6f7fa;color:#202333;margin:0}main{max-width:980px;margin:30px auto;padding:0 18px}
+.card{background:white;border:1px solid #d9deea;border-radius:14px;padding:20px;margin:16px 0}
+label{display:block;margin:12px 0 5px;font-weight:600}input,textarea,select,button{font:inherit}textarea,input[type=text],select{width:100%;padding:10px;border:1px solid #c5cad6;border-radius:7px}textarea{min-height:80px}
+button{border:1px solid #a8afbf;border-radius:8px;padding:10px 14px;background:white;cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}
+button.primary{background:#4338ca;color:white;border-color:#4338ca}.muted{color:#5a6474}img{max-width:100%;max-height:650px;object-fit:contain}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.row>*{flex:1}pre{white-space:pre-wrap;overflow-wrap:anywhere}
+</style></head><body><main>
+<h1>Revisão editorial · ENEM 2.0</h1>
+<p class="muted">Ferramenta local: não envia arquivos ao servidor. A aprovação exige conferência com PDF e gabarito oficial. O exportador Python faz uma segunda validação.</p>
+<section class="card"><label for="json">1. Abrir question-review.json</label><input type="file" id="json" accept=".json,application/json">
+<p id="status" role="status">Nenhum arquivo carregado.</p></section>
+<section class="card" id="editor" hidden>
+<div class="row"><button id="prev">← Anterior</button><strong id="position"></strong><button id="next">Próxima →</button></div>
+<h2 id="title"></h2><p id="metadata" class="muted"></p>
+<label for="folder">2. Selecionar pasta com os recortes (uma vez)</label><input type="file" id="folder" webkitdirectory multiple><p id="image-status" role="status" class="muted">Nenhuma pasta de imagens selecionada.</p><label for="image">Ou abrir PNG correspondente manualmente (opcional)</label><input type="file" id="image" accept="image/png,image/jpeg,image/webp">
+<p class="muted">O recorte é selecionado manualmente; confira o nome indicado abaixo. Não confie apenas no texto extraído.</p>
+<img id="preview" alt="Recorte da questão selecionada" hidden>
+<label for="stem">Enunciado conferido</label><textarea id="stem"></textarea>
+<div id="options"></div>
+<label for="key">Gabarito conferido</label><select id="key"><option value="">Não conferido</option><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+<label for="keysource">Referência ao gabarito oficial</label><input type="text" id="keysource" placeholder="URL ou identificação verificável">
+<label for="language">Língua estrangeira (somente questões 1–5 do dia 1)</label><select id="language"><option value="">Não aplicável / não definida</option><option value="ingles">Inglês</option><option value="espanhol">Espanhol</option></select>
+<label for="reviewer">Revisor</label><input type="text" id="reviewer">
+<label for="date">Data de revisão</label><input type="text" id="date" placeholder="AAAA-MM-DD">
+<label for="approval">Situação</label><select id="approval"><option value="pending">Pendente</option><option value="approved">Aprovada após conferência</option></select>
+<p class="muted">Aprovar aqui registra uma declaração do revisor, não prova que o conteúdo está correto. Não há preenchimento automático de respostas.</p>
+<div class="row"><button id="save" class="primary">Salvar alterações nesta questão</button><button id="download">Baixar JSON atualizado</button></div>
+</section></main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let data=null,index=0,objectUrl=null,dirty=false;\nlet imageFiles=new Map();
+const keys=["A","B","C","D","E"];
+for(const key of keys){
+ const label=document.createElement("label");label.htmlFor="opt"+key;label.textContent="Alternativa "+key;
+ const area=document.createElement("textarea");area.id="opt"+key;
+ $("options").append(label,area);
+}
+function save(){
+ if(!data)return;
+ const q=data.records[index];
+ q.stem=$("stem").value.trim();
+ q.alternatives=Object.fromEntries(keys.map(k=>[k,$("opt"+k).value.trim()]));
+ q.correct_option=$("key").value||null;
+ q.answer_key_source=$("keysource").value.trim();
+ q.language_variant=$("language").value||null;
+ q.reviewer=$("reviewer").value.trim();
+ q.reviewed_at=$("date").value.trim();
+ q.review_status=$("approval").value;
+ dirty=true;$("status").textContent="Alterações em memória. Baixe o JSON para persistir.";
+}
+function showImage(file){\n if(objectUrl)URL.revokeObjectURL(objectUrl);\n objectUrl=URL.createObjectURL(file);$("preview").src=objectUrl;$("preview").hidden=false;\n}\nfunction matchImage(q){\n const name=String(q.image||"").replace(/\\\\/g,"/").split("/").pop();\n const matches=imageFiles.get(name)||[];\n if(matches.length===1){showImage(matches[0]);$("image-status").textContent="Recorte encontrado: "+name;}\n else if(matches.length>1){$("image-status").textContent="Nome ambíguo ("+name+"): selecione o PNG manualmente.";}\n else {$("image-status").textContent="Recorte não encontrado na pasta: "+name;}\n}\nfunction show(){
+ const q=data.records[index];$("editor").hidden=false;
+ $("position").textContent=(index+1)+" / "+data.records.length;
+ $("title").textContent=q.id||"Questão sem ID";
+ $("metadata").textContent="Página "+q.page+" · recorte: "+q.image+" · status: "+q.review_status;
+ $("stem").value=q.stem||q.extracted_text||"";
+ for(const k of keys)$("opt"+k).value=q.alternatives?.[k]||"";
+ $("key").value=q.correct_option||"";
+ $("keysource").value=q.answer_key_source||"";
+ $("language").value=q.language_variant||"";
+ $("reviewer").value=q.reviewer||"";
+ $("date").value=q.reviewed_at||"";
+ $("approval").value=q.review_status==="approved"?"approved":"pending";
+ $("prev").disabled=index===0;$("next").disabled=index===data.records.length-1;
+ $("image").value="";if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl=null}
+ $("preview").hidden=true;$("preview").removeAttribute("src");\n if(imageFiles.size)matchImage(q);
+}
+$("json").addEventListener("change",async e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ try{
+  if(file.size>15*1024*1024)throw Error("JSON excede 15 MB");
+  const parsed=JSON.parse(await file.text());
+  if(!Array.isArray(parsed.records)||!parsed.records.length||!parsed.source_sha256||!parsed.records.every(r=>r&&r.id&&r.exam&&r.image))throw Error("Formato de fila de revisão inválido");
+  data=parsed;index=0;dirty=false;show();$("status").textContent=parsed.records.length+" registros carregados.";
+ }catch(err){$("status").textContent="Erro: "+err.message}
+});
+$("folder").addEventListener("change",e=>{\n imageFiles=new Map();\n for(const file of e.target.files){\n  if(!["image/png","image/jpeg","image/webp"].includes(file.type))continue;\n  const matches=imageFiles.get(file.name)||[];matches.push(file);imageFiles.set(file.name,matches);\n }\n $("image-status").textContent=imageFiles.size+" nomes de imagens disponíveis.";\n if(data)show();\n});\n$("image").addEventListener("change",e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ if(!["image/png","image/jpeg","image/webp"].includes(file.type)){alert("Selecione uma imagem PNG/JPEG/WebP");return}
+ if(objectUrl)URL.revokeObjectURL(objectUrl);
+ objectUrl=URL.createObjectURL(file);$("preview").src=objectUrl;$("preview").hidden=false;
+});
+$("save").addEventListener("click",()=>{save();show()});
+$("prev").addEventListener("click",()=>{save();if(index>0)index--;show()});
+$("next").addEventListener("click",()=>{save();if(index<data.records.length-1)index++;show()});
+$("download").addEventListener("click",()=>{
+ save();
+ const blob=new Blob([JSON.stringify(data,null,2)+"\n"],{type:"application/json"});
+ const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="question-review-edited.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ $("status").textContent="JSON preparado para download. Execute o exportador Python para validar.";
+});
+window.addEventListener("beforeunload",e=>{if(dirty){e.preventDefault();e.returnValue=""}});
+</script></body></html>
