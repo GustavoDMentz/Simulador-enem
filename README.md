@@ -16,7 +16,7 @@
 > Pipeline completo de extração e processamento de provas do ENEM (2017–2025) integrado a um simulador web interativo de alto padrão, com análise dos parâmetros TRI, recorte dinâmico de imagens dos cadernos oficiais e assistente pedagógico por IA (Google Gemini).
 
 > [!WARNING]
-> **Status do Projeto:** Em desenvolvimento ativo (WIP). Contém erros conhecidos e ajustes pendentes na extração e mapeamento de dados de alguns anos/cadernos. Não deve ser considerado versão finalizada para produção.
+> **Status do Projeto:** Em desenvolvimento ativo (WIP). A integridade estrutural dos registros não comprova fidelidade aos cadernos oficiais. Há divergências reais de extração e gabaritos ainda não certificados; os vínculos TRI também precisam de comprovação independente. **Não utilize a base como conjunto oficialmente validado nem a publique em produção.**
 
 ---
 
@@ -27,6 +27,7 @@
 - [Instalação](#-instalação)
 - [Executando o Simulador](#-executando-o-simulador)
 - [Pipeline de Dados](#-pipeline-de-dados)
+- [Auditoria dos cadernos azuis](#-auditoria-dos-cadernos-azuis)
 - [Variáveis de Ambiente](#-variáveis-de-ambiente)
 - [Contribuindo](#-contribuindo)
 
@@ -153,6 +154,7 @@ DB_NAME=enem
 python3 -m venv .venv
 source .venv/bin/activate
 pip install pymupdf pandas numpy
+# Para auditoria dos PDFs: instale também poppler-utils pelo gerenciador do sistema
 ```
 
 ---
@@ -204,6 +206,66 @@ python3 scripts/deduplicate_db.py
 # Carregar dados no ArangoDB
 python3 scripts/load_arangodb.py
 ```
+
+---
+
+## 🔎 Auditoria dos cadernos azuis
+
+> **Implementação em desenvolvimento:** os scripts e o workflow desta seção estão na branch [`feat/integrate-enem-audit-gate`](https://github.com/GustavoDMentz/Simulador-enem/tree/feat/integrate-enem-audit-gate), **não** na `main`. Para executar os comandos abaixo, utilize essa branch. Esta atualização da `main` é exclusivamente documental.
+
+**Escopo-alvo:** ENEM regular, caderno **AZUL**, de 2017 a 2025, nos dois dias: **1.620 posições numeradas** (9 anos × 180). As posições 1–5 do primeiro dia podem ter versões de língua estrangeira distintas (inglês/espanhol); um número de questão não identifica necessariamente uma única versão textual.
+
+### Situação dos dados (triagem, não validação)
+
+Na execução local de triagem comunicada em 18/10/2026, antes da validação integral:
+
+| Categoria | Quantidade | Significado |
+|---|---:|---|
+| Registros existentes estruturalmente plausíveis | 1.137 | Campos presentes; **não** implica texto, imagem ou gabarito correto |
+| Novos candidatos com hipóteses de alternativas A–E | 219 | Segmentação geométrica **não verificada** |
+| Recuperação pendente | 263 | Inclui marcadores ambíguos e cabeçalhos problemáticos |
+| Fonte ausente | 1 | Posição sem PDF oficial disponível no ambiente local |
+| **Total** | **1.620** | Nenhum item aprovado para publicação por essa triagem |
+
+Esses números são uma fotografia de uma execução específica; **não** representam o resultado da auditoria oficial. Há divergências de conteúdo conhecidas, e gabaritos ou associações TRI existentes não devem ser presumidos corretos.
+
+### Executar sem alterar a base
+
+Pré-requisitos: Python 3.10+, **PyMuPDF** e `pdftotext` (pacote `poppler-utils`). Os PDFs oficiais devem estar em `data/enem-pdfs/oficiais/`, no padrão `AAAA-regular-dD-azul.pdf`. Execute a partir da raiz:
+
+```bash
+python3 -m pip install pymupdf
+# Ubuntu/Debian: sudo apt install poppler-utils
+
+python3 scripts/rebuild_blue.py --all
+```
+
+O comando gera a área de staging `data/blue-staging/`, incluindo:
+
+- `blue-candidates.jsonl`: registros existentes e candidatos extraídos, com status não verificado;
+- `report.json` e `exceptions.csv`: cobertura e bloqueios da reconstrução;
+- `official-validation.jsonl`: confronto textual independente com regiões dos PDFs, por questão e campo, incluindo evidências de divergências;
+- `official-validation-summary.json`: contagens e lacunas da auditoria.
+
+Para executar **somente** a comparação sobre um staging já produzido:
+
+```bash
+python3 scripts/validate_blue_official.py \
+  --input data/blue-staging/blue-candidates.jsonl \
+  --output-dir data/blue-staging
+```
+
+O validador usa PyMuPDF para uma leitura independente da geometria do PDF. Seus status como `TEXT_MATCH_VISUAL_UNVERIFIED` e `CANDIDATE_OPTIONS_TEXT_MATCH_ONLY` significam **compatibilidade textual parcial**, jamais conformidade integral. A conferência de imagens, gráficos, fórmulas, créditos, continuidade, versões de língua estrangeira, gabaritos oficiais e identificação TRI requer controles adicionais. Regiões ambíguas devem permanecer **inconclusivas**, não ser aprovadas automaticamente.
+
+**Portão de segurança:** nenhum desses comandos altera `data/fused/`, ArangoDB ou publica questões. Campos `content_verified`, `answer_verified`, `tri_verified` e `publishable` permanecem falsos até validação fundamentada. Não use o resultado do staging como entrada automática de `load_arangodb.py`.
+
+### Execução automatizada e bloqueios
+
+O workflow [ENEM blue official audit (non-publishing)](https://github.com/GustavoDMentz/Simulador-enem/blob/feat/integrate-enem-audit-gate/.github/workflows/blue-official-audit.yml) tenta obter os PDFs oficiais do Inep, executa o staging e produz artefatos de auditoria no GitHub Actions. **A obtenção dos PDFs falhou no runner por erro de validação da cadeia TLS** (`curl: (60)`); a execução registrada em 18/10/2026 terminou com falha e **0 de 18 cadernos obtidos**. Portanto, não houve validação integral remota das 1.620 posições.
+
+O downloader mantém a verificação HTTPS e interrompe falhas repetitivas. Não desabilite TLS para fazer o workflow parecer bem-sucedido. Quando a origem não estiver acessível, use PDFs oficiais obtidos por canal confiável, preserve a proveniência e os hashes SHA-256 e execute o validador localmente. O workflow deve falhar quando faltarem fontes, nunca sinalizar sucesso com zero PDFs.
+
+**Critério para publicação futura:** correspondência completa e demonstrável com as fontes oficiais (texto, alternativas, elementos gráficos, referências e continuidade), gabaritos corretos por versão e associações TRI rastreáveis. **Nenhuma publicação foi autorizada.**
 
 ---
 
