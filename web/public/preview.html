@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ENEM — Acervo de prévia</title><style>
+body{font:16px system-ui,sans-serif;background:#f3f5fa;color:#18243b;margin:0}
+main{max-width:960px;margin:30px auto;padding:0 16px}header,.panel{background:white;border-radius:14px;padding:22px;margin-bottom:16px;box-shadow:0 2px 12px #15204412}
+h1{margin:0 0 8px}small,.muted{color:#56657b}.warning{background:#fff4dc;border-left:4px solid #c77a00;padding:12px;margin:14px 0}
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}button,select{padding:10px 14px;border:1px solid #a7b2c4;border-radius:8px;background:white;cursor:pointer}
+button:disabled{opacity:.4;cursor:default}button.primary{background:#194c9e;color:white}.choice{display:block;width:100%;text-align:left;margin:8px 0;white-space:pre-wrap}
+.choice.selected{outline:2px solid #194c9e;background:#e9f1ff}.prose{white-space:pre-wrap;line-height:1.65}
+</style></head><body><main><header><h1>Questões ENEM — Acervo de prévia</h1>
+<p>Questões reconstruídas a partir dos cadernos azuis. <strong>Prévia não certificada:</strong> algumas podem conter erros de texto, alternativas ou imagens.</p>
+<a href="/">Voltar ao simulador principal</a></header>
+<section class="panel"><div class="controls"><label>Ano <select id="year"><option value="">Todos</option></select></label>
+<label>Dia <select id="day"><option value="">Ambos</option><option value="1">1</option><option value="2">2</option></select></label>
+<button id="previous">Anterior</button><strong id="counter">Carregando…</strong><button id="next">Próxima</button></div></section>
+<article class="panel" id="question" aria-live="polite"></article></main>
+<script>
+let rows=[],index=0,selected=null;
+const el=id=>document.getElementById(id);
+function node(tag,txt,cls){const x=document.createElement(tag);if(cls)x.className=cls;x.textContent=txt||'';return x}
+function render(){
+ const q=rows[index],target=el('question');target.replaceChildren();selected=null;
+ el('counter').textContent=rows.length?`${index+1} de ${rows.length}`:'Nenhuma questão';
+ el('previous').disabled=index===0;el('next').disabled=index>=rows.length-1;
+ if(!q){target.append(node('p','Nenhuma questão para estes filtros.'));return}
+ target.append(node('h2',`ENEM ${q.ano} · Dia ${q.dia} · Questão ${q.posicao_prova}`));
+ const warning=node('p',q.preview_unverified?'Em revisão: conteúdo ou resposta ainda não confirmados. Sem pontuação.':'Candidata com correspondência automática; não certificada visualmente.','warning');
+ target.append(warning);
+ const c=q.conteudo||{};
+ if(c.texto_base)target.append(node('div',c.texto_base,'prose'));
+ target.append(node('h3','Enunciado'),node('div',c.enunciado||'Enunciado indisponível','prose'));
+ const visual=c.metadados_visual||{};
+ if(visual.contem_imagem||visual.caminho_local_imagem)target.append(node('p','Esta questão pode depender de imagem. A representação visual não foi certificada.','warning'));
+ target.append(node('h3','Alternativas'));
+ const opts=c.alternativas||{};
+ for(const letter of 'ABCDE'){
+  const btn=node('button',`${letter}) ${opts[letter]||'Alternativa indisponível'}`,'choice');
+  btn.disabled=!opts[letter];
+  btn.addEventListener('click',()=>{selected=letter;target.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));btn.classList.add('selected')});
+  target.append(btn);
+ }
+ const check=node('button','Conferir resposta','primary');
+ const feedback=node('p','','muted');
+ check.disabled=!q.scoring_enabled||!q.gabarito_oficial;
+ check.addEventListener('click',()=>{feedback.textContent=!selected?'Escolha uma alternativa.':selected===q.gabarito_oficial?'Resposta compatível com o gabarito recuperado.':'Gabarito recuperado: '+q.gabarito_oficial});
+ target.append(check,feedback);
+ if(check.disabled)target.append(node('small','Correção desativada até a conferência do gabarito.'));
+}
+async function load(){
+ const res=await fetch('/api/published/preview/questions?limit=100&page=1');
+ if(!res.ok)throw Error('Acervo indisponível. Gere preview-questions.jsonl e reinicie o servidor.');
+ const first=await res.json();const all=[...(first.results||[])];
+ for(let page=2;all.length<first.total;page++){
+  const r=await fetch('/api/published/preview/questions?limit=100&page='+page);
+  if(!r.ok)throw Error('Falha ao carregar página '+page);
+  const d=await r.json();if(!d.results?.length)break;all.push(...d.results);
+ }
+ window.allRows=all;
+ [...new Set(all.map(q=>q.ano))].sort((a,b)=>b-a).forEach(y=>{const o=node('option',String(y));o.value=y;el('year').append(o)});
+ filter();
+}
+function filter(){rows=window.allRows.filter(q=>(!el('year').value||q.ano===Number(el('year').value))&&(!el('day').value||q.dia===Number(el('day').value)));index=0;render()}
+el('year').onchange=filter;el('day').onchange=filter;
+el('previous').onclick=()=>{index--;render()};el('next').onclick=()=>{index++;render()};
+load().catch(e=>{el('question').textContent=e.message;el('counter').textContent='Erro'});
+</script></body></html>
