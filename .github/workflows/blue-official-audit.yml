@@ -75,6 +75,12 @@ jobs:
                   lines.append(f"- Answer evidence: {answer_data['summary']}")
           else:
               lines.append('- Validation not completed; inspect download report and logs.')
+          matrix = Path('data/blue-staging/audit-matrix-summary.json')
+          if matrix.is_file():
+              m = json.loads(matrix.read_text())
+              lines.append(f"- Audit matrix: {m['positions_reported']}/1620 positions; 0 certified")
+              for priority, count in sorted(m.get('priority_counts', {}).items()):
+                  lines.append(f'- {priority}: {count}')
           if len(pdfs) != 18:
               print('::warning::Some official exam PDFs are missing. Audit is incomplete.')
           summary = '\n'.join(lines) + '\n'
