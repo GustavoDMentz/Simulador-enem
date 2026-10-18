@@ -32,7 +32,10 @@ def test_repair_skips_own_header_and_generates_image(tmp_path):
         assert result is not None
         assert result["status"] == "candidate_for_review"
         assert result["sequence_in_right_segment"] == "ABCDE"
-        assert (tmp_path / "q007-continuation.png").is_file()
+        image_path = tmp_path / "q007-continuation.png"
+        assert image_path.is_file()
+        pix = pymupdf.Pixmap(str(image_path))
+        assert pix.color_count() > 1, "Recorte não pode ser uma página em branco"
         assert result["publication_authorized"] is False
 
 
