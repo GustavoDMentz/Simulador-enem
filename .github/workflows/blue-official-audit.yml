@@ -9,6 +9,7 @@ on:
       - scripts/rebuild_blue.py
       - scripts/extract_blue_candidates.py
       - scripts/validate_blue_official.py
+      - scripts/consolidate_blue_audit.py
       - scripts/audit_blue_staging_answers.py
       - scripts/audit_official_gabaritos.py
       - .github/workflows/blue-official-audit.yml
@@ -97,6 +98,8 @@ jobs:
             data/blue-staging/official-validation.jsonl
             data/blue-staging/official-answer-summary.json
             data/blue-staging/official-answer-evidence.jsonl
+            data/blue-staging/audit-matrix.jsonl
+            data/blue-staging/audit-matrix-summary.json
             data/blue-staging/exceptions.csv
           if-no-files-found: warn
           retention-days: 7
