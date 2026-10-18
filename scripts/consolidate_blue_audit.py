@@ -74,7 +74,10 @@ def consolidate(staging, text_evidence, answer_evidence):
         if ans and (ans.get("publishable") or ans.get("answer_verified")):
             problems.append("UNEXPECTED_VERIFIED_FLAG")
         issue_set = set(problems)
-        if issue_set & {"ANSWER_DIVERGENCE", "SUSPECTED_TEXT_DIVERGENCE"}:
+        if (txt is not None and txt.get("status") == "SOURCE_MISSING"
+                and ans is not None and ans.get("status") == "SOURCE_MISSING"):
+            priority = "BLOCKED_OFFICIAL_SOURCES"
+        elif issue_set & {"ANSWER_DIVERGENCE", "SUSPECTED_TEXT_DIVERGENCE"}:
             priority = "P0_DIVERGENCE"
         elif issue_set & {"DUPLICATE_POSITION_IN_EVIDENCE", "STAGING_MISSING",
                           "TEXT_EVIDENCE_MISSING", "ANSWER_EVIDENCE_MISSING",
@@ -121,7 +124,7 @@ def main():
             f.write(json.dumps(item,ensure_ascii=False)+"\n")
     (folder/"audit-matrix-summary.json").write_text(
         json.dumps(summary,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    order = {"P0_DIVERGENCE":0,"P1_INTEGRITY":1,"P2_RECOVERY":2,"P3_FIDELITY_TRI":3}
+    order = {"BLOCKED_OFFICIAL_SOURCES":-1,"P0_DIVERGENCE":0,"P1_INTEGRITY":1,"P2_RECOVERY":2,"P3_FIDELITY_TRI":3}
     with (folder/"audit-priority.csv").open("w",encoding="utf-8",newline="") as f:
         writer=csv.DictWriter(f,fieldnames=["priority","ano","dia","posicao",
             "staging_status","text_status","answer_status","problems"])
