@@ -61,6 +61,19 @@ def inspect(db, fused=None):
             if n:
                 issues.append({"code": "INVALID_EDGE_ENDPOINT", "collection": name,
                                "field": direction, "count": n})
+        # Pre-v2 importer generated random edge keys, so reruns duplicated links.
+        canonical = ('CONCAT(LAST(SPLIT(e._from, "/")), "_", '
+                     'LAST(SPLIT(e._to, "/")))' if name == "HabilidadeArea"
+                     else 'CONCAT(LAST(SPLIT(e._from, "/")), "_", @name)')
+        bad_keys = count(db, f"""
+            FOR e IN @@edge
+                FILTER e._key != {canonical}
+                COLLECT WITH COUNT INTO n
+                RETURN n
+        """, {"@edge": name, "name": name})
+        if bad_keys:
+            issues.append({"code": "NONCANONICAL_EDGE_KEY", "collection": name,
+                           "count": bad_keys, "message": "Review legacy edges before any reload"})
 
     if "Questoes" in present:
         for code, query in {
