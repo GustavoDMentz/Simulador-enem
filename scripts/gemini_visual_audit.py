@@ -20,6 +20,7 @@ except ModuleNotFoundError:
     from audit_structured_question import validate_report
 
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/"
+DEFAULT_MODEL = "gemini-3.5-flash-lite"
 SCHEMA = {
     "type": "OBJECT",
     "properties": {
@@ -59,6 +60,32 @@ def verify(folder: Path) -> dict:
         raise ValueError("Pacote não está bloqueado para publicação")
     manifest["manifest_sha256"] = sha(manifest_path)
     return manifest
+
+
+def list_models(api_key: str) -> list[dict]:
+    """Consulta modelos acessíveis à chave, com paginação e métodos suportados."""
+    from urllib.parse import urlencode
+    found = []
+    token = None
+    while True:
+        query = urlencode({"pageSize": 100, **({"pageToken": token} if token else {})})
+        request = Request(ENDPOINT + "?" + query, headers={"x-goog-api-key": api_key})
+        with urlopen(request, timeout=30) as response:
+            data = json.load(response)
+        found.extend(data.get("models", []))
+        token = data.get("nextPageToken")
+        if not token:
+            break
+    return found
+
+
+def ensure_model_available(model: str, api_key: str) -> dict:
+    for entry in list_models(api_key):
+        if entry.get("name") == "models/" + model:
+            if "generateContent" not in entry.get("supportedGenerationMethods", []):
+                raise ValueError(f"Modelo {model} não suporta generateContent")
+            return entry
+    raise ValueError(f"Modelo {model} não disponível para esta chave")
 
 
 def payload(folder: Path, model: str, max_output_tokens: int) -> dict:
@@ -120,6 +147,7 @@ def audit(folder: Path, output: Path, *, model: str, execute: bool,
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise ValueError("GEMINI_API_KEY não configurada")
+    ensure_model_available(model, key)
     url = ENDPOINT + model + ":generateContent"
     request = Request(url, data=json.dumps(request_body).encode("utf-8"),
                       headers={"Content-Type": "application/json", "x-goog-api-key": key},
@@ -156,14 +184,27 @@ def audit(folder: Path, output: Path, *, model: str, execute: bool,
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--package", type=Path, required=True)
-    parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--model", default="gemini-2.5-flash")
+    parser.add_argument("--package", type=Path)
+    parser.add_argument("--output", type=Path)
+    parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument("--list-models", action="store_true", help="Consulta catálogo acessível à chave, sem gerar conteúdo")
     parser.add_argument("--max-output-tokens", type=int, default=1024)
     parser.add_argument("--input-usd-per-million", type=float)
     parser.add_argument("--output-usd-per-million", type=float)
     parser.add_argument("--execute", action="store_true", help="Autoriza UMA chamada real à API")
     args = parser.parse_args()
+    if args.list_models:
+        key = os.environ.get("GEMINI_API_KEY")
+        if not key:
+            parser.error("GEMINI_API_KEY não configurada")
+        models = [{"id": m["name"].removeprefix("models/"),
+                   "display_name": m.get("displayName")}
+                  for m in list_models(key)
+                  if "generateContent" in m.get("supportedGenerationMethods", [])]
+        print(json.dumps(models, ensure_ascii=False, indent=2))
+        return
+    if args.package is None or args.output is None:
+        parser.error("--package e --output são obrigatórios para auditoria")
     print(json.dumps(audit(args.package, args.output, model=args.model,
         execute=args.execute, max_output_tokens=args.max_output_tokens,
         input_rate=args.input_usd_per_million,
