@@ -25,6 +25,15 @@ class MatrixTests(unittest.TestCase):
         self.assertIn("UNEXPECTED_VERIFIED_FLAG",item["problems"])
         self.assertFalse(item["publishable"])
 
+    def test_unavailable_official_sources_are_not_extraction_errors(self):
+        row={"ano":2018,"dia":2,"posicao":91}
+        text={"ano":2018,"dia":2,"posicao":91,"status":"SOURCE_MISSING"}
+        answer={"ano":2018,"dia":2,"posicao":91,"status":"SOURCE_MISSING"}
+        records,summary=consolidate([row],[text],[answer])
+        item=next(x for x in records if x["ano"]==2018 and x["posicao"]==91)
+        self.assertEqual(item["priority"],"BLOCKED_OFFICIAL_SOURCES")
+        self.assertEqual(summary["priority_counts"]["BLOCKED_OFFICIAL_SOURCES"],1)
+
     def test_duplicate_is_detected(self):
         row={"ano":2018,"dia":2,"posicao":91}
         records,_=consolidate([row,row],[],[])
