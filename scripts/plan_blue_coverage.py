@@ -11,7 +11,8 @@ from pathlib import Path
 
 YEARS = range(2017, 2026)
 DAYS = (1, 2)
-POSITIONS = range(1, 91)
+def positions_for_day(day):
+    return range(1, 91) if day == 1 else range(91, 181)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -25,7 +26,7 @@ def main():
     invalid = []
     for r in records:
         year, day, pos = r["ano"], r["dia"], r["posicao"]
-        if year not in YEARS or day not in DAYS or not isinstance(pos, int) or pos not in POSITIONS:
+        if year not in YEARS or day not in DAYS or not isinstance(pos, int) or pos not in positions_for_day(day):
             invalid.append(r["id"])
             continue
         if str(r["cor"]).upper() == "AZUL":
@@ -37,7 +38,7 @@ def main():
     for year in YEARS:
         for day in DAYS:
             counts = Counter()
-            for pos in POSITIONS:
+            for pos in positions_for_day(day):
                 matches = blue[(year, day, pos)]
                 # Reuse other-color text only after independently proving
                 # correspondence with the official blue PDF.
