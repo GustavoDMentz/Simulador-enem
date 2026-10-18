@@ -13,6 +13,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
+import subprocess
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extract_blue_candidates import words_for_pdf, heading_candidates
@@ -116,6 +117,7 @@ def main():
     ap.add_argument("--pdf-dir", type=Path, default=Path("data/enem-pdfs/oficiais"))
     ap.add_argument("--output-dir", type=Path, default=Path("data/blue-staging"))
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--skip-official-audit", action="store_true", help="Stage only, without PyMuPDF validation")
     args = ap.parse_args()
     if not args.all:
         ap.error("Pass --all to run the full canonical staging job")
@@ -196,6 +198,12 @@ def main():
                      "Existing records may contain wrong answers or item links",
                      "Text extraction omits graphics and may truncate continuations"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
+    if not args.skip_official_audit:
+        # Independent parser: compare existing records and new alternatives
+        # with source PDF geometry. Never promote these to verified status.
+        subprocess.run([sys.executable, str(Path(__file__).with_name("validate_blue_official.py")),
+                        "--input", str(output), "--output-dir", str(args.output_dir)],
+                       check=True)
     print(json.dumps({"total": len(rows), "summary": summary,
                       "exceptions": len(exceptions), "output": str(args.output_dir)},
                      ensure_ascii=False, indent=2))
