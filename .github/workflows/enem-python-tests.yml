@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - refactor/enem-2.0
+      - feat/integrate-enem-audit-gate
   pull_request:
     paths:
       - "scripts/**"
@@ -48,4 +49,5 @@ jobs:
             tests/test_repair_column_continuations.py \
             tests/test_integrate_continuations.py \
             tests/test_download_inep_enem.py \
-            tests/test_inventory_enem_pdfs.py
+            tests/test_inventory_enem_pdfs.py \
+            tests/test_validate_blue_official.py
