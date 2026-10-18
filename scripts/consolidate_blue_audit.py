@@ -4,6 +4,7 @@
 Read-only: never modifies fused JSONL, official sources or a database.
 """
 import argparse
+import csv
 from collections import Counter
 import json
 from pathlib import Path
@@ -72,7 +73,19 @@ def consolidate(staging, text_evidence, answer_evidence):
             problems.append("UNEXPECTED_VERIFIED_FLAG")
         if ans and (ans.get("publishable") or ans.get("answer_verified")):
             problems.append("UNEXPECTED_VERIFIED_FLAG")
-        results.append({"ano":key[0], "dia":key[1], "posicao":key[2],
+        issue_set = set(problems)
+        if issue_set & {"ANSWER_DIVERGENCE", "SUSPECTED_TEXT_DIVERGENCE"}:
+            priority = "P0_DIVERGENCE"
+        elif issue_set & {"DUPLICATE_POSITION_IN_EVIDENCE", "STAGING_MISSING",
+                          "TEXT_EVIDENCE_MISSING", "ANSWER_EVIDENCE_MISSING",
+                          "UNEXPECTED_VERIFIED_FLAG"}:
+            priority = "P1_INTEGRITY"
+        elif issue_set & {"TEXT_REVIEW_REQUIRED", "TEXT_FIELD_MISMATCH_OR_EMPTY",
+                          "ANSWER_REVIEW_REQUIRED", "CONTINUATION_UNVERIFIED"}:
+            priority = "P2_RECOVERY"
+        else:
+            priority = "P3_FIDELITY_TRI"
+        results.append({"priority":priority, "ano":key[0], "dia":key[1], "posicao":key[2],
                         "staging_status":row.get("status") if row else None,
                         "text_status":txt.get("status") if txt else None,
                         "answer_status":ans.get("status") if ans else None,
@@ -82,7 +95,8 @@ def consolidate(staging, text_evidence, answer_evidence):
               "text": sorted([list(k) for k in texts.keys()-POSITIONS]),
               "answer": sorted([list(k) for k in answers.keys()-POSITIONS])}
     counts = Counter(problem for item in results for problem in item["problems"])
-    summary = {"safe_staging_only":True, "expected_positions":len(POSITIONS),
+    summary = {"safe_staging_only":True,
+               "priority_counts":dict(Counter(x["priority"] for x in results)), "expected_positions":len(POSITIONS),
                "positions_reported":len(results), "publishable":0,
                "fully_verified":0, "problem_counts":dict(sorted(counts.items())),
                "text_statuses":dict(Counter(x["text_status"] for x in results)),
@@ -107,6 +121,14 @@ def main():
             f.write(json.dumps(item,ensure_ascii=False)+"\n")
     (folder/"audit-matrix-summary.json").write_text(
         json.dumps(summary,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    order = {"P0_DIVERGENCE":0,"P1_INTEGRITY":1,"P2_RECOVERY":2,"P3_FIDELITY_TRI":3}
+    with (folder/"audit-priority.csv").open("w",encoding="utf-8",newline="") as f:
+        writer=csv.DictWriter(f,fieldnames=["priority","ano","dia","posicao",
+            "staging_status","text_status","answer_status","problems"])
+        writer.writeheader()
+        for item in sorted(results,key=lambda x:(order[x["priority"]],x["ano"],x["dia"],x["posicao"])):
+            writer.writerow({k:("|".join(item[k]) if k=="problems" else item.get(k))
+                             for k in writer.fieldnames})
     print(json.dumps(summary,ensure_ascii=False,indent=2))
     if any(summary["unexpected_positions"].values()) or summary["problem_counts"].get("UNEXPECTED_VERIFIED_FLAG"):
         raise SystemExit("FAIL CLOSED: invalid positions or premature verification flags")
