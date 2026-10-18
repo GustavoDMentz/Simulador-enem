@@ -63,6 +63,17 @@ def execute(manifest: Path, output: Path, *, force: bool = False) -> dict:
                 continue
         questions = target / "questions"
         review = target / "review"
+        queue_file = review / "question-review.json"
+        if queue_file.exists():
+            previous = json.loads(queue_file.read_text(encoding="utf-8"))
+            if any(r.get("review_status") != "pending" for r in previous.get("records", [])):
+                summary.append({"id": key, "status": "blocked_reviewed_queue",
+                                "reason": "Fila contém decisões humanas; não sobrescrever"})
+                continue
+            if not force:
+                summary.append({"id": key, "status": "blocked_existing_queue",
+                                "reason": "Fila existente; use --force somente se for descartável"})
+                continue
         try:
             subprocess.run([sys.executable, str(root / "scripts/segment_question_candidates.py"),
                             "--pdf", str(pdf), "--output", str(questions)], check=True)
