@@ -65,12 +65,15 @@ def inspect(db, fused=None):
         canonical = ('CONCAT(LAST(SPLIT(e._from, "/")), "_", '
                      'LAST(SPLIT(e._to, "/")))' if name == "HabilidadeArea"
                      else 'CONCAT(LAST(SPLIT(e._from, "/")), "_", @name)')
+        canonical_bindings = {"@edge": name}
+        if name != "HabilidadeArea":
+            canonical_bindings["name"] = name
         bad_keys = count(db, f"""
             FOR e IN @@edge
                 FILTER e._key != {canonical}
                 COLLECT WITH COUNT INTO n
                 RETURN n
-        """, {"@edge": name, "name": name})
+        """, canonical_bindings)
         if bad_keys:
             issues.append({"code": "NONCANONICAL_EDGE_KEY", "collection": name,
                            "count": bad_keys, "message": "Review legacy edges before any reload"})
