@@ -1,0 +1,35 @@
+name: ENEM database integrity checks
+on:
+  push:
+    branches: [feat/integrate-enem-audit-gate]
+  pull_request:
+    paths:
+      - 'scripts/audit_fused_db.py'
+      - 'scripts/tests/**'
+      - 'web/audit-gate.js'
+      - 'web/tests/**'
+      - '.github/workflows/db-integrity.yml'
+  workflow_dispatch:
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Python unit tests
+        run: python -m unittest discover -s scripts/tests -p 'test_*.py' -v
+      - name: Node audit gate tests
+        run: node --test web/tests/audit-gate.test.js
+      - name: Fused JSONL integrity report
+        run: |
+          if find data/fused -maxdepth 1 -name '*.jsonl' -print -quit | grep -q .; then
+            python scripts/audit_fused_db.py --fused data/fused --output /tmp/db-report.json
+          else
+            echo 'No fused JSONL in checkout; DB coverage cannot be validated'
+            exit 1
+          fi
