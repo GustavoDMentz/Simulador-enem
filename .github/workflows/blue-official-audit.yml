@@ -9,6 +9,8 @@ on:
       - scripts/rebuild_blue.py
       - scripts/extract_blue_candidates.py
       - scripts/validate_blue_official.py
+      - scripts/audit_blue_staging_answers.py
+      - scripts/audit_official_gabaritos.py
       - .github/workflows/blue-official-audit.yml
   workflow_dispatch:
 
@@ -66,6 +68,10 @@ jobs:
               lines.append(f"- Staged records examined: {data['total']}")
               for status, count in sorted(data['summary'].items()):
                   lines.append(f'- {status}: {count}')
+              answers = Path('data/blue-staging/official-answer-summary.json')
+              if answers.is_file():
+                  answer_data = json.loads(answers.read_text())
+                  lines.append(f"- Answer evidence: {answer_data['summary']}")
           else:
               lines.append('- Validation not completed; inspect download report and logs.')
           if len(pdfs) != 18:
@@ -89,6 +95,8 @@ jobs:
             data/blue-staging/report.json
             data/blue-staging/official-validation-summary.json
             data/blue-staging/official-validation.jsonl
+            data/blue-staging/official-answer-summary.json
+            data/blue-staging/official-answer-evidence.jsonl
             data/blue-staging/exceptions.csv
           if-no-files-found: warn
           retention-days: 7
