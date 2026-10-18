@@ -8,7 +8,10 @@ import argparse
 import hashlib
 import json
 import re
+import ssl
 import time
+import socket
+from urllib.error import HTTPError, URLError
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -86,11 +89,37 @@ def discover(html: str, page_url: str):
     return found
 
 
-def request(url: str) -> bytes:
+def request(url: str, *, attempts: int = 3, ca_bundle: str | None = None) -> bytes:
     if urlparse(url).scheme != "https" or urlparse(url).hostname not in ALLOWED:
         raise ValueError(f"Domínio não autorizado: {url}")
+    if attempts < 1:
+        raise ValueError("attempts deve ser positivo")
+    context = ssl.create_default_context(cafile=ca_bundle)
+    last_error = None
+    for attempt in range(attempts):
+        try:
+            return _download_once(url, context)
+        except (HTTPError, URLError, ConnectionResetError, TimeoutError,
+                socket.timeout, ssl.SSLError) as exc:
+            last_error = exc
+            if isinstance(exc, HTTPError) and exc.code not in (429, 500, 502, 503, 504):
+                raise
+            if isinstance(exc, ssl.SSLCertVerificationError) or (
+                isinstance(exc, URLError) and
+                isinstance(exc.reason, ssl.SSLCertVerificationError)
+            ):
+                raise RuntimeError(
+                    f"Falha de certificado HTTPS em {url}. Configure CA_BUNDLE "
+                    "com uma cadeia confiável; não desative a verificação SSL."
+                ) from exc
+            if attempt + 1 < attempts:
+                time.sleep(min(2 ** attempt, 8))
+    raise RuntimeError(f"Falha após {attempts} tentativas em {url}: {last_error}")
+
+
+def _download_once(url: str, context: ssl.SSLContext) -> bytes:
     with urlopen(Request(url, headers={"User-Agent": "ENEM-Research-Downloader/1.0"}),
-                 timeout=45) as response:
+                 timeout=45, context=context) as response:
         final = response.geturl()
         if urlparse(final).scheme != "https" or urlparse(final).hostname not in ALLOWED:
             raise ValueError(f"Redirecionamento não autorizado: {final}")
@@ -106,7 +135,7 @@ def request(url: str) -> bytes:
     return b"".join(chunks)
 
 
-def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0):
+def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0,\n            ca_bundle: str | None = None):
     dest.mkdir(parents=True, exist_ok=True)
     existing = {"exams": []}
     if manifest_path.exists():
@@ -117,7 +146,7 @@ def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0):
     for year in years:
         page_url = BASE + str(year)
         try:
-            discovered = discover(request(page_url).decode("utf-8", "replace"), page_url)
+            discovered = discover(request(page_url, ca_bundle=ca_bundle).decode("utf-8", "replace"), page_url)
         except Exception as exc:
             results.append({"year": year, "status": "page_failed", "error": str(exc)})
             continue
@@ -134,7 +163,7 @@ def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0):
                 if pdf_path.exists():
                     payload = pdf_path.read_bytes()
                 else:
-                    payload = request(record["prova"])
+                    payload = request(record["prova"], ca_bundle=ca_bundle)
                 if not payload.startswith(b"%PDF"):
                     raise ValueError("Resposta não é PDF")
                 if not pdf_path.exists():
@@ -147,7 +176,7 @@ def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0):
                 if record["gabarito"]:
                     answer_path = dest / f"{year}-regular-d{day}-azul-gabarito.pdf"
                     try:
-                        answer = request(record["gabarito"])
+                        answer = request(record["gabarito"], ca_bundle=ca_bundle)
                         if not answer.startswith(b"%PDF"):
                             raise ValueError("Gabarito não é PDF")
                         if not answer_path.exists():
@@ -180,10 +209,12 @@ def main():
     parser.add_argument("--manifest", type=Path, required=True)
     parser.add_argument("--years", nargs="+", type=int, default=list(range(2017, 2026)))
     parser.add_argument("--delay", type=float, default=1.0)
+    parser.add_argument("--ca-bundle", type=Path,
+                        help="Arquivo PEM com CAs confiáveis, se necessário")
     args = parser.parse_args()
     if any(y < 2017 or y > 2025 for y in args.years) or args.delay < 0:
         parser.error("Anos permitidos: 2017–2025; delay não negativo")
-    report = acquire(args.dest, args.manifest, years=args.years, delay=args.delay)
+    report = acquire(args.dest, args.manifest, years=args.years, delay=args.delay,\n                     ca_bundle=str(args.ca_bundle) if args.ca_bundle else None)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 
