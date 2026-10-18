@@ -10,7 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 
-import fitz
+import pymupdf
 
 from segment_question_candidates import find_headers
 
@@ -22,11 +22,13 @@ def inspect(pdf_path: Path, queue_path: Path, record_id: str, output: Path, dpi:
     record = next((r for r in queue["records"] if r["id"] == record_id), None)
     if record is None:
         raise ValueError(f"Registro não encontrado: {record_id}")
+    if not pdf_path.is_file():
+        raise ValueError(f'--pdf deve apontar para um arquivo PDF existente: {pdf_path}')
     digest = hashlib.sha256(pdf_path.read_bytes()).hexdigest()
     if digest != queue["source_sha256"]:
         raise ValueError("SHA-256 do PDF não coincide com a fila")
     output.mkdir(parents=True, exist_ok=True)
-    with fitz.open(pdf_path) as doc:
+    with pymupdf.open(pdf_path) as doc:
         page_idx = record["page"] - 1
         if not 0 <= page_idx < len(doc):
             raise ValueError("Página inválida na fila")
