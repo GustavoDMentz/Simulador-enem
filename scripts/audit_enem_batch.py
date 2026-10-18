@@ -28,6 +28,12 @@ def audit(root: Path) -> dict:
         counts = Counter(r["original_number"] for r in records)
         repaired = set(data.get("continuation_integration", {}).get("repaired_ids", []))
         flags = Counter()
+        report_path = queue.parent / "images" / "continuation-report.json"
+        manual_ids = set()
+        if report_path.is_file():
+            report = json.loads(report_path.read_text(encoding="utf-8"))
+            manual_ids = {x["id"] for x in report.get("results", [])
+                          if x.get("status") == "manual_review"}
         if len(records) != expected:
             findings.append({"exam": exam_id, "issue": "unexpected_count", "actual": len(records), "expected": expected})
         for record in records:
@@ -38,6 +44,8 @@ def audit(root: Path) -> dict:
                 issues.append("duplicate_number_language_check")
             if record["id"] in repaired:
                 issues.append("composite_crop_visual_check")
+            if record["id"] in manual_ids:
+                issues.append("continuation_manual_review")
             if record.get("review_status") != "pending":
                 issues.append("non_pending_review_status")
             if record.get("alternatives") is None:
@@ -54,7 +62,7 @@ def audit(root: Path) -> dict:
             if issues:
                 findings.append({"exam": exam_id, "id": record["id"], "number": record["original_number"], "issues": issues})
         exams.append({"exam": exam_id, "candidates": len(records), "expected": expected,
-                      "repaired": len(repaired), "duplicate_numbers": sorted(n for n, c in counts.items() if c > 1),
+                      "repaired": len(repaired), "continuation_manual_review": len(manual_ids), "duplicate_numbers": sorted(n for n, c in counts.items() if c > 1),
                       **flags})
     return {"schema_version": 1, "exams": exams, "total_exams": len(exams),
             "total_candidates": sum(e["candidates"] for e in exams),
