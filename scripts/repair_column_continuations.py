@@ -60,7 +60,11 @@ def repair(pdf, record, output_dir):
     # A questão deve ser a última da coluna esquerda: sem cabeçalho posterior.
     for value, bbox in lines_in(page, pymupdf.Rect(0, left.y0 + 1, mid, page.rect.height)):
         if HEADER.fullmatch(value) and bbox[1] > left.y0 + 5:
-            return None
+            # O recorte começa 8 pt antes do próprio cabeçalho: não o trate
+            # como uma questão posterior.
+            number = int(re.search(r"\\d+", value).group())
+            if number != record["original_number"]:
+                return None
     next_header = right_header_y(page)
     if next_header is None:
         return None
