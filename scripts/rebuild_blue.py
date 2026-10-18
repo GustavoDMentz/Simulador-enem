@@ -73,9 +73,41 @@ def candidate_for(pages, found, position):
             "pdf_page": page_number, "column": "left" if left else "right",
             "raw_text": " ".join(w["text"] for w in chosen),
             "layout_lines": layout_lines, "option_marker_hypotheses": markers,
+            "option_segmentation": option_segments(layout_lines, markers),
             "warnings": ["SINGLE_PAGE_ONLY", "COLUMN_LAYOUT_UNVERIFIED",
                          "OPTIONS_UNVERIFIED", "OPTION_MARKERS_HEURISTIC", "FIGURES_UNVERIFIED",
                          "CREDITS_UNVERIFIED", "CONTINUATION_UNVERIFIED"]}
+
+def option_segments(layout_lines, markers):
+    """Geometric A-E hypotheses; preserve ambiguous cases without guessing."""
+    from collections import Counter
+    counts = Counter(m["letter"] for m in markers)
+    letters = [m["letter"] for m in markers]
+    if letters != list("ABCDE") or any(counts[k] != 1 for k in "ABCDE"):
+        return {"status": "AMBIGUOUS_MARKERS", "markers": markers,
+                "reason": "Markers are missing, repeated or out of sequence"}
+    xs = [m["x"] for m in markers]
+    if max(xs) - min(xs) > 22:
+        return {"status": "AMBIGUOUS_MARKERS", "markers": markers,
+                "reason": "Marker horizontal positions disagree"}
+    result = {}
+    for i, marker in enumerate(markers):
+        start = marker["line_index"]
+        end = markers[i + 1]["line_index"] if i + 1 < 5 else len(layout_lines)
+        parts = []
+        for j in range(start, end):
+            words = layout_lines[j]["words"]
+            if j == start:
+                words = [w for w in words if not (
+                    w["text"] == marker["letter"] and abs(w["x"] - marker["x"]) < 1)]
+            parts.append(" ".join(w["text"] for w in words))
+        result[marker["letter"]] = " ".join(p for p in parts if p).strip()
+    if any(not result[k] for k in "ABCDE"):
+        return {"status": "AMBIGUOUS_MARKERS", "markers": markers,
+                "reason": "One or more options empty"}
+    return {"status": "GEOMETRIC_HYPOTHESIS_UNVERIFIED",
+            "options": result, "markers": markers}
+
 
 def main():
     ap = argparse.ArgumentParser()
