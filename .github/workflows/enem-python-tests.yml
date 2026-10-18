@@ -43,4 +43,5 @@ jobs:
             tests/test_export_reviewed_questions.py \
             tests/test_triage_questions.py \
             tests/test_reconcile_answer_key.py \
-            tests/test_diagnose_options.py
+            tests/test_diagnose_options.py \
+            tests/test_diagnose_pdf_geometry.py
