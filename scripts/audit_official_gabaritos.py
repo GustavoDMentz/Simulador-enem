@@ -10,8 +10,8 @@ import re
 import subprocess
 from pathlib import Path
 
-PDF_RE = re.compile(r"^(20\\d{2})-regular-d([12])-azul-gabarito\\.pdf$", re.I)
-ROW_RE = re.compile(r"^\\s*(\\d{1,3})\\s+([A-E*X-])(?:\\s+([A-E*X-]))?(?:\\s+(\\d{1,3})\\s+([A-E*X-]))?\\s*$")
+PDF_RE = re.compile(r"^(20\d{2})-regular-d([12])-azul-gabarito\.pdf$", re.I)
+ROW_RE = re.compile(r"^\s*(\d{1,3})\s+([A-E*X-])(?:\s+([A-E*X-]))?(?:\s+(\d{1,3})\s+([A-E*X-]))?\s*$")
 LANG = {"INGLES": "ingles", "ESPANHOL": "espanhol", "INGLÊS": "ingles"}
 def extract_pdf(pdf):
     result = subprocess.run(["pdftotext", "-layout", str(pdf), "-"], capture_output=True, text=True, check=True)
