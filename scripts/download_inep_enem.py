@@ -127,8 +127,8 @@ def _curl_verified(url: str) -> bytes:
         # No redirects, only HTTPS, no proxy. System curl verifies the peer.
         result = subprocess.run([
             "curl", "--fail", "--silent", "--show-error", "--proto", "=https",
-            "--noproxy", "*", "--max-time", "60", "--output", str(target), url,
-        ], capture_output=True, text=True, timeout=70)
+            "--noproxy", "*", "--connect-timeout", "8", "--max-time", "20", "--output", str(target), url,
+        ], capture_output=True, text=True, timeout=25)
         if result.returncode:
             raise RuntimeError(f"Verified curl download failed: {result.stderr[:250]}")
         if target.stat().st_size > 100 * 1024 * 1024:
@@ -180,6 +180,12 @@ def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0,
             discovered = discover(request(page_url, ca_bundle=ca_bundle).decode("utf-8", "replace"), page_url)
         except Exception as exc:
             results.append({"year": year, "status": "page_failed", "error": str(exc)})
+            # A source transport outage affecting the first year is unlikely
+            # to improve across the same domain; fail early in unattended CI.
+            if year == years[0] and not entries:
+                results.append({"status": "source_transport_blocked",
+                                "reason": "First official index page inaccessible"})
+                break
             continue
         for day in (1, 2):
             if (year, day) in known:
