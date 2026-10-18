@@ -62,7 +62,7 @@ def repair(pdf, record, output_dir):
         if HEADER.fullmatch(value) and bbox[1] > left.y0 + 5:
             # O recorte começa 8 pt antes do próprio cabeçalho: não o trate
             # como uma questão posterior.
-            number = int(re.search(r"\\d+", value).group())
+            number = int(re.search(r"[0-9]+", value).group())
             if number != record["original_number"]:
                 return None
     next_header = right_header_y(page)
