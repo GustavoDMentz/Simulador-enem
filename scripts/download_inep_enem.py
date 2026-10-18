@@ -15,7 +15,7 @@ from urllib.error import HTTPError, URLError
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
-from urllib.request import Request, urlopen
+from urllib.request import Request, urlopen, ProxyHandler, HTTPSHandler, build_opener
 
 BASE = "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/"
 HEADING = re.compile(r"([12])\s*[ºo°]?\s*dia\s*[-–—]\s*caderno\s*([0-9]+)\s*[-–—]\s*([a-záéíóúâêôãõç]+)", re.I)
@@ -118,8 +118,12 @@ def request(url: str, *, attempts: int = 3, ca_bundle: str | None = None) -> byt
 
 
 def _download_once(url: str, context: ssl.SSLContext) -> bytes:
-    with urlopen(Request(url, headers={"User-Agent": "ENEM-Research-Downloader/1.0"}),
-                 timeout=45, context=context) as response:
+    # Some CI environments set HTTPS_PROXY with a certificate chain not trusted
+    # by Python, while direct verified TLS to Inep succeeds. Disable proxies
+    # only for this allowlisted HTTPS download; never disable TLS verification.
+    opener = build_opener(ProxyHandler({}), HTTPSHandler(context=context))
+    with opener.open(Request(url, headers={"User-Agent": "ENEM-Research-Downloader/1.0"}),
+                     timeout=45) as response:
         final = response.geturl()
         if urlparse(final).scheme != "https" or urlparse(final).hostname not in ALLOWED:
             raise ValueError(f"Redirecionamento não autorizado: {final}")
