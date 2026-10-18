@@ -46,4 +46,6 @@ jobs:
             tests/test_diagnose_options.py \
             tests/test_diagnose_pdf_geometry.py \
             tests/test_repair_column_continuations.py \
-            tests/test_integrate_continuations.py
+            tests/test_integrate_continuations.py \
+            tests/test_download_inep_enem.py \
+            tests/test_inventory_enem_pdfs.py
