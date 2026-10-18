@@ -14,7 +14,7 @@ from pathlib import Path
 
 import fitz
 
-HEADER = re.compile(r"^\\s*QUEST[ÃA]O\\s+(\\d{1,3})\\s*$", re.IGNORECASE)
+HEADER = re.compile(r"^\s*QUEST[ÃA]O\s+(\d{1,3})\s*$", re.IGNORECASE)
 
 
 def find_headers(page: fitz.Page) -> list[dict]:
