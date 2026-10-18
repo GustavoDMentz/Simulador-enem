@@ -4,10 +4,8 @@ const fs = require('fs');
 
 const app = express();
 const PORT = 3000;
-const ARANGO_HOST = "http://localhost:8529";
-const DB_NAME = "enem";
 
-// Parse .env from parent directory
+// Parse .env from parent directory (explicit environment variables take precedence)
 const dotenvPath = path.join(__dirname, '../.env');
 if (fs.existsSync(dotenvPath)) {
   const envContent = fs.readFileSync(dotenvPath, 'utf8');
@@ -16,10 +14,15 @@ if (fs.existsSync(dotenvPath)) {
     if (parts.length >= 2) {
       const key = parts[0].trim();
       const val = parts.slice(1).join('=').trim();
-      process.env[key] = val;
+      if (key && process.env[key] === undefined) process.env[key] = val;
     }
   });
 }
+
+const ARANGO_HOST = (process.env.ARANGO_HOST || 'http://127.0.0.1:8529').replace(/\\/$/, '');
+const DB_NAME = process.env.ARANGO_DB || 'enem';
+const ARANGO_USER = process.env.ARANGO_USER || 'root';
+const ARANGO_PASSWORD = process.env.ARANGO_PASSWORD;
 
 app.use(express.json());
 
@@ -34,12 +37,15 @@ app.use('/images', express.static('/home/gumentz/enem-pipeline/data/extracted'))
 
 // Helper para se comunicar com o ArangoDB HTTP API
 async function arangoQuery(query, bindVars = {}) {
-  const url = `${ARANGO_HOST}/_db/${DB_NAME}/_api/cursor`;
+  if (ARANGO_PASSWORD === undefined) {
+    throw new Error('ARANGO_PASSWORD não configurada. Defina a variável de ambiente antes de iniciar o servidor.');
+  }
+  const url = `${ARANGO_HOST}/_db/${encodeURIComponent(DB_NAME)}/_api/cursor`;
   const response = await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Basic ' + Buffer.from('root:').toString('base64')
+      'Authorization': 'Basic ' + Buffer.from(`${ARANGO_USER}:${ARANGO_PASSWORD}`).toString('base64')
     },
     body: JSON.stringify({ query, bindVars })
   });
