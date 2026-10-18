@@ -233,6 +233,14 @@ def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0,
                     ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             except Exception as exc:
                 results.append({"year": year, "day": day, "status": "failed", "error": str(exc)})
+                if not entries and any(x in str(exc).lower() for x in
+                                       ("certificate", "certificado", "curl: (60)")):
+                    results.append({"status": "source_transport_blocked",
+                                    "reason": "Verified TLS unavailable for official PDFs"})
+                    (dest / "download-report.json").write_text(
+                        json.dumps({"results": results}, ensure_ascii=False, indent=2) + "\n",
+                        encoding="utf-8")
+                    return {"results": results}
             time.sleep(delay)
     report = {"results": results}
     (dest / "download-report.json").write_text(json.dumps(report, ensure_ascii=False,
