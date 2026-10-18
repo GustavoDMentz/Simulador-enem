@@ -1,0 +1,46 @@
+name: ENEM 2.0 — Python checks
+
+on:
+  push:
+    branches:
+      - refactor/enem-2.0
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/enem-python-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/workflows/enem-python-tests.yml
+
+      - name: Install test dependencies
+        run: python -m pip install pytest pymupdf
+
+      - name: Compile Python scripts
+        run: python -m compileall -q scripts
+
+      - name: Run ENEM 2.0 tests
+        run: |
+          python -m pytest -q \
+            tests/test_segment_question_candidates.py \
+            tests/test_build_question_review.py \
+            tests/test_export_reviewed_questions.py \
+            tests/test_triage_questions.py \
+            tests/test_reconcile_answer_key.py \
+            tests/test_diagnose_options.py
