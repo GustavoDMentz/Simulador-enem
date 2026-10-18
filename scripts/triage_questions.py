@@ -33,7 +33,7 @@ def inspect(record: dict, *, source_hash: str, duplicate_numbers: set[int],
         flags.append("header_missing_or_incomplete")
     matches = OPTION_RE.findall(text)
     letters = [letter for letter, _ in matches]
-    checks["five_options_detected"] = letters == list("ABCDE")
+    checks["five_options_detected"] = letters == list("ABCDE")\n    checks["ABCDE_subsequence_detected"] = "ABCDE" in "".join(letters)
     if not checks["five_options_detected"]:
         flags.append("options_missing_or_ambiguous")
     checks["duplicate_number"] = num in duplicate_numbers
