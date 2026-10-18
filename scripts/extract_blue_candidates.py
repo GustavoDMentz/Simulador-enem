@@ -20,6 +20,7 @@ PATTERN = re.compile(r"QUEST[ÃA]O\s*(\d{1,3})", re.I)
 def words_for_pdf(pdf):
     xml = subprocess.run(["pdftotext", "-bbox-layout", str(pdf), "-"],
                          check=True, capture_output=True, text=True).stdout
+    xml = "".join(ch for ch in xml if ch in "\\t\\n\\r" or 0x20 <= ord(ch) <= 0xD7FF or 0xE000 <= ord(ch) <= 0xFFFD or 0x10000 <= ord(ch) <= 0x10FFFF)
     root = ET.fromstring(xml)
     pages = []
     for page in root.iter():
