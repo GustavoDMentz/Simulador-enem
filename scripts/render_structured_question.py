@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 from pathlib import Path
 
 LETTERS = "ABCDE"
@@ -52,8 +53,17 @@ def render_blocks(blocks: list[dict]) -> str:
     return "".join(parts)
 
 
+def display_heading(identifier: str) -> tuple[str, str]:
+    match = re.fullmatch(r"(\\d{4})-[a-z0-9-]+-d([12])-[a-z]+-q(\\d{3})-p\\d{3}", identifier)
+    if match:
+        year, day, number = match.groups()
+        return f"ENEM {year} · {day}º dia", f"Questão {int(number)}"
+    return "Questão em revisão", identifier
+
+
 def render(question: dict) -> str:
     validate(question)
+    eyebrow, heading = display_heading(question["id"])
     options = "".join(
         '<li><span class="letter">' + o["label"] + '</span><div>' +
         render_blocks(o["blocks"]) + '</div></li>'
@@ -69,17 +79,24 @@ def render(question: dict) -> str:
         'ol{padding:0;list-style:none}li{display:flex;gap:16px;align-items:flex-start;'
         'padding:12px 16px;border:1px solid #e1e4e8;border-radius:10px;margin:10px 0}'
         'li>div{min-width:0;flex:1}p{white-space:pre-wrap;margin:8px 0}'
+        'li>div{display:grid;grid-template-columns:minmax(150px,230px) minmax(0,1fr);'
+        'align-items:center;column-gap:20px;row-gap:4px}'
+        'li .block-imagem{grid-row:1/span 3;grid-column:1;max-width:100%;max-height:200px}'
+        'li .block-texto,li .block-credito{grid-column:2}'
+        'li .block-texto{font-size:1rem;font-weight:500}li .block-credito{font-size:.82rem}'
         '.block-titulo{font-size:1.08rem;font-weight:750;letter-spacing:.02em;margin-top:22px}'
         '.block-credito{font-size:.78rem;color:#64748b;line-height:1.45}'
         '.block-enunciado{font-size:1.05rem;font-weight:550;line-height:1.7;margin:24px 0}'
         '.block-imagem{max-height:360px;width:auto}li .block-imagem{max-height:240px}'
         'li .block-texto{font-size:1rem;line-height:1.55}'
-        '@media(max-width:600px){main{margin:0;padding:20px;border-radius:0}li{padding:12px}}'
+        '@media(max-width:600px){main{margin:0;padding:20px;border-radius:0}li{padding:12px}'
+        'li>div{grid-template-columns:1fr}li .block-imagem{grid-column:1;grid-row:auto;max-height:220px}'
+        'li .block-texto,li .block-credito{grid-column:1}}'
         '.letter{border:1px solid #94a3b8;border-radius:50%;width:32px;height:32px;'
         'flex:none;display:grid;place-items:center;font-weight:700}'
         '.note{color:#64748b;font-size:13px}</style>'
         '<main><p class="note">Prévia estruturada — não publicada</p><h1>' +
-        html.escape(question["id"]) + '</h1>' + render_blocks(question["blocks"]) +
+        html.escape(heading) + '</h1><p class="note">' + html.escape(eyebrow) + '</p>' + render_blocks(question["blocks"]) +
         '<h2>Alternativas</h2><ol>' + options + '</ol>'
         '<p class="note">Conteúdo sujeito à revisão visual e ao gabarito oficial.</p></main></html>'
     )
