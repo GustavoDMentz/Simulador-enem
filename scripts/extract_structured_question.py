@@ -25,16 +25,19 @@ def _block(page, definition: dict, assets: Path, name: str, dpi: int) -> dict:
     rect = pymupdf.Rect(definition["bbox"])
     if rect.is_empty or not page.rect.contains(rect):
         raise ValueError(f"BBox fora da página: {name}")
+    role = definition.get("role")
+    if role is not None and role not in {"titulo", "texto", "enunciado", "imagem", "credito"}:
+        raise ValueError(f"Papel de bloco inválido: {role}")
     if kind == "text":
         value = page.get_text("text", clip=rect, sort=True).strip()
         if not value:
             raise ValueError(f"Região textual vazia: {name}")
-        return {"type": "text", "value": value, "source_bbox": list(rect)}
+        return {"type": "text", "value": value, "source_bbox": list(rect), **({"role": role} if role else {})}
     path = assets / f"{name}.png"
     page.get_pixmap(clip=rect, dpi=dpi, alpha=False).save(str(path))
     return {"type": "image", "value": path.name,
             "source_bbox": list(rect),
-            "sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
+            "sha256": hashlib.sha256(path.read_bytes()).hexdigest(), **({"role": role} if role else {})}
 
 
 def extract(pdf_path: Path, spec: dict, output: Path, dpi: int = 160) -> dict:
