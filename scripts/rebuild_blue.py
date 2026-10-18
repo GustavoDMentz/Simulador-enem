@@ -204,6 +204,10 @@ def main():
         subprocess.run([sys.executable, str(Path(__file__).with_name("validate_blue_official.py")),
                         "--input", str(output), "--output-dir", str(args.output_dir)],
                        check=True)
+    # Independent official answer-key evidence, without modifying source answers.
+    subprocess.run([sys.executable, str(Path(__file__).with_name("audit_blue_staging_answers.py")),
+                    "--input", str(output), "--output-dir", str(args.output_dir)],
+                   check=True)
     print(json.dumps({"total": len(rows), "summary": summary,
                       "exceptions": len(exceptions), "output": str(args.output_dir)},
                      ensure_ascii=False, indent=2))
