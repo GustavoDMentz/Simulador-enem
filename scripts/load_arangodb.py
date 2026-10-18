@@ -90,15 +90,16 @@ def _collection(db, name, is_edge=False):
     return col
 
 def _index(col, name, fields):
-    """Reject incompatible uniqueness rather than mutating existing indexes."""
+    """Enforce intended uniqueness; never silently drop/rebuild conflicting indexes."""
     fields = list(fields)
+    unique = name == "idx_proof_slot"
     for idx in col.indexes():
         if idx.get("fields") == fields:
-            if idx.get("unique", False):
-                raise RuntimeError(f"Unexpected UNIQUE index {idx.get('id')} on {col.name}: {fields}. "
-                                   "Do not drop before backup/review.")
+            if bool(idx.get("unique", False)) != unique:
+                raise RuntimeError(f"Incompatible index {idx.get('id')} on {col.name}: {fields}. "
+                                   "Do not change without backup and migration review.")
             return
-    col.add_index({"type": "persistent", "fields": fields, "unique": False, "name": name})
+    col.add_index({"type": "persistent", "fields": fields, "unique": unique, "name": name})
 
 def criar_estrutura(db):
     for name in VERTEX_COLLECTIONS:
@@ -117,19 +118,27 @@ def _upsert(col, document):
 def carregar_questoes(db, source):
     """Preflight all input before writing; upsert stable vertices and edges."""
     records = source if isinstance(source, list) else read_questions(source)
-    criar_estrutura(db)
-    # Confirm existing edge keys are deterministic before modifying graph;
-    # the old loader used random keys and left duplicate edges on reload.
+    # Fail BEFORE creating collections or indexes on an older graph.
+    # The original loader used server-generated edge keys; reloading into that
+    # graph would create duplicate relationships instead of migrating them.
+    if db.has_collection("Questoes"):
+        for idx in db.collection("Questoes").indexes():
+            if idx.get("fields") == ["co_item"] and idx.get("unique"):
+                raise RuntimeError("Legacy UNIQUE co_item index found; backup and inspect "
+                                   "before a controlled migration. No writes performed.")
     for edge_name in EDGES:
-        if db.collection(edge_name).count():
+        if db.has_collection(edge_name) and db.collection(edge_name).count():
+            if edge_name == "HabilidadeArea":
+                continue
             legacy = list(db.aql.execute(
-                "FOR e IN @@col FILTER !HAS(e, '_key') OR "
-                "!STARTS_WITH(e._key, 'HAB_') AND !CONTAINS(e._key, CONCAT('_', @name)) "
+                "FOR e IN @@col FILTER !CONTAINS(e._key, CONCAT('_', @name)) "
                 "LIMIT 1 RETURN e._key",
                 bind_vars={"@col": edge_name, "name": edge_name}))
-            if legacy and edge_name != "HabilidadeArea":
+            if legacy:
                 raise RuntimeError(f"Legacy edge keys detected in {edge_name}; "
-                                   "stop and audit before migration: {legacy[0]}")
+                                   "backup and inspect before migration: {legacy[0]}. "
+                                   "No writes performed.")
+    criar_estrutura(db)
     stats = {"questoes": 0, "edges": 0, "erros": 0}
     for q in records:
         key = q["id_unico_sistema"]
