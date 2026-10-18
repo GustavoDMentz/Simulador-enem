@@ -39,12 +39,42 @@ def candidate_for(pages, found, position):
                 and (h["x"] < mid) == left), default=float("inf"))
     chosen = [w for w in words if (w["x"] < mid) == left
               and heading["y"] <= w["y"] < stop]
-    chosen.sort(key=lambda w: (round(w["y"] / 4), w["x"]))
+    chosen.sort(key=lambda w: (w["y"], w["x"]))
+    # Preserve source geometry rather than pretending PDF reading order is correct.
+    lines = []
+    for word in chosen:
+        matched = next((line for line in lines if abs(line["y"] - word["y"]) <= 3), None)
+        if matched is None:
+            matched = {"y": word["y"], "words": []}
+            lines.append(matched)
+        matched["words"].append(word)
+    lines.sort(key=lambda line: line["y"])
+    layout_lines = []
+    for line in lines:
+        ordered = sorted(line["words"], key=lambda w: w["x"])
+        layout_lines.append({
+            "y": round(line["y"], 2),
+            "x_min": round(min(w["x"] for w in ordered), 2),
+            "text": " ".join(w["text"] for w in ordered),
+            "words": [{"text": w["text"], "x": round(w["x"], 2),
+                       "x_max": round(w["x_max"], 2)} for w in ordered],
+        })
+    # Detect option letters in the left margin of individual visual lines.
+    # This is a hypothesis only; it must not certify the option text.
+    markers = []
+    for index, line in enumerate(layout_lines):
+        if not line["words"]:
+            continue
+        first = line["words"][0]
+        if first["text"] in "ABCDE" and len(first["text"]) == 1:
+            markers.append({"letter": first["text"], "line_index": index,
+                            "y": line["y"], "x": first["x"]})
     return {"status": "TEXT_CANDIDATE_UNVERIFIED",
             "pdf_page": page_number, "column": "left" if left else "right",
             "raw_text": " ".join(w["text"] for w in chosen),
+            "layout_lines": layout_lines, "option_marker_hypotheses": markers,
             "warnings": ["SINGLE_PAGE_ONLY", "COLUMN_LAYOUT_UNVERIFIED",
-                         "OPTIONS_UNVERIFIED", "FIGURES_UNVERIFIED",
+                         "OPTIONS_UNVERIFIED", "OPTION_MARKERS_HEURISTIC", "FIGURES_UNVERIFIED",
                          "CREDITS_UNVERIFIED", "CONTINUATION_UNVERIFIED"]}
 
 def main():
