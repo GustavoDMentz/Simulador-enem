@@ -33,3 +33,69 @@ jobs:
             echo 'No fused JSONL in checkout; DB coverage cannot be validated'
             exit 1
           fi
+
+  arangodb-integration:
+    runs-on: ubuntu-latest
+    services:
+      arangodb:
+        image: arangodb:3.12
+        env:
+          ARANGO_ROOT_PASSWORD: ci-only-arango-password
+        ports:
+          - 8529:8529
+    env:
+      ARANGO_HOST: http://127.0.0.1:8529
+      ARANGO_USER: root
+      ARANGO_PASSWORD: ci-only-arango-password
+      ARANGO_DB: enem_ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ArangoDB driver
+        run: python -m pip install 'python-arango>=7,<9'
+      - name: Wait for ArangoDB
+        run: |
+          for n in $(seq 1 45); do
+            if curl -fsS --user "$ARANGO_USER:$ARANGO_PASSWORD" "$ARANGO_HOST/_api/version" > /dev/null; then
+              echo "ArangoDB is ready"
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "ArangoDB did not start" >&2
+          exit 1
+      - name: Check default loader does not write
+        run: |
+          python scripts/load_arangodb.py --fused data/fused/questoes_enem_2025_AZUL_D1.jsonl
+          python - <<'PY'
+          from arango import ArangoClient
+          import os
+          sysdb = ArangoClient(hosts=os.environ["ARANGO_HOST"]).db(
+              "_system", username=os.environ["ARANGO_USER"], password=os.environ["ARANGO_PASSWORD"])
+          assert not sysdb.has_database(os.environ["ARANGO_DB"]), "dry-run wrote to database"
+          PY
+      - name: Load twice and check graph invariants
+        run: |
+          python scripts/load_arangodb.py --fused data/fused/questoes_enem_2025_AZUL_D1.jsonl --apply --create-db
+          python scripts/check_arangodb_integrity.py --output /tmp/enem-ci-graph.json
+          python scripts/tests/check_arangodb_counts.py --expected 89 --write-snapshot /tmp/counts-before.json
+          python scripts/load_arangodb.py --fused data/fused/questoes_enem_2025_AZUL_D1.jsonl --apply
+          python scripts/check_arangodb_integrity.py
+          python scripts/tests/check_arangodb_counts.py --expected 89 --compare-snapshot /tmp/counts-before.json
+      - name: Back up database and restore to a second database
+        run: |
+          docker exec ${{ job.services.arangodb.id }} arangodump \
+            --server.endpoint tcp://127.0.0.1:8529 \
+            --server.username root --server.password "$ARANGO_PASSWORD" \
+            --server.database "$ARANGO_DB" \
+            --output-directory /tmp/enem-ci-dump
+          docker exec ${{ job.services.arangodb.id }} arangorestore \
+            --server.endpoint tcp://127.0.0.1:8529 \
+            --server.username root --server.password "$ARANGO_PASSWORD" \
+            --server.database enem_ci_restored \
+            --create-database true \
+            --input-directory /tmp/enem-ci-dump
+          ARANGO_DB=enem_ci_restored python scripts/check_arangodb_integrity.py
+          ARANGO_DB=enem_ci_restored python scripts/tests/check_arangodb_counts.py --expected 89 --compare-snapshot /tmp/counts-before.json
