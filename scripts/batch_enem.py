@@ -33,7 +33,8 @@ def identity(item: dict) -> str:
     return f"{year}-{application}-d{day}-{color}"
 
 
-def execute(manifest: Path, output: Path, *, force: bool = False,\n            apply_continuations: bool = False) -> dict:
+def execute(manifest: Path, output: Path, *, force: bool = False,
+            apply_continuations: bool = False) -> dict:
     data = json.loads(manifest.read_text(encoding="utf-8"))
     exams = data.get("exams")
     if not isinstance(exams, list):
