@@ -208,6 +208,9 @@ def main():
     subprocess.run([sys.executable, str(Path(__file__).with_name("audit_blue_staging_answers.py")),
                     "--input", str(output), "--output-dir", str(args.output_dir)],
                    check=True)
+    if not args.skip_official_audit:
+        subprocess.run([sys.executable, str(Path(__file__).with_name("consolidate_blue_audit.py")),
+                        "--output-dir", str(args.output_dir)], check=True)
     print(json.dumps({"total": len(rows), "summary": summary,
                       "exceptions": len(exceptions), "output": str(args.output_dir)},
                      ensure_ascii=False, indent=2))
