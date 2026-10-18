@@ -31,6 +31,12 @@ def audit(rows):
             entry["official_answer_pdf_sha256"] = sha
             if error:
                 entry.update(status="SOURCE_PARSE_FAILED", reason=error)
+            elif any(p not in answers or p in ambiguous
+                     for p in (range(1, 91) if day == 1 else range(91, 181))):
+                entry.update(status="INCONCLUSIVE_KEY_COVERAGE",
+                             reason="Official answer-key parser did not uniquely recover all 90 positions",
+                             parsed_positions=len(answers),
+                             ambiguous_positions=len(ambiguous))
             elif position in ambiguous or position not in answers:
                 entry.update(status="INCONCLUSIVE", reason="Answer row missing or ambiguous")
             elif day == 1 and position <= 5:
