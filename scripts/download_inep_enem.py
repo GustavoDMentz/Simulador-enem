@@ -11,6 +11,8 @@ import re
 import ssl
 import time
 import socket
+import subprocess
+import tempfile
 from urllib.error import HTTPError, URLError
 from html.parser import HTMLParser
 from pathlib import Path
@@ -118,13 +120,36 @@ def request(url: str, *, attempts: int = 3, ca_bundle: str | None = None) -> byt
     raise RuntimeError(f"Falha após {attempts} tentativas em {url}: {last_error}")
 
 
+def _curl_verified(url: str) -> bytes:
+    """Fallback to system curl trust store, never -k or unverified TLS."""
+    with tempfile.TemporaryDirectory(prefix="enem-tls-") as tmp:
+        target = Path(tmp) / "download.pdf"
+        # No redirects, only HTTPS, no proxy. System curl verifies the peer.
+        result = subprocess.run([
+            "curl", "--fail", "--silent", "--show-error", "--proto", "=https",
+            "--noproxy", "*", "--max-time", "60", "--output", str(target), url,
+        ], capture_output=True, text=True, timeout=70)
+        if result.returncode:
+            raise RuntimeError(f"Verified curl download failed: {result.stderr[:250]}")
+        if target.stat().st_size > 100 * 1024 * 1024:
+            raise ValueError("Arquivo excede 100 MiB")
+        return target.read_bytes()
+
+
 def _download_once(url: str, context: ssl.SSLContext) -> bytes:
     # Some CI environments set HTTPS_PROXY with a certificate chain not trusted
     # by Python, while direct verified TLS to Inep succeeds. Disable proxies
     # only for this allowlisted HTTPS download; never disable TLS verification.
     opener = build_opener(ProxyHandler({}), HTTPSHandler(context=context))
-    with opener.open(Request(url, headers={"User-Agent": "ENEM-Research-Downloader/1.0"}),
-                     timeout=45) as response:
+    try:
+        response = opener.open(Request(url, headers={"User-Agent": "ENEM-Research-Downloader/1.0"}),
+                               timeout=45)
+    except (ssl.SSLCertVerificationError, URLError) as exc:
+        reason = exc.reason if isinstance(exc, URLError) else exc
+        if isinstance(reason, ssl.SSLCertVerificationError):
+            return _curl_verified(url)
+        raise
+    with response:
         final = response.geturl()
         if urlparse(final).scheme != "https" or urlparse(final).hostname not in ALLOWED:
             raise ValueError(f"Redirecionamento não autorizado: {final}")
