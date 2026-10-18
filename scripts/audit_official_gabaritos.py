@@ -22,6 +22,9 @@ def extract_pdf(pdf):
             continue
         pos, first, second, pos2, last = m.groups()
         pos = int(pos)
+        # Only numbered ENEM questions; ignore tables, legends and PDF debris.
+        if not 1 <= pos <= 180:
+            continue
         if pos in answers:
             ambiguous.append(pos)
         if pos <= 5 and second and second in "ABCDE":
@@ -33,6 +36,8 @@ def extract_pdf(pdf):
             answers[pos] = {"comum": first}
         if pos2:
             p2 = int(pos2)
+            if not 1 <= p2 <= 180:
+                continue
             if p2 in answers:
                 ambiguous.append(p2)
             answers[p2] = {"comum": last}
