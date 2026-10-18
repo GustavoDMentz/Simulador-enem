@@ -11,7 +11,10 @@ from pathlib import Path
 
 import pymupdf
 
-from scripts.render_structured_question import render, validate
+try:
+    from scripts.render_structured_question import render, validate
+except ModuleNotFoundError:
+    from render_structured_question import render, validate
 
 STATUSES = {"conforme", "divergente", "inconclusivo"}
 ISSUES = {"omissao", "duplicacao", "imagem_incorreta", "alternativa_incorreta",
