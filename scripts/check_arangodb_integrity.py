@@ -104,10 +104,13 @@ def inspect(db, fused=None):
             """)
             if n:
                 issues.append({"code": "TRI_VERTEX_MISMATCH", "count": n})
-        coitem_indexes = [i for i in db.collection("Questoes").indexes()
-                          if i.get("fields") == ["co_item"]]
+        question_indexes = db.collection("Questoes").indexes()
+        coitem_indexes = [i for i in question_indexes if i.get("fields") == ["co_item"]]
         if any(i.get("unique") for i in coitem_indexes):
             issues.append({"code": "UNIQUE_CO_ITEM_INDEX", "message": "CO_ITEM may recur in different booklets"})
+        if not any(i.get("fields") == ["ano", "dia", "cor_prova", "posicao_prova"]
+                   and i.get("unique") for i in question_indexes):
+            issues.append({"code": "MISSING_UNIQUE_PROOF_INDEX"})
 
     # Missing positions represent content coverage, not malformed graph structure.
     coverage = []
