@@ -14,7 +14,8 @@ import pymupdf
 
 
 def generate(pdf_path: Path, queue_path: Path, record_id: str, output: Path,
-             right_top: float, right_bottom: float | None = None, dpi: int = 160) -> dict:
+             right_top: float, right_bottom: float | None = None, dpi: int = 160,
+             left_top: float | None = None) -> dict:
     if not pdf_path.is_file():
         raise ValueError("PDF deve ser um arquivo existente")
     queue = json.loads(queue_path.read_text(encoding="utf-8"))
@@ -29,6 +30,10 @@ def generate(pdf_path: Path, queue_path: Path, record_id: str, output: Path,
         page = doc[record["page"] - 1]
         mid = page.rect.width / 2
         left = pymupdf.Rect(record["bbox"])
+        if left_top is not None:
+            if not left.y0 <= left_top < left.y1:
+                raise ValueError("Limite superior esquerdo fora do recorte original")
+            left.y0 = left_top
         if left.x1 > mid + 2:
             raise ValueError("O recorte original não está limitado à coluna esquerda")
         bottom = page.rect.height if right_bottom is None else right_bottom
@@ -68,11 +73,12 @@ def main() -> None:
     parser.add_argument("--id", required=True)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--right-top", required=True, type=float)
+    parser.add_argument("--left-top", type=float)
     parser.add_argument("--right-bottom", type=float)
     parser.add_argument("--dpi", type=int, default=160)
     args = parser.parse_args()
     result = generate(args.pdf, args.queue, args.id, args.output,
-                      args.right_top, args.right_bottom, args.dpi)
+                      args.right_top, args.right_bottom, args.dpi, args.left_top)
     print(json.dumps({"id": result["id"], "segments": len(result["segments"]),
                       "output": str(args.output),
                       "publication_authorized": False}, ensure_ascii=False))
