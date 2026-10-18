@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 
 LETTERS = "ABCDE"
+ROLES = {"titulo", "texto", "enunciado", "imagem", "credito"}
 
 
 def validate(question: dict) -> None:
@@ -17,6 +18,8 @@ def validate(question: dict) -> None:
     if not isinstance(blocks, list) or not blocks:
         raise ValueError("Blocos de conteúdo obrigatórios")
     for block in blocks:
+        if block.get("role") is not None and block["role"] not in ROLES:
+            raise ValueError("Papel de bloco inválido")
         if block.get("type") not in {"text", "image"}:
             raise ValueError("Tipo de bloco inválido")
         if not isinstance(block.get("value"), str) or not block["value"].strip():
@@ -30,6 +33,8 @@ def validate(question: dict) -> None:
         if not isinstance(option.get("blocks"), list) or not option["blocks"]:
             raise ValueError("Cada alternativa precisa de conteúdo")
         for block in option["blocks"]:
+            if block.get("role") is not None and block["role"] not in ROLES:
+                raise ValueError("Papel de alternativa inválido")
             if block.get("type") not in {"text", "image"} or not isinstance(block.get("value"), str) or not block["value"].strip():
                 raise ValueError("Bloco de alternativa inválido")
 
@@ -38,10 +43,12 @@ def render_blocks(blocks: list[dict]) -> str:
     parts = []
     for block in blocks:
         value = html.escape(block["value"], quote=True)
+        role = block.get("role", "texto" if block["type"] == "text" else "imagem")
         if block["type"] == "text":
-            parts.append(f"<p>{value}</p>")
+            tag = "h3" if role == "titulo" else "p"
+            parts.append(f'<{tag} class="block-{role}">{value}</{tag}>')
         else:
-            parts.append(f'<img loading="lazy" src="{value}" alt="Imagem da questão">')
+            parts.append(f'<img class="block-{role}" loading="lazy" src="{value}" alt="Imagem da questão">')
     return "".join(parts)
 
 
@@ -62,6 +69,12 @@ def render(question: dict) -> str:
         'ol{padding:0;list-style:none}li{display:flex;gap:16px;align-items:flex-start;'
         'padding:12px 16px;border:1px solid #e1e4e8;border-radius:10px;margin:10px 0}'
         'li>div{min-width:0;flex:1}p{white-space:pre-wrap;margin:8px 0}'
+        '.block-titulo{font-size:1.08rem;font-weight:750;letter-spacing:.02em;margin-top:22px}'
+        '.block-credito{font-size:.78rem;color:#64748b;line-height:1.45}'
+        '.block-enunciado{font-size:1.05rem;font-weight:550;line-height:1.7;margin:24px 0}'
+        '.block-imagem{max-height:360px;width:auto}li .block-imagem{max-height:240px}'
+        'li .block-texto{font-size:1rem;line-height:1.55}'
+        '@media(max-width:600px){main{margin:0;padding:20px;border-radius:0}li{padding:12px}}'
         '.letter{border:1px solid #94a3b8;border-radius:50%;width:32px;height:32px;'
         'flex:none;display:grid;place-items:center;font-weight:700}'
         '.note{color:#64748b;font-size:13px}</style>'
