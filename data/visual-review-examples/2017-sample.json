@@ -1,0 +1,16 @@
+{
+  "annotations": [
+    {
+      "id": "2017-regular-d1-azul-q021-p010",
+      "crop_integrity": "incomplete",
+      "options_format": "missing",
+      "reviewer_note": "Imagem fornecida mostra apenas TEXTO I, sem enunciado completo nem alternativas; verificar continuação."
+    },
+    {
+      "id": "2017-regular-d2-azul-q108-p007",
+      "crop_integrity": "complete",
+      "options_format": "visual",
+      "reviewer_note": "Imagem fornecida mostra enunciado e cinco alternativas em gráficos A–E; integridade observada neste recorte."
+    }
+  ]
+}
