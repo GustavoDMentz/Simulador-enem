@@ -45,23 +45,33 @@
     },
     {
       "type": "text",
+      "role": "texto",
       "bbox": [
         296.5,
         89.4,
         547.1,
-        142.6
-      ],
-      "role": "texto"
+        139.9
+      ]
     },
     {
       "type": "text",
+      "role": "credito",
       "bbox": [
         296.5,
-        140.1,
+        140,
+        547.1,
+        156.4
+      ]
+    },
+    {
+      "type": "text",
+      "role": "enunciado",
+      "bbox": [
+        296.5,
+        156.5,
         547.1,
         199.5
-      ],
-      "role": "enunciado"
+      ]
     }
   ],
   "alternatives": [
