@@ -33,7 +33,7 @@ def identity(item: dict) -> str:
     return f"{year}-{application}-d{day}-{color}"
 
 
-def execute(manifest: Path, output: Path, *, force: bool = False) -> dict:
+def execute(manifest: Path, output: Path, *, force: bool = False,\n            apply_continuations: bool = False) -> dict:
     data = json.loads(manifest.read_text(encoding="utf-8"))
     exams = data.get("exams")
     if not isinstance(exams, list):
@@ -56,6 +56,25 @@ def execute(manifest: Path, output: Path, *, force: bool = False) -> dict:
             summary.append({"id": key, "status": "missing_pdf", "pdf": str(pdf)})
             continue
         sha = digest(pdf)
+        if apply_continuations:
+            queue = target / "review" / "question-review.json"
+            if not queue.is_file():
+                summary.append({"id": key, "status": "missing_review_queue"})
+                continue
+            try:
+                subprocess.run([
+                    sys.executable, str(root / "scripts/integrate_continuations.py"),
+                    "--pdf", str(pdf), "--review", str(queue),
+                    "--output", str(target / "enriched"),
+                ], check=True)
+                enriched = json.loads((target / "enriched" /
+                                       "question-review-enriched.json").read_text(encoding="utf-8"))
+                summary.append({"id": key, "status": "enriched",
+                                "candidates": len(enriched["records"]),
+                                "repaired": enriched["continuation_integration"]["count"]})
+            except (subprocess.CalledProcessError, OSError, ValueError, KeyError) as exc:
+                summary.append({"id": key, "status": "failed", "error": str(exc)})
+            continue
         if status_file.exists() and not force:
             old = json.loads(status_file.read_text(encoding="utf-8"))
             if old.get("source_sha256") == sha and old.get("status") == "processed":
@@ -102,10 +121,15 @@ def main() -> None:
     parser.add_argument("--manifest", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--apply-continuations", action="store_true",
+                        help="Enriquecer fila existente sem sobrescrever original")
     args = parser.parse_args()
-    report = execute(args.manifest, args.output, force=args.force)
+    if args.force and args.apply_continuations:
+        parser.error("--force e --apply-continuations são incompatíveis")
+    report = execute(args.manifest, args.output, force=args.force,
+                     apply_continuations=args.apply_continuations)
     print(json.dumps([{"id": x["id"], "status": x["status"],
-                       "candidates": x.get("candidates")} for x in report["exams"]],
+                       "candidates": x.get("candidates"), "repaired": x.get("repaired")} for x in report["exams"]],
                      ensure_ascii=False, indent=2))
     if any(x["status"] == "failed" for x in report["exams"]):
         sys.exit(1)
