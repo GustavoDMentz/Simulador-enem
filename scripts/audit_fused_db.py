@@ -11,6 +11,7 @@ def audit(root):
     ids = {}
     slots = {}
     item_metadata = {}
+    proof_positions = {}
     for file in sorted(Path(root).glob("*.jsonl")):
         for lineno, raw in enumerate(file.read_text(encoding="utf-8").splitlines(), 1):
             if not raw.strip():
@@ -39,6 +40,7 @@ def audit(root):
                 issue("DUPLICATE_PROOF_POSITION")
             else:
                 slots[slot] = origin
+                proof_positions.setdefault((year, day, color), set()).add(pos)
             item = q.get("co_item")
             if item is None:
                 issue("MISSING_CO_ITEM")
@@ -75,9 +77,16 @@ def audit(root):
     counts["unique_ids"] = len(ids)
     counts["unique_proof_slots"] = len(slots)
     counts["unique_co_item"] = len(item_metadata)
+    coverage = []
+    for (year, day, color), positions in sorted(proof_positions.items()):
+        expected = set(range(1, 91)) if day == 1 else set(range(91, 181))
+        coverage.append({"year": year, "day": day, "color": color,
+                         "records": len(positions),
+                         "missing_positions": sorted(expected - positions),
+                         "unexpected_positions": sorted(positions - expected)})
     return {"schema_version": 1, "read_only": True,
             "ok": not issues and counts["records"] > 0,
-            "counts": dict(counts), "issues": issues}
+            "counts": dict(counts), "issues": issues, "coverage": coverage}
 
 def main():
     p = argparse.ArgumentParser()
