@@ -35,7 +35,7 @@ def consolidate(staging, text_evidence, answer_evidence):
     results = []
     for key in sorted(POSITIONS):
         row, txt, ans = staged.get(key), texts.get(key), answers.get(key)
-        problems = []
+        problems = ["FULL_FIDELITY_NOT_VERIFIED", "TRI_UNVERIFIED"]
         if key in sd or key in td or key in ad:
             problems.append("DUPLICATE_POSITION_IN_EVIDENCE")
         if row is None:
