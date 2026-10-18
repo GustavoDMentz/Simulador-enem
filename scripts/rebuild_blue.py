@@ -116,7 +116,7 @@ def main():
     ap.add_argument("--fused", type=Path, default=Path("data/fused"))
     ap.add_argument("--pdf-dir", type=Path, default=Path("data/enem-pdfs/oficiais"))
     ap.add_argument("--output-dir", type=Path, default=Path("data/blue-staging"))
-    ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--refresh", action="store_true", help="Generate PDF candidates even for existing blue records")
     ap.add_argument("--skip-official-audit", action="store_true", help="Stage only, without PyMuPDF validation")
     args = ap.parse_args()
     if not args.all:
@@ -155,7 +155,7 @@ def main():
                 }
                 if len(existing) > 1:
                     item["status"] = "DUPLICATE_BLUE_POSITION"
-                elif len(existing) == 1:
+                elif len(existing) == 1 and not args.refresh:
                     item["status"] = "REUSE_EXISTING_UNVERIFIED"
                 elif not pdf.is_file():
                     item["status"] = "OFFICIAL_PDF_MISSING"
@@ -170,7 +170,7 @@ def main():
                         pdf_hashes[str(pdf)] = digest(pdf)
                     pages, found = pdf_cache[str(pdf)]
                     item["extraction"] = candidate_for(pages, found, position)
-                    item["status"] = item["extraction"]["status"]
+                    item["status"] = ("REFRESH_EXISTING_CANDIDATE_UNVERIFIED" if existing else item["extraction"]["status"])
                 if item["status"] != "REUSE_EXISTING_UNVERIFIED":
                     exceptions.append({"ano":year,"dia":day,"posicao":position,
                                        "status":item["status"]})
