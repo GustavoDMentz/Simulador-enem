@@ -216,6 +216,10 @@ def audit(rows):
                 output.update(status=status,record_id=record.get("id_unico_sistema"),
                               recorded_answer=record.get("gabarito_oficial"),
                               text_evidence=checks,visual_warnings=visual)
+                if row.get("extraction"):
+                    candidate_status,candidate_checks=compare_candidate(row["extraction"],region)
+                    output["refresh_candidate_status"]=candidate_status
+                    output["refresh_candidate_checks"]=candidate_checks
                 if region["warnings"] and status=="TEXT_MATCH_VISUAL_UNVERIFIED":
                     output["status"]="INCONCLUSIVE_REGION_BOUNDARY"
             elif row.get("extraction"):
