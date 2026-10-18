@@ -74,23 +74,27 @@ def repair(pdf, record, output_dir):
     seq = option_sequence(page, right)
     if "ABCDE" not in seq:
         return {"id": record["id"], "status": "manual_review", "sequence": seq}
-    zoom = pymupdf.Matrix(1.5, 1.5)
-    left_pix = page.get_pixmap(matrix=zoom, clip=left, alpha=False)
-    right_pix = page.get_pixmap(matrix=zoom, clip=right, alpha=False)
-    # Place both segments vertically; each retains its original PDF provenance.
-    combined = pymupdf.Pixmap(
-        pymupdf.csRGB,
-        pymupdf.IRect(0, 0, max(left_pix.width, right_pix.width),
-                      left_pix.height + right_pix.height),
-        False,
-    )
-    combined.clear_with(255)
-    combined.copy(left_pix, pymupdf.IRect(0, 0, left_pix.width, left_pix.height))
-    combined.copy(right_pix, pymupdf.IRect(
-        0, left_pix.height, right_pix.width, left_pix.height + right_pix.height))
-    output_dir.mkdir(parents=True, exist_ok=True)
-    path = output_dir / (record["id"] + "-continuation.png")
-    combined.save(path)
+    # Compose directly from PDF vectors. Pixmap.copy() uses absolute source
+    # coordinates, so copying clipped pixmaps into origin-based rectangles
+    # silently produced white images in the previous implementation.
+    with pymupdf.open() as composed:
+        canvas_width = max(left.width, right.width)
+        canvas_height = left.height + right.height
+        canvas = composed.new_page(width=canvas_width, height=canvas_height)
+        canvas.show_pdf_page(
+            pymupdf.Rect(0, 0, left.width, left.height), pdf,
+            record["page"] - 1, clip=left, keep_proportion=False,
+        )
+        canvas.show_pdf_page(
+            pymupdf.Rect(0, left.height, right.width, canvas_height), pdf,
+            record["page"] - 1, clip=right, keep_proportion=False,
+        )
+        image = canvas.get_pixmap(matrix=pymupdf.Matrix(1.5, 1.5), alpha=False)
+        if image.color_count() <= 1:
+            raise RuntimeError(f"Imagem composta sem conteúdo visível: {record['id']}")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        path = output_dir / (record["id"] + "-continuation.png")
+        image.save(path)
     return {"id": record["id"], "number": record["original_number"],
             "page": record["page"], "status": "candidate_for_review",
             "segments": [list(left), list(right)],
