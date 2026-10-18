@@ -1,0 +1,94 @@
+name: ENEM blue official audit (non-publishing)
+
+on:
+  push:
+    branches:
+      - feat/integrate-enem-audit-gate
+    paths:
+      - scripts/download_inep_enem.py
+      - scripts/rebuild_blue.py
+      - scripts/extract_blue_candidates.py
+      - scripts/validate_blue_official.py
+      - .github/workflows/blue-official-audit.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blue-official-audit
+  cancel-in-progress: true
+
+jobs:
+  official-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PDF extraction dependencies
+        run: |
+          python -m pip install 'pymupdf>=1.25,<2'
+          if ! command -v pdftotext >/dev/null; then
+            sudo apt-get update -q
+            sudo apt-get install -y poppler-utils
+          fi
+      - name: Inspect Inep TLS certificate chain without bypassing checks
+        run: |
+          echo | timeout 15 openssl s_client -connect download.inep.gov.br:443 -servername download.inep.gov.br -showcerts 2>&1 \
+            | grep -E 'depth=|verify error|subject=|issuer=|Verify return code|^[ ]*[0-9]+ s:' | head -35 || true
+      - name: Download regular blue INEP PDFs (2017-2025)
+        run: |
+          python scripts/download_inep_enem.py \
+            --dest data/enem-pdfs/oficiais \
+            --manifest data/enem-pdfs/blue-download-manifest.json \
+            --years 2017 2018 2019 2020 2021 2022 2023 2024 2025 \
+            --delay 1 \
+            --ca-bundle /etc/ssl/certs/ca-certificates.crt
+      - name: Build staging and independently audit official PDF text
+        run: python scripts/rebuild_blue.py --all
+      - name: Check completeness and publish job summary
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          pdfs = list(Path('data/enem-pdfs/oficiais').glob('*-regular-d*-azul.pdf'))
+          report = Path('data/blue-staging/official-validation-summary.json')
+          lines = ['### Official-PDF audit (non-publishing)',
+                   f'- Official blue exam PDFs acquired: {len(pdfs)}/18',
+                   '- No database mutations or publication allowed.']
+          if report.is_file():
+              data = json.loads(report.read_text())
+              lines.append(f"- Staged records examined: {data['total']}")
+              for status, count in sorted(data['summary'].items()):
+                  lines.append(f'- {status}: {count}')
+          else:
+              lines.append('- Validation not completed; inspect download report and logs.')
+          if len(pdfs) != 18:
+              print('::warning::Some official exam PDFs are missing. Audit is incomplete.')
+          summary = '\n'.join(lines) + '\n'
+          print(summary)
+          Path(os.environ['GITHUB_STEP_SUMMARY']).open('a').write(summary)
+          if len(pdfs) != 18 or not report.is_file():
+              raise SystemExit('FAIL CLOSED: incomplete official PDF sources')
+          if data['total'] != 1620 or data['summary'].get('SOURCE_MISSING', 0):
+              raise SystemExit('FAIL CLOSED: source coverage incomplete')
+          PY
+      - name: Upload evidence reports (never publish questions)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: enem-blue-official-audit
+          path: |
+            data/enem-pdfs/oficiais/download-report.json
+            data/enem-pdfs/blue-download-manifest.json
+            data/blue-staging/report.json
+            data/blue-staging/official-validation-summary.json
+            data/blue-staging/official-validation.jsonl
+            data/blue-staging/exceptions.csv
+          if-no-files-found: warn
+          retention-days: 7

@@ -11,11 +11,13 @@ import re
 import ssl
 import time
 import socket
+import subprocess
+import tempfile
 from urllib.error import HTTPError, URLError
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
-from urllib.request import Request, urlopen
+from urllib.request import Request, urlopen, ProxyHandler, HTTPSHandler, build_opener
 
 BASE = "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/"
 HEADING = re.compile(r"([12])\s*[ºo°]?\s*dia\s*[-–—]\s*caderno\s*([0-9]+)\s*[-–—]\s*([a-záéíóúâêôãõç]+)", re.I)
@@ -109,17 +111,45 @@ def request(url: str, *, attempts: int = 3, ca_bundle: str | None = None) -> byt
                 isinstance(exc.reason, ssl.SSLCertVerificationError)
             ):
                 raise RuntimeError(
-                    f"Falha de certificado HTTPS em {url}. Configure CA_BUNDLE "
-                    "com uma cadeia confiável; não desative a verificação SSL."
+                    f"Falha de certificado HTTPS em {url}: {exc!r}. "
+                    "Configure CA_BUNDLE com uma cadeia confiável; "
+                    "não desative a verificação SSL."
                 ) from exc
             if attempt + 1 < attempts:
                 time.sleep(min(2 ** attempt, 8))
     raise RuntimeError(f"Falha após {attempts} tentativas em {url}: {last_error}")
 
 
+def _curl_verified(url: str) -> bytes:
+    """Fallback to system curl trust store, never -k or unverified TLS."""
+    with tempfile.TemporaryDirectory(prefix="enem-tls-") as tmp:
+        target = Path(tmp) / "download.pdf"
+        # No redirects, only HTTPS, no proxy. System curl verifies the peer.
+        result = subprocess.run([
+            "curl", "--fail", "--silent", "--show-error", "--proto", "=https",
+            "--noproxy", "*", "--connect-timeout", "8", "--max-time", "20", "--output", str(target), url,
+        ], capture_output=True, text=True, timeout=25)
+        if result.returncode:
+            raise RuntimeError(f"Verified curl download failed: {result.stderr[:250]}")
+        if target.stat().st_size > 100 * 1024 * 1024:
+            raise ValueError("Arquivo excede 100 MiB")
+        return target.read_bytes()
+
+
 def _download_once(url: str, context: ssl.SSLContext) -> bytes:
-    with urlopen(Request(url, headers={"User-Agent": "ENEM-Research-Downloader/1.0"}),
-                 timeout=45, context=context) as response:
+    # Some CI environments set HTTPS_PROXY with a certificate chain not trusted
+    # by Python, while direct verified TLS to Inep succeeds. Disable proxies
+    # only for this allowlisted HTTPS download; never disable TLS verification.
+    opener = build_opener(ProxyHandler({}), HTTPSHandler(context=context))
+    try:
+        response = opener.open(Request(url, headers={"User-Agent": "ENEM-Research-Downloader/1.0"}),
+                               timeout=45)
+    except (ssl.SSLCertVerificationError, URLError) as exc:
+        reason = exc.reason if isinstance(exc, URLError) else exc
+        if isinstance(reason, ssl.SSLCertVerificationError):
+            return _curl_verified(url)
+        raise
+    with response:
         final = response.geturl()
         if urlparse(final).scheme != "https" or urlparse(final).hostname not in ALLOWED:
             raise ValueError(f"Redirecionamento não autorizado: {final}")
@@ -150,6 +180,12 @@ def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0,
             discovered = discover(request(page_url, ca_bundle=ca_bundle).decode("utf-8", "replace"), page_url)
         except Exception as exc:
             results.append({"year": year, "status": "page_failed", "error": str(exc)})
+            # A source transport outage affecting the first year is unlikely
+            # to improve across the same domain; fail early in unattended CI.
+            if year == years[0] and not entries:
+                results.append({"status": "source_transport_blocked",
+                                "reason": "First official index page inaccessible"})
+                break
             continue
         for day in (1, 2):
             if (year, day) in known:
@@ -197,6 +233,14 @@ def acquire(dest: Path, manifest_path: Path, *, years, delay: float = 1.0,
                     ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             except Exception as exc:
                 results.append({"year": year, "day": day, "status": "failed", "error": str(exc)})
+                if not entries and any(x in str(exc).lower() for x in
+                                       ("certificate", "certificado", "curl: (60)")):
+                    results.append({"status": "source_transport_blocked",
+                                    "reason": "Verified TLS unavailable for official PDFs"})
+                    (dest / "download-report.json").write_text(
+                        json.dumps({"results": results}, ensure_ascii=False, indent=2) + "\n",
+                        encoding="utf-8")
+                    return {"results": results}
             time.sleep(delay)
     report = {"results": results}
     (dest / "download-report.json").write_text(json.dumps(report, ensure_ascii=False,

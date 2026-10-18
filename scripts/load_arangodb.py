@@ -1,253 +1,206 @@
 #!/usr/bin/env python3
-"""
-Carga no ArangoDB: JSONL unificado -> Grafo + Documentos
-"""
+"""Idempotent ENEM JSONL -> ArangoDB graph loader.
 
+Dry-run is the default and never connects to or modifies ArangoDB.
+Production writes require --apply; database creation additionally needs --create-db.
+"""
+import argparse
 import json
-import sys
+import os
 from pathlib import Path
-from arango import ArangoClient
-from loguru import logger
 
-# ─── Config ──────────────────────────────────────────────────────────────
-ARANGO_HOST = "http://localhost:8529"
-ARANGO_USER = "root"
-ARANGO_PASS = ""  # Sem senha (ARANGO_NO_AUTH=1)
-DB_NAME = "enem"
-INPUT_FILE = Path("/home/gumentz/enem-pipeline/data/fused/questoes_enem_2025_AZUL_D1.jsonl")
+VERTEX_COLLECTIONS = ("Questoes", "Habilidades", "Areas", "Provas", "ParametrosTRI", "Itens")
+EDGES = {
+    "QuestaoHabilidade": ("Questoes", "Habilidades"),
+    "QuestaoProva": ("Questoes", "Provas"),
+    "QuestaoParamTRI": ("Questoes", "ParametrosTRI"),
+    "QuestaoItem": ("Questoes", "Itens"),
+    "HabilidadeArea": ("Habilidades", "Areas"),
+}
+INDEXES = {
+    "Questoes": (
+        ("idx_co_item", ("co_item",)),
+        ("idx_ano_cor_dia", ("ano", "cor_prova", "dia")),
+        ("idx_area", ("area_conhecimento",)),
+        ("idx_proof_slot", ("ano", "dia", "cor_prova", "posicao_prova")),
+    ),
+    "ParametrosTRI": (
+        ("idx_b_dificuldade", ("b_dificuldade",)),
+        ("idx_a_discriminacao", ("a_discriminacao",)),
+    ),
+}
 
-# ─── Collections / Edge Definitions ──────────────────────────────────────
-VERTEX_COLLECTIONS = [
-    "Questoes",       # Questões do ENEM
-    "Habilidades",    # Códigos de habilidade (CO_HABILIDADE)
-    "Areas",          # CH, CN, LC, MT
-    "Provas",         # ANO_COR_DIA (ex: 2025_AZUL_D1)
-    "ParametrosTRI",  # a, b, c por questão
-    "Itens",          # CO_ITEM (código INEP)
-]
+def read_questions(source):
+    source = Path(source)
+    files = sorted(source.glob("*.jsonl")) if source.is_dir() else [source]
+    if not files or any(not p.is_file() for p in files):
+        raise ValueError(f"No readable JSONL files found: {source}")
+    records = []
+    seen_ids, seen_slots = set(), set()
+    for file in files:
+        with file.open(encoding="utf-8") as stream:
+            for number, line in enumerate(stream, 1):
+                if not line.strip():
+                    continue
+                origin = f"{file}:{number}"
+                try:
+                    item = json.loads(line)
+                    key = item["id_unico_sistema"]
+                    ano = item["ano"]
+                    dia = item["dia"]
+                    cor = item["cor_prova"]
+                    pos = item["posicao_prova"]
+                    tri = item["parametros_tri"]
+                    assert isinstance(key, str) and key and "/" not in key
+                    assert isinstance(ano, int) and isinstance(dia, int) and dia in (1, 2)
+                    assert isinstance(cor, str) and cor
+                    assert isinstance(pos, int) and 1 <= pos <= 180
+                    assert isinstance(item["co_item"], int)
+                    assert isinstance(item["co_habilidade"], int)
+                    assert isinstance(item["area_conhecimento"], str)
+                    assert item["gabarito_oficial"] in "ABCDE"
+                    assert isinstance(tri, dict)
+                    assert all(isinstance(tri[k], (float, int)) for k in
+                               ("a_discriminacao", "b_dificuldade", "c_chute"))
+                    assert tri["a_discriminacao"] > 0
+                    assert 0 <= tri["c_chute"] <= 1
+                    assert isinstance(item["conteudo"]["alternativas"], dict)
+                    assert all(isinstance(item["conteudo"]["alternativas"][a], str) and
+                               item["conteudo"]["alternativas"][a].strip() for a in "ABCDE")
+                except (ValueError, AssertionError, TypeError, KeyError, json.JSONDecodeError) as exc:
+                    raise ValueError(f"Invalid fused record at {origin}: {exc}") from exc
+                slot = (ano, dia, cor, pos)
+                if key in seen_ids or slot in seen_slots:
+                    raise ValueError(f"Duplicate question ID or proof slot at {origin}: {key} {slot}")
+                seen_ids.add(key)
+                seen_slots.add(slot)
+                records.append(item)
+    if not records:
+        raise ValueError("Empty dataset; refusing to load")
+    return records
 
-EDGE_COLLECTIONS = [
-    ("QuestaoHabilidade", "Questoes", "Habilidades"),
-    ("QuestaoProva", "Questoes", "Provas"),
-    ("QuestaoParamTRI", "Questoes", "ParametrosTRI"),
-    ("QuestaoItem", "Questoes", "Itens"),
-    ("HabilidadeArea", "Habilidades", "Areas"),
-]
+def _collection(db, name, is_edge=False):
+    if not db.has_collection(name):
+        db.create_collection(name, edge=is_edge)
+    col = db.collection(name)
+    properties = col.properties()
+    expected_type = 3 if is_edge else 2
+    if properties.get("type") != expected_type:
+        raise RuntimeError(f"Collection {name} has type {properties.get('type')}, expected {expected_type}")
+    return col
+
+def _index(col, name, fields):
+    """Enforce intended uniqueness; never silently drop/rebuild conflicting indexes."""
+    fields = list(fields)
+    unique = name == "idx_proof_slot"
+    for idx in col.indexes():
+        if idx.get("fields") == fields:
+            if bool(idx.get("unique", False)) != unique:
+                raise RuntimeError(f"Incompatible index {idx.get('id')} on {col.name}: {fields}. "
+                                   "Do not change without backup and migration review.")
+            return
+    col.add_index({"type": "persistent", "fields": fields, "unique": unique, "name": name})
 
 def criar_estrutura(db):
-    """Cria collections, índices e edge definitions."""
-    logger.info("Criando estrutura do banco...")
-    
-    # Vertex collections
     for name in VERTEX_COLLECTIONS:
-        if not db.has_collection(name):
-            db.create_collection(name=name)
-            logger.info(f"  Vertex: {name}")
-        else:
-            logger.debug(f"  Vertex existe: {name}")
-    
-    # Edge collections
-    for name, from_col, to_col in EDGE_COLLECTIONS:
-        if not db.has_collection(name):
-            db.create_collection(name=name, edge=True)
-            logger.info(f"  Edge: {name} ({from_col} -> {to_col})")
-        else:
-            logger.debug(f"  Edge existe: {name}")
-    
-    # Índices
-    # Questoes
-    q = db["Questoes"]
-    q.add_index({"type": "persistent", "fields": ["co_item"], "unique": True, "name": "idx_co_item"})
-    q.add_index({"type": "fulltext", "fields": ["conteudo.enunciado"], "name": "idx_enunciado_fulltext"})
-    q.add_index({"type": "persistent", "fields": ["ano", "cor_prova", "dia"], "name": "idx_ano_cor_dia"})
-    q.add_index({"type": "persistent", "fields": ["area_conhecimento"], "name": "idx_area"})
-    
-    # ParametrosTRI
-    pt = db["ParametrosTRI"]
-    pt.add_index({"type": "persistent", "fields": ["b_dificuldade"], "name": "idx_b_dificuldade"})
-    pt.add_index({"type": "persistent", "fields": ["a_discriminacao"], "name": "idx_a_discriminacao"})
-    
-    # Provas
-    p = db["Provas"]
-    # _key já é indexado automaticamente
-    
-    logger.success("Estrutura criada/validada")
+        _collection(db, name)
+    for name in EDGES:
+        _collection(db, name, is_edge=True)
+    for col_name, indexes in INDEXES.items():
+        col = db.collection(col_name)
+        for name, fields in indexes:
+            _index(col, name, fields)
 
-def carregar_questoes(db, input_path: Path) -> dict:
-    """Carrega JSONL no grafo."""
-    q_col = db["Questoes"]
-    ph_col = db["QuestaoHabilidade"]
-    pp_col = db["QuestaoProva"]
-    pt_col = db["QuestaoParamTRI"]
-    qi_col = db["QuestaoItem"]
-    h_col = db["Habilidades"]
-    a_col = db["Areas"]
-    p_col = db["Provas"]
-    i_col = db["Itens"]
-    ha_col = db["HabilidadeArea"]
-    
+def _upsert(col, document):
+    # Stable _key ensures a repeat load replaces the same vertex/edge.
+    col.insert(document, overwrite=True, overwrite_mode="replace")
+
+def carregar_questoes(db, source):
+    """Preflight all input before writing; upsert stable vertices and edges."""
+    records = source if isinstance(source, list) else read_questions(source)
+    # Fail BEFORE creating collections or indexes on an older graph.
+    # The original loader used server-generated edge keys; reloading into that
+    # graph would create duplicate relationships instead of migrating them.
+    if db.has_collection("Questoes"):
+        for idx in db.collection("Questoes").indexes():
+            if idx.get("fields") == ["co_item"] and idx.get("unique"):
+                raise RuntimeError("Legacy UNIQUE co_item index found; backup and inspect "
+                                   "before a controlled migration. No writes performed.")
+    for edge_name in EDGES:
+        if db.has_collection(edge_name) and db.collection(edge_name).count():
+            if edge_name == "HabilidadeArea":
+                continue
+            legacy = list(db.aql.execute(
+                "FOR e IN @@col FILTER !CONTAINS(e._key, CONCAT('_', @name)) "
+                "LIMIT 1 RETURN e._key",
+                bind_vars={"@col": edge_name, "name": edge_name}))
+            if legacy:
+                raise RuntimeError(f"Legacy edge keys detected in {edge_name}; "
+                                   "backup and inspect before migration: {legacy[0]}. "
+                                   "No writes performed.")
+    criar_estrutura(db)
     stats = {"questoes": 0, "edges": 0, "erros": 0}
-    
-    # Coleta todos os dados primeiro
-    questoes = []
-    with open(input_path, 'r', encoding='utf-8') as f:
-        for line in f:
-            questoes.append(json.loads(line.strip()))
-    
-    logger.info(f"Processando {len(questoes)} questões...")
-    
-    # 1. Upsert all vertex collections first (batch)
-    # Habilidades
-    hab_keys = set(f"HAB_{q['co_habilidade']}" for q in questoes)
-    for hab_key in hab_keys:
-        if not h_col.has(hab_key):
-            h_col.insert({"_key": hab_key, "codigo": int(hab_key.split("_")[1])})
-    
-    # Areas
-    area_keys = set(q["area_conhecimento"] for q in questoes)
-    for area_key in area_keys:
-        if not a_col.has(area_key):
-            a_col.insert({"_key": area_key, "nome": area_key})
-    
-    # Provas
-    prova_keys = set(f"{q['ano']}_{q['cor_prova']}_D{q['dia']}" for q in questoes)
-    for prova_key in prova_keys:
-        if not p_col.has(prova_key):
-            parts = prova_key.split("_")
-            p_col.insert({"_key": prova_key, "ano": int(parts[0]), "cor": parts[1], "dia": int(parts[2][1:])})
-    
-    # Itens (CO_ITEM)
-    item_keys = set(f"ITEM_{q['co_item']}" for q in questoes)
-    for item_key in item_keys:
-        if not i_col.has(item_key):
-            i_col.insert({"_key": item_key, "co_item": int(item_key.split("_")[1])})
-    
-    # HabilidadeArea edges
-    for q in questoes:
+    for q in records:
+        key = q["id_unico_sistema"]
         hab_key = f"HAB_{q['co_habilidade']}"
         area_key = q["area_conhecimento"]
-        edge_key = f"{hab_key}_{area_key}"
-        if not ha_col.has(edge_key):
-            ha_col.insert({
-                "_key": edge_key,
-                "_from": f"Habilidades/{hab_key}",
-                "_to": f"Areas/{area_key}"
-            })
-    
-    # 2. Agora processa questões e edges
-    for doc in questoes:
-        try:
-            key = doc["id_unico_sistema"]
-            
-            # Questao vertex
-            doc["_key"] = key
-            q_col.insert(doc, overwrite=True)
-            stats["questoes"] += 1
-            
-            # ParamTRI vertex (one per questao)
-            tri_key = f"TRI_{key}"
-            tri_doc = {
-                "_key": tri_key,
-                "a_discriminacao": doc["parametros_tri"]["a_discriminacao"],
-                "b_dificuldade": doc["parametros_tri"]["b_dificuldade"],
-                "c_chute": doc["parametros_tri"]["c_chute"]
-            }
-            pt_col.insert(tri_doc, overwrite=True)
-            
-            # Garante que vértices existem antes das edges
-            hab_key = f"HAB_{doc['co_habilidade']}"
-            prova_key = f"{doc['ano']}_{doc['cor_prova']}_D{doc['dia']}"
-            item_key = f"ITEM_{doc['co_item']}"
-            
-            # Cria vértices se não existirem (race condition protection)
-            if not h_col.has(hab_key):
-                h_col.insert({"_key": hab_key, "codigo": doc["co_habilidade"]})
-            if not p_col.has(prova_key):
-                parts = prova_key.split("_")
-                p_col.insert({"_key": prova_key, "ano": int(parts[0]), "cor": parts[1], "dia": int(parts[2][1:])})
-            if not i_col.has(item_key):
-                i_col.insert({"_key": item_key, "co_item": doc["co_item"]})
-            
-            # HabilidadeArea edge
-            area_key = doc["area_conhecimento"]
-            ha_edge_key = f"{hab_key}_{area_key}"
-            if not ha_col.has(ha_edge_key):
-                ha_col.insert({
-                    "_key": ha_edge_key,
-                    "_from": f"Habilidades/{hab_key}",
-                    "_to": f"Areas/{area_key}"
-                })
-            
-            # Edges
-            edges = [
-                (ph_col, f"Questoes/{key}", f"Habilidades/{hab_key}", {"ano": doc["ano"]}),
-                (pp_col, f"Questoes/{key}", f"Provas/{prova_key}", {"posicao": doc["posicao_prova"]}),
-                (pt_col, f"Questoes/{key}", f"ParametrosTRI/{tri_key}", {
-                    "a": doc["parametros_tri"]["a_discriminacao"],
-                    "b": doc["parametros_tri"]["b_dificuldade"],
-                    "c": doc["parametros_tri"]["c_chute"]
-                }),
-                (qi_col, f"Questoes/{key}", f"Itens/{item_key}", {}),
-            ]
-            
-            for col, from_v, to_v, attrs in edges:
-                edge = {"_from": from_v, "_to": to_v, **attrs}
-                col.insert(edge, overwrite=True)
-                stats["edges"] += 1
-            
-        except Exception as e:
-            stats["erros"] += 1
-            logger.error(f"Questão {doc.get('id_unico_sistema', '?')}: {e}")
-            if stats["erros"] > 20:
-                break
-    
+        prova_key = f"{q['ano']}_{q['cor_prova']}_D{q['dia']}"
+        item_key = f"ITEM_{q['co_item']}"
+        tri_key = f"TRI_{key}"
+        _upsert(db.collection("Habilidades"), {"_key": hab_key, "codigo": q["co_habilidade"]})
+        _upsert(db.collection("Areas"), {"_key": area_key, "nome": area_key})
+        _upsert(db.collection("Provas"), {"_key": prova_key, "ano": q["ano"], "cor": q["cor_prova"], "dia": q["dia"]})
+        _upsert(db.collection("Itens"), {"_key": item_key, "co_item": q["co_item"]})
+        _upsert(db.collection("Questoes"), {**q, "_key": key})
+        tri = q["parametros_tri"]
+        _upsert(db.collection("ParametrosTRI"), {"_key": tri_key, **tri})
+        relations = (
+            ("QuestaoHabilidade", f"Questoes/{key}", f"Habilidades/{hab_key}", {"ano": q["ano"]}),
+            ("QuestaoProva", f"Questoes/{key}", f"Provas/{prova_key}", {"posicao": q["posicao_prova"]}),
+            ("QuestaoParamTRI", f"Questoes/{key}", f"ParametrosTRI/{tri_key}", {}),
+            ("QuestaoItem", f"Questoes/{key}", f"Itens/{item_key}", {}),
+        )
+        for name, src, target, attrs in relations:
+            _upsert(db.collection(name), {
+                "_key": f"{key}_{name}", "_from": src, "_to": target, **attrs})
+            stats["edges"] += 1
+        _upsert(db.collection("HabilidadeArea"), {
+            "_key": f"{hab_key}_{area_key}",
+            "_from": f"Habilidades/{hab_key}", "_to": f"Areas/{area_key}"})
+        stats["questoes"] += 1
     return stats
 
-def main():
-    logger.add("/home/gumentz/enem-pipeline/logs/load_arangodb.log", rotation="10 MB")
-    logger.info("=== CARGA ARANGODB ===")
-    
-    if not INPUT_FILE.exists():
-        logger.error(f"Arquivo não encontrado: {INPUT_FILE}")
-        sys.exit(1)
-    
-    # Conecta
+def connect():
     from arango import ArangoClient
-    client = ArangoClient(hosts=ARANGO_HOST)
-    sys_db = client.db("_system", username=ARANGO_USER, password=ARANGO_PASS)
-    
-    # Cria database se não existe
-    if not sys_db.has_database(DB_NAME):
-        sys_db.create_database(DB_NAME, users=[{"username": ARANGO_USER, "password": ARANGO_PASS}])
-        logger.info(f"Database '{DB_NAME}' criado")
-    
-    db = client.db(DB_NAME, username=ARANGO_USER, password=ARANGO_PASS)
-    
-    # Cria estrutura
-    criar_estrutura(db)
-    
-    # Carrega dados
-    stats = carregar_questoes(db, INPUT_FILE)
-    
-    logger.success(f"Carga concluída: {stats}")
-    
-    # Teste AQL
-    logger.info("Testando consulta AQL...")
-    resultado = db.aql.execute("""
-        FOR q IN Questoes
-            FILTER q.ano == 2025 AND q.cor_prova == "AZUL" AND q.dia == 1
-            SORT q.posicao_prova
-            LIMIT 5
-            RETURN {
-                id: q._key,
-                pos: q.posicao_prova,
-                b: q.parametros_tri.b_dificuldade,
-                gabarito: q.gabarito_oficial,
-                area: q.area_conhecimento
-            }
-    """)
-    for r in resultado:
-        logger.info(f"  {r}")
+    host = os.environ.get("ARANGO_HOST", "http://127.0.0.1:8529")
+    username = os.environ.get("ARANGO_USER")
+    password = os.environ.get("ARANGO_PASSWORD")
+    if not username or not password:
+        raise RuntimeError("Provide ARANGO_USER and ARANGO_PASSWORD. "
+                           "Use a secured disposable instance for integration tests.")
+    return ArangoClient(hosts=host), username, password
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--fused", type=Path, default=Path("data/fused"))
+    parser.add_argument("--apply", action="store_true", help="Write to ArangoDB (default: dry run)")
+    parser.add_argument("--create-db", action="store_true", help="Allow creating missing database, only with --apply")
+    args = parser.parse_args()
+    records = read_questions(args.fused)
+    if not args.apply:
+        print(json.dumps({"mode": "dry-run", "records": len(records), "files": str(args.fused),
+                          "writes": 0}, indent=2))
+        return
+    client, username, password = connect()
+    name = os.environ.get("ARANGO_DB", "enem")
+    system = client.db("_system", username=username, password=password)
+    if not system.has_database(name):
+        if not args.create_db:
+            raise RuntimeError(f"Database {name} does not exist; use --create-db only for new database")
+        system.create_database(name)
+    db = client.db(name, username=username, password=password)
+    stats = carregar_questoes(db, records)
+    print(json.dumps({"mode": "apply", "database": name, **stats}, indent=2))
 
 if __name__ == "__main__":
     main()
