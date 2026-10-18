@@ -30,7 +30,7 @@ def words_for_pdf(pdf):
         for w in page.iter():
             if w.tag.endswith("word") and w.text:
                 words.append({"text": w.text, "x": float(w.attrib["xMin"]),
-                              "y": float(w.attrib["yMin"])})
+                              "y": float(w.attrib["yMin"]), "x_max": float(w.attrib["xMax"]), "y_max": float(w.attrib["yMax"])})
         pages.append(words)
     return pages
 
