@@ -109,8 +109,9 @@ def request(url: str, *, attempts: int = 3, ca_bundle: str | None = None) -> byt
                 isinstance(exc.reason, ssl.SSLCertVerificationError)
             ):
                 raise RuntimeError(
-                    f"Falha de certificado HTTPS em {url}. Configure CA_BUNDLE "
-                    "com uma cadeia confiável; não desative a verificação SSL."
+                    f"Falha de certificado HTTPS em {url}: {exc!r}. "
+                    "Configure CA_BUNDLE com uma cadeia confiável; "
+                    "não desative a verificação SSL."
                 ) from exc
             if attempt + 1 < attempts:
                 time.sleep(min(2 ** attempt, 8))
