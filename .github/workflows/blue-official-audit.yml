@@ -37,7 +37,7 @@ jobs:
           fi
       - name: Inspect Inep TLS certificate chain without bypassing checks
         run: |
-          echo | openssl s_client -connect download.inep.gov.br:443 -servername download.inep.gov.br -showcerts 2>&1 \
+          echo | timeout 15 openssl s_client -connect download.inep.gov.br:443 -servername download.inep.gov.br -showcerts 2>&1 \
             | grep -E 'depth=|verify error|subject=|issuer=|Verify return code|^[ ]*[0-9]+ s:' | head -35 || true
       - name: Download regular blue INEP PDFs (2017-2025)
         run: |
