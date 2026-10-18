@@ -23,6 +23,9 @@ if (fs.existsSync(dotenvPath)) {
 
 app.use(express.json());
 
+// Isolated audited-question API; existing ArangoDB endpoints remain unchanged.
+app.use('/api/audit', require('./audit-gate').auditRouter(express));
+
 // Servir frontend static files
 app.use(express.static(path.join(__dirname, 'public')));
 
