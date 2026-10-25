@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply two source-checked corrections and refresh the isolated ENEM release.
+"""Apply source-checked 2018 answer-key and 2019 text corrections to the isolated release.
 
 Run from the repository root:
     python scripts/apply_verified_blue_2019.py
@@ -40,6 +40,26 @@ def main():
     required = [(2019, 2, 110), (2019, 2, 166)]
     if any(key not in by_key for key in required):
         raise SystemExit("Expected 2019 source records missing")
+    # Independently checked against the official INEP 2018 day-2 blue answer key.
+    # These questions remain REVIEW_ANSWER: an answer match does not certify content.
+    answer_fixes_2018 = {
+        117: ("B", "D"),
+        139: ("E", "A"),
+        150: ("D", "E"),
+        162: ("D", "E"),
+        169: ("B", "C"),
+        176: ("B", "C"),
+    }
+    for position, (old_answer, official_answer) in answer_fixes_2018.items():
+        row = by_key.get((2018, 2, position))
+        if row is None or row["status"] != "REVIEW_ANSWER":
+            raise SystemExit(f"Unexpected 2018 day-2 question {position}: no files changed")
+        stored = row["record"].get("gabarito_oficial")
+        if stored not in (old_answer, official_answer):
+            raise SystemExit(f"Unexpected answer for 2018 day-2 Q{position}: {stored!r}; no files changed")
+    for position, (_, official_answer) in answer_fixes_2018.items():
+        by_key[(2018, 2, position)]["record"]["gabarito_oficial"] = official_answer
+
     q110 = by_key[(2019, 2, 110)]
     q166 = by_key[(2019, 2, 166)]
     c110 = q110["record"]["conteudo"]
@@ -95,7 +115,7 @@ def main():
     write_jsonl(PREVIEW, preview)
     print(json.dumps({"published": len(published), "preview": len(preview),
                       "statuses": dict(counts), "database_changed": False,
-                      "note": "Candidates are not independently certified"}, ensure_ascii=False))
+                      "corrected_2018_answers": len(answer_fixes_2018),\n                      "note": "Candidates are not independently certified"}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
