@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "name": "enem-parte-00(1)",
+      "size_bytes": 471859200
+    },
+    {
+      "name": "enem-parte-01(1)",
+      "size_bytes": 107235630
+    }
+  ],
+  "zip_size_bytes": 579094830,
+  "zip_sha256": "a2efb083c95057b71f698e25cd11da031703b2f7da4bd50d3d7e8dbe82371a97",
+  "unzip_test": "passed: no compressed data errors",
+  "archive_entries": 8908,
+  "extracted_regular_files": 3253,
+  "skipped_entries": 5253,
+  "exclusions": [
+    "Python virtual environments",
+    "node_modules",
+    "bytecode",
+    "git hooks",
+    "local .env files",
+    "symbolic links"
+  ],
+  "archive_head": "c268020",
+  "remote_head_at_start": "f35d51d3eeb00f9644e92fdfb0b73ea665860a47"
+}
