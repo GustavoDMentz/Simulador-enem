@@ -30,7 +30,20 @@ function render(){
  if(c.texto_base)target.append(node('div',c.texto_base,'prose'));
  target.append(node('h3','Enunciado'),node('div',c.enunciado||'Enunciado indisponível','prose'));
  const visual=c.metadados_visual||{};
- if(visual.contem_imagem||visual.caminho_local_imagem)target.append(node('p','Esta questão pode depender de imagem. A representação visual não foi certificada.','warning'));
+ if(visual.contem_imagem||visual.caminho_local_imagem){
+  target.append(node('p','Imagem de apoio não certificada: confira sua fidelidade ao caderno oficial.','warning'));
+  const raw=visual.caminho_local_imagem;
+  const prefix='/home/gumentz/enem-pipeline/data/extracted/';
+  const imagePath=typeof raw==='string'?(raw.startsWith(prefix)?'/images/'+raw.slice(prefix.length):raw.startsWith('/images/')?raw:null):null;
+  if(imagePath&&!imagePath.split('/').includes('..')){
+   const img=document.createElement('img');
+   img.alt=visual.descricao_imagem||'Imagem de apoio da questão';
+   img.style.cssText='display:block;max-width:100%;height:auto;margin:14px 0';
+   img.onerror=()=>{img.replaceWith(node('p','Imagem indisponível no servidor.','warning'))};
+   img.src=imagePath;
+   target.append(img);
+  }else target.append(node('p','Imagem sem caminho local utilizável.','warning'));
+ }
  target.append(node('h3','Alternativas'));
  const opts=c.alternativas||{};
  for(const letter of 'ABCDE'){
