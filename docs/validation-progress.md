@@ -1,38 +1,71 @@
-# ENEM audit checkpoint — 2026-10-25
+# Restauração do PR #2
 
-## Verified work before runtime loss
+Escopo concluído: recuperar as 59 questões do checkpoint `09df6b5`, sem iniciar
+nova auditoria das 454 restantes. O conflito documental com a main foi resolvido
+somente na branch do PR; a main e a produção não foram alteradas.
 
-- Original split ZIP reconstructed: 579094830 bytes.
-- SHA-256: a2efb083c95057b71f698e25cd11da031703b2f7da4bd50d3d7e8dbe82371a97.
-- unzip -t passed; 8908 entries inspected; 3253 regular files extracted. Dependency environments, symlinks, credentials and hooks excluded.
-- Archive HEAD c268020; remote starting HEAD f35d51d3eeb00f9644e92fdfb0b73ea665860a47.
-- All 123 REVIEW_ANSWER examined: 98 matching, 25 wrong answers.
-- Expanded review: 309 answer keys compared; 41 answer corrections including two annulled questions, excluding six preexisting 2018 corrections.
-- 59 questions fully compared with source PDFs and tested locally, including the initial 20, eight REVIEW_IMAGE cases, 13 short questions and 18 additional science questions.
-- 454 questions remain unvalidated. The full preview contains 513.
-- Essential graphics restored directly from PDF renderings, without redrawing. Rasterized supporting text is not selectable.
-- Validation performed: Python compilation, 65 Python tests, six Node tests, HTTP API checks and actual Chromium selection/correct-answer checks for all 59 questions. Desktop/mobile preview loaded all 513; graphic requests returned HTTP 200.
-- No database, production, main merge, paid service or credentials changed.
+## Recuperação verificável
 
-## Publication interruption
+As duas partes foram recuperadas dos anexos anteriores. O ZIP reconstruído tem
+579.094.830 bytes e passou novamente em `unzip -t` antes da extração.
+SHA-256: `a2efb083c95057b71f698e25cd11da031703b2f7da4bd50d3d7e8dbe82371a97`.
+Foram inspecionadas 8.908 entradas, sem caminhos de travessia ou duplicados;
+nove links simbólicos foram excluídos. Extraíram-se apenas 37 PDFs e o manifesto
+oficial de origem, em diretório isolado, sem executar código do arquivo.
 
-The Work execution environment changed during transfer. The checkout, generated images, ZIP and local commits were no longer available in the replacement runtime. Direct Git push had failed for lack of terminal credentials. Only the blobs now saved by this checkpoint reached GitHub.
+O arquivo contém o checkout c268020, anterior ao checkpoint remoto. Os commits
+locais históricos 21dbcd7, 935291f e 636a80e não estavam disponíveis no GitHub;
+seus componentes necessários foram reconstruídos e testados novamente.
 
-Local commits made and tested, but NOT pushed:
-- 21dbcd7: scoring approval and annulled-key parser.
-- 935291f: 41 reviewed questions and recovered assets.
-- 636a80e: 18 additional science questions and three source tables.
+## Resultado
 
-These local commit IDs are historical evidence, not usable GitHub commit links.
+- 59 registros restaurados com hashes de conteúdo idênticos ao checkpoint.
+- 59 gabaritos reconferidos nos PDFs cujo SHA-256 coincide com a evidência.
+- 12 imagens restauradas por renderização direta dos PDFs e inspecionadas.
+- 513 questões na prévia; exatamente 454 pendentes preservadas sem alterações.
+- Apenas as 59 aprovações explícitas são elegíveis à correção no simulador/API.
+- TRI não é presumida: a API e a publicação retornam `parametros_tri: null`.
 
-## What this checkpoint deliberately does
+`data/audit/restoration-verification.json` registra a verificação de cada questão.
+O manifesto ativo vincula identidade, conteúdo, alternativas, resposta, evidência
+de gabarito e hash do arquivo de imagem. Ausência ou alteração de dependências
+retira a questão correspondente da pontuação. Manifesto ilegível bloqueia a API.
+As evidências históricas e a cópia de recuperação permanecem intactas.
 
-- Preserves answer/content correction evidence and ZIP integrity record.
-- Saves the reviewed manifest and 513-record preview under data/audit/session-recovery, outside the live publisher/API.
-- Does NOT activate the 59 scoring flags remotely: their associated code and image assets did not finish transferring.
-- Leaves the live data/audit/manifest.json unchanged.
+Os apoios complexos foram preservados em PNG, incluindo textos e créditos:
+esses trechos não são selecionáveis e a descrição alternativa é genérica.
+Esta restauração não certifica TRI nem as 454 questões pendentes.
 
-## Resume
+## Repetir os checks
 
-Use the original uploaded ZIP parts and the saved evidence. Recreate the reviewed image assets from the original PDFs, restore the content-bound scoring guard, rebuild release rows from preview plus correction evidence, and rerun tests before making a live release. Do not copy the recovery manifest into the live manifest without restoring/verifying all referenced assets.
-Remaining documentary gaps include the local 2024 day-1 answer PDF and multiline 2020 day-2 answer-key parsing.
+```bash
+npm install --prefix web --ignore-scripts --no-audit --no-fund
+python scripts/publish_blue_candidates.py
+python -m compileall -q scripts
+python -m pytest -q tests scripts/tests
+node --test web/tests/*.test.js
+python scripts/audit_fused_db.py --fused data/fused --output /tmp/fused-check.json
+```
+
+Resultado local: 66 testes Python, 6 testes Node e 8 testes unittest aprovados;
+integridade dos 3.687 registros fused sem problemas. Os oito unittest já estão
+incluídos nos 66 testes Python, não são somados novamente.
+
+Foi executado `web/tests/simulator.browser.cjs` com Playwright e Chromium local:
+59 questões × respostas certa/errada × desktop/celular; 236 submissões verificadas,
+12 imagens carregadas, prévia de 513 e bloqueio das 454 pendentes. Nenhuma exceção
+JavaScript. O script aceita `ENEM_CHROMIUM` e `ENEM_CHROMIUM_ARGS` para o navegador
+disponível no ambiente; não utiliza serviços externos nem chaves.
+
+A prévia gerada não precisa ser versionada novamente: em checkout limpo a API
+usa o snapshot imutável existente, aplicando os mesmos controles em tempo de
+leitura. O publicador permite gerar a cópia idêntica para execução local.
+
+Para regenerar imagens, opcionalmente:
+`python scripts/publish_blue_candidates.py --restore-pdfs /diretorio/dos/pdfs`.
+Esse comando exige que todos os hashes de provas, gabaritos e registros das 59
+questões coincidam; nenhuma nova questão é aprovada pelo script.
+
+Sem escrita em ArangoDB, alterações em credenciais, deploy ou serviços pagos.
+O histórico de aquisição remota dos PDFs para 1.620 posições é uma auditoria
+separada e continua sujeito às falhas de acesso/TLS documentadas no README.
