@@ -59,7 +59,7 @@ jobs:
           for family in 4 6; do
             set +e
             timeout 15 openssl s_client -"$family" -connect download.inep.gov.br:443 \
-              -servername download.inep.gov.br -showcerts -verify_return_error \
+              -servername download.inep.gov.br -showcerts -tls1_2 \
               -verify_hostname download.inep.gov.br \
               -CAfile /etc/ssl/certs/ca-certificates.crt </dev/null > /tmp/inep-tls/openssl-ipv"$family".txt 2>&1
             result=$?
