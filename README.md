@@ -1,309 +1,156 @@
 <div align="center">
 
-# 📝 Simulador ENEM
+# Simulador ENEM
+### Questões reais. Revisão rastreável. Prática sem atalhos.
 
-### Portal de Simulado & Análise TRI — Teoria de Resposta ao Item
+**Um simulador de questões do ENEM com correção, recursos de estudo e um processo explícito de auditoria das provas oficiais.**
 
-[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![ArangoDB](https://img.shields.io/badge/ArangoDB-Local-DDE072?style=flat-square)](https://arangodb.com)
-[![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-AI-4285F4?style=flat-square&logo=google&logoColor=white)](https://aistudio.google.com)
-[![Provas](https://img.shields.io/badge/Provas_ENEM-2017--2025-E53935?style=flat-square)](https://www.gov.br/inep)
-[![Status](https://img.shields.io/badge/Status-WIP-orange?style=flat-square)]()
+[![Python checks](https://github.com/GustavoDMentz/Simulador-enem/actions/workflows/python-checks.yml/badge.svg)](https://github.com/GustavoDMentz/Simulador-enem/actions)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org/)
+[![License](https://img.shields.io/badge/licen%C3%A7a-MIT-64748b)](LICENSE)
+
+[Começar a usar](#comece-em-poucos-passos) · [Como funciona a auditoria](#uma-questão-só-vale-pontos-quando-é-confiável) · [Arquitetura](#por-dentro-do-projeto) · [Contribuir](#contribuindo)
 
 </div>
 
-> Pipeline completo de extração e processamento de provas do ENEM (2017–2025) integrado a um simulador web interativo de alto padrão, com análise dos parâmetros TRI, recorte dinâmico de imagens dos cadernos oficiais e assistente pedagógico por IA (Google Gemini).
-
-> [!WARNING]
-> **Status do Projeto:** Em desenvolvimento ativo (WIP). A integridade estrutural dos registros não comprova fidelidade aos cadernos oficiais. Há divergências reais de extração e gabaritos ainda não certificados; os vínculos TRI também precisam de comprovação independente. **Não utilize a base como conjunto oficialmente validado nem a publique em produção.**
-
 ---
 
-## 📋 Índice
+## O que é este projeto?
 
-- [Funcionalidades](#-funcionalidades)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Instalação](#-instalação)
-- [Executando o Simulador](#-executando-o-simulador)
-- [Pipeline de Dados](#-pipeline-de-dados)
-- [Auditoria dos cadernos azuis](#-auditoria-dos-cadernos-azuis)
-- [Variáveis de Ambiente](#-variáveis-de-ambiente)
-- [Contribuindo](#-contribuindo)
+O **Simulador ENEM** reúne uma aplicação web para resolver questões e um pipeline de preparação, conferência e publicação de conteúdo extraído de provas do Inep. O foco não é simplesmente exibir um banco enorme: é saber **quais questões podem ser corrigidas com confiança**.
 
----
+A aplicação oferece navegação por questões, seleção de respostas, eliminação de alternativas e recursos de apoio ao estudo. A camada de dados mantém evidências de origem e impede que itens ainda não revisados entrem na pontuação.
 
-## ✨ Funcionalidades
+> [!IMPORTANT]
+> **Estado da auditoria — 25/10/2026:** no lote de 513 questões da prévia, **59 foram revisadas e autorizadas para pontuação**; **454 permanecem em quarentena**. Esses números descrevem o lote auditado, não toda a cobertura histórica do repositório. Não são uma certificação do Inep nem significam que a aplicação esteja implantada em produção.
 
-### 🖥️ Simulador Web Premium
+## O que você encontra aqui
 
-Interface desenvolvida com **CSS puro**, tipografia [Outfit](https://fonts.google.com/specimen/Outfit) (Google Fonts), sombras dinâmicas e transições fluidas.
+| Para estudar | Para confiar nos dados |
+| --- | --- |
+| Resolução e correção de questões | Gabaritos confrontados com fontes oficiais |
+| Navegação e seleção de alternativas | Revisão de textos, fórmulas, imagens e créditos |
+| Marca-texto e eliminação de opções | Registro de origem, hashes e decisões de auditoria |
+| Recursos pedagógicos e integração opcional com IA | Publicação bloqueada por padrão para itens inconclusivos |
+| Visualização de informações TRI quando disponíveis | Parâmetros TRI não certificados permanecem ausentes (`null`) |
 
-| Funcionalidade | Descrição |
-|----------------|-----------|
-| **Marca-texto Pedagógico** | Selecione qualquer trecho do enunciado ou texto-base com o mouse para destacar em amarelo fluorescente |
-| **Eliminador de Alternativas** | Risca e esmaece alternativas descartadas, bloqueando-as de nova seleção (estilo "tesourinha" do ENEM físico) |
-| **Busca Direta Inteligente** | Localiza qualquer questão de 1 a 180 — traduz automaticamente numerações do Dia 2 (ex: questão 35 do Dia 2 → questão oficial 125) |
-| **Navegação Sequencial** | Avança automaticamente pela lista lateral e gerencia paginação de forma transparente |
+### Uma prévia do fluxo
 
-### 📊 Painel TRI — Teoria de Resposta ao Item
-
-Exibe os três parâmetros matemáticos oficiais do ENEM ao submeter uma resposta:
-
-| Parâmetro | Nome | Interpretação |
-|-----------|------|---------------|
-| **a** | Discriminação | Poder da questão de diferenciar proficiências |
-| **b** | Dificuldade | Barra bidirecional: azul (b < 0, fácil) → vermelho (b > 0, difícil) |
-| **c** | Acerto Casual | Probabilidade de acerto por chute puro |
-
-### 🤖 Assistente Pedagógico (Gemini 2.5 Flash)
-
-Integração direta com a API REST do Google Gemini para feedback instantâneo em três modos:
-
-- **Análise de Erro** — Explica a lógica incorreta e a "pegadinha" da questão quando o estudante erra
-- **Gabarito Justificado** — Destrincha por que a resposta correta é verdadeira e por que os outros 4 distratores são falsos
-- **Resumo Teórico** — Revisão conceitual do conteúdo cobrado na questão
-
-### 🖼️ Pipeline de Recorte de Imagens (PyMuPDF)
-
-Extração inteligente dos enunciados diretamente dos PDFs oficiais do INEP:
-
-- **Detecção dinâmica de coluna** — Identifica layout em coluna simples ou largura inteira (full-width) para não cortar tabelas e gráficos pela metade
-- **Delimitação precisa** — Ignora cabeçalhos azuis e bullets decorativos; delimita o corte pelo início da alternativa A ou cabeçalho da próxima questão
-- **Recuperação de fontes corrompidas** — Detecta páginas com tabelas `/ToUnicode` corrompidas via taxa de sobreposição lexicográfica e aplica reversão de texto (proteção contra caracteres fantasma `™`)
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-Simulador-enem/
-│
-├── data/
-│   ├── extracted/          # Imagens recortadas das questões (por ano e caderno)
-│   │   ├── 2017/
-│   │   ├── 2018/
-│   │   └── ...2025/
-│   └── fused/              # Arquivos JSONL unificados (texto + TRI + metadados)
-│       ├── questoes_enem_2017_AZUL_D1.jsonl
-│       └── ...
-│
-├── scripts/                # Pipeline de extração e processamento
-│   ├── crop_and_link_images.py     # Algoritmo de visão e recorte do PDF
-│   ├── etl_tri.py                  # Extração dos parâmetros TRI (microdados INEP)
-│   ├── fuse.py                     # Fusão de texto + TRI → JSONL final
-│   ├── deduplicate_db.py           # Remove questões duplicadas entre cores de caderno
-│   ├── restore_poem_newlines.py    # Reconstrói quebras de linha em poemas e textos
-│   ├── load_arangodb.py            # Carga dos JSONLs no ArangoDB
-│   └── batch_process_*.py          # Scripts de processamento em lote por ano
-│
-├── web/                    # Aplicação Web
-│   ├── server.js           # API REST Express + proxy Gemini
-│   ├── package.json
-│   └── public/             # Frontend estático
-│       ├── index.html      # Estrutura do portal
-│       ├── style.css       # Estilos, temas e transições
-│       └── app.js          # Lógica de interatividade e marcações
-│
-├── run_pipeline.py         # Orquestrador geral do pipeline
-└── README.md
+```text
+Provas e gabaritos do Inep
+          │
+          ▼
+ Extração e organização
+          │
+          ▼
+ Revisão de conteúdo e gabarito
+          │
+          ├── Inconclusivo ──► Quarentena (sem pontuação)
+          │
+          ▼
+ Evidências e integridade verificadas
+          │
+          ▼
+ Manifesto de publicação autorizada
+          │
+          ▼
+       Simulador
 ```
 
----
+## Comece em poucos passos
 
-## ⚙️ Instalação
-
-### Pré-requisitos
-
-| Ferramenta | Versão mínima | Verificação |
-|------------|---------------|-------------|
-| Node.js | 18+ | `node -v` |
-| Python | 3.10+ | `python3 --version` |
-| ArangoDB | 3.11+ | Rodando em `localhost:8529` |
-
-### 1. Clone o repositório
+**Requisitos:** Node.js 18+, Python 3.10+ para os scripts e uma instância ArangoDB compatível para os fluxos que dependem do banco.
 
 ```bash
 git clone https://github.com/GustavoDMentz/Simulador-enem.git
-cd Simulador-enem
-```
-
-### 2. Instale as dependências do servidor web
-
-```bash
-cd web
+cd Simulador-enem/web
 npm install
-```
-
-### 3. Configure as variáveis de ambiente
-
-Crie o arquivo `web/.env`:
-
-```env
-PORT=3000
-GEMINI_API_KEY=sua_chave_google_ai_studio_aqui
-ARANGO_HOST=http://localhost:8529
-DB_NAME=enem
-```
-
-> 💡 Chave gratuita em: [aistudio.google.com](https://aistudio.google.com)
-
-### 4. (Opcional) Instale as dependências Python para o pipeline
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install pymupdf pandas numpy
-# Para auditoria dos PDFs: instale também poppler-utils pelo gerenciador do sistema
-```
-
----
-
-## ▶️ Executando o Simulador
-
-```bash
-cd web
 npm start
 ```
 
-Acesse em: **http://localhost:3000**
+Abra **http://localhost:3000**.
 
----
+O servidor pode exigir ArangoDB e variáveis de ambiente conforme os recursos utilizados. Para configurar a integração local, crie `web/.env` com os valores apropriados para o seu ambiente:
 
-## 🔄 Pipeline de Dados
-
-O pipeline transforma os PDFs oficiais do INEP em dados estruturados prontos para o simulador:
-
-```
-PDFs Oficiais (INEP)
-    ↓
-[crop_and_link_images.py]  → Recorta e salva imagens das questões
-    ↓
-[etl_tri.py]               → Extrai parâmetros TRI dos microdados
-    ↓
-[fuse.py]                  → Unifica texto + TRI → JSONL
-    ↓
-[load_arangodb.py]         → Carrega no ArangoDB
-    ↓
-Simulador Web              → Consulta e exibe para o estudante
+```dotenv
+PORT=3000
+ARANGO_HOST=http://localhost:8529
+DB_NAME=enem
+GEMINI_API_KEY=
 ```
 
-### Comandos do pipeline
+A chave Gemini é opcional para a integração pedagógica e **não deve ser versionada**. Confira os nomes e requisitos efetivos no código do servidor antes de implantar; este exemplo é para desenvolvimento local.
+
+### Executar verificações
 
 ```bash
-# Ativar o ambiente virtual Python
-source .venv/bin/activate
+# Na raiz do repositório: testes Python
+python3 -m pytest
 
-# Orquestrador completo (recomendado)
-python3 run_pipeline.py
-
-# Re-recortar imagens com precisão máxima
-python3 scripts/crop_and_link_images.py --force
-
-# Deduplicar questões entre cadernos de cores diferentes
-python3 scripts/deduplicate_db.py
-
-# Carregar dados no ArangoDB
-python3 scripts/load_arangodb.py
+# Testes de auditoria da API
+cd web
+node --test tests/audit-gate.test.js
 ```
 
----
+Algumas verificações exigem dependências ou serviços adicionais. Consulte os workflows em [GitHub Actions](https://github.com/GustavoDMentz/Simulador-enem/actions) para os comandos completos de CI.
 
-## 🔎 Auditoria dos cadernos azuis
+## Uma questão só vale pontos quando é confiável
 
-> **Implementação em desenvolvimento:** os scripts e o workflow desta seção estão na branch [`feat/integrate-enem-audit-gate`](https://github.com/GustavoDMentz/Simulador-enem/tree/feat/integrate-enem-audit-gate), **não** na `main`. Para executar os comandos abaixo, utilize essa branch. Esta atualização da `main` é exclusivamente documental.
+O **audit gate** é a principal garantia do projeto. Uma questão só pode ser publicada quando seu registro contém autorização explícita e evidências consistentes de identidade, conteúdo, alternativas, gabarito e elementos visuais.
 
-**Escopo-alvo:** ENEM regular, caderno **AZUL**, de 2017 a 2025, nos dois dias: **1.620 posições numeradas** (9 anos × 180). As posições 1–5 do primeiro dia podem ter versões de língua estrangeira distintas (inglês/espanhol); um número de questão não identifica necessariamente uma única versão textual.
+- **Aprovada:** pode ser selecionada e corrigida pelo simulador.
+- **Pendente:** continua acessível na prévia de revisão, mas não conta pontos.
+- **Inconsistente:** alterações inesperadas em conteúdo, hashes ou imagens impedem a publicação.
 
-### Situação dos dados (triagem, não validação)
+O sistema segue uma política **fail-closed**: na dúvida, não publica. A verificação estrutural de um JSON, sozinha, não comprova fidelidade à prova.
 
-Na execução local de triagem comunicada em 18/10/2026, antes da validação integral:
+**Onde acompanhar:** [manifesto de auditoria](data/audit/manifest.json) · [registro de restauração](data/audit/restoration-verification.json) · [histórico de validação](docs/validation-progress.md).
 
-| Categoria | Quantidade | Significado |
-|---|---:|---|
-| Registros existentes estruturalmente plausíveis | 1.137 | Campos presentes; **não** implica texto, imagem ou gabarito correto |
-| Novos candidatos com hipóteses de alternativas A–E | 219 | Segmentação geométrica **não verificada** |
-| Recuperação pendente | 263 | Inclui marcadores ambíguos e cabeçalhos problemáticos |
-| Fonte ausente | 1 | Posição sem PDF oficial disponível no ambiente local |
-| **Total** | **1.620** | Nenhum item aprovado para publicação por essa triagem |
+### E a TRI?
 
-Esses números são uma fotografia de uma execução específica; **não** representam o resultado da auditoria oficial. Há divergências de conteúdo conhecidas, e gabaritos ou associações TRI existentes não devem ser presumidos corretos.
+A Teoria de Resposta ao Item utiliza parâmetros de discriminação (`a`), dificuldade (`b`) e acerto casual (`c`). O repositório contém ferramentas para trabalhar com esses dados, mas **não presume que qualquer associação de parâmetros seja oficial ou validada**. Quando não houver comprovação suficiente, os parâmetros ficam `null`. Acertar questões no simulador não equivale a obter uma nota oficial do ENEM.
 
-### Executar sem alterar a base
+## Por dentro do projeto
 
-Pré-requisitos: Python 3.10+, **PyMuPDF** e `pdftotext` (pacote `poppler-utils`). Os PDFs oficiais devem estar em `data/enem-pdfs/oficiais/`, no padrão `AAAA-regular-dD-azul.pdf`. Execute a partir da raiz:
+| Diretório | Responsabilidade |
+| --- | --- |
+| `web/` | Servidor Express, endpoints, interface e testes Node |
+| `data/fused/` | Registros estruturados legados de questões |
+| `data/audit/` | Manifesto, evidências e controle de publicação |
+| `scripts/` | Extração, auditoria, reconciliação e carregamento |
+| `docs/` | Procedimentos, decisões e limites da validação |
+| `.github/workflows/` | Verificações automatizadas e aquisição histórica |
 
-```bash
-python3 -m pip install pymupdf
-# Ubuntu/Debian: sudo apt install poppler-utils
+**Tecnologias:** JavaScript/Node.js, Express, Python, ArangoDB, PyMuPDF e integração opcional com Google Gemini. O frontend usa HTML, CSS e JavaScript.
 
-python3 scripts/rebuild_blue.py --all
-```
+### Aquisição das provas oficiais
 
-O comando gera a área de staging `data/blue-staging/`, incluindo:
+O pipeline contempla provas regulares de **2017 a 2025**, com atenção às variantes de caderno e língua estrangeira. A aquisição histórica é uma tarefa **manual e independente** da publicação das questões já verificadas.
 
-- `blue-candidates.jsonl`: registros existentes e candidatos extraídos, com status não verificado;
-- `report.json` e `exceptions.csv`: cobertura e bloqueios da reconstrução;
-- `official-validation.jsonl`: confronto textual independente com regiões dos PDFs, por questão e campo, incluindo evidências de divergências;
-- `official-validation-summary.json`: contagens e lacunas da auditoria.
+> [!NOTE]
+> O downloader oficial encontrou falhas de confiança TLS na conexão com o Inep em ambiente de CI. O problema está documentado; não se desativa a verificação HTTPS nem se declara sucesso com fontes ausentes. A auditoria das questões já restauradas é controlada separadamente.
 
-Para executar **somente** a comparação sobre um staging já produzido:
+## Contribuindo
 
-```bash
-python3 scripts/validate_blue_official.py \
-  --input data/blue-staging/blue-candidates.jsonl \
-  --output-dir data/blue-staging
-```
+Ajuda é bem-vinda na revisão de questões, correção de recortes, acessibilidade da interface, testes e documentação.
 
-O validador usa PyMuPDF para uma leitura independente da geometria do PDF. Seus status como `TEXT_MATCH_VISUAL_UNVERIFIED` e `CANDIDATE_OPTIONS_TEXT_MATCH_ONLY` significam **compatibilidade textual parcial**, jamais conformidade integral. A conferência de imagens, gráficos, fórmulas, créditos, continuidade, versões de língua estrangeira, gabaritos oficiais e identificação TRI requer controles adicionais. Regiões ambíguas devem permanecer **inconclusivas**, não ser aprovadas automaticamente.
+Antes de propor a aprovação de uma questão, inclua a identificação da prova, a fonte consultada, o que foi corrigido e as evidências que sustentam a mudança. Não envie gabaritos inferidos por IA como se fossem oficiais.
 
-**Portão de segurança:** nenhum desses comandos altera `data/fused/`, ArangoDB ou publica questões. Campos `content_verified`, `answer_verified`, `tri_verified` e `publishable` permanecem falsos até validação fundamentada. Não use o resultado do staging como entrada automática de `load_arangodb.py`.
+[Abra uma issue](https://github.com/GustavoDMentz/Simulador-enem/issues) ou [proponha um pull request](https://github.com/GustavoDMentz/Simulador-enem/pulls).
 
-### Execução automatizada e bloqueios
+## Limites e transparência
 
-O workflow [ENEM blue official audit (non-publishing)](https://github.com/GustavoDMentz/Simulador-enem/blob/feat/integrate-enem-audit-gate/.github/workflows/blue-official-audit.yml) tenta obter os PDFs oficiais do Inep, executa o staging e produz artefatos de auditoria no GitHub Actions. **A obtenção dos PDFs falhou no runner por erro de validação da cadeia TLS** (`curl: (60)`); a execução registrada em 18/10/2026 terminou com falha e **0 de 18 cadernos obtidos**. Portanto, não houve validação integral remota das 1.620 posições.
+Este é um **projeto independente**, sem afiliação ou endosso do Inep. As provas e gabaritos oficiais pertencem aos respectivos titulares. A licença do código não altera os direitos sobre materiais de terceiros.
 
-O downloader mantém a verificação HTTPS e interrompe falhas repetitivas. Não desabilite TLS para fazer o workflow parecer bem-sucedido. Quando a origem não estiver acessível, use PDFs oficiais obtidos por canal confiável, preserve a proveniência e os hashes SHA-256 e execute o validador localmente. O workflow deve falhar quando faltarem fontes, nunca sinalizar sucesso com zero PDFs.
-
-**Critério para publicação futura:** correspondência completa e demonstrável com as fontes oficiais (texto, alternativas, elementos gráficos, referências e continuidade), gabaritos corretos por versão e associações TRI rastreáveis. **Nenhuma publicação foi autorizada.**
+O projeto ainda está em evolução: a prévia contém itens pendentes, o histórico de aquisição pode depender de fontes externas e não há promessa de equivalência entre a pontuação local e a nota oficial do exame.
 
 ---
 
-## 🔐 Variáveis de Ambiente
+<div align="center">
 
-| Variável | Descrição | Exemplo |
-|----------|-----------|---------|
-| `PORT` | Porta do servidor Express | `3000` |
-| `GEMINI_API_KEY` | Chave da API do Google Gemini | `AIzaSy...` |
-| `ARANGO_HOST` | Endereço do ArangoDB | `http://localhost:8529` |
-| `DB_NAME` | Nome do banco de dados | `enem` |
+**Menos questões duvidosas. Mais estudo com evidências.**
 
----
+[Repositório](https://github.com/GustavoDMentz/Simulador-enem) · [Documentação](docs/) · [Testes e CI](https://github.com/GustavoDMentz/Simulador-enem/actions)
 
-## 🗓️ Cobertura de Dados
-
-| Ano | Dias | Cadernos |
-|-----|------|----------|
-| 2017–2023 | Dia 1 + Dia 2 | AMARELO, AZUL, BRANCO, CINZA, ROSA |
-| 2024–2025 | Dia 1 + Dia 2 | AZUL |
-
-> ⚠️ A cobertura de cadernos varia por ano conforme disponibilidade dos PDFs e estágio de processamento.
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas, especialmente para:
-
-- 🐛 Correções de extração em anos/cadernos com problemas conhecidos
-- 📄 Adição de cadernos ainda não processados (2024–2025 incompletos)
-- 🎨 Melhorias na interface do simulador
-- 📊 Novos gráficos e visualizações TRI
-
-Abra uma [issue](https://github.com/GustavoDMentz/Simulador-enem/issues) ou um pull request!
-
----
-
-## 📄 Licença
-
-MIT — uso livre para fins educacionais e de pesquisa.
+</div>
