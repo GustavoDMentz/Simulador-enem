@@ -1,7 +1,7 @@
 name: ENEM database integrity checks
 on:
   push:
-    branches: [feat/integrate-enem-audit-gate]
+    branches: [feat/integrate-enem-audit-gate, feat/enem-audit-batch-02]
   pull_request:
     paths:
       - 'scripts/audit_fused_db.py'

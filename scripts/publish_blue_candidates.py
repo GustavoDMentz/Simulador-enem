@@ -70,6 +70,20 @@ def publish(source=RECOVERY):
         raise ValueError('Invalid audit manifest')
     entries = data['questions']
     rows = [json.loads(l) for l in source.read_text(encoding='utf-8').splitlines() if l.strip()]
+    # The checked-in release is the canonical content for subsequent batches.
+    # The immutable recovery snapshot remains the inventory and quarantine base.
+    if DEST.exists() and source == RECOVERY:
+        release = [json.loads(l) for l in DEST.read_text(encoding='utf-8').splitlines() if l.strip()]
+        inventory = {q['id_unico_sistema'] for q in rows}
+        approved_ids = {e.get('id') for e in entries}
+        overlay = {}
+        for q in release:
+            uid = q['id_unico_sistema']
+            if uid not in inventory or uid in overlay:
+                raise ValueError('Unknown or duplicate release identity')
+            if uid in approved_ids:
+                overlay[uid] = q
+        rows = [overlay.get(q['id_unico_sistema'], q) for q in rows]
     ids = [q['id_unico_sistema'] for q in rows]
     keys = [(q['ano'],q['dia'],q['posicao_prova']) for q in rows]
     if len(ids) != len(set(ids)) or len(keys) != len(set(keys)):

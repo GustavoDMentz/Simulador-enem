@@ -7,7 +7,8 @@ const PREVIEW=path.resolve(__dirname,'../data/blue-published/preview-questions.j
 const RECOVERY=path.resolve(__dirname,'../data/audit/session-recovery/preview-questions.jsonl');
 function load(file=SOURCE){
  if(!fs.existsSync(file))return null;
- const rows=fs.readFileSync(file,'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
+ let rows=fs.readFileSync(file,'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
+ if(file===RECOVERY){const release=new Map((load(SOURCE)||[]).map(q=>[q.id_unico_sistema,q]));rows=rows.map(q=>release.get(q.id_unico_sistema)||q)}
  const ids=rows.map(q=>q.id_unico_sistema);
  const keys=rows.map(q=>`${q.ano}/${q.dia}/${q.posicao_prova}`);
  if(new Set(ids).size!==ids.length||new Set(keys).size!==keys.length)throw Error('Duplicate question identity');

@@ -5,6 +5,7 @@ on:
     branches:
       - refactor/enem-2.0
       - feat/integrate-enem-audit-gate
+      - feat/enem-audit-batch-02
   pull_request:
     paths:
       - "scripts/**"
