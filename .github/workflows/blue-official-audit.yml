@@ -1,18 +1,8 @@
 name: ENEM blue official audit (non-publishing)
 
+# Acquisition of the complete historical corpus is an independent network task.
+# Integration checks use restored, hash-bound approvals; see validation-progress.md.
 on:
-  push:
-    branches:
-      - feat/integrate-enem-audit-gate
-    paths:
-      - scripts/download_inep_enem.py
-      - scripts/rebuild_blue.py
-      - scripts/extract_blue_candidates.py
-      - scripts/validate_blue_official.py
-      - scripts/consolidate_blue_audit.py
-      - scripts/audit_blue_staging_answers.py
-      - scripts/audit_official_gabaritos.py
-      - .github/workflows/blue-official-audit.yml
   workflow_dispatch:
 
 permissions:

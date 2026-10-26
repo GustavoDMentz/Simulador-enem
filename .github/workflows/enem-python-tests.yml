@@ -9,6 +9,9 @@ on:
     paths:
       - "scripts/**"
       - "tests/**"
+      - "data/audit/**"
+      - "data/blue-published/**"
+      - "data/extracted/verified/**"
       - ".github/workflows/enem-python-tests.yml"
   workflow_dispatch:
 

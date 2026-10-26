@@ -6,8 +6,11 @@ on:
     paths:
       - 'scripts/audit_fused_db.py'
       - 'scripts/tests/**'
-      - 'web/audit-gate.js'
-      - 'web/tests/**'
+      - 'web/**'
+      - 'scripts/publish_blue_candidates.py'
+      - 'data/audit/**'
+      - 'data/blue-published/**'
+      - 'data/extracted/verified/**'
       - '.github/workflows/db-integrity.yml'
   workflow_dispatch:
 jobs:
