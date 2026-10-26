@@ -69,3 +69,8 @@ questões coincidam; nenhuma nova questão é aprovada pelo script.
 Sem escrita em ArangoDB, alterações em credenciais, deploy ou serviços pagos.
 O histórico de aquisição remota dos PDFs para 1.620 posições é uma auditoria
 separada e continua sujeito às falhas de acesso/TLS documentadas no README.
+
+
+### Correção do transporte HTTPS no CI
+
+A execução 40251131151 falhou: 0/18 PDFs, timeouts em download.inep.gov.br, sem publicação. O downloader forçava conexão direta e não acionava curl após timeout. Corrigido para respeitar o proxy do ambiente e tentar curl IPv4 verificado pelo ambiente e diretamente, mantendo CA personalizada, HTTPS e limites de tamanho/tempo. Uma indisponibilidade inicial de transporte é registrada e interrompe o lote; a verificação de completude continua falhando quando faltam fontes. Quatro regressões offline passaram com unittest. A conectividade externa depende da nova execução do GitHub; nenhum conteúdo de questão foi alterado.
