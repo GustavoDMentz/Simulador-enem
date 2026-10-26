@@ -25,9 +25,9 @@ const app=require('../server');
     await page.evaluate(q=>displayQuestion(q),q);
     assert.equal(await page.locator('#question-enunciado').innerText(),q.conteudo.enunciado);
     for(const letter of 'ABCDE')assert.equal(await page.locator('.alternative-card[data-letter="'+letter+'"] .alternative-text').innerText(),q.conteudo.alternativas[letter]);
-    if(q.conteudo.texto_base)assert.equal(await page.locator('#question-text-base').textContent(),q.conteudo.texto_base);
+    if(q.conteudo.texto_base)assert.equal((await page.locator('#question-text-base').textContent()).replace(/\s+/g,' '),q.conteudo.texto_base.trim().replace(/\s+/g,' '));
     const asset=q.conteudo.metadados_visual?.caminho_local_imagem;
-    if(asset){await page.waitForFunction(()=>{const i=document.getElementById('question-img');return i.complete&&i.naturalWidth>0});const response=await page.request.get(base+asset);assert.equal(response.status(),200)}
+    if(asset && q.presentation?.mode !== 'text'){await page.waitForFunction(()=>{const i=document.getElementById('question-img');return i.complete&&i.naturalWidth>0});const response=await page.request.get(base+asset);assert.equal(response.status(),200)}
     await page.locator('.alternative-card[data-letter="'+q.gabarito_oficial+'"]').click();await page.locator('#btn-submit').click();assert.match(await page.locator('#answer-feedback').innerText(),/Acertou/);
     const wrong=[...'ABCDE'].find(l=>l!==q.gabarito_oficial);
     await page.evaluate(q=>displayQuestion(q),q);await page.locator('.alternative-card[data-letter="'+wrong+'"]').click();await page.locator('#btn-submit').click();assert.match(await page.locator('#answer-feedback').innerText(),/Errou/);

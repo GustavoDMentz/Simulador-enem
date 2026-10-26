@@ -111,11 +111,14 @@
           
           <!-- Image Section -->
           <div id="question-image-container" class="image-container hidden">
-            <img id="question-img" src="" alt="Imagem de apoio da questão">
-            <button id="btn-toggle-desc" class="btn-secondary-outline">👁️ Ver Descrição IA (Acessibilidade)</button>
+            <button id="btn-enlarge-image" class="image-button" aria-label="Ampliar imagem de apoio"><img id="question-img" src="" alt="Imagem de apoio da questão"></button>
+            <span class="image-hint">Clique na imagem ou use Enter para ampliar</span>
+            <button id="btn-toggle-desc" class="btn-secondary-outline">Descrição disponível</button>
             <div id="question-desc-text" class="image-desc hidden"></div>
           </div>
           
+          <div id="question-after-figure" class="text-base hidden"></div>
+          <button id="btn-original-source" class="btn-secondary-outline hidden">Consultar reprodução original</button>
           <!-- Command/Enunciado -->
           <div id="question-enunciado" class="enunciado"></div>
           
@@ -159,7 +162,7 @@
         <div id="tri-dashboard" class="tri-dashboard hidden">
           <div class="dashboard-header">
             <h3>📈 Análise da Teoria de Resposta ao Item (TRI)</h3>
-            <div id="answer-feedback" class="feedback-badge">Acertou!</div>
+            <div id="answer-feedback" class="feedback-badge" role="status" aria-live="polite">Acertou!</div>
           </div>
           <div class="dashboard-grid">
             
@@ -228,6 +231,11 @@
   
   <button id="highlighter-btn" class="highlighter-btn hidden" title="Marcar Texto">🖍️</button>
   
+  <dialog id="image-viewer" aria-labelledby="image-viewer-title">
+    <div class="viewer-toolbar"><h2 id="image-viewer-title">Material de apoio</h2><button id="btn-close-image" autofocus>Fechar</button></div>
+    <div class="viewer-controls"><label><input id="image-zoom" type="checkbox"> Resolução original</label><a id="viewer-original-link" target="_blank" rel="noopener">Abrir arquivo original em nova aba</a></div>
+    <div class="viewer-scroll"><img id="viewer-image" alt=""></div>
+  </dialog>
   <script src="app.js"></script>
 </body>
 </html>
