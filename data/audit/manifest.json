@@ -4271,6 +4271,2670 @@
         "format": "PNG"
       },
       "note": "Batch 02: full source region, stem, A–E and official key visually compared. Support and credits retained as source pixels; no TRI."
+    },
+    {
+      "id": "2022_AZUL_D1_Q08",
+      "year": 2022,
+      "day": 1,
+      "number": 8,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+      "answer_source_sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "1fcc0f5559afa3b441b79f27b14751f90a2466d29aed14be867b788a73351824",
+      "asset_sha256": "62a0cfd5770976a5a350dd480e80411e5781df67e1aae7184053fa41435efd10",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 6,
+          "bbox": [
+            24,
+            564.0653076171875,
+            282.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 6,
+          "bbox": [
+            284.4645080566406,
+            57,
+            558.9290161132812,
+            376.61334228515625
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 6,
+            "bbox": [
+              24,
+              578.0653076171875,
+              282.4645080566406,
+              742
+            ]
+          },
+          {
+            "page": 6,
+            "bbox": [
+              284.4645080566406,
+              57,
+              558.9290161132812,
+              221.2
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D1_Q82",
+      "year": 2020,
+      "day": 1,
+      "number": 82,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "d052e079477e399dd2088dc07e35cc1a5e358dcc1633a77b281687e3b22caf46",
+      "asset_sha256": "3aac2757814b23cb398f3c3ef426c6ad2ebb7e6c9e830d6435d3555b6bf70929",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 29,
+          "bbox": [
+            24,
+            565.5892333984375,
+            282.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 29,
+          "bbox": [
+            284.4645080566406,
+            57,
+            558.9290161132812,
+            181.77801513671875
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 29,
+            "bbox": [
+              24,
+              579.5892333984375,
+              282.4645080566406,
+              742
+            ]
+          },
+          {
+            "page": 29,
+            "bbox": [
+              284.4645080566406,
+              57,
+              558.9290161132812,
+              71.6
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2025_AZUL_D1_Q31",
+      "year": 2025,
+      "day": 1,
+      "number": 31,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "0a1dd3af0ace60eff9eb4d9133a8dee2ce16a7c89a692c9a842b190b7f8ae6e6",
+      "asset_sha256": "95f4faf53efeb0ab1843af92947dfb1e7eb6ea64299a0f4cd3480d586627dfff",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 14,
+          "bbox": [
+            24,
+            410.55950927734375,
+            282.4637451171875,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 14,
+          "bbox": [
+            284.4637451171875,
+            57,
+            558.927490234375,
+            75.69099426269531
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 14,
+            "bbox": [
+              24,
+              424.55950927734375,
+              282.4637451171875,
+              652.0
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q59",
+      "year": 2023,
+      "day": 1,
+      "number": 59,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "e7283ff33f375fdb206b9d2860725dd05078c1421326d94f89a08d21d5c905eb",
+      "asset_sha256": "86b88a69fc5dfeafd3de962c57b99b9d899107e2844cb8716c1134d789ab3c94",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 23,
+          "bbox": [
+            24,
+            529.1820068359375,
+            282.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 23,
+          "bbox": [
+            284.4645080566406,
+            57,
+            558.9290161132812,
+            168.90943908691406
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 23,
+            "bbox": [
+              24,
+              543.1820068359375,
+              282.4645080566406,
+              742
+            ]
+          },
+          {
+            "page": 23,
+            "bbox": [
+              284.4645080566406,
+              57,
+              558.9290161132812,
+              63.099999999999994
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D1_Q52",
+      "year": 2021,
+      "day": 1,
+      "number": 52,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "182caec6258f5a00947714574d2dd2d0022fe162eb0e27d1a946f4a92f4d1b84",
+      "asset_sha256": "d6369621a6cc6eefb5130531c9024f37464189e023a7efc928ae0e3d41db645f",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 23,
+          "bbox": [
+            24,
+            609.5579833984375,
+            282.5,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 23,
+          "bbox": [
+            284.5,
+            57,
+            559.0,
+            183.57220458984375
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 23,
+            "bbox": [
+              24,
+              623.5579833984375,
+              282.5,
+              742
+            ]
+          },
+          {
+            "page": 23,
+            "bbox": [
+              284.5,
+              57,
+              559.0,
+              72.1
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2025_AZUL_D1_Q21",
+      "year": 2025,
+      "day": 1,
+      "number": 21,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "e429971643514c82e1cd8cf7d94d67e5ef99cdba03ce2c7cac0a963a838fa375",
+      "asset_sha256": "1d905515d390a843f389410f30ec42674eaefcf3c610ed727e11c5ce301cb9e4",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 10,
+          "bbox": [
+            284.4637451171875,
+            438.715087890625,
+            558.927490234375,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 11,
+          "bbox": [
+            284.4637451171875,
+            57,
+            558.927490234375,
+            75.69099426269531
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 10,
+            "bbox": [
+              284.4637451171875,
+              452.715087890625,
+              558.927490234375,
+              638.5
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2025_AZUL_D1_Q33",
+      "year": 2025,
+      "day": 1,
+      "number": 33,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "765d2947988450efe25e9353845ffcf92dc1468f5361f5521c609ce8cadf1649",
+      "asset_sha256": "b799fbb21f275aa22b037282fd69518ca8bdcae5b0d9974e8779e37f91cced0f",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 14,
+          "bbox": [
+            284.4637451171875,
+            437.73260498046875,
+            558.927490234375,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 15,
+          "bbox": [
+            284.4637451171875,
+            57,
+            558.927490234375,
+            75.69099426269531
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 14,
+            "bbox": [
+              284.4637451171875,
+              451.73260498046875,
+              558.927490234375,
+              617.6
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D1_Q48",
+      "year": 2021,
+      "day": 1,
+      "number": 48,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "69452f783cd8298c3f9974a9ceab9d3f000d93091c164a91465fa418c3956ab3",
+      "asset_sha256": "e9c41c18e04c75116a3ee33a89dba0310a2d88e3a562daf8877f353a2d9f98ad",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 22,
+          "bbox": [
+            24,
+            623.864013671875,
+            282.5,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 22,
+          "bbox": [
+            284.5,
+            57,
+            559.0,
+            298.74639892578125
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 22,
+            "bbox": [
+              24,
+              637.864013671875,
+              282.5,
+              742
+            ]
+          },
+          {
+            "page": 22,
+            "bbox": [
+              284.5,
+              57,
+              559.0,
+              174.1
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D1_Q23",
+      "year": 2021,
+      "day": 1,
+      "number": 23,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "24f34d7a90c15683b7b5bbaac849434f4c1e004668b3ab4dc47ca8d57c5562d7",
+      "asset_sha256": "de61fc11f822b35ee7abd9b69ed4681e0a9868edaf799769fa7ec11b5855840b",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 13,
+          "bbox": [
+            24,
+            386.73760986328125,
+            282.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 13,
+            "bbox": [
+              24,
+              400.73760986328125,
+              282.5,
+              563.8
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D1_Q22",
+      "year": 2021,
+      "day": 1,
+      "number": 22,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "a747ed7ff3daccca83b58d71375b9187da17c888a2208d93a5c944331e9eeba2",
+      "asset_sha256": "cfe378e38c58afba815673e7c42e5f3438e30dd4fe2ecbd9e84821989ae50854",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 13,
+          "bbox": [
+            24,
+            74.546875,
+            282.5,
+            388.23760986328125
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 13,
+            "bbox": [
+              24,
+              88.546875,
+              282.5,
+              241.3
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q48",
+      "year": 2023,
+      "day": 1,
+      "number": 48,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "6c216e5f3aa13498d942a86bf62358be4ec2e2c8bb80fbd72f7074e3d93cd6d7",
+      "asset_sha256": "55fd6daf74314d0e214fe27748bc542563627c4b336a80c253fbfc1bb6189cdc",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 20,
+          "bbox": [
+            284.4645080566406,
+            62.834190368652344,
+            558.9290161132812,
+            404.2721252441406
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 20,
+            "bbox": [
+              284.4645080566406,
+              76.83419036865234,
+              558.9290161132812,
+              244.2
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2025_AZUL_D1_Q38",
+      "year": 2025,
+      "day": 1,
+      "number": 38,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "c5b14ea0a44bda805658d86031de8d32c75365acb00b56474d8c586278016f90",
+      "asset_sha256": "a695ee9fdc8fc5762cb390f8078d0a21db0c7e3ba64d00018135c8015c35ba94",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 16,
+          "bbox": [
+            24,
+            461.318603515625,
+            558.927490234375,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 16,
+            "bbox": [
+              24,
+              475.318603515625,
+              558.927490234375,
+              611.4
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2022_AZUL_D1_Q26",
+      "year": 2022,
+      "day": 1,
+      "number": 26,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+      "answer_source_sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "2fb2a33f1ddf0ea2e775c7ab847be64ca6b776e89b924de68a0ebf3dc5839685",
+      "asset_sha256": "2d98d0115c4c6aad0b60af5263fb9d0c365bf2cd7fb8759e117fa45062bd5342",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 13,
+          "bbox": [
+            24,
+            62.834190368652344,
+            282.4645080566406,
+            558.4636840820312
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 13,
+            "bbox": [
+              24,
+              76.83419036865234,
+              282.4645080566406,
+              435.5
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2022_AZUL_D1_Q06",
+      "year": 2022,
+      "day": 1,
+      "number": 6,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+      "answer_source_sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "c254abe0ea60da174b9bbaa0c1cdcd3cfa33210ff4459e19490dedae9188e80f",
+      "asset_sha256": "1f246a626cf3d8f403dd1e446dff99667c2d60811efa75b25edebee90bd70c6a",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 5,
+          "bbox": [
+            284.4645080566406,
+            92.3853988647461,
+            558.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 5,
+            "bbox": [
+              284.4645080566406,
+              106.3853988647461,
+              558.9290161132812,
+              317.3
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D1_Q90",
+      "year": 2021,
+      "day": 1,
+      "number": 90,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "c29f23c2580fd51045951a13b2b2716e5d032310867ff0e2d8c344788587b1b3",
+      "asset_sha256": "02eab55262677fc3c8c07a0666445171ce6cfed0dc2198f54ca15b6eea2b38b5",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 31,
+          "bbox": [
+            24,
+            359.5794982910156,
+            559.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 31,
+            "bbox": [
+              24,
+              373.5794982910156,
+              559.0,
+              637.9
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q06",
+      "year": 2023,
+      "day": 1,
+      "number": 6,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "63b28822698ade02cecfa95655fb049cca2f5ea6a079c2d147a721881330ce27",
+      "asset_sha256": "ee2397191a381805cff00d109f30e3da981fd002a36fe0745cc8c9e265190d0f",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 6,
+          "bbox": [
+            24,
+            92.38570404052734,
+            282.4645080566406,
+            333.3357238769531
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 6,
+            "bbox": [
+              24,
+              106.38570404052734,
+              282.4645080566406,
+              230.6
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q89",
+      "year": 2023,
+      "day": 1,
+      "number": 89,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "1207259144738f1aad8800fbd25009b42e7f69cfa7010256fa6c80491ab76739",
+      "asset_sha256": "fbedf611237964b94863fec683314d9f1c2a72381004861393a145874a50e3eb",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 31,
+          "bbox": [
+            24,
+            62.834190368652344,
+            558.9290161132812,
+            542.989013671875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 31,
+            "bbox": [
+              24,
+              76.83419036865234,
+              558.9290161132812,
+              443.9
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2025_AZUL_D2_Q100",
+      "year": 2025,
+      "day": 2,
+      "number": 100,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "39af0f0eaf3e30a3cd211bc19db9029204703965a2c76ff232fb3109181fa7c8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025",
+      "answer_source_sha256": "9e2d470af35378df532173414ec7077c3ce4df38c084a5f1258579fdf9270aef",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "714dccebd50f33fb439c6b38cd365c0c185be602c4efcdb29ef64d66fa1dd5c9",
+      "asset_sha256": "de61d200e792cc815f34e04fcb713300e849cd86b49bb80d46587a8b650c0019",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 4,
+          "bbox": [
+            24,
+            317.65301513671875,
+            282.4637451171875,
+            509.8494873046875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 4,
+            "bbox": [
+              24,
+              331.65301513671875,
+              282.4637451171875,
+              414.4
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q110",
+      "year": 2020,
+      "day": 2,
+      "number": 110,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "9b00b729badecaf5fc21f5e1f0c9cdd7f821eecd964f020a2409befe0ed93d01",
+      "asset_sha256": "9d948f9292fa4812cc72d36abc8b72ffe7626e826f02833af2f5e326701c23be",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 8,
+          "bbox": [
+            24,
+            519.367919921875,
+            282.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 8,
+            "bbox": [
+              24,
+              533.367919921875,
+              282.4645080566406,
+              629.5
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q105",
+      "year": 2020,
+      "day": 2,
+      "number": 105,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "ded2d264c2d99a86d7242e5b45d990aecdac0200a1a2d16c7ad9b4f55b757075",
+      "asset_sha256": "5270483c6cb97a8f36222801100f1e4a0375f80de74a7ad894ebd465194ca26f",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 7,
+          "bbox": [
+            24,
+            71.256103515625,
+            282.4645080566406,
+            335.5600280761719
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 7,
+            "bbox": [
+              24,
+              85.256103515625,
+              282.4645080566406,
+              168.3
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q119",
+      "year": 2020,
+      "day": 2,
+      "number": 119,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "8b407c812ceea1d0e84caf970930265d1dd563b7b99c42ec914ee57b2551a814",
+      "asset_sha256": "01b4660a022365292d5704af28df2930ec99b4acffd20c74d3d7e1c900b9a6d5",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 11,
+          "bbox": [
+            24,
+            71.256103515625,
+            282.4645080566406,
+            631.7756958007812
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 11,
+            "bbox": [
+              24,
+              85.256103515625,
+              282.4645080566406,
+              530.1
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q117",
+      "year": 2020,
+      "day": 2,
+      "number": 117,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "fde3b184804ff078a41f4540362a29eb2022f85745a965e934d5c859b836eee6",
+      "asset_sha256": "2fefed68a99977a8da583adcc5d96008957528616d0f2c5d5415301be9289368",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 10,
+          "bbox": [
+            284.4645080566406,
+            71.256103515625,
+            558.9290161132812,
+            405.8199157714844
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 10,
+            "bbox": [
+              284.4645080566406,
+              85.256103515625,
+              558.9290161132812,
+              282.8
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q134",
+      "year": 2020,
+      "day": 2,
+      "number": 134,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "0673496940253d0cf993f9b25c157c4cd54e1503a4564de0f428770d893ab396",
+      "asset_sha256": "51f62a0f96d9a4b204da7ba4fde72c578dca66091ba966053797cf0dba863648",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 15,
+          "bbox": [
+            24,
+            614.3411254882812,
+            282.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 15,
+          "bbox": [
+            284.4645080566406,
+            57,
+            558.9290161132812,
+            410.384521484375
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 15,
+            "bbox": [
+              24,
+              628.3411254882812,
+              282.4645080566406,
+              742
+            ]
+          },
+          {
+            "page": 15,
+            "bbox": [
+              284.4645080566406,
+              57,
+              558.9290161132812,
+              319.7
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q112",
+      "year": 2020,
+      "day": 2,
+      "number": 112,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "5b5681ac8a00e44fb11f2011472c52d63268631a6f8a046b59b71cbfca628464",
+      "asset_sha256": "1a033583370ce98fa241aaa545f1ba51aab685ad14d89751d7bd097cee036261",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 8,
+          "bbox": [
+            284.4645080566406,
+            395.2333068847656,
+            558.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 8,
+            "bbox": [
+              284.4645080566406,
+              409.2333068847656,
+              558.9290161132812,
+              539.0
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2022_AZUL_D2_Q119",
+      "year": 2022,
+      "day": 2,
+      "number": 119,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "465f9187db05670a6ba1e87f2592366e23a92503c5cf2e09a412702c2941ac7d",
+      "asset_sha256": "fa3e7c8aa9543ea539af5705353ccd4b1793ddad4826a561a8aa339b4b80d9ca",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 12,
+          "bbox": [
+            24,
+            62.834190368652344,
+            558.9290161132812,
+            216.0761260986328
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 12,
+            "bbox": [
+              24,
+              76.83419036865234,
+              558.9290161132812,
+              133.3
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D2_Q127",
+      "year": 2021,
+      "day": 2,
+      "number": 127,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "af566cbe223da20654d1d8e22dfaf2a1f56a11f46f4735b7eee02476d06fac19",
+      "asset_sha256": "b967887583b24ea1d7a7471321db134609161755efc352e535fd9102a59bcd32",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 15,
+          "bbox": [
+            24,
+            74.546875,
+            282.5,
+            276.910400390625
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 15,
+            "bbox": [
+              24,
+              88.546875,
+              282.5,
+              169.9
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D2_Q123",
+      "year": 2021,
+      "day": 2,
+      "number": 123,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "61fbe2f9e938696ec0d6416d46888b0aaff4e92927320749bea43c67adc0c477",
+      "asset_sha256": "f88351700adb09a99e9c3bda617f205c1a8371a726a33657b85ae8cb12909337",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 12,
+          "bbox": [
+            24,
+            615.489990234375,
+            559.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 12,
+            "bbox": [
+              24,
+              629.489990234375,
+              559.0,
+              669.6
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2024_AZUL_D2_Q111",
+      "year": 2024,
+      "day": 2,
+      "number": 111,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "0993ae687a93dfbcda8e95ce8708883be9d5a55cabbe1f1a06b81a50c18c6cdc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024",
+      "answer_source_sha256": "8d27b5a447061e9a1c181d00a916d10f45e1c6c1da68d628b3ae8bdfedbf5c92",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "fce58300d4618d97c282d060083a7ca583346c999df083728cbd70237dd9c26c",
+      "asset_sha256": "4e4444b81187313ed597753f8e79fa1188cfe317eb2ade43f2f08678ec4ee780",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 7,
+          "bbox": [
+            24,
+            488.1383361816406,
+            283.2911682128906,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 7,
+            "bbox": [
+              24,
+              502.1383361816406,
+              283.2911682128906,
+              571.8
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q98",
+      "year": 2020,
+      "day": 2,
+      "number": 98,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "42386ffd8d9c0c82fd152c5cbe6c2f0c74f81675888125d464d8dca860a056f1",
+      "asset_sha256": "f8987805e1d5b7d3bc82a778baff633437ce651b3bdac32ebdd951187557214b",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 4,
+          "bbox": [
+            284.4645080566406,
+            332.6333312988281,
+            558.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 4,
+            "bbox": [
+              284.4645080566406,
+              346.6333312988281,
+              558.9290161132812,
+              492.4
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D2_Q132",
+      "year": 2021,
+      "day": 2,
+      "number": 132,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "1fa7094a6304c73bead788257ddf543f17f4506af6bf21eb9ae4bccd0ce503ab",
+      "asset_sha256": "2d890acf0dd9823289cf9a7bbba2c66ae4b9b4511044a5f93622ae63ad56f9c9",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 16,
+          "bbox": [
+            24,
+            74.546875,
+            282.5,
+            313.5284118652344
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 16,
+            "bbox": [
+              24,
+              88.546875,
+              282.5,
+              207.9
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2025_AZUL_D2_Q121",
+      "year": 2025,
+      "day": 2,
+      "number": 121,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "39af0f0eaf3e30a3cd211bc19db9029204703965a2c76ff232fb3109181fa7c8",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025",
+      "answer_source_sha256": "9e2d470af35378df532173414ec7077c3ce4df38c084a5f1258579fdf9270aef",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "b4d97295f850039b63c149d9a3589662c2eba7178cc8529b3ca4bbfd05202399",
+      "asset_sha256": "70cea7a452b7cde28b7d2961595c1458a6c5b82f0209a055c24c607cbf061226",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 10,
+          "bbox": [
+            24,
+            504.39288330078125,
+            282.4637451171875,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 10,
+          "bbox": [
+            284.4637451171875,
+            57,
+            558.927490234375,
+            75.69099426269531
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 10,
+            "bbox": [
+              24,
+              518.3928833007812,
+              282.4637451171875,
+              640.0
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D2_Q104",
+      "year": 2021,
+      "day": 2,
+      "number": 104,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "ecb87d5e515deaa827f28d8c87f0a95a7ce4b867db17a46871f5c72e0e40c3ae",
+      "asset_sha256": "a20a32e5da73e92c20268d577ecaf875a90ec43db6e9c0ba2da463a76905797c",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 6,
+          "bbox": [
+            24,
+            515.0368041992188,
+            282.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 6,
+            "bbox": [
+              24,
+              529.0368041992188,
+              282.5,
+              637.0
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q122",
+      "year": 2020,
+      "day": 2,
+      "number": 122,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "4631644c4d156fbb90fb8868085e646519df14efc53d5e0efd8cb2705ec187e9",
+      "asset_sha256": "32538c318845a87166136dde0acd3990633e13d9e186ed3854e2e7ffd8befe99",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 12,
+          "bbox": [
+            24,
+            71.256103515625,
+            282.4645080566406,
+            409.11492919921875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 12,
+            "bbox": [
+              24,
+              85.256103515625,
+              282.4645080566406,
+              304.6
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q99",
+      "year": 2020,
+      "day": 2,
+      "number": 99,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "3769c1ea3e9f6a4e56afd3e2852b91d009ea1e6828b0ffb4bb1a8236f41e4bbb",
+      "asset_sha256": "5b435ff4df807e516da217c936de90c2f44934437aa0cae59d8ae021f7208338",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 5,
+          "bbox": [
+            24,
+            71.256103515625,
+            282.4645080566406,
+            405.67431640625
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 5,
+            "bbox": [
+              24,
+              85.256103515625,
+              282.4645080566406,
+              292.3
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D2_Q97",
+      "year": 2021,
+      "day": 2,
+      "number": 97,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "df29ad246ee0e643904c6b52d5cce8078ad5be104b65fcd362112f7deaad4190",
+      "asset_sha256": "889104eabd9f7c16d20d9cc4e14a93aecf920812dcf42f7996d3de96e119b8a2",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 3,
+          "bbox": [
+            284.5,
+            285.4974060058594,
+            559.0,
+            502.122802734375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 3,
+            "bbox": [
+              284.5,
+              299.4974060058594,
+              559.0,
+              401.2
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2024_AZUL_D2_Q133",
+      "year": 2024,
+      "day": 2,
+      "number": 133,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "0993ae687a93dfbcda8e95ce8708883be9d5a55cabbe1f1a06b81a50c18c6cdc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024",
+      "answer_source_sha256": "8d27b5a447061e9a1c181d00a916d10f45e1c6c1da68d628b3ae8bdfedbf5c92",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "aa940e6152d2f68bf1648a735c8bbef89d8e57ab2c3b144f40964bd8bae80923",
+      "asset_sha256": "17fe8d44b14c7bdac9ef1eabff7263346ee0382e98343aad0eddc8f7c3ced3b3",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 14,
+          "bbox": [
+            285.2911682128906,
+            497.53753662109375,
+            560.5823364257812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 14,
+            "bbox": [
+              285.2911682128906,
+              511.53753662109375,
+              560.5823364257812,
+              633.8
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q109",
+      "year": 2020,
+      "day": 2,
+      "number": 109,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "a859ffd77750e1b087ab2a99005a9f308b7fbea8e26b4d269268b3c9293fbe35",
+      "asset_sha256": "a10b95328d3cb6e57a3ecaec6d857ba6c609d28980ca4d6fb1a83bdfa66fe687",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 8,
+          "bbox": [
+            24,
+            357.3293151855469,
+            282.4645080566406,
+            520.867919921875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 8,
+            "bbox": [
+              24,
+              371.3293151855469,
+              282.4645080566406,
+              430.9
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q114",
+      "year": 2020,
+      "day": 2,
+      "number": 114,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "1e64cf7ba86cc4129a234a1ebe738bdb46a6d77f7fecb2cb8b29cb0606d85221",
+      "asset_sha256": "53e93e7f5651860a3fa1e11bcbed31936b6d856554a45650a51ca007c91e7790",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 9,
+          "bbox": [
+            284.4645080566406,
+            71.256103515625,
+            558.9290161132812,
+            339.8600158691406
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 9,
+            "bbox": [
+              284.4645080566406,
+              85.256103515625,
+              558.9290161132812,
+              225.4
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q97",
+      "year": 2020,
+      "day": 2,
+      "number": 97,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "2ff6b1134ae855350c2052a0de9d8bb71e7e68b554d630b05a0b6a3955b74fc9",
+      "asset_sha256": "4b3c9ca33eb36967f981518f460280d5106df64e2e7c3dd9c13be0beda81f8c9",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 4,
+          "bbox": [
+            284.4645080566406,
+            71.256103515625,
+            558.9290161132812,
+            334.1333312988281
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 4,
+            "bbox": [
+              284.4645080566406,
+              85.256103515625,
+              558.9290161132812,
+              143.3
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q94",
+      "year": 2020,
+      "day": 2,
+      "number": 94,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "cfa37bc604a996cdb67a48a19f9223d332c2797c4ad691e0b179e771021e42cd",
+      "asset_sha256": "4a98681c89b374a97b06db9383b907b69525e7246d61e5176fa2ab564601574e",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 3,
+          "bbox": [
+            24,
+            522.3333129882812,
+            558.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 3,
+            "bbox": [
+              24,
+              536.3333129882812,
+              558.9290161132812,
+              663.4
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q95",
+      "year": 2020,
+      "day": 2,
+      "number": 95,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "e2283d51705d8cd871ac45e732025e23729791f06c01aff661b2775139de4bef",
+      "asset_sha256": "769a2a4b9404f0832bebddf1a6471575bb500f05aa7bddc35b319db2312ff0a8",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 4,
+          "bbox": [
+            24,
+            71.256103515625,
+            282.4645080566406,
+            313.66790771484375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 4,
+            "bbox": [
+              24,
+              85.256103515625,
+              282.4645080566406,
+              209.2
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q100",
+      "year": 2020,
+      "day": 2,
+      "number": 100,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "3fb5f7ad8bf0080dd33aa5ddebf38307077b29873f65d8c08e7f4002cc194caf",
+      "asset_sha256": "cbfe4e4f991d5040d785eb43b540ffe2ccac5a8511b3f89eee9a0c5e9fb38d8a",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 5,
+          "bbox": [
+            24,
+            404.17431640625,
+            282.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "page": 5,
+          "bbox": [
+            284.4645080566406,
+            57,
+            558.9290161132812,
+            181.747314453125
+          ],
+          "is_prefix": true
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 5,
+            "bbox": [
+              24,
+              418.17431640625,
+              282.4645080566406,
+              742
+            ]
+          },
+          {
+            "page": 5,
+            "bbox": [
+              284.4645080566406,
+              57,
+              558.9290161132812,
+              71.6
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q130",
+      "year": 2020,
+      "day": 2,
+      "number": 130,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "998b2b2bed2bf9a4a4b552fde2131285d8cd75765754c8cbc59c4baeb38a6ac4",
+      "asset_sha256": "71a8fad87d72febb65e976dc34f1f17870a5640525b5d02291b1ee8723d7f940",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 14,
+          "bbox": [
+            24,
+            71.256103515625,
+            558.9290161132812,
+            564.7289428710938
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 14,
+            "bbox": [
+              24,
+              85.256103515625,
+              558.9290161132812,
+              478.6
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q104",
+      "year": 2020,
+      "day": 2,
+      "number": 104,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "3580942797b255e2099d2370ac017237e97eb7828a77e904ee472f6e6750e1cf",
+      "asset_sha256": "b22296b31ad1027dd297cfc06a09410bb505df33abf6005356d732e3a2db584a",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 6,
+          "bbox": [
+            24,
+            567.3489990234375,
+            558.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 6,
+            "bbox": [
+              24,
+              581.3489990234375,
+              558.9290161132812,
+              644.1
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q132",
+      "year": 2020,
+      "day": 2,
+      "number": 132,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "8e2ae88f3f283474170cb91b0aaf46a3e725d589a7b345d41c184609e9c0e901",
+      "asset_sha256": "a708ff0e01ce7129bed927d196536d40b0ad8d435afb5e4dae4dd65c26f4e532",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 15,
+          "bbox": [
+            24,
+            71.256103515625,
+            282.4645080566406,
+            386.4640197753906
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 15,
+            "bbox": [
+              24,
+              85.256103515625,
+              282.4645080566406,
+              200.0
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2021_AZUL_D2_Q98",
+      "year": 2021,
+      "day": 2,
+      "number": 98,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "f3743ca88553e8e1a663c7b8054d9113023eaf79d501a590da242136dcd263f9",
+      "asset_sha256": "83dd9b848858e57843cc3f89f999d5cd10307b82ab43425aa4f0db12f85a834b",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 3,
+          "bbox": [
+            284.5,
+            500.622802734375,
+            559.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 3,
+            "bbox": [
+              284.5,
+              514.622802734375,
+              559.0,
+              585.9
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D2_Q124",
+      "year": 2020,
+      "day": 2,
+      "number": 124,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+      "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "d8ff3c7bfd16a10deacd6adf89406d048207f12479c33b1d957f608d24e0f1fc",
+      "asset_sha256": "9c611b272ce494f6b0bf6f4b56c49614c5927ff64353fbb9f6ddd95c71e75fb3",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "source-region visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 12,
+          "bbox": [
+            284.4645080566406,
+            71.256103515625,
+            558.9290161132812,
+            314.1600036621094
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "regions": [
+          {
+            "page": 12,
+            "bbox": [
+              284.4645080566406,
+              85.256103515625,
+              558.9290161132812,
+              133.2
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "format": "PNG",
+        "composition": "vertical in source reading order"
+      },
+      "note": "Batch 03: full source region, stem, A–E and official key visually compared; original support pixels and credits preserved. No TRI."
     }
   ]
 }

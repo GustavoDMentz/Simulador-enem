@@ -207,3 +207,31 @@ Verificação local concluída:
 Evidências por questão e conteúdo antes/depois:
 `data/audit/batch-02-review.json`. As evidências e o snapshot do lote anterior
 permanecem intactos. TRI continua nula.
+
+## Lote 03 - 2026-10-25
+
+Base: `ea30c84ed0326ae5ce60a918397d32b335ff590a` (PR #3 integrado).
+50 questões examinadas; 47 novas aprovadas; 97 → 144 elegíveis; 369 bloqueadas.
+As 97 publicadas anteriores são idênticas à base. Sem alterações em fused,
+produção ou banco. 37 registros exigiram correção de enunciado/alternativas.
+47 apoios PNG preservam os pixels oficiais, inclusive continuações, créditos,
+fórmulas, tabelas e gráficos. 30 também têm transcrição conferida em `texto_base`,
+sem alteração de frontend. Apoios gráficos e os demais PNGs ainda exigem trabalho
+separado para acessibilidade completa; as 97 questões anteriores não foram editadas.
+
+Evidências: `data/audit/batch-03-review.json` (antes/depois, regiões, hashes e URLs
+oficiais), `data/audit/manifest.json` (aprovações vinculadas ao conteúdo).
+Fontes locais conferidas com o manifesto do pacote original; ZIP SHA-256
+`a2efb083c95057b71f698e25cd11da031703b2f7da4bd50d3d7e8dbe82371a97`.
+Nenhum novo download necessário. Gabaritos conferidos visualmente e pelo leitor.
+O leitor agora preserva a resposta da outra coluna quando o asterisco de anulação
+é extraído em outra linha, marcando o número sem resposta como ambíguo.
+
+Pendências do lote: 2020 D2 Q93 e Q113 (alternativas gráficas); Q135 (anulada
+oficialmente). Permanecem sem pontuação. Não há parâmetros TRI presumidos.
+
+Validação local: 73 testes Python; 6 Node/API; integridade de 3.687 registros;
+Chromium desktop 1280×900 e celular 390×844, 144 questões por viewport,
+576 submissões (certa/errada), 60 seleções aleatórias, imagens e transcrições,
+prévia com 513 registros e 369 pendentes bloqueadas; nenhum erro JavaScript.
+Integração ArangoDB será confirmada pelo workflow em banco descartável.

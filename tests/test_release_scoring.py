@@ -36,8 +36,8 @@ def test_restored_release_and_unchanged_quarantine():
     release=[json.loads(l) for l in (root/'data/blue-published/questions.jsonl').read_text().splitlines()]
     entries=json.loads((root/'data/audit/manifest.json').read_text())['questions']
     assert len(snapshot)==len(preview)==513
-    assert len(release)==len(entries)==97
-    assert len({q['id_unico_sistema'] for q in release})==97
+    assert len(release)==len(entries)==144
+    assert len({q['id_unico_sistema'] for q in release})==144
     original=[q for q in snapshot if q['scoring_enabled']]
     current={q['id_unico_sistema']:q for q in release}
     assert len(original)==59
@@ -46,7 +46,7 @@ def test_restored_release_and_unchanged_quarantine():
         assert approved_record(q,entries,root/'data/extracted')
         assert q['parametros_tri'] is None
     pending=[(a,b) for a,b in zip(snapshot,preview) if not a['scoring_enabled'] and a['id_unico_sistema'] not in {q['id_unico_sistema'] for q in release}]
-    assert len(pending)==416
+    assert len(pending)==369
     assert all(a==b for a,b in pending)
 
 
@@ -69,3 +69,19 @@ def test_incremental_publisher_preserves_approval_and_quarantines_tampering(tmp_
     import pytest
     with pytest.raises(ValueError,match='Unknown or duplicate'):
         publisher.publish()
+
+
+def test_batch_03_preserves_all_97_previous_approvals():
+    root=Path(__file__).resolve().parents[1]
+    batch2=json.loads((root/'data/audit/batch-02-review.json').read_text())
+    current={q['id_unico_sistema']:q for q in map(json.loads,(root/'data/blue-published/questions.jsonl').read_text().splitlines())}
+    for row in batch2['results']:
+        if row['status']=='APPROVED':
+            assert current[row['id']]['conteudo']==row['after_content']
+            assert current[row['id']]['gabarito_oficial']==row['official_answer']
+    batch3=json.loads((root/'data/audit/batch-03-review.json').read_text())
+    assert batch3['examined']==50 and batch3['newly_approved']==47
+    assert sum(bool(row.get('accessible_support')) for row in batch3['results'])==30
+    for row in batch3['results']:
+        if row['status']=='PENDING':
+            assert row['id'] not in current
