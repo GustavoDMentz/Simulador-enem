@@ -24,14 +24,14 @@ function render(){
  el('previous').disabled=index===0;el('next').disabled=index>=rows.length-1;
  if(!q){target.append(node('p','Nenhuma questão para estes filtros.'));return}
  target.append(node('h2',`ENEM ${q.ano} · Dia ${q.dia} · Questão ${q.posicao_prova}`));
- const warning=node('p',q.preview_unverified?'Em revisão: conteúdo ou resposta ainda não confirmados. Sem pontuação.':'Candidata com correspondência automática; não certificada visualmente.','warning');
+ const warning=node('p',q.scoring_enabled?'Questão validada com fonte oficial.':'Em revisão: conteúdo ou resposta ainda não confirmados. Sem pontuação.','warning');
  target.append(warning);
  const c=q.conteudo||{};
  if(c.texto_base)target.append(node('div',c.texto_base,'prose'));
- target.append(node('h3','Enunciado'),node('div',c.enunciado||'Enunciado indisponível','prose'));
+
  const visual=c.metadados_visual||{};
  if(visual.contem_imagem||visual.caminho_local_imagem){
-  target.append(node('p','Imagem de apoio não certificada: confira sua fidelidade ao caderno oficial.','warning'));
+  if(!q.scoring_enabled)target.append(node('p','Imagem de apoio em revisão.','warning'));
   const raw=visual.caminho_local_imagem;
   const prefix='/home/gumentz/enem-pipeline/data/extracted/';
   const imagePath=typeof raw==='string'?(raw.startsWith(prefix)?'/images/'+raw.slice(prefix.length):raw.startsWith('/images/')?raw:null):null;
@@ -44,6 +44,7 @@ function render(){
    target.append(img);
   }else target.append(node('p','Imagem sem caminho local utilizável.','warning'));
  }
+ target.append(node('h3','Enunciado'),node('div',c.enunciado||'Enunciado indisponível','prose'));
  target.append(node('h3','Alternativas'));
  const opts=c.alternativas||{};
  for(const letter of 'ABCDE'){

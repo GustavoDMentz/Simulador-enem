@@ -69,6 +69,8 @@ async function loadFiltersMetadata() {
     const res = await fetch(`${API_URL}/metadata`);
     const data = await res.json();
     
+    document.getElementById("approved-total").textContent = data.total ?? 0;
+    document.getElementById("approved-images").textContent = data.images ?? 0;
     // Populate Years
     if (data.anos) {
       data.anos.sort((a, b) => b - a).forEach(year => {
@@ -124,7 +126,7 @@ function setupEventListeners() {
       card.classList.add('selected');
       
       selectedAlternative = card.dataset.letter;
-      btnSubmit.removeAttribute('disabled');
+      if (activeQuestion?.scoring_enabled === true) btnSubmit.removeAttribute('disabled');
     });
     
     // Scissor / eliminate button click
@@ -321,7 +323,8 @@ function displayQuestion(q) {
   // Base Text
   if (q.conteudo.texto_base && q.conteudo.texto_base.trim() !== "") {
     textBase.classList.remove('hidden');
-    textBase.innerHTML = q.conteudo.texto_base;
+    textBase.textContent = q.conteudo.texto_base;
+    textBase.style.whiteSpace = "pre-wrap";
   } else {
     textBase.classList.add('hidden');
     textBase.innerHTML = "";
@@ -343,7 +346,8 @@ function displayQuestion(q) {
   }
   
   // Enunciado
-  enunciado.innerHTML = q.conteudo.enunciado;
+  enunciado.textContent = q.conteudo.enunciado;
+  enunciado.style.whiteSpace = "pre-wrap";
   
   // Alternatives
   const alternatives = q.conteudo.alternativas;
@@ -376,7 +380,7 @@ function displayQuestion(q) {
 
 // 6. Submit Answer
 function submitAnswer() {
-  if (!activeQuestion || !selectedAlternative) return;
+  if (!activeQuestion || !selectedAlternative || activeQuestion.scoring_enabled !== true) return;
   
   const correctAlternative = activeQuestion.gabarito_oficial;
   const isCorrect = selectedAlternative === correctAlternative;
@@ -413,6 +417,12 @@ function submitAnswer() {
   
   // Render TRI Dashboard parameters
   const tri = activeQuestion.parametros_tri;
+  if (!tri) {
+    btnSubmit.classList.add("hidden");
+    btnNextQuestion.classList.remove("hidden");
+    triDashboard.classList.add("hidden");
+    return;
+  }
   const a = tri.a_discriminacao;
   const b = tri.b_dificuldade;
   const c = tri.c_chute;

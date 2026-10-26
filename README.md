@@ -211,6 +211,8 @@ python3 scripts/load_arangodb.py
 
 ## 🔎 Auditoria dos cadernos azuis
 
+> **Implementação em desenvolvimento:** os scripts e o workflow desta seção estão na branch [`feat/integrate-enem-audit-gate`](https://github.com/GustavoDMentz/Simulador-enem/tree/feat/integrate-enem-audit-gate), **não** na `main`. Para executar os comandos abaixo, utilize essa branch. Esta atualização da `main` é exclusivamente documental.
+
 **Escopo-alvo:** ENEM regular, caderno **AZUL**, de 2017 a 2025, nos dois dias: **1.620 posições numeradas** (9 anos × 180). As posições 1–5 do primeiro dia podem ter versões de língua estrangeira distintas (inglês/espanhol); um número de questão não identifica necessariamente uma única versão textual.
 
 ### Situação dos dados (triagem, não validação)
@@ -259,7 +261,7 @@ O validador usa PyMuPDF para uma leitura independente da geometria do PDF. Seus 
 
 ### Execução automatizada e bloqueios
 
-O workflow [ENEM blue official audit (non-publishing)](.github/workflows/blue-official-audit.yml) tenta obter os PDFs oficiais do Inep, executa o staging e produz artefatos de auditoria no GitHub Actions. **A obtenção dos PDFs falhou no runner por erro de validação da cadeia TLS** (`curl: (60)`); a execução registrada em 18/10/2026 terminou com falha e **0 de 18 cadernos obtidos**. Portanto, não houve validação integral remota das 1.620 posições.
+O workflow [ENEM blue official audit (non-publishing)](https://github.com/GustavoDMentz/Simulador-enem/blob/feat/integrate-enem-audit-gate/.github/workflows/blue-official-audit.yml) tenta obter os PDFs oficiais do Inep, executa o staging e produz artefatos de auditoria no GitHub Actions. **A obtenção dos PDFs falhou no runner por erro de validação da cadeia TLS** (`curl: (60)`); a execução registrada em 18/10/2026 terminou com falha e **0 de 18 cadernos obtidos**. Portanto, não houve validação integral remota das 1.620 posições.
 
 O downloader mantém a verificação HTTPS e interrompe falhas repetitivas. Não desabilite TLS para fazer o workflow parecer bem-sucedido. Quando a origem não estiver acessível, use PDFs oficiais obtidos por canal confiável, preserve a proveniência e os hashes SHA-256 e execute o validador localmente. O workflow deve falhar quando faltarem fontes, nunca sinalizar sucesso com zero PDFs.
 

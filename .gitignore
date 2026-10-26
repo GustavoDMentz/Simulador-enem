@@ -38,3 +38,6 @@ microdados_enem_*
 # Imported source PDFs and generated visual review artifacts
 data/sources/
 data/visual-audit/
+
+# Rebuilt preview uses the immutable checkpoint on a fresh checkout.
+data/blue-published/preview-questions.jsonl

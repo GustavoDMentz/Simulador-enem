@@ -23,8 +23,10 @@ jobs:
           node-version: '22'
       - name: Python unit tests
         run: python -m unittest discover -s scripts/tests -p 'test_*.py' -v
+      - name: Install web dependencies
+        run: npm install --prefix web --ignore-scripts --no-audit --no-fund
       - name: Node audit gate tests
-        run: node --test web/tests/audit-gate.test.js
+        run: node --test web/tests/*.test.js
       - name: Fused JSONL integrity report
         run: |
           if find data/fused -maxdepth 1 -name '*.jsonl' -print -quit | grep -q .; then

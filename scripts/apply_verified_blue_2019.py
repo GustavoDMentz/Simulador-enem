@@ -82,40 +82,9 @@ def main():
     q110["status"] = "CANDIDATE"
     q110["reason"] = "SOURCE_PDF_TEXT_VERIFIED_2019_D2_Q110_AND_MATCHING_EXTRACTED_KEY"
 
-    published = []
-    preview = []
-    counts = Counter()
-    for row in sorted(rows, key=lambda r: (r["ano"], r["dia"], r["posicao"])):
-        status = row["status"]
-        record = row["record"]
-        content = record.get("conteudo") or {}
-        options = content.get("alternativas") or {}
-        if not str(content.get("enunciado") or "").strip() or any(not str(options.get(k) or "").strip() for k in "ABCDE"):
-            raise SystemExit(f"Incomplete question {row['ano']}/{row['dia']}/{row['posicao']}")
-        counts[status] += 1
-        if status == "CANDIDATE":
-            if record.get("gabarito_oficial") not in "ABCDE":
-                raise SystemExit("Candidate missing answer key")
-            published.append(record.copy())
-        if status in ("CANDIDATE", "REVIEW_TEXT", "REVIEW_ANSWER", "REVIEW_IMAGE"):
-            item = record.copy()
-            if status != "CANDIDATE":
-                item["gabarito_oficial"] = None
-                item["parametros_tri"] = None
-            item["preview_status"] = status
-            item["preview_unverified"] = status != "CANDIDATE"
-            item["scoring_enabled"] = status == "CANDIDATE"
-            item["preview_warning"] = ("Questão em revisão: texto, imagem ou resposta podem estar incorretos. Sem pontuação."
-                if status != "CANDIDATE" else None)
-            preview.append(item)
-    if len(published) != 20 or len(preview) != 513:
-        raise SystemExit(f"Unexpected counts: published={len(published)}, preview={len(preview)}; no files changed")
     write_jsonl(SOURCE, rows)
-    write_jsonl(PUBLISHED, published)
-    write_jsonl(PREVIEW, preview)
-    print(json.dumps({"published": len(published), "preview": len(preview),
-                      "statuses": dict(counts), "database_changed": False,
-                      "corrected_2018_answers": len(answer_fixes_2018),\n                      "note": "Candidates are not independently certified"}, ensure_ascii=False))
+    from publish_blue_candidates import main as publish
+    publish()
 
 
 if __name__ == "__main__":

@@ -3,7 +3,8 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
+const {scorable}=require('./audit-gate');
 
 // Parse .env from parent directory (explicit environment variables take precedence)
 const dotenvPath = path.join(__dirname, '../.env');
@@ -29,12 +30,14 @@ app.use(express.json());
 // Isolated audited-question API; existing ArangoDB endpoints remain unchanged.
 app.use('/api/audit', require('./audit-gate').auditRouter(express));
 app.use('/api/published', require('./published-questions').publishedRouter(express));
+// Existing simulator endpoints now select the approved isolated release.
+app.use('/api', require('./published-questions').publishedRouter(express));
 
 // Servir frontend static files
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Servir imagens recortadas do diretório pipeline data
-app.use('/images', express.static('/home/gumentz/enem-pipeline/data/extracted'));
+app.use('/images', express.static(path.resolve(__dirname, '../data/extracted')));
 
 // Helper para se comunicar com o ArangoDB HTTP API
 async function arangoQuery(query, bindVars = {}) {
@@ -277,6 +280,7 @@ app.post('/api/questions/:id/explain', async (req, res) => {
       return res.status(404).json({ error: "Questão não encontrada." });
     }
     const q = result[0];
+    if (!scorable(q)) return res.status(409).json({error:"Questão não aprovada para correção."});
     
     // 2. Prepara o prompt para o Gemini
     const enunciado = q.conteudo.enunciado;
@@ -348,8 +352,10 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
   }
 });
 
-app.listen(PORT, () => {
+if (require.main === module) app.listen(PORT, () => {
   console.log(`============================================================`);
   console.log(`🚀 Simulador ENEM ativo em http://localhost:${PORT}`);
   console.log(`============================================================`);
 });
+
+module.exports = app;

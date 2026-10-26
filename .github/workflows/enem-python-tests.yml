@@ -38,19 +38,5 @@ jobs:
 
       - name: Run ENEM 2.0 tests
         run: |
-          python -m pytest -q \
-            tests/test_segment_question_candidates.py \
-            tests/test_build_question_review.py \
-            tests/test_export_reviewed_questions.py \
-            tests/test_triage_questions.py \
-            tests/test_reconcile_answer_key.py \
-            tests/test_diagnose_options.py \
-            tests/test_diagnose_pdf_geometry.py \
-            tests/test_repair_column_continuations.py \
-            tests/test_integrate_continuations.py \
-            tests/test_download_inep_enem.py \
-            tests/test_inventory_enem_pdfs.py \
-            tests/test_validate_blue_official.py \
-            tests/test_audit_blue_staging_answers.py \
-            tests/test_consolidate_blue_audit.py \
-            tests/test_run_blue_audit_local.py
+          python scripts/publish_blue_candidates.py
+          python -m pytest -q tests scripts/tests
