@@ -235,3 +235,31 @@ Chromium desktop 1280×900 e celular 390×844, 144 questões por viewport,
 576 submissões (certa/errada), 60 seleções aleatórias, imagens e transcrições,
 prévia com 513 registros e 369 pendentes bloqueadas; nenhum erro JavaScript.
 Integração ArangoDB será confirmada pelo workflow em banco descartável.
+
+## Lote 04 - 2026-10-26
+
+Base `65c3d0f1415e4856a75ae2450c96e1a3a8ffb695`. Examinadas 50 questões de
+Matemática; 46 aprovadas. Total 144 → 190; 323 continuam bloqueadas.
+As 144 anteriores são idênticas à base. Nenhuma alteração em fused ou produção.
+29 novas questões exigiram correções de enunciado/alternativas. 46 PNGs preservam
+apoios, gráficos, tabelas, fórmulas e créditos; 29 apoios possuem também
+transcrição acessível no campo existente. Oito painéis matemáticos incluem as
+alternativas originais, além da transcrição, para preservar frações e expoentes.
+Essa repetição é intencional; não houve alteração estrutural de frontend.
+
+Evidências, versões anteriores/corrigidas, regiões, gabaritos, URLs e hashes:
+`data/audit/batch-04-review.json` e `data/audit/manifest.json`. Fontes oficiais
+locais conferidas por SHA-256 contra o manifesto original do pacote.
+Nenhum novo download nem TRI presumida. Publicação continua fail-closed.
+
+Pendências: 2023 D2 Q161 (região inclui questão vizinha); 2020 D2 Q166 e Q176
+(alternativas gráficas que exigem recuperação dedicada); 2022 D2 Q157 (anulada
+oficialmente). Os quatro registros permanecem sem pontuação e inalterados.
+
+Testes locais: 74 Python; 6 Node/API; integridade dos 3.687 registros legados;
+regressão das 144 aprovações. Chromium em desktop 1280×900 e celular 390×844:
+190 questões por viewport, 760 submissões certas/erradas, 60 seleções aleatórias,
+imagens e transcrições carregadas, prévia de 513 com 323 pendentes bloqueadas,
+sem erros JavaScript. Uma imagem truncada detectada no teste inicial foi
+regenerada do PDF com o hash esperado antes da execução final aprovada.
+Integração ArangoDB verificada pelo workflow do PR em banco descartável.
