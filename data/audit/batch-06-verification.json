@@ -1,0 +1,64 @@
+{
+  "python_tests": 77,
+  "node_api_tests": 9,
+  "integrity": {
+    "records": 3687,
+    "unique_ids": 3687,
+    "unique_proof_slots": 3687,
+    "unique_co_item": 1860
+  },
+  "integrity_ok": true,
+  "previous_approvals_byte_identical": 238,
+  "published": 288,
+  "pending_blocked": 225,
+  "publisher_quarantined": [],
+  "database_changed": false,
+  "replay_idempotent": true,
+  "presentation_metadata_check": true,
+  "chromium": {
+    "viewports": [
+      {
+        "name": "desktop",
+        "new_questions": 50,
+        "submissions": 100,
+        "visual_supports": 3,
+        "pending_blocked": 225,
+        "random_selections": 10,
+        "zoom_keyboard": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "name": "mobile",
+        "new_questions": 50,
+        "submissions": 100,
+        "visual_supports": 3,
+        "pending_blocked": 225,
+        "random_selections": 10,
+        "zoom_keyboard": true,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "errors": []
+  },
+  "previous_rendering_regressions": {
+    "viewports": [
+      {
+        "name": "desktop",
+        "cases": 5,
+        "keyboard_answer": true,
+        "zoom": true,
+        "focus_return": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "name": "mobile",
+        "cases": 5,
+        "keyboard_answer": true,
+        "zoom": true,
+        "focus_return": true,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "errors": []
+  }
+}
