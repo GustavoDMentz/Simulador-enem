@@ -11,7 +11,7 @@ import subprocess
 from pathlib import Path
 
 PDF_RE = re.compile(r"^(20\d{2})-regular-d([12])-azul-gabarito\.pdf$", re.I)
-ROW_RE = re.compile(r"^\s*(\d{1,3})\s+([Aa]nulad[oa]|[A-E*X-])(?:\s+([Aa]nulad[oa]|[A-E*X-]))?(?:\s+(\d{1,3})\s+([Aa]nulad[oa]|[A-E*X-]))?\s*$")
+ROW_RE = re.compile(r"^\s*(\d{1,3})\s+([Aa]nulad[oa]|[A-E*X-])(?:\s+([Aa]nulad[oa]|[A-E*X-]))?(?:\s+(\d{1,3})(?:\s+([Aa]nulad[oa]|[A-E*X-]))?)?\s*$")
 LANG = {"INGLES": "ingles", "ESPANHOL": "espanhol", "INGLÊS": "ingles"}
 def extract_pdf(pdf):
     result = subprocess.run(["pdftotext", "-layout", str(pdf), "-"], capture_output=True, text=True, check=True)
@@ -40,7 +40,10 @@ def extract_pdf(pdf):
                 continue
             if p2 in answers:
                 ambiguous.append(p2)
-            answers[p2] = {"comum": last}
+            if last is None:
+                ambiguous.append(p2)
+            else:
+                answers[p2] = {"comum": last}
     return answers, sorted(set(ambiguous)), len(result.stdout)
 
 def main():
