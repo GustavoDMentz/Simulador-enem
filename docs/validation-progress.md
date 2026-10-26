@@ -263,3 +263,32 @@ imagens e transcrições carregadas, prévia de 513 com 323 pendentes bloqueadas
 sem erros JavaScript. Uma imagem truncada detectada no teste inicial foi
 regenerada do PDF com o hash esperado antes da execução final aprovada.
 Integração ArangoDB verificada pelo workflow do PR em banco descartável.
+
+## Lote 05 - 2026-10-26
+
+Base `689c913f5c82ffd0b5d3cac53040ded2b2d50685`. Examinadas 50 questões de
+Matemática e Natureza; 48 aprovadas. Total 190 → 238; 275 continuam bloqueadas.
+As 190 aprovações anteriores são idênticas à base. Nenhuma alteração em fused,
+produção ou banco de produção. 25 questões exigiram correção de enunciado ou
+alternativas. 48 PNGs preservam apoios, fórmulas, figuras, tabelas, créditos e
+continuações. 20 apoios possuem também transcrição textual acessível conferida.
+Seis painéis incluem as alternativas originais para preservar a notação de
+frações, radicais e fatoriais; a repetição junto ao texto é intencional.
+Sem alterações estruturais de frontend, novos downloads ou TRI presumida.
+
+Evidências: `data/audit/batch-05-review.json` (antes/depois, diferenças, regiões,
+fontes oficiais, gabaritos, hashes e verificação) e `data/audit/manifest.json`
+(aprovações vinculadas ao conteúdo). Fontes locais conferidas por SHA-256 contra
+o manifesto original. O mecanismo fail-closed foi preservado.
+
+Pendências: 2023 D2 Q176 (região inclui conteúdo de questão vizinha) e 2020 D2
+Q177 (alternativas gráficas exigem recuperação dedicada). Os dois registros
+permanecem inalterados e sem pontuação. Apoios sem transcrição e elementos
+gráficos ainda não possuem acessibilidade completa.
+
+Testes locais aprovados: 75 Python; 6 Node/API; integridade dos 3.687 registros;
+regressão das 190 aprovações anteriores. Chromium desktop 1280×900 e celular
+390×844: 238 questões por viewport; 952 submissões certas/erradas; 60 seleções
+aleatórias; imagens e transcrições; prévia de 513 com 275 pendentes bloqueadas;
+nenhum erro JavaScript. Todos os 48 PNGs decodificados e conferidos por hash.
+O resultado da integração ArangoDB em banco descartável fica registrado no PR.

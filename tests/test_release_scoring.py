@@ -36,8 +36,8 @@ def test_restored_release_and_unchanged_quarantine():
     release=[json.loads(l) for l in (root/'data/blue-published/questions.jsonl').read_text().splitlines()]
     entries=json.loads((root/'data/audit/manifest.json').read_text())['questions']
     assert len(snapshot)==len(preview)==513
-    assert len(release)==len(entries)==190
-    assert len({q['id_unico_sistema'] for q in release})==190
+    assert len(release)==len(entries)==238
+    assert len({q['id_unico_sistema'] for q in release})==238
     original=[q for q in snapshot if q['scoring_enabled']]
     current={q['id_unico_sistema']:q for q in release}
     assert len(original)==59
@@ -46,7 +46,7 @@ def test_restored_release_and_unchanged_quarantine():
         assert approved_record(q,entries,root/'data/extracted')
         assert q['parametros_tri'] is None
     pending=[(a,b) for a,b in zip(snapshot,preview) if not a['scoring_enabled'] and a['id_unico_sistema'] not in {q['id_unico_sistema'] for q in release}]
-    assert len(pending)==323
+    assert len(pending)==275
     assert all(a==b for a,b in pending)
 
 
@@ -98,6 +98,22 @@ def test_batch_04_preserves_all_144_previous_approvals():
     report=json.loads((root/'data/audit/batch-04-review.json').read_text())
     assert report['examined']==50 and report['newly_approved']==46
     assert sum(bool(row.get('accessible_support')) for row in report['results'])==29
+    for row in report['results']:
+        if row['status']=='PENDING':
+            assert row['id'] not in current
+
+
+def test_batch_05_preserves_all_190_previous_approvals():
+    root=Path(__file__).resolve().parents[1]
+    current={q['id_unico_sistema']:q for q in map(json.loads,(root/'data/blue-published/questions.jsonl').read_text().splitlines())}
+    for batch in ['batch-02-review.json','batch-03-review.json','batch-04-review.json']:
+        for row in json.loads((root/'data/audit'/batch).read_text())['results']:
+            if row['status']=='APPROVED':
+                assert current[row['id']]['conteudo']==row['after_content']
+                assert current[row['id']]['gabarito_oficial']==row['official_answer']
+    report=json.loads((root/'data/audit/batch-05-review.json').read_text())
+    assert report['examined']==50 and report['newly_approved']==48
+    assert sum(bool(row.get('accessible_support')) for row in report['results'])==20
     for row in report['results']:
         if row['status']=='PENDING':
             assert row['id'] not in current
