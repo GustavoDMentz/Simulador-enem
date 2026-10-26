@@ -40,8 +40,47 @@ jobs:
           fi
       - name: Inspect Inep TLS certificate chain without bypassing checks
         run: |
-          echo | timeout 15 openssl s_client -connect download.inep.gov.br:443 -servername download.inep.gov.br -showcerts 2>&1 \
-            | grep -E 'depth=|verify error|subject=|issuer=|Verify return code|^[ ]*[0-9]+ s:' | head -35 || true
+          mkdir -p /tmp/inep-tls
+          python - <<'PY'
+          import hashlib, os, socket, ssl
+          from pathlib import Path
+          print("Python OpenSSL:", ssl.OPENSSL_VERSION)
+          print("Default trust paths:", ssl.get_default_verify_paths())
+          for key in ("HTTPS_PROXY", "https_proxy", "HTTP_PROXY", "http_proxy", "NO_PROXY",
+                      "SSL_CERT_FILE", "SSL_CERT_DIR", "CURL_CA_BUNDLE", "REQUESTS_CA_BUNDLE"):
+              print(key, "set" if os.environ.get(key) else "unset")
+          ca = Path("/etc/ssl/certs/ca-certificates.crt")
+          print("System CA SHA256:", hashlib.sha256(ca.read_bytes()).hexdigest())
+          print("Trusted certificates:", len(ssl.create_default_context().get_ca_certs()))
+          print("DNS:", sorted({(a[0].name, a[4][0]) for a in socket.getaddrinfo("download.inep.gov.br", 443)}))
+          PY
+          curl --version
+          openssl version -a
+          for family in 4 6; do
+            set +e
+            timeout 15 openssl s_client -"$family" -connect download.inep.gov.br:443 \
+              -servername download.inep.gov.br -showcerts -verify_return_error \
+              -verify_hostname download.inep.gov.br \
+              -CAfile /etc/ssl/certs/ca-certificates.crt </dev/null > /tmp/inep-tls/openssl-ipv"$family".txt 2>&1
+            result=$?
+            set -e
+            echo "OpenSSL IPv$family exit=$result"
+            cat /tmp/inep-tls/openssl-ipv"$family".txt
+            for mode in environment direct; do
+              flags=()
+              if [ "$mode" = direct ]; then flags=(--noproxy '*'); fi
+              set +e
+              curl -"$family" "${flags[@]}" --proto '=https' --connect-timeout 5 --max-time 15 \
+                --cacert /etc/ssl/certs/ca-certificates.crt --silent --show-error \
+                --output /dev/null --write-out 'http=%{http_code} remote=%{remote_ip} verify=%{ssl_verify_result}\n%{certs}\n' \
+                https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf \
+                > /tmp/inep-tls/curl-ipv"$family"-"$mode".txt 2>&1
+              result=$?
+              set -e
+              echo "curl IPv$family $mode exit=$result"
+              cat /tmp/inep-tls/curl-ipv"$family"-"$mode".txt
+            done
+          done
       - name: Download regular blue INEP PDFs (2017-2025)
         run: |
           python scripts/download_inep_enem.py \
@@ -97,6 +136,7 @@ jobs:
         with:
           name: enem-blue-official-audit
           path: |
+            /tmp/inep-tls/*.txt
             data/enem-pdfs/oficiais/download-report.json
             data/enem-pdfs/blue-download-manifest.json
             data/blue-staging/report.json
