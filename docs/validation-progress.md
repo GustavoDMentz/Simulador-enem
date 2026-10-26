@@ -142,3 +142,68 @@ A API do conector recusou a leitura da proteção clássica da main (403); a lis
 pública de rulesets retornou vazia. Não foram alteradas regras administrativas.
 A recomendação técnica de integração não substitui eventual regra administrativa
 de revisão/check obrigatório que o conector não consegue consultar.
+
+## Lote 02 — 50 questões pendentes examinadas
+
+Base: main `a45c65a`; branch `feat/enem-audit-batch-02`.
+O ZIP foi novamente reconstruído, conferido pelo SHA-256 acima e aprovado em
+`unzip -t`. Os PDFs foram extraídos somente após a verificação e a inspeção dos
+caminhos; links simbólicos não foram extraídos.
+
+Resultado: **59 → 97 aprovadas**, com **38 novas questões** (2019: 2; 2021: 32;
+2023: 4). Permanecem **416 bloqueadas**: 12 examinadas com reconstrução gráfica,
+recorte de largura completa ou continuação ainda pendente, e 404 fora deste lote.
+A classificação histórica das 454 era REVIEW_TEXT, sem diferenciação de motivo.
+Os 12 motivos localizados estão em `data/audit/batch-02-review.json`.
+
+As regiões oficiais completas foram examinadas visualmente, incluindo A–E,
+finais de frases e créditos. As três tabelas oficiais de gabarito foram também
+inspecionadas visualmente e seus hashes coincidem com os registros de origem
+preservados da auditoria anterior. Não houve novas divergências de gabarito em
+relação aos registros históricos disponíveis; restaurou-se a resposta apenas
+para os 38 aprovados. Nenhuma resposta de LLM foi utilizada como gabarito.
+
+Foram corrigidos enunciados/alternativas em 35 questões e o apoio nas outras
+três. Exemplo: 2019 Q80, alternativa B, “a prática clientelista.” → “a política
+clientelista.”; 2019 Q50 continha o enunciado de outra questão e foi reconstruída
+conforme sua posição oficial. Textos de apoio estavam truncados, misturados ao
+enunciado ou com erros. A extração de fontes de 2021/2023 tem mapeamentos de
+caracteres corrompidos: para preservar integralmente os apoios, títulos,
+parágrafos, itálicos e créditos, foram renderizadas **38 imagens diretamente dos
+PDFs**, sem geração de conteúdo. Cada região/bbox/escala/hash está registrada.
+Enunciados e alternativas foram conferidos contra os pixels oficiais, inclusive
+as ligaturas e aspas incorretas da extração. Não se aprovou por similaridade de
+tokens. As imagens geradas foram inspecionadas antes da publicação.
+
+Limitação: o texto desses apoios PNG não é selecionável e sua descrição
+alternativa é genérica. As 12 questões com recortes/elementos incompletos não
+receberam aprovação. A triagem de 2024 foi excluída deste lote: seu gabarito do
+primeiro dia não estava no pacote e a aquisição oficial falhou; resultados de
+busca não foram usados como substitutos do PDF de gabarito.
+
+A fonte incremental é o arquivo de publicação já versionado. O publicador agora
+reaplica seu conteúdo sobre o inventário imutável somente para identidades do
+manifesto, verificando novamente o mesmo hash e os mesmos critérios. Duplicatas
+ou identidades estranhas falham; alterações sem evidência ficam em quarentena.
+Isso evita que uma reconstrução descarte aprovações posteriores ao checkpoint.
+A prévia em checkout limpo combina o snapshot com os registros aprovados pelo
+mesmo controle. Nenhuma arquitetura adicional foi criada. Testes focalizados
+cobrem esses caminhos; a prévia gerada continua fora do Git.
+
+Verificação local concluída:
+- Compilação Python e `git diff --check`: aprovados.
+- **71 testes Python**, **6 testes Node/API**: aprovados.
+- Publicador: 97 aprovadas, 513 prévias, nenhuma aprovação inconsistente.
+- Integridade fused: 3.687 registros, nenhum problema; arquivos legados intactos.
+- Os 59 registros publicados anteriores e suas aprovações permanecem inalterados.
+- Chromium: 97 questões × certa/errada × desktop/celular = **388 submissões**;
+  imagens carregadas, seleção/detalhes, prévia de 513 e 416 bloqueadas; nenhuma
+  exceção JavaScript ou transbordamento horizontal. Os testes HTTP também cobrem
+  seleção aleatória e a prévia sem arquivo gerado.
+- CI na branch do lote habilitada nos workflows existentes; ArangoDB é testado
+  somente em instância descartável. Nenhuma escrita no banco de produção,
+  deploy, alteração direta da main ou merge automático.
+
+Evidências por questão e conteúdo antes/depois:
+`data/audit/batch-02-review.json`. As evidências e o snapshot do lote anterior
+permanecem intactos. TRI continua nula.

@@ -14,7 +14,7 @@ const app=require('../server');
   for(const [name,viewport] of [['desktop',{width:1280,height:900}],['mobile',{width:390,height:844}]]){
    const page=await browser.newPage({viewport});page.on('pageerror',e=>report.errors.push(e.message));
    await page.goto(base+'/');await page.waitForSelector('.list-item');
-   const data=await (await page.request.get(base+'/api/questions?limit=100')).json();assert.equal(data.total,59);
+   const data=await (await page.request.get(base+'/api/questions?limit=100')).json();assert.equal(data.total,97);
    for(const q of data.results){
     assert.equal(q.scoring_enabled,true);assert.equal(q.parametros_tri,null);
     const details=await (await page.request.get(base+'/api/questions/'+q.id_unico_sistema)).json();assert.equal(details.id_unico_sistema,q.id_unico_sistema);
@@ -30,14 +30,14 @@ const app=require('../server');
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,'Simulator horizontal overflow');
    if(process.env.ENEM_UI_SCREENSHOTS)await page.screenshot({path:path.join(process.env.ENEM_UI_SCREENSHOTS,name+'-simulator.png'),fullPage:true});
    await page.goto(base+'/preview.html');await page.waitForFunction(()=>window.allRows?.length===513);
-   const counts=await page.evaluate(()=>({approved:window.allRows.filter(q=>q.scoring_enabled).length,pending:window.allRows.filter(q=>!q.scoring_enabled).length}));assert.deepEqual(counts,{approved:59,pending:454});
+   const counts=await page.evaluate(()=>({approved:window.allRows.filter(q=>q.scoring_enabled).length,pending:window.allRows.filter(q=>!q.scoring_enabled).length}));assert.deepEqual(counts,{approved:97,pending:416});
    await page.locator('#question .choice').first().click();assert.equal(await page.locator('#question button.primary').isDisabled(),true);
    // Verify the recovered graph and portraits render within the same existing preview.
    await page.evaluate(()=>{index=window.allRows.findIndex(q=>q.id_unico_sistema==='2025_AZUL_D1_Q15');render()});
    await page.waitForFunction(()=>{const i=document.querySelector('#question img');return i&&i.complete&&i.naturalWidth>0});
    const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);assert.equal(overflow,false,'Preview horizontal overflow');
    if(process.env.ENEM_UI_SCREENSHOTS){await page.screenshot({path:path.join(process.env.ENEM_UI_SCREENSHOTS,name+'.png'),fullPage:true})}
-   report.viewports.push({name,width:viewport.width,approved_checked:data.total,correct_and_wrong_answers:true,graphics_loaded:true,preview:513,pending_blocked:454});await page.close();
+   report.viewports.push({name,width:viewport.width,approved_checked:data.total,correct_and_wrong_answers:true,graphics_loaded:true,preview:513,pending_blocked:416});await page.close();
   }
   assert.deepEqual(report.errors,[]);
   console.log(JSON.stringify(report,null,2));

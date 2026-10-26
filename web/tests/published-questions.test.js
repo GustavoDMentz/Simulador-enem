@@ -35,6 +35,12 @@ test('HTTP fails closed for corrupt manifests, absent/edited graphics and unappr
   assert.equal((await fetch(base+'/questions?year=bad')).status,400);
   assert.equal((await fetch(base+'/questions/random?year=2000')).status,404);
   assert.equal((await get('/questions/random?year=2022')).ano,2022);
+  // A fresh checkout has no generated preview: merge only approved release content.
+  const recovery=path.join(root,'data/audit/session-recovery');fs.mkdirSync(recovery,{recursive:true});
+  fs.writeFileSync(path.join(recovery,'preview-questions.jsonl'),[q,candidate,{...visual,conteudo:{...visual.conteudo,enunciado:'Old pending stem'}}].map(JSON.stringify).join('\n'));
+  fs.unlinkSync(path.join(root,'data/blue-published/preview-questions.jsonl'));
+  const fresh=await get('/preview/questions');assert.equal(fresh.results.find(r=>r.id_unico_sistema==='graphic').conteudo.enunciado,visual.conteudo.enunciado);
+  assert.equal(fresh.results.find(r=>r.id_unico_sistema==='candidate').scoring_enabled,false);
   fs.writeFileSync(asset,'changed');assert.equal((await get('/questions')).total,1);
   fs.unlinkSync(asset);assert.equal((await get('/questions')).total,1);
   fs.writeFileSync(mf,'{');assert.equal((await fetch(base+'/questions')).status,503);
