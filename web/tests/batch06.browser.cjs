@@ -10,8 +10,8 @@ const review=require('../../data/audit/batch-06-review.json');
   browser=await chromium.launch({headless:true,executablePath:process.env.ENEM_CHROMIUM,args:['--no-sandbox','--disable-dev-shm-usage','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
   for(const [name,viewport] of [['desktop',{width:1280,height:1000}],['mobile',{width:390,height:844}]]){
    const page=await browser.newPage({viewport});page.on('pageerror',e=>result.errors.push(e.message));await page.goto(base);await page.waitForFunction(()=>activeQuestion?.scoring_enabled===true);
-   const all=[];for(let p=1;p<=3;p++)all.push(...(await(await page.request.get(base+'/api/questions?limit=100&page='+p)).json()).results);
-   assert.equal(all.length,288);
+   const all=[];for(let p=1;p<=4;p++)all.push(...(await(await page.request.get(base+'/api/questions?limit=100&page='+p)).json()).results);
+   assert.equal(all.length,328);
    for(const r of review.results){
     const q=all.find(q=>q.id_unico_sistema===r.id);assert(q);assert.equal(q.gabarito_oficial,r.official_answer);await page.evaluate(q=>displayQuestion(q),q);
     assert.equal(await page.locator('#question-enunciado').innerText(),r.after_content.enunciado);
@@ -32,12 +32,12 @@ const review=require('../../data/audit/batch-06-review.json');
     await page.evaluate(q=>displayQuestion(q),q);await page.locator('.alternative-card[data-letter="'+[...'ABCDE'].find(l=>l!==q.gabarito_oficial)+'"]').click();await page.locator('#btn-submit').click();assert.match(await page.locator('#answer-feedback').innerText(),/Errou/);
    }
    const inventory=fs.readFileSync(path.resolve(__dirname,'../../data/audit/session-recovery/preview-questions.jsonl'),'utf8').trim().split('\n').map(JSON.parse),published=new Set(all.map(q=>q.id_unico_sistema));
-   const pending=inventory.filter(q=>!published.has(q.id_unico_sistema));assert.equal(pending.length,225);
+   const pending=inventory.filter(q=>!published.has(q.id_unico_sistema));assert.equal(pending.length,185);
    // All pending entries are absent from the scoring loader; sample the HTTP boundary too.
    const {load}=require('../published-questions');const scoringIds=new Set(load().map(q=>q.id_unico_sistema));assert(pending.every(q=>!scoringIds.has(q.id_unico_sistema)));
    for(const q of pending.slice(0,3))assert.equal((await page.request.get(base+'/api/questions/'+q.id_unico_sistema)).status(),404);
    for(let n=0;n<10;n++)assert(published.has((await(await page.request.get(base+'/api/questions/random')).json()).id_unico_sistema));
-   result.viewports.push({name,new_questions:50,submissions:100,visual_supports:3,pending_blocked:225,random_selections:10,zoom_keyboard:true,no_horizontal_overflow:true});await page.close();
+   result.viewports.push({name,new_questions:50,submissions:100,visual_supports:3,pending_blocked:185,random_selections:10,zoom_keyboard:true,no_horizontal_overflow:true});await page.close();
   }
   assert.deepEqual(result.errors,[]);console.log(JSON.stringify(result,null,2));
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r))}

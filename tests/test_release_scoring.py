@@ -36,8 +36,8 @@ def test_restored_release_and_unchanged_quarantine():
     release=[json.loads(l) for l in (root/'data/blue-published/questions.jsonl').read_text().splitlines()]
     entries=json.loads((root/'data/audit/manifest.json').read_text())['questions']
     assert len(snapshot)==len(preview)==513
-    assert len(release)==len(entries)==288
-    assert len({q['id_unico_sistema'] for q in release})==288
+    assert len(release)==len(entries)==328
+    assert len({q['id_unico_sistema'] for q in release})==328
     original=[q for q in snapshot if q['scoring_enabled']]
     current={q['id_unico_sistema']:q for q in release}
     assert len(original)==59
@@ -46,7 +46,7 @@ def test_restored_release_and_unchanged_quarantine():
         assert approved_record(q,entries,root/'data/extracted')
         assert q['parametros_tri'] is None
     pending=[(a,b) for a,b in zip(snapshot,preview) if not a['scoring_enabled'] and a['id_unico_sistema'] not in {q['id_unico_sistema'] for q in release}]
-    assert len(pending)==225
+    assert len(pending)==185
     assert all(a==b for a,b in pending)
 
 
@@ -140,3 +140,33 @@ def test_batch_06_preserves_238_and_binds_50_source_review_decisions():
         assert all(result['visual_review'][k] for k in ['text','options','graphics','credits','continuity','answer'])
     assert sum(r['presentation']=='text' for r in report['results'])==47
     assert sum(r['presentation']=='composition' for r in report['results'])==3
+
+
+def test_batch_07_preserves_288_and_all_explicit_review_decisions():
+    import hashlib
+    import re
+    from collections import Counter
+    root=Path(__file__).resolve().parents[1]
+    report=json.loads((root/'data/audit/batch-07-review.json').read_text())
+    raw=(root/'data/blue-published/questions.jsonl').read_text().splitlines(keepends=True)
+    rows={json.loads(line)['id_unico_sistema']:json.loads(line) for line in raw}
+    prior=report['previous_records_sha256']
+    assert len(prior)==288
+    previous=''.join(line for line in raw if json.loads(line)['id_unico_sistema'] in prior)
+    assert hashlib.sha256(previous.encode()).hexdigest()==report['previous_catalog_sha256']
+    assert report['examined']==50 and report['newly_approved']==40
+    approved=[r for r in report['results'] if r['status']=='APPROVED']
+    held=[r for r in report['results'] if r['status']=='PENDING']
+    assert len(held)==10 and all(r['id'] not in rows for r in held)
+    assert Counter(r['area'] for r in approved)=={'CN':26,'MT':14}
+    for r in approved:
+        q=rows[r['id']]
+        assert r['id'] not in prior and q['conteudo']==r['after_content']
+        assert q['gabarito_oficial']==r['official_answer']
+        assert record_digest(q)==r['record_sha256']
+        assert hashlib.sha256(r['source_text'].encode()).hexdigest()==r['source_text_sha256']
+        assert not re.search(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f]',str(q['conteudo'])+str(r['presentation_metadata']))
+    assert rows['2021_AZUL_D2_Q92']['conteudo']['alternativas']['D']=='f₁ > f₂ e v₁ = v₂.'
+    assert rows['2021_AZUL_D2_Q136']['conteudo']['alternativas']['E']=='13φ + 8'
+    assert rows['2022_AZUL_D2_Q129']['conteudo']['alternativas']['C']=='NH₄⁺'
+    assert '√3' in next(r for r in approved if r['id']=='2021_AZUL_D2_Q169')['presentation_metadata']['after']

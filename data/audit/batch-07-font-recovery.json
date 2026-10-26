@@ -1,0 +1,719 @@
+{
+  "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+  "method": "Identical CFF charstring-program aliases to named glyphs, supplementary to direct visual comparison; not an approval decision.",
+  "fonts": [
+    {
+      "font": "HNDPBB+Arial-ItalicMT",
+      "font_sha256": "4e66c31a5110e0b749692fcb7f43588fab7b90d349aff8acb6754d81df748296",
+      "aliases": [
+        {
+          "glyph": "g",
+          "equivalent": "g",
+          "unicode": "g",
+          "charstring_program_sha256": "b69bcedc61d680cbb1cb741e1b77117e5edae8c3c189031325cd41cc23ae82b9"
+        },
+        {
+          "glyph": "g40",
+          "equivalent": "E",
+          "unicode": "E",
+          "charstring_program_sha256": "aaed07dea06cb7a557e951bd076e51eaf7ed38c24996447c991ad24be1f8f8a6"
+        },
+        {
+          "glyph": "g38",
+          "equivalent": "C",
+          "unicode": "C",
+          "charstring_program_sha256": "b8d54396701b594e7c7788d17101d32b6769d28da736d5a9cc428406922e40fc"
+        },
+        {
+          "glyph": "g76",
+          "equivalent": "i",
+          "unicode": "i",
+          "charstring_program_sha256": "6bb6b7f43e69c9d39e4fb9b2b9828e96c45b9e0c0c705ed6355494918fc7de9b"
+        },
+        {
+          "glyph": "g77",
+          "equivalent": "j",
+          "unicode": "j",
+          "charstring_program_sha256": "d25c8092b9fd5913da97c10128360c6c678c4aa5156273eaa3992821da174981"
+        }
+      ]
+    },
+    {
+      "font": "HNDPCC+CambriaMath",
+      "font_sha256": "5dd8bd41e038af4e1022e0dcecd79cc780c13acc0d57ad0ad538984e8e3945d3",
+      "aliases": [
+        {
+          "glyph": "g882",
+          "equivalent": "zero",
+          "unicode": "0",
+          "charstring_program_sha256": "c44d5fc4ba904a62f928a5c5f9faa14e250a7c24d26b4d41c3166bcbc0a1f6da"
+        }
+      ]
+    },
+    {
+      "font": "HNDMGK+Arial-BoldMT",
+      "font_sha256": "e91a0357d19f3cefbd1e7315da9989461c8f710ca682a7aa78039b560d44176b",
+      "aliases": [
+        {
+          "glyph": "g3",
+          "equivalent": "space",
+          "unicode": " ",
+          "charstring_program_sha256": "a95d97f5864b700cad8ade515deedf20591cfe3d527b1e84d9df42efe13e4f8e"
+        },
+        {
+          "glyph": "g38",
+          "equivalent": "C",
+          "unicode": "C",
+          "charstring_program_sha256": "02884764e20a17b862fdbd35b04a066ee2d4f061d0b52c72bc538ea4c2b3e370"
+        },
+        {
+          "glyph": "g82",
+          "equivalent": "o",
+          "unicode": "o",
+          "charstring_program_sha256": "9ece116a421ce093f584795b38dbccd36f29b99789684e0b39930d56ead3e626"
+        },
+        {
+          "glyph": "g68",
+          "equivalent": "a",
+          "unicode": "a",
+          "charstring_program_sha256": "ff44b2fc8ba9bebe8ec07c9e7cd54821651c89dbac968ced58b9fd472ffbe548"
+        },
+        {
+          "glyph": "g76",
+          "equivalent": "i",
+          "unicode": "i",
+          "charstring_program_sha256": "8ce36cf9ad065cc46295fedabe76b43a0100bcc6f783d3ecbc7f3495d816842f"
+        },
+        {
+          "glyph": "g71",
+          "equivalent": "d",
+          "unicode": "d",
+          "charstring_program_sha256": "a96cb3f593d02378010942bf5d9f3a48d5f50923f94debefb91b619174f1cfa2"
+        },
+        {
+          "glyph": "g70",
+          "equivalent": "c",
+          "unicode": "c",
+          "charstring_program_sha256": "8b6c48715c9993b44b706fcfc0d4fa0e3bebed1c889baa588e15a4c88d7f69d7"
+        },
+        {
+          "glyph": "g",
+          "equivalent": "g",
+          "unicode": "g",
+          "charstring_program_sha256": "4b22e222835bb45313957d38171ce4daf934d65495ebc3f1b0382b3c2b882a3e"
+        }
+      ]
+    },
+    {
+      "font": "HNDMGL+ArialMT",
+      "font_sha256": "761f12dd1f016ad1a05349be6b92da8174a1363ca26cc8cbdbc03914897aad47",
+      "aliases": [
+        {
+          "glyph": "g3",
+          "equivalent": "space",
+          "unicode": " ",
+          "charstring_program_sha256": "a95d97f5864b700cad8ade515deedf20591cfe3d527b1e84d9df42efe13e4f8e"
+        },
+        {
+          "glyph": "g38",
+          "equivalent": "C",
+          "unicode": "C",
+          "charstring_program_sha256": "442ca7dd3d5d6be7bde6c948dabe896705de1016dacc3d2efcd4113f2fc13408"
+        },
+        {
+          "glyph": "g82",
+          "equivalent": "o",
+          "unicode": "o",
+          "charstring_program_sha256": "6e9396a753eb3787439f24a431069b063aaaf43207975cd75159f425cb7adbd7"
+        },
+        {
+          "glyph": "g81",
+          "equivalent": "n",
+          "unicode": "n",
+          "charstring_program_sha256": "63e9784a583ddab7cc66545bda0e45eba2075e0a3057e44ebe57b8659be6dff1"
+        },
+        {
+          "glyph": "g85",
+          "equivalent": "r",
+          "unicode": "r",
+          "charstring_program_sha256": "f62d4928299eb6789553c88f197de3c148cdf47fb5690f0585330470c9d5c52c"
+        },
+        {
+          "glyph": "g68",
+          "equivalent": "a",
+          "unicode": "a",
+          "charstring_program_sha256": "debe7215ee912f84fb5e73567f6122f48d9a5bb44ebb34c515349fe335027f9c"
+        },
+        {
+          "glyph": "g86",
+          "equivalent": "s",
+          "unicode": "s",
+          "charstring_program_sha256": "7af1d5a03ce6ba725520e5284748d96f4cfff3188c48577b2805d8cd627df9ea"
+        },
+        {
+          "glyph": "g72",
+          "equivalent": "e",
+          "unicode": "e",
+          "charstring_program_sha256": "e6bcf38117da2b328e23e92da2357dcc61094b408c4480d4b3d4f6df9152f897"
+        },
+        {
+          "glyph": "g84",
+          "equivalent": "q",
+          "unicode": "q",
+          "charstring_program_sha256": "501f2170ab8094e1deef37c37fe880f25b1dd302048fb95b4a72c101eb593d17"
+        },
+        {
+          "glyph": "g88",
+          "equivalent": "u",
+          "unicode": "u",
+          "charstring_program_sha256": "882bcb7751dc8a10c5878992871a58b218b2e77a1c50e36db5af8a9345427165"
+        },
+        {
+          "glyph": "g87",
+          "equivalent": "t",
+          "unicode": "t",
+          "charstring_program_sha256": "88d3d39644e953dc6fa1d024156787b4aff0c1a0677b5a969220e5c2d109006d"
+        },
+        {
+          "glyph": "g76",
+          "equivalent": "i",
+          "unicode": "i",
+          "charstring_program_sha256": "14469fd3e1bd8b7fd2a6ca956c051c24f41f9f032543855ec2618688d7228e4e"
+        },
+        {
+          "glyph": "g71",
+          "equivalent": "d",
+          "unicode": "d",
+          "charstring_program_sha256": "01d579f9f8954adcc1b459ba059c696b64c23b22cbd9a65d0dd903f99eebbf99"
+        },
+        {
+          "glyph": "g80",
+          "equivalent": "m",
+          "unicode": "m",
+          "charstring_program_sha256": "90d021d06e8f22e0bf4d9d661077b558b8ffea3490bba167a77ee15d3f8aa97d"
+        },
+        {
+          "glyph": "g125",
+          "equivalent": "otilde",
+          "unicode": "õ",
+          "charstring_program_sha256": "69a3e8f9b3f40f80dcdf2d71bf2708de82458d8f4731c42e8020c5ce720abd4e"
+        },
+        {
+          "glyph": "g36",
+          "equivalent": "A",
+          "unicode": "A",
+          "charstring_program_sha256": "dc3b1c51de2e8dbf0eb6d8cbeb51dcce26fde88b03d40127f4844f7590aecce9"
+        },
+        {
+          "glyph": "g39",
+          "equivalent": "D",
+          "unicode": "D",
+          "charstring_program_sha256": "1ebe09ec9fa872ac38c55a3089676054d04b268488aa8150b96220e0ba0ed3d5"
+        },
+        {
+          "glyph": "g40",
+          "equivalent": "E",
+          "unicode": "E",
+          "charstring_program_sha256": "2ae8426731fd0a852a17bfa3c32f14e5219ad959127e6b15d39e4b39f763825f"
+        },
+        {
+          "glyph": "g53",
+          "equivalent": "R",
+          "unicode": "R",
+          "charstring_program_sha256": "1e35619f328615123ce4a84bef42ec5d4ca41bbb8686cc1f3854ff03cc2fcc48"
+        },
+        {
+          "glyph": "g49",
+          "equivalent": "N",
+          "unicode": "N",
+          "charstring_program_sha256": "a7a07a1a081ef7e67a2977cf2fca7b5134773698e7a4fad83b41ba6570b43490"
+        },
+        {
+          "glyph": "g50",
+          "equivalent": "O",
+          "unicode": "O",
+          "charstring_program_sha256": "c2f61ce9c03e0e30b1e30e92b3584591f39a7bc57f14a56c2c8ffc847d111022"
+        },
+        {
+          "glyph": "g52",
+          "equivalent": "Q",
+          "unicode": "Q",
+          "charstring_program_sha256": "df6b7207f4e74ac8c2d1abd8e04a6714abe1d8e0728e9a61e621484fd5dd9fb4"
+        },
+        {
+          "glyph": "g56",
+          "equivalent": "U",
+          "unicode": "U",
+          "charstring_program_sha256": "94a1ecfab05df4f44da274b48c41219ed59417bd5211d3d266f6bfbaf2937419"
+        },
+        {
+          "glyph": "g54",
+          "equivalent": "S",
+          "unicode": "S",
+          "charstring_program_sha256": "1cf33bdd4f7a60dfd3a9049da8bdfdeab7d052adec3ef9d2073ed12512216da2"
+        },
+        {
+          "glyph": "g55",
+          "equivalent": "T",
+          "unicode": "T",
+          "charstring_program_sha256": "3898d1007dcf3b4b37b4170207ebc11038af77d19807e115cdf28df015ded53b"
+        },
+        {
+          "glyph": "g174",
+          "equivalent": "Otilde",
+          "unicode": "Õ",
+          "charstring_program_sha256": "03f9a4bb460bddadc6e90067c900e077fa00d1163a8b8278b33d24482d24c390"
+        },
+        {
+          "glyph": "g109",
+          "equivalent": "atilde",
+          "unicode": "ã",
+          "charstring_program_sha256": "87314917a041a7c60530351584b0580fb4ab127817c31703b8ada26585962804"
+        },
+        {
+          "glyph": "g70",
+          "equivalent": "c",
+          "unicode": "c",
+          "charstring_program_sha256": "1c3f6e3b76186e328e1c68c2fa4efbd528fc997912cb7de257602a78f7678fc4"
+        },
+        {
+          "glyph": "g51",
+          "equivalent": "P",
+          "unicode": "P",
+          "charstring_program_sha256": "5ba9a10aebb73eb69f44e966b211539511be6a79b4606e6bba71080fea7e111f"
+        },
+        {
+          "glyph": "g69",
+          "equivalent": "b",
+          "unicode": "b",
+          "charstring_program_sha256": "54b2144d81a51ae7b53cb5b32c0245cdacc8116e06b9396aa5885a6b8311c4c3"
+        },
+        {
+          "glyph": "g77",
+          "equivalent": "j",
+          "unicode": "j",
+          "charstring_program_sha256": "18d5860f902427274097161c2b29c32e4792b14ac671240701129c0e06b8ae4a"
+        },
+        {
+          "glyph": "g89",
+          "equivalent": "v",
+          "unicode": "v",
+          "charstring_program_sha256": "aebb04ae15dcf1f2179ec93574950bdfd6d02d560b16298fd7f8b7c06eff4e8a"
+        },
+        {
+          "glyph": "g15",
+          "equivalent": "comma",
+          "unicode": ",",
+          "charstring_program_sha256": "d8f407e9fd4ad448e36307e113420f13d66b81bbb99b971ba1e9c6a21a3401a3"
+        },
+        {
+          "glyph": "g83",
+          "equivalent": "p",
+          "unicode": "p",
+          "charstring_program_sha256": "6bb11a506309e88bd1e545f1b6c2f4edbb8e10da257acbd9e49b9635a896fb50"
+        },
+        {
+          "glyph": "g24",
+          "equivalent": "five",
+          "unicode": "5",
+          "charstring_program_sha256": "de330f6dc7c88ebc7297ed2f9437f88d274764a64174a77327c6fd1bea556ae4"
+        },
+        {
+          "glyph": "g111",
+          "equivalent": "ccedilla",
+          "unicode": "ç",
+          "charstring_program_sha256": "3ffea817e110494023c208f7f9d6dec5d91359228bb988c8638ce5ca2a418c6c"
+        },
+        {
+          "glyph": "g17",
+          "equivalent": "period",
+          "unicode": ".",
+          "charstring_program_sha256": "bfaf87de072cccc2f660f1cd8e5508e390c8567ad00cd9b7f1c383945c381213"
+        },
+        {
+          "glyph": "g106",
+          "equivalent": "agrave",
+          "unicode": "à",
+          "charstring_program_sha256": "afc86af5bcf905ce9db9c75cae29fff8911cccf3be5e511063b885f0b7b8f9ce"
+        },
+        {
+          "glyph": "g75",
+          "equivalent": "h",
+          "unicode": "h",
+          "charstring_program_sha256": "242a4f3543731e4fa49c67f14c1b8856fa3f0825d0d6084016c6e1823c8a7468"
+        },
+        {
+          "glyph": "g16",
+          "equivalent": "hyphen",
+          "unicode": "-",
+          "charstring_program_sha256": "9ddde4ae5f32e62d24c6a9e291a762d9864cac6d9f69f7aad7813a62a3c7b536"
+        },
+        {
+          "glyph": "g79",
+          "equivalent": "l",
+          "unicode": "l",
+          "charstring_program_sha256": "3ce78e660838038c4e5b5ea5f7a85dee9d77b9f824326cc82233975cd2cc0e69"
+        },
+        {
+          "glyph": "g41",
+          "equivalent": "F",
+          "unicode": "F",
+          "charstring_program_sha256": "c4e512e8660fcb8f57037e2623d4cec6e5d54b2e2a95cc3db1e5599c937e9ba3"
+        },
+        {
+          "glyph": "g47",
+          "equivalent": "L",
+          "unicode": "L",
+          "charstring_program_sha256": "ca269c9597a3acd8fc328bbb59e3576145042e0fd4f591b405068e0ceca53756"
+        },
+        {
+          "glyph": "g43",
+          "equivalent": "H",
+          "unicode": "H",
+          "charstring_program_sha256": "b85d248eb876216586ca722ba2a1911c3dfcbde88a9e02e5800d613430deba10"
+        },
+        {
+          "glyph": "g57",
+          "equivalent": "V",
+          "unicode": "V",
+          "charstring_program_sha256": "cd8f5976cfa954da2ad02414d875ba52e8231fcbb6b4dbd1a43d34c739494186"
+        },
+        {
+          "glyph": "g114",
+          "equivalent": "ecircumflex",
+          "unicode": "ê",
+          "charstring_program_sha256": "d836019964cbb67327b063de179e56ced484fce1e642f449c380ca586a238dc8"
+        },
+        {
+          "glyph": "g105",
+          "equivalent": "aacute",
+          "unicode": "á",
+          "charstring_program_sha256": "aac7c56f527ad2ea5189147472b5cd142e7277830eb78cfb63d157183d66db7f"
+        },
+        {
+          "glyph": "g91",
+          "equivalent": "x",
+          "unicode": "x",
+          "charstring_program_sha256": "55414b4f8d646a56c01ec477f1da070afa1ab017c94bdb88f4b751e0b3a19df2"
+        },
+        {
+          "glyph": "g121",
+          "equivalent": "oacute",
+          "unicode": "ó",
+          "charstring_program_sha256": "bdb14d3542eb03ead0b251460d3fc1b16d1126ddee9258e07d698d1def6aa8f9"
+        },
+        {
+          "glyph": "g116",
+          "equivalent": "iacute",
+          "unicode": "í",
+          "charstring_program_sha256": "6161f12150202b14bdbc21e74db137982f93c24c347aa866bea14d9431a3ae9b"
+        },
+        {
+          "glyph": "g29",
+          "equivalent": "colon",
+          "unicode": ":",
+          "charstring_program_sha256": "f38f59728fab9f0b887e3e245d250ee80f28876199e302d9f1de5301939416c9"
+        },
+        {
+          "glyph": "g74",
+          "equivalent": "g",
+          "unicode": "g",
+          "charstring_program_sha256": "87644468c630180f18cb47d8b22f5e9dea68059ef7bad2250350f031dd5571da"
+        },
+        {
+          "glyph": "g126",
+          "equivalent": "uacute",
+          "unicode": "ú",
+          "charstring_program_sha256": "855124cfa644104ff563ea08257ec4a78c314f6f667096a910473400e0af2459"
+        },
+        {
+          "glyph": "g73",
+          "equivalent": "f",
+          "unicode": "f",
+          "charstring_program_sha256": "7c1cb6e69cf4259b51bd8bafc99d6b0e563ef9647607b995effb25c4c0adf5b2"
+        },
+        {
+          "glyph": "g21",
+          "equivalent": "two",
+          "unicode": "2",
+          "charstring_program_sha256": "e5d7c6af3b95856307b7bf6e3ae23472e3cfa110aaa351ac06ccec0685891f51"
+        },
+        {
+          "glyph": "g131",
+          "equivalent": "degree",
+          "unicode": "°",
+          "charstring_program_sha256": "81a939c3423965b1265d4a5a6c209719402b3a40265125a295901e1071238d73"
+        },
+        {
+          "glyph": "g95",
+          "equivalent": "bar",
+          "unicode": "|",
+          "charstring_program_sha256": "9168d040a6945bc0894aeb454d9f5c87f038cd74c5f83508c518a899b96c9c05"
+        },
+        {
+          "glyph": "g26",
+          "equivalent": "seven",
+          "unicode": "7",
+          "charstring_program_sha256": "044f416ca466f758d4e6b8e3ca390927557d3370b927379e32e695438e342098"
+        },
+        {
+          "glyph": "g61",
+          "equivalent": "Z",
+          "unicode": "Z",
+          "charstring_program_sha256": "fd9a910a17e100a523afc030c60eb7accb2bea88e1ba3f5c25043ced7837e683"
+        },
+        {
+          "glyph": "g20",
+          "equivalent": "one",
+          "unicode": "1",
+          "charstring_program_sha256": "59f290fc3a03d40a567c840afde88d1693b50917138cce5f584536f3eb3d4d27"
+        },
+        {
+          "glyph": "g157",
+          "equivalent": "ordfeminine",
+          "unicode": "ª",
+          "charstring_program_sha256": "ed80ef6eaf5078b96017eda2df6e99aab293ae08ce36d1b65cecd88348d05449"
+        },
+        {
+          "glyph": "g93",
+          "equivalent": "z",
+          "unicode": "z",
+          "charstring_program_sha256": "daf0c9ae13574891e6d25fcb53e619057ca5018bdab081b8f76aa7f2775a07c9"
+        },
+        {
+          "glyph": "g107",
+          "equivalent": "acircumflex",
+          "unicode": "â",
+          "charstring_program_sha256": "a2da43d98e488a8d4a9270582cf652051207baaaa448a0746d21a65d6f503ad7"
+        },
+        {
+          "glyph": "g25",
+          "equivalent": "six",
+          "unicode": "6",
+          "charstring_program_sha256": "7079ca804fbbe8336401d2e54d6413939e165141a2c868ad97a03de32ef91ecf"
+        },
+        {
+          "glyph": "g112",
+          "equivalent": "eacute",
+          "unicode": "é",
+          "charstring_program_sha256": "b614066bf830ffee4348fa53ce95505994c11ab5543f41ae29e03d25067aadee"
+        },
+        {
+          "glyph": "g22",
+          "equivalent": "three",
+          "unicode": "3",
+          "charstring_program_sha256": "c1275d43efd32b4ef64ae8dc406b7c5e0fe4d58e0007097523631e63acbcf2f3"
+        },
+        {
+          "glyph": "g19",
+          "equivalent": "zero",
+          "unicode": "0",
+          "charstring_program_sha256": "e4373011d75c0e4afd9fea3856842c62558392a41daeb1c3616edc09fbceb592"
+        },
+        {
+          "glyph": "g238",
+          "equivalent": "multiply",
+          "unicode": "×",
+          "charstring_program_sha256": "39d0eef9c5555be2268318fe0b40d397c82b5e3406001b73184a2c88baecabaf"
+        },
+        {
+          "glyph": "g44",
+          "equivalent": "I",
+          "unicode": "I",
+          "charstring_program_sha256": "e4472e29d1a85c836c4a7d67f6dcdd2b2a5110e49615c14c72ca661697253be5"
+        },
+        {
+          "glyph": "g30",
+          "equivalent": "semicolon",
+          "unicode": ";",
+          "charstring_program_sha256": "e9d1f9f9f7a983f93e28d84717e0c0d01477e2e393779bccfd48ed9106c315ac"
+        },
+        {
+          "glyph": "g37",
+          "equivalent": "B",
+          "unicode": "B",
+          "charstring_program_sha256": "632148587f266fba6094e03768b75ce2af08961a4292d013a4a5f491a50bd448"
+        },
+        {
+          "glyph": "g11",
+          "equivalent": "parenleft",
+          "unicode": "(",
+          "charstring_program_sha256": "dce07bead47babaeb361ee8d4ce2ae070ee1ff2da4a65dca6b8f720810fb4201"
+        },
+        {
+          "glyph": "g12",
+          "equivalent": "parenright",
+          "unicode": ")",
+          "charstring_program_sha256": "ba0d3acc15a303302ebfe87f30d44e1f9a4b918e395ece364f7fb694d3320eb9"
+        },
+        {
+          "glyph": "g23",
+          "equivalent": "four",
+          "unicode": "4",
+          "charstring_program_sha256": "5ccd1b718ea3e61780496b40f1772309ccbd613ff825cfdcedda8e31ec1d4922"
+        },
+        {
+          "glyph": "g48",
+          "equivalent": "M",
+          "unicode": "M",
+          "charstring_program_sha256": "764a8d337e06908d5441e9bcdab5a00aa15837e7e90ca7153b775162556a2e7c"
+        },
+        {
+          "glyph": "g45",
+          "equivalent": "J",
+          "unicode": "J",
+          "charstring_program_sha256": "9bcaf4edface8d968294b83a2d749537c93a1650ccde0af64d30db3c017a04a5"
+        },
+        {
+          "glyph": "g42",
+          "equivalent": "G",
+          "unicode": "G",
+          "charstring_program_sha256": "b4aa95c84bd4ee312be0e993075ff8e84a909c3dcfc78c08c015385c156d6489"
+        },
+        {
+          "glyph": "g27",
+          "equivalent": "eight",
+          "unicode": "8",
+          "charstring_program_sha256": "6e13dc2c91a8686f1896e98fc8f5b9ab44fa293501430b6ba68781b59db96c02"
+        },
+        {
+          "glyph": "g34",
+          "equivalent": "question",
+          "unicode": "?",
+          "charstring_program_sha256": "b477de823ed02bb4eff287c103b2d1a6764fb1f00ceaadc5540c958d7143d25f"
+        },
+        {
+          "glyph": "g179",
+          "equivalent": "quotedblleft",
+          "unicode": "“",
+          "charstring_program_sha256": "dcba4b7806951ff101f9bcb5f54d041edef9f1b0761f2046f78ae1a9ceb19c30"
+        },
+        {
+          "glyph": "g4",
+          "equivalent": "exclam",
+          "unicode": "!",
+          "charstring_program_sha256": "1891084ffc9e4b897de3218ca9ae05f2c3df263f9ca2ead3e6b6dcf8b3b69255"
+        },
+        {
+          "glyph": "g180",
+          "equivalent": "quotedblright",
+          "unicode": "”",
+          "charstring_program_sha256": "6bdb2a4d92c216f64b42e145de15d0d91a0e0c94be831f19b70df813038f1c59"
+        },
+        {
+          "glyph": "g18",
+          "equivalent": "slash",
+          "unicode": "/",
+          "charstring_program_sha256": "9c3a14a37baa039c81bd14d18a27d5aeef29c00cc61773390cc7273270d035b5"
+        },
+        {
+          "glyph": "g123",
+          "equivalent": "ocircumflex",
+          "unicode": "ô",
+          "charstring_program_sha256": "0da4cedd3a532b189d4cacc8b2c5909efec85e8909fe4b408440c757dcff5ffa"
+        },
+        {
+          "glyph": "g58",
+          "equivalent": "W",
+          "unicode": "W",
+          "charstring_program_sha256": "f7e8373a0a38e327e1a321ab17d5520a048464e84fc2a88429605be4010569b3"
+        },
+        {
+          "glyph": "g90",
+          "equivalent": "w",
+          "unicode": "w",
+          "charstring_program_sha256": "fcb3eb78a8868ef486a5beff6a643ccaf26d207b3f7ae0c512151ef84b5b99ac"
+        },
+        {
+          "glyph": "g78",
+          "equivalent": "k",
+          "unicode": "k",
+          "charstring_program_sha256": "e34d37202c775fac6d4af03f128356890b6ad5f4ae756b37911567f7427dd9d8"
+        },
+        {
+          "glyph": "g13",
+          "equivalent": "asterisk",
+          "unicode": "*",
+          "charstring_program_sha256": "5b32c2df54b189620f23e5617c1a8147300649a32e777626c663350363a6c7af"
+        },
+        {
+          "glyph": "g32",
+          "equivalent": "equal",
+          "unicode": "=",
+          "charstring_program_sha256": "878a00b888f21d5e2ee22e17abdcfebddf7d9fcd445abf94cc3897a73af3a429"
+        },
+        {
+          "glyph": "g28",
+          "equivalent": "nine",
+          "unicode": "9",
+          "charstring_program_sha256": "f63d235cf982b2702798847771270280e650a21ea2fa1eb65df311b4dd5c195d"
+        },
+        {
+          "glyph": "g101",
+          "equivalent": "Eacute",
+          "unicode": "É",
+          "charstring_program_sha256": "a5507a5cac09c96a1606808c7ec193f5ebdab72ab5a663e68f4ab0c95adfb7d1"
+        },
+        {
+          "glyph": "g46",
+          "equivalent": "K",
+          "unicode": "K",
+          "charstring_program_sha256": "a4977bc1ec31ec9880b621273c031b5ea5b2a1624143ca45db4e8248783c032b"
+        },
+        {
+          "glyph": "g59",
+          "equivalent": "X",
+          "unicode": "X",
+          "charstring_program_sha256": "9b37a109f3678e62f6b679bdc761f0d39b2a89b2019a2512fed5d66031aef7bd"
+        },
+        {
+          "glyph": "g3437",
+          "equivalent": "two",
+          "unicode": "2",
+          "charstring_program_sha256": "e5d7c6af3b95856307b7bf6e3ae23472e3cfa110aaa351ac06ccec0685891f51"
+        },
+        {
+          "glyph": "g14",
+          "equivalent": "plus",
+          "unicode": "+",
+          "charstring_program_sha256": "f0d922afb5bd393d7ad0eb0183620e8b3a84cee2421fba4974f214288a5797ee"
+        },
+        {
+          "glyph": "g3438",
+          "equivalent": "three",
+          "unicode": "3",
+          "charstring_program_sha256": "c1275d43efd32b4ef64ae8dc406b7c5e0fe4d58e0007097523631e63acbcf2f3"
+        },
+        {
+          "glyph": "g60",
+          "equivalent": "Y",
+          "unicode": "Y",
+          "charstring_program_sha256": "f2ff09429c02fc53d00a17d4df127ae1844e4003c37a96c085d154fe5e390098"
+        },
+        {
+          "glyph": "greater",
+          "equivalent": "greater",
+          "unicode": ">",
+          "charstring_program_sha256": "04e2d52627223e7167eb86c058e48afa07f2b59a8a01660496bc66e85429c8a8"
+        },
+        {
+          "glyph": "g",
+          "equivalent": "g",
+          "unicode": "g",
+          "charstring_program_sha256": "87644468c630180f18cb47d8b22f5e9dea68059ef7bad2250350f031dd5571da"
+        }
+      ]
+    }
+  ],
+  "manual_visual_corrections": [
+    "fi/fl ligatures",
+    "y in English credits",
+    "percent sign",
+    "φ² / φ⁷",
+    "√3",
+    "H₃PO₄ / CaSO₄ / Al₂O₃ / FeCl₂",
+    "f₁ / f₂ / v₁ / v₂ with < = >",
+    "NH₄⁺ / NO₂⁻ / NO₃⁻",
+    "H₂O₂ / CaCO₃ / mg L⁻¹"
+  ]
+}

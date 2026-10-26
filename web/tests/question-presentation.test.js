@@ -20,6 +20,12 @@ test('all 238 previous records and answers are byte-for-byte unchanged',()=>{
  const prior=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../data/audit/batch-06-review.json'),'utf8')).previous_records_sha256;
  const lines=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'),'utf8').trimEnd().split('\n');
  const bytes=Buffer.from(lines.filter(line=>prior[JSON.parse(line).id_unico_sistema]).join('\n')+'\n');
- assert.equal(rows.length,288);
+ assert.equal(rows.length,328);
  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),'8351f7ef5c3508e9bc1277d7ad8fb6bd6d82113b897fd31db1c621dfdcc906d3');
+});
+
+test('source-checked figure without following prose remains visible and missing caption fails conservatively',()=>{
+ const q=get('2021_AZUL_D2_Q91');
+ assert.equal(presentation(q).mode,'figure');assert.equal(presentation(q).after,'');
+ const entry=presentation(q);assert.equal(presentation(q,{schema_version:1,questions:{[q.id_unico_sistema]:{...entry,after:undefined}}}),null);
 });
