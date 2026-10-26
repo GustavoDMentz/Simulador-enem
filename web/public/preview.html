@@ -26,13 +26,16 @@ function render(){
  target.append(node('h2',`ENEM ${q.ano} · Dia ${q.dia} · Questão ${q.posicao_prova}`));
  const warning=node('p',q.scoring_enabled?'Questão validada com fonte oficial.':'Em revisão: conteúdo ou resposta ainda não confirmados. Sem pontuação.','warning');
  target.append(warning);
- const c=q.conteudo||{};
- if(c.texto_base)target.append(node('div',c.texto_base,'prose'));
+ const c=q.conteudo||{}, p=q.presentation;
+ const original=c.metadados_visual?.caminho_local_imagem;
+ if(p?.mode==='text'&&original){const a=node('a','Consultar recorte original');a.href=original;a.target='_blank';a.rel='noopener';target.append(a)}
+ if(p?.mode==='figure')target.append(node('div',p.before,'prose'));
+ else if(c.texto_base)target.append(node('div',c.texto_base,'prose'));
 
  const visual=c.metadados_visual||{};
- if(visual.contem_imagem||visual.caminho_local_imagem){
+ if(p?.mode!=='text'&&(visual.contem_imagem||visual.caminho_local_imagem)){
   if(!q.scoring_enabled)target.append(node('p','Imagem de apoio em revisão.','warning'));
-  const raw=visual.caminho_local_imagem;
+  const raw=p?.figure||visual.caminho_local_imagem;
   const prefix='/home/gumentz/enem-pipeline/data/extracted/';
   const imagePath=typeof raw==='string'?(raw.startsWith(prefix)?'/images/'+raw.slice(prefix.length):raw.startsWith('/images/')?raw:null):null;
   if(imagePath&&!imagePath.split('/').includes('..')){
@@ -41,10 +44,11 @@ function render(){
    img.style.cssText='display:block;max-width:100%;height:auto;margin:14px 0';
    img.onerror=()=>{img.replaceWith(node('p','Imagem indisponível no servidor.','warning'))};
    img.src=imagePath;
-   target.append(img);
+   const link=document.createElement('a');link.href=original||imagePath;link.target='_blank';link.rel='noopener';link.setAttribute('aria-label','Abrir imagem original em nova aba');link.append(img);target.append(link);
   }else target.append(node('p','Imagem sem caminho local utilizável.','warning'));
  }
- target.append(node('h3','Enunciado'),node('div',c.enunciado||'Enunciado indisponível','prose'));
+ if(p?.mode==='figure')target.append(node('div',p.after,'prose'));
+ if(!p?.includes_command)target.append(node('h3','Enunciado'),node('div',c.enunciado||'Enunciado indisponível','prose'));
  target.append(node('h3','Alternativas'));
  const opts=c.alternativas||{};
  for(const letter of 'ABCDE'){

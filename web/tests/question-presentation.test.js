@@ -1,0 +1,23 @@
+'use strict';
+const {test}=require('node:test'),assert=require('node:assert/strict');
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const {presentation}=require('../question-presentation');
+const rows=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'),'utf8').trim().split('\n').map(JSON.parse);
+const get=id=>rows.find(q=>q.id_unico_sistema===id);
+test('reviewed text cases use HTML; historical composition and geometry retain their visual meaning',()=>{
+ for(const id of ['2024_AZUL_D2_Q137','2018_AZUL_D2_Q110','2024_AZUL_D2_Q111'])assert.equal(presentation(get(id)).mode,'text');
+ assert.equal(presentation(get('2018_AZUL_D1_Q74')).mode,'composition');
+ const p=presentation(get('2024_AZUL_D2_Q155'));
+ assert.equal(p.mode,'figure');assert.match(p.after,/tipo IV: α = 60° e R = 16 m/);assert.match(p.after,/70 m²/);assert.match(p.after,/tipo V: α = 90° e R = 10 m/);
+ assert.notEqual(p.figure,p.source);
+});
+test('unknown or edited evidence preserves the original presentation fallback',()=>{
+ const q=get('2024_AZUL_D2_Q137');
+ assert.equal(presentation({...q,conteudo:{...q.conteudo,texto_base:'Altered'}}),null);
+ assert.equal(presentation({...q,id_unico_sistema:'unknown'}),null);
+});
+test('published catalog bytes and answers are untouched',()=>{
+ const bytes=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'));
+ assert.equal(rows.length,238);
+ assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),'8351f7ef5c3508e9bc1277d7ad8fb6bd6d82113b897fd31db1c621dfdcc906d3');
+});

@@ -13,7 +13,8 @@ function load(file=SOURCE){
  const keys=rows.map(q=>`${q.ano}/${q.dia}/${q.posicao_prova}`);
  if(new Set(ids).size!==ids.length||new Set(keys).size!==keys.length)throw Error('Duplicate question identity');
  const entries=readManifest().questions;
- return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>({...forScoring(q,entries),_key:q._key||q.id_unico_sistema}));
+ const display=require('./question-presentation'), displayData=display.readPresentation();
+ return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>({...forScoring(q,entries),_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)}));
 }
 function filter(rows,query){
  for(const name of ['year','day','position'])if(query[name]!==undefined&&(!Number.isInteger(Number(query[name]))||Number(query[name])<1))throw Error('Invalid filter');

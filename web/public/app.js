@@ -118,12 +118,20 @@ function setupEventListeners() {
   
   // Alternatives selection
   alternativeCards.forEach(card => {
+    card.setAttribute('role','button');
+    card.tabIndex = 0;
+    card.addEventListener('keydown', e => {
+      if(e.target !== card) return;
+      if(e.key === 'Enter' || e.key === ' '){e.preventDefault();card.click()}
+      if(['ArrowDown','ArrowUp'].includes(e.key)){e.preventDefault();const all=[...alternativeCards];all[(all.indexOf(card)+(e.key==='ArrowDown'?1:4))%5].focus()}
+    });
     card.addEventListener('click', () => {
       if (card.classList.contains('disabled') || card.classList.contains('eliminated')) return;
       
       // Select clicked card
-      alternativeCards.forEach(c => c.classList.remove('selected'));
+      alternativeCards.forEach(c => {c.classList.remove('selected');c.setAttribute('aria-pressed','false')});
       card.classList.add('selected');
+      card.setAttribute('aria-pressed','true');
       
       selectedAlternative = card.dataset.letter;
       if (activeQuestion?.scoring_enabled === true) btnSubmit.removeAttribute('disabled');
@@ -154,7 +162,12 @@ function setupEventListeners() {
   btnNextQuestion.addEventListener('click', loadNextQuestion);
   
   // Toggle IA Description
-  btnToggleDesc.addEventListener('click', toggleIaDescription);
+  btnToggleDesc.addEventListener('click', () => {toggleIaDescription();btnToggleDesc.setAttribute('aria-expanded',String(!questionDescText.classList.contains('hidden')))});
+  document.getElementById('btn-enlarge-image').addEventListener('click', () => openImageViewer(questionImg.src, questionImg.alt));
+  document.getElementById('btn-original-source').addEventListener('click', e => openImageViewer(e.currentTarget.dataset.src, 'Reprodução original do material oficial'));
+  document.getElementById('btn-close-image').addEventListener('click', closeImageViewer);
+  document.getElementById('image-viewer').addEventListener('close', () => imageTrigger?.focus());
+  document.getElementById('image-zoom').addEventListener('change', e => document.getElementById('image-viewer').classList.toggle('original-size', e.target.checked));
   
   // AI Explanation Trigger
   btnAiExplain.addEventListener('click', getAiExplanation);
@@ -312,7 +325,7 @@ function displayQuestion(q) {
   selectedAlternative = null;
   
   // Header Badges
-  badgeId.textContent = q._key;
+  badgeId.textContent = q.id_unico_sistema || q._key;
   badgeYear.textContent = q.ano;
   badgeArea.textContent = q.area_conhecimento;
   badgeColor.textContent = q.cor_prova;
@@ -320,35 +333,33 @@ function displayQuestion(q) {
   // Set area of knowledge visual style
   badgeArea.className = 'badge badge-gray';
   
-  // Base Text
-  if (q.conteudo.texto_base && q.conteudo.texto_base.trim() !== "") {
-    textBase.classList.remove('hidden');
-    textBase.textContent = q.conteudo.texto_base;
-    textBase.style.whiteSpace = "pre-wrap";
-  } else {
-    textBase.classList.add('hidden');
-    textBase.innerHTML = "";
-  }
-  
-  // Render physical image if exists
-  if (q.conteudo.metadados_visual && q.conteudo.metadados_visual.caminho_local_imagem) {
-    imageContainer.classList.remove('hidden');
-    questionImg.src = q.conteudo.metadados_visual.caminho_local_imagem;
-    
-    // IA Description toggle reset
-    questionDescText.classList.add('hidden');
-    questionDescText.textContent = q.conteudo.metadados_visual.descricao_imagem || "Nenhuma descrição disponível.";
-    btnToggleDesc.textContent = "👁️ Ver Descrição IA (Acessibilidade)";
-  } else {
-    imageContainer.classList.add('hidden');
-    questionImg.src = "";
-    questionDescText.textContent = "";
-  }
-  
-  // Enunciado
-  enunciado.textContent = q.conteudo.enunciado;
-  enunciado.style.whiteSpace = "pre-wrap";
-  
+  const c = q.conteudo, p = q.presentation;
+  const mode = p?.mode || (c.metadados_visual?.caminho_local_imagem ? 'composition' : 'text');
+  document.querySelector('.question-card').dataset.presentation = mode;
+  const baseText = p?.mode === 'figure' ? p.before : c.texto_base;
+  textBase.textContent = p?.mode === 'text' ? reflowProse(baseText || '') : (baseText || '');
+  textBase.classList.toggle('hidden', !baseText?.trim() || p?.includes_command === true);
+  const after = document.getElementById('question-after-figure');
+  after.textContent = p?.mode === 'figure' ? p.after : '';
+  after.classList.toggle('hidden', !after.textContent);
+  const source = c.metadados_visual?.caminho_local_imagem;
+  const visibleImage = source && mode !== 'text';
+  imageContainer.classList.toggle('hidden', !visibleImage);
+  imageContainer.dataset.kind = mode;
+  questionImg.src = visibleImage ? (p?.figure || source) : '';
+  questionImg.alt = p?.alt || c.metadados_visual?.descricao_imagem || 'Reprodução original do material de apoio. Abra para ampliar.';
+  questionDescText.textContent = p?.alt || c.metadados_visual?.descricao_imagem || '';
+  questionDescText.classList.add('hidden');
+  btnToggleDesc.textContent = 'Descrição disponível';
+  btnToggleDesc.setAttribute('aria-expanded', 'false');
+  const original = document.getElementById('btn-original-source');
+  original.classList.toggle('hidden', !source);
+  original.dataset.src = source || '';
+  enunciado.textContent = c.enunciado;
+  enunciado.classList.toggle('sr-only', p?.includes_command === true);
+  enunciado.style.whiteSpace = 'pre-wrap';
+  closeImageViewer();
+
   // Alternatives
   const alternatives = q.conteudo.alternativas;
   alternativeCards.forEach(card => {
@@ -358,6 +369,9 @@ function displayQuestion(q) {
     
     // Reset classes
     card.className = 'alternative-card';
+    card.setAttribute('aria-pressed','false');
+    card.setAttribute('aria-disabled','false');
+    card.setAttribute('aria-label', 'Alternativa ' + letter + ': ' + (alternatives[letter] || ''));
   });
   
   // Reset Action Buttons
@@ -388,6 +402,7 @@ function submitAnswer() {
   // Disable alternatives selection
   alternativeCards.forEach(card => {
     card.classList.add('disabled');
+    card.setAttribute('aria-disabled','true');
     const letter = card.dataset.letter;
     
     // Apply correct style to correct answer
@@ -467,14 +482,14 @@ function submitAnswer() {
   }, 100);
 }
 
-// 7. Toggle accessibility LLM image description
+// 7. Toggle the available source description
 function toggleIaDescription() {
   if (questionDescText.classList.contains('hidden')) {
     questionDescText.classList.remove('hidden');
-    btnToggleDesc.textContent = "👁️ Ocultar Descrição IA";
+    btnToggleDesc.textContent = "Ocultar descrição";
   } else {
     questionDescText.classList.add('hidden');
-    btnToggleDesc.textContent = "👁️ Ver Descrição IA (Acessibilidade)";
+    btnToggleDesc.textContent = 'Descrição disponível';
   }
 }
 
@@ -627,4 +642,26 @@ function applyHighlight() {
   
   selection.removeAllRanges();
   highlighterBtn.classList.add('hidden');
+}
+
+let imageTrigger = null;
+function openImageViewer(src, alt) {
+  imageTrigger = document.activeElement;
+  const dialog = document.getElementById('image-viewer');
+  document.getElementById('viewer-image').src = src;
+  document.getElementById('viewer-image').alt = alt;
+  document.getElementById('viewer-original-link').href = src;
+  document.getElementById('image-zoom').checked = false;
+  dialog.classList.remove('original-size');
+  dialog.showModal();
+  document.getElementById('btn-close-image').focus();
+}
+function closeImageViewer() {
+  const dialog = document.getElementById('image-viewer');
+  if(dialog?.open) dialog.close();
+}
+
+// Reflow only explicitly reviewed prose; preserve blank paragraphs and bullet lists.
+function reflowProse(text) {
+  return text.split(/\n\s*\n/).map(paragraph => paragraph.trim().split('\n').map(line=>line.trim()).reduce((out,line,i)=>out+(i?(line.startsWith('•')?'\n':' '):'')+line,'')).join('\n\n');
 }

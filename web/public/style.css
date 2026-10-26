@@ -964,3 +964,39 @@ mark.highlight {
   padding: 1px 3px;
   box-shadow: 0 1px 2px rgba(254, 240, 138, 0.4);
 }
+
+/* Reviewed question presentation: text reflows; original figures retain their proportions. */
+.question-card { gap: 1.4rem; padding: clamp(18px, 3vw, 32px); }
+.question-card .text-base, .question-card .enunciado, .alternative-text {
+  font-family: system-ui, sans-serif; font-size: 1.08rem; line-height: 1.75; overflow-wrap: anywhere;
+}
+.question-card .text-base { white-space: pre-line; }
+.image-container { padding: 0; border: 0; background: transparent; gap: 10px; align-items: stretch; }
+.image-button { display: block; width: 100%; border: 1px solid var(--border-color); padding: 10px; background: white; border-radius: 8px; cursor: zoom-in; }
+.image-container .image-button img { display: block; width: 100%; height: auto; max-height: none; padding: 0; box-shadow: none; object-fit: contain; }
+.image-container[data-kind="figure"] .image-button { max-width: 620px; align-self: center; }
+.image-container[data-kind="composition"] .image-button { max-width: 820px; align-self: center; }
+.image-hint { text-align: center; font-size: .88rem; color: var(--text-secondary); }
+.alternative-card { min-height: 64px; align-items: flex-start; padding: 18px; }
+.alternative-card .letter-badge { flex-shrink: 0; }
+.alternative-card:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 3px; }
+.alternative-card.selected { border: 2px solid #1d4ed8; }
+.alternative-card.correct { border: 2px solid #15803d; }
+.alternative-card.incorrect-choice { border: 2px solid #b91c1c; }
+.btn-eliminate { opacity: .8; }
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0 !important; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap !important; border: 0 !important; }
+#image-viewer { width: min(1200px, 96vw); max-width: 96vw; max-height: 94dvh; border: 0; border-radius: 12px; padding: 16px; }
+#image-viewer::backdrop { background: #0f172acc; }
+.viewer-toolbar, .viewer-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 12px; }
+.viewer-toolbar h2 { font-size: 1.2rem; margin: 0; }
+.viewer-toolbar button { padding: 10px 18px; font: inherit; }
+.viewer-scroll { overflow: auto; max-height: 74dvh; background: #f1f5f9; }
+#viewer-image { display: block; width: 100%; height: auto; }
+.original-size #viewer-image { width: auto; max-width: none; }
+@media(max-width: 600px) {
+ .content-panel { padding: 12px; min-width: 0; }
+ .question-card .text-base, .question-card .enunciado, .alternative-text { font-size: 1rem; }
+ .alternative-card { gap: 10px; padding: 14px; }
+ .image-button { padding: 4px; }
+ #image-viewer { padding: 10px; }
+}
