@@ -1,0 +1,3417 @@
+{
+  "batch": "02",
+  "base_commit": "a45c65a67af7406a249e5b07673d3bd4a26273df",
+  "zip_sha256": "a2efb083c95057b71f698e25cd11da031703b2f7da4bd50d3d7e8dbe82371a97",
+  "examined": 50,
+  "approved_before": 59,
+  "newly_approved": 38,
+  "approved_after": 97,
+  "pending_after": 416,
+  "results": [
+    {
+      "id": "2019_AZUL_D1_Q80",
+      "status": "APPROVED",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "official_answer": "D",
+      "previous_recorded_answer": "D",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 80,
+          "page": 29,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            301.317138671875,
+            541.9290161132812,
+            528.7715454101562
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 29,
+        "bbox": [
+          284.4645080566406,
+          321.6,
+          541.9290161132812,
+          417.8
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "40e0e9cc2ee24883c02da59245e916b117d91d56321794ce5c968a94d34a5e94",
+      "before_content": {
+        "enunciado": "A mobilização analisada representou um alerta, na medida em que a ação popular questionava",
+        "texto_base": "A Revolta da Vacina (1904) mostrou claramente o aspecto defensivo, desorganizado, fragmentado da ação popular. Não se negava o Estado, não se reivindicava participação nas decisões políticas; defendiam-se valores e direitos considerados acima da intervenção do Estado.CARVALHO, J. M. Os bestializados: o Rio de Janeiro e a República que não foi. São Paulo: Cia. das Letras, 1987 (adaptado).",
+        "alternativas": {
+          "A": "a alta de preços.",
+          "B": "a prática clientelista.",
+          "C": "as reformas urbanas.",
+          "D": "o arbítrio governamental.",
+          "E": "as práticas eleitorais."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A mobilização analisada representou um alerta, na medida em que a ação popular questionava",
+        "texto_base": null,
+        "alternativas": {
+          "A": "a alta de preços.",
+          "B": "a política clientelista.",
+          "C": "as reformas urbanas.",
+          "D": "o arbítrio governamental.",
+          "E": "as práticas eleitorais."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2019-azul-d1-q80.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "a alta de preços.",
+            "B": "a prática clientelista.",
+            "C": "as reformas urbanas.",
+            "D": "o arbítrio governamental.",
+            "E": "as práticas eleitorais."
+          },
+          "after": {
+            "A": "a alta de preços.",
+            "B": "a política clientelista.",
+            "C": "as reformas urbanas.",
+            "D": "o arbítrio governamental.",
+            "E": "as práticas eleitorais."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q82",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 82,
+          "page": 29,
+          "column": "right",
+          "bbox": [
+            284.5,
+            74.546875,
+            542.0,
+            284.2763977050781
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 29,
+        "bbox": [
+          284.5,
+          88.8,
+          542.0,
+          173.1
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "7fdb23e8de23eef7609082b1242200dde270265e52470583d1cdcaddcbf8b03e",
+      "before_content": {
+        "enunciado": "Sócrates: \"Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e, ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, quem visa afirmar ser a virtude?\".",
+        "texto_base": "PLATÃO. Mênon. Rio de Janeiro: PUC-Rio; São Paulo: Loyola, 2001 (adaptado).A atitude apresentada na interlocução do filósofo com Mênon é um exemplo da utilização do(a)",
+        "alternativas": {
+          "A": "escrita epistolar.",
+          "B": "método dialético.",
+          "C": "linguagem trágica.",
+          "D": "explicação fiscalista.",
+          "E": "suspensão judicativa."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A atitude apresentada na interlocução do filósofo com Mênon é um exemplo da utilização do(a)",
+        "texto_base": null,
+        "alternativas": {
+          "A": "escrita epistolar.",
+          "B": "método dialético.",
+          "C": "linguagem trágica.",
+          "D": "explicação fisicalista.",
+          "E": "suspensão judicativa."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q82.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Sócrates: \"Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e, ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, quem visa afirmar ser a virtude?\".",
+          "after": "A atitude apresentada na interlocução do filósofo com Mênon é um exemplo da utilização do(a)"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "escrita epistolar.",
+            "B": "método dialético.",
+            "C": "linguagem trágica.",
+            "D": "explicação fiscalista.",
+            "E": "suspensão judicativa."
+          },
+          "after": {
+            "A": "escrita epistolar.",
+            "B": "método dialético.",
+            "C": "linguagem trágica.",
+            "D": "explicação fisicalista.",
+            "E": "suspensão judicativa."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q60",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 60,
+          "page": 24,
+          "column": "right",
+          "bbox": [
+            284.5,
+            547.64990234375,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 24,
+        "bbox": [
+          284.5,
+          561.2,
+          542.0,
+          653.2
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "34c69d6e0b71742567cd54ae07821d39e2dc497ec121fceb1a724984ce6bb973",
+      "before_content": {
+        "enunciado": "Que faça parte dessa massaQue expressa nos projetos do futuroE duro tanto ter que caminharE dar muito mais do que receberE, ó, a vida de gadoPovo marcadoE, povo feliz!ZÉ RAMALHO. A peleja do diabo com o dono do céu. Rio de Janeiro: Sony, 1979 (fragmento).Qual comportamento coletivo é criticado no trecho da letra da canção lançada em 1979?",
+        "texto_base": "Que faça parte dessa massaQue expressa nos projetos do futuroE duro tanto ter que caminharE dar muito mais do que receberE, ó, a vida de gadoPovo marcadoE, povo feliz!ZÉ RAMALHO. A peleja do diabo com o dono do céu. Rio de Janeiro: Sony, 1979 (fragmento).",
+        "alternativas": {
+          "A": "Militância política.",
+          "B": "Passividade social.",
+          "C": "Altruísmo religioso.",
+          "D": "Autocontrole moral.",
+          "E": "Inconformismo eleitoral."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Qual comportamento coletivo é criticado no trecho da letra da canção lançada em 1979?",
+        "texto_base": null,
+        "alternativas": {
+          "A": "Militância política.",
+          "B": "Passividade social.",
+          "C": "Altruísmo religioso.",
+          "D": "Autocontrole moral.",
+          "E": "Inconformismo eleitoral."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q60.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Que faça parte dessa massaQue expressa nos projetos do futuroE duro tanto ter que caminharE dar muito mais do que receberE, ó, a vida de gadoPovo marcadoE, povo feliz!ZÉ RAMALHO. A peleja do diabo com o dono do céu. Rio de Janeiro: Sony, 1979 (fragmento).Qual comportamento coletivo é criticado no trecho da letra da canção lançada em 1979?",
+          "after": "Qual comportamento coletivo é criticado no trecho da letra da canção lançada em 1979?"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q74",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 74,
+          "page": 27,
+          "column": "right",
+          "bbox": [
+            284.5,
+            436.96771240234375,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 27,
+        "bbox": [
+          284.5,
+          452.5,
+          542.0,
+          604.9
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "f3b189a763da0aeeb6f74dd8524d913bade93df0e06e59f878fe5d34a113e2d8",
+      "before_content": {
+        "enunciado": "No texto, a caracterização de uma minoria decorre da existência de",
+        "texto_base": "Por maioria, nós não entendemos uma quantidade relativa maior, mas a determinação de um estado ou de um padrão em relação ao qual tanto as quantidades maiores, quanto as menores, serão ditas minoritárias. Maioria supõe um estado de dominação. É nesse sentido que as mulheres, as crianças e também os animais são minoritários.CHATTARI, F. Minha plateia. São Paulo: Editora 34, 2012 (adaptado).",
+        "alternativas": {
+          "A": "ameaças de extinção social.",
+          "B": "políticas de incentivos estatais.",
+          "C": "relações de natureza arbitrária.",
+          "D": "valorações de conexões simétricas.",
+          "E": "hierarquizações de origem biológica."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A ordem emanada da Coroa portuguesa para sua colônia americana, em 1718, apresentava um tratamento da identidade cultural pautado em",
+        "texto_base": null,
+        "alternativas": {
+          "A": "converter grupos infiéis à religião oficial.",
+          "B": "suprimir formas divergentes de interação social.",
+          "C": "evitar envolvimento estrangeiro na economia local.",
+          "D": "reprimir indivíduos engajados em revoltas nativistas.",
+          "E": "controlar manifestações artísticas de comunidades autóctones."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q74.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "No texto, a caracterização de uma minoria decorre da existência de",
+          "after": "A ordem emanada da Coroa portuguesa para sua colônia americana, em 1718, apresentava um tratamento da identidade cultural pautado em"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "ameaças de extinção social.",
+            "B": "políticas de incentivos estatais.",
+            "C": "relações de natureza arbitrária.",
+            "D": "valorações de conexões simétricas.",
+            "E": "hierarquizações de origem biológica."
+          },
+          "after": {
+            "A": "converter grupos infiéis à religião oficial.",
+            "B": "suprimir formas divergentes de interação social.",
+            "C": "evitar envolvimento estrangeiro na economia local.",
+            "D": "reprimir indivíduos engajados em revoltas nativistas.",
+            "E": "controlar manifestações artísticas de comunidades autóctones."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q75",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 75,
+          "page": 28,
+          "column": "left",
+          "bbox": [
+            24,
+            74.546875,
+            279.5,
+            281.6033935546875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 28,
+        "bbox": [
+          24,
+          88.1,
+          279.5,
+          192.5
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "71a5583f8dfcd67d97e5fb3aa8efbc556bcde1751f6f20466078a0d6e97ac2d0",
+      "before_content": {
+        "enunciado": "No texto, o autor apresenta delineamentos éticos que correspondem ao(à)",
+        "texto_base": "Ao mesmo tempo, graças às amplas possibilidades que tive de observar a classe média, vossa soberania, rapidamente concluí que vos tendes razão. Inteiro razão, em não esperar dela qualquer ajuda. Seus interesses são diametralmente opostos aos vossos, mesmo que ela possa ocasionalmente afirmar o contrário e vos queira persuadir que sente a maior simpatia por vossa sorte. Mas seus atos desmentem suas palavras.ENGELS, F. A situação da classe trabalhadora na Inglaterra. São Paulo: Boitempo, 2010.",
+        "alternativas": {
+          "A": "conceito de luta de classes.",
+          "B": "alicerce da ideia de mais-valia.",
+          "C": "fundamentos do método científico.",
+          "D": "paradigmas do processo indagativo.",
+          "E": "domínios do fetichismo da mercadoria."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Conforme o texto, o que caracteriza a construção da prática medicinal descrita é a",
+        "texto_base": null,
+        "alternativas": {
+          "A": "adoção de rituais místicos.",
+          "B": "rejeição dos dogmas cristãos.",
+          "C": "superação da tradição popular.",
+          "D": "imposição da farmacologia nativa.",
+          "E": "conjugação de saberes empíricos."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q75.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "No texto, o autor apresenta delineamentos éticos que correspondem ao(à)",
+          "after": "Conforme o texto, o que caracteriza a construção da prática medicinal descrita é a"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "conceito de luta de classes.",
+            "B": "alicerce da ideia de mais-valia.",
+            "C": "fundamentos do método científico.",
+            "D": "paradigmas do processo indagativo.",
+            "E": "domínios do fetichismo da mercadoria."
+          },
+          "after": {
+            "A": "adoção de rituais místicos.",
+            "B": "rejeição dos dogmas cristãos.",
+            "C": "superação da tradição popular.",
+            "D": "imposição da farmacologia nativa.",
+            "E": "conjugação de saberes empíricos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q67",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 67,
+          "page": 26,
+          "column": "left",
+          "bbox": [
+            24,
+            311.6064147949219,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 26,
+        "bbox": [
+          24,
+          325.9,
+          279.5,
+          569.5
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "99ac186460651fe0224a5d8cd3416251d10854e3fad2bc13236615fa7f8452ec",
+      "before_content": {
+        "enunciado": "Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica: as criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha.O texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por",
+        "texto_base": "MARCUSE, H. A ideologia da sociedade industrial: o homem unidimensional e a sociedade tecnológica. Rio de Janeiro: Zahar, 1979 (adaptado).",
+        "alternativas": {
+          "A": "políticas estatais de divulgação.",
+          "B": "incentivos controlados ao consumo.",
+          "C": "prescrições coletivas de organização.",
+          "D": "mecanismos subjetivos de identificação.",
+          "E": "repressões racionalizadas do narcisismo."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "De acordo com o texto, a catástrofe descrita impactava as sociedades medievais por proporcionar a",
+        "texto_base": null,
+        "alternativas": {
+          "A": "correção dos métodos preventivos e das regras sanitárias.",
+          "B": "revelação do descaso público e das degradações ambientais.",
+          "C": "transformação do imaginário popular e das crenças religiosas.",
+          "D": "remodelação dos sistemas políticos e das administrações locais.",
+          "E": "reconfiguração dos espaços ocupados e das dinâmicas comunitárias."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q67.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica: as criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha.O texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por",
+          "after": "De acordo com o texto, a catástrofe descrita impactava as sociedades medievais por proporcionar a"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "políticas estatais de divulgação.",
+            "B": "incentivos controlados ao consumo.",
+            "C": "prescrições coletivas de organização.",
+            "D": "mecanismos subjetivos de identificação.",
+            "E": "repressões racionalizadas do narcisismo."
+          },
+          "after": {
+            "A": "correção dos métodos preventivos e das regras sanitárias.",
+            "B": "revelação do descaso público e das degradações ambientais.",
+            "C": "transformação do imaginário popular e das crenças religiosas.",
+            "D": "remodelação dos sistemas políticos e das administrações locais.",
+            "E": "reconfiguração dos espaços ocupados e das dinâmicas comunitárias."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q88",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 88,
+          "page": 30,
+          "column": "right",
+          "bbox": [
+            284.5,
+            519.5148315429688,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 30,
+        "bbox": [
+          284.5,
+          533.8,
+          542.0,
+          625.6
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "a1e695ccb8a3c1391ce29b76e6ba3183f92f24afb042aca21c6ff19e40e89fba",
+      "before_content": {
+        "enunciado": "É preciso usar de violência e rebater varonilmente os apetites dos sentidos com atenção, já que é certo que, eu não querendo, trabalhando por sujeitá-lo ao espírito, ainda que se revolte. Cumpre castigá-lo e curvá-lo à sujeição, a tal ponto que esteja disposto para tudo, sabendo contentar-se com pouco e deleitar-se com a simplicidade, sem resmungar por qualquer incômodo.",
+        "texto_base": "KEMPIS, T. Imitação de Cristo. Petrópolis: Vozes, 2015.Qual característica do ascetismo medieval é destacada no texto?",
+        "alternativas": {
+          "A": "Exaltação do ritualismo litúrgico.",
+          "B": "Afirmação do pensamento racional.",
+          "C": "Desqualificação da atividade laboral.",
+          "D": "Condenação da alimentação impura.",
+          "E": "Desvalorização da materialidade corpórea."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Qual característica do ascetismo medieval é destacada no texto?",
+        "texto_base": null,
+        "alternativas": {
+          "A": "Exaltação do ritualismo litúrgico.",
+          "B": "Afirmação do pensamento racional.",
+          "C": "Desqualificação da atividade laboral.",
+          "D": "Condenação da alimentação impura.",
+          "E": "Desvalorização da materialidade corpórea."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q88.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "É preciso usar de violência e rebater varonilmente os apetites dos sentidos com atenção, já que é certo que, eu não querendo, trabalhando por sujeitá-lo ao espírito, ainda que se revolte. Cumpre castigá-lo e curvá-lo à sujeição, a tal ponto que esteja disposto para tudo, sabendo contentar-se com pouco e deleitar-se com a simplicidade, sem resmungar por qualquer incômodo.",
+          "after": "Qual característica do ascetismo medieval é destacada no texto?"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q87",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 87,
+          "page": 30,
+          "column": "right",
+          "bbox": [
+            284.5,
+            309.5473937988281,
+            542.0,
+            521.0148315429688
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 30,
+        "bbox": [
+          284.5,
+          323.8,
+          542.0,
+          405.6
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "4ab2cc8514af9573c50924dd7d9dece54581d443c5aeb35ab36f5e06f99d4b25",
+      "before_content": {
+        "enunciado": "Minha fórmula para o que há de grande no indivíduo é amor fati: nada desejar além daquilo que é, nem adiante de si, nem atrás de si, nem nos séculos dos séculos. Não se contentar em suportar o inelutável, e ainda menos dissimulá-lo, mas amá-lo.",
+        "texto_base": "NIETZSCHE apud FERRY, L. Aprender a viver: filosofia para os novos tempos. Rio de Janeiro: Objetiva, 2010 (adaptado).Essa fórmula indicada por Nietzsche consiste em uma crítica à tradição cristã que",
+        "alternativas": {
+          "A": "combate as práticas sociais de cunho afetivo.",
+          "B": "impede o avanço científico no contexto moderno.",
+          "C": "associa os cultos pagãos à sacralização da natureza.",
+          "D": "condena os modelos filosóficos da Antiguidade Clássica.",
+          "E": "consagra a realização humana ao campo transcendental."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Essa fórmula indicada por Nietzsche consiste em uma crítica à tradição cristã que",
+        "texto_base": null,
+        "alternativas": {
+          "A": "combate as práticas sociais de cunho afetivo.",
+          "B": "impede o avanço científico no contexto moderno.",
+          "C": "associa os cultos pagãos à sacralização da natureza.",
+          "D": "condena os modelos filosóficos da Antiguidade Clássica.",
+          "E": "consagra a realização humana ao campo transcendental."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q87.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Minha fórmula para o que há de grande no indivíduo é amor fati: nada desejar além daquilo que é, nem adiante de si, nem atrás de si, nem nos séculos dos séculos. Não se contentar em suportar o inelutável, e ainda menos dissimulá-lo, mas amá-lo.",
+          "after": "Essa fórmula indicada por Nietzsche consiste em uma crítica à tradição cristã que"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q86",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 86,
+          "page": 30,
+          "column": "right",
+          "bbox": [
+            284.5,
+            74.546875,
+            542.0,
+            311.0473937988281
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 30,
+        "bbox": [
+          284.5,
+          88.8,
+          542.0,
+          188.8
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "7fcef88322ed9b2253a14644a08b57c57a4cb5b170a7bbf4fd0aa430291cd3d2",
+      "before_content": {
+        "enunciado": "A filosofia é como uma árvore, cujas raízes são a metafísica; o tronco, a física, e os ramos que saem do tronco são todas as outras ciências, que se reduzem a três principais: a medicina, a mecânica e a moral, entendendo por moral a mais elevada e a mais perfeita porque pressupõe um saber integral das outras ciências, e é o último grau da sabedoria.",
+        "texto_base": "DESCARTES, R. Princípios da filosofia. Lisboa: Edições 70, 1997 (adaptado).Essa construção alegórica de Descartes, acerca da condição epistemológica da filosofia, tem como objetivo",
+        "alternativas": {
+          "A": "sustentar a unidade essencial do conhecimento.",
+          "B": "refutar o elemento fundamental das crenças.",
+          "C": "impulsionar o pensamento especulativo.",
+          "D": "recepcionar o método experimental.",
+          "E": "incentivar a suspensão dos juízos."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Essa construção alegórica de Descartes, acerca da condição epistemológica da filosofia, tem como objetivo",
+        "texto_base": null,
+        "alternativas": {
+          "A": "sustentar a unidade essencial do conhecimento.",
+          "B": "refutar o elemento fundamental das crenças.",
+          "C": "impulsionar o pensamento especulativo.",
+          "D": "recepcionar o método experimental.",
+          "E": "incentivar a suspensão dos juízos."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q86.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "A filosofia é como uma árvore, cujas raízes são a metafísica; o tronco, a física, e os ramos que saem do tronco são todas as outras ciências, que se reduzem a três principais: a medicina, a mecânica e a moral, entendendo por moral a mais elevada e a mais perfeita porque pressupõe um saber integral das outras ciências, e é o último grau da sabedoria.",
+          "after": "Essa construção alegórica de Descartes, acerca da condição epistemológica da filosofia, tem como objetivo"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q84",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 84,
+          "page": 30,
+          "column": "left",
+          "bbox": [
+            24,
+            74.546875,
+            279.5,
+            307.1763916015625
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 30,
+        "bbox": [
+          24,
+          88.8,
+          279.5,
+          206.0
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "116ccdd848b0aeed0a6afa1450bcff95af8e5609c657812e13985d453caff133",
+      "before_content": {
+        "enunciado": "O torém dependia de organização familiar, sendo brincado por pessoas com vínculos de parentesco e afinidade que viviam no local. Era visto como uma brincadeira, um entretenimento feito para os próprios participantes e seus conhecidos. O tempo do ano era o pretexto para sua realização, sendo chamadas várias pessoas da região a fim de tomar mocororó, bebida fermentada do caju.",
+        "texto_base": "VALLE, C. G. O Torém/Toré: tradições e invenção no quadro de multiplicidade étnica do Ceará. In: BARBALHO, A. (Org.). O índio na cidade: cultura e identidade no encantado dos índios do Nordeste. Recife: Fundaj-Massangana, 2005.O ritual mencionado no texto atribui à manifestação cultural de grupos indígenas do Nordeste brasileiro a função de",
+        "alternativas": {
+          "A": "celebrar a história colonial.",
+          "B": "estimular a coesão social.",
+          "C": "superar a atividade artesanal.",
+          "D": "manipular a memória individual.",
+          "E": "modernizar o comércio tradicional."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "O ritual mencionado no texto atribui à manifestação cultural de grupos indígenas do Nordeste brasileiro a função de",
+        "texto_base": null,
+        "alternativas": {
+          "A": "celebrar a história oficial.",
+          "B": "estimular a coesão social.",
+          "C": "superar a atividade artesanal.",
+          "D": "manipular a memória individual.",
+          "E": "modernizar o comércio tradicional."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q84.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "O torém dependia de organização familiar, sendo brincado por pessoas com vínculos de parentesco e afinidade que viviam no local. Era visto como uma brincadeira, um entretenimento feito para os próprios participantes e seus conhecidos. O tempo do ano era o pretexto para sua realização, sendo chamadas várias pessoas da região a fim de tomar mocororó, bebida fermentada do caju.",
+          "after": "O ritual mencionado no texto atribui à manifestação cultural de grupos indígenas do Nordeste brasileiro a função de"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "celebrar a história colonial.",
+            "B": "estimular a coesão social.",
+            "C": "superar a atividade artesanal.",
+            "D": "manipular a memória individual.",
+            "E": "modernizar o comércio tradicional."
+          },
+          "after": {
+            "A": "celebrar a história oficial.",
+            "B": "estimular a coesão social.",
+            "C": "superar a atividade artesanal.",
+            "D": "manipular a memória individual.",
+            "E": "modernizar o comércio tradicional."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q69",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "C",
+      "previous_recorded_answer": "C",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 69,
+          "page": 26,
+          "column": "right",
+          "bbox": [
+            284.5,
+            404.18060302734375,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 26,
+        "bbox": [
+          284.5,
+          420.5,
+          542.0,
+          576.8
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "436f2e344a5b84c7782d92876f17799009d53a6140e6b7dd0e44e8ef059accd4",
+      "before_content": {
+        "enunciado": "No seminário brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, ao longo dos tempos, presenciados na natureza, em especial para a previsão do tempo e do clima, utilizando como referência a posição dos astros, constelação e nuvens. Conforme os sertanejos, a estação vai ser chuvosa quando o “firmamento na cheia de janeiro sair vermelho, por detrás de uma barra de nuvens”, mas “se surgir prateada, é sinal de seca”.O texto expõe a produção de um conhecimento que se constitui pela",
+        "texto_base": "MAIA, D.; MAIA, A. C. A utilização dos ditos populares na observação do tempo para a previsão do clima no semiárido nordestino. Revista Brasileira de Climatologia, n. 1, 2007 (adaptado).",
+        "alternativas": {
+          "A": "técnica científica.",
+          "B": "experiência perceptiva.",
+          "C": "negação das tradições.",
+          "D": "padronização das culturas.",
+          "E": "uniformização das informações."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A criação dessas instituições pelo governo Vargas representava uma estratégia política de",
+        "texto_base": null,
+        "alternativas": {
+          "A": "levantar informações para a preservação da paisagem dos sertões.",
+          "B": "controlar o crescimento exponencial da população brasileira.",
+          "C": "obter conhecimento científico das diversidades regionais.",
+          "D": "conter o fluxo migratório do campo para a cidade.",
+          "E": "propor a criação de novas unidades da federação."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q69.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "No seminário brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, ao longo dos tempos, presenciados na natureza, em especial para a previsão do tempo e do clima, utilizando como referência a posição dos astros, constelação e nuvens. Conforme os sertanejos, a estação vai ser chuvosa quando o “firmamento na cheia de janeiro sair vermelho, por detrás de uma barra de nuvens”, mas “se surgir prateada, é sinal de seca”.O texto expõe a produção de um conhecimento que se constitui pela",
+          "after": "A criação dessas instituições pelo governo Vargas representava uma estratégia política de"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "técnica científica.",
+            "B": "experiência perceptiva.",
+            "C": "negação das tradições.",
+            "D": "padronização das culturas.",
+            "E": "uniformização das informações."
+          },
+          "after": {
+            "A": "levantar informações para a preservação da paisagem dos sertões.",
+            "B": "controlar o crescimento exponencial da população brasileira.",
+            "C": "obter conhecimento científico das diversidades regionais.",
+            "D": "conter o fluxo migratório do campo para a cidade.",
+            "E": "propor a criação de novas unidades da federação."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2019_AZUL_D1_Q50",
+      "status": "APPROVED",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "official_answer": "C",
+      "previous_recorded_answer": "C",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 50,
+          "page": 22,
+          "column": "left",
+          "bbox": [
+            24,
+            73.76284790039062,
+            279.4645080566406,
+            417.45184326171875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 22,
+        "bbox": [
+          24,
+          98.3,
+          279.4645080566406,
+          287.8
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "2af1c57498ed29e5a4e66287ebaac816372152356a23c37a664ba89cc7dd5b9a",
+      "before_content": {
+        "enunciado": "Considerando a formação do espaço atlântico, esse produto exemplifica historicamente a",
+        "texto_base": "O processamento da mandioca era uma atividade já no período nativos que viviam o Brasil antes da chegada de portugueses e africanos. Entretanto, ao longo do processo de colonização portuguesa, a produção de farinha foi aperfeiçoada e ampliada, tornando-se lugar comum em todo o território da colônia portuguesa na América. Com a consolidação do comércio atlântico em suas diferentes conexões, a farinha atravessou os mares e chegou aos mercados africanos.BEZERRA, N. R. Escravidão, farinha e tráfico atlântico: um novo olhar sobre as relações entre o Rio de Janeiro e Benguela (1790-1830). Disponível em: www.bn.br. Acesso em: 20 ago. 2014 (adaptado).",
+        "alternativas": {
+          "A": "difusão de hábitos alimentares.",
+          "B": "disseminação de rituais festivos.",
+          "C": "ampliação dos saberes autóctones.",
+          "D": "apropriação de costumes guerreiros.",
+          "E": "diversificação de oferendas religiosas."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Associado ao contexto migratório contemporâneo, o conceito de hospitalidade proposto pelo autor impõe a necessidade de",
+        "texto_base": null,
+        "alternativas": {
+          "A": "anulação da diferença.",
+          "B": "cristalização da biografia.",
+          "C": "incorporação da alteridade.",
+          "D": "supressão da comunicação.",
+          "E": "verificação da proveniência."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2019-azul-d1-q50.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Considerando a formação do espaço atlântico, esse produto exemplifica historicamente a",
+          "after": "Associado ao contexto migratório contemporâneo, o conceito de hospitalidade proposto pelo autor impõe a necessidade de"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "difusão de hábitos alimentares.",
+            "B": "disseminação de rituais festivos.",
+            "C": "ampliação dos saberes autóctones.",
+            "D": "apropriação de costumes guerreiros.",
+            "E": "diversificação de oferendas religiosas."
+          },
+          "after": {
+            "A": "anulação da diferença.",
+            "B": "cristalização da biografia.",
+            "C": "incorporação da alteridade.",
+            "D": "supressão da comunicação.",
+            "E": "verificação da proveniência."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D1_Q77",
+      "status": "APPROVED",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 77,
+          "page": 28,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            368.4826354980469
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 28,
+        "bbox": [
+          24,
+          82.5,
+          279.4645080566406,
+          250.0
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "79205e460ca2518b57be64a1a9f70958e536d7d0d4a66ed32dd0f79032ba152a",
+      "before_content": {
+        "enunciado": "Qual acontecimento do período contribuiu diretamente para o agravamento da situação descrita?",
+        "texto_base": "Os séculos XV e XVI, quando se vão desmoronando as estruturas socioeconômicas da Idade Média perante os novos imperativos da Época moderna, constituem um momento-chave na história florestal de toda a Europa Ocidental. Abre-se, genericamente, um longo período de crise florestal, que se manifesta com intensidades mais variadas mas se desenrola em atividades industriais e comerciais. As necessidades em produtos lenhosos aumentam drasticamente com o crescimento do consumo nos mercados urbanos, e nas regiões onde progridem a metalurgia e a construção naval, além da sua utilização na vida quotidiana de toda a população.OLIVEIRA, A. A. A floresta e o homem: da floresta como recurso. Revista da Faculdade de Letras – Geografia, n. 1, 1986 (adaptado).",
+        "alternativas": {
+          "A": "O processo de expansão marítima.",
+          "B": "A eclosão do renascimento cultural.",
+          "C": "A concretização da centralização política.",
+          "D": "O movimento de reformas religiosas.",
+          "E": "A manutenção do sistema feudal."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Escrito em 1828, o texto expressa a seguinte ideia de origem iluminista:",
+        "texto_base": null,
+        "alternativas": {
+          "A": "As leis observáveis regem o mundo material.",
+          "B": "O monarca racional promove a sociedade justa.",
+          "C": "O direito natural justifica a liberdade dos homens.",
+          "D": "A produção da terra garante a riqueza das nações.",
+          "E": "A responsabilidade dos governantes assegura a saúde dos povos."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2023-azul-d1-q77.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Qual acontecimento do período contribuiu diretamente para o agravamento da situação descrita?",
+          "after": "Escrito em 1828, o texto expressa a seguinte ideia de origem iluminista:"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "O processo de expansão marítima.",
+            "B": "A eclosão do renascimento cultural.",
+            "C": "A concretização da centralização política.",
+            "D": "O movimento de reformas religiosas.",
+            "E": "A manutenção do sistema feudal."
+          },
+          "after": {
+            "A": "As leis observáveis regem o mundo material.",
+            "B": "O monarca racional promove a sociedade justa.",
+            "C": "O direito natural justifica a liberdade dos homens.",
+            "D": "A produção da terra garante a riqueza das nações.",
+            "E": "A responsabilidade dos governantes assegura a saúde dos povos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q81",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 81,
+          "page": 29,
+          "column": "left",
+          "bbox": [
+            24,
+            461.314697265625,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 29,
+        "bbox": [
+          24,
+          478.7,
+          279.5,
+          627.5
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "57ccd290c77adc0c90c2641347f7472c715865649f9adf13f27f4285fcf0ff5e",
+      "before_content": {
+        "enunciado": "A Educação Nova, alargando a sua finalidade para além dos limites das classes, assume, com uma feição mais humana, a sua verdadeira função social, preparando-se para formar a hierarquia democrática pelas hierarquias das capacidades\", recrutadas em todos os grupos sociais, a que se abrem as mesmas oportunidades de educação. Ela tem por objeto organizar e desenvolver os meios de ação durável com o fim de \"dirigir os desenvolvimentos natural e integral do ser humano em cada uma das etapas do seu crescimento\", de acordo com uma certa concepção do mundo.",
+        "texto_base": "Disponível em: www.historiador.ufc.br/campo. Acesso em: 7 out. 2015.Os autores do manifesto citado, procuravam contrapor-se ao caráter pragmático da sociedade brasileira. Nesse sentido, o trecho propõe uma relação necessária entre",
+        "alternativas": {
+          "A": "ensino técnico e mercado de trabalho.",
+          "B": "acesso à escola e valorização do mérito.",
+          "C": "ampliação de vagas e formação de gestores.",
+          "D": "disponibilidade de financiamento e pesquisa avançada.",
+          "E": "remuneração de professores e extinção do analfabetismo."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Os autores do manifesto citado procuravam contrapor-se ao caráter oligárquico da sociedade brasileira. Nesse sentido, o trecho propõe uma relação necessária entre",
+        "texto_base": null,
+        "alternativas": {
+          "A": "ensino técnico e mercado de trabalho.",
+          "B": "acesso à escola e valorização do mérito.",
+          "C": "ampliação de vagas e formação de gestores.",
+          "D": "disponibilidade de financiamento e pesquisa avançada.",
+          "E": "remuneração de professores e extinção do analfabetismo."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q81.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "A Educação Nova, alargando a sua finalidade para além dos limites das classes, assume, com uma feição mais humana, a sua verdadeira função social, preparando-se para formar a hierarquia democrática pelas hierarquias das capacidades\", recrutadas em todos os grupos sociais, a que se abrem as mesmas oportunidades de educação. Ela tem por objeto organizar e desenvolver os meios de ação durável com o fim de \"dirigir os desenvolvimentos natural e integral do ser humano em cada uma das etapas do seu crescimento\", de acordo com uma certa concepção do mundo.",
+          "after": "Os autores do manifesto citado procuravam contrapor-se ao caráter oligárquico da sociedade brasileira. Nesse sentido, o trecho propõe uma relação necessária entre"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q73",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 73,
+          "page": 27,
+          "column": "right",
+          "bbox": [
+            284.5,
+            190.73822021484375,
+            542.0,
+            438.46771240234375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 27,
+        "bbox": [
+          284.5,
+          206.3,
+          542.0,
+          317.3
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "697b2eb6dfb578edcf44402951c99d7ce2aab5e1551ba5a65419dc0fb67aba79",
+      "before_content": {
+        "enunciado": "O texto apresenta uma relação entre atividade econômica e organização social marcada pelo(a)",
+        "texto_base": "Desde 2009, a área portuária carioca vem sofrendo grandes transformações realizadas no escopo da operação urbana consorciada conhecida como Porto Maravilha. Parte importante na tentativa de tornar o Rio de Janeiro um polo de serviços internacional, a \"revitalização\" urbana deveria deixar para trás uma paisagem geográfica que ainda recordava a cidade do início do século passado para abrir espaço, em seu lugar, à instalação de modernas torres comerciais, espaços de consumo e lazer feitos a cerca de cem mil novos moradores, uma nova configuração socioespacial capaz de alçar a área portuária do Rio de Janeiro ao patamar dos waterfronts de Baltimore, Barcelona e Buenos Aires.LACERDA, L.; WEINECK, M.; RIBEIRO, B. Cortiços de hoje na cidade do amanhã. Rio de Janeiro: Mauad X, 2015.",
+        "alternativas": {
+          "A": "escassez de incentivo cultural.",
+          "B": "rompimento de vínculos locais.",
+          "C": "carência de investimento financeiro.",
+          "D": "estabelecimento de práticas agroecológicas.",
+          "E": "enriquecimento das comunidades autóctones."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "O evento analisado no texto teve como repercussão imediata na política nacional a",
+        "texto_base": null,
+        "alternativas": {
+          "A": "reação popular.",
+          "B": "intervenção militar.",
+          "C": "abertura democrática.",
+          "D": "campanha anticomunista.",
+          "E": "radicalização oposicionista."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q73.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "O texto apresenta uma relação entre atividade econômica e organização social marcada pelo(a)",
+          "after": "O evento analisado no texto teve como repercussão imediata na política nacional a"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "escassez de incentivo cultural.",
+            "B": "rompimento de vínculos locais.",
+            "C": "carência de investimento financeiro.",
+            "D": "estabelecimento de práticas agroecológicas.",
+            "E": "enriquecimento das comunidades autóctones."
+          },
+          "after": {
+            "A": "reação popular.",
+            "B": "intervenção militar.",
+            "C": "abertura democrática.",
+            "D": "campanha anticomunista.",
+            "E": "radicalização oposicionista."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q11",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 11,
+          "page": 8,
+          "column": "right",
+          "bbox": [
+            284.5,
+            74.546875,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 8,
+        "bbox": [
+          284.5,
+          87.3,
+          542.0,
+          371.6
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "526f015e31384e7e1f2ddd0d6dc92b5c954c0ff7339aba720909d335a2cf12a6",
+      "before_content": {
+        "enunciado": "No fragmento da letra da canção, o vocabulário empregado e a situação retratada são relevantes para o patrimônio linguístico e identitário do país, na medida em que",
+        "texto_base": "Sinhá Se a dona se banhou Eu não estava lá Por Deus Nossa Senhor Eu não vi Sinhá Se a dona se banhou Estava lá na roça Sou de olhar ninguém Não tenho mais cobiça Nem enxergo bem Para que me pôr no tronco Para que me aleijar Eu juro a vosmecê Que nunca vi Sinhá [...] Por que talhar meu corpo Eu não olhei Sinhá Para que vosmincê Meus olhos vai furar Eu choro em iorubá Mas oro por Jesus Para que que vassuncê Me tira a luz. CHICO BUARQUE; JOÃO BOSCO. Chico. Rio de Janeiro: Biscoito Fino, 2011 (fragmento).",
+        "alternativas": {
+          "A": "revelam a violência física e simbólica contra os povos escravizados.",
+          "B": "valorizam as influências da cultura africana sobre a música nacional.",
+          "C": "relativizam o sincretismo constitutivo das práticas religiosas brasileiras.",
+          "D": "narram os infortúnios da relação amorosa entre membros de classes sociais diferentes.",
+          "E": "problematizam as diferentes visões de mundo na sociedade durante o período colonial."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "No fragmento da letra da canção, o vocabulário empregado e a situação retratada são relevantes para o patrimônio linguístico e identitário do país, na medida em que",
+        "texto_base": null,
+        "alternativas": {
+          "A": "remetem à violência física e simbólica contra os povos escravizados.",
+          "B": "valorizam as influências da cultura africana sobre a música nacional.",
+          "C": "relativizam o sincretismo constitutivo das práticas religiosas brasileiras.",
+          "D": "narram os infortúnios da relação amorosa entre membros de classes sociais diferentes.",
+          "E": "problematizam as diferentes visões de mundo na sociedade durante o período colonial."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q11.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "revelam a violência física e simbólica contra os povos escravizados.",
+            "B": "valorizam as influências da cultura africana sobre a música nacional.",
+            "C": "relativizam o sincretismo constitutivo das práticas religiosas brasileiras.",
+            "D": "narram os infortúnios da relação amorosa entre membros de classes sociais diferentes.",
+            "E": "problematizam as diferentes visões de mundo na sociedade durante o período colonial."
+          },
+          "after": {
+            "A": "remetem à violência física e simbólica contra os povos escravizados.",
+            "B": "valorizam as influências da cultura africana sobre a música nacional.",
+            "C": "relativizam o sincretismo constitutivo das práticas religiosas brasileiras.",
+            "D": "narram os infortúnios da relação amorosa entre membros de classes sociais diferentes.",
+            "E": "problematizam as diferentes visões de mundo na sociedade durante o período colonial."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q57",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "D",
+      "previous_recorded_answer": "D",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 57,
+          "page": 24,
+          "column": "left",
+          "bbox": [
+            24,
+            551.6359252929688,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 24,
+        "bbox": [
+          24,
+          562.4,
+          279.5,
+          646.9
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "cee11b0cb98c241110a40c63b1be41663139fec8d21cd013fa27a8ea88197ea3",
+      "before_content": {
+        "enunciado": "Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica: as criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha.MARCUSE, H. A ideologia da sociedade industrial: o homem unidimensional. Rio de Janeiro: Zahar, 1979 (adaptado).O texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por",
+        "texto_base": "Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica: as criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha.MARCUSE, H. A ideologia da sociedade industrial: o homem unidimensional. Rio de Janeiro: Zahar, 1979 (adaptado).",
+        "alternativas": {
+          "A": "políticas estatais de divulgação.",
+          "B": "incentivos controlados do consumo.",
+          "C": "prescrições coletivas de organização.",
+          "D": "mecanismos subjetivos de identificação.",
+          "E": "repressões racionalizadas do narcisismo."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "O texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por",
+        "texto_base": null,
+        "alternativas": {
+          "A": "políticas estatais de divulgação.",
+          "B": "incentivos controlados de consumo.",
+          "C": "prescrições coletivas de organização.",
+          "D": "mecanismos subjetivos de identificação.",
+          "E": "repressões racionalizadas do narcisismo."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q57.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica: as criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha.MARCUSE, H. A ideologia da sociedade industrial: o homem unidimensional. Rio de Janeiro: Zahar, 1979 (adaptado).O texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por",
+          "after": "O texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "políticas estatais de divulgação.",
+            "B": "incentivos controlados do consumo.",
+            "C": "prescrições coletivas de organização.",
+            "D": "mecanismos subjetivos de identificação.",
+            "E": "repressões racionalizadas do narcisismo."
+          },
+          "after": {
+            "A": "políticas estatais de divulgação.",
+            "B": "incentivos controlados de consumo.",
+            "C": "prescrições coletivas de organização.",
+            "D": "mecanismos subjetivos de identificação.",
+            "E": "repressões racionalizadas do narcisismo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q68",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 68,
+          "page": 26,
+          "column": "right",
+          "bbox": [
+            284.5,
+            74.546875,
+            542.0,
+            405.68060302734375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 26,
+        "bbox": [
+          284.5,
+          90.8,
+          542.0,
+          277.4
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "90f28e96dfab33ca1e04ef79d6ccd88c290581613b7ea1c9d4676d753bce8bc2",
+      "before_content": {
+        "enunciado": "A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase desapareceu; o número de brincadeiras infantis nas ruas diminui — as crianças quase não são vistas; os pedaços da cidade são vendidos, no mercado, como mercadorias; árvores são destruídas; praças transformadas em concreto. Por outro lado, os habitantes parecem perder na cidade suas próprias referências. A imagem de uma grande cidade hoje é tão mutante que se assemelha à de um grande guindaste, aliás, a presença maciça destes, das britadeiras, das betoneiras nos dão o limite do processo de transformação urbana ao qual está submetida a cidade.No contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da",
+        "texto_base": "CARRASCO, A. A cidade e a metrópole. São Paulo: Contexto (adaptado).",
+        "alternativas": {
+          "A": "manutenção dos modos de convívio social.",
+          "B": "preservação do espaço público.",
+          "C": "ampliação das normas de controle ambiental.",
+          "D": "flexibilização das regras de participação política.",
+          "E": "alteração da organização da paisagem geográfica."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A estratégia comunicativa adotada pelos indígenas, no contexto em pauta, teve por efeito",
+        "texto_base": null,
+        "alternativas": {
+          "A": "enfraquecer as formas de militância política.",
+          "B": "abalar a identidade de povos tradicionais.",
+          "C": "inserir as comunidades no mercado global.",
+          "D": "distanciar os grupos de culturas locais.",
+          "E": "angariar o apoio de segmentos étnicos externos."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q68.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase desapareceu; o número de brincadeiras infantis nas ruas diminui — as crianças quase não são vistas; os pedaços da cidade são vendidos, no mercado, como mercadorias; árvores são destruídas; praças transformadas em concreto. Por outro lado, os habitantes parecem perder na cidade suas próprias referências. A imagem de uma grande cidade hoje é tão mutante que se assemelha à de um grande guindaste, aliás, a presença maciça destes, das britadeiras, das betoneiras nos dão o limite do processo de transformação urbana ao qual está submetida a cidade.No contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da",
+          "after": "A estratégia comunicativa adotada pelos indígenas, no contexto em pauta, teve por efeito"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "manutenção dos modos de convívio social.",
+            "B": "preservação do espaço público.",
+            "C": "ampliação das normas de controle ambiental.",
+            "D": "flexibilização das regras de participação política.",
+            "E": "alteração da organização da paisagem geográfica."
+          },
+          "after": {
+            "A": "enfraquecer as formas de militância política.",
+            "B": "abalar a identidade de povos tradicionais.",
+            "C": "inserir as comunidades no mercado global.",
+            "D": "distanciar os grupos de culturas locais.",
+            "E": "angariar o apoio de segmentos étnicos externos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D1_Q78",
+      "status": "APPROVED",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 78,
+          "page": 28,
+          "column": "left",
+          "bbox": [
+            24,
+            366.9826354980469,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 28,
+        "bbox": [
+          24,
+          386.6,
+          279.4645080566406,
+          565.9
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "5b162725437f8c484a22a9a3b3ded9ceb57ffe5c48a600ba70ea427989bfba52",
+      "before_content": {
+        "enunciado": "Ao comparar, no texto, a vertente da dominação territorial com os aspectos culturais, os incas tinham uma postura",
+        "texto_base": "TAHUANTINSUYU — nome do Império Inca em quéchua — era dividido em quatro partes ou suyus: Chinchaysuyu (noroeste do Peru e Equador), Antisuyu (parte amazônica do Oriente), Collasuyu (atual Bolívia) e Cuntisuyu (costa do Oceano Pacífico). A linha Cuzco, no atual Peru, como sua capital imperial. Oficialmente, todas as etnias dominadas pelos incas deveriam adotar a língua quéchua, adorar o Sapa Inca e o Sol e pagar taxas em forma de horas de trabalhos periódicos. No entanto, pode-se dizer que o Império Inca era como um mosaico cultural em que vários e diferentes grupos étnicos adoravam o Sapa Inca e o Sol mas, simultaneamente, continuavam a adorar seus deuses locais e também a falar em suas línguas nativas.MARTINS, C. Os incas e os Tahuantinsuyu: apresentação. Disponível em: www.historia.seed.pr.gov.br. Acesso em: 6 out. 2021 (adaptado).",
+        "alternativas": {
+          "A": "aceitável no que alude aos direitos humanos.",
+          "B": "admissível no que remete às crenças coloniais.",
+          "C": "tolerável no que se refere aos regimes tributários.",
+          "D": "flexível no que diz respeito aos costumes religiosos.",
+          "E": "compreensível no que concerne às normas laborais."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A prática agrícola destacada no texto apresenta como vantagem no espaço urbano a",
+        "texto_base": null,
+        "alternativas": {
+          "A": "ocupação de lugares ociosos.",
+          "B": "densificação da área central.",
+          "C": "valorização do mercado externo.",
+          "D": "priorização de insumos químicos.",
+          "E": "mecanização de técnicas de cultivo."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2023-azul-d1-q78.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Ao comparar, no texto, a vertente da dominação territorial com os aspectos culturais, os incas tinham uma postura",
+          "after": "A prática agrícola destacada no texto apresenta como vantagem no espaço urbano a"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "aceitável no que alude aos direitos humanos.",
+            "B": "admissível no que remete às crenças coloniais.",
+            "C": "tolerável no que se refere aos regimes tributários.",
+            "D": "flexível no que diz respeito aos costumes religiosos.",
+            "E": "compreensível no que concerne às normas laborais."
+          },
+          "after": {
+            "A": "ocupação de lugares ociosos.",
+            "B": "densificação da área central.",
+            "C": "valorização do mercado externo.",
+            "D": "priorização de insumos químicos.",
+            "E": "mecanização de técnicas de cultivo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q83",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 83,
+          "page": 29,
+          "column": "right",
+          "bbox": [
+            284.5,
+            282.7763977050781,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 29,
+        "bbox": [
+          284.5,
+          294.2,
+          542.0,
+          498.2
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "616ba1eac4a9ddff7d8e141c4c2bfdf7c1fec193448b77b224a7fb074903cb4c",
+      "before_content": {
+        "enunciado": "No seio de diversos povos africanos, nomeadamente no antigo Reino do Congo, existem testemunhos gráficos de que a escrita tomava várias formas. Exemplo disso são as tampas de panelas esculpidas em baixo-relevo do povo Woyo (região de Cabinda), com cenas e provérbios do cotidiano, desenhos na terra ou areia, imagens gravadas ou inscritas nos bastões de chefes ou em pedras sagradas, mas, sobretudo, movimentos do corpo humano inscritos num gestual familiar. Entre os Woyo existia o costume de os pais oferecerem aos filhos testos ou tampas de panelas entalhados, transmitindo uma espécie de recado, com signos codificados que traduziam orientações para conseguir uma boa relação conjugal, ter sensatez na escolha do cônjuge e estar alerta para as dificuldades do casamento.",
+        "texto_base": "RODRIGUES, M. R. A. M.; TAVARES, A. C. P. Singularidades museológicas de uma tábua com esculturas em relevo do povo Chokwe (Angola). In: Actas do Seminário de Anais do Museu Paulista. n. 2, maio-ago. 2017 (adaptado).Para o povo Woyo, os artefatos culturais mencionados no texto cumprem a função de uma",
+        "alternativas": {
+          "A": "pedagogia dos costumes sociais.",
+          "B": "imposição das formas de comunicação.",
+          "C": "desvalorização dos comportamentos da juventude.",
+          "D": "destituição dos valores do matrimônio.",
+          "E": "etnografia das celebrações religiosas."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Para o povo Woyo, os artefatos culturais mencionados no texto cumprem a função de uma",
+        "texto_base": null,
+        "alternativas": {
+          "A": "pedagogia dos costumes sociais.",
+          "B": "imposição das formas de comunicação.",
+          "C": "desvalorização dos comportamentos da juventude.",
+          "D": "destituição dos valores do matrimônio.",
+          "E": "etnografia das celebrações religiosas."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q83.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "No seio de diversos povos africanos, nomeadamente no antigo Reino do Congo, existem testemunhos gráficos de que a escrita tomava várias formas. Exemplo disso são as tampas de panelas esculpidas em baixo-relevo do povo Woyo (região de Cabinda), com cenas e provérbios do cotidiano, desenhos na terra ou areia, imagens gravadas ou inscritas nos bastões de chefes ou em pedras sagradas, mas, sobretudo, movimentos do corpo humano inscritos num gestual familiar. Entre os Woyo existia o costume de os pais oferecerem aos filhos testos ou tampas de panelas entalhados, transmitindo uma espécie de recado, com signos codificados que traduziam orientações para conseguir uma boa relação conjugal, ter sensatez na escolha do cônjuge e estar alerta para as dificuldades do casamento.",
+          "after": "Para o povo Woyo, os artefatos culturais mencionados no texto cumprem a função de uma"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q56",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "D",
+      "previous_recorded_answer": "D",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 56,
+          "page": 24,
+          "column": "left",
+          "bbox": [
+            24,
+            348.5585021972656,
+            279.5,
+            553.1359252929688
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 24,
+        "bbox": [
+          24,
+          359.3,
+          279.5,
+          457.6
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "43500da1e03e0b0064415d9488396e365b11e87f184d4774001cba89a2c5f7a3",
+      "before_content": {
+        "enunciado": "Mulheres naturalistas raramente figuraram na corrida por conhecer terras exóticas. No século XIX, mulheres como Lady Charlotte Canning eventualmente coletavam espécimes botânicos, mas quase sempre no papel de esposas coloniais, viajando para locais onde seus maridos as levavam e não em busca de seus próprios projetos científicos.SOMBRO, M. M. O eu busca pelo campo — mulheres em exceções científicas no Brasil do século XIX. Caderno Pagu, n. 48, 2016.No contexto do século XIX, a relação das mulheres com o campo científico, descrita no texto, é representativa da",
+        "texto_base": "Mulheres naturalistas raramente figuraram na corrida por conhecer terras exóticas. No século XIX, mulheres como Lady Charlotte Canning eventualmente coletavam espécimes botânicos, mas quase sempre no papel de esposas coloniais, viajando para locais onde seus maridos as levavam e não em busca de seus próprios projetos científicos.SOMBRO, M. M. O eu busca pelo campo — mulheres em exceções científicas no Brasil do século XIX. Caderno Pagu, n. 48, 2016.",
+        "alternativas": {
+          "A": "afirmação da igualdade de gênero.",
+          "B": "transformação dos espaços de lazer.",
+          "C": "superação do pensamento patriarcal.",
+          "D": "incorporação das estratificações sociais.",
+          "E": "substituição das atividades domésticas."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "No contexto do século XIX, a relação das mulheres com o campo científico, descrita no texto, é representativa da",
+        "texto_base": null,
+        "alternativas": {
+          "A": "afirmação da igualdade de gênero.",
+          "B": "transformação dos espaços de lazer.",
+          "C": "superação do pensamento patriarcal.",
+          "D": "incorporação das estratificações sociais.",
+          "E": "substituição das atividades domésticas."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q56.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Mulheres naturalistas raramente figuraram na corrida por conhecer terras exóticas. No século XIX, mulheres como Lady Charlotte Canning eventualmente coletavam espécimes botânicos, mas quase sempre no papel de esposas coloniais, viajando para locais onde seus maridos as levavam e não em busca de seus próprios projetos científicos.SOMBRO, M. M. O eu busca pelo campo — mulheres em exceções científicas no Brasil do século XIX. Caderno Pagu, n. 48, 2016.No contexto do século XIX, a relação das mulheres com o campo científico, descrita no texto, é representativa da",
+          "after": "No contexto do século XIX, a relação das mulheres com o campo científico, descrita no texto, é representativa da"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q07",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "D",
+      "previous_recorded_answer": "D",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 7,
+          "page": 6,
+          "column": "right",
+          "bbox": [
+            284.5,
+            74.546875,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 6,
+        "bbox": [
+          284.5,
+          89.1,
+          542.0,
+          419.4
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "a833a6822322c7123b66f23f9b68aad33d82230b3034e9a543f7e04a91543715",
+      "before_content": {
+        "enunciado": "Ao criticar o preciosismo linguístico do literato e ao sugerir a autonomização de expressões locais, o poeta expressa uma concepção de língua que",
+        "texto_base": "A draga A gente não sabia se aquela draga tinha nascido ali, no Porto, como um pé de árvore ou uma duna. — E que fosse uma casa de peixes? Meia dúzia de loucos e bêbados moravam dentro dela, enraizados em suas ferragens. Dos viventes da draga era um o meu amigo Mário-pega-peapo. [...] Quando Mário morreu, um literato oficial, em necrológio caprichado, chamou-o de Mário-Captura-Sapo! Ai que dor! Ao literato cujo fazia-lhe nojo a forma coloquial. Queria captura em vez de pega para não macular (sic) a língua nacional lá dele. [...] Da velha draga Abrigo de vagabundos e de bêbados, restaram as expressões: estar na draga, viver na draga por estar sem dinheiro, viver na miséria Que ora ofereço ao filólogo Aurélio Buarque de Hollanda Para que as registre em seus léxicos Pois que o povo já as registrou. BARROS, M. Gramática expositiva do chão: poesia quase toda. Rio de Janeiro: Civilização Brasileira, 1990 (fragmento).",
+        "alternativas": {
+          "A": "contraria características da escrita e da fala.",
+          "B": "ironiza a comunicação fora da norma-padrão.",
+          "C": "substitui regionalismos por registros formais.",
+          "D": "valoriza o uso de variedades populares.",
+          "E": "defende novas regras gramaticais."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Ao criticar o preciosismo linguístico do literato e ao sugerir a dicionarização de expressões locais, o poeta expressa uma concepção de língua que",
+        "texto_base": null,
+        "alternativas": {
+          "A": "contrapõe características da escrita e da fala.",
+          "B": "ironiza a comunicação fora da norma-padrão.",
+          "C": "substitui regionalismos por registros formais.",
+          "D": "valoriza o uso de variedades populares.",
+          "E": "defende novas regras gramaticais."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q07.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Ao criticar o preciosismo linguístico do literato e ao sugerir a autonomização de expressões locais, o poeta expressa uma concepção de língua que",
+          "after": "Ao criticar o preciosismo linguístico do literato e ao sugerir a dicionarização de expressões locais, o poeta expressa uma concepção de língua que"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "contraria características da escrita e da fala.",
+            "B": "ironiza a comunicação fora da norma-padrão.",
+            "C": "substitui regionalismos por registros formais.",
+            "D": "valoriza o uso de variedades populares.",
+            "E": "defende novas regras gramaticais."
+          },
+          "after": {
+            "A": "contrapõe características da escrita e da fala.",
+            "B": "ironiza a comunicação fora da norma-padrão.",
+            "C": "substitui regionalismos por registros formais.",
+            "D": "valoriza o uso de variedades populares.",
+            "E": "defende novas regras gramaticais."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q49",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "C",
+      "previous_recorded_answer": "C",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 49,
+          "page": 22,
+          "column": "right",
+          "bbox": [
+            284.5,
+            297.24639892578125,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 22,
+        "bbox": [
+          284.5,
+          317.5,
+          542.0,
+          618.9
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "92ab241c800b9e145d010953140945d96fd23956632213ea0f648b906102895b",
+      "before_content": {
+        "enunciado": "Portadores de mensagem espiritual do passado, as obras monumentais de cada povo perduram no presente como o testemunho vivo de suas tradições seculares. A humanidade, cada vez mais consciente da unidade dos valores humanos, as considera um bem comum e perante as gerações futuras, se reconhece solidariamente responsável por preservá-las, impondo a si mesma o dever de transmiti-las na plenitude de sua autenticidade.CARTA de Veneza, 31 de maio de 1964. Disponível em: www.iphan.gov.br. Acesso em: 7 out. 2019.O sistema de informações históricas proposto no texto se concretiza na",
+        "texto_base": "Portadores de mensagem espiritual do passado, as obras monumentais de cada povo perduram no presente como o testemunho vivo de suas tradições seculares. A humanidade, cada vez mais consciente da unidade dos valores humanos, as considera um bem comum e perante as gerações futuras, se reconhece solidariamente responsável por preservá-las, impondo a si mesma o dever de transmiti-las na plenitude de sua autenticidade.CARTA de Veneza, 31 de maio de 1964. Disponível em: www.iphan.gov.br. Acesso em: 7 out. 2019.",
+        "alternativas": {
+          "A": "ampliação do comércio de imagens sacras.",
+          "B": "substituição de materiais de valor artístico.",
+          "C": "políticas de conservação de bens culturais.",
+          "D": "defesa da privatização de sítios arqueológicos.",
+          "E": "medidas de salvaguarda de peças museológicas."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Escritos em temporalidade histórica aproximada, os textos se distanciam ao apresentarem pontos de vista diferentes sobre a(s)",
+        "texto_base": null,
+        "alternativas": {
+          "A": "ampliação do comércio de imagens sacras.",
+          "B": "substituição de materiais de valor artístico.",
+          "C": "políticas de conservação de bens culturais.",
+          "D": "defesa da privatização de sítios arqueológicos.",
+          "E": "medidas de salvaguarda de peças museológicas."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q49.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Portadores de mensagem espiritual do passado, as obras monumentais de cada povo perduram no presente como o testemunho vivo de suas tradições seculares. A humanidade, cada vez mais consciente da unidade dos valores humanos, as considera um bem comum e perante as gerações futuras, se reconhece solidariamente responsável por preservá-las, impondo a si mesma o dever de transmiti-las na plenitude de sua autenticidade.CARTA de Veneza, 31 de maio de 1964. Disponível em: www.iphan.gov.br. Acesso em: 7 out. 2019.O sistema de informações históricas proposto no texto se concretiza na",
+          "after": "Escritos em temporalidade histórica aproximada, os textos se distanciam ao apresentarem pontos de vista diferentes sobre a(s)"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q51",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 51,
+          "page": 23,
+          "column": "left",
+          "bbox": [
+            24,
+            394.81060791015625,
+            279.5,
+            611.0579833984375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 23,
+        "bbox": [
+          24,
+          408.4,
+          279.5,
+          514.9
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "7551424c16677c625a3777018d25c9f477ffba9a84a0e60c56c33381b9aea2d9",
+      "before_content": {
+        "enunciado": "Preços justos e autorizações de uso da água devem garantir de forma adequada que a tomada de água, bem como setores fluentes, mantenham operações eficientes e ambientalmente sustentáveis, de maneira que sejam adaptáveis às peculiaridades e necessidades da indústria e da irrigação em larga escala, bem como às atividades na agricultura em pequena escala e de subsistência.UNESCO. Relatório Mundial das Nações Unidas sobre Desenvolvimento dos Recursos Hídricos. Água para um mundo sustentável. Unesco, 2015.Considerando o debate sobre segurança hídrica, a proposta apresentada no texto está pautada no(a)",
+        "texto_base": "Preços justos e autorizações de uso da água devem garantir de forma adequada que a tomada de água, bem como setores fluentes, mantenham operações eficientes e ambientalmente sustentáveis, de maneira que sejam adaptáveis às peculiaridades e necessidades da indústria e da irrigação em larga escala, bem como às atividades na agricultura em pequena escala e de subsistência.UNESCO. Relatório Mundial das Nações Unidas sobre Desenvolvimento dos Recursos Hídricos. Água para um mundo sustentável. Unesco, 2015.",
+        "alternativas": {
+          "A": "distribuição equitativa do abastecimento.",
+          "B": "monitoramento do fornecimento urbano.",
+          "C": "racionamento da capacidade fluvial.",
+          "D": "revitalização gradativa de solos.",
+          "E": "geração de produtos recicláveis."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Considerando o debate sobre segurança hídrica, a proposta apresentada no texto está pautada no(a)",
+        "texto_base": null,
+        "alternativas": {
+          "A": "distribuição equitativa do abastecimento.",
+          "B": "monitoramento do fornecimento urbano.",
+          "C": "racionamento da capacidade fluvial.",
+          "D": "revitalização gradativa de solos.",
+          "E": "geração de produtos recicláveis."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q51.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Preços justos e autorizações de uso da água devem garantir de forma adequada que a tomada de água, bem como setores fluentes, mantenham operações eficientes e ambientalmente sustentáveis, de maneira que sejam adaptáveis às peculiaridades e necessidades da indústria e da irrigação em larga escala, bem como às atividades na agricultura em pequena escala e de subsistência.UNESCO. Relatório Mundial das Nações Unidas sobre Desenvolvimento dos Recursos Hídricos. Água para um mundo sustentável. Unesco, 2015.Considerando o debate sobre segurança hídrica, a proposta apresentada no texto está pautada no(a)",
+          "after": "Considerando o debate sobre segurança hídrica, a proposta apresentada no texto está pautada no(a)"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q47",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 47,
+          "page": 22,
+          "column": "left",
+          "bbox": [
+            24,
+            348.7145080566406,
+            279.5,
+            625.364013671875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 22,
+        "bbox": [
+          24,
+          363.0,
+          279.5,
+          494.1
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "06ee9cf2d6bfe76a5431ba3380187c7b80cd3ab7784d1ee3b21bf83345025c53",
+      "before_content": {
+        "enunciado": "Quando a taxa de remuneração do capital excede substancialmente a taxa de crescimento da economia, para lógicas e riqueza herdadas aumenta mais rápido do que a renda e a produção. Então, nesta era, herdeiros poupar uma parte limitada da renda de seu capital para que ele cresça mais rápido do que a economia como um todo. Sob essas condições, a riqueza inevitavelmente que a riqueza herdada supera a riqueza constituída durante uma vida de trabalho, e que a concentração do capital atinja níveis muito altos.PIKETTY, T. O capital no século XXI. Rio de Janeiro: Intrínseca, 2014 (adaptado).Considerando os princípios que legitimam as democracias liberais, a lógica econômica descrita no texto enfraquece o(a)",
+        "texto_base": "Quando a taxa de remuneração do capital excede substancialmente a taxa de crescimento da economia, para lógicas e riqueza herdadas aumenta mais rápido do que a renda e a produção. Então, nesta era, herdeiros poupar uma parte limitada da renda de seu capital para que ele cresça mais rápido do que a economia como um todo. Sob essas condições, a riqueza inevitavelmente que a riqueza herdada supera a riqueza constituída durante uma vida de trabalho, e que a concentração do capital atinja níveis muito altos.PIKETTY, T. O capital no século XXI. Rio de Janeiro: Intrínseca, 2014 (adaptado).",
+        "alternativas": {
+          "A": "ideologia do mérito.",
+          "B": "direito de nascimento.",
+          "C": "eficácia da legislação.",
+          "D": "ganho das financeiras.",
+          "E": "eficiência dos mercados."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Considerando os princípios que legitimam as democracias liberais, a lógica econômica descrita no texto enfraquece o(a)",
+        "texto_base": null,
+        "alternativas": {
+          "A": "ideologia do mérito.",
+          "B": "direito de nascimento.",
+          "C": "eficácia da legislação.",
+          "D": "ganho das financeiras.",
+          "E": "eficiência dos mercados."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q47.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Quando a taxa de remuneração do capital excede substancialmente a taxa de crescimento da economia, para lógicas e riqueza herdadas aumenta mais rápido do que a renda e a produção. Então, nesta era, herdeiros poupar uma parte limitada da renda de seu capital para que ele cresça mais rápido do que a economia como um todo. Sob essas condições, a riqueza inevitavelmente que a riqueza herdada supera a riqueza constituída durante uma vida de trabalho, e que a concentração do capital atinja níveis muito altos.PIKETTY, T. O capital no século XXI. Rio de Janeiro: Intrínseca, 2014 (adaptado).Considerando os princípios que legitimam as democracias liberais, a lógica econômica descrita no texto enfraquece o(a)",
+          "after": "Considerando os princípios que legitimam as democracias liberais, a lógica econômica descrita no texto enfraquece o(a)"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q06",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 6,
+          "page": 6,
+          "column": "left",
+          "bbox": [
+            24,
+            98.546875,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 6,
+        "bbox": [
+          24,
+          115.1,
+          279.5,
+          376.1
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "bfd0a221b67ff1bb7d1817fde3a1f0b44cac2b7d823f74cbdc4901e2aeef9188",
+      "before_content": {
+        "enunciado": "Qual estratégia caracteriza o texto como uma notícia alarmante?",
+        "texto_base": "Um asteroide de cerca de um mil metros de diâmetro, viajando a 288 mil quilômetros por hora, passou a uma distância insignificante — em termos cósmicos — da Terra, pouco mais do dobro da distância que nos separa da Lua. Segundo os cálculos matemáticos, o asteroide cruzou a órbita da Terra e somente não colidiu porque ela não estava naquele ponto de interseção. Se ele tivesse sido capturado pelo campo gravitacional do nosso planeta e colidido, o impacto equivaleria a 40 bilhões de toneladas de TNT, ou o equivalente à explosão de 40 mil bombas de hidrogênio, conforme calcularam os computadores operados pelos astrônomos do programa de Exploração do Sistema Solar da Nasa. Se caísse no continente, abriria uma cratera de cinco quilômetros, no mínimo, e destruiria tudo o que houvesse num raio de milhares de outros; se desabasse no oceano, provocaria maremotos que devastariam imensas regiões costeiras. Enfim, uma visão do Apocalipse. Disponível em: https://g1.globo.com/jornal-da-globo/noticia/2010/02/astronomos-calculam-que-asteroide-passou-perto-da-terra-em-janeiro.html. Acesso em: 23 abr. 2010.",
+        "alternativas": {
+          "A": "A descrição da velocidade do asteroide.",
+          "B": "A recorrência de formulações hipotéticas.",
+          "C": "A referência à opinião dos astrônomos.",
+          "D": "A utilização da locução adverbial “no mínimo”.",
+          "E": "A comparação com a distância da Lua à Terra."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Qual estratégia caracteriza o texto como uma notícia alarmante?",
+        "texto_base": null,
+        "alternativas": {
+          "A": "A descrição da velocidade do asteroide.",
+          "B": "A recorrência de formulações hipotéticas.",
+          "C": "A referência à opinião dos astrônomos.",
+          "D": "A utilização da locução adverbial “no mínimo”.",
+          "E": "A comparação com a distância da Lua à Terra."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q06.png"
+        }
+      },
+      "differences": []
+    },
+    {
+      "id": "2021_AZUL_D1_Q46",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 46,
+          "page": 22,
+          "column": "left",
+          "bbox": [
+            24,
+            104.2069091796875,
+            279.5,
+            350.2145080566406
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 22,
+        "bbox": [
+          24,
+          118.5,
+          279.5,
+          233.4
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "2782943a2c4fbb04768cda6475422ab869351c220ff1b73021c1921cc002d409",
+      "before_content": {
+        "enunciado": "Seu turno de trabalho acabou, você já está em casa e é hora do jantar da família. Mas, em vez de relaxar, você começa a pensar na possibilidade de ter recebido alguma mensagem importante no e-mail profissional ou no grupo de WhatsApp da empresa. Imediatamente, você fica distante. Momentos depois, com alguns toques na tela do celular, você está de volta ao ambiente de trabalho. O jantar e a família ficam em segundo plano.A simples vontade de checar mensagens do trabalho pós-expediente prejudica sua saúde.Disponível em: https://www.bbc.com. Acesso em: 24 out. 2018 (adaptado).O texto indica práticas nas relações cotidianas do trabalho que causam para o indivíduo a",
+        "texto_base": "Seu turno de trabalho acabou, você já está em casa e é hora do jantar da família. Mas, em vez de relaxar, você começa a pensar na possibilidade de ter recebido alguma mensagem importante no e-mail profissional ou no grupo de WhatsApp da empresa. Imediatamente, você fica distante. Momentos depois, com alguns toques na tela do celular, você está de volta ao ambiente de trabalho. O jantar e a família ficam em segundo plano.A simples vontade de checar mensagens do trabalho pós-expediente prejudica sua saúde.Disponível em: https://www.bbc.com. Acesso em: 24 out. 2018 (adaptado).",
+        "alternativas": {
+          "A": "proteção da vida privada.",
+          "B": "ampliação de atividades extras.",
+          "C": "elevação de etapas burocráticas.",
+          "D": "diversificação do lazer recreativo.",
+          "E": "desobrigação de afazeres domésticos."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "O texto indica práticas nas relações cotidianas do trabalho que causam para o indivíduo a",
+        "texto_base": null,
+        "alternativas": {
+          "A": "proteção da vida privada.",
+          "B": "ampliação de atividades extras.",
+          "C": "elevação de etapas burocráticas.",
+          "D": "diversificação do lazer recreativo.",
+          "E": "desobrigação de afazeres domésticos."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q46.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Seu turno de trabalho acabou, você já está em casa e é hora do jantar da família. Mas, em vez de relaxar, você começa a pensar na possibilidade de ter recebido alguma mensagem importante no e-mail profissional ou no grupo de WhatsApp da empresa. Imediatamente, você fica distante. Momentos depois, com alguns toques na tela do celular, você está de volta ao ambiente de trabalho. O jantar e a família ficam em segundo plano.A simples vontade de checar mensagens do trabalho pós-expediente prejudica sua saúde.Disponível em: https://www.bbc.com. Acesso em: 24 out. 2018 (adaptado).O texto indica práticas nas relações cotidianas do trabalho que causam para o indivíduo a",
+          "after": "O texto indica práticas nas relações cotidianas do trabalho que causam para o indivíduo a"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q53",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 53,
+          "page": 23,
+          "column": "right",
+          "bbox": [
+            284.5,
+            182.07220458984375,
+            542.0,
+            460.67169189453125
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 23,
+        "bbox": [
+          284.5,
+          196.1,
+          542.0,
+          312.5
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "d9be7f25ee55ca7dc1da8736fff2141cdc963297880352eafec37817cd9d2178",
+      "before_content": {
+        "enunciado": "Famoso por ser o encantador de viúvas da cidade de Cabaceiras, na Paraíba, Zé de Cila, um contador de histórias parecido com o personagem Chico do Arraial da Compadecida. Ele defende veementemente que a oração da avó sustentava mais a chuva. \"Quando era pequeno e chovia, por estar chovendo minha avó colocando os pratos emborcados na terra para diminuir o vento. Ela fazia isso e rezava para a chuva durar mais\", diz Zé de Cila.GALDINO, V.; BARBOSA, E. Artistas por um dia? João Pessoa: Editora Universitária, 2010.Ao destacar expressões e vivências populares do cotidiano, o texto mobiliza os seguintes aspectos da diversidade regional:",
+        "texto_base": "Famoso por ser o encantador de viúvas da cidade de Cabaceiras, na Paraíba, Zé de Cila, um contador de histórias parecido com o personagem Chico do Arraial da Compadecida. Ele defende veementemente que a oração da avó sustentava mais a chuva. \"Quando era pequeno e chovia, por estar chovendo minha avó colocando os pratos emborcados na terra para diminuir o vento. Ela fazia isso e rezava para a chuva durar mais\", diz Zé de Cila.GALDINO, V.; BARBOSA, E. Artistas por um dia? João Pessoa: Editora Universitária, 2010.",
+        "alternativas": {
+          "A": "Alianças afetivas conectadas ao ritual matrimonial.",
+          "B": "Práticas místicas associadas ao patrimônio cultural.",
+          "C": "Manifestações teatrais atreladas ao imaginário político.",
+          "D": "Narrativas fílmicas relacionadas às intempéries climáticas.",
+          "E": "Argumentações literárias interligadas às catástrofes ambientais."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Ao destacar expressões e vivências populares do cotidiano, o texto mobiliza os seguintes aspectos da diversidade regional:",
+        "texto_base": null,
+        "alternativas": {
+          "A": "Alianças afetivas conectadas ao ritual matrimonial.",
+          "B": "Práticas místicas associadas ao patrimônio cultural.",
+          "C": "Manifestações teatrais atreladas ao imaginário político.",
+          "D": "Narrativas fílmicas relacionadas às intempéries climáticas.",
+          "E": "Argumentações literárias interligadas às catástrofes ambientais."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q53.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Famoso por ser o encantador de viúvas da cidade de Cabaceiras, na Paraíba, Zé de Cila, um contador de histórias parecido com o personagem Chico do Arraial da Compadecida. Ele defende veementemente que a oração da avó sustentava mais a chuva. \"Quando era pequeno e chovia, por estar chovendo minha avó colocando os pratos emborcados na terra para diminuir o vento. Ela fazia isso e rezava para a chuva durar mais\", diz Zé de Cila.GALDINO, V.; BARBOSA, E. Artistas por um dia? João Pessoa: Editora Universitária, 2010.Ao destacar expressões e vivências populares do cotidiano, o texto mobiliza os seguintes aspectos da diversidade regional:",
+          "after": "Ao destacar expressões e vivências populares do cotidiano, o texto mobiliza os seguintes aspectos da diversidade regional:"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q59",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 59,
+          "page": 24,
+          "column": "right",
+          "bbox": [
+            284.5,
+            322.58941650390625,
+            542.0,
+            549.14990234375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 24,
+        "bbox": [
+          284.5,
+          336.2,
+          542.0,
+          454.3
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "dd7c4f8496431df0209e3ff8fdb2c477296fe13201d5eb7de2e70b3336536b09",
+      "before_content": {
+        "enunciado": "No semiárido brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, ao longo dos tempos, presenciados na natureza, em especial para a previsão do tempo e do clima, utilizando como referência a posição dos astros, constelações e nuvens. Conforme os sertanejos, a estação vai ser chuvosa quando a pimenteira na cheia de janeiro \"sair vermelha, por detrás de uma barra de nuvens\", mas \"se surgir prateada, é sinal de seca\".MAIA, O.; MAIA, A. C. A utilização dos ditos populares na observação do tempo para a previsão de chuvas no semiárido. Disponível em: www.cpatsa.embrapa.br. Acesso em: 20 jul. 2012 (adaptado).O texto expõe a produção de um conhecimento que se constitui pela",
+        "texto_base": "No semiárido brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, ao longo dos tempos, presenciados na natureza, em especial para a previsão do tempo e do clima, utilizando como referência a posição dos astros, constelações e nuvens. Conforme os sertanejos, a estação vai ser chuvosa quando a pimenteira na cheia de janeiro \"sair vermelha, por detrás de uma barra de nuvens\", mas \"se surgir prateada, é sinal de seca\".MAIA, O.; MAIA, A. C. A utilização dos ditos populares na observação do tempo para a previsão de chuvas no semiárido. Disponível em: www.cpatsa.embrapa.br. Acesso em: 20 jul. 2012 (adaptado).",
+        "alternativas": {
+          "A": "técnica científica.",
+          "B": "experiência perceptiva.",
+          "C": "negação das tradições.",
+          "D": "padronização das culturas.",
+          "E": "uniformização das informações."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "O texto expõe a produção de um conhecimento que se constitui pela",
+        "texto_base": null,
+        "alternativas": {
+          "A": "técnica científica.",
+          "B": "experiência perceptiva.",
+          "C": "negação das tradições.",
+          "D": "padronização das culturas.",
+          "E": "uniformização das informações."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q59.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "No semiárido brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, ao longo dos tempos, presenciados na natureza, em especial para a previsão do tempo e do clima, utilizando como referência a posição dos astros, constelações e nuvens. Conforme os sertanejos, a estação vai ser chuvosa quando a pimenteira na cheia de janeiro \"sair vermelha, por detrás de uma barra de nuvens\", mas \"se surgir prateada, é sinal de seca\".MAIA, O.; MAIA, A. C. A utilização dos ditos populares na observação do tempo para a previsão de chuvas no semiárido. Disponível em: www.cpatsa.embrapa.br. Acesso em: 20 jul. 2012 (adaptado).O texto expõe a produção de um conhecimento que se constitui pela",
+          "after": "O texto expõe a produção de um conhecimento que se constitui pela"
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D1_Q38",
+      "status": "APPROVED",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 38,
+          "page": 16,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            369.37860107421875,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 16,
+        "bbox": [
+          284.4645080566406,
+          389.3,
+          541.9290161132812,
+          581.8
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "0345c1f2f2ae095951e8267e6644fd6a55d2f246bf1ed2f87413f334acd8b5ef",
+      "before_content": {
+        "enunciado": "Publicado em 1902, o texto de Olavo Bilac enfatiza as mazelas da escravidão no Brasil ao",
+        "texto_base": "Esse meninos que aí andam roçando peteca não viram nunca um escravo, quando cresceram, saberão que já houve no Brasil uma raça triste, votada à escravidão e ao desespero, e verão nos museus a coleção hedionda dos troncos, dos vira-mundos e dos bacalhaus, e verão notícias dos trágicos horrores de uma época maldita: filhos arrancados ao seio das mães, virgens violadas em prantos, homens assados lentamente em fornos de cal, mulheres nuas recebendo na sua miséria nua desvalida o duplo ultraje das chicotadas e dos olhares do feitor sádico. [...]Mas a sua indignação nunca poderá ser tão grande como a daqueles que nasceram e cresceram em pleno horror, no meio desse horrível drama de sangue e lodo, sentindo dentro do ouvido e da alma, numa arrancada e contínua melopeia, o longo gemer da raça mártir — orquestração satânica de todos os soluços, de todas as imprecações, de todos os lamentos da tortura e a injustiça podem arrancar a gargantas humanas.BILAC, O. Disponível em: www.escritas.org. Acesso em: 29 out. 2021.",
+        "alternativas": {
+          "A": "descrever de modo impessoal as consequências da exploração racial sobre as gerações futuras.",
+          "B": "contrapor a infância privilegiada das crianças da época à infância violenta das crianças escravizadas.",
+          "C": "antecipar o futuro apagamento das marcas da escravidão no contexto social.",
+          "D": "criticar a atenuação da violência contra os povos escravizados nas memórias retratadas pelos museus.",
+          "E": "imaginar a reação de indiferença de seus contemporâneos com os escravizados libertos."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "O movimento rap dos povos originários do Brasil revela o(a)",
+        "texto_base": null,
+        "alternativas": {
+          "A": "fusão de manifestações artísticas urbanas contemporâneas com a cultura indígena.",
+          "B": "contraposição das temáticas socioambientais indígenas às questões urbanas.",
+          "C": "rejeição da indústria radiofônica às músicas indígenas.",
+          "D": "distanciamento da realidade social indígena.",
+          "E": "estímulo ao estudo da poesia indígena."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2023-azul-d1-q38.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Publicado em 1902, o texto de Olavo Bilac enfatiza as mazelas da escravidão no Brasil ao",
+          "after": "O movimento rap dos povos originários do Brasil revela o(a)"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "descrever de modo impessoal as consequências da exploração racial sobre as gerações futuras.",
+            "B": "contrapor a infância privilegiada das crianças da época à infância violenta das crianças escravizadas.",
+            "C": "antecipar o futuro apagamento das marcas da escravidão no contexto social.",
+            "D": "criticar a atenuação da violência contra os povos escravizados nas memórias retratadas pelos museus.",
+            "E": "imaginar a reação de indiferença de seus contemporâneos com os escravizados libertos."
+          },
+          "after": {
+            "A": "fusão de manifestações artísticas urbanas contemporâneas com a cultura indígena.",
+            "B": "contraposição das temáticas socioambientais indígenas às questões urbanas.",
+            "C": "rejeição da indústria radiofônica às músicas indígenas.",
+            "D": "distanciamento da realidade social indígena.",
+            "E": "estímulo ao estudo da poesia indígena."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q09",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "D",
+      "previous_recorded_answer": "D",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 9,
+          "page": 7,
+          "column": "right",
+          "bbox": [
+            284.5,
+            74.546875,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 7,
+        "bbox": [
+          284.5,
+          91.5,
+          542.0,
+          464.0
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "06316e5f0ad054ea1090a4a10ad42bcefef1610f965c0f83948a92125898b545",
+      "before_content": {
+        "enunciado": "Esse texto tem importância singular como patrimônio linguístico para a preservação da cultura nacional devido",
+        "texto_base": "A volta do marido pródigo — Bom dia, seu Marinho! Como passou de ontem? — Bem. Já sabe, não é? Só ganha meio dia. [...] Lá além, Generosa cotuca Ferreira. — [...] Vai em festa, dorme que-horas, e, quando chega, ainda é todo enfeitado e salamistrão! — Que é que hei de fazer, seu Marinha... Amanheci com uma nevralgia... Fiquei com cisma de apanhar friagem. — Hum... — Mas o senhor vai ver eu como eu toco o meu serviço e ainda faço este povo trabalhar... [...] Pintou sujo para desprender um pedrouço, e teve de pular para trás, para que a laje lhe não esmagasse um pé. Pragueja: — Quem não tem brio engorda! — É... Esse sujeito só é isso, e mais isso... — opina Sidu. — Também, tudo p'ra ele sai bom, e no fim dá certo... — diz Correia, suspirando e retomando o enxadão. — P'ra uns, as vacas morrem ... p'ra outros até boi pega a parir... Seu Marra já concordou: — Está bem, seu Laio, por hoje, como foi por doença, eu aponto o dia todo. Que é a última vez!... E agora, deixa de conversa fiada e vai pegando a ferramenta! ROSA, J. G. Sagarana. Rio de Janeiro: José Olympio, 1967.",
+        "alternativas": {
+          "A": "à menção a enfermidades que indicam falta de cuidado pessoal.",
+          "B": "à referência a profissões já extintas que caracterizam a vida no campo.",
+          "C": "aos nomes de personagens que acentuam aspectos de sua personalidade.",
+          "D": "ao emprego de ditados populares que resgatam memórias e saberes coletivos.",
+          "E": "às descrições de costumes regionais que desmistificam crenças e superstições."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "Esse texto tem importância singular como patrimônio linguístico para a preservação da cultura nacional devido",
+        "texto_base": null,
+        "alternativas": {
+          "A": "à menção a enfermidades que indicam falta de cuidado pessoal.",
+          "B": "à referência a profissões já extintas que caracterizam a vida no campo.",
+          "C": "aos nomes de personagens que acentuam aspectos de sua personalidade.",
+          "D": "ao emprego de ditados populares que resgatam memórias e saberes coletivos.",
+          "E": "às descrições de costumes regionais que desmistificam crenças e superstições."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q09.png"
+        }
+      },
+      "differences": []
+    },
+    {
+      "id": "2023_AZUL_D1_Q54",
+      "status": "APPROVED",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "official_answer": "A",
+      "previous_recorded_answer": "A",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 54,
+          "page": 21,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            493.53094482421875,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 21,
+        "bbox": [
+          284.4645080566406,
+          513.1,
+          541.9290161132812,
+          623.3
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "25eb97ea71df8e45abfaea7770256f3bab26f9fbff043f9fae147ac0b1ff0360",
+      "before_content": {
+        "enunciado": "O objetivo desse texto é",
+        "texto_base": "Carta aberta à população brasileiraPrezados Cidadãos e Cidadãs,O envelhecimento populacional é um fenômeno mundial. Infelizmente, nosso país ainda não está preparado para atender às demandas dessa população.Este é o retrato da saúde pública no Brasil, que, apesar dos indiscutíveis avanços, apresenta um cenário de deficiências e falta de integração em todos os níveis de atenção à saúde: primária (atendimento deficiente nas unidades de saúde da atenção básica), secundária (carência de centros de referência com atendimento por especialistas) e terciária (atendimento hospitalar com abordagem ao idoso centrada na doença), ou seja, não há, na prática, uma rede de atenção à saúde do idoso.Diante desse cenário, a Sociedade Brasileira de Geriatria e Gerontologia (SBGG) vem a público manifestar suas preocupações com o presente e o futuro dos idosos no Brasil. É preciso garantir a saúde como direito universal.Esperamos que tanto nossos atuais quanto os futuros governantes e legisladores reflitam sobre a necessidade de investir na saúde e na qualidade de vida associada ao envelhecimento.Dignidade à saúde do idoso!Rio de Janeiro, 15 de setembro de 2014.Disponível em: www.sbgg.org.br. Acesso em: 20 out. 2021 (adaptado).",
+        "alternativas": {
+          "A": "sensibilizar o idoso a respeito dos cuidados com a saúde.",
+          "B": "alertar os governantes sobre os cuidados requeridos pelo idoso.",
+          "C": "divulgar o trabalho da Sociedade Brasileira de Geriatria e Gerontologia.",
+          "D": "informar o setor público sobre o retrocesso da legislação destinada à população idosa.",
+          "E": "chamar a atenção da população sobre a qualidade dos serviços de saúde pública para o idoso."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por",
+        "texto_base": null,
+        "alternativas": {
+          "A": "apresentar uma visão dualista.",
+          "B": "confirmar uma tese naturalista.",
+          "C": "demonstrar uma premissa realista.",
+          "D": "sustentar um argumento idealista.",
+          "E": "defender uma posição intencionalista."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2023-azul-d1-q54.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "O objetivo desse texto é",
+          "after": "No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "sensibilizar o idoso a respeito dos cuidados com a saúde.",
+            "B": "alertar os governantes sobre os cuidados requeridos pelo idoso.",
+            "C": "divulgar o trabalho da Sociedade Brasileira de Geriatria e Gerontologia.",
+            "D": "informar o setor público sobre o retrocesso da legislação destinada à população idosa.",
+            "E": "chamar a atenção da população sobre a qualidade dos serviços de saúde pública para o idoso."
+          },
+          "after": {
+            "A": "apresentar uma visão dualista.",
+            "B": "confirmar uma tese naturalista.",
+            "C": "demonstrar uma premissa realista.",
+            "D": "sustentar um argumento idealista.",
+            "E": "defender uma posição intencionalista."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q55",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 55,
+          "page": 24,
+          "column": "left",
+          "bbox": [
+            24,
+            74.546875,
+            279.5,
+            350.0585021972656
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 24,
+        "bbox": [
+          24,
+          88.1,
+          279.5,
+          242.1
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "f7bcd1bb3458a937fdb10bfd9bc36d017f4f26ee988fd0799b00abebc772ef65",
+      "before_content": {
+        "enunciado": "A categoria de refugiado carrega em si as noções de transitoriedade, provisoriedade e temporalidade. Os refugiados situam-se entre o país de origem e o país de destino. Ao transitarem entre os dois universos, ocupam posição marginal, tanto em termos identitários — assentada na falta de pertencimento pleno enquanto membros da comunidade receptora — dos vínculos introjetados por códigos partilhados com a comunidade de origem — quanto em termos jurídicos, da deixarem de exercer, ao menos em caráter temporário, o status de cidadãos no país de origem e portar o status de refugiados no país receptor.MOREIRA, J. B. Refugiados no Brasil: reflexões acerca do processo de integração local. REMHU, n. 43, jul.-dez. 2014 (adaptado).A condição de transitoriedade dos refugiados no Brasil, conforme abordada no texto, é provocada pela associação entre",
+        "texto_base": "A categoria de refugiado carrega em si as noções de transitoriedade, provisoriedade e temporalidade. Os refugiados situam-se entre o país de origem e o país de destino. Ao transitarem entre os dois universos, ocupam posição marginal, tanto em termos identitários — assentada na falta de pertencimento pleno enquanto membros da comunidade receptora — dos vínculos introjetados por códigos partilhados com a comunidade de origem — quanto em termos jurídicos, da deixarem de exercer, ao menos em caráter temporário, o status de cidadãos no país de origem e portar o status de refugiados no país receptor.MOREIRA, J. B. Refugiados no Brasil: reflexões acerca do processo de integração local. REMHU, n. 43, jul.-dez. 2014 (adaptado).",
+        "alternativas": {
+          "A": "ascensão social e burocracia estatal.",
+          "B": "miscigenação étnica e limites fronteiriços.",
+          "C": "desqualificação profissional e ação policial.",
+          "D": "instabilidade financeira e crises econômicas.",
+          "E": "desenraizamento cultural e insegurança legal."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A condição de transitoriedade dos refugiados no Brasil, conforme abordada no texto, é provocada pela associação entre",
+        "texto_base": null,
+        "alternativas": {
+          "A": "ascensão social e burocracia estatal.",
+          "B": "miscigenação étnica e limites fronteiriços.",
+          "C": "desqualificação profissional e ação policial.",
+          "D": "instabilidade financeira e crises econômicas.",
+          "E": "desenraizamento cultural e insegurança legal."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q55.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "A categoria de refugiado carrega em si as noções de transitoriedade, provisoriedade e temporalidade. Os refugiados situam-se entre o país de origem e o país de destino. Ao transitarem entre os dois universos, ocupam posição marginal, tanto em termos identitários — assentada na falta de pertencimento pleno enquanto membros da comunidade receptora — dos vínculos introjetados por códigos partilhados com a comunidade de origem — quanto em termos jurídicos, da deixarem de exercer, ao menos em caráter temporário, o status de cidadãos no país de origem e portar o status de refugiados no país receptor.MOREIRA, J. B. Refugiados no Brasil: reflexões acerca do processo de integração local. REMHU, n. 43, jul.-dez. 2014 (adaptado).A condição de transitoriedade dos refugiados no Brasil, conforme abordada no texto, é provocada pela associação entre",
+          "after": "A condição de transitoriedade dos refugiados no Brasil, conforme abordada no texto, é provocada pela associação entre"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q58",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 58,
+          "page": 24,
+          "column": "right",
+          "bbox": [
+            284.5,
+            74.546875,
+            542.0,
+            324.08941650390625
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 24,
+        "bbox": [
+          284.5,
+          85.3,
+          542.0,
+          231.4
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "b7e23f880ca6eb8ee079cc32048a60f87e450ac12e5fa7f9da5aae62ced3c426",
+      "before_content": {
+        "enunciado": "A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase desapareceu, o número de brincadeiras infantis nas ruas diminui — as crianças quase não são vistas; os pedaços da cidade são vendidos, no mercado, como mercadoria, devorando destinadas praças transformadas em concreto. Por outro lado, os habitantes parecem perder na cidade suas próprias referências. A imagem de uma grande cidade hoje é tão mutante que se assemelha à de um grande guindaste, aliás, a presença maciça destes, das britadeiras, das betoneiras nos dão o limite do processo de transformação urbana ao qual está submetida a cidade.CARLOS, A. F. A cidade. São Paulo: Contexto, 2007 (adaptado).No contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da",
+        "texto_base": "A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase desapareceu, o número de brincadeiras infantis nas ruas diminui — as crianças quase não são vistas; os pedaços da cidade são vendidos, no mercado, como mercadoria, devorando destinadas praças transformadas em concreto. Por outro lado, os habitantes parecem perder na cidade suas próprias referências. A imagem de uma grande cidade hoje é tão mutante que se assemelha à de um grande guindaste, aliás, a presença maciça destes, das britadeiras, das betoneiras nos dão o limite do processo de transformação urbana ao qual está submetida a cidade.CARLOS, A. F. A cidade. São Paulo: Contexto, 2007 (adaptado).",
+        "alternativas": {
+          "A": "manutenção dos modos de convívio social.",
+          "B": "preservação da existência do espaço público.",
+          "C": "ampliação das normas de controle ambiental.",
+          "D": "flexibilização das regras de participação política.",
+          "E": "alteração da organização da paisagem geográfica."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "No contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da",
+        "texto_base": null,
+        "alternativas": {
+          "A": "manutenção dos modos de convívio social.",
+          "B": "preservação da essência do espaço público.",
+          "C": "ampliação das normas de controle ambiental.",
+          "D": "flexibilização das regras de participação política.",
+          "E": "alteração da organização da paisagem geográfica."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q58.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase desapareceu, o número de brincadeiras infantis nas ruas diminui — as crianças quase não são vistas; os pedaços da cidade são vendidos, no mercado, como mercadoria, devorando destinadas praças transformadas em concreto. Por outro lado, os habitantes parecem perder na cidade suas próprias referências. A imagem de uma grande cidade hoje é tão mutante que se assemelha à de um grande guindaste, aliás, a presença maciça destes, das britadeiras, das betoneiras nos dão o limite do processo de transformação urbana ao qual está submetida a cidade.CARLOS, A. F. A cidade. São Paulo: Contexto, 2007 (adaptado).No contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da",
+          "after": "No contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "manutenção dos modos de convívio social.",
+            "B": "preservação da existência do espaço público.",
+            "C": "ampliação das normas de controle ambiental.",
+            "D": "flexibilização das regras de participação política.",
+            "E": "alteração da organização da paisagem geográfica."
+          },
+          "after": {
+            "A": "manutenção dos modos de convívio social.",
+            "B": "preservação da essência do espaço público.",
+            "C": "ampliação das normas de controle ambiental.",
+            "D": "flexibilização das regras de participação política.",
+            "E": "alteração da organização da paisagem geográfica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q54",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "C",
+      "previous_recorded_answer": "C",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 54,
+          "page": 23,
+          "column": "right",
+          "bbox": [
+            284.5,
+            459.17169189453125,
+            542.0,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 23,
+        "bbox": [
+          284.5,
+          473.2,
+          542.0,
+          624.1
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "fbac6f1ed1d51272d7528d79b8ca81d1ac52d34b71f612cf3aaf0b5239f939f2",
+      "before_content": {
+        "enunciado": "O uso de novas tecnologias envolve a assimilação de uma cultura empresarial na qual haja a integração entre as propostas de modernização tecnológica e a racionalização. Nem sempre o uso de novas tecnologias é apenas um processo técnico na medida em que pressupõe uma nova orientação no controle da capital, no processo produtivo e na qualificação da mão de obra. Dos diversos efeitos que derivaram dessa orientação, a terceirização, a precarização e a flexibilização aparecem com constância como características do paradigma flexível, em substituição ao modelo taylorista-fordista.HEREDIA, V. Novas tecnologias nos processos de trabalho: efeitos da reestruturação produtiva. Tempo Social, v. 16, n. 1, 2004 (adaptado).O uso de novas tecnologias relacionado ao controle empresarial é criticado no texto em razão da",
+        "texto_base": "O uso de novas tecnologias envolve a assimilação de uma cultura empresarial na qual haja a integração entre as propostas de modernização tecnológica e a racionalização. Nem sempre o uso de novas tecnologias é apenas um processo técnico na medida em que pressupõe uma nova orientação no controle da capital, no processo produtivo e na qualificação da mão de obra. Dos diversos efeitos que derivaram dessa orientação, a terceirização, a precarização e a flexibilização aparecem com constância como características do paradigma flexível, em substituição ao modelo taylorista-fordista.HEREDIA, V. Novas tecnologias nos processos de trabalho: efeitos da reestruturação produtiva. Tempo Social, v. 16, n. 1, 2004 (adaptado).",
+        "alternativas": {
+          "A": "operacionalização da tarefa laboral.",
+          "B": "capacitação de profissionais liberais.",
+          "C": "fragilização das relações de trabalho.",
+          "D": "hierarquização dos cargos executivos.",
+          "E": "aplicação dos conhecimentos da ciência."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "O uso de novas tecnologias relacionado ao controle empresarial é criticado no texto em razão da",
+        "texto_base": null,
+        "alternativas": {
+          "A": "operacionalização da tarefa laboral.",
+          "B": "capacitação de profissionais liberais.",
+          "C": "fragilização das relações de trabalho.",
+          "D": "hierarquização dos cargos executivos.",
+          "E": "aplicação dos conhecimentos da ciência."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q54.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "O uso de novas tecnologias envolve a assimilação de uma cultura empresarial na qual haja a integração entre as propostas de modernização tecnológica e a racionalização. Nem sempre o uso de novas tecnologias é apenas um processo técnico na medida em que pressupõe uma nova orientação no controle da capital, no processo produtivo e na qualificação da mão de obra. Dos diversos efeitos que derivaram dessa orientação, a terceirização, a precarização e a flexibilização aparecem com constância como características do paradigma flexível, em substituição ao modelo taylorista-fordista.HEREDIA, V. Novas tecnologias nos processos de trabalho: efeitos da reestruturação produtiva. Tempo Social, v. 16, n. 1, 2004 (adaptado).O uso de novas tecnologias relacionado ao controle empresarial é criticado no texto em razão da",
+          "after": "O uso de novas tecnologias relacionado ao controle empresarial é criticado no texto em razão da"
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q08",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "C",
+      "previous_recorded_answer": "C",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 8,
+          "page": 7,
+          "column": "left",
+          "bbox": [
+            24,
+            74.546875,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 7,
+        "bbox": [
+          24,
+          88.9,
+          279.5,
+          409.6
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "d8df1704fa1db84ef104b1d799a9eecc8732c496327f55359fe0c62edaf117e5",
+      "before_content": {
+        "enunciado": "No segundo parágrafo, uma citação afirma que o documentário “foi o único trabalho produzido por equipes fora do eixo Estados Unidos-Europa entre os finalistas”. No texto, esse recurso expressa uma estratégia argumentativa que reforça a",
+        "texto_base": "O documentário O menino que fez um museu, direção de Sérgio Utsch, produção independente de brasileiros e britânicos, gravado no Nordeste em 2016, mais precisamente no distrito Dom Quintino, zona rural do Crato, foi premiado em Londres, pela Foreign Press Association (FPA), a associação de correspondentes estrangeiros mais antiga do mundo, fundada em 1888. De acordo com o diretor, O menino que fez um museu foi o único trabalho produzido por equipe fora do eixo Estados Unidos-Europa entre os finalistas. O documentário conta a história de um Brasil profundo, desconhecido até mesmo por muitos brasileiros. É apresentado com o carisma de Pedro Lucas Feitosa, 11 anos. Quando tinha 10 anos, Pedro Lucas criou o Museu de Luiz Gonzaga, que fica no distrito de Dom Quintino. A ideia surgiu após uma visita que o garoto fez, em 2013, quando tinha 8 anos, ao Museu do Gonzaga, em Exu, Pernambuco. Pedro decidiu criar o próprio lugar de exposição para homenagear o rei e o local escolhido foi a casa da sua bisavó já falecida, que fica ao lado da casa dele, na rua Alto da Antena. Disponível em: https://g1.globo.com/ce/ceara/noticia/2018/04/18/documentario-sobre-menino-que-criou-museu-de-luiz-gonzaga-no-ceara-e-premiado-em-londres.ghtml. Acesso em: 18 abr. 2018.",
+        "alternativas": {
+          "A": "originalidade da iniciativa de homenagem à vida e à obra de Luiz Gonzaga.",
+          "B": "falta de concorrentes ao prêmio de uma das associações mais antigas do mundo.",
+          "C": "proeza da premiação de uma história ambientada no interior do Nordeste brasileiro.",
+          "D": "escassez de investimentos para a produção cinematográfica independente no país.",
+          "E": "importância da parceria entre brasileiros e britânicos para a realização das filmagens."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "No segundo parágrafo, uma citação afirma que o documentário “foi o único trabalho produzido por equipes fora do eixo Estados Unidos-Europa entre os finalistas”. No texto, esse recurso expressa uma estratégia argumentativa que reforça a",
+        "texto_base": null,
+        "alternativas": {
+          "A": "originalidade da iniciativa de homenagem à vida e à obra de Luiz Gonzaga.",
+          "B": "falta de concorrentes ao prêmio de uma das associações mais antigas do mundo.",
+          "C": "proeza da premiação de uma história ambientada no interior do Nordeste brasileiro.",
+          "D": "escassez de investimentos para a produção cinematográfica independente no país.",
+          "E": "importância da parceria entre brasileiros e britânicos para a realização das filmagens."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q08.png"
+        }
+      },
+      "differences": []
+    },
+    {
+      "id": "2021_AZUL_D1_Q50",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "B",
+      "previous_recorded_answer": "B",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 50,
+          "page": 23,
+          "column": "left",
+          "bbox": [
+            24,
+            74.546875,
+            279.5,
+            396.31060791015625
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 23,
+        "bbox": [
+          24,
+          88.1,
+          279.5,
+          288.4
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "0233fcb8da58275d21cf1ae06825bfa495f4011f4b4368d5f973b6475ad1d73f",
+      "before_content": {
+        "enunciado": "Em 2016, foram gerados 44,7 milhões de toneladas de resíduos eletrônicos, um aumento de 8% na comparação com 2014. Especialistas esperam um crescimento de mais 17%, para 52,2 milhões de toneladas, até 2021.Disponível em: https://macrobusiness.org. Acesso em: 12 out. 2019 (adaptado).Há ainda quem exporte deliberadamente lixo eletrônico para o Gana. É mais caro reciclar devidamente os resíduos no mundo industrializado, onde até existem os recursos e a tecnologia. Um negócio muito mais lucrativo é vender o lixo eletrônico a negociantes locais, que o importam alegando tratar-se de material usado. Os negociantes ganeses vendem o lixo aos jovens no mercado ou, em outro lado, que o desmantelam e extraem os fios de cobre. Estes são derretidos em fogueiras ao ar livre, poluindo o ar e, muitas vezes, intoxicando diretamente os próprios jovens.KALEDZI, I.; SOUZA, O. Disponível em: www.dw.com. Acesso em: 12 out. 2019 (adaptado).No contexto das discussões ambientais, as práticas descritas nos textos refletem um padrão de relações derivado do(a)",
+        "texto_base": "Em 2016, foram gerados 44,7 milhões de toneladas de resíduos eletrônicos, um aumento de 8% na comparação com 2014. Especialistas esperam um crescimento de mais 17%, para 52,2 milhões de toneladas, até 2021.Disponível em: https://macrobusiness.org. Acesso em: 12 out. 2019 (adaptado).Há ainda quem exporte deliberadamente lixo eletrônico para o Gana. É mais caro reciclar devidamente os resíduos no mundo industrializado, onde até existem os recursos e a tecnologia. Um negócio muito mais lucrativo é vender o lixo eletrônico a negociantes locais, que o importam alegando tratar-se de material usado. Os negociantes ganeses vendem o lixo aos jovens no mercado ou, em outro lado, que o desmantelam e extraem os fios de cobre. Estes são derretidos em fogueiras ao ar livre, poluindo o ar e, muitas vezes, intoxicando diretamente os próprios jovens.KALEDZI, I.; SOUZA, O. Disponível em: www.dw.com. Acesso em: 12 out. 2019 (adaptado).",
+        "alternativas": {
+          "A": "exercício pleno da cidadania.",
+          "B": "divisão internacional do trabalho.",
+          "C": "gestão empresarial do bioma.",
+          "D": "concepção sustentável da economia.",
+          "E": "pragmatismo alienígena dos Estados."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "No contexto das discussões ambientais, as práticas descritas nos textos refletem um padrão de relações derivado do(a):",
+        "texto_base": null,
+        "alternativas": {
+          "A": "Exercício pleno da cidadania.",
+          "B": "Divisão internacional do trabalho.",
+          "C": "Gestão empresarial do toyotismo.",
+          "D": "Concepção sustentável da economia.",
+          "E": "Protecionismo alfandegário dos Estados."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q50.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "enunciado",
+          "before": "Em 2016, foram gerados 44,7 milhões de toneladas de resíduos eletrônicos, um aumento de 8% na comparação com 2014. Especialistas esperam um crescimento de mais 17%, para 52,2 milhões de toneladas, até 2021.Disponível em: https://macrobusiness.org. Acesso em: 12 out. 2019 (adaptado).Há ainda quem exporte deliberadamente lixo eletrônico para o Gana. É mais caro reciclar devidamente os resíduos no mundo industrializado, onde até existem os recursos e a tecnologia. Um negócio muito mais lucrativo é vender o lixo eletrônico a negociantes locais, que o importam alegando tratar-se de material usado. Os negociantes ganeses vendem o lixo aos jovens no mercado ou, em outro lado, que o desmantelam e extraem os fios de cobre. Estes são derretidos em fogueiras ao ar livre, poluindo o ar e, muitas vezes, intoxicando diretamente os próprios jovens.KALEDZI, I.; SOUZA, O. Disponível em: www.dw.com. Acesso em: 12 out. 2019 (adaptado).No contexto das discussões ambientais, as práticas descritas nos textos refletem um padrão de relações derivado do(a)",
+          "after": "No contexto das discussões ambientais, as práticas descritas nos textos refletem um padrão de relações derivado do(a):"
+        },
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "exercício pleno da cidadania.",
+            "B": "divisão internacional do trabalho.",
+            "C": "gestão empresarial do bioma.",
+            "D": "concepção sustentável da economia.",
+            "E": "pragmatismo alienígena dos Estados."
+          },
+          "after": {
+            "A": "Exercício pleno da cidadania.",
+            "B": "Divisão internacional do trabalho.",
+            "C": "Gestão empresarial do toyotismo.",
+            "D": "Concepção sustentável da economia.",
+            "E": "Protecionismo alfandegário dos Estados."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D1_Q10",
+      "status": "APPROVED",
+      "source_sha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "official_answer": "E",
+      "previous_recorded_answer": "E",
+      "answer_discrepancy": false,
+      "regions": [
+        {
+          "number": 10,
+          "page": 8,
+          "column": "left",
+          "bbox": [
+            24,
+            74.546875,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "support_render": {
+        "page": 8,
+        "bbox": [
+          24,
+          89.1,
+          279.5,
+          536.5
+        ],
+        "scale": 2.5,
+        "format": "PNG"
+      },
+      "asset_sha256": "f48733243c770b8c6a8ecc685e31a7808956a05445b7ed7cdffbb43940b3993a",
+      "before_content": {
+        "enunciado": "A resenha é, normalmente, um texto de base argumentativa. Na resenha do filme Son of Saul, o trecho da sequência argumentativa que se constitui como opinião implícita é",
+        "texto_base": "Intenso e original, Son of Saul retrata horror do holocausto Centenas de filmes sobre o holocausto já foram produzidos em diversos países do mundo. Nenhum é tão intenso como o húngaro Son of Saul, do estreante em longa-metragens László Nemes, vencedor do Grande Prêmio do Júri no último Festival de Cannes. Ao contrário da grande maioria das produções do gênero, que costuma oferecer uma variedade de informações didáticas e não raro cruza diferentes pontos de vista sobre o horror do campo de concentração, o filme acompanha apenas um personagem: — Ele é Saul (Géza Röhrig), um dos encarregados de conduzir as execuções de judeus como ele que, por um dia e meio, luta obsessivamente para que um menino já morto — que pode ou não ser seu filho — tenha um enterro digno e não seja simplesmente incinerado. O acompanhamento da jornada desse prisioneiro é no sentido mais literal que o cinema pode proporcionar: a câmera está o tempo todo com o personagem, seja por sobre seus ombros, seja com um close em primeiro plano ou em uma visão subjetiva. O que se passa ao seu redor é secundário, muitas vezes desfocado. Saul percorre diferentes divisões do Auschwitz à procura de um rabino que possa conduzir o enterro da criança, e por isso pouco se envolve nos planos de fuga que os companheiros tramam e, quando o faz, fugazmente atrapalha. “Você abandonou os vivos para cuidar de um morto”, acusam um deles. Ver toda essa via crucis é por vezes duro e exige certa entrega do espectador, mas certamente é dasquelas experiências cinematográficas que permanecem na cabeça por muito tempo. O longa já está sendo apontado como o grande favorito ao Oscar de filme estrangeiro. Se levar a estatueta, certamente não faltará quem diga que a Academia tem uma preferência por quem aborda a 2ª Guerra. Por mais que exista uma dose de verdade na afirmação, premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes. Carta Capital, n. 873, 22 out. 2015.",
+        "alternativas": {
+          "A": "[...] do estreante em longa-metragens László Nemes, vencedor do Grande Prêmio do Júri no último Festival de Cannes.",
+          "B": "Ele é Saul (Géza Röhrig), um dos encarregados de conduzir as execuções de judeus [...].",
+          "C": "[...] a câmera está o tempo todo com o personagem, seja por sobre seus ombros, seja com um close [...].",
+          "D": "Saul percorre diferentes divisões do Auschwitz à procura de um rabino que possa conduzir o enterro da criança [...].",
+          "E": "[...] premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after_content": {
+        "enunciado": "A resenha é, normalmente, um texto de base argumentativa. Na resenha do filme Son of Saul, o trecho da sequência argumentativa que se constitui como opinião implícita é",
+        "texto_base": null,
+        "alternativas": {
+          "A": "“[...] do estreante em longa-metragens László Nemes, vencedor do Grande Prêmio do Júri no último Festival de Cannes”.",
+          "B": "“Ele é Saul (Géza Röhrig), um dos encarregados de conduzir as execuções de judeus [...]”.",
+          "C": "“[...] a câmera está o tempo todo com o personagem, seja por sobre seus ombros, seja com um close [...]”.",
+          "D": "“Saul percorre diferentes divisões de Auschwitz à procura de um rabino que possa conduzir o enterro da criança [...]”.",
+          "E": "“[...] premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes”."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Texto de apoio e referência reproduzidos da prova oficial do Inep.",
+          "caminho_local_imagem": "/images/verified/batch02-2021-azul-d1-q10.png"
+        }
+      },
+      "differences": [
+        {
+          "field": "alternativas",
+          "before": {
+            "A": "[...] do estreante em longa-metragens László Nemes, vencedor do Grande Prêmio do Júri no último Festival de Cannes.",
+            "B": "Ele é Saul (Géza Röhrig), um dos encarregados de conduzir as execuções de judeus [...].",
+            "C": "[...] a câmera está o tempo todo com o personagem, seja por sobre seus ombros, seja com um close [...].",
+            "D": "Saul percorre diferentes divisões do Auschwitz à procura de um rabino que possa conduzir o enterro da criança [...].",
+            "E": "[...] premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes."
+          },
+          "after": {
+            "A": "“[...] do estreante em longa-metragens László Nemes, vencedor do Grande Prêmio do Júri no último Festival de Cannes”.",
+            "B": "“Ele é Saul (Géza Röhrig), um dos encarregados de conduzir as execuções de judeus [...]”.",
+            "C": "“[...] a câmera está o tempo todo com o personagem, seja por sobre seus ombros, seja com um close [...]”.",
+            "D": "“Saul percorre diferentes divisões de Auschwitz à procura de um rabino que possa conduzir o enterro da criança [...]”.",
+            "E": "“[...] premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes”."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2018_AZUL_D1_Q90",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 90,
+          "page": 31,
+          "column": "left",
+          "bbox": [
+            24,
+            566.6193237304688,
+            286.5511474609375,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D1_Q33",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 33,
+          "page": 15,
+          "column": "left",
+          "bbox": [
+            24,
+            442.9951171875,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2025_AZUL_D1_Q64",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 64,
+          "page": 26,
+          "column": "left",
+          "bbox": [
+            24,
+            573.1143798828125,
+            279.4637451171875,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "number": null,
+          "page": 27,
+          "column": "left",
+          "bbox": [
+            24,
+            57,
+            279.4637451171875,
+            75.69099426269531
+          ],
+          "is_prefix": true
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D1_Q09",
+      "status": "PENDING",
+      "reason": "GRAPHICS_OR_CONTINUATION_REVIEW_REQUIRED: essential image or statement continuation needs dedicated reconstruction",
+      "regions": [
+        {
+          "number": 9,
+          "page": 6,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            375.11334228515625,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D1_Q07",
+      "status": "PENDING",
+      "reason": "GRAPHICS_OR_CONTINUATION_REVIEW_REQUIRED: essential image or statement continuation needs dedicated reconstruction",
+      "regions": [
+        {
+          "number": 7,
+          "page": 6,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            565.5653076171875
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2025_AZUL_D1_Q30",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 30,
+          "page": 14,
+          "column": "left",
+          "bbox": [
+            24,
+            74.19099426269531,
+            279.4637451171875,
+            412.05950927734375
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2025_AZUL_D1_Q26",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 26,
+          "page": 13,
+          "column": "left",
+          "bbox": [
+            24,
+            74.19099426269531,
+            279.4637451171875,
+            502.3980712890625
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2025_AZUL_D1_Q37",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 37,
+          "page": 16,
+          "column": "left",
+          "bbox": [
+            24,
+            74.19099426269531,
+            279.4637451171875,
+            462.818603515625
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2025_AZUL_D1_Q20",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 20,
+          "page": 10,
+          "column": "right",
+          "bbox": [
+            284.4637451171875,
+            74.19099426269531,
+            541.927490234375,
+            440.215087890625
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2025_AZUL_D1_Q32",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 32,
+          "page": 14,
+          "column": "right",
+          "bbox": [
+            284.4637451171875,
+            74.19099426269531,
+            541.927490234375,
+            439.23260498046875
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2025_AZUL_D1_Q17",
+      "status": "PENDING",
+      "reason": "SOURCE_LAYOUT_INCOMPLETE: full-width or continuation not covered by candidate crop",
+      "regions": [
+        {
+          "number": 17,
+          "page": 9,
+          "column": "right",
+          "bbox": [
+            284.4637451171875,
+            172.81422424316406,
+            541.927490234375,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "number": null,
+          "page": 10,
+          "column": "left",
+          "bbox": [
+            24,
+            57,
+            279.4637451171875,
+            75.69099426269531
+          ],
+          "is_prefix": true
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D1_Q27",
+      "status": "PENDING",
+      "reason": "GRAPHICS_OR_CONTINUATION_REVIEW_REQUIRED: essential image or statement continuation needs dedicated reconstruction",
+      "regions": [
+        {
+          "number": 27,
+          "page": 13,
+          "column": "left",
+          "bbox": [
+            24,
+            556.9636840820312,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "number": null,
+          "page": 13,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            57,
+            541.9290161132812,
+            221.54627990722656
+          ],
+          "is_prefix": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Source prose and credits preserved in PNG; text not selectable; generic alt text.",
+    "Support crops inspected against source PDF; 12 incomplete/graphic cases held.",
+    "2024 day-1 key missing locally and HTTPS download failed; excluded from this publication."
+  ],
+  "verification": {
+    "python_tests_passed": 71,
+    "node_tests_passed": 6,
+    "fused_records": 3687,
+    "fused_issues": 0,
+    "chromium": {
+      "approved_per_viewport": 97,
+      "viewports": [
+        "desktop 1280x900",
+        "mobile 390x844"
+      ],
+      "correct_wrong_submissions": 388,
+      "javascript_errors": 0,
+      "horizontal_overflow": false
+    },
+    "original_59_unchanged": true
+  }
+}
