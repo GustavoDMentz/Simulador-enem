@@ -19,7 +19,7 @@ test('HTTP fails closed for corrupt manifests, absent/edited graphics and unappr
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'enem-api-'));let server;
  try{
   for(const d of ['web','data/audit','data/blue-published','data/extracted/verified'])fs.mkdirSync(path.join(root,d),{recursive:true});
-  for(const file of ['audit-gate.js','published-questions.js'])fs.copyFileSync(path.resolve(__dirname,'..',file),path.join(root,'web',file));
+  for(const file of ['audit-gate.js','published-questions.js','question-presentation.js'])fs.copyFileSync(path.resolve(__dirname,'..',file),path.join(root,'web',file));
   const visual={...q,id_unico_sistema:'graphic',posicao_prova:92,conteudo:{...q.conteudo,metadados_visual:{contem_imagem:true,caminho_local_imagem:'/images/verified/test.png'}}};
   const asset=path.join(root,'data/extracted/verified/test.png');fs.writeFileSync(asset,'fixture');
   const ve={...e,id:'graphic',number:92,record_sha256:recordDigest(visual),asset_sha256:crypto.createHash('sha256').update('fixture').digest('hex')};
