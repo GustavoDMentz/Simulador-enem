@@ -1,0 +1,499 @@
+{
+  "zip_sha256": "a2efb083c95057b71f698e25cd11da031703b2f7da4bd50d3d7e8dbe82371a97",
+  "checked": 59,
+  "results": [
+    {
+      "id": "2019_AZUL_D1_Q15",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D1_Q32",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D1_Q51",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D1_Q87",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q100",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q105",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q108",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q110",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q114",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q137",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q148",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q168",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q173",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2020_AZUL_D1_Q27",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2020_AZUL_D1_Q66",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2020_AZUL_D1_Q72",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D1_Q30",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2019_AZUL_D2_Q97",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2025_AZUL_D1_Q15",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2025_AZUL_D1_Q87",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2021_AZUL_D2_Q129",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2021_AZUL_D2_Q95",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2021_AZUL_D2_Q114",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q175",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q164",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q137",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q165",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q178",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q92",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q95",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q102",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q103",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q175",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2018_AZUL_D1_Q29",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2018_AZUL_D1_Q74",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2019_AZUL_D2_Q143",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2019_AZUL_D2_Q147",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2019_AZUL_D2_Q164",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2019_AZUL_D2_Q174",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2020_AZUL_D1_Q37",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2025_AZUL_D1_Q14",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2022_AZUL_D2_Q98",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q99",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q100",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q102",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q104",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q105",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q109",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2022_AZUL_D2_Q114",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q124",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q126",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q130",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2022_AZUL_D2_Q133",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q93",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q94",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2023_AZUL_D2_Q98",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q100",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": true
+    },
+    {
+      "id": "2023_AZUL_D2_Q107",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    },
+    {
+      "id": "2023_AZUL_D2_Q115",
+      "content_digest_match": true,
+      "official_pdf_digest_match": true,
+      "official_key_digest_match": true,
+      "official_answer_match": true,
+      "graphics_restored": false
+    }
+  ],
+  "zip_size_bytes": 579094830,
+  "zip_integrity_test": "unzip -t passed",
+  "safe_source_files_extracted": 38,
+  "pending_preserved": 454,
+  "tests": {
+    "python_pytest": 66,
+    "node": 6,
+    "fused_records": 3687,
+    "fused_issues": 0,
+    "browser": {
+      "desktop_width": 1280,
+      "mobile_width": 390,
+      "questions_per_viewport": 59,
+      "correct_and_wrong_answers": true,
+      "submissions": 236,
+      "preview": 513,
+      "pending_blocked": 454,
+      "graphics": 12,
+      "javascript_errors": 0
+    }
+  }
+}

@@ -3,11 +3,10 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const PORT = 3000;
-const ARANGO_HOST = "http://localhost:8529";
-const DB_NAME = "enem";
+const PORT = Number(process.env.PORT) || 3000;
+const {scorable}=require('./audit-gate');
 
-// Parse .env from parent directory
+// Parse .env from parent directory (explicit environment variables take precedence)
 const dotenvPath = path.join(__dirname, '../.env');
 if (fs.existsSync(dotenvPath)) {
   const envContent = fs.readFileSync(dotenvPath, 'utf8');
@@ -16,27 +15,41 @@ if (fs.existsSync(dotenvPath)) {
     if (parts.length >= 2) {
       const key = parts[0].trim();
       const val = parts.slice(1).join('=').trim();
-      process.env[key] = val;
+      if (key && process.env[key] === undefined) process.env[key] = val;
     }
   });
 }
 
+const ARANGO_HOST = (process.env.ARANGO_HOST || 'http://127.0.0.1:8529').replace(/\/$/, '');
+const DB_NAME = process.env.ARANGO_DB || 'enem';
+const ARANGO_USER = process.env.ARANGO_USER || 'root';
+const ARANGO_PASSWORD = process.env.ARANGO_PASSWORD;
+
 app.use(express.json());
+
+// Isolated audited-question API; existing ArangoDB endpoints remain unchanged.
+app.use('/api/audit', require('./audit-gate').auditRouter(express));
+app.use('/api/published', require('./published-questions').publishedRouter(express));
+// Existing simulator endpoints now select the approved isolated release.
+app.use('/api', require('./published-questions').publishedRouter(express));
 
 // Servir frontend static files
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Servir imagens recortadas do diretório pipeline data
-app.use('/images', express.static('/home/gumentz/enem-pipeline/data/extracted'));
+app.use('/images', express.static(path.resolve(__dirname, '../data/extracted')));
 
 // Helper para se comunicar com o ArangoDB HTTP API
 async function arangoQuery(query, bindVars = {}) {
-  const url = `${ARANGO_HOST}/_db/${DB_NAME}/_api/cursor`;
+  if (ARANGO_PASSWORD === undefined) {
+    throw new Error('ARANGO_PASSWORD não configurada. Defina a variável de ambiente antes de iniciar o servidor.');
+  }
+  const url = `${ARANGO_HOST}/_db/${encodeURIComponent(DB_NAME)}/_api/cursor`;
   const response = await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Basic ' + Buffer.from('root:').toString('base64')
+      'Authorization': 'Basic ' + Buffer.from(`${ARANGO_USER}:${ARANGO_PASSWORD}`).toString('base64')
     },
     body: JSON.stringify({ query, bindVars })
   });
@@ -267,6 +280,7 @@ app.post('/api/questions/:id/explain', async (req, res) => {
       return res.status(404).json({ error: "Questão não encontrada." });
     }
     const q = result[0];
+    if (!scorable(q)) return res.status(409).json({error:"Questão não aprovada para correção."});
     
     // 2. Prepara o prompt para o Gemini
     const enunciado = q.conteudo.enunciado;
@@ -338,8 +352,10 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
   }
 });
 
-app.listen(PORT, () => {
+if (require.main === module) app.listen(PORT, () => {
   console.log(`============================================================`);
   console.log(`🚀 Simulador ENEM ativo em http://localhost:${PORT}`);
   console.log(`============================================================`);
 });
+
+module.exports = app;

@@ -1,0 +1,2220 @@
+{
+  "schema_version": 1,
+  "questions": [
+    {
+      "id": "2019_AZUL_D1_Q15",
+      "year": 2019,
+      "day": 1,
+      "number": 15,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "record_sha256": "fb7f88bb3f826b062b6f6c9f85352bb4300e541f5310cea191892844987fcc97",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 15,
+          "page": 9,
+          "column": "left",
+          "bbox": [
+            24,
+            537.7211303710938,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "number": null,
+          "page": 9,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            57,
+            541.9290161132812,
+            316.0159606933594
+          ],
+          "is_prefix": true
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D1_Q32",
+      "year": 2019,
+      "day": 1,
+      "number": 32,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "record_sha256": "a10a27ca9675435d2dc53bd9f41cede98245a7927cd20edd60a1e1fee044a18d",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 32,
+          "page": 15,
+          "column": "left",
+          "bbox": [
+            24,
+            461.54534912109375,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "number": null,
+          "page": 15,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            57,
+            541.9290161132812,
+            412.2198486328125
+          ],
+          "is_prefix": true
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D1_Q51",
+      "year": 2019,
+      "day": 1,
+      "number": 51,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "record_sha256": "b0eafe4f1f587fd1b2494c1dc7f7708f913f4bdaaf00a585a9e4ea7694acd4e4",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 51,
+          "page": 22,
+          "column": "left",
+          "bbox": [
+            24,
+            415.95184326171875,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D1_Q87",
+      "year": 2019,
+      "day": 1,
+      "number": 87,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "record_sha256": "012712eeb2c26cd1a75f040be8278bee9a0089481656359ec1f735e99eac96e2",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 87,
+          "page": 31,
+          "column": "left",
+          "bbox": [
+            24,
+            343.95184326171875,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q100",
+      "year": 2019,
+      "day": 2,
+      "number": 100,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "83b8ed12fea5ce51bc3f4601e7db6ab768aca4d6607c24b9a630c0b9cbeb786a",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 100,
+          "page": 4,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            377.5518493652344,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q105",
+      "year": 2019,
+      "day": 2,
+      "number": 105,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "8d246770ae87132c53ae8a4c5671cf311e989f6359a96782493dcfad7f037c76",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 105,
+          "page": 6,
+          "column": "left",
+          "bbox": [
+            24,
+            471.15185546875,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q108",
+      "year": 2019,
+      "day": 2,
+      "number": 108,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "b69c825d7c126d044e3ce89fbe2463fb184c9cf606e8b645ee8c7f8c566c7da5",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 108,
+          "page": 7,
+          "column": "left",
+          "bbox": [
+            24,
+            302.8825378417969,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q110",
+      "year": 2019,
+      "day": 2,
+      "number": 110,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "fbb45877e30a15b7c2b37dada01c2f8188f353fe21b5f1bf468b67046845f41c",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 110,
+          "page": 8,
+          "column": "left",
+          "bbox": [
+            24,
+            73,
+            542,
+            260
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q114",
+      "year": 2019,
+      "day": 2,
+      "number": 114,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "15e160ab9a2509de2f6fdf2607bbe2e7b1293afdc000c7d338c20d2abd79f833",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 114,
+          "page": 9,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            73.76284790039062,
+            541.9290161132812,
+            406.9825439453125
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q137",
+      "year": 2019,
+      "day": 2,
+      "number": 137,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "dda969bf56965729e3932f4cf1ebf6f79fb99623065b697caf56cb241a9f89f0",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 137,
+          "page": 17,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            73.76284790039062,
+            541.9290161132812,
+            338.5825500488281
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q148",
+      "year": 2019,
+      "day": 2,
+      "number": 148,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "859b27beb74fecb2f828ad8961ba3f03764bfb9e4bf649a704a1aa3230ee3f63",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 148,
+          "page": 21,
+          "column": "left",
+          "bbox": [
+            24,
+            507.1518249511719,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q168",
+      "year": 2019,
+      "day": 2,
+      "number": 168,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "8bad0f5df9068e5205ac98234c9bb2d6b243bc4530c7d317226d3d053947371f",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 168,
+          "page": 26,
+          "column": "left",
+          "bbox": [
+            24,
+            398.15093994140625,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q173",
+      "year": 2019,
+      "day": 2,
+      "number": 173,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "a942e479f3b23e783b8329e147774aa575ee974f13b533f12e7102a1b2db8b95",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 173,
+          "page": 28,
+          "column": "full",
+          "bbox": [
+            24,
+            73.76284790039062,
+            541.9290161132812,
+            282.78253173828125
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2020_AZUL_D1_Q27",
+      "year": 2020,
+      "day": 1,
+      "number": 27,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "71d28482d8c8db650f13d53f3844b06de63cc0c38aac349ca135b7b4ce8256db",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 27,
+          "page": 13,
+          "column": "left",
+          "bbox": [
+            24,
+            71.256103515625,
+            279.4645080566406,
+            587.4411010742188
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2020_AZUL_D1_Q66",
+      "year": 2020,
+      "day": 1,
+      "number": 66,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "e46558d59dc7fecddd47e663babc370accfce27dc751214f6db547f7a53bda76",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 66,
+          "page": 25,
+          "column": "full",
+          "bbox": [
+            24,
+            567.0001220703125,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2020_AZUL_D1_Q72",
+      "year": 2020,
+      "day": 1,
+      "number": 72,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "0755432aa85f01f25a17eb56f3939b65af967cda45ca8a765c625208a1658f46",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 72,
+          "page": 27,
+          "column": "left",
+          "bbox": [
+            24,
+            468.6356201171875,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2022_AZUL_D1_Q30",
+      "year": 2022,
+      "day": 1,
+      "number": 30,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc",
+      "answer_source_sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "a4a5896f4130b7f9a4f6775aec63d03b7fbc00a786d2ced201bd2dc1d63480b7",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 30,
+          "page": 14,
+          "column": "left",
+          "bbox": [
+            24,
+            502.9581604003906,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "note": "Complete source region visually compared with all fields; no essential illustration; typography normalized to plain text, mathematical superscripts retained. TRI not validated."
+    },
+    {
+      "id": "2019_AZUL_D2_Q97",
+      "year": 2019,
+      "day": 2,
+      "number": 97,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 4,
+          "bbox": [
+            24,
+            73,
+            280,
+            324
+          ]
+        }
+      ],
+      "record_sha256": "6a266084aca5d06d7770b43c73740b484564ab4f3f980e7d78bb4c3f9f1bf701"
+    },
+    {
+      "id": "2025_AZUL_D1_Q15",
+      "year": 2025,
+      "day": 1,
+      "number": 15,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 9,
+          "bbox": [
+            20,
+            76,
+            279,
+            512
+          ]
+        }
+      ],
+      "record_sha256": "11353782e1fb96c6b3c61759bec7df9ac17c5ef6c4f1c724831a5fee5d1fbf76",
+      "asset_sha256": "3512c44bd50701a9dd28dcb727374d37a1670469a5fee610c8bc39828b665dbd"
+    },
+    {
+      "id": "2025_AZUL_D1_Q87",
+      "year": 2025,
+      "day": 1,
+      "number": 87,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "page": 31,
+          "bbox": [
+            20,
+            324,
+            280,
+            515
+          ]
+        }
+      ],
+      "record_sha256": "5b33a0f4a3e47bf14c2edcbe364f55e5389c2a39954dafbbd960f12bc7564722"
+    },
+    {
+      "id": "2021_AZUL_D2_Q129",
+      "year": 2021,
+      "day": 2,
+      "number": 129,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "e4d6cdf4c747521f9ccc29dcce32aaae6efb197575aab216b6151542285dd665",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 129,
+          "page": 15,
+          "column": "left",
+          "bbox": [
+            24,
+            577.2098999023438,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D2_Q95",
+      "year": 2021,
+      "day": 2,
+      "number": 95,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "9697ffbb37044f722b57f5879aac37c2c08a65096e2aff4c6edb5926af1faf0d",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 95,
+          "page": 3,
+          "column": "left",
+          "bbox": [
+            24,
+            534.1679077148438,
+            279.5,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2021_AZUL_D2_Q114",
+      "year": 2021,
+      "day": 2,
+      "number": 114,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "85d3fa7e469d6dbb92503f79f5225440975c464543a5cdc7f6062343f89db64d",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 114,
+          "page": 9,
+          "column": "right",
+          "bbox": [
+            284.5,
+            154.86907958984375,
+            542.0,
+            347.8424987792969
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D2_Q175",
+      "year": 2022,
+      "day": 2,
+      "number": 175,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "cf148d206bb4484aa15f94f3d341716c270afc97874c5b47343b63efe9d84698",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 175,
+          "page": 30,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            238.74806213378906
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D2_Q164",
+      "year": 2022,
+      "day": 2,
+      "number": 164,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "05c54d59cc8ab41644c9027370414462506fa2c4dc23b35ad19e22b89ebb7546",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 164,
+          "page": 27,
+          "column": "left",
+          "bbox": [
+            24,
+            343.0453796386719,
+            279.4645080566406,
+            517.2611083984375
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D2_Q137",
+      "year": 2022,
+      "day": 2,
+      "number": 137,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "dc2830622b8976e674c7763e3f2d6226c7cfc30aa4694a98d2df9acfe836be4e",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 137,
+          "page": 17,
+          "column": "left",
+          "bbox": [
+            24,
+            451.95556640625,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D2_Q165",
+      "year": 2022,
+      "day": 2,
+      "number": 165,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "623cdf08d56f7c8620a848e1289d7658ef62e0bef69a62ecd42c7f7bf4b62dc2",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 165,
+          "page": 27,
+          "column": "left",
+          "bbox": [
+            24,
+            515.7611083984375,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2022_AZUL_D2_Q178",
+      "year": 2022,
+      "day": 2,
+      "number": 178,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "18906cee1f115d10dce645f5c14724a87566f55e9d71e1c0ae6bb97985f08d7e",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 178,
+          "page": 30,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            404.89923095703125,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D2_Q92",
+      "year": 2023,
+      "day": 2,
+      "number": 92,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "e078f85f0eb06cef611368addeba1d7b704c3336d0d60d040025f2cc905c6f16",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 92,
+          "page": 2,
+          "column": "left",
+          "bbox": [
+            24,
+            343.9482421875,
+            279.4645080566406,
+            525.3886108398438
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D2_Q95",
+      "year": 2023,
+      "day": 2,
+      "number": 95,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "87676dd6be0c28baf8129c3e7e8fada3713117cf183083363cc97c86e2e07b38",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 95,
+          "page": 2,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            377.348388671875,
+            541.9290161132812,
+            537.7571411132812
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D2_Q102",
+      "year": 2023,
+      "day": 2,
+      "number": 102,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "fe65c34b026aa374c83f7e1639496ea593ec335f72ced5b5c3db0f351399c8fb",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 102,
+          "page": 4,
+          "column": "left",
+          "bbox": [
+            24,
+            328.1837463378906,
+            279.4645080566406,
+            536.1605224609375
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D2_Q103",
+      "year": 2023,
+      "day": 2,
+      "number": 103,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "346b8365f5b7979a7a324fc6d156752bf2278bb4c7c6f9aa7574199457d6777d",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 103,
+          "page": 4,
+          "column": "left",
+          "bbox": [
+            24,
+            534.6605224609375,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2023_AZUL_D2_Q175",
+      "year": 2023,
+      "day": 2,
+      "number": 175,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "ff8ef70b102eeb1c4af8d959e0397f9cdc7da6a96cd2038baf32bfa2b95d6c1a",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 175,
+          "page": 29,
+          "column": "full",
+          "bbox": [
+            24,
+            493.08892822265625,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ]
+    },
+    {
+      "id": "2018_AZUL_D1_Q29",
+      "year": 2018,
+      "day": 1,
+      "number": 29,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ec8c73472ad5d64e69224abd20cd837c4ca4b58b607a3804dcac47ff4ffbe3a8",
+      "answer_source_sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+      "record_sha256": "e230a6864f9505ae9b7081ff2a69017ca26c874187dff86208e5b9ebb0c18133",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 29,
+          "page": 13,
+          "column": "left",
+          "bbox": [
+            24,
+            74.54727935791016,
+            286.5511474609375,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "149b901742fd381091b2d95052491ff467df596afb82813bd3e4ca7d6d214958",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2018_AZUL_D1_Q74",
+      "year": 2018,
+      "day": 1,
+      "number": 74,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ec8c73472ad5d64e69224abd20cd837c4ca4b58b607a3804dcac47ff4ffbe3a8",
+      "answer_source_sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+      "record_sha256": "1ef65651bae5d1bbb439ef1a8e52d845df557a3a703e2c501eb9a27e5e6c0643",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 74,
+          "page": 27,
+          "column": "left",
+          "bbox": [
+            24,
+            398.6105651855469,
+            286.5511474609375,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "number": null,
+          "page": 27,
+          "column": "right",
+          "bbox": [
+            291.5511474609375,
+            57,
+            556.102294921875,
+            217.33456420898438
+          ],
+          "is_prefix": true
+        }
+      ],
+      "asset_sha256": "06ab0728a3f67aba76ceaec845ad7d6072f8dcfab59d5b5eaca3f40b853568f0",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2019_AZUL_D2_Q143",
+      "year": 2019,
+      "day": 2,
+      "number": 143,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "3a7aaef6cebff39aafa2b9757dc1ef6155345aaa8942a545f4ab92b1eeacde74",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 143,
+          "page": 19,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            414.3518371582031,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "2fae2f192afa93412551d4ac8ec877c4aae9adab6853c47506a4cfbaf4d6ad92",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2019_AZUL_D2_Q147",
+      "year": 2019,
+      "day": 2,
+      "number": 147,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "7a4bbd51af795a119cbbc5f2d993e155e3b2c144913530059e23382839a860ca",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 147,
+          "page": 21,
+          "column": "left",
+          "bbox": [
+            24,
+            73.76284790039062,
+            279.4645080566406,
+            508.6518249511719
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "0751155eb918bda8f1a2d64e3b1744e148f493d10077c7cba3c252815389d30f",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2019_AZUL_D2_Q164",
+      "year": 2019,
+      "day": 2,
+      "number": 164,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "116a3bffcad245de3d3ff7a4ed675e9ad27e606da6ae023efba92b9065692530",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 164,
+          "page": 25,
+          "column": "left",
+          "bbox": [
+            24,
+            73.76284790039062,
+            279.4645080566406,
+            499.34564208984375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "9f211956c473fb51ab1f7c2cf782966747fcb289c5be29b9baaf31bda0946330",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2019_AZUL_D2_Q174",
+      "year": 2019,
+      "day": 2,
+      "number": 174,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "record_sha256": "ac26bfdb3cf4745fde9e212a2493fec22c3bf9091d437113b3b5818a003052a3",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 174,
+          "page": 28,
+          "column": "full",
+          "bbox": [
+            24,
+            281.28253173828125,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "cb61959bb2abae9ef790a8b4e63d9ef920526367e8e7425ad7995053a7d5c3c8",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2020_AZUL_D1_Q37",
+      "year": 2020,
+      "day": 1,
+      "number": 37,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "9e1be58486aa8fba593f066f3c4988e4183143d431aa728a424efc1ad39c52c4",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 37,
+          "page": 16,
+          "column": "left",
+          "bbox": [
+            24,
+            332.39862060546875,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "e560db7ea19cdf4997d11a1dc02160297be8c95a24ac54a7a953d69e8b0cd68a",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2025_AZUL_D1_Q14",
+      "year": 2025,
+      "day": 1,
+      "number": 14,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "record_sha256": "0b0606f1e9cbbe0a057e01b01284a6718b8bdd14416b1c0d61a46c09cadae509",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 14,
+          "page": 8,
+          "column": "right",
+          "bbox": [
+            284.4637451171875,
+            360.56719970703125,
+            541.927490234375,
+            742
+          ],
+          "is_prefix": false
+        },
+        {
+          "number": null,
+          "page": 9,
+          "column": "left",
+          "bbox": [
+            24,
+            57,
+            279.4637451171875,
+            75.69099426269531
+          ],
+          "is_prefix": true
+        }
+      ],
+      "asset_sha256": "bfef45e200da722bb6fa2f4f9fbd59a0f9c10711a050f83028a5ee8585943d89",
+      "note": "Supporting blocks preserved as lossless PDF rendering including original credits; inaccurate generated image description removed."
+    },
+    {
+      "id": "2022_AZUL_D2_Q98",
+      "year": 2022,
+      "day": 2,
+      "number": 98,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "e876c2da05c0db3161dada7a52e8d6964fb83cc5456e05c65c34ca39124a4c08",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 98,
+          "page": 4,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            388.8519287109375,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q99",
+      "year": 2022,
+      "day": 2,
+      "number": 99,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "5ff683f370b9e543f34dcb0c9b6ff0a842133fe482c5ee5a34fcb30360dc8c09",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 99,
+          "page": 5,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            393.3238830566406
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q100",
+      "year": 2022,
+      "day": 2,
+      "number": 100,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "56b145139bf3cd6bb67bc3ea52e62b757b721921da0f8a120fa6e0b8e0c61edd",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 100,
+          "page": 5,
+          "column": "left",
+          "bbox": [
+            24,
+            391.8238830566406,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q102",
+      "year": 2022,
+      "day": 2,
+      "number": 102,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "def6d6931293c70224c9763b48ade899341fbf7cc210f6209b03b943b0a903e5",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 102,
+          "page": 5,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            489.59521484375,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q104",
+      "year": 2022,
+      "day": 2,
+      "number": 104,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "14cacc087f2907205ad2925e66c37a07294ad7785814398d81cfc6d9492cd28d",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 104,
+          "page": 7,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            320.64801025390625
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q105",
+      "year": 2022,
+      "day": 2,
+      "number": 105,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "3a433f7a279f8df7d85c18d0b26441fab0cf0db42a4c4674c0106c5e49e67794",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 105,
+          "page": 7,
+          "column": "left",
+          "bbox": [
+            24,
+            319.14801025390625,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q109",
+      "year": 2022,
+      "day": 2,
+      "number": 109,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "3eb432682b7570cb57e86350dbc65d5628d91c3ac819dccbd4767c9d849481e8",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 109,
+          "page": 9,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            417.89923095703125
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "a49b9efee2d7a2c216647e8a439e9211a31cf5b9d5eb8d357c24d79411a6a7a0"
+    },
+    {
+      "id": "2022_AZUL_D2_Q114",
+      "year": 2022,
+      "day": 2,
+      "number": 114,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "424d4f3167df14fee7ce535c4a90ac427f84cac15b3a3d3efb2157496b760def",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 114,
+          "page": 10,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            62.834190368652344,
+            541.9290161132812,
+            309.8487854003906
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q124",
+      "year": 2022,
+      "day": 2,
+      "number": 124,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "e508506292e006422e5d921d9421764334df9b42e0a0a1bf9037c59957dc3fa9",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 124,
+          "page": 13,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            62.834190368652344,
+            541.9290161132812,
+            341.1826171875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q126",
+      "year": 2022,
+      "day": 2,
+      "number": 126,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "8f69a845d9e127b312be22780e661277ae1a2fe9aef125ac1c89c3ca6754803f",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 126,
+          "page": 14,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            260.3480224609375
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q130",
+      "year": 2022,
+      "day": 2,
+      "number": 130,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "386b73e433c10e900df6505c3294d5b08e9d996cd36f02d5c38afd80d367f227",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 130,
+          "page": 14,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            523.773193359375,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2022_AZUL_D2_Q133",
+      "year": 2022,
+      "day": 2,
+      "number": 133,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "059dad94521cd95ff18cf09a8db81e4e1cca605989e2bd69b1351f41de19cde6",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 133,
+          "page": 16,
+          "column": "left",
+          "bbox": [
+            24,
+            62.834190368652344,
+            279.4645080566406,
+            368.6173095703125
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2023_AZUL_D2_Q93",
+      "year": 2023,
+      "day": 2,
+      "number": 93,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "955053e150a66c189b0db7120ded9d089dcd85f642ff437dd7f19abead1c94b9",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 93,
+          "page": 2,
+          "column": "left",
+          "bbox": [
+            24,
+            523.8886108398438,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2023_AZUL_D2_Q94",
+      "year": 2023,
+      "day": 2,
+      "number": 94,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "dcda04d074668cfc5d0e783b9ca1ca57eae2f1489f2f352f86baff57892d946d",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 94,
+          "page": 2,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            62.834190368652344,
+            541.9290161132812,
+            378.848388671875
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "898cb2ddccab5ab102ed6d97b9f2b60f61221a40039f9461cba5571f0f6ce213"
+    },
+    {
+      "id": "2023_AZUL_D2_Q98",
+      "year": 2023,
+      "day": 2,
+      "number": 98,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "a29caba29607bf89d8477d85f47642b505f4b21136cf8dc7e2e26d6cc7a25469",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 98,
+          "page": 3,
+          "column": "left",
+          "bbox": [
+            24,
+            311.75457763671875,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2023_AZUL_D2_Q100",
+      "year": 2023,
+      "day": 2,
+      "number": 100,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "a9d2675d14e2a0a5c6c29561c84ac08b86a2194185dfd271d68bf5037d55f2f2",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 100,
+          "page": 3,
+          "column": "right",
+          "bbox": [
+            284.4645080566406,
+            328.5826110839844,
+            541.9290161132812,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": "b3559b1013ad3b74f6b26ebaf9c3ecf8ea5be1ce990835a13e69d585f80a5275"
+    },
+    {
+      "id": "2023_AZUL_D2_Q107",
+      "year": 2023,
+      "day": 2,
+      "number": 107,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "20100ed2969c3da3e95411bc8c4120a33c077246d8a203c118200fa3f70d3088",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 107,
+          "page": 5,
+          "column": "left",
+          "bbox": [
+            24,
+            384.48663330078125,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    },
+    {
+      "id": "2023_AZUL_D2_Q115",
+      "year": 2023,
+      "day": 2,
+      "number": 115,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+      "answer_source_sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+      "record_sha256": "ea2a6450846a93d6444f54e2c23b1fa831afb3d9163047112d2e06e7d576ecef",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "reviewed_at": "2026-10-25",
+      "reviewer": "independent visual comparison in ChatGPT Work",
+      "regions": [
+        {
+          "number": 115,
+          "page": 8,
+          "column": "left",
+          "bbox": [
+            24,
+            527.3700561523438,
+            279.4645080566406,
+            742
+          ],
+          "is_prefix": false
+        }
+      ],
+      "asset_sha256": null
+    }
+  ]
+}

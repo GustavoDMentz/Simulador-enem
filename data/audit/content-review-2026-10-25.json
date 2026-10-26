@@ -1,0 +1,1265 @@
+{
+  "corrections": [
+    {
+      "year": 2019,
+      "day": 1,
+      "position": 15,
+      "before": {
+        "enunciado": "A função da linguagem que predomina nesse texto se caracteriza por",
+        "texto_base": "O Instituto de Arte de Chicago disponibilizou para visualização on-line, compartilhamento ou download (sob licença Creative Commons) 44 mil imagens de obras de arte em altíssima resolução, além de livros, estudos e pesquisas sobre a história da arte. Para o historiador da arte, Bendor Grosvenor, o sucesso das coleções on-line de acesso aberto, além de democratizar a arte, vem ajudando a formar um novo público museológico. Grosvenor acredita que quanto mais pessoas forem expostas à arte on-line, mais visitas pessoais acontecerão aos museus. A coleção está disponível em seis categorias: paisagens urbanas, impressionismo, essenciais, arte africana, moda e animais. Também é possível pesquisar pelo nome da obra, estilo, autor ou período. Para navegar pela imagem em alta definição, basta clicar sobre ela e utilizar a ferramenta de zoom. Para fazer o download, disponível para obras de domínio público, é preciso utilizar a seta localizada do lado inferior direito da imagem. Disponível em: www.revistabula.com. Acesso em: 5 dez. 2018 (adaptado).",
+        "alternativas": {
+          "A": "evidenciar a subjetividade da reportagem com base na fala do historiador de arte.",
+          "B": "convencer o leitor a fazer o acesso on-line, levando-o a conhecer as obras de arte.",
+          "C": "informar sobre o acesso às imagens por meio da descrição do modo como acessá-las.",
+          "D": "estabelecer interlocução com o leitor, orientando-o a fazer o download das obras de arte.",
+          "E": "enaltecer a arte, buscando popularizá-la por meio da possibilidade de visualização on-line."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "A função da linguagem que predomina nesse texto se caracteriza por",
+        "texto_base": "O Instituto de Arte de Chicago disponibilizou para visualização on-line, compartilhamento ou download (sob licença Creative Commons), 44 mil imagens de obras de arte em altíssima resolução, além de livros, estudos e pesquisas sobre a história da arte. Para o historiador da arte, Bendor Grosvenor, o sucesso das coleções on-line de acesso aberto, além de democratizar a arte, vem ajudando a formar um novo público museológico. Grosvenor acredita que quanto mais pessoas forem expostas à arte on-line, mais visitas pessoais acontecerão aos museus. A coleção está disponível em seis categorias: paisagens urbanas, impressionismo, essenciais, arte africana, moda e animais. Também é possível pesquisar pelo nome da obra, estilo, autor ou período. Para navegar pela imagem em alta definição, basta clicar sobre ela e utilizar a ferramenta de zoom. Para fazer o download, disponível para obras de domínio público, é preciso utilizar a seta localizada do lado inferior direito da imagem. Disponível em: www.revistabula.com. Acesso em: 5 dez. 2018 (adaptado).",
+        "alternativas": {
+          "A": "evidenciar a subjetividade da reportagem com base na fala do historiador de arte.",
+          "B": "convencer o leitor a fazer o acesso on-line, levando-o a conhecer as obras de arte.",
+          "C": "informar sobre o acesso às imagens por meio da descrição do modo como acessá-las.",
+          "D": "estabelecer interlocução com o leitor, orientando-o a fazer o download das obras de arte.",
+          "E": "enaltecer a arte, buscando popularizá-la por meio da possibilidade de visualização on-line."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 1,
+      "position": 32,
+      "before": {
+        "enunciado": "Para convencer o leitor de que o exercício físico é importante, o autor usa a estratégia de divulgar que",
+        "texto_base": "Emagrecer sem exercício? Hormônio aumenta a esperança de perder gordura sem sair do sofá. A solução viria em cápsulas. O sonho dos sedentários ganhou novo aliado. Um estudo publicado na revista científica Nature, em janeiro, sugere que é possível modificar a gordura corporal sem fazer exercício. Pesquisadores do Dana-Farber Cancer Institute e da Escola de Medicina de Harvard, nos EUA, isolaram em laboratório a irisina, hormônio naturalmente produzido pelas células musculares durante os exercícios aeróbicos, como caminhada, corrida ou pedalada. A substância foi aplicada em ratos e agiu como se eles tivessem se exercitado, inclusive com efeito protetor contra o diabetes. O segredo foi a conversão de gordura branca — aquela que estoca energia inerte e estraga nossa silhueta — em marrom. Mais comum em bebês, e praticamente inexistente em adultos, esse tipo de gordura serve para nos aquecer. E, nesse processo, gasta uma energia tremenda. Como efeito colateral, afinaria nossa silhueta. A expectativa é que, se o hormônio funcionar da mesma forma em humanos, surja em breve um novo medicamento para emagrecer. Mas ele estaria longe de substituir por completo os benefícios da atividade física. 'Possivelmente existem muitos outros hormônios musculares liberados durante o exercício, e ainda não descobertos', diz o fisiologista Paul Coen, professor assistente da Universidade de Pittsburgh, nos EUA. A irisina não fortalece os músculos, por exemplo. E para ficar com aquele tríceps de fazer inveja só o levantamento de controle remoto não daria conta. LIMA, F. Galileu. São Paulo, n. 248, mar. 2012.",
+        "alternativas": {
+          "A": "a falta de exercício físico não emagrece e desenvolve doenças.",
+          "B": "se trata de uma forma de transformar a gordura branca em marrom e de emagrecer.",
+          "C": "a irisina é um hormônio que apenas é produzido com o exercício físico.",
+          "D": "o exercício é uma forma de afinar a silhueta por eliminar a gordura branca.",
+          "E": "se produzem outros hormônios e há outros benefícios com o exercício."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Para convencer o leitor de que o exercício físico é importante, o autor usa a estratégia de divulgar que",
+        "texto_base": "Emagrecer sem exercício? Hormônio aumenta a esperança de perder gordura sem sair do sofá. A solução viria em cápsulas. O sonho dos sedentários ganhou novo aliado. Um estudo publicado na revista científica Nature, em janeiro, sugere que é possível modificar a gordura corporal sem fazer exercício. Pesquisadores do Dana-Farber Cancer Institute e da Escola de Medicina de Harvard, nos EUA, isolaram em laboratório a irisina, hormônio naturalmente produzido pelas células musculares durante os exercícios aeróbicos, como caminhada, corrida ou pedalada. A substância foi aplicada em ratos e agiu como se eles tivessem se exercitado, inclusive com efeito protetor contra o diabetes. O segredo foi a conversão de gordura branca — aquela que estoca energia inerte e estraga nossa silhueta — em marrom. Mais comum em bebês, e praticamente inexistente em adultos, esse tipo de gordura serve para nos aquecer. E, nesse processo, gasta uma energia tremenda. Como efeito colateral, afinaria nossa silhueta. A expectativa é que, se o hormônio funcionar da mesma forma em humanos, surja em breve um novo medicamento para emagrecer. Mas ele estaria longe de substituir por completo os benefícios da atividade física. “Possivelmente existem muitos outros hormônios musculares liberados durante o exercício e ainda não descobertos”, diz o fisiologista Paul Coen, professor assistente da Universidade de Pittsburgh, nos EUA. A irisina não fortalece os músculos, por exemplo. E para ficar com aquele tríceps de fazer inveja só o levantamento de controle remoto não daria conta. LIMA, F. Galileu. São Paulo, n. 248, mar. 2012.",
+        "alternativas": {
+          "A": "a falta de exercício físico não emagrece e desenvolve doenças.",
+          "B": "se trata de uma forma de transformar a gordura branca em marrom e de emagrecer.",
+          "C": "a irisina é um hormônio que apenas é produzido com o exercício físico.",
+          "D": "o exercício é uma forma de afinar a silhueta por eliminar a gordura branca.",
+          "E": "se produzem outros hormônios e há outros benefícios com o exercício."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 1,
+      "position": 51,
+      "before": {
+        "enunciado": "O sentido geral e fundamental do Direito, conforme foi destacado, refere-se à",
+        "texto_base": "Em sentido geral e fundamental, Direito é a técnica da coexistência humana, isto é, a técnica voltada a tornar possível a coexistência dos homens. Como técnica, o Direito se concretiza em um conjunto de regras (que, nesse caso, são leis ou normas) e tais regras têm por objeto o comportamento intersubjetivo, isto é, o comportamento recíproco dos homens entre si.ABBAGNANO, N. Dicionário de filosofia. São Paulo: Martins Fontes, 2007.",
+        "alternativas": {
+          "A": "aplicação de códigos legais.",
+          "B": "regulação do convívio social.",
+          "C": "legitimação de decisões políticas.",
+          "D": "mediação de conflitos econômicos.",
+          "E": "representação da autoridade constituída."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "O sentido geral e fundamental do Direito, conforme foi destacado, refere-se à",
+        "texto_base": "Em sentido geral e fundamental, Direito é a técnica da coexistência humana, isto é, a técnica voltada a tornar possível a coexistência dos homens. Como técnica, o Direito se concretiza em um conjunto de regras (que, nesse caso, são leis ou normas); e tais regras têm por objeto o comportamento intersubjetivo, isto é, o comportamento recíproco dos homens entre si. ABBAGNANO, N. Dicionário de Filosofia. São Paulo: Martins Fontes, 2007.",
+        "alternativas": {
+          "A": "aplicação de códigos legais.",
+          "B": "regulação do convívio social.",
+          "C": "legitimação de decisões políticas.",
+          "D": "mediação de conflitos econômicos.",
+          "E": "representação da autoridade constituída."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 1,
+      "position": 87,
+      "before": {
+        "enunciado": "A estratégia defendida no texto para reduzir o problema social apontado consiste em:",
+        "texto_base": "O Ministério do Trabalho e Emprego (MTE) realizou 248 ações fiscais e resgatou um total de 1 590 trabalhadores da situação análoga à de escravo, em 2014, em todo o país. A análise do enfrentamento do trabalho em condições análogas às de escravo materializa a efetivação de parcerias inéditas no trato da questão, podendo ser referenciadas ações fiscais realizadas com o Ministério da Defesa, Exército Brasileiro, Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) e Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).Disponível em: http://portal.mte.gov.br. Acesso em: 4 fev. 2015 (adaptado).",
+        "alternativas": {
+          "A": "Articular os órgãos públicos.",
+          "B": "Pressionar o Poder Legislativo.",
+          "C": "Ampliar a emissão das multas.",
+          "D": "Limitar a autonomia das empresas.",
+          "E": "Financiar as pesquisas acadêmicas."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "A estratégia defendida no texto para reduzir o problema social apontado consiste em:",
+        "texto_base": "O Ministério do Trabalho e Emprego (MTE) realizou 248 ações fiscais e resgatou um total de 1 590 trabalhadores da situação análoga à de escravo, em 2014, em todo o país. A análise do enfrentamento do trabalho em condições análogas às de escravo materializa a efetivação de parcerias inéditas no trato da questão, podendo ser referenciadas ações fiscais realizadas com o Ministério da Defesa, Exército Brasileiro, Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) e Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio). Disponível em: http://portal.mte.gov.br. Acesso em: 4 fev. 2015 (adaptado).",
+        "alternativas": {
+          "A": "Articular os órgãos públicos.",
+          "B": "Pressionar o Poder Legislativo.",
+          "C": "Ampliar a emissão das multas.",
+          "D": "Limitar a autonomia das empresas.",
+          "E": "Financiar as pesquisas acadêmicas."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 108,
+      "before": {
+        "enunciado": "Ao se escrever a fórmula de Lewis do composto de xenônio citado, quantos elétrons na camada de valência haverá no átomo do gás nobre?",
+        "texto_base": "Por terem camada de valência completa, alta energia de ionização e afinidade eletrônica praticamente nula, considerou-se por muito tempo que os gases nobres não formariam compostos químicos. Porém, em 1962, foi realizada com sucesso a reação entre o xenônio (camada de valência 5s²5p⁶) e o hexafluoreto de platina e, desde então, mais compostos novos de gases nobres vêm sendo sintetizados. Tais compostos demonstram que não se pode aceitar acriticamente a regra do octeto, na qual se considera que, numa ligação química, os átomos tendem a adquirir estabilidade assumindo a configuração eletrônica de gás nobre. Dentre os compostos conhecidos, um dos mais estáveis é o difluoreto de xenônio, no qual dois átomos do halogênio flúor (camada de valência 2s²2p⁵) se ligam covalentemente ao átomo de gás nobre para ficarem com oito elétrons de valência.",
+        "alternativas": {
+          "A": "6",
+          "B": "8",
+          "C": "10",
+          "D": "12",
+          "E": "14"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Ao se escrever a fórmula de Lewis do composto de xenônio citado, quantos elétrons na camada de valência haverá no átomo do gás nobre?",
+        "texto_base": "Por terem camada de valência completa, alta energia de ionização e afinidade eletrônica praticamente nula, considerou-se por muito tempo que os gases nobres não formariam compostos químicos. Porém, em 1962, foi realizada com sucesso a reação entre o xenônio (camada de valência 5s25p6) e o hexafluoreto de platina e, desde então, mais compostos novos de gases nobres vêm sendo sintetizados. Tais compostos demonstram que não se pode aceitar acriticamente a regra do octeto, na qual se considera que, numa ligação química, os átomos tendem a adquirir estabilidade assumindo a configuração eletrônica de gás nobre. Dentre os compostos conhecidos, um dos mais estáveis é o difluoreto de xenônio, no qual dois átomos do halogênio flúor (camada de valência 2s22p5) se ligam covalentemente ao átomo de gás nobre para ficarem com oito elétrons de valência.",
+        "alternativas": {
+          "A": "6",
+          "B": "8",
+          "C": "10",
+          "D": "12",
+          "E": "14"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 110,
+      "before": {
+        "enunciado": "Hoje, sabe-se que isso nem sempre é verdade. Por quê?",
+        "texto_base": "Com base nos experimentos de plantas de Mendel, foram estabelecidos três princípios básicos, que são conhecidos como leis da uniformidade, segregação e distribuição independente. A lei da distribuição independente refere-se ao fato de que os membros de pares diferentes de genes segregam-se independentemente, uns dos outros, para a prole.TURNPENNY, P. D. Genética médica. Rio de Janeiro: Elsevier, 2009 (adaptado).",
+        "alternativas": {
+          "A": "A distribuição depende do caráter de dominância ou recessividade do gene.",
+          "B": "Os organismos nem sempre herdam cada um dos genes de cada um dos genitores.",
+          "C": "As alterações cromossômicas podem levar a falhas na segregação durante a meiose.",
+          "D": "Os genes localizados fisicamente próximos no mesmo cromossomo tendem a ser herdados juntos.",
+          "E": "O cromossomo que contém dois determinados genes pode não sofrer a disjunção na primeira fase da meiose."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Hoje, sabe-se que isso nem sempre é verdade. Por quê?",
+        "texto_base": "Com base nos experimentos de plantas de Mendel, foram estabelecidos três princípios básicos, que são conhecidos como leis da uniformidade, segregação e distribuição independente. A lei da distribuição independente refere-se ao fato de que os membros de pares diferentes de genes segregam-se independentemente, uns dos outros, para a prole. TURNPENNY, P. D. Genética médica. Rio de Janeiro: Elsevier, 2009 (adaptado).",
+        "alternativas": {
+          "A": "A distribuição depende do caráter de dominância ou recessividade do gene.",
+          "B": "Os organismos nem sempre herdam cada um dos genes de cada um dos genitores.",
+          "C": "As alterações cromossômicas podem levar a falhas na segregação durante a meiose.",
+          "D": "Os genes localizados fisicamente próximos no mesmo cromossomo tendem a ser herdados juntos.",
+          "E": "O cromossomo que contém dois determinados genes pode não sofrer a disjunção na primeira fase da meiose."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 137,
+      "before": {
+        "enunciado": "A Hydrangea macrophylla é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada. Em solo ácido (ou seja, com pH < 7), a flor é azul, enquanto que em solo alcalino (ou seja, com pH > 7) a flor é rosa. Considere que a Hydrangea cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8. Sabe-se que pH = -log₁₀x, em que x é a concentração de íon hidrogênio (H⁺).Para produzir a Hydrangea cor-de-rosa de maior valor comercial, deve-se preparar o solo de modo que x assuma",
+        "texto_base": "",
+        "alternativas": {
+          "A": "qualquer valor acima de 10⁻⁸.",
+          "B": "qualquer valor positivo inferior a 10⁻⁷.",
+          "C": "valores maiores que 7 e menores que 8.",
+          "D": "valores maiores que 70 e menores que 80.",
+          "E": "valores maiores que 10⁻⁸ e menores que 10⁻⁷."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "A Hydrangea macrophylla é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada. Em solo ácido (ou seja, com pH < 7), a flor é azul, enquanto que em solo alcalino (ou seja, com pH > 7) a flor é rosa. Considere que a Hydrangea cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8. Sabe-se que pH = -log₁₀x, em que x é a concentração de íon hidrogênio (H⁺).\n\nPara produzir a Hydrangea cor-de-rosa de maior valor comercial, deve-se preparar o solo de modo que x assuma",
+        "texto_base": "",
+        "alternativas": {
+          "A": "qualquer valor acima de 10⁻⁸.",
+          "B": "qualquer valor positivo inferior a 10⁻⁷.",
+          "C": "valores maiores que 7 e menores que 8.",
+          "D": "valores maiores que 70 e menores que 80.",
+          "E": "valores maiores que 10⁻⁸ e menores que 10⁻⁷."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 148,
+      "before": {
+        "enunciado": "Para esse banho, o número mínimo de embalagens desse cosmético é",
+        "texto_base": "O rótulo da embalagem de um cosmético informa que a dissolução de seu conteúdo, de acordo com suas especificações, rende 2,7 litros desse produto pronto para o uso. Uma pessoa será submetida a um tratamento estético em que deverá tomar um banho de imersão com esse produto, numa banheira com capacidade de 0,3 m³. Para evitar o transbordamento, essa banheira será preenchida em 80% de sua capacidade.",
+        "alternativas": {
+          "A": "9.",
+          "B": "12.",
+          "C": "89.",
+          "D": "112.",
+          "E": "134."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Para esse banho, o número mínimo de embalagens desse cosmético é",
+        "texto_base": "O rótulo da embalagem de um cosmético informa que a dissolução de seu conteúdo, de acordo com suas especificações, rende 2,7 litros desse produto pronto para o uso. Uma pessoa será submetida a um tratamento estético em que deverá tomar um banho de imersão com esse produto numa banheira com capacidade de 0,3 m3. Para evitar o transbordamento, essa banheira será preenchida em 80% de sua capacidade.",
+        "alternativas": {
+          "A": "9.",
+          "B": "12.",
+          "C": "89.",
+          "D": "112.",
+          "E": "134."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "day": 1,
+      "position": 27,
+      "before": {
+        "enunciado": "É comum coexistirem sequências tipológicas em um mesmo gênero textual. Nesse fragmento, os tipos textuais que se destacam na organização temática são",
+        "texto_base": "Caminhando contra o vento,Sem lenço e sem documentoNo sol de quase dezembroEu vouO sol se reparte em crimesEspaconaves, guerrilhasEm cardeais bonitasEu vouEm caras de presidentesEm grandes beijos de amorEm bocas, pernas, bandeirasBombas e Brigitte BardotO sol nas bancas de revistaMe enche de alegria e preguiçaQuem lê tanta notíciaEu vouVELOSO, C. Alegria, alegria. In: Caetano Veloso.São Paulo: Philips, 1967 (fragmento).",
+        "alternativas": {
+          "A": "descritivo e argumentativo, pois o enunciador detalha cada lugar por onde passa, argumentando contra a violência urbana.",
+          "B": "dissertativo e argumentativo, pois o enunciador apresenta seu ponto de vista sobre as notícias relativas à cidade.",
+          "C": "expositivo e injuntivo, pois o enunciador fala de seus estados físicos e psicológicos e interage com a mulher amada.",
+          "D": "narrativo e descritivo, pois o enunciador conta sobre suas andanças pelas ruas da cidade ao mesmo tempo que a descreve.",
+          "E": "narrativo e injuntivo, pois o enunciador ensina o interlocutor como andar pelas ruas da cidade contando sobre sua própria experiência."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "É comum coexistirem sequências tipológicas em um mesmo gênero textual. Nesse fragmento, os tipos textuais que se destacam na organização temática são",
+        "texto_base": "Caminhando contra o vento,\nSem lenço e sem documento\nNo sol de quase dezembro\nEu vou\nO sol se reparte em crimes\nEspaçonaves, guerrilhas\nEm cardinales bonitas\nEu vou\nEm caras de presidentes\nEm grandes beijos de amor\nEm dentes, pernas, bandeiras\nBombas e Brigitte Bardot\nO sol nas bancas de revista\nMe enche de alegria e preguiça\nQuem lê tanta notícia\nEu vou\nVELOSO, C. Alegria, alegria. In: Caetano Veloso. \nSão Paulo: Phillips, 1967 (fragmento).",
+        "alternativas": {
+          "A": "descritivo e argumentativo, pois o enunciador detalha cada lugar por onde passa, argumentando contra a violência urbana.",
+          "B": "dissertativo e argumentativo, pois o enunciador apresenta seu ponto de vista sobre as notícias relativas à cidade.",
+          "C": "expositivo e injuntivo, pois o enunciador fala de seus estados físicos e psicológicos e interage com a mulher amada.",
+          "D": "narrativo e descritivo, pois o enunciador conta sobre suas andanças pelas ruas da cidade ao mesmo tempo que a descreve.",
+          "E": "narrativo e injuntivo, pois o enunciador ensina o interlocutor como andar pelas ruas da cidade contando sobre sua própria experiência."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "day": 1,
+      "position": 66,
+      "before": {
+        "enunciado": "A característica apresentada dessa manifestação popular resulta do seguinte processo socio-histórico:",
+        "texto_base": "Um dos resquícios franceses na dança são os comandos proferidos pelo marcador da quadrilha. Seu papel é anunciar os próximos passos da coreografia. O abrasileiramento de termos franceses deu origem, por exemplo, ao saruê (soirée — reunião social noturna, ordem para todos se juntarem no centro do salão), anarriê (en arrière — para trás) e anavã (en avant — para frente).Disponível em: www.ebc.com.br. Acesso em: 6 jul. 2015.",
+        "alternativas": {
+          "A": "Massificação da arte erudita.",
+          "B": "Rejeição de hábitos elitistas.",
+          "C": "Laicização dos rituais religiosos.",
+          "D": "Restauração dos costumes antigos.",
+          "E": "Apropriação de práticas estrangeiras."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "A característica apresentada dessa manifestação popular resulta do seguinte processo socio-histórico:",
+        "texto_base": "Um dos resquícios franceses na dança são os comandos proferidos pelo marcador da quadrilha. Seu papel é anunciar os próximos passos da coreografia. O abrasileiramento de termos franceses deu origem, por exemplo, ao saruê (soirée — reunião social noturna, ordem para todos se juntarem no centro do salão), anarriê (en arrière — para trás) e anavã (en avant — para frente). Disponível em: www.ebc.com.br. Acesso em: 6 jul. 2015.",
+        "alternativas": {
+          "A": "Massificação da arte erudita.",
+          "B": "Rejeição de hábitos elitistas.",
+          "C": "Laicização dos rituais religiosos.",
+          "D": "Restauração dos costumes antigos.",
+          "E": "Apropriação de práticas estrangeiras."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "day": 1,
+      "position": 72,
+      "before": {
+        "enunciado": "O novo gênero de escrita aludido no texto é o(a)",
+        "texto_base": "Montaigne deu o nome para um novo gênero literário; foi dos primeiros a instituir na literatura moderna um espaço privado, o espaço do \"eu\", do texto íntimo. Ele cria um novo processo de escrita filosófica, no qual hesitações, autocríticas, correções entram no próprio texto.COELHO, M. Montaigne. São Paulo: Publifolha, 2001 (adaptado).",
+        "alternativas": {
+          "A": "confissão, que relata experiências de transformação.",
+          "B": "ensaio, que expõe concepções subjetivas de um tema.",
+          "C": "carta, que comunica informações para um conhecido.",
+          "D": "meditação, que propõe preparações para o conhecimento.",
+          "E": "diálogo, que discute assuntos com diferentes interlocutores."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "O novo gênero de escrita aludido no texto é o(a)",
+        "texto_base": "Montaigne deu o nome para um novo gênero literário; foi dos primeiros a instituir na literatura moderna um espaço privado, o espaço do “eu”, do texto íntimo. Ele cria um novo processo de escrita filosófica, no qual hesitações, autocríticas, correções entram no próprio texto. COELHO, M. Montaigne. São Paulo: Publifolha, 2001 (adaptado).",
+        "alternativas": {
+          "A": "confissão, que relata experiências de transformação.",
+          "B": "ensaio, que expõe concepções subjetivas de um tema.",
+          "C": "carta, que comunica informações para um conhecido.",
+          "D": "meditação, que propõe preparações para o conhecimento.",
+          "E": "diálogo, que discute assuntos com diferentes interlocutores."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "day": 1,
+      "position": 30,
+      "before": {
+        "enunciado": "No trecho do romance naturalista, a forma como o narrador julga comportamentos e emoções das personagens femininas revela influência do pensamento",
+        "texto_base": "Esaú e Jacó\n\nBárbara entrou, enquanto o pai pegou da viola e passou ao patamar de pedra, à porta da esquerda. Era uma criatura leve e breve, saia rendada, chinelinha no pé. Não lhe ponho cabeça em corpo airoso. Os cabelos, apanhados no alto da cabeça por um pedaço de fita enxovalhada, faziam-lhe um sólido natural, cuja borla era supérflua por um raminho de arruda. Já vai nisto um pouco de sacerdócio. O mistério estava nos olhos. Estes eram opacos, não sempre nem tanto que não fossem também lúcidos e agudos, e neste último estado eram igualmente compridos. São compridos e tão agudos que travavam pela gente abaixo, revolviam o coração e tornavam cá fora, prontos para nova entrada e outro revolvimento. Não se miúdo dizendo que as duas sentiram tal ou qual fascinação. Bárbara interrogava-os. Naturalmente, disse do que vinha e entregou-lhe os retratos dos filhos e os cabelos cortados, por lhe haverem dito que bastava.\n\n— Basta, confirmou Bárbara. Os meninos são seus filhos?\n— São.\n\nASSIS, M. Obra completa. Rio de Janeiro: Nova Aguilar, 1994.",
+        "alternativas": {
+          "A": "capitalista, marcado pela distribuição funcional do trabalho.",
+          "B": "liberal, buscando a igualdade entre pessoas escravizadas e livres.",
+          "C": "científico, considerando o ser humano como um fenômeno biológico.",
+          "D": "religioso, fundamentado na fé e na aceitação dos dogmas do cristianismo.",
+          "E": "afetivo, manifesto na determinação de acolher familiares e no respeito mútuo."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "No trecho do romance naturalista, a forma como o narrador julga comportamentos e emoções das personagens femininas revela influência do pensamento",
+        "texto_base": "A senhora manifestava-se por atos, por gestos, e sobretudo por um certo silêncio, que amargava, que esfolava. Porém desmoralizar escancaradamente o marido, não era com ela. [...] As negras receberam ordem para meter no serviço a gente do tal compadre Silveira: as cunhadas, ao fuso; os cunhados, ao campo, tratar do gado com os vaqueiros; a mulher e as irmãs, que se ocupassem da ninhada. Margarida não tivera filhos, e como os desejasse com a força de suas vontades, tratava sempre bem aos pequenitos e às mães que os estavam criando. Não era isso uma sentimentalidade cristã, uma ternura, era o egoísta e cru instinto da maternidade, obrando por mera simpatia carnal. Quanto ao pai do lote (referia-se ao Antônio), esse que fosse ajudar ao vaqueiro das bestas. Ordens dadas, o Quinquim referendava. Cada um moralizava o outro, para moralizar-se. PAIVA, M. O. Dona Guidinha do Poço. Rio de Janeiro: Tecnoprint, s/d.",
+        "alternativas": {
+          "A": "capitalista, marcado pela distribuição funcional do trabalho.",
+          "B": "liberal, buscando a igualdade entre pessoas escravizadas e livres.",
+          "C": "científico, considerando o ser humano como um fenômeno biológico.",
+          "D": "religioso, fundamentado na fé e na aceitação dos dogmas do cristianismo.",
+          "E": "afetivo, manifesto na determinação de acolher familiares e no respeito mútuo."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "day": 2,
+      "position": 137,
+      "before": {
+        "enunciado": "Qual é a probabilidade de o time campeão ser aquele que venceu a primeira partida da World Series?",
+        "texto_base": "A World Series é a decisão do campeonato norte-americano de beisebol. Os dois times que chegam a essa fase jogam, entre si, até sete partidas. O primeiro desses times que completar quatro vitórias é declarado campeão.Considere que, em todas as partidas, a probabilidade de qualquer um dos dois times vencer é sempre 1/2.",
+        "alternativas": {
+          "A": "35/64",
+          "B": "40/64",
+          "C": "42/64",
+          "D": "44/64",
+          "E": "52/64"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual é a probabilidade de o time campeão ser aquele que venceu a primeira partida da World Series?",
+        "texto_base": "A World Series é a decisão do campeonato norte-americano de beisebol. Os dois times que chegam a essa fase jogam, entre si, até sete partidas. O primeiro desses times que completar quatro vitórias é declarado campeão.\n\nConsidere que, em todas as partidas, a probabilidade de qualquer um dos dois times vencer é sempre 1/2.",
+        "alternativas": {
+          "A": "35/64",
+          "B": "40/64",
+          "C": "42/64",
+          "D": "44/64",
+          "E": "52/64"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "day": 2,
+      "position": 165,
+      "before": {
+        "enunciado": "Definem-se o dia e o ano de um planeta de um sistema solar como sendo, respectivamente, o tempo que o planeta leva para dar 1 volta completa em torno de seu próprio eixo de rotação e o tempo para dar 1 volta completa em torno de seu Sol.Suponha que exista um planeta Z, em algum sistema solar, onde um dia corresponda a 73 dias terrestres e que 2 de seus anos correspondam a 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias.No planeta Z, seu ano corresponderia a quantos de seus dias?",
+        "texto_base": "",
+        "alternativas": {
+          "A": "2,5",
+          "B": "10,0",
+          "C": "730,0",
+          "D": "13 322,5",
+          "E": "53 290,0"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Definem-se o dia e o ano de um planeta de um sistema solar como sendo, respectivamente, o tempo que o planeta leva para dar 1 volta completa em torno de seu próprio eixo de rotação e o tempo para dar 1 volta completa em torno de seu Sol.\n\nSuponha que exista um planeta Z, em algum sistema solar, onde um dia corresponda a 73 dias terrestres e que 2 de seus anos correspondam a 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias.\n\nNo planeta Z, seu ano corresponderia a quantos de seus dias?",
+        "texto_base": "",
+        "alternativas": {
+          "A": "2,5",
+          "B": "10,0",
+          "C": "730,0",
+          "D": "13 322,5",
+          "E": "53 290,0"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 95,
+      "before": {
+        "enunciado": "As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e patos selvagens têm os músculos vermelhos bem desenvolvidos, com ampla rede de vasos sanguíneos. Nas viagens por grandes distâncias, tais músculos são fundamentais, pois favorecem o(a)",
+        "texto_base": "",
+        "alternativas": {
+          "A": "execução de manobras.",
+          "B": "metabolismo corpóreo elevado.",
+          "C": "manutenção da ectotermia.",
+          "D": "deslocamento a grandes velocidades.",
+          "E": "capacidade de voo em grandes altitudes."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e patos selvagens têm os músculos vermelhos bem desenvolvidos, com ampla rede de vasos sanguíneos. Nas viagens por grandes distâncias, tais músculos são fundamentais, pois favorecem o(a)",
+        "texto_base": "",
+        "alternativas": {
+          "A": "execução de manobras.",
+          "B": "metabolismo corpóreo elevado.",
+          "C": "manutenção da aerodinâmica.",
+          "D": "deslocamento a grandes velocidades.",
+          "E": "capacidade de voo em grandes altitudes."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 103,
+      "before": {
+        "enunciado": "Qual estrutura possibilitou a independência da água para a fecundação dos seres vivos citados acima?",
+        "texto_base": "Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgimento de algumas estruturas que as tornaram independentes da água. Esse fato permitiu maior dispersão desse grupo de seres vivos, sendo possível observá-los em diferentes ambientes na atualidade.",
+        "alternativas": {
+          "A": "Fruto.",
+          "B": "Semente.",
+          "C": "Esporo.",
+          "D": "Tubo polínico.",
+          "E": "Vaso condutor."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual estrutura possibilitou a independência da água para a fecundação dos seres vivos citados acima?",
+        "texto_base": "Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgimento de algumas estruturas que as tornaram independentes da água. Esse fato permitiu maior dispersão desse grupo de seres vivos, sendo possível observá-los em diferentes ambientes na atualidade.",
+        "alternativas": {
+          "A": "Fruto.",
+          "B": "Esporo.",
+          "C": "Semente.",
+          "D": "Tubo polínico.",
+          "E": "Vaso condutor."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 175,
+      "before": {
+        "enunciado": "Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
+        "texto_base": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.",
+        "alternativas": {
+          "A": "4,68",
+          "B": "9,30",
+          "C": "9,36",
+          "D": "10,50",
+          "E": "10,65"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
+        "texto_base": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.",
+        "alternativas": {
+          "A": "4,68",
+          "B": "6,30",
+          "C": "9,30",
+          "D": "10,50",
+          "E": "10,65"
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2018,
+      "day": 1,
+      "position": 29,
+      "before": {
+        "enunciado": "No fotograma de Man Ray, o \"distanciamento da representação figurativa\" a que se refere o Texto I manifesta-se na",
+        "texto_base": "TEXTO I Também chamados impressões ou imagens fotográficas [...]. GALUCIO, A. Impressões fotográficas e o conceito de arte expandida de Man Ray. Studium, n. 2, 2000.TEXTO II RAY, M. Rayograph. 1922. 23,9 x 29,9 cm. MoMA, Nova York. Disponível em: www.moma.org. Acesso em: 18 abr. 2018 (adaptado).",
+        "alternativas": {
+          "A": "ressignificação do jogo de luz e sombra, nos moldes surrealistas.",
+          "B": "imposição do acaso sobre a técnica, como crítica à arte realista.",
+          "C": "composição experimental, fragmentada e de contornos difusos.",
+          "D": "abstração radical, voltada para a própria linguagem fotográfica.",
+          "E": "imitação de formas humanas, com base em diferentes objetos."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Uma imagem em preto e branco, que é um fotograma de Man Ray, intitulado 'Rayograph', de 1922. A imagem mostra formas abstratas e sobrepostas, criadas pela exposição de objetos à luz diretamente sobre o papel fotográfico. Há áreas escuras e claras, com contornos difusos e gradações de cinza, sugerindo a silhueta de objetos não identificáveis, como um funil ou cone, e outras formas orgânicas ou geométricas, sem representação figurativa clara.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "No fotograma de Man Ray, o “distanciamento da representação figurativa” a que se refere o Texto I manifesta-se na",
+        "texto_base": "",
+        "alternativas": {
+          "A": "ressignificação do jogo de luz e sombra, nos moldes surrealistas.",
+          "B": "imposição do acaso sobre a técnica, como crítica à arte realista.",
+          "C": "composição experimental, fragmentada e de contornos difusos.",
+          "D": "abstração radical, voltada para a própria linguagem fotográfica.",
+          "E": "imitação de formas humanas, com base em diferentes objetos."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2018-d1-q29-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2018,
+      "day": 1,
+      "position": 74,
+      "before": {
+        "enunciado": "Essa imagem foi impressa em cartilha escolar durante a vigência do Estado Novo com o intuito de",
+        "texto_base": "",
+        "alternativas": {
+          "A": "destacar a sabedoria inata do líder governamental.",
+          "B": "atender a necessidade familiar de obediência infantil.",
+          "C": "promover o desenvolvimento consistente das atitudes solidárias.",
+          "D": "conquistar a aprovação política por meio do apelo carismático.",
+          "E": "estimular o interesse acadêmico por meio de exercícios intelectuais."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Imagem em preto e branco de uma família. Um homem e uma mulher, ambos brancos, estão sentados em uma mesa com uma criança pequena no colo do homem. A mulher está sorrindo e olhando para a criança. O homem está olhando para a criança com uma expressão séria. A criança está olhando para a frente. Ao lado da imagem, há um texto em uma caixa de diálogo que diz: \"CRIANÇAS! Não vos esqueçais, o muito da Pátria, o muito da Família, tudo tem todas as probidades. O amor contrai e o dever obriga. O casamento é indissolúvel. A família é a célula da Nação, mitigando as chagas de mendicância e de orfandade. Força, força brasileira.\" Abaixo da imagem, a fonte é \"Disponível em: http://cpdoc.fgv.br. Acesso em: 6 dez. 2017.\"",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Essa imagem foi impressa em cartilha escolar durante a vigência do Estado Novo com o intuito de",
+        "texto_base": "",
+        "alternativas": {
+          "A": "destacar a sabedoria inata do líder governamental.",
+          "B": "atender a necessidade familiar de obediência infantil.",
+          "C": "promover o desenvolvimento consistente das atitudes solidárias.",
+          "D": "conquistar a aprovação política por meio do apelo carismático.",
+          "E": "estimular o interesse acadêmico por meio de exercícios intelectuais."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2018-d1-q74-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 143,
+      "before": {
+        "enunciado": "Qual dessas atividades físicas proporciona o maior consumo de quilocalorias por minuto?",
+        "texto_base": "Os exercícios físicos são recomendados para o bom funcionamento do organismo, pois aceleram o metabolismo e, em consequência, elevam o consumo de calorias. No gráfico, estão registrados os valores calóricos, em kcal, gastos em cinco diferentes atividades físicas em função do tempo dedicado às atividades, contado em minuto.",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Gráfico de dispersão com o título 'kcal' no eixo vertical e 'Tempo (minuto)' no eixo horizontal. O eixo vertical (kcal) varia de 0 a 120, com incrementos de 20. O eixo horizontal (Tempo (minuto)) varia de 0 a 30, com incrementos de 5. Cinco atividades (I, II, III, IV, V) são representadas por pontos. Atividade I: pontos (5, 20), (10, 40), (15, 60), (20, 80), (25, 100), (30, 120). Atividade II: pontos (5, 40), (10, 60), (15, 80), (20, 100), (25, 120). Atividade III: pontos (5, 60), (10, 80), (15, 100). Atividade IV: pontos (5, 80), (10, 100). Atividade V: pontos (5, 100).",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual dessas atividades físicas proporciona o maior consumo de quilocalorias por minuto?",
+        "texto_base": "",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2019-d2-q143-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 147,
+      "before": {
+        "enunciado": "Qual é a soma das medidas das áreas, em centímetros quadrados, das dez placas?",
+        "texto_base": "Uma administração municipal encomendou a pintura de dez placas de sinalização para colocar em seu pátio de estacionamento.O profissional contratado para o serviço inicial pintará o fundo de dez placas e cobrará um valor de acordo com a área total dessas placas. O formato de cada placa é um círculo de diâmetro d = 40 cm, que tangencia lados de um retângulo, sendo que o comprimento total da placa é h = 60 cm, conforme ilustrado na figura. Use 3,14 como aproximação para π.",
+        "alternativas": {
+          "A": "16 628",
+          "B": "22 280",
+          "C": "28 560",
+          "D": "41 120",
+          "E": "66 240"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Uma figura geométrica que representa uma placa de sinalização. A placa é composta por um retângulo vertical e um círculo inscrito que tangencia os lados do retângulo. O diâmetro do círculo é indicado como 'd' e a altura total do retângulo é indicada como 'h'. Dentro do círculo, há um símbolo de 'PROIBIDO ESTACIONAR'.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual é a soma das medidas das áreas, em centímetros quadrados, das dez placas?",
+        "texto_base": "",
+        "alternativas": {
+          "A": "16 628",
+          "B": "22 280",
+          "C": "28 560",
+          "D": "41 120",
+          "E": "66 240"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2019-d2-q147-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 164,
+      "before": {
+        "enunciado": "Qual a menor quantidade de caminhões, utilizando suas capacidades máximas, que o mestre de obras deverá pedir à usina de concreto para fazer a laje?",
+        "texto_base": "Um mestre de obras deseja fazer uma laje com espessura de 5 cm utilizando concreto usinado, conforme as dimensões do projeto dadas na figura. O concreto para fazer a laje será fornecido por uma usina que utiliza caminhões com capacidades máximas de 2 m³, 5 m³ e 10 m³ de concreto.",
+        "alternativas": {
+          "A": "Dez caminhões com capacidade máxima de 10 m³.",
+          "B": "Cinco caminhões com capacidade máxima de 10 m³.",
+          "C": "Um caminhão com capacidade máxima de 5 m³.",
+          "D": "Dez caminhões com capacidade máxima de 2 m³.",
+          "E": "Um caminhão com capacidade máxima de 2 m³."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Uma imagem mostra o projeto de uma laje retangular com um recorte. As dimensões são: largura total de 14 m, comprimento total de 8 m. Há um recorte retangular interno de 3 m de largura por 2 m de comprimento, e outro recorte retangular de 3 m de largura por 3 m de comprimento. A laje tem uma forma de 'L' invertido ou um retângulo maior com dois retângulos menores removidos de um dos cantos. As dimensões são indicadas por setas e números.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual a menor quantidade de caminhões, utilizando suas capacidades máximas, que o mestre de obras deverá pedir à usina de concreto para fazer a laje?",
+        "texto_base": "",
+        "alternativas": {
+          "A": "Dez caminhões com capacidade máxima de 10 m³.",
+          "B": "Cinco caminhões com capacidade máxima de 10 m³.",
+          "C": "Um caminhão com capacidade máxima de 5 m³.",
+          "D": "Dez caminhões com capacidade máxima de 2 m³.",
+          "E": "Um caminhão com capacidade máxima de 2 m³."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2019-d2-q164-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "day": 2,
+      "position": 174,
+      "before": {
+        "enunciado": "Segundo o acordo, qual município receberá o investimento extra?",
+        "texto_base": "A taxa de urbanização de um município é dada pela razão entre a população urbana e a população total do município (isto é, a soma das populações rural e urbana). Os gráficos apresentam, respectivamente, a população urbana e a população rural de cinco municípios (I, II, III, IV, V) de uma mesma região estadual. Em reunião entre o governo do estado e os prefeitos desses municípios, ficou acordado que o município com maior taxa de urbanização receberá um investimento extra em infraestrutura.",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Dois gráficos de barras verticais lado a lado. O primeiro gráfico, intitulado 'População urbana', mostra a população urbana para cinco municípios (I, II, III, IV, V). Os valores são: I (8 000), II (10 000), III (11 000), IV (18 000), V (17 000). O eixo y vai de 0 a 20 000 em incrementos de 2 000. O segundo gráfico, intitulado 'População rural', mostra a população rural para os mesmos cinco municípios. Os valores são: I (4 000), II (8 000), III (5 000), IV (10 000), V (12 000). O eixo y vai de 0 a 14 000 em incrementos de 2 000.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Segundo o acordo, qual município receberá o investimento extra?",
+        "texto_base": "",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2019-d2-q174-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "day": 1,
+      "position": 37,
+      "before": {
+        "enunciado": "Com base no conceito apresentado no texto, a saúde é consequência direta do(a)",
+        "texto_base": "O conceito de saúde formulado na histórica VIII Conferência Nacional de Saúde, no ano de 1986, ficou conhecido como um conceito ampliado de saúde, conforme ilustrado na figura. Esse conceito foi fruto de intensa mobilização em diversos países da América Latina nas décadas de 1970 e 1980, como resposta à crise dos sistemas públicos de saúde.BATISTELLA, C. Abordagens contemporâneas do conceito de saúde.Disponível em: www.scielo.br. Acesso em: 22 out. 2019 (adaptado).",
+        "alternativas": {
+          "A": "adoção de um estilo de vida ativo por parte dos indivíduos.",
+          "B": "disponibilidade de emprego no mercado de trabalho.",
+          "C": "condição habitacional presente nas cidades.",
+          "D": "acesso ao sistema educacional.",
+          "E": "forma de organização social."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "A imagem é um diagrama circular intitulado 'Condições Socioeconômicas, Culturais e Ambientais Gerais'. No centro, um círculo maior com a palavra 'SAÚDE'. Ao redor, há vários círculos menores interligados por setas que apontam para o centro. Esses círculos menores representam diferentes categorias: 'REDE SOCIAIS E COMUNITÁRIAS' (com subitens 'Vínculos de solidariedade', 'Apoio e serviço', 'Habitação'), 'AMBIENTE' (com subitens 'Educação', 'Trabalho'), 'PRODUÇÃO AGRÍCOLA E ALIMENTOS' (com subitens 'Alimentos', 'Água e esgoto'), e 'CONDIÇÕES DE VIDA E DE TRABALHO' (com subitens 'Renda', 'Emprego', 'Moradia'). Todas as setas indicam que esses fatores contribuem para a saúde.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Com base no conceito apresentado no texto, a saúde é consequência direta do(a)",
+        "texto_base": "",
+        "alternativas": {
+          "A": "adoção de um estilo de vida ativo por parte dos indivíduos.",
+          "B": "disponibilidade de emprego no mercado de trabalho.",
+          "C": "condição habitacional presente nas cidades.",
+          "D": "acesso ao sistema educacional.",
+          "E": "forma de organização social."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2020-d1-q37-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "day": 1,
+      "position": 14,
+      "before": {
+        "enunciado": "Nesse cartaz publicitário, os recursos verbais e não verbais constroem um argumento que objetiva",
+        "texto_base": "Você entra Fernando. E sai Pessoa.26º BIENAL INTERNACIONAL DO LIVRO DE SÃO PAULO Todo mundo sai melhor do que entrou. 02 a 10 de julho Novo local: EXPO CENTER NORTEDisponível em: www.publishnews.com.br. Acesso em: 19 set. 2024.",
+        "alternativas": {
+          "A": "divulgar a obra de Fernando Pessoa no Brasil.",
+          "B": "valorizar a realização de eventos literários no país.",
+          "C": "ressaltar o impacto da leitura na vida das pessoas.",
+          "D": "fomentar o turismo cultural na cidade de São Paulo.",
+          "E": "evidenciar a influência de Pessoa na literatura brasileira."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Cartaz publicitário com a imagem de um homem sorrindo, de óculos e barba, com a frase \"Você entra Fernando. E sai Pessoa.\" Abaixo, um anúncio da \"26º BIENAL INTERNACIONAL DO LIVRO DE SÃO PAULO\" com o slogan \"Todo mundo sai melhor do que entrou.\" e informações de data e local.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Nesse cartaz publicitário, os recursos verbais e não verbais constroem um argumento que objetiva",
+        "texto_base": "",
+        "alternativas": {
+          "A": "divulgar a obra de Fernando Pessoa no Brasil.",
+          "B": "valorizar a realização de eventos literários no país.",
+          "C": "ressaltar o impacto da leitura na vida das pessoas.",
+          "D": "fomentar o turismo cultural na cidade de São Paulo.",
+          "E": "evidenciar a influência de Pessoa na literatura brasileira."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2025-d1-q14-support.png",
+          "descricao_imagem": "Textos de apoio, figura e créditos reproduzidos diretamente do caderno oficial do Inep."
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "day": 2,
+      "position": 98,
+      "before": {
+        "enunciado": "O sucesso dessa terapia advém do fato de que o produto favorecerá a",
+        "texto_base": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou um produto de terapia gênica no país, indicado para o tratamento da distrofia hereditária da retina. O procedimento é recomendado para crianças acima de 12 meses e adultos com perda de visão causada pela mutação do gene humano RPE65. O produto, elaborado por engenharia genética, é composto por um vírus, no qual foi inserida uma cópia do gene normal humano RPE65 para corrigir o funcionamento das células da retina.ANVISA. Disponível em: www.gov.br/anvisa. Acesso em: 4 dez. 2021 (adaptado).",
+        "alternativas": {
+          "A": "correção do código genético para a tradução da proteína.",
+          "B": "alteração do RNA ribossômico ligado à síntese da proteína.",
+          "C": "produção de mutações benéficas para a correção do problema.",
+          "D": "liberação imediata da proteína normal na região ocular humana.",
+          "E": "expressão do gene responsável pela produção da enzima normal."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "O sucesso dessa terapia advém do fato de que o produto favorecerá a",
+        "texto_base": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou um produto de terapia gênica no país, indicado para o tratamento da distrofia hereditária da retina. O procedimento é recomendado para crianças acima de 12 meses e adultos com perda de visão causada pela mutação do gene humano RPE65. O produto, elaborado por engenharia genética, é composto por um vírus, no qual foi inserida uma cópia do gene normal humano RPE65 para corrigir o funcionamento das células da retina.\n\nANVISA. Disponível em: www.gov.br/anvisa. Acesso em: 4 dez. 2021 (adaptado).",
+        "alternativas": {
+          "A": "correção do código genético para a tradução da proteína.",
+          "B": "alteração do RNA ribossômico ligado à síntese da proteína.",
+          "C": "produção de mutações benéficas para a correção do problema.",
+          "D": "liberação imediata da proteína normal na região ocular humana.",
+          "E": "expressão do gene responsável pela produção da enzima normal."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": "",
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "day": 2,
+      "position": 109,
+      "before": {
+        "enunciado": "Após o período de 40 dias, a massa residual desse isótopo é mais próxima de",
+        "texto_base": "O elemento iodo (I) tem função biológica e é acumulado na tireoide. Nos acidentes nucleares de Chernobyl e Fukushima, ocorreu a liberação para a atmosfera do radioisótopo ¹³¹I, responsável por enfermidades nas pessoas que foram expostas a ele. O decaimento de uma massa de 12 microgramas do isótopo ¹³¹I foi monitorado por 14 dias, conforme o quadro.",
+        "alternativas": {
+          "A": "2,4 µg.",
+          "B": "1,5 µg.",
+          "C": "0,8 µg.",
+          "D": "0,4 µg.",
+          "E": "0,2 µg."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Uma tabela com duas colunas: 'Tempo (dia)' e 'Massa residual de ¹³¹I (µg)'. Os dados são: 0 dias - 12,0 µg; 2 dias - 10,1 µg; 4 dias - 8,5 µg; 5 dias - 7,8 µg; 6 dias - 7,2 µg; 8 dias - 6,0 µg; 14 dias - 3,6 µg.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Após o período de 40 dias, a massa residual desse isótopo é mais próxima de",
+        "texto_base": "",
+        "alternativas": {
+          "A": "2,4 µg.",
+          "B": "1,5 µg.",
+          "C": "0,8 µg.",
+          "D": "0,4 µg.",
+          "E": "0,2 µg."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2022-d2-q109-support.png",
+          "descricao_imagem": "Texto de apoio e tabela reproduzidos diretamente do PDF oficial."
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "day": 2,
+      "position": 124,
+      "before": {
+        "enunciado": "O grande risco envolvido no emprego indiscriminado dessa substância deve-se à sua ação química como",
+        "texto_base": "Durante o ano de 2020, impulsionado pela necessidade de respostas rápidas e eficientes para desinfectar ambientes de possíveis contaminações com o SARS-CoV-2, causador da covid-19, diversas alternativas foram buscadas para os procedimentos de descontaminação de materiais e ambientes. Entre elas, o uso de ozônio em meio aquoso como agente sanitizante para pulverização em humanos e equipamentos de proteção em câmaras ou túneis, higienização de automóveis e de ambientes fechados e descontaminação de trajes. No entanto, pouca atenção foi dada à toxicidade do ozônio, à formação de subprodutos, ao nível de concentração segura e às precauções necessárias.LIMA, M. J. A.; FELIX, E. P.; CARDOSO, A. A. Aplicações e implicações do ozônio na indústria, ambiente e saúde.Química Nova, n. 9, 2021 (adaptado).",
+        "alternativas": {
+          "A": "catalisador.",
+          "B": "oxidante.",
+          "C": "redutor.",
+          "D": "ácido.",
+          "E": "base."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "O grande risco envolvido no emprego indiscriminado dessa substância deve-se à sua ação química como",
+        "texto_base": "Durante o ano de 2020, impulsionado pela necessidade de respostas rápidas e eficientes para desinfectar ambientes de possíveis contaminações com o SARS-CoV-2, causador da covid-19, diversas alternativas foram buscadas para os procedimentos de descontaminação de materiais e ambientes. Entre elas, o uso de ozônio em meio aquoso como agente sanitizante para pulverização em humanos e equipamentos de proteção em câmaras ou túneis, higienização de automóveis e de ambientes fechados e descontaminação de trajes. No entanto, pouca atenção foi dada à toxicidade do ozônio, à formação de subprodutos, ao nível de concentração segura e às precauções necessárias.\n\nLIMA, M. J. A.; FELIX, E. P.; CARDOSO, A. A. Aplicações e implicações do ozônio na indústria, ambiente e saúde. Química Nova, n. 9, 2021 (adaptado).",
+        "alternativas": {
+          "A": "catalisador.",
+          "B": "oxidante.",
+          "C": "redutor.",
+          "D": "ácido.",
+          "E": "base."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "day": 2,
+      "position": 133,
+      "before": {
+        "enunciado": "Qual o mecanismo utilizado no experimento para enganar as células de defesa, fazendo com que ataquem o tumor?",
+        "texto_base": "O protozoário Trypanosoma cruzi, causador da doença de Chagas, pode ser a nova arma da medicina contra o câncer. Pesquisadores brasileiros conseguiram criar uma vacina contra a doença usando uma variação do protozoário incapaz de desencadear a patologia (não patogênico). Para isso, realizaram uma modificação genética criando um T. cruzi capaz de produzir também moléculas fabricadas pelas células tumorais. Quando o organismo inicia o combate ao protozoário, entra em contato também com a molécula tumoral, que passa a ser vista também pelo sistema imune como um indicador de células do protozoário. Depois de induzidas as defesas, estas passam a destruir todas as células com a molécula tumoral, como se lutassem apenas contra o protozoário.Disponível em: www.estadao.com.br. Acesso em: 1 mar. 2012 (adaptado).",
+        "alternativas": {
+          "A": "Autoimunidade.",
+          "B": "Hipersensibilidade.",
+          "C": "Ativação da resposta inata.",
+          "D": "Apresentação de antígeno específico.",
+          "E": "Desencadeamento de processo anti-inflamatório."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual o mecanismo utilizado no experimento para enganar as células de defesa, fazendo com que ataquem o tumor?",
+        "texto_base": "O protozoário Trypanosoma cruzi, causador da doença de Chagas, pode ser a nova arma da medicina contra o câncer. Pesquisadores brasileiros conseguiram criar uma vacina contra a doença usando uma variação do protozoário incapaz de desencadear a patologia (não patogênico). Para isso, realizaram uma modificação genética criando um T. cruzi capaz de produzir também moléculas fabricadas pelas células tumorais. Quando o organismo inicia o combate ao protozoário, entra em contato também com a molécula tumoral, que passa a ser vista também pelo sistema imune como um indicador de células do protozoário. Depois de induzidas as defesas, estas passam a destruir todas as células com a molécula tumoral, como se lutassem apenas contra o protozoário.\n\nDisponível em: www.estadao.com.br. Acesso em: 1 mar. 2012 (adaptado).",
+        "alternativas": {
+          "A": "Autoimunidade.",
+          "B": "Hipersensibilidade.",
+          "C": "Ativação da resposta inata.",
+          "D": "Apresentação de antígeno específico.",
+          "E": "Desencadeamento de processo anti-inflamatório."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 94,
+      "before": {
+        "enunciado": "Qual teste deve ser considerado para controlar a formação desse tipo de obstrução de tubulações?",
+        "texto_base": "Em uma indústria, o controle da dureza da água é importante quando ela é utilizada em caldeiras, uma vez que sais pouco solúveis, formados a partir de sulfatos e carbonatos, podem acumular-se no interior das tubulações, causando obstruções. Para avaliar a água utilizada nessa indústria, foram realizados testes de qualidade que consideraram os seguintes parâmetros:",
+        "alternativas": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4",
+          "E": "5"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Tabela com duas colunas, 'Teste' e 'Parâmetro medido'. A coluna 'Teste' lista números de 1 a 5. A coluna 'Parâmetro medido' lista 'Cálcio', 'Cloreto', 'Turbidez', 'Coliformes totais' e 'Sólidos sedimentáveis' respectivamente para cada teste.",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Qual teste deve ser considerado para controlar a formação desse tipo de obstrução de tubulações?",
+        "texto_base": "",
+        "alternativas": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4",
+          "E": "5"
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2023-d2-q94-support.png",
+          "descricao_imagem": "Texto de apoio e tabela reproduzidos diretamente do PDF oficial."
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 98,
+      "before": {
+        "enunciado": "Essa adaptação confere a esse organismo a capacidade de obter primariamente",
+        "texto_base": "Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade ímpar: guardar parte da maquinaria das células das algas que consomem – os cloroplastos – e mantê-los funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem.Disponível em: www.cienciahoje.pt. Acesso em: 10 fev. 2015 (adaptado).",
+        "alternativas": {
+          "A": "ácidos nucleicos.",
+          "B": "carboidratos.",
+          "C": "proteínas.",
+          "D": "vitaminas.",
+          "E": "lipídios."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Essa adaptação confere a esse organismo a capacidade de obter primariamente",
+        "texto_base": "Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade ímpar: guardar parte da maquinaria das células das algas que consomem — os cloroplastos — e mantê-los funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem.\n\nDisponível em: www.cienciahoje.pt. Acesso em: 10 fev. 2015 (adaptado).",
+        "alternativas": {
+          "A": "ácidos nucleicos.",
+          "B": "carboidratos.",
+          "C": "proteínas.",
+          "D": "vitaminas.",
+          "E": "lipídios."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 100,
+      "before": {
+        "enunciado": "Ele solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.A escolha que corresponde à combinação correta é",
+        "texto_base": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.",
+        "alternativas": {
+          "A": "v ≠ 0 e a ≠ 0 para cima.",
+          "B": "v ≠ 0 para cima e a = 0.",
+          "C": "v = 0 e a ≠ 0 para baixo.",
+          "D": "v ≠ 0 para cima e a ≠ 0 para cima.",
+          "E": "v ≠ 0 para baixo e a ≠ 0 para baixo."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "descricao_imagem": "Tabela com três colunas: 'Grandeza cinemática', 'Módulo' e 'Sentido'. Na linha de 'Velocidade', há três sub-linhas: 'v ≠ 0' com 'Para cima', 'v = 0' com 'Indefinido*', e 'v ≠ 0' com 'Para baixo'. Na linha de 'Aceleração', há duas sub-linhas: 'a ≠ 0' com 'Para cima' e 'a = 0' com 'Indefinido*'. Abaixo da tabela, há uma nota: '*Grandezas com módulo nulo não têm sentido definido.'",
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Ele solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.\n\nA escolha que corresponde à combinação correta é",
+        "texto_base": "",
+        "alternativas": {
+          "A": "v = 0 e a ≠ 0 para cima.",
+          "B": "v ≠ 0 para cima e a = 0.",
+          "C": "v = 0 e a ≠ 0 para baixo.",
+          "D": "v ≠ 0 para cima e a ≠ 0 para cima.",
+          "E": "v ≠ 0 para baixo e a ≠ 0 para baixo."
+        },
+        "metadados_visual": {
+          "contem_imagem": true,
+          "caminho_local_imagem": "/images/verified/2023-d2-q100-support.png",
+          "descricao_imagem": "Texto de apoio e tabela reproduzidos diretamente do PDF oficial."
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 107,
+      "before": {
+        "enunciado": "Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura.O coquetel de inibidores impediu o(a)",
+        "texto_base": "Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura.",
+        "alternativas": {
+          "A": "formação do pronúcleo masculino.",
+          "B": "início da divisão mitótica do zigoto.",
+          "C": "término da segunda divisão meiótica do ovócito.",
+          "D": "passagem do espermatozoide pela corona radiata e zona pelúcida.",
+          "E": "fusão das membranas plasmáticas do ovócito e do espermatozoide."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "O coquetel de inibidores impediu o(a)",
+        "texto_base": "Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura.",
+        "alternativas": {
+          "A": "formação do pronúcleo masculino.",
+          "B": "início da divisão mitótica do zigoto.",
+          "C": "término da segunda divisão meiótica do ovócito.",
+          "D": "passagem do espermatozoide pela corona radiata e zona pelúcida.",
+          "E": "fusão das membranas plasmáticas do ovócito e do espermatozoide."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "day": 2,
+      "position": 115,
+      "before": {
+        "enunciado": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal.Dentro do corpo do vegetal, esses contaminantes serão",
+        "texto_base": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal.",
+        "alternativas": {
+          "A": "digeridos por enzimas.",
+          "B": "acumulados nos tecidos.",
+          "C": "eliminados pelos estômatos.",
+          "D": "metabolizados por glândulas.",
+          "E": "utilizados como fonte energética."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      },
+      "after": {
+        "enunciado": "Dentro do corpo do vegetal, esses contaminantes serão",
+        "texto_base": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal.",
+        "alternativas": {
+          "A": "digeridos por enzimas.",
+          "B": "acumulados nos tecidos.",
+          "C": "eliminados pelos estômatos.",
+          "D": "metabolizados por glândulas.",
+          "E": "utilizados como fonte energética."
+        },
+        "metadados_visual": {
+          "contem_imagem": false,
+          "descricao_imagem": null,
+          "caminho_local_imagem": null
+        }
+      }
+    }
+  ],
+  "demoted_missing_images": [
+    "2025_AZUL_D1_Q15"
+  ]
+}

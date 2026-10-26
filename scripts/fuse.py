@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Fusão: Extração LLM (JSON) + Parâmetros TRI (Parquet) → JSONL Unificado
-Chave de JOIN: (ano, cor_prova, dia, posicao_prova) ↔ (NU_ANO, TX_COR, CO_POSICAO)
+Chave de JOIN: (ano, CO_PROVA, CO_POSICAO), com CO_PROVA validado por ano/cor/dia
 
 O mapeamento CO_PROVA → (cor, dia) é crítico e deve ser validado por ano.
 """
@@ -129,11 +129,37 @@ def fundir(llm_data: list[dict], df_tri: pd.DataFrame, ano: int, cor_alvo: str, 
     """
     Junta extração LLM com TRI.
     """
-    # Filtra TRI para a cor/dia alvo
-    tri_filtrado = df_tri[df_tri['TX_COR_NORM'] == cor_alvo.upper()].copy()
-    logger.info(f"TRI filtrado {cor_alvo} D{dia_alvo}: {len(tri_filtrado)} questões")
-    
-    # Indexa por posição
+    # CO_PROVA é obrigatório: cor e posição isoladas não identificam a prova.
+    # Falha fechada para mapeamentos ausentes ou ambíguos.
+    provas = [
+        codigo for codigo, (cor, dia) in MAP_PROVA_ANO.get(ano, {}).items()
+        if cor == cor_alvo.upper() and dia == dia_alvo
+    ]
+    if len(provas) != 1:
+        raise ValueError(
+            f"CO_PROVA não unívoco para {ano} {cor_alvo} D{dia_alvo}: {provas}. "
+            "Validar o código no CSV oficial antes de fundir."
+        )
+    codigo_prova = provas[0]
+    if 'CO_PROVA' not in df_tri.columns or df_tri['CO_PROVA'].isna().all():
+        raise ValueError("CO_PROVA ausente no TRI; associação por cor/posição é insegura")
+    tri_filtrado = df_tri[
+        (df_tri['CO_PROVA'] == codigo_prova)
+        & (df_tri['TX_COR_NORM'] == cor_alvo.upper())
+    ].copy()
+    if tri_filtrado.empty:
+        raise ValueError(f"Nenhum registro para CO_PROVA={codigo_prova}, {ano} {cor_alvo} D{dia_alvo}")
+    logger.info(f"TRI CO_PROVA={codigo_prova} {cor_alvo} D{dia_alvo}: {len(tri_filtrado)} questões")
+
+    # Posições repetidas (p.ex. línguas) exigem seleção explícita.
+    # Nunca selecionar silenciosamente a primeira linha.
+    duplicadas = tri_filtrado['CO_POSICAO'].duplicated(keep=False)
+    if duplicadas.any():
+        posicoes = sorted(tri_filtrado.loc[duplicadas, 'CO_POSICAO'].dropna().unique().tolist())
+        raise ValueError(
+            f"CO_PROVA={codigo_prova} contém posições ambíguas {posicoes}; "
+            "resolver idioma/duplicatas antes de fundir."
+        )
     tri_idx = tri_filtrado.set_index('CO_POSICAO')
     
     resultados = []
@@ -149,9 +175,8 @@ def fundir(llm_data: list[dict], df_tri: pd.DataFrame, ano: int, cor_alvo: str, 
         
         tri_row = tri_idx.loc[pos]
         
-        # Se múltiplas linhas (duplicatas), pega a primeira
         if isinstance(tri_row, pd.DataFrame):
-            tri_row = tri_row.iloc[0]
+            raise ValueError(f"Posição {pos} ambígua em CO_PROVA={codigo_prova}")
         
         # Validações
         if tri_row['CO_ITEM'] is None or pd.isna(tri_row['CO_ITEM']):
