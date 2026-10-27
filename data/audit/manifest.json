@@ -14276,7 +14276,7 @@
       "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
-      "record_sha256": "ee83d9a89847f94d3772135c82c2e4b42852c0b7fd9b3f8879254de206d20e93",
+      "record_sha256": "00459feb53456621ec526095852eba97eb25c8e3801ea63d657e6330de059f5e",
       "audit": {
         "text": true,
         "options": true,
@@ -14930,7 +14930,7 @@
       "source_index_url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
-      "record_sha256": "39bedbb439849c6cd4f08749bc673c9e874f955ca859e5d15e2f1d513ca5e400",
+      "record_sha256": "868cd6434510ba8a766ad2b502bd5e04a90982647a13783602d2c7784d4cded1",
       "audit": {
         "text": true,
         "options": true,

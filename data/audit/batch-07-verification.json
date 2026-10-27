@@ -1,0 +1,121 @@
+{
+  "python_tests": 78,
+  "node_api_tests": 10,
+  "integrity_ok": true,
+  "integrity": {
+    "records": 3687,
+    "unique_ids": 3687,
+    "unique_proof_slots": 3687,
+    "unique_co_item": 1860
+  },
+  "previous_approvals_byte_identical": 288,
+  "published": 328,
+  "pending_blocked": 185,
+  "examined": 50,
+  "newly_approved": 40,
+  "held": 10,
+  "distribution_by_area": {
+    "CN": 26,
+    "MT": 14
+  },
+  "distribution_by_year": {
+    "2021": 21,
+    "2022": 19
+  },
+  "publisher_quarantined": [],
+  "database_changed": false,
+  "replay_idempotent": true,
+  "presentation_metadata_check": true,
+  "chromium": {
+    "viewports": [
+      {
+        "name": "desktop",
+        "new_questions": 40,
+        "submissions": 80,
+        "visual_supports": 40,
+        "pending_blocked": 185,
+        "random_selections": 10,
+        "zoom_keyboard": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "name": "mobile",
+        "new_questions": 40,
+        "submissions": 80,
+        "visual_supports": 40,
+        "pending_blocked": 185,
+        "random_selections": 10,
+        "zoom_keyboard": true,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "errors": []
+  },
+  "previous_rendering_regressions": {
+    "viewports": [
+      {
+        "name": "desktop",
+        "cases": 5,
+        "keyboard_answer": true,
+        "zoom": true,
+        "focus_return": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "name": "mobile",
+        "cases": 5,
+        "keyboard_answer": true,
+        "zoom": true,
+        "focus_return": true,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "errors": []
+  },
+  "original_resolution_checks": [
+    {
+      "viewport": "desktop",
+      "id": "2021_AZUL_D2_Q124",
+      "original_pixels": true,
+      "natural": 1295,
+      "rendered": 1295
+    },
+    {
+      "viewport": "desktop",
+      "id": "2021_AZUL_D2_Q133",
+      "original_pixels": true,
+      "natural": 640,
+      "rendered": 640
+    },
+    {
+      "viewport": "desktop",
+      "id": "2022_AZUL_D2_Q161",
+      "original_pixels": true,
+      "natural": 645,
+      "rendered": 645
+    },
+    {
+      "viewport": "mobile",
+      "id": "2021_AZUL_D2_Q124",
+      "original_pixels": true,
+      "natural": 1295,
+      "rendered": 1295
+    },
+    {
+      "viewport": "mobile",
+      "id": "2021_AZUL_D2_Q133",
+      "original_pixels": true,
+      "natural": 640,
+      "rendered": 640
+    },
+    {
+      "viewport": "mobile",
+      "id": "2022_AZUL_D2_Q161",
+      "original_pixels": true,
+      "natural": 645,
+      "rendered": 645
+    }
+  ],
+  "original_resolution_keyboard_pan": true,
+  "late_dialog_close_focus_regression": true
+}

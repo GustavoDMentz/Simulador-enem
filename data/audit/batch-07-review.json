@@ -965,7 +965,7 @@
       },
       "after_content": {
         "enunciado": "Na fototerapia, a luz provoca a conversão da bilirrubina no seu isômero",
-        "texto_base": "A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos. Um bebê com icterícia não consegue metabolizar e excretar de forma eficiente a bilirrubina. Com isso, o acúmulo dessa substância deixa-o com a pele amarelada. A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.\n\nMOREIRA, M. et al. O recém-nascido de alto risco: teoria e prática do cuidar ¢on-line£. Rio de Janeiro: Fiocruz, 2004 (adaptado).",
+        "texto_base": "A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos. Um bebê com icterícia não consegue metabolizar e excretar de forma eficiente a bilirrubina. Com isso, o acúmulo dessa substância deixa-o com a pele amarelada. A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.\n\nMOREIRA, M. et al. O recém-nascido de alto risco: teoria e prática do cuidar [on-line]. Rio de Janeiro: Fiocruz, 2004 (adaptado).",
         "alternativas": {
           "A": "ótico.",
           "B": "funcional.",
@@ -980,7 +980,7 @@
         }
       },
       "official_answer": "C",
-      "record_sha256": "ee83d9a89847f94d3772135c82c2e4b42852c0b7fd9b3f8879254de206d20e93",
+      "record_sha256": "00459feb53456621ec526095852eba97eb25c8e3801ea63d657e6330de059f5e",
       "asset_sha256": "d851003f85ef21c72b75591245361d45fa050b015cbe7577e96b204812cd6142",
       "support_render": {
         "regions": [
@@ -1001,14 +1001,14 @@
       "presentation": "figure",
       "presentation_metadata": {
         "mode": "figure",
-        "record_sha256": "ee83d9a89847f94d3772135c82c2e4b42852c0b7fd9b3f8879254de206d20e93",
+        "record_sha256": "00459feb53456621ec526095852eba97eb25c8e3801ea63d657e6330de059f5e",
         "source": "/images/verified/batch07-2021-azul-d2-q106.png",
         "source_sha256": "d851003f85ef21c72b75591245361d45fa050b015cbe7577e96b204812cd6142",
         "evidence": "data/audit/batch-07-review.json",
         "alt": "Diagrama original da conversão de bilirrubina em lumirrubina por fototerapia, com estruturas químicas e destinos de excreção. Amplie para consultar os detalhes originais.",
         "figure": "/images/verified/batch07-2021-azul-d2-q106.png",
         "figure_sha256": "d851003f85ef21c72b75591245361d45fa050b015cbe7577e96b204812cd6142",
-        "before": "A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos. Um bebê com icterícia não consegue metabolizar e excretar de forma eficiente a bilirrubina. Com isso, o acúmulo dessa substância deixa-o com a pele amarelada. A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.\n\nMOREIRA, M. et al. O recém-nascido de alto risco: teoria e prática do cuidar ¢on-line£. Rio de Janeiro: Fiocruz, 2004 (adaptado).",
+        "before": "A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos. Um bebê com icterícia não consegue metabolizar e excretar de forma eficiente a bilirrubina. Com isso, o acúmulo dessa substância deixa-o com a pele amarelada. A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.\n\nMOREIRA, M. et al. O recém-nascido de alto risco: teoria e prática do cuidar [on-line]. Rio de Janeiro: Fiocruz, 2004 (adaptado).",
         "after": ""
       },
       "changed_fields": [
@@ -2153,7 +2153,7 @@
       },
       "after_content": {
         "enunciado": "Com base no gráfico obtido, o menor preço, p (em mil reais), para o qual pelo menos 50% dos apartamentos apresenta preço inferior a p é",
-        "texto_base": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados. O gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por £300, 400£, £400, 500£, £500, 600£, £600, 700£, £700, 800£, £800, 900£, £900, 1 000£, £1 000, 1 100£, £1 100, 1 200£ e £1 200, 1 300£. A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.",
+        "texto_base": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados. O gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300]. A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.",
         "alternativas": {
           "A": "600.",
           "B": "700.",
@@ -2168,7 +2168,7 @@
         }
       },
       "official_answer": "C",
-      "record_sha256": "39bedbb439849c6cd4f08749bc673c9e874f955ca859e5d15e2f1d513ca5e400",
+      "record_sha256": "868cd6434510ba8a766ad2b502bd5e04a90982647a13783602d2c7784d4cded1",
       "asset_sha256": "3ade5acc5bbf6124405637fa4e40e9259fd561d5e47e9f962f0134c2a8ebfba0",
       "support_render": {
         "regions": [
@@ -2189,14 +2189,14 @@
       "presentation": "figure",
       "presentation_metadata": {
         "mode": "figure",
-        "record_sha256": "39bedbb439849c6cd4f08749bc673c9e874f955ca859e5d15e2f1d513ca5e400",
+        "record_sha256": "868cd6434510ba8a766ad2b502bd5e04a90982647a13783602d2c7784d4cded1",
         "source": "/images/verified/batch07-2021-azul-d2-q151.png",
         "source_sha256": "3ade5acc5bbf6124405637fa4e40e9259fd561d5e47e9f962f0134c2a8ebfba0",
         "evidence": "data/audit/batch-07-review.json",
         "alt": "Histograma de distribuição dos preços dos imóveis, com intervalos de classe e frequências originais. Amplie para consultar os detalhes originais.",
         "figure": "/images/verified/batch07-2021-azul-d2-q151.png",
         "figure_sha256": "3ade5acc5bbf6124405637fa4e40e9259fd561d5e47e9f962f0134c2a8ebfba0",
-        "before": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados. O gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por £300, 400£, £400, 500£, £500, 600£, £600, 700£, £700, 800£, £800, 900£, £900, 1 000£, £1 000, 1 100£, £1 100, 1 200£ e £1 200, 1 300£. A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.",
+        "before": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados. O gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300]. A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.",
         "after": ""
       },
       "changed_fields": [
@@ -4540,6 +4540,7 @@
     "2021 Q169: √3 restored from the printed radical.",
     "2022 Q101: mg L⁻¹; table values remain original pixels.",
     "2022 Q107/Q117/Q120/Q129: H⁺, CaCO₃, H₂O₂, H₂/O₂/CO₂/CO/Cl₂, N₂/NH₃/NH₄⁺/NO₂⁻/NO₃⁻ verified visually.",
-    "2022: invisible ENEM watermark text and duplicate PDF option labels removed from HTML; no printed content removed."
+    "2022: invisible ENEM watermark text and duplicate PDF option labels removed from HTML; no printed content removed.",
+    "2021 Q106/Q151: printed [on-line] credit and ]lower, upper] interval brackets restored from the original; encoded ¢/£ are not currency symbols here."
   ]
 }

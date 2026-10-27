@@ -166,7 +166,11 @@ function setupEventListeners() {
   document.getElementById('btn-enlarge-image').addEventListener('click', () => openImageViewer(questionImg.src, questionImg.alt));
   document.getElementById('btn-original-source').addEventListener('click', e => openImageViewer(e.currentTarget.dataset.src, 'Reprodução original do material oficial'));
   document.getElementById('btn-close-image').addEventListener('click', closeImageViewer);
-  document.getElementById('image-viewer').addEventListener('close', () => imageTrigger?.focus());
+  document.getElementById('image-viewer').addEventListener('close', e => {
+    // Native close already restores focus. A queued close event must not steal
+    // focus after the student has moved on to an answer or another control.
+    if(document.activeElement === document.body || e.currentTarget.contains(document.activeElement)) imageTrigger?.focus();
+  });
   document.getElementById('image-zoom').addEventListener('change', e => document.getElementById('image-viewer').classList.toggle('original-size', e.target.checked));
   
   // AI Explanation Trigger

@@ -170,3 +170,7 @@ def test_batch_07_preserves_288_and_all_explicit_review_decisions():
     assert rows['2021_AZUL_D2_Q136']['conteudo']['alternativas']['E']=='13φ + 8'
     assert rows['2022_AZUL_D2_Q129']['conteudo']['alternativas']['C']=='NH₄⁺'
     assert '√3' in next(r for r in approved if r['id']=='2021_AZUL_D2_Q169')['presentation_metadata']['after']
+
+    assert '[on-line]' in rows['2021_AZUL_D2_Q106']['conteudo']['texto_base']
+    assert ']300, 400]' in rows['2021_AZUL_D2_Q151']['conteudo']['texto_base']
+    assert 'C₆H₁₂O₆' in rows['2021_AZUL_D2_Q101']['conteudo']['texto_base']
