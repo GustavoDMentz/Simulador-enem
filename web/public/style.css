@@ -1025,3 +1025,13 @@ mark.highlight {
  .question-card,.alternative-card,.alternative-text {min-width:0}
  .meta-options {width:100%;justify-content:flex-end}
 }
+
+/* Mobile question-first flow: filters, active question, then question catalogue. */
+@media (max-width:900px) {
+ .workspace {display:flex;flex-direction:column}
+ .sidebar {display:contents}
+ .sidebar-section:first-child {order:1;background:var(--sidebar-bg)}
+ .content-panel {order:2;width:100%;padding:16px}
+ .sidebar-section.list-section {order:3;width:100%;background:var(--sidebar-bg);border-top:1px solid var(--border-color)}
+ .questions-list {max-height:none;overflow:visible}
+}
