@@ -23,7 +23,7 @@ O **Simulador ENEM** reúne uma aplicação web para resolver questões e um pip
 A aplicação oferece navegação por questões, seleção de respostas, eliminação de alternativas e recursos de apoio ao estudo. A camada de dados mantém evidências de origem e impede que itens ainda não revisados entrem na pontuação.
 
 > [!IMPORTANT]
-> **Estado da auditoria — 25/10/2026:** no lote de 513 questões da prévia, **59 foram revisadas e autorizadas para pontuação**; **454 permanecem em quarentena**. Esses números descrevem o lote auditado, não toda a cobertura histórica do repositório. Não são uma certificação do Inep nem significam que a aplicação esteja implantada em produção.
+> **Estado da auditoria — 27/10/2026 (PR #10 integrado):** das **513 questões do catálogo auditado**, **509 estão autorizadas para pontuação (99,22%)** e **4 permanecem bloqueadas**: 3 oficialmente anuladas (2020 digital/D2/Q157, 2021/D2/Q138 e 2022/D2/Q157) e 1 com conflito de identidade/idioma (2024/D1/Q04). Esses números descrevem o lote auditado, não toda a cobertura histórica do repositório. Não são uma certificação do Inep nem significam que a aplicação esteja implantada em produção.
 
 ## O que você encontra aqui
 
@@ -105,7 +105,9 @@ O **audit gate** é a principal garantia do projeto. Uma questão só pode ser p
 
 O sistema segue uma política **fail-closed**: na dúvida, não publica. A verificação estrutural de um JSON, sozinha, não comprova fidelidade à prova.
 
-**Onde acompanhar:** [manifesto de auditoria](data/audit/manifest.json) · [registro de restauração](data/audit/restoration-verification.json) · [histórico de validação](docs/validation-progress.md).
+**Onde acompanhar:** [manifesto de auditoria](data/audit/manifest.json) · [relatório completo do lote 08](docs/enem-audit-batch-08.md) · [decisões das 185 pendências](data/audit/batch-08-review.json) · [verificações do lote 08](data/audit/batch-08-verification.json) · [histórico de validação](docs/validation-progress.md).
+
+**Validação do lote 08:** 181 questões recuperadas; 83 testes Python e 13 Node/API aprovados; as 181 adições foram verificadas em desktop e celular com Chromium. A varredura opcional de todas as 509 questões no navegador **não** foi concluída. As 328 questões publicadas antes do lote foram preservadas byte a byte, conforme o relatório de auditoria.
 
 ### E a TRI?
 
