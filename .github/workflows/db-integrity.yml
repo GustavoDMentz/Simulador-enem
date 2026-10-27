@@ -14,9 +14,11 @@ on:
       - '.github/workflows/db-integrity.yml'\n      - 'scripts/import_tri_zenodo.py'\n      - '.github/workflows/tri-zenodo-ingestion.yml'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   tri-zenodo-import:
+    permissions:
+      contents: write
     if: github.event_name == 'pull_request' && github.head_ref == 'feat/tri-zenodo-ingestion'
     runs-on: ubuntu-latest
     steps:
