@@ -23,13 +23,16 @@ def main():
     ap.add_argument('--output', type=pathlib.Path, default=ROOT / 'data/audit/tri-import-review.json')
     args = ap.parse_args()
     questions = [json.loads(x) for x in CATALOG.read_text().splitlines() if x.strip()]
-    with args.csv.open(encoding='utf-8-sig', newline='') as f:
+    with args.csv.open(encoding='latin-1', newline='') as f:
         sample = f.read(8192); f.seek(0)
         dialect = csv.Sniffer().sniff(sample, delimiters=';,')
         rows = list(csv.DictReader(f, dialect=dialect))
     by_item = collections.defaultdict(list)
     for r in rows:
         by_item[str(r.get('CO_ITEM', '')).strip()].append(r)
+    required={'CO_ITEM','SG_AREA','TX_GABARITO','NU_PARAM_A','NU_PARAM_B','NU_PARAM_C'}
+    missing=required-set(rows[0]) if rows else required
+    if missing: raise SystemExit('Missing required columns: '+', '.join(sorted(missing)))
     report = {'year':args.year,'source_file':str(args.csv),'source_rows':len(rows),'matched':[],'blocked':[]}
     for q in questions:
         if q.get('ano') != args.year: continue
