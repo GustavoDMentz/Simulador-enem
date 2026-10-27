@@ -1,5 +1,5 @@
 {
-  "source": "https://doi.org/10.5281/zenodo.18801899",
+  "source": "Public item-CSV mirrors (2024-2025); checksum-pinned Zenodo mirror (2018-2023)",
   "provenance": {
     "2018": {
       "filename": "2018 ITENS PROVA ENEM.csv",
@@ -36,11 +36,20 @@
       "md5": "1e086f7786afe964a744a13c8b64c6df",
       "url": "https://zenodo.org/records/18801899/files/2023%20ITENS%20PROVAS%20ENEM.csv?download=1",
       "source_rows": 5730
+    },
+    "2025": {
+      "url": "https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv",
+      "member_sha256": "16688912785563f418773a5c99e562f4b43a95cac79357622f05b3d47c7a35d0",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 6105
     }
   },
   "catalog_questions": 509,
-  "matched": 268,
-  "blocked_count": 87,
+  "unavailable_years": {
+    "2024": "2024: expected one CSV in Hugging Face dataset, found []"
+  },
+  "matched": 299,
+  "blocked_count": 100,
   "blocked": [
     {
       "id": "2018_AZUL_D1_Q01",
@@ -736,6 +745,110 @@
       "co_item": "37312",
       "reason": "no unique compatible parameter triple",
       "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D1_Q01",
+      "ano": 2025,
+      "co_item": "15029",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D1_Q02",
+      "ano": 2025,
+      "co_item": "153945",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D1_Q03",
+      "ano": 2025,
+      "co_item": "98252",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D1_Q05",
+      "ano": 2025,
+      "co_item": "140610",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q96",
+      "ano": 2025,
+      "co_item": "87024",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q100",
+      "ano": 2025,
+      "co_item": "87797",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q106",
+      "ano": 2025,
+      "co_item": "67396",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q107",
+      "ano": 2025,
+      "co_item": "64014",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q129",
+      "ano": 2025,
+      "co_item": "56297",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q137",
+      "ano": 2025,
+      "co_item": "47233",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q146",
+      "ano": 2025,
+      "co_item": "61653",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q148",
+      "ano": 2025,
+      "co_item": "5774",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2025_AZUL_D2_Q179",
+      "ano": 2025,
+      "co_item": "126016",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
       "eligible_triples": 0
     }
   ],
