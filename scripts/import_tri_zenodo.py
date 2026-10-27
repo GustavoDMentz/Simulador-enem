@@ -31,7 +31,11 @@ FILES = {
     2022: ("2022 ITENS PROVA ENEM.csv", "52013f06fbce11f5d6731ee2a8d25bfc"),
     2023: ("2023 ITENS PROVAS ENEM.csv", "1e086f7786afe964a744a13c8b64c6df"),
 }
-ITEM_MIRRORS = {\n    2024: 'https://huggingface.co/datasets/Luc4s-Carv/educadados-token/resolve/main/ITENS_PROVA_2024.csv',\n    2025: 'https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv',\n}\nOFFICIAL_ZIPS = {
+ITEM_MIRRORS = {
+    2024: 'https://huggingface.co/datasets/Luc4s-Carv/educadados-token/resolve/main/ITENS_PROVA_2024.csv',
+    2025: 'https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv',
+}
+OFFICIAL_ZIPS = {
     2024: 'https://download.inep.gov.br/microdados/microdados_enem_2024.zip',
     2025: 'https://download.inep.gov.br/microdados/microdados_enem_2025.zip',
 }
