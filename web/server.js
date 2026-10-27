@@ -269,26 +269,20 @@ app.post('/api/questions/:id/explain', async (req, res) => {
       return res.status(500).json({ error: "Chave de API do Gemini não configurada no servidor." });
     }
     
-    // 1. Busca os detalhes da questão no banco
-    const query = `
-      FOR q IN Questoes
-      FILTER q._key == @key
-      RETURN q
-    `;
-    const result = await arangoQuery(query, { key: req.params.id });
-    if (result.length === 0) {
-      return res.status(404).json({ error: "Questão não encontrada." });
-    }
-    const q = result[0];
-    if (!scorable(q)) return res.status(409).json({error:"Questão não aprovada para correção."});
-    
+    // Read exclusively from the audited, published release; no ArangoDB dependency.
+    const published = require('./published-questions').load();
+    if (!published) return res.status(503).json({ error: 'Catálogo auditado indisponível.' });
+    const q = published.find(item => item._key === req.params.id || item.id_unico_sistema === req.params.id);
+    if (!q) return res.status(404).json({ error: 'Questão não encontrada no catálogo publicado.' });
+    if (q.scoring_enabled !== true) return res.status(409).json({ error: 'Questão não aprovada.' });
+
     // 2. Prepara o prompt para o Gemini
     const enunciado = q.conteudo.enunciado;
     const textoBase = q.conteudo.texto_base || "(Sem texto base)";
     const alternativas = JSON.stringify(q.conteudo.alternativas, null, 2);
     const gabarito = q.gabarito_oficial;
     const tri = q.parametros_tri;
-    const descImagem = q.conteudo.metadados_visual.descricao_imagem || "(Sem imagens ou sem descrição)";
+    const descImagem = q.conteudo.metadados_visual?.descricao_imagem || "(Sem imagens ou sem descrição)";
     
     const prompt = `
 Você é um professor especialista em ENEM. Explique a seguinte questão de forma didática e motivadora.
@@ -303,10 +297,7 @@ DADOS DA QUESTÃO:
 ${alternativas}
 - Gabarito Oficial: ${gabarito}
 - Descrição da Imagem de Apoio (se houver): ${descImagem}
-- Parâmetros TRI da Questão:
-  * Discriminação (a): ${tri.a_discriminacao.toFixed(2)} (Mede a qualidade de diferenciação)
-  * Dificuldade (b): ${tri.b_dificuldade.toFixed(2)} (Mede a complexidade da questão)
-  * Chute (c): ${(tri.c_chute * 100).toFixed(1)}% (Chance de acerto ao acaso)
+- Parâmetros TRI: ${tri ? JSON.stringify(tri) : "Não disponíveis para esta questão; não invente valores."}
 
 RESPOSTA DO ESTUDANTE:
 - O estudante escolheu a alternativa: ${selected || "(Não selecionada)"}
@@ -328,10 +319,10 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
 `;
 
     // 3. Chama a API REST do Gemini
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
     const geminiRes = await fetch(geminiUrl, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }]
       })
@@ -339,7 +330,8 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
     
     if (!geminiRes.ok) {
       const errText = await geminiRes.text();
-      throw new Error(`Gemini API Error: ${errText}`);
+      console.error('Gemini API status:', geminiRes.status, errText.slice(0, 300));
+      return res.status(502).json({ error: 'Não foi possível obter a explicação do Gemini. Verifique a chave, a cota e o modelo configurado.' });
     }
     
     const geminiData = await geminiRes.json();
@@ -348,7 +340,7 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
     res.json({ explanation });
   } catch (err) {
     console.error("Erro ao gerar explicação por IA:", err);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Falha interna ao gerar explicação.' });
   }
 });
 
