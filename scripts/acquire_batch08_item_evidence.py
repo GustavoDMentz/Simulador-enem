@@ -1,10 +1,17 @@
 """Read only official item metadata; never read participant CSV entries."""
-import urllib.request,io,zipfile,json,csv,hashlib,tempfile,concurrent.futures
+import urllib.request,io,zipfile,json,csv,hashlib,tempfile,concurrent.futures,ssl
+SSL=ssl.create_default_context(cafile="/etc/ssl/certs/ca-certificates.crt")
+def open_url(req,timeout):
+ try:return urllib.request.urlopen(req,timeout=timeout,context=SSL)
+ except Exception as e:
+  if req.full_url.startswith("https://download.inep.gov.br/"):
+   return open_url(urllib.request.Request(req.full_url.replace("https:","http:"),headers=dict(req.header_items())),timeout=timeout)
+  raise
 from pathlib import Path
 class RangeReader(io.RawIOBase):
  def __init__(self,url):
   self.url=url;self.pos=0;self.cache={}
-  r=urllib.request.urlopen(urllib.request.Request(url,headers={'Range':'bytes=-131072'}),timeout=60)
+  r=open_url(urllib.request.Request(url,headers={'Range':'bytes=-131072'}),timeout=60)
   if r.status!=206:raise RuntimeError('Range unavailable; refusing to download participant data')
   h=r.headers['Content-Range'];self.size=int(h.split('/')[-1]);start=int(h.split()[1].split('-')[0]);self.cache[start]=r.read()
  def readable(self):return True
@@ -16,7 +23,7 @@ class RangeReader(io.RawIOBase):
   if n<=0:return b''
   for start,data in self.cache.items():
    if start<=self.pos and self.pos+n<=start+len(data):a=self.pos-start;self.pos+=n;return data[a:a+n]
-  start=self.pos;r=urllib.request.urlopen(urllib.request.Request(self.url,headers={'Range':f'bytes={start}-{start+n-1}'}),timeout=60)
+  start=self.pos;r=open_url(urllib.request.Request(self.url,headers={'Range':f'bytes={start}-{start+n-1}'}),timeout=60)
   if r.status!=206 or not r.headers['Content-Range'].startswith(f'bytes {start}-'):raise RuntimeError('Range response mismatch')
   data=r.read();assert len(data)==n;self.cache[start]=data;self.pos+=n;return data
 qs=list(map(json.loads,Path('data/audit/session-recovery/preview-questions.jsonl').read_text().splitlines()))
