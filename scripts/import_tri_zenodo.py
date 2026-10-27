@@ -141,7 +141,7 @@ def download_official_zip(year):
 
 def main():
     questions = [json.loads(line) for line in CATALOG.read_text(encoding="utf-8").splitlines() if line.strip()]
-    candidates, blocked, provenance = [], [], {}
+    candidates, blocked, provenance, unavailable = [], [], {}, {}
     seen = set()
     for year in sorted(set(FILES) | set(OFFICIAL_ZIPS)):
         if year in FILES:
@@ -150,7 +150,11 @@ def main():
             source = f"INEP ITENS_PROVA via Zenodo 10.5281/zenodo.18801899 ({digest})"
             provenance[str(year)] = {"filename": filename, "md5": digest, "url": url, "source_rows": len(rows)}
         else:
-            rows, meta = download_item_mirror(year)
+            try:
+                rows, meta = download_item_mirror(year)
+            except (ValueError, OSError) as exc:
+                unavailable[str(year)] = str(exc)
+                continue
             source = f"INEP ITENS_PROVA {year} via public mirror ({meta['member_sha256']})"
             provenance[str(year)] = {**meta, "source_rows": len(rows)}
         by_item = collections.defaultdict(list)
@@ -193,7 +197,7 @@ def main():
                                "status": "VERIFIED"})
     candidates.sort(key=lambda p: (p["ano"], p["co_item"]))
     report = {"source": "Public item-CSV mirrors (2024-2025); checksum-pinned Zenodo mirror (2018-2023)", "provenance": provenance,
-              "catalog_questions": len(questions), "matched": len(candidates),
+              "catalog_questions": len(questions), "unavailable_years": unavailable, "matched": len(candidates),
               "blocked_count": len(blocked), "blocked": blocked,
               "note": "VERIFIED means exact catalog identity and unique valid parameters from checksum-pinned microdata; not independent PDF certification."}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
