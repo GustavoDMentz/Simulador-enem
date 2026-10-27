@@ -33,7 +33,7 @@ function load(file=SOURCE){
  const entries=readManifest().questions;
  const tri=readTri();
  const display=require('./question-presentation'), displayData=display.readPresentation();
- return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>({...forScoring(withTri(q,tri),entries),_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)}));
+ return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>{const scored=forScoring(q,entries);const joined=withTri(scored,tri);return {...joined,_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)};});
 }
 function filter(rows,query){
  for(const name of ['year','day','position'])if(query[name]!==undefined&&(!Number.isInteger(Number(query[name]))||Number(query[name])<1))throw Error('Invalid filter');
@@ -80,4 +80,4 @@ function publishedRouter(express){
  });
  return router;
 }
-module.exports={publishedRouter,load,filter};
+module.exports={publishedRouter,load,filter,readTri,withTri};
