@@ -46,7 +46,7 @@
   },
   "catalog_questions": 509,
   "unavailable_years": {
-    "2024": "2024: expected one CSV in Hugging Face dataset, found []"
+    "2024": "HTTP Error 404: Not Found"
   },
   "matched": 299,
   "blocked_count": 100,
