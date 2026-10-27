@@ -32,6 +32,8 @@ jobs:
           python-version: '3.12'
       - name: Import checksum-verified Zenodo TRI files
         run: python scripts/import_tri_zenodo.py
+      - name: Install web dependencies
+        run: npm install --prefix web --ignore-scripts --no-audit --no-fund
       - name: Check Node TRI tests against imported database
         run: node --test web/tests/*.test.js
       - name: Commit generated data to review branch
