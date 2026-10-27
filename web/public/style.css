@@ -1003,3 +1003,25 @@ mark.highlight {
  .image-button { padding: 4px; }
  #image-viewer { padding: 10px; }
 }
+
+/* Mobile layout: avoid clipping fixed-height header and nested scroll traps. */
+@media (max-width: 900px) {
+ html,body {height:auto;min-height:100%;overflow-x:hidden;overflow-y:auto}
+ .app-container {height:auto;min-height:100dvh}
+ .app-header {height:auto;min-height:70px;padding:16px;flex-wrap:wrap;gap:12px}
+ .header-logo {min-width:0;flex:1 1 100%}
+ .header-logo h1 {font-size:clamp(17px,4.5vw,22px);line-height:1.3;overflow-wrap:anywhere}
+ .header-stats {width:100%;flex-wrap:wrap;gap:8px}
+ .stat-badge {flex:1 1 130px;text-align:center;border-radius:12px}
+ .workspace {height:auto;min-height:0;overflow:visible}
+ .sidebar,.list-section {min-width:0;overflow:visible}
+ .questions-list {max-height:320px;overflow-y:auto}
+ .content-panel {min-width:0;overflow:visible}
+ .question-meta-bar,.dashboard-header {flex-wrap:wrap;gap:10px}
+ .meta-badges {min-width:0;flex-wrap:wrap}
+}
+@media (max-width:600px) {
+ .sidebar-section {padding:16px}
+ .question-card,.alternative-card,.alternative-text {min-width:0}
+ .meta-options {width:100%;justify-content:flex-end}
+}
