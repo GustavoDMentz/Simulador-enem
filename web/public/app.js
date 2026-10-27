@@ -57,6 +57,7 @@ const API_URL = '/api';
 async function init() {
   await loadFiltersMetadata();
   setupEventListeners();
+  updateQuestionButtonLabel();
   await loadQuestionsList();
   
   // Load a random question to start
@@ -95,13 +96,7 @@ function setupEventListeners() {
   filterImage.addEventListener('change', resetAndReloadList);
   
   // Randomizer
-  btnRandom.addEventListener('click', () => {
-    if (filterPosition.value) {
-      filterPosition.value = "";
-      resetAndReloadList();
-    }
-    loadRandomQuestion();
-  });
+  btnRandom.addEventListener('click', loadRandomQuestion);
   
   // Pagination
   btnPrev.addEventListener('click', () => {
@@ -177,7 +172,13 @@ function setupEventListeners() {
   btnAiExplain.addEventListener('click', getAiExplanation);
 }
 
+function updateQuestionButtonLabel() {
+  const filtered = Boolean(filterYear.value || filterDay.value || filterArea.value || filterPosition.value || filterImage.checked);
+  btnRandom.textContent = filtered ? '🎲 Sortear entre as filtradas' : '🎲 Questão Aleatória';
+}
+
 function resetAndReloadList() {
+  updateQuestionButtonLabel();
   currentPage = 1;
   loadQuestionsList();
 }
