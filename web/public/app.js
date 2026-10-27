@@ -96,13 +96,7 @@ function setupEventListeners() {
   filterImage.addEventListener('change', resetAndReloadList);
   
   // Randomizer
-  btnRandom.addEventListener('click', () => {
-    if (filterPosition.value) {
-      filterPosition.value = "";
-      resetAndReloadList();
-    }
-    loadRandomQuestion();
-  });
+  btnRandom.addEventListener('click', loadRandomQuestion);
   
   // Pagination
   btnPrev.addEventListener('click', () => {
@@ -180,7 +174,7 @@ function setupEventListeners() {
 
 function updateQuestionButtonLabel() {
   const filtered = Boolean(filterYear.value || filterDay.value || filterArea.value || filterPosition.value || filterImage.checked);
-  btnRandom.textContent = filtered ? '🔎 Buscar questão com os filtros' : '🎲 Questão Aleatória';
+  btnRandom.textContent = filtered ? '🎲 Sortear entre as filtradas' : '🎲 Questão Aleatória';
 }
 
 function resetAndReloadList() {
