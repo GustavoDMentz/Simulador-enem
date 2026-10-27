@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Strict, reproducible join of Inep ITENS_PROVA CSV with published ENEM catalog.
 Usage: python scripts/import_official_tri.py ITENS_PROVA_2023.csv --year 2023
-Outputs a review report and a candidate JSONL. Does NOT modify published data.
+Outputs a review report; no question data is modified. Does NOT modify published data.
 """
 import argparse, csv, json, math, pathlib, collections
 
@@ -25,17 +25,18 @@ def main():
     questions = [json.loads(x) for x in CATALOG.read_text().splitlines() if x.strip()]
     with args.csv.open(encoding='latin-1', newline='') as f:
         sample = f.read(8192); f.seek(0)
-        dialect = csv.Sniffer().sniff(sample, delimiters=';,')
-        rows = list(csv.DictReader(f, dialect=dialect))
+        delimiter = ';' if sample.splitlines()[0].count(';') >= sample.splitlines()[0].count(',') else ','
+        reader = csv.DictReader(f, delimiter=delimiter)
+        required={'CO_ITEM','SG_AREA','TX_GABARITO','NU_PARAM_A','NU_PARAM_B','NU_PARAM_C','IN_ITEM_ABAN'}
+        missing=required-set(reader.fieldnames or [])
+        if missing: raise SystemExit('Missing required columns: '+', '.join(sorted(missing)))
+        rows = list(reader)
     by_item = collections.defaultdict(list)
     for r in rows:
         by_item[str(r.get('CO_ITEM', '')).strip()].append(r)
-    required={'CO_ITEM','SG_AREA','TX_GABARITO','NU_PARAM_A','NU_PARAM_B','NU_PARAM_C'}
-    missing=required-set(rows[0]) if rows else required
-    if missing: raise SystemExit('Missing required columns: '+', '.join(sorted(missing)))
     report = {'year':args.year,'source_file':str(args.csv),'source_rows':len(rows),'matched':[],'blocked':[]}
     for q in questions:
-        if q.get('ano') != args.year: continue
+        if q.get('ano') != args.year or q.get('scoring_enabled') is not True: continue
         matches = by_item.get(str(q.get('co_item')), [])
         eligible = []
         for r in matches:
@@ -46,12 +47,13 @@ def main():
             if any(x is None for x in (a,b,c)) or not (a>0 and 0<=c<=1): continue
             eligible.append((a,b,c))
         unique = set(eligible)
-        if len(unique)==1:
+        if len(unique)==1 and len(eligible)==len(matches):
             a,b,c=next(iter(unique))
-            report['matched'].append({'id':q['id_unico_sistema'],'co_item':q['co_item'],'a':a,'b':b,'c':c,'source':'INEP ITENS_PROVA','review_required':True})
+            report['matched'].append({'id':q['id_unico_sistema'],'co_item':q['co_item'],'a':a,'b':b,'c':c,'source':'INEP ITENS_PROVA','review_required':True,'source_rows':len(matches)})
         else:
             report['blocked'].append({'id':q['id_unico_sistema'],'co_item':q.get('co_item'),'reason':'no unique compatible parameter triple','source_matches':len(matches),'eligible':len(eligible)})
     report['counts']={'matched':len(report['matched']),'blocked':len(report['blocked'])}
+    report['warning']='Candidates require manual source and identity verification before publication; no TRI values were imported.'
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report['counts']))
