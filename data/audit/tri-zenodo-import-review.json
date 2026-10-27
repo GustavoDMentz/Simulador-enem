@@ -1,0 +1,743 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.18801899",
+  "provenance": {
+    "2018": {
+      "filename": "2018 ITENS PROVA ENEM.csv",
+      "md5": "5487ab28cc2dac3f27dd06974ee4b5a4",
+      "url": "https://zenodo.org/records/18801899/files/2018%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "source_rows": 1850
+    },
+    "2019": {
+      "filename": "2019 ITENS PROVA ENEM.csv",
+      "md5": "d170738f168755aebcffd10cde468b83",
+      "url": "https://zenodo.org/records/18801899/files/2019%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "source_rows": 1945
+    },
+    "2020": {
+      "filename": "2020 ITENS PROVA ENEM.csv",
+      "md5": "633746122218dc1e47e4aa1ddae6dd0e",
+      "url": "https://zenodo.org/records/18801899/files/2020%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "source_rows": 4415
+    },
+    "2021": {
+      "filename": "2021 ITENS PROVA ENEM.csv",
+      "md5": "0734c69fb976c9d1b533665b1ad8d306",
+      "url": "https://zenodo.org/records/18801899/files/2021%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "source_rows": 5365
+    },
+    "2022": {
+      "filename": "2022 ITENS PROVA ENEM.csv",
+      "md5": "52013f06fbce11f5d6731ee2a8d25bfc",
+      "url": "https://zenodo.org/records/18801899/files/2022%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "source_rows": 5365
+    },
+    "2023": {
+      "filename": "2023 ITENS PROVAS ENEM.csv",
+      "md5": "1e086f7786afe964a744a13c8b64c6df",
+      "url": "https://zenodo.org/records/18801899/files/2023%20ITENS%20PROVAS%20ENEM.csv?download=1",
+      "source_rows": 5730
+    }
+  },
+  "catalog_questions": 509,
+  "matched": 268,
+  "blocked_count": 87,
+  "blocked": [
+    {
+      "id": "2018_AZUL_D1_Q01",
+      "ano": 2018,
+      "co_item": "55933",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D1_Q02",
+      "ano": 2018,
+      "co_item": "7212",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D1_Q03",
+      "ano": 2018,
+      "co_item": "17817",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D2_Q117",
+      "ano": 2018,
+      "co_item": "61010",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D2_Q139",
+      "ano": 2018,
+      "co_item": "63358",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D2_Q150",
+      "ano": 2018,
+      "co_item": "26265",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D2_Q162",
+      "ano": 2018,
+      "co_item": "29575",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D2_Q169",
+      "ano": 2018,
+      "co_item": "16115",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2018_AZUL_D2_Q176",
+      "ano": 2018,
+      "co_item": "40459",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2019_AZUL_D1_Q01",
+      "ano": 2019,
+      "co_item": "17910",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2019_AZUL_D1_Q02",
+      "ano": 2019,
+      "co_item": "25684",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2019_AZUL_D1_Q05",
+      "ano": 2019,
+      "co_item": "18848",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D1_Q03",
+      "ano": 2020,
+      "co_item": "40963",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q92",
+      "ano": 2020,
+      "co_item": "10251",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q93",
+      "ano": 2020,
+      "co_item": "62745",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q95",
+      "ano": 2020,
+      "co_item": "14315",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q96",
+      "ano": 2020,
+      "co_item": "17936",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q98",
+      "ano": 2020,
+      "co_item": "37791",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q100",
+      "ano": 2020,
+      "co_item": "63468",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q102",
+      "ano": 2020,
+      "co_item": "41142",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q107",
+      "ano": 2020,
+      "co_item": "49247",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q108",
+      "ano": 2020,
+      "co_item": "30236",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q109",
+      "ano": 2020,
+      "co_item": "31016",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q111",
+      "ano": 2020,
+      "co_item": "30208",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q112",
+      "ano": 2020,
+      "co_item": "45091",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q115",
+      "ano": 2020,
+      "co_item": "49826",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q116",
+      "ano": 2020,
+      "co_item": "44553",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q118",
+      "ano": 2020,
+      "co_item": "14993",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q119",
+      "ano": 2020,
+      "co_item": "41080",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q120",
+      "ano": 2020,
+      "co_item": "24283",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q121",
+      "ano": 2020,
+      "co_item": "33422",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q124",
+      "ano": 2020,
+      "co_item": "24700",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q126",
+      "ano": 2020,
+      "co_item": "61083",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q129",
+      "ano": 2020,
+      "co_item": "77782",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q130",
+      "ano": 2020,
+      "co_item": "67289",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q132",
+      "ano": 2020,
+      "co_item": "37203",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q133",
+      "ano": 2020,
+      "co_item": "28355",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q134",
+      "ano": 2020,
+      "co_item": "30673",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q135",
+      "ano": 2020,
+      "co_item": "40789",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q136",
+      "ano": 2020,
+      "co_item": "37733",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q139",
+      "ano": 2020,
+      "co_item": "32245",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q140",
+      "ano": 2020,
+      "co_item": "46653",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q143",
+      "ano": 2020,
+      "co_item": "7258",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q144",
+      "ano": 2020,
+      "co_item": "7246",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q148",
+      "ano": 2020,
+      "co_item": "56310",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q149",
+      "ano": 2020,
+      "co_item": "23725",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q156",
+      "ano": 2020,
+      "co_item": "55971",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q162",
+      "ano": 2020,
+      "co_item": "39587",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q163",
+      "ano": 2020,
+      "co_item": "9235",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q164",
+      "ano": 2020,
+      "co_item": "22841",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q165",
+      "ano": 2020,
+      "co_item": "18908",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q168",
+      "ano": 2020,
+      "co_item": "14102",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q169",
+      "ano": 2020,
+      "co_item": "15897",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q170",
+      "ano": 2020,
+      "co_item": "43495",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q172",
+      "ano": 2020,
+      "co_item": "85174",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q173",
+      "ano": 2020,
+      "co_item": "15561",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q174",
+      "ano": 2020,
+      "co_item": "40614",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q178",
+      "ano": 2020,
+      "co_item": "55141",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2020_AZUL_D2_Q179",
+      "ano": 2020,
+      "co_item": "43017",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2022_AZUL_D1_Q02",
+      "ano": 2022,
+      "co_item": "118252",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2022_AZUL_D1_Q03",
+      "ano": 2022,
+      "co_item": "76318",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2022_AZUL_D1_Q04",
+      "ano": 2022,
+      "co_item": "140527",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2022_AZUL_D1_Q05",
+      "ano": 2022,
+      "co_item": "140567",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2022_AZUL_D2_Q119",
+      "ano": 2022,
+      "co_item": "64099",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 16,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2022_AZUL_D2_Q134",
+      "ano": 2022,
+      "co_item": "54377",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 16,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D1_Q01",
+      "ano": 2023,
+      "co_item": "140730",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D1_Q02",
+      "ano": 2023,
+      "co_item": "140565",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D1_Q04",
+      "ano": 2023,
+      "co_item": "140729",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D1_Q05",
+      "ano": 2023,
+      "co_item": "140708",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q93",
+      "ano": 2023,
+      "co_item": "14425",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q94",
+      "ano": 2023,
+      "co_item": "40431",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q95",
+      "ano": 2023,
+      "co_item": "60991",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q98",
+      "ano": 2023,
+      "co_item": "117924",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q102",
+      "ano": 2023,
+      "co_item": "81637",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q115",
+      "ano": 2023,
+      "co_item": "41122",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q121",
+      "ano": 2023,
+      "co_item": "87842",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q126",
+      "ano": 2023,
+      "co_item": "14943",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q142",
+      "ano": 2023,
+      "co_item": "82327",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q144",
+      "ano": 2023,
+      "co_item": "141563",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q148",
+      "ano": 2023,
+      "co_item": "117596",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q156",
+      "ano": 2023,
+      "co_item": "117601",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q157",
+      "ano": 2023,
+      "co_item": "125975",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 16,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q161",
+      "ano": 2023,
+      "co_item": "64151",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q166",
+      "ano": 2023,
+      "co_item": "111538",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q174",
+      "ano": 2023,
+      "co_item": "125990",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q176",
+      "ano": 2023,
+      "co_item": "40387",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2023_AZUL_D2_Q177",
+      "ano": 2023,
+      "co_item": "37312",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 22,
+      "eligible_triples": 0
+    }
+  ],
+  "note": "VERIFIED means exact catalog identity and unique valid parameters from checksum-pinned microdata; not independent PDF certification."
+}
