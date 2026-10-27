@@ -37,6 +37,12 @@
       "url": "https://zenodo.org/records/18801899/files/2023%20ITENS%20PROVAS%20ENEM.csv?download=1",
       "source_rows": 5730
     },
+    "2024": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2024/ITENS_PROVA_2024.csv",
+      "member_sha256": "6e36141d806f3e67e9d842f92672d7f3fd305048b4ee6ae019f6bdaba682fd3c",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 5550
+    },
     "2025": {
       "url": "https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv",
       "member_sha256": "16688912785563f418773a5c99e562f4b43a95cac79357622f05b3d47c7a35d0",
@@ -45,11 +51,9 @@
     }
   },
   "catalog_questions": 509,
-  "unavailable_years": {
-    "2024": "HTTP Error 404: Not Found"
-  },
-  "matched": 299,
-  "blocked_count": 100,
+  "unavailable_years": {},
+  "matched": 359,
+  "blocked_count": 150,
   "blocked": [
     {
       "id": "2018_AZUL_D1_Q01",
@@ -745,6 +749,406 @@
       "co_item": "37312",
       "reason": "no unique compatible parameter triple",
       "source_matches": 22,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q07",
+      "ano": 2024,
+      "co_item": "14475",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q09",
+      "ano": 2024,
+      "co_item": "140807",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q10",
+      "ano": 2024,
+      "co_item": "140816",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q12",
+      "ano": 2024,
+      "co_item": "141263",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q13",
+      "ano": 2024,
+      "co_item": "140935",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q15",
+      "ano": 2024,
+      "co_item": "140982",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q20",
+      "ano": 2024,
+      "co_item": "150460",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q27",
+      "ano": 2024,
+      "co_item": "150602",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q30",
+      "ano": 2024,
+      "co_item": "141399",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q32",
+      "ano": 2024,
+      "co_item": "16575",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q33",
+      "ano": 2024,
+      "co_item": "141447",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q35",
+      "ano": 2024,
+      "co_item": "118138",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q39",
+      "ano": 2024,
+      "co_item": "120372",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q41",
+      "ano": 2024,
+      "co_item": "118098",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q43",
+      "ano": 2024,
+      "co_item": "140836",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q44",
+      "ano": 2024,
+      "co_item": "26631",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q45",
+      "ano": 2024,
+      "co_item": "150600",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q46",
+      "ano": 2024,
+      "co_item": "140794",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q48",
+      "ano": 2024,
+      "co_item": "149816",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q49",
+      "ano": 2024,
+      "co_item": "118023",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q50",
+      "ano": 2024,
+      "co_item": "125769",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q51",
+      "ano": 2024,
+      "co_item": "125746",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q52",
+      "ano": 2024,
+      "co_item": "125853",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q57",
+      "ano": 2024,
+      "co_item": "140822",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q58",
+      "ano": 2024,
+      "co_item": "149809",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q63",
+      "ano": 2024,
+      "co_item": "125682",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q66",
+      "ano": 2024,
+      "co_item": "141379",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q67",
+      "ano": 2024,
+      "co_item": "140616",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q68",
+      "ano": 2024,
+      "co_item": "96219",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q71",
+      "ano": 2024,
+      "co_item": "141031",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q72",
+      "ano": 2024,
+      "co_item": "140508",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q73",
+      "ano": 2024,
+      "co_item": "141105",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q74",
+      "ano": 2024,
+      "co_item": "86829",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q75",
+      "ano": 2024,
+      "co_item": "141073",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q82",
+      "ano": 2024,
+      "co_item": "95775",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q84",
+      "ano": 2024,
+      "co_item": "111965",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q85",
+      "ano": 2024,
+      "co_item": "111807",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q86",
+      "ano": 2024,
+      "co_item": "140471",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q87",
+      "ano": 2024,
+      "co_item": "111991",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D1_Q88",
+      "ano": 2024,
+      "co_item": "141365",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q98",
+      "ano": 2024,
+      "co_item": "45163",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q111",
+      "ano": 2024,
+      "co_item": "56084",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q118",
+      "ano": 2024,
+      "co_item": "84020",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q125",
+      "ano": 2024,
+      "co_item": "17580",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q133",
+      "ano": 2024,
+      "co_item": "88476",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q141",
+      "ano": 2024,
+      "co_item": "126034",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q153",
+      "ano": 2024,
+      "co_item": "17549",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q155",
+      "ano": 2024,
+      "co_item": "96632",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q170",
+      "ano": 2024,
+      "co_item": "32627",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0
+    },
+    {
+      "id": "2024_AZUL_D2_Q176",
+      "ano": 2024,
+      "co_item": "141571",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
       "eligible_triples": 0
     },
     {
