@@ -31,7 +31,11 @@ FILES = {
     2022: ("2022 ITENS PROVA ENEM.csv", "52013f06fbce11f5d6731ee2a8d25bfc"),
     2023: ("2023 ITENS PROVAS ENEM.csv", "1e086f7786afe964a744a13c8b64c6df"),
 }
-OFFICIAL_ZIPS = {\n    2024: 'https://download.inep.gov.br/microdados/microdados_enem_2024.zip',\n    2025: 'https://download.inep.gov.br/microdados/microdados_enem_2025.zip',\n}\nREQUIRED = {"CO_ITEM", "SG_AREA", "TX_GABARITO", "IN_ITEM_ABAN", "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C"}
+OFFICIAL_ZIPS = {
+    2024: 'https://download.inep.gov.br/microdados/microdados_enem_2024.zip',
+    2025: 'https://download.inep.gov.br/microdados/microdados_enem_2025.zip',
+}
+REQUIRED = {"CO_ITEM", "SG_AREA", "TX_GABARITO", "IN_ITEM_ABAN", "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C"}
 
 
 def canonical_item(value):
@@ -88,7 +92,7 @@ def download_official_zip(year):
         tmp.seek(0)
         with zipfile.ZipFile(tmp) as archive:
             options = [i for i in archive.infolist()
-                       if re.search(r"ITENS[_ ]PROVA[_ ]?" + str(year) + r"\\.csv$", i.filename, re.I)]
+                       if re.search(r"ITENS[_ ]PROVA[_ ]?" + str(year) + r"\.csv$", i.filename, re.I)]
             if len(options) != 1:
                 raise ValueError(f"{year}: expected one ITENS_PROVA CSV, found {[i.filename for i in options]}")
             entry = options[0]
