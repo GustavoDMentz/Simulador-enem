@@ -32,7 +32,7 @@ FILES = {
     2023: ("2023 ITENS PROVAS ENEM.csv", "1e086f7786afe964a744a13c8b64c6df"),
 }
 ITEM_MIRRORS = {
-    2024: 'https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/main/src/tri_enem/data/itens/2024/ITENS_PROVA_2024.csv',
+    2024: 'https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2024/ITENS_PROVA_2024.csv',
     2025: 'https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv',
 }
 OFFICIAL_ZIPS = {
