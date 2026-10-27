@@ -31,7 +31,7 @@ FILES = {
     2022: ("2022 ITENS PROVA ENEM.csv", "52013f06fbce11f5d6731ee2a8d25bfc"),
     2023: ("2023 ITENS PROVAS ENEM.csv", "1e086f7786afe964a744a13c8b64c6df"),
 }
-OFFICIAL_ZIPS = {
+ITEM_MIRRORS = {\n    2024: 'https://huggingface.co/datasets/Luc4s-Carv/educadados-token/resolve/main/ITENS_PROVA_2024.csv',\n    2025: 'https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv',\n}\nOFFICIAL_ZIPS = {
     2024: 'https://download.inep.gov.br/microdados/microdados_enem_2024.zip',
     2025: 'https://download.inep.gov.br/microdados/microdados_enem_2025.zip',
 }
@@ -70,6 +70,23 @@ def download(year, name, md5):
     if not reader.fieldnames or not REQUIRED.issubset(set(reader.fieldnames)):
         raise ValueError(f"{year}: missing required columns; got {reader.fieldnames}")
     return list(reader), url
+
+
+def download_item_mirror(year):
+    url = ITEM_MIRRORS[year]
+    req = urllib.request.Request(url, headers={"User-Agent": "Simulador-enem-TRI-import/1.0"})
+    with urllib.request.urlopen(req, timeout=90) as response:
+        payload = response.read(20_000_001)
+    if len(payload) > 20_000_000:
+        raise ValueError(f"{year}: item CSV exceeds limit")
+    text = payload.decode("utf-8-sig") if payload.startswith(bytes.fromhex("efbbbf")) else payload.decode("latin-1")
+    reader = csv.DictReader(io.StringIO(text), delimiter=";")
+    if not reader.fieldnames or not REQUIRED.issubset(set(reader.fieldnames)):
+        reader = csv.DictReader(io.StringIO(text), delimiter=",")
+    if not reader.fieldnames or not REQUIRED.issubset(set(reader.fieldnames)):
+        raise ValueError(f"{year}: mirror item columns invalid {reader.fieldnames}")
+    return list(reader), {"url": url, "member_sha256": hashlib.sha256(payload).hexdigest(),
+                          "source_type": "public mirror of INEP item CSV (not official host)"}
 
 
 def download_official_zip(year):
@@ -121,8 +138,8 @@ def main():
             source = f"INEP ITENS_PROVA via Zenodo 10.5281/zenodo.18801899 ({digest})"
             provenance[str(year)] = {"filename": filename, "md5": digest, "url": url, "source_rows": len(rows)}
         else:
-            rows, meta = download_official_zip(year)
-            source = f"INEP official microdados ENEM {year} ({meta['member_sha256']})"
+            rows, meta = download_item_mirror(year)
+            source = f"INEP ITENS_PROVA {year} via public mirror ({meta['member_sha256']})"
             provenance[str(year)] = {**meta, "source_rows": len(rows)}
         by_item = collections.defaultdict(list)
         for row in rows:
@@ -163,7 +180,7 @@ def main():
                                "fonte": source,
                                "status": "VERIFIED"})
     candidates.sort(key=lambda p: (p["ano"], p["co_item"]))
-    report = {"source": "INEP official ZIP (2024-2025); checksum-pinned Zenodo mirror (2018-2023)", "provenance": provenance,
+    report = {"source": "Public item-CSV mirrors (2024-2025); checksum-pinned Zenodo mirror (2018-2023)", "provenance": provenance,
               "catalog_questions": len(questions), "matched": len(candidates),
               "blocked_count": len(blocked), "blocked": blocked,
               "note": "VERIFIED means exact catalog identity and unique valid parameters from checksum-pinned microdata; not independent PDF certification."}
