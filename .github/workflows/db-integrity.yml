@@ -11,7 +11,9 @@ on:
       - 'data/audit/**'
       - 'data/blue-published/**'
       - 'data/extracted/verified/**'
-      - '.github/workflows/db-integrity.yml'\n      - 'scripts/import_tri_zenodo.py'\n      - '.github/workflows/tri-zenodo-ingestion.yml'
+      - '.github/workflows/db-integrity.yml'
+      - 'scripts/import_tri_zenodo.py'
+      - '.github/workflows/tri-zenodo-ingestion.yml'
   workflow_dispatch:
 permissions:
   contents: read
