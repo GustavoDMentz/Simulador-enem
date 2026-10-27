@@ -1,0 +1,17 @@
+name: Batch 08 official item metadata (read only)
+on:
+  push:
+    branches: [chore/enem-batch08-source-evidence]
+permissions:
+  contents: read
+jobs:
+  official-item-metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read only item CSV entries from official archives
+        run: python scripts/acquire_batch08_item_evidence.py
