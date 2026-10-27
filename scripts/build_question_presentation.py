@@ -54,6 +54,15 @@ def build():
         assert record_digest(q)==e['record_sha256']
         assert sha(ROOT/'data/extracted'/e['source'].removeprefix('/images/'))==e['source_sha256']
         entries[uid]=e
+    report=json.loads((ROOT/'data/audit/batch-08-review.json').read_text())
+    for result in report['results']:
+        if result['status']!='APPROVED': continue
+        uid=result['id']; q=rows[uid]; e=result['presentation_metadata']
+        assert q['conteudo']==result['after_content']
+        assert record_digest(q)==e['record_sha256']
+        for asset in result['assets'].values():
+            assert sha(ROOT/'data/extracted'/asset['image'].removeprefix('/images/'))==asset['sha256']
+        entries[uid]=e
     return dict(schema_version=1,questions=entries)
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--check',action='store_true');args=p.parse_args();data=build()

@@ -36,8 +36,8 @@ def test_restored_release_and_unchanged_quarantine():
     release=[json.loads(l) for l in (root/'data/blue-published/questions.jsonl').read_text().splitlines()]
     entries=json.loads((root/'data/audit/manifest.json').read_text())['questions']
     assert len(snapshot)==len(preview)==513
-    assert len(release)==len(entries)==328
-    assert len({q['id_unico_sistema'] for q in release})==328
+    assert len(release)==len(entries)==509
+    assert len({q['id_unico_sistema'] for q in release})==509
     original=[q for q in snapshot if q['scoring_enabled']]
     current={q['id_unico_sistema']:q for q in release}
     assert len(original)==59
@@ -46,7 +46,7 @@ def test_restored_release_and_unchanged_quarantine():
         assert approved_record(q,entries,root/'data/extracted')
         assert q['parametros_tri'] is None
     pending=[(a,b) for a,b in zip(snapshot,preview) if not a['scoring_enabled'] and a['id_unico_sistema'] not in {q['id_unico_sistema'] for q in release}]
-    assert len(pending)==185
+    assert len(pending)==4
     assert all(a==b for a,b in pending)
 
 
@@ -84,7 +84,7 @@ def test_batch_03_preserves_all_97_previous_approvals():
     assert sum(bool(row.get('accessible_support')) for row in batch3['results'])==30
     for row in batch3['results']:
         if row['status']=='PENDING':
-            assert row['id'] not in current
+            assert row['id'] not in current or row['id'] in batch08_approved(root)
 
 
 def test_batch_04_preserves_all_144_previous_approvals():
@@ -100,7 +100,7 @@ def test_batch_04_preserves_all_144_previous_approvals():
     assert sum(bool(row.get('accessible_support')) for row in report['results'])==29
     for row in report['results']:
         if row['status']=='PENDING':
-            assert row['id'] not in current
+            assert row['id'] not in current or row['id'] in batch08_approved(root)
 
 
 def test_batch_05_preserves_all_190_previous_approvals():
@@ -116,7 +116,7 @@ def test_batch_05_preserves_all_190_previous_approvals():
     assert sum(bool(row.get('accessible_support')) for row in report['results'])==20
     for row in report['results']:
         if row['status']=='PENDING':
-            assert row['id'] not in current
+            assert row['id'] not in current or row['id'] in batch08_approved(root)
 
 
 def test_batch_06_preserves_238_and_binds_50_source_review_decisions():
@@ -157,7 +157,7 @@ def test_batch_07_preserves_288_and_all_explicit_review_decisions():
     assert report['examined']==50 and report['newly_approved']==40
     approved=[r for r in report['results'] if r['status']=='APPROVED']
     held=[r for r in report['results'] if r['status']=='PENDING']
-    assert len(held)==10 and all(r['id'] not in rows for r in held)
+    assert len(held)==10 and all(r['id'] not in rows or r['id'] in batch08_approved(root) for r in held)
     assert Counter(r['area'] for r in approved)=={'CN':26,'MT':14}
     for r in approved:
         q=rows[r['id']]
@@ -174,3 +174,7 @@ def test_batch_07_preserves_288_and_all_explicit_review_decisions():
     assert '[on-line]' in rows['2021_AZUL_D2_Q106']['conteudo']['texto_base']
     assert ']300, 400]' in rows['2021_AZUL_D2_Q151']['conteudo']['texto_base']
     assert 'C₆H₁₂O₆' in rows['2021_AZUL_D2_Q101']['conteudo']['texto_base']
+
+
+def batch08_approved(root):
+    return {r['id'] for r in json.loads((root/'data/audit/batch-08-review.json').read_text())['results'] if r['status']=='APPROVED'}
