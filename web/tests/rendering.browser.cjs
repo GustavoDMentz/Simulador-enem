@@ -13,7 +13,7 @@ const output=process.env.ENEM_RENDER_SCREENSHOTS;
   if(process.env.ENEM_BEFORE_ROOT){const old=require(path.join(process.env.ENEM_BEFORE_ROOT,'web/server'));const s=old.listen(0,'127.0.0.1');servers.push(s);await new Promise(r=>s.on('listening',r));beforeBase='http://127.0.0.1:'+s.address().port}
   for(const [name,viewport] of [['desktop',{width:1280,height:1000}],['mobile',{width:390,height:844}]]){
    const page=await browser.newPage({viewport});page.on('pageerror',e=>report.errors.push(e.message));await page.goto(base);await page.waitForSelector('.list-item');await page.waitForFunction(()=>activeQuestion?.scoring_enabled===true);
-   assert.equal((await (await page.request.get(base+'/api/metadata')).json()).total,288);
+   assert.equal((await (await page.request.get(base+'/api/metadata')).json()).total,328);
    for(const id of cases){
     const q=await (await page.request.get(base+'/api/questions/'+id)).json();await page.evaluate(q=>displayQuestion(q),q);
     const text=['2024_AZUL_D2_Q137','2018_AZUL_D2_Q110','2024_AZUL_D2_Q111'].includes(id);

@@ -45,6 +45,15 @@ def build():
                 alt='Vista superior: setor circular azul com centro no ponto S, ângulo α e raio R. Os valores de cada sensor estão transcritos abaixo.')
         else: e['alt']='Cartilha escolar do Estado Novo: Getúlio Vargas com crianças e mensagem impressa. A disposição entre retrato e mensagem integra o documento histórico.'
         entries[uid]=e
+    # Fixed batch 07 display decisions; an empty after-caption is valid.
+    report=json.loads((ROOT/'data/audit/batch-07-review.json').read_text())
+    for result in report['results']:
+        if result['status']!='APPROVED': continue
+        uid=result['id']; q=rows[uid]; e=result['presentation_metadata']
+        assert q['conteudo']==result['after_content']
+        assert record_digest(q)==e['record_sha256']
+        assert sha(ROOT/'data/extracted'/e['source'].removeprefix('/images/'))==e['source_sha256']
+        entries[uid]=e
     return dict(schema_version=1,questions=entries)
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--check',action='store_true');args=p.parse_args();data=build()
