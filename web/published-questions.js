@@ -5,6 +5,24 @@ const {scorable,forScoring,readManifest}=require('./audit-gate');
 const SOURCE=path.resolve(__dirname,'../data/blue-published/questions.jsonl');
 const PREVIEW=path.resolve(__dirname,'../data/blue-published/preview-questions.jsonl');
 const RECOVERY=path.resolve(__dirname,'../data/audit/session-recovery/preview-questions.jsonl');
+const TRI=path.resolve(__dirname,'../data/tri/parametros-oficiais.jsonl');
+function readTri(){
+ const result=new Map();
+ if(!fs.existsSync(TRI))return result;
+ for(const line of fs.readFileSync(TRI,'utf8').split(/\r?\n/).filter(Boolean)){
+  const p=JSON.parse(line),key=`${p.ano}/${p.co_item}`;
+  if(p.status!=='VERIFIED'||!Number.isInteger(p.ano)||!Number.isInteger(Number(p.co_item))||!['LC','CH','CN','MT'].includes(p.area_conhecimento)||!['A','B','C','D','E'].includes(p.gabarito_oficial)||!['a','b','c'].every(k=>typeof p[k]==='number'&&Number.isFinite(p[k]))||p.a<=0||p.c<0||p.c>1||!p.fonte)throw Error('Invalid TRI record: '+key);
+  if(result.has(key))throw Error('Duplicate TRI record: '+key);
+  result.set(key,p);
+ }
+ return result;
+}
+function withTri(q,tri){
+ const p=tri.get(`${q.ano}/${q.co_item}`);
+ if(!p)return q;
+ if(p.area_conhecimento!==q.area_conhecimento||p.gabarito_oficial!==q.gabarito_oficial)throw Error('TRI identity mismatch: '+q.id_unico_sistema);
+ return {...q,parametros_tri:{a:p.a,b:p.b,c:p.c}};
+}
 function load(file=SOURCE){
  if(!fs.existsSync(file))return null;
  let rows=fs.readFileSync(file,'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
@@ -13,8 +31,9 @@ function load(file=SOURCE){
  const keys=rows.map(q=>`${q.ano}/${q.dia}/${q.posicao_prova}`);
  if(new Set(ids).size!==ids.length||new Set(keys).size!==keys.length)throw Error('Duplicate question identity');
  const entries=readManifest().questions;
+ const tri=readTri();
  const display=require('./question-presentation'), displayData=display.readPresentation();
- return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>({...forScoring(q,entries),_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)}));
+ return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>({...forScoring(withTri(q,tri),entries),_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)}));
 }
 function filter(rows,query){
  for(const name of ['year','day','position'])if(query[name]!==undefined&&(!Number.isInteger(Number(query[name]))||Number(query[name])<1))throw Error('Invalid filter');
