@@ -57,6 +57,7 @@ const API_URL = '/api';
 async function init() {
   await loadFiltersMetadata();
   setupEventListeners();
+  updateQuestionButtonLabel();
   await loadQuestionsList();
   
   // Load a random question to start
@@ -177,7 +178,13 @@ function setupEventListeners() {
   btnAiExplain.addEventListener('click', getAiExplanation);
 }
 
+function updateQuestionButtonLabel() {
+  const filtered = Boolean(filterYear.value || filterDay.value || filterArea.value || filterPosition.value || filterImage.checked);
+  btnRandom.textContent = filtered ? '🔎 Buscar questão com os filtros' : '🎲 Questão Aleatória';
+}
+
 function resetAndReloadList() {
+  updateQuestionButtonLabel();
   currentPage = 1;
   loadQuestionsList();
 }
