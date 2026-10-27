@@ -18,7 +18,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data/blue-published/questions.jsonl"
 OUTPUT = ROOT / "data/tri/parametros-oficiais.jsonl"
 REPORT = ROOT / "data/audit/tri-zenodo-import-review.json"
-RECORD = "https://zenodo.org/records/18801899/files/"\n# Checksums published alongside each file in Zenodo record v1.
+RECORD = "https://zenodo.org/records/18801899/files/"
+# Checksums published alongside each file in Zenodo record v1.
 FILES = {
     2018: ("2018 ITENS PROVA ENEM.csv", "5487ab28cc2dac3f27dd06974ee4b5a4"),
     2019: ("2019 ITENS PROVA ENEM.csv", "d170738f168755aebcffd10cde468b83"),
