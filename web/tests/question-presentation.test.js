@@ -20,7 +20,7 @@ test('all 238 previous records and answers are byte-for-byte unchanged',()=>{
  const prior=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../data/audit/batch-06-review.json'),'utf8')).previous_records_sha256;
  const lines=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'),'utf8').trimEnd().split('\n');
  const bytes=Buffer.from(lines.filter(line=>prior[JSON.parse(line).id_unico_sistema]).join('\n')+'\n');
- assert.equal(rows.length,328);
+ assert.equal(rows.length,509);
  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),'8351f7ef5c3508e9bc1277d7ad8fb6bd6d82113b897fd31db1c621dfdcc906d3');
 });
 

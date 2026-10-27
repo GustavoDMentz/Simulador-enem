@@ -46,6 +46,12 @@ def approved_record(q, entries, asset_root=Path('data/extracted')):
         return False
     if e['record_sha256'] != record_digest(q):
         return False
+    for name, digest in (e.get('display_assets_sha256') or {}).items():
+        if not re.fullmatch(r'/images/verified/[\w-]+\.png', name):
+            return False
+        dependency = asset_root / name.removeprefix('/images/')
+        if not dependency.is_file() or hashlib.sha256(dependency.read_bytes()).hexdigest() != digest:
+            return False
     visual = c.get('metadados_visual') or {}
     if visual.get('contem_imagem') or visual.get('caminho_local_imagem'):
         name = visual.get('caminho_local_imagem') or ''

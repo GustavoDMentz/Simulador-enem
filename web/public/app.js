@@ -341,7 +341,7 @@ function displayQuestion(q) {
   const mode = p?.mode || (c.metadados_visual?.caminho_local_imagem ? 'composition' : 'text');
   document.querySelector('.question-card').dataset.presentation = mode;
   const baseText = p?.mode === 'figure' ? p.before : c.texto_base;
-  textBase.textContent = p?.mode === 'text' ? reflowProse(baseText || '') : (baseText || '');
+  textBase.textContent = p?.mode === 'text' && !p.preserve_line_breaks ? reflowProse(baseText || '') : (baseText || '');
   textBase.classList.toggle('hidden', !baseText?.trim() || p?.includes_command === true);
   const after = document.getElementById('question-after-figure');
   after.textContent = p?.mode === 'figure' ? p.after : '';
@@ -370,6 +370,25 @@ function displayQuestion(q) {
     const letter = card.dataset.letter;
     const textNode = card.querySelector('.alternative-text');
     textNode.textContent = alternatives[letter] || "Não disponível";
+    card.querySelector('.alternative-visual')?.remove();
+    const visual = p?.options?.[letter];
+    textNode.classList.toggle('sr-only', Boolean(visual));
+    if (visual) {
+      const panel = document.createElement('div');
+      panel.className = 'alternative-visual';
+      const img = document.createElement('img');
+      img.src = visual.image;
+      img.alt = visual.alt || 'Alternativa ' + letter + ': reprodução oficial';
+      const zoom = document.createElement('button');
+      zoom.type = 'button';
+      zoom.textContent = 'Ampliar alternativa ' + letter;
+      zoom.addEventListener('click', event => {
+        event.stopPropagation();
+        openImageViewer(img.src, img.alt);
+      });
+      panel.append(img, zoom);
+      card.append(panel);
+    }
     
     // Reset classes
     card.className = 'alternative-card';

@@ -16,6 +16,8 @@ function presentation(q, data=readPresentation()){
   if(e.source!==q.conteudo?.metadados_visual?.caminho_local_imagem||digest(e.source)!==e.source_sha256)return null;
   if(e.mode==='text'&&!q.conteudo.texto_base?.trim())return null;
   if(e.mode==='figure'&&(typeof e.before!=='string'||typeof e.after!=='string'||digest(e.figure)!==e.figure_sha256))return null;
+  if(e.mode==='composition'&&e.figure&&digest(e.figure)!==e.figure_sha256)return null;
+  if(e.options && (Object.keys(e.options).sort().join('')!=='ABCDE'||![...'ABCDE'].every(k=>digest(e.options[k].image)===e.options[k].sha256)))return null;
   return e;
  }catch{return null} // Display metadata can never remove a question or weaken the audit gate.
 }

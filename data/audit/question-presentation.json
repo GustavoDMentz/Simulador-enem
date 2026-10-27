@@ -1144,6 +1144,2246 @@
       "figure_sha256": "e4f649ac0dd35de61a083be7efad79aa0ca6d7df86bd42d133b0db798f9f979c",
       "before": "A esperança de vida ao nascer é o número médio de anos que um indivíduo tende a viver a partir de seu nascimento, considerando dados da população. No Brasil, esse número vem aumentando consideravelmente, como mostra o gráfico.",
       "after": "Pode-se observar que a esperança de vida ao nascer em 2012 foi exatamente a média das registradas nos anos de 2011 e 2013. Suponha que esse fato também ocorreu com a esperança de vida ao nascer em 2013, em relação às esperanças de vida de 2012 e de 2014."
+    },
+    "2018_AZUL_D1_Q01": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2018-azul-d1-q001-source.png",
+      "source_sha256": "4da5a9beea4702dd6e38e59b8bfb74b8d7e5c3d5ccfa786086599f77fac5088d",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "96a8ceebfb02103e85e6943c7eab8034cdd549276167129879e63f72e764b222"
+    },
+    "2018_AZUL_D1_Q02": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d1-q002-source.png",
+      "source_sha256": "c6c922b9c43fa5e3d25849f35e471d80a13d162bee4c414a66d18bb03a16493f",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d1-q002-support.png",
+      "figure_sha256": "84fefb88b5a8d3832abbf450c6f8f17d7a1e609d63b2fb02fafc408152adb6de",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a1fd62090fc7c5d24ef34d207e16e4a5109707eecb4796d738963a022bce97b2"
+    },
+    "2018_AZUL_D1_Q03": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2018-azul-d1-q003-source.png",
+      "source_sha256": "b1ccdbf40da609bd45c9ee440106c80a431d91b851683156a8388f4b76482116",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "962fa0f28ac94bb45589ee2095b2d1b50df1405ad137f32a69f2de422d4cc4c2"
+    },
+    "2018_AZUL_D1_Q90": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2018-azul-d1-q090-source.png",
+      "source_sha256": "bc9bc0e5cda322775d7539abf06bbfa84fa572265fe934be6ac025788d12a78d",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "d0b0b0916d9128582878bd131aa88cc4019492e950c612a895d624f402e5ea4b"
+    },
+    "2018_AZUL_D2_Q108": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q108-source.png",
+      "source_sha256": "7b8e8d765dd8e583955bb8d4932370de2200d06c8d22b4a7634793c1f2004e14",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2018-azul-d2-q108-option-a.png",
+          "sha256": "ac2d2ebdf3d9c7398813a2a47fd85f56f9d303a4df08bfb927c8fbf7d8ee5cdf",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2018-azul-d2-q108-option-b.png",
+          "sha256": "a53b771ce8e7f84d3669b9967bf46fe0764994954bc1d9b47500d26a72b3890e",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2018-azul-d2-q108-option-c.png",
+          "sha256": "a4a3f6d96fd1869547ba2d53c952bcbb847e394dd92488e9812659d585143c39",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2018-azul-d2-q108-option-d.png",
+          "sha256": "c04931a5638d3ab06762c86ec60611ef90f4be2829f3f9b8a1e7ee57a80e234a",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2018-azul-d2-q108-option-e.png",
+          "sha256": "83b870f6eec47554304ab60d41729dfcd06b2df95c71e5498150e1fe00db0432",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2018-azul-d2-q108-support.png",
+      "figure_sha256": "a9c24ba0a469b678e82aaba4b1b3133b0d2e606e70253a0ba5465a2c02123253",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a76bb39dc968b360d33b1d75dd7de644245143d38cc4c0fd41f1369666166cee"
+    },
+    "2018_AZUL_D2_Q109": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q109-source.png",
+      "source_sha256": "9e06f26905e3845e68a11f8319cc3d3451691f4988708b69bc95c9bee2988297",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d2-q109-support.png",
+      "figure_sha256": "9e9f9f32f6e69a82e42e8fb72ea92749eee6b4846e60a45044e7f8ef9b212cd0",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "129a56791ce26a3c168a4f678e286d019b891765efe0f94e9f0bf73a2a11cbbd"
+    },
+    "2018_AZUL_D2_Q116": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q116-source.png",
+      "source_sha256": "23f34583271ff9f84c5c33a9590786c2aa7d446ee7b91554688e5783529b373b",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d2-q116-support.png",
+      "figure_sha256": "5ca6cfde20172f5a5b9ba7dc467f19b2d169ce21ef6cdfa6103160bba0d1e09e",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "2c9c2ce1afacde794dfe1b9f07fbd10bdaa9250d11d4d125844f3831df4426a9"
+    },
+    "2018_AZUL_D2_Q117": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q117-source.png",
+      "source_sha256": "dbbb8f51a7bccb19e5063a1f1e86aba419f5b3aa01c735016299415fd858f85c",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d2-q117-support.png",
+      "figure_sha256": "958ca658e72b05644f5ba0164dd3815a86b6b3dd64ca7561016879787f0b04c3",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "652e7452bd5c9c18f59768a6b864c047d4566ee97a44091adc97940384af99fd"
+    },
+    "2018_AZUL_D2_Q131": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q131-source.png",
+      "source_sha256": "b08404c5b92fd1d95b793610c899fb111cff1750ca5daaa915dd6d9f6b73eaf5",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d2-q131-support.png",
+      "figure_sha256": "d63e522c587bf245bd681d1dc47c18688cf3fa88cf6db41859cb1fa8aa310da3",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "b58ea290d22825bc9de993aa280f9c2ac721d96484b941fb4efd4e9cb5005826"
+    },
+    "2018_AZUL_D2_Q139": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q139-source.png",
+      "source_sha256": "e3a8869b12410c79091aa061e8821007db11374865d86bae0cc759be81829fc0",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2018-azul-d2-q139-option-a.png",
+          "sha256": "5c9ead8d432703bcb6e3106403475f52b01864347b03d96a96e9412795c496dd",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2018-azul-d2-q139-option-b.png",
+          "sha256": "baff9c6bc7f2b8a2f23cee7926be8ab39d57abb98281b13ee8fbf242d302b423",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2018-azul-d2-q139-option-c.png",
+          "sha256": "87878d726578d916d45486720a5389dc6ca6d62356b0df326df6ab8186b20c2d",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2018-azul-d2-q139-option-d.png",
+          "sha256": "a91d2eb0d8adb91c94cbb188d7b5e2b9d2fc19f733a7753552fe47f4aa340add",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2018-azul-d2-q139-option-e.png",
+          "sha256": "fd4eac45ec227a1b7b7c64bc1360c62e50ee71fc0a57e4057b4e6d57625238d5",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2018-azul-d2-q139-support.png",
+      "figure_sha256": "730b77175721e016326db627ebdd8f21c7e1ead0489c0aec687f53708077d60c",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "b2597028c8b0f9bf094a656e914099ca9f9c9a983e8e3d9413b40ffd3b4a855a"
+    },
+    "2018_AZUL_D2_Q144": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q144-source.png",
+      "source_sha256": "3a237a4f2c88ae89b60f18841161f73f168c5e33acb25aec724e12051ee1e051",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d2-q144-support.png",
+      "figure_sha256": "9bb48da3220a3972b706563351c85815b819745a21c7735f7dd114172fdabfbd",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "3b04b71f7b90fd569a91164a2c17526c155a151b10e1ad3a17bce8bbf4761bc0"
+    },
+    "2018_AZUL_D2_Q176": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q176-source.png",
+      "source_sha256": "498da99215159b4e2916d43651b0d4fd4642971e59f73272756df816c4be4aa9",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d2-q176-support.png",
+      "figure_sha256": "eec35f63f4959fed89d46ed812f6d046ee208818cd6485ec8c842d02e2126395",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "46ba3625d74356a881c9b2213c1e54a943d28fca7580edd67b0c12758e0b1c47"
+    },
+    "2018_AZUL_D2_Q177": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2018-azul-d2-q177-source.png",
+      "source_sha256": "082bbc88a0e310d7d3730b66b3bcee81d9b583bc9a553afdc21b2f9c04c8f5bd",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2018-azul-d2-q177-support.png",
+      "figure_sha256": "5ab2fa7804d24aabe06d397edb34cc2c24b3c81d6f307e66b15fe6c225c83aae",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "569b62aebe6ac3991e9ec310e61e143478c91a7bcc06b73a7bb675f27480c7c5"
+    },
+    "2019_AZUL_D1_Q01": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2019-azul-d1-q001-source.png",
+      "source_sha256": "13e08351fc59c658661d0d7e462e63efc606264b7c8a4c8495d8f702f5c9a2fd",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "3e910b32d7ca8dbf653dccc177d9b58ce1cebef12175a8e1e904d721e06055e5"
+    },
+    "2019_AZUL_D1_Q02": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2019-azul-d1-q002-source.png",
+      "source_sha256": "1efbe62cc52c0450a955693fd373a29fbc8b3e48a0c16ef22e043c19f0fe2805",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "6ca70272e75bc18f71abbb07d30dc9006b8dc2403010855722da62cef047b23c"
+    },
+    "2019_AZUL_D1_Q03": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2019-azul-d1-q003-source.png",
+      "source_sha256": "42653d89b7be776df25acfa4470335d1d63a0e061267c989b40723f90f0096fc",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "8f97b66d40be1f78cdae5978409bd446285e194ce9f314295c24e39337c70fa0"
+    },
+    "2019_AZUL_D1_Q04": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2019-azul-d1-q004-source.png",
+      "source_sha256": "b92f50e2cf8e40616141819d3ee13b7758e61c043f55ceea8970ab606542d7de",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "3875fa636bf2e45e649435885de76310ed7080c172310b5af4734f00cc81ae96"
+    },
+    "2019_AZUL_D1_Q05": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2019-azul-d1-q005-source.png",
+      "source_sha256": "1ac99fdbb17eaa7d3577130612447051b58b64b81cde750446de620049f2e02e",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2019-azul-d1-q005-support.png",
+      "figure_sha256": "7879d90eeb59676c050c73c309f071588a14cb5189e9d254a4b9bed93fa212b8",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "382a7145445389bc618c80c7b703d8cfa5945e179da8a1113f1e9cec9121146c"
+    },
+    "2019_AZUL_D2_Q112": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2019-azul-d2-q112-source.png",
+      "source_sha256": "1d7aac0df8a3b38384a9934bd8d9ac8bcdabdbeed1575a4f4bab35c884096b06",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2019-azul-d2-q112-support.png",
+      "figure_sha256": "a723a7f3db4f5906dd1ce6b33fc814b14748a7e36b054a574869c6a490e6a9a2",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "e9642abc7e44845087d3ae2085e153fc5192a8f5d480f0ed432dad634fdbec97"
+    },
+    "2019_AZUL_D2_Q120": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2019-azul-d2-q120-source.png",
+      "source_sha256": "c4148301d7317730463ebbf12388a8ba7225c32e2d0605cd15f864861c136d64",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2019-azul-d2-q120-support.png",
+      "figure_sha256": "aacb7339cba4c21411b9eaff1b8be3aca141590a40a31cbd2cb2e4b79e2118d0",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "e802640d1c141c47edb583aa88e3d6c31e3a1aeefd4a6bdb210123a6592f4ee3"
+    },
+    "2019_AZUL_D2_Q124": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2019-azul-d2-q124-source.png",
+      "source_sha256": "a967b6be67b94388f9121715d2e8064475a89303f852b4e0ab83815cc3069bf1",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2019-azul-d2-q124-support.png",
+      "figure_sha256": "b244c4c121fa05f44806d6c89fb74cdd8a8912d0b4e982a4f2e0c2f47902b113",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "fdaf109219522d09eaac64ed4dddf77b72ca46ad4c0b1c6730de88cf5878b46a"
+    },
+    "2020_AZUL_D1_Q01": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d1-q001-source.png",
+      "source_sha256": "c37a90493103905816ee1b14d6e708093c5570f264a916311802821272fbc3e2",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d1-q001-support.png",
+      "figure_sha256": "3a0b169b9af4b534760a9e31019fb9e2c88e09646178e570d6df9cb10f545191",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "9370f64169445740aec989d3dd892d5be55863e9fe5ec6a093709686cc0bf8f2"
+    },
+    "2020_AZUL_D1_Q02": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d1-q002-source.png",
+      "source_sha256": "9b05c0962f48d71bb55ea32c8d70ad46b8de73b8449afa19ac8f8246662e4665",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d1-q002-support.png",
+      "figure_sha256": "69ba1651a177adff34606e46e553c64b8bcece0b2c04e0665d00dd531d65f783",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "624488b9feb5aecf324b5c6cb36e9ecf6f445e311c4cc292baa3f7029696f611"
+    },
+    "2020_AZUL_D1_Q03": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d1-q003-source.png",
+      "source_sha256": "8943332a99099bfb5db64c5ed25fc1fb76716050961ebd7c5ca955657f4eaf27",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "0386dd4ccfada884eda0cc4b718dad9d6daa6f4f1e1ca15c12a80733f9282a39"
+    },
+    "2020_AZUL_D1_Q04": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d1-q004-source.png",
+      "source_sha256": "6062bdaeea8997dac700f58c7c106dda6e8bfe55ab4ba83e80999f2a9a2dade4",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "a613916c1839f2892c4f07769efe4cb6baff1aad812201c3fac2e494d089a046"
+    },
+    "2020_AZUL_D1_Q05": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d1-q005-source.png",
+      "source_sha256": "cd2c25db31ac1ccc74afbe5c5081174999c7e37d92e77f331a4ace536c43773f",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "64be5b848471b3cd9af3ccc954559f89987877494677192f2d0e17c062a404a0"
+    },
+    "2020_AZUL_D2_Q91": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q091-source.png",
+      "source_sha256": "9176f68865402a0057a39b881214dcac24f4e86b3fdeaa060266b0e62a5208c5",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q091-support.png",
+      "figure_sha256": "daaea7815f17e4e52c5c78399ff1fdc1ea5f218935630439ef2d9ba3cbb4485a",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a3908b8548181e93f50911c60608fa3b018f9fb2c2f54587b0c29cf446dd187e"
+    },
+    "2020_AZUL_D2_Q93": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d2-q093-source.png",
+      "source_sha256": "dfc5312131426f2962ad18dcb4450aab9e58779d6e8d9a1fb0e2989b27f87e09",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "08c75bfcc31ae5f404411a1423336f95635021bb79b7c1774a0ee701477fce9b"
+    },
+    "2020_AZUL_D2_Q96": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q096-source.png",
+      "source_sha256": "33df61a4c62d7ea80fb217d80e13cc5f99053b0b2c1ae5d81cea7e53adcb4cf5",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q096-support.png",
+      "figure_sha256": "3b36802ff42797fc8b5d591bf3ed8d6e82c3df8771af5649a3cd46cac2121d47",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "2a707fb8df9309ae53c2696f3327f209c2839351facb739ce0c38b12873e9585"
+    },
+    "2020_AZUL_D2_Q101": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q101-source.png",
+      "source_sha256": "a61097f3693f40e25d4f118c95601540d895c67052fa438ae96edf5061cea5ec",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2020-azul-d2-q101-option-a.png",
+          "sha256": "aaf6bd7da41ae87d35a8b15f34a1baa9e742e5aa7f52ae9765a6561620aa2a4b",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2020-azul-d2-q101-option-b.png",
+          "sha256": "df9d672f5d09ceb1482610d142a3e174f3fcc884965b1a12437bd16828452ab8",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2020-azul-d2-q101-option-c.png",
+          "sha256": "f142d487e919aff62edbebe7140e37aa8c90415d3accfaffc04c01554cf7f066",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2020-azul-d2-q101-option-d.png",
+          "sha256": "a333b0e09ad46f0c2828c95d8851119d1b3da6eeb0049de6fa9dcd1390f16b23",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2020-azul-d2-q101-option-e.png",
+          "sha256": "4446582111d9a255bddd246c65f7e6732fb0b89f2964d6705ec1e8da0358689e",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2020-azul-d2-q101-support.png",
+      "figure_sha256": "ca640c01912fbb2568bc471570d8022b0dd28a19dfadff8418ec4d0e2352c06e",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "75e83415a322661de4bd7e4b4ad87c26857f0e565a0ed0776cf5f623dd8c6dc5"
+    },
+    "2020_AZUL_D2_Q102": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q102-source.png",
+      "source_sha256": "5922b49a9293fd132f82f4c640790969251a1ae0ff7015335b74192b81ac0547",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q102-support.png",
+      "figure_sha256": "47fe65c64a525eeb3556aa60b15ace4caacca82f933107bea817c91e296e5233",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a7a240c6043323e830a82832141de22a07f88f34c11ee049dcfd2cb108aa2f73"
+    },
+    "2020_AZUL_D2_Q106": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q106-source.png",
+      "source_sha256": "0d2ac37cd9b05ce29548d4ed22ad44596d1625745a9759d5c07c2e0193d8605f",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q106-support.png",
+      "figure_sha256": "39bc3b1901a440d4dac929096aa6a79e250fefdb5ea116723fd42dc7cf7ab588",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a6ebfb117e22211882ba4376570058fb967b1eb73d81a09a6eebe02810a22060"
+    },
+    "2020_AZUL_D2_Q107": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q107-source.png",
+      "source_sha256": "5c1cb921581180b4804547242d93b532398d4890b5bb208e9d96acd3be21588b",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q107-support.png",
+      "figure_sha256": "1677d141611889d1cfb802bab8695af9d04788da991a4ba9ca41d1ccf5f39f78",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "bbeade29774c3ff13dafe23e6759bbef40ddbdfdb3caaab74fd8a5e77c538a00"
+    },
+    "2020_AZUL_D2_Q111": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q111-source.png",
+      "source_sha256": "97ae7aa068424f5b4561610cfa3e91e41d30a2f68dbdceba231e9775608ef9e7",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q111-support.png",
+      "figure_sha256": "1624f6328e9f9a47b71fe3f8cd09b98a43c37c1399822fd70267fbb6d2d14c4a",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "56890d8f34119666ca98cafc2ecb13a78e73b8c437620be1e395ec1067252546"
+    },
+    "2020_AZUL_D2_Q113": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d2-q113-source.png",
+      "source_sha256": "35469017e80e66cf593358044484e071d66908886765efca3f82edc844519f35",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "b9bacb36e35516f1779e425c05420d2054408519b0fb0e81f8343797bb943c99"
+    },
+    "2020_AZUL_D2_Q115": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q115-source.png",
+      "source_sha256": "92470688491ec04d3f3b3119955a24fb689a7e8f0688a8aed9833ed8b7cfdd5c",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q115-support.png",
+      "figure_sha256": "86186c4c1ce1ea2af1d25e77a4ec0174a0abfd20d7c431d36f24645b9edb0441",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "6c5d8d1e2dac0aa9d82e6e96c9af321ebc311d33a6f000a8310eed1f6ff85bc6"
+    },
+    "2020_AZUL_D2_Q118": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q118-source.png",
+      "source_sha256": "9bf381dbf0333630e389cd2351fa7a825e0cb12f4c2c8682cc2f78f852ebb91a",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q118-support.png",
+      "figure_sha256": "1fc47c19adc6504f9d9ab3ec2dce2d4fb8f256ca12ce05369bbefd736241ef1e",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "5adde178473360277be7918041149b96b52b990327b588f3fbfe2fd564277eb1"
+    },
+    "2020_AZUL_D2_Q120": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q120-source.png",
+      "source_sha256": "c0537aa83ce792c3aa7205c2d7483b8f6f2ca6ae0d5eff23d20a226ffb66ffe6",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q120-support.png",
+      "figure_sha256": "8771a7c540bf942f97ee05f0143b2e33b0b13ade6ecb050a6c29653b974c6940",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "cde1b70ab048e9a0bab59e9d71f4588660b317a703814d254410a18f1d5e98f9"
+    },
+    "2020_AZUL_D2_Q121": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q121-source.png",
+      "source_sha256": "2b8380167626d3d767ac016a32d671beecd01f6b5375b5f546e21f6419027152",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2020-azul-d2-q121-option-a.png",
+          "sha256": "36723de5a664e2b3787e3530cedb183d1f9dc1f7029dc8a4ea81cd86986a117c",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2020-azul-d2-q121-option-b.png",
+          "sha256": "117d08d4c659c4e9d1bc1f735eaad3e732ac75c66ac5d55e6becd5c55f3526a3",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2020-azul-d2-q121-option-c.png",
+          "sha256": "affd647dd60b620da8b47971db4a4ab1b264d925df9ed227fb821f3758e06a2c",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2020-azul-d2-q121-option-d.png",
+          "sha256": "28f0125376c6f820c34b897e3551be13e3ed7834db6761d8c6ac17ea34eff266",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2020-azul-d2-q121-option-e.png",
+          "sha256": "b9e754e3cb9550cc91cbfb43553f64bfe0e6d7a79b8b7441a6f60972bb0d0461",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2020-azul-d2-q121-support.png",
+      "figure_sha256": "e93e30df9482580b4334377d648ee20166e67ec148c3b6395f86f75ff3cc8db7",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "44e94c4b0b290c5b7aa58ec5e6958c5dc1acd334c64476b08ffa30e3e768c675"
+    },
+    "2020_AZUL_D2_Q123": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d2-q123-source.png",
+      "source_sha256": "a3a999fa56b54d388bda8ba4e627e145c0e1e242d691635bafc127aae1d9fb60",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2020-azul-d2-q123-option-a.png",
+          "sha256": "bd13c34050143bb9738d6e7ec78fde60771375b31b4e49a14f08754f511a6fd1",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2020-azul-d2-q123-option-b.png",
+          "sha256": "1404b7c85788d600422302e55567c349c87c4ab06ad574104b1eec0222255cbc",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2020-azul-d2-q123-option-c.png",
+          "sha256": "2f2a3cbfbc64a8b0ffccfaa8668098ce3393aa791c13f874d5661ff99a4b7c28",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2020-azul-d2-q123-option-d.png",
+          "sha256": "1976f969d1c8b7e4110a27971b05dcd23d6a671df4ed2a225d4db2204bfd8a0a",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2020-azul-d2-q123-option-e.png",
+          "sha256": "1e5d5820ba2190f55c4cc677d2a95046e50d872f8e69797357100269b54ae06c",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "preserve_line_breaks": false,
+      "record_sha256": "d869a3fa8b599509d2155cfa4bd85f648bfa6092b2a7e9af0023cb1805ca11b1"
+    },
+    "2020_AZUL_D2_Q125": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q125-source.png",
+      "source_sha256": "5cd5ded5f8103ab7087a93dc8eadeec8239b875ac016918be9658998b5fc6481",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q125-support.png",
+      "figure_sha256": "6ebd8b54460da8b57406e82b7d2099b12e10b69a3e805d657357126dcfd81c48",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "10af44aa699e648bbe30b77c13b7847dc6aaefc7cbff2a99c3d31944f467653d"
+    },
+    "2020_AZUL_D2_Q126": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q126-source.png",
+      "source_sha256": "d3563dac912c0d2811004efa20adb1838519680955b69a753468ccc04406c7a3",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q126-support.png",
+      "figure_sha256": "6a94c65246076b3cb6dd1e6dce41b266416fe6a1ac0e11dff88fa31168081a84",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "7b52626af811f78f048d5d978caa15c254114075a30ddad3135a4d4d305e732f"
+    },
+    "2020_AZUL_D2_Q127": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q127-source.png",
+      "source_sha256": "27bf73aaf6b9b5ea687a33d05d35ff14e0418127bc41ab173130d4c7a04d7703",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q127-support.png",
+      "figure_sha256": "9d0d490dac1cd48b37ce091493380298fc527e7c030375735a36a1e84c9ffe81",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a4701853cd0826a8e797ca00a5c4f974992f6922c9c02f117b025cfd0091c84a"
+    },
+    "2020_AZUL_D2_Q128": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q128-source.png",
+      "source_sha256": "544f170c5fb4de9bb3c4d344f3f08f6aea5023c5359ad22b4e865ebace34b5a6",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q128-support.png",
+      "figure_sha256": "a565767bb4eeea84a4f685049a02e824427a16d68f5ee178045edbcf76e1015e",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a17cd755d2fc0a2c853e110c1058bda90a624c134367c9e278bc4a0c660dddb0"
+    },
+    "2020_AZUL_D2_Q129": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q129-source.png",
+      "source_sha256": "02b151131fb480d6c50443d9ebf771688abab6b0dfa1039ed64ffad1eac248ab",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q129-support.png",
+      "figure_sha256": "eb3fdc65ac53a287537b331970dd42d32ffb02a4f6e248d5818f2ccf3ac5b254",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "2f28e3f9230b0f7490ceb3388c384505a96d2ff55f81af1bd6b41d01ccf89d84"
+    },
+    "2020_AZUL_D2_Q131": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q131-source.png",
+      "source_sha256": "6d3db74a9094d7f4bb077fc7aaadbd6c14a2a300447ee9a8fac08b35e0407012",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q131-support.png",
+      "figure_sha256": "de1451306115c2175c4236c9164359b853c3382519ac397ea276c214c2b10986",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "db3deaf32a3403f73e72ba8aa16c82844be17d784af55a25c08c6d0862f17f06"
+    },
+    "2020_AZUL_D2_Q135": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d2-q135-source.png",
+      "source_sha256": "f51b2715826bbbce507b32e974821657500141ce01e3ad0d6cc080bf1498b263",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "29d1733b19319cafda4b7a2410e8a6ad2982a93ca2765fe7916564d1362db18c"
+    },
+    "2020_AZUL_D2_Q138": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q138-source.png",
+      "source_sha256": "7a2a91f89dd50cc2c7a5bbf9ca9b6a4c5e580ebee37a7f4432a1f09cb485fd4d",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q138-support.png",
+      "figure_sha256": "fe4d60edc37dbdd0745823415f175bc3bee1e24f8c18485e848310a9b24dfde9",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "0652527ad28e5a9195bd0181eaa8d9b2865b42199a212d9b1cbf1228ccd4b53a"
+    },
+    "2020_AZUL_D2_Q144": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q144-source.png",
+      "source_sha256": "b9fa2e0266f215616c6da747682cd914a7671c3dcc7000cd7a6e838096885787",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q144-support.png",
+      "figure_sha256": "4e97a35590a090eba40dc3c81f4620f2ce1fb8f7fcbbfe56cdf51ac537ae9007",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "4d44db474c5a9abd79f8d68ef2384279cf57de4e0bcd87cb3cd2f3c941a6c3ce"
+    },
+    "2020_AZUL_D2_Q146": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q146-source.png",
+      "source_sha256": "9f04d26c96b6887ba3ac4097c413ada8bc09157a7b78e671bc038199d42ed9f3",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q146-support.png",
+      "figure_sha256": "ef27adf1e654889e383c2d80c10bef9c6494aaa9012ac1e34eb1e18abf7c3ff0",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "bdb070fe6bf7ff0475a8821eea0d5f133fac394ba050491ee28b41b685278917"
+    },
+    "2020_AZUL_D2_Q147": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q147-source.png",
+      "source_sha256": "814376e1ee1135058e81cb1c6ced2e6732ed1b9ae0e1e9953175870d504df816",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q147-support.png",
+      "figure_sha256": "6ed1aac600dab7c78515ae1788ef4c3be3b5355dd09c7a84eb3730f603e77472",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "35cc13d41a2e481f46358c2f71c4ea3684be59815bf78182e2f8041e35a2300d"
+    },
+    "2020_AZUL_D2_Q154": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q154-source.png",
+      "source_sha256": "cadd53e7e15512f33c7bd341fa7da79b83f99e7392edfee69a7b40a0ad6b8e94",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q154-support.png",
+      "figure_sha256": "699d952594e229932495e113b9c83186c6ed10062a6242f64faf0a428a090d78",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "287e76620b58b3e2f6257c00d24a996317f567c743fe8d49deccf2d27d2854d9"
+    },
+    "2020_AZUL_D2_Q155": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q155-source.png",
+      "source_sha256": "72af4c560c5ebdbbf944751dbacee735526979dfbc55b1baf06435017bb83266",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q155-support.png",
+      "figure_sha256": "5efe10ca6f8fea43de6bfc6a0d2b9352a86f384ab2d2e8fc8915a0e3e97a702c",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "c533777bb6ab255fc4609f07a619a2bc99cfb489ab7d8edc42347c25144963f0"
+    },
+    "2020_AZUL_D2_Q156": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q156-source.png",
+      "source_sha256": "c502235772cca086318a86d4b2fb9fc1ee5d6d7209ea4ef8728904496f1df5b7",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q156-support.png",
+      "figure_sha256": "605d4b194dd76f9cdd632123d8437f896f0118d0dc93de7d7a9c5de219e33e96",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "c07c9dd6bc284baa0a1780ab4f586eb197e8bf2ea7ca9ab6c4ff8825c8bc9e47"
+    },
+    "2020_AZUL_D2_Q166": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d2-q166-source.png",
+      "source_sha256": "8d4f53bf2be8c2c8e82f3603fa7eaabf0c979cce51702442afa78111dcdc1f7e",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "523a3ccbef3e760e572e9943550ed11ffd6672ec6f11659e29452c801c468096"
+    },
+    "2020_AZUL_D2_Q169": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q169-source.png",
+      "source_sha256": "09f1c44a782617eabb7c34c2547f0be73741ee84519dd0beabd4dac077f6747a",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q169-support.png",
+      "figure_sha256": "50b14cfca9651359ced57111f41f433c543e3ece239f2776897aa577f76305bd",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "e19008470ff49324d8e5d837a00b72b333c8db6b9cf2d9a455a4a4837f1c7d8e"
+    },
+    "2020_AZUL_D2_Q173": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q173-source.png",
+      "source_sha256": "5890a0a9cae6aac1c241477380adb358cc99f55653d1a8ee0dac2624412eef0c",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2020-azul-d2-q173-option-a.png",
+          "sha256": "04e579f79a376d6c446423f60a5813f697d8faff162a51b4b6be9933b42fba9a",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2020-azul-d2-q173-option-b.png",
+          "sha256": "1e7867933dc9a3009eae1d0fa5db70b30f2ce87725c62025e54684044cd282a2",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2020-azul-d2-q173-option-c.png",
+          "sha256": "a46847a9b0a00701afd3d6685d42ecaffb92ebb88eb5d6fa0bd14f2469f8f0af",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2020-azul-d2-q173-option-d.png",
+          "sha256": "f056d74154d4ded9fa48f541fc6ac477c6648db861b39b8f92d010807d231d6f",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2020-azul-d2-q173-option-e.png",
+          "sha256": "e8d0d41eb256fa2a266f79256820b86f9c44903591efef6110c9b6e42375759e",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2020-azul-d2-q173-support.png",
+      "figure_sha256": "bdee5f0faa501c120cdbbe8ab54fb3721c9aff5c65bca4fc1a294cf440bbf0cc",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "d3cade6a442c48b81deb79557cae276cc11ba132384db8fc4d4e4ad9086724e0"
+    },
+    "2020_AZUL_D2_Q175": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q175-source.png",
+      "source_sha256": "4a547987cdf147b8b8102db680201934b40c2124037814737634a76bb298a9b1",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q175-support.png",
+      "figure_sha256": "dd0863cfb0006f5a55ec0be41ec527217c45a631b8ccb31c72b48fe6fd484e63",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "f7edd6078d5e4094ef46ee13425a64ff9c237ee5ca8aa8cddb263923b9c78a36"
+    },
+    "2020_AZUL_D2_Q176": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2020-azul-d2-q176-source.png",
+      "source_sha256": "a2f5076a3531b2f875724e4f04c455c12c3bc41bea108be12dc79cd1a4b7467e",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "9dba50f1dfa522dce298e79e4d0f658428bd4d51366c19075062de6ceba514d7"
+    },
+    "2020_AZUL_D2_Q177": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q177-source.png",
+      "source_sha256": "c51cdd3227b501618d8e205be028427109562bf7d8b05262f4be3ade3133d95a",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2020-azul-d2-q177-support.png",
+      "figure_sha256": "b55c97fa5f440b2f8dad3c86f33aff0c20cd614f7cb25c9785de69b7f5ade206",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "9e7dd880c3f8f62c7886f33ff898e940427e23f88c1055af6b0060f5b7e1cc1f"
+    },
+    "2020_AZUL_D2_Q180": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2020-azul-d2-q180-source.png",
+      "source_sha256": "efbf1b968b3ee5320dc7e022dff4e4f76d87558c63fe65afbc28c96229708a4b",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2020-azul-d2-q180-option-a.png",
+          "sha256": "ab6a79c7142218c02e65d944959eca8f1300b59ae0b21dce9d14eeb88b616ab3",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2020-azul-d2-q180-option-b.png",
+          "sha256": "50dc522eff53309c018e6a38b239a961de036b986932e21d7debaea9dde1cacb",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2020-azul-d2-q180-option-c.png",
+          "sha256": "2cbff8651013e294d038024a3703c32f244bfb6fd63db052fa3aa8bc2c7709c1",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2020-azul-d2-q180-option-d.png",
+          "sha256": "aa0322faaea8c35c50bb9a377c9cacc705bc840a8f283b6295bde93fb52dd5f9",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2020-azul-d2-q180-option-e.png",
+          "sha256": "dfb12dc17c996b3634a327ef7864ce8e8fecf0c471b1c8914024ce9bf508bfa3",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2020-azul-d2-q180-support.png",
+      "figure_sha256": "3027873e12f2c05f4d599887b3f006dbc73afadd7a37c4e893e5eb8dc97cccac",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "b56c1a9304ef1f38ec4a85a41fc60f191586b16232c6d3982c27763c39cca0ed"
+    },
+    "2021_AZUL_D1_Q01": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2021-azul-d1-q001-source.png",
+      "source_sha256": "c3a1c40538f8267c44b6467d981c27b6117e8776444f1d0373245e1ad68996dc",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "76d5f06f552482a3b4ce6b53f17eb359c2b1f3503e164d9b7f07704e3539f922"
+    },
+    "2021_AZUL_D1_Q02": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2021-azul-d1-q002-source.png",
+      "source_sha256": "85f5603454a0d94be907720ca18d88f3d48bd2b11da632f911a637cd69e68f1a",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "182ab765f1a3b17dd72d5c8a37ce33c2d61bc16c5c0c2eaef0f3d2cc50c7939e"
+    },
+    "2021_AZUL_D1_Q03": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2021-azul-d1-q003-source.png",
+      "source_sha256": "4563f7356b3c4e917c729c8713e8f9dd455d20e5f49da9a4567a16775b8f037b",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "667d87987e9faaf309324ef55d3ce03706915818e205304d8f4a6dbffe0967e7"
+    },
+    "2021_AZUL_D1_Q04": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2021-azul-d1-q004-source.png",
+      "source_sha256": "ee0839ff9dfebc475505b48061cba7ef40318adf30da1e145cc2306825c794e1",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2021-azul-d1-q004-support.png",
+      "figure_sha256": "928dc13e6de29467ef971c392470ab14228d9251519ab4bccea0f8675117d904",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "b5d091fd566567124724b1896e7fc39958d53279677ef0157832d69769e493d9"
+    },
+    "2021_AZUL_D1_Q05": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2021-azul-d1-q005-source.png",
+      "source_sha256": "680c43bd40be8d2d4e5b0f96344372189ea1744694ba485808951e7d9a108dbf",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "64f253007ee4bf2eef1e1d9d7348781d8d887bf1637d5cb04073018c17ad97c8"
+    },
+    "2021_AZUL_D2_Q102": {
+      "mode": "figure",
+      "source": "/images/verified/batch08-2021-azul-d2-q102-source.png",
+      "source_sha256": "59217bafebfdbbcf9f0915d98df14e1822dcdabe568a999640dc5df2ccbd7b11",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2021-azul-d2-q102-option-a.png",
+          "sha256": "5a4d04ce13da2bd2eed59941b0a630d4488ca4bbdef737dac372c63171f4a394",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2021-azul-d2-q102-option-b.png",
+          "sha256": "e7a9831b8b92edaa23041fd82c598f02cee7675257a5fd20b884b62d85c7f9bd",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2021-azul-d2-q102-option-c.png",
+          "sha256": "d9e5d9fe8aa55b9b5a2809726032cbe6683140b506ef1652c5cf3b4849b1f5f8",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2021-azul-d2-q102-option-d.png",
+          "sha256": "0eaa23e85ab733e2bcc4e5bd01ef8e5ffd3274361c35b006955632273595f04a",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2021-azul-d2-q102-option-e.png",
+          "sha256": "8e70dfee6e44fbd0b2a164641e0d8392b2a29c5aad9e6d86c6c0821388179821",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2021-azul-d2-q102-figure.png",
+      "figure_sha256": "70be00eb2d6fa0d9cb672f64f70b77903c6653ee4229a336305f71bddaebaf83",
+      "before": "É possível ligar aparelhos elétricos de baixa corrente utilizando materiais comuns de laboratório no lugar das tradicionais pilhas. A ilustração apresenta uma montagem que faz funcionar um cronômetro digital.",
+      "after": "",
+      "alt": "Montagem eletroquímica com cobre, zinco, pontes salinas, cronômetro e voltímetro. Rótulos e ligações preservados na figura original.",
+      "record_sha256": "828ef2d0d20e4406d23bae77db033c6ddd9d101df55e2052a614ebae85649b5c"
+    },
+    "2021_AZUL_D2_Q105": {
+      "mode": "figure",
+      "source": "/images/verified/batch08-2021-azul-d2-q105-source.png",
+      "source_sha256": "622dd47a677679b61d2cc2094fcfde67c87ef2880b4ccfcf2ba81e5faa7e4cb5",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2021-azul-d2-q105-option-a.png",
+          "sha256": "923d0d83dd5fec0d6231e0be4fc6db4c1f91cd266ad320608c404563a4337249",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2021-azul-d2-q105-option-b.png",
+          "sha256": "30a952b1eb8745c0072d19ea5016a802b6c1c45667a6ed42a488da357d9ca01e",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2021-azul-d2-q105-option-c.png",
+          "sha256": "34ba017febbfd20af9cef2a8ae4d4f157925db47a34f1489be58d78db77c5653",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2021-azul-d2-q105-option-d.png",
+          "sha256": "3df0dbf448a648118af8bc7bfb9a6b80d4627e2c50a25c8277fad8540ea1f94d",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2021-azul-d2-q105-option-e.png",
+          "sha256": "2f1ed0a98ebc4ab3dd84e8b0ff01ee6f22e53c33028d5c1f348d604af70ea5d3",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2021-azul-d2-q105-figure.png",
+      "figure_sha256": "7bbe7c2357718bfa344daca9a592c079ac6d9e3adcca27d4553582f4c6c499d2",
+      "before": "Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob ação da gravidade numa região que tem um campo magnético horizontal uniforme (B⃗), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (g⃗) que atua na região.",
+      "after": "",
+      "alt": "Duas cargas de sinais opostos unidas por haste. Campo magnético para a direita e gravidade perpendicular entrando no plano; sentidos indicados no original.",
+      "record_sha256": "606df9df731d08e24ec445cbc86faf55b2319dc8056445d337b6a5fcf767521f"
+    },
+    "2021_AZUL_D2_Q126": {
+      "mode": "figure",
+      "source": "/images/verified/batch08-2021-azul-d2-q126-source.png",
+      "source_sha256": "bb2a0306d1059651c5414cf386d73080bc43cc6548e607c18dfcff5b154bc643",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2021-azul-d2-q126-option-a.png",
+          "sha256": "366a1d49bf326ee4d6bfec8f60db6d2b97c737437e178d836ca48f782d2875c1",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2021-azul-d2-q126-option-b.png",
+          "sha256": "107444f6149d388afd4299b4ae578b2e8adde6830bf35db920ee5002c0a97829",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2021-azul-d2-q126-option-c.png",
+          "sha256": "211eda59f0f7a948174089c3f64eb5aaae25bdcb858ac0f8c33b3f4f1f5531dc",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2021-azul-d2-q126-option-d.png",
+          "sha256": "b7ba4798713fa3edbf7b19022fc9ab591526e37696881855b99deef7f0c9a53f",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2021-azul-d2-q126-option-e.png",
+          "sha256": "c05af2557ef103d2e145b85349e5f7716558c8a99ab9123f077af2b9b95e7dad",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2021-azul-d2-q126-figure.png",
+      "figure_sha256": "05206ad27c600ebfc02a8246423b374649f8bc7bcdac857253e9777b6faca199",
+      "before": "Um garoto precisa montar um circuito que acenda três lâmpadas de cores diferentes, uma de cada vez. Ele dispõe das lâmpadas, de fios, uma bateria e dois interruptores, como ilustrado, junto com seu símbolo de três pontos. Quando esse interruptor fecha AB, abre BC e vice-versa.",
+      "after": "O garoto fez cinco circuitos elétricos usando os dois interruptores, mas apenas um satisfaz a sua necessidade.",
+      "alt": "Bateria, três lâmpadas (verde, vermelha e azul) e interruptor de três pontos A, B e C. A figura preserva terminais e símbolo.",
+      "record_sha256": "0191edecbf923669363137fe2e7a44a97504980426f9c5a2312504aa5fc1b977"
+    },
+    "2021_AZUL_D2_Q135": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2021-azul-d2-q135-source.png",
+      "source_sha256": "867a6a73d9edb2095281cd5cada9d899d771b590ab2d78999809cb127f386f2c",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2021-azul-d2-q135-option-a.png",
+          "sha256": "573c2794e9c269722271583262d33f3237146bf289848c8926245fb46f02d636",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2021-azul-d2-q135-option-b.png",
+          "sha256": "453d43001ef04b4d264e7dcfdb1f55457f7666de04a85c177410fe8ff9d96024",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2021-azul-d2-q135-option-c.png",
+          "sha256": "1f41792773c2b0016b6076820dc67e5e61166c51d5ff0401364b6ec83681b728",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2021-azul-d2-q135-option-d.png",
+          "sha256": "8cb38b32b99aabd848dd4862342c370791d5ee8bcde500c00664ce9f88d43c9d",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2021-azul-d2-q135-option-e.png",
+          "sha256": "ac1ad5849574fb2b0c535c1562df7761486316227911fbb8a61fcdf5a14e5d6a",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "record_sha256": "8a6c9f14c4ebb0aea5958f6308f5ce3a5d8ee356fb0b6598b2dbba36e6bf91eb"
+    },
+    "2021_AZUL_D2_Q137": {
+      "mode": "figure",
+      "source": "/images/verified/batch08-2021-azul-d2-q137-source.png",
+      "source_sha256": "66297daebd00591a8134ced7c7c6c5652840c799c10d957dc6b12243b0974e5b",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2021-azul-d2-q137-option-a.png",
+          "sha256": "acae8f607a54b9d3678113f873abc6ab7806e43f5d2adf3fd27065f2f8ce75e7",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2021-azul-d2-q137-option-b.png",
+          "sha256": "a6f452d565e16ded47d0661d0262f109e66b1d559dae33f15deaaf3bfa3665db",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2021-azul-d2-q137-option-c.png",
+          "sha256": "159200f2c4237369630bcd285b324c29c3ded6d17c5b129605f7a836436618d8",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2021-azul-d2-q137-option-d.png",
+          "sha256": "bf12731eae2728882ba664dd23d44479509e56255dc69d3289881df16c43e49c",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2021-azul-d2-q137-option-e.png",
+          "sha256": "7790fc0288b01af5c29f74cbd60a6806e0a5ac845377734575c4c7d9a95cf75b",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2021-azul-d2-q137-figure.png",
+      "figure_sha256": "37868b9debc521a625fcc9c23041b6d51eae49fffea7f7a4bce868b83ec46e70",
+      "before": "O Atomium, representado na imagem, é um dos principais pontos turísticos de Bruxelas. Ele foi construído em 1958 para a primeira grande exposição mundial depois da Segunda Guerra Mundial, a Feira Mundial de Bruxelas.\n\nTrata-se de uma estrutura metálica construída no formato de um cubo. Essa estrutura está apoiada por um dos vértices sobre uma base paralela ao plano do solo, e a diagonal do cubo, contendo esse vértice, é ortogonal ao plano da base. Centradas nos vértices desse cubo, foram construídas oito esferas metálicas, e uma outra esfera foi construída centrada no ponto de interseção das diagonais do cubo. As oito esferas sobre os vértices são interligadas segundo suas arestas, e a esfera central se conecta a elas pelas diagonais do cubo.\n\nTodas essas interligações são feitas por tubos cilíndricos que possuem escadas em seu interior, permitindo o deslocamento de pessoas pela parte interna da estrutura. Na diagonal ortogonal à base, o deslocamento é feito por um elevador, que permite o deslocamento entre as esferas da base e a esfera do ponto mais alto, passando pela esfera central.\n\nConsidere um visitante que se deslocou pelo interior do Atomium sempre em linha reta e seguindo o menor trajeto entre dois vértices, passando por todas as arestas e todas as diagonais do cubo.",
+      "after": "Disponível em: http://trupedatrip.com. Acesso em: 25 out. 2019.",
+      "alt": "Fotografia do Atomium com esferas nos vértices e no centro da estrutura cúbica; interligações preservadas.",
+      "record_sha256": "b4317391a9c24430294c11fdd7e3e7f00d71b15a78689283afd97fed986c934f"
+    },
+    "2021_AZUL_D2_Q162": {
+      "mode": "figure",
+      "source": "/images/verified/batch08-2021-azul-d2-q162-source.png",
+      "source_sha256": "1c5c81065c8901a8e6fd6818f78307e7858856b5f25a4006b662d44c9644a6b5",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2021-azul-d2-q162-option-a.png",
+          "sha256": "6361a320809d88a03e448369f4f1d4ef9c697ce65c9c211b6fbda3fc56adf107",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2021-azul-d2-q162-option-b.png",
+          "sha256": "cb67739829d119287a14db085d050c5566949fbe364b3988be82bd351b74c616",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2021-azul-d2-q162-option-c.png",
+          "sha256": "a6502dba5f9294095ba30bad9822ba1c1f308ac9c4ba8e3ecc4fb034f7fa0b0f",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2021-azul-d2-q162-option-d.png",
+          "sha256": "0e0c262bcb96d71fc5fccbbb2d808d607a3ef43df5b987a63120c2218ef6bf4c",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2021-azul-d2-q162-option-e.png",
+          "sha256": "9636840d8fd84cc37d9c956d7b6df686c8664fc023fc2755271316c968d32949",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2021-azul-d2-q162-figure.png",
+      "figure_sha256": "7f129fac5e535ce8c71ef8bdeecdb9605112ae15389f942e1c0adfa77513735e",
+      "before": "O quadro representa a relação entre o preço de um produto (R) e seu respectivo imposto devido (I).",
+      "after": "",
+      "alt": "Tabela original: preço R ≤ 5 000, isento; 5 000 < R ≤ 10 000, 10% de (R − 5 000); 10 000 < R ≤ 15 000, 500 + 30% de (R − 10 000).",
+      "record_sha256": "515d92a10075ed733e5775f06c5aad6995d196dc43bb01c800906fb17497ff35"
+    },
+    "2022_AZUL_D1_Q01": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2022-azul-d1-q001-source.png",
+      "source_sha256": "6b230be4ea78c0724113c0ddfdf690f32f27e993092067f52d88f3219dbdf2c3",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "4bb9832195cd715a9e7d4f41995254d4a35eb8066cf5a66046c9a14cd61e982f"
+    },
+    "2022_AZUL_D1_Q02": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2022-azul-d1-q002-source.png",
+      "source_sha256": "777ff2c1a38e0015745e110f3624e20a5da93af6a75e486da18cf2613ae98129",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "bcf95a249e01b7f571d67bb3e1620a052fd409c65309005e1281cf7052bf9981"
+    },
+    "2022_AZUL_D1_Q03": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2022-azul-d1-q003-source.png",
+      "source_sha256": "ec43bcf4f0cf381f94b410e6312227d5723de562578582a5c13426d9afd21a8c",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2022-azul-d1-q003-support.png",
+      "figure_sha256": "df820c48b100b71c5217df753fdf934bc042706b455a00969178d6a34bc8599e",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "0fa91d70120cbd6458efcdb8f0760a836bc8bb1fe3ae6aeb23bb258eee7383f5"
+    },
+    "2022_AZUL_D1_Q04": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2022-azul-d1-q004-source.png",
+      "source_sha256": "73a6cf1f6d9b51f315e25495cc85862c46377adeda0e008dda04cb057220a91a",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "47650cdfffeb476bad7c1b299d29741e3e5817043aed8460d2a7705917611996"
+    },
+    "2022_AZUL_D1_Q05": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2022-azul-d1-q005-source.png",
+      "source_sha256": "689f11d3d066aa1c5976de2d31a2d0f94bc7c9108a2088696b0e252aef278da0",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "2103ca7c32ed2692691a375ab854cd5191b56d3aaef9b0e60a7c2c7c34a32629"
+    },
+    "2022_AZUL_D1_Q07": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2022-azul-d1-q007-source.png",
+      "source_sha256": "5f8cd9f59c4abb5c69f38890c91e4bb1d0df20c4889ad1d9ca1b1dc993279a73",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2022-azul-d1-q007-support.png",
+      "figure_sha256": "96a50bb1aea600a8baec0cf9d6814ef6a73d5437b5dd0a341604d0df7cbd67e2",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "3174c466ef84650bb8b949201739d832b186c7bc10c0fc09aab3d9b26b0dcd21"
+    },
+    "2022_AZUL_D1_Q09": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2022-azul-d1-q009-source.png",
+      "source_sha256": "ae3a5f91f1780d2513bc06317a3920d9f967f3044a2614b880d0f3e11851b108",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2022-azul-d1-q009-support.png",
+      "figure_sha256": "47993941437bf1333472c34db47857c21a91cf7fa4400ce33579fc3a00de632c",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "e1c7514d7b56188cf4191104be922f1d7a9295d112f43da6a52e9ffd55faf868"
+    },
+    "2022_AZUL_D1_Q27": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2022-azul-d1-q027-source.png",
+      "source_sha256": "3204fb2962c3965539a0a83f9a16db95210d4f33d71257f3f0454d0f67aabe80",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2022-azul-d1-q027-support.png",
+      "figure_sha256": "ed8133aab210542efa3a536fbfac24c9d7fa371035ce916d95620d9ba012380f",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "7dc7c7e6a1e223d40149312a4a90f51b8bff42d028ca369a0ea21a0ad9e99904"
+    },
+    "2022_AZUL_D1_Q33": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2022-azul-d1-q033-source.png",
+      "source_sha256": "e830cdff9f4b8048be59acbbacea1afcacb837fb010affa7c1303815a155ed64",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "c10c95822d56d4d849ebfbd92d314e56aa3a54e0a36148e86cf6fbe193e7f3a9"
+    },
+    "2022_AZUL_D2_Q160": {
+      "mode": "figure",
+      "source": "/images/verified/batch08-2022-azul-d2-q160-source.png",
+      "source_sha256": "d0fb25b9a422631a27ee28b2ec3dc33dc72fc164ca2194ffd0d00358867300da",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2022-azul-d2-q160-option-a.png",
+          "sha256": "a902350b84c23966bda950fba93adfa79f3182793ff3b463b234b7e80c3283b2",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2022-azul-d2-q160-option-b.png",
+          "sha256": "88f434d61079733f13afe0b5cfcd9dbd043d009afb64266f17bee4bae3b6c9fc",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2022-azul-d2-q160-option-c.png",
+          "sha256": "86a607558b6c2a947784c6b175399b64f12b16aebe062296636c0c43780f008d",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2022-azul-d2-q160-option-d.png",
+          "sha256": "376dc094f4cbade8c8b04d8ec4f04b00f04d47b5ab6b4daf4ab068c5b0f500c0",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2022-azul-d2-q160-option-e.png",
+          "sha256": "97f926c06afff7e2c3fd75d3d4f918b250e5c6653c8b0b6c9cc1a47976aeec4c",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2022-azul-d2-q160-figure.png",
+      "figure_sha256": "fad513262c44476b140b1c0e2a104ba58c81789d913cc113b8b5505e3fd79586",
+      "before": "Um robô, que tem um ímã em sua base, se desloca sobre a superfície externa de um cubo metálico, ao longo de segmentos de reta cujas extremidades são pontos médios de arestas e centros de faces. Ele inicia seu deslocamento no ponto P, centro da face superior do cubo, segue para o centro da próxima face, converte à esquerda e segue para o centro da face seguinte, converte à direita e continua sua movimentação, sempre alternando entre conversões à esquerda e à direita quando alcança o centro de uma face. O robô só termina sua movimentação quando retorna ao ponto P. A figura apresenta os deslocamentos iniciais desse robô.",
+      "after": "",
+      "alt": "Cubo metálico com início no centro P da face superior e setas do trajeto inicial do robô. A projeção deve considerar o esboço original.",
+      "record_sha256": "88b97daa0c9db5253211239caafc26d6fc4f95190b0aca7442f9315ec021486b"
+    },
+    "2023_AZUL_D1_Q01": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d1-q001-source.png",
+      "source_sha256": "e68300d5f3187dfb4edde89c9247ff3c7ebe8650c657a1fe277488c06230778b",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d1-q001-support.png",
+      "figure_sha256": "04e5d31b6fd89a076f8b9a01cbcd078c429c24c4318deab0c433151428bbc6ee",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "8f580fcc3e75e3d29598897a2ea6a52ba6bd555d547dfd9738239dfb3a1a330b"
+    },
+    "2023_AZUL_D1_Q02": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2023-azul-d1-q002-source.png",
+      "source_sha256": "0de043684b0bf90ebb94924db201f36fd61190c2842404571c0b0986ed569254",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "4a99cb7914b7f4bb39347ec1b00bad9c0e8f58ceb94ba349f6a5cb0a10625f3a"
+    },
+    "2023_AZUL_D1_Q03": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2023-azul-d1-q003-source.png",
+      "source_sha256": "f9b2033b5986b8482df2a320403ac689161831a8de778d78d712915cdb556cf1",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "4d3a0defd7636150e34f5e0898ceb48db7854020befecace6cdb547a6a795b16"
+    },
+    "2023_AZUL_D1_Q04": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2023-azul-d1-q004-source.png",
+      "source_sha256": "d1b07d064f1325cbde08eae2d87c298afc25cb7fb9e5d7569dfbe89ff9120ae0",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "da12016b2231b297933a3e3cd239306f4ddfaca9efcb163bdf42f0869a5d49b4"
+    },
+    "2023_AZUL_D1_Q05": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d1-q005-source.png",
+      "source_sha256": "442673c06098849cb84a6a30139bf169f02e477f78d5cd61eff82d34decfaac6",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d1-q005-support.png",
+      "figure_sha256": "60689f0d4b1bac555a8a9bf401005ca1aac9e5d1f96abcc09edf4fa610dbafcf",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "09420d0b3863cce0bf27c7b31aa0ec96b56a12bd8c97ad53d546feaceed49a5f"
+    },
+    "2023_AZUL_D2_Q110": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q110-source.png",
+      "source_sha256": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2023-azul-d2-q110-option-a.png",
+          "sha256": "9b15cc725efa0498c153244b9d2035424c12466127858c5359c8184c96d96682",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2023-azul-d2-q110-option-b.png",
+          "sha256": "f9e5a99fc5d0fd9875ddd63bd1bdb8d54a89c6e7dc6e2855ab1c6fc891daddd2",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2023-azul-d2-q110-option-c.png",
+          "sha256": "3072f8a06b33102e848a861fab857dedbdf7dea7e93b6530eca893d902f413d8",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2023-azul-d2-q110-option-d.png",
+          "sha256": "0a578e7d1dfd37982ef1c8a18d052225acb6e175ef92e4b479b1e973359db279",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2023-azul-d2-q110-option-e.png",
+          "sha256": "4b084a3e337ffe0680a6f235d27f4afefc1d96df59892bac41dbf2661a4e6bd8",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2023-azul-d2-q110-support.png",
+      "figure_sha256": "a567f823ef31f74973e5ee2e2c48630c97bc6aacfba6d210d678b07995ed514f",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "177c9ee6afb996e8e510caeaa4522bad5c30bccfa242542e07b103c0e14157b9"
+    },
+    "2023_AZUL_D2_Q116": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q116-source.png",
+      "source_sha256": "9273a37ea9c805799507688ac61f70c620c2a50a29e498e3e60a0fda228229d7",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q116-support.png",
+      "figure_sha256": "d262af401f4cfe3473e75cd0d0d33f91a0525ad39af7e513a96681ba2336c179",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "7fc549357490fbef44ac67177ea95cbd5055bd15915c5b5c34003be55d8aee83"
+    },
+    "2023_AZUL_D2_Q121": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q121-source.png",
+      "source_sha256": "c3e824b34de99ddc5c1ae2fa0b425a1c661a27712bf1af3f838e6a35be5e099e",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q121-support.png",
+      "figure_sha256": "3d03768f045f19f34a52de54d14bac89e5de98c61a00d4b237a8f01e9a86d81a",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "81f0365a67138761a1c9b707d5045abba8e5e8f128e352792899351b752326dc"
+    },
+    "2023_AZUL_D2_Q127": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q127-source.png",
+      "source_sha256": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q127-support.png",
+      "figure_sha256": "0ed3db3818041f81d226dae2fe63805019322e594a9576bc228c385e0b1fa06d",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "c55cdb677292fae6f24f1696e157cff41b919a702be2de38ce48b64c1bde77ab"
+    },
+    "2023_AZUL_D2_Q140": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q140-source.png",
+      "source_sha256": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q140-support.png",
+      "figure_sha256": "f7dd27b601ad0f5831879c5ad7b141c8c705d0af8e40cbb4b9c9cc7e00952ca5",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "96dfb27fc2c64cdb037c9342706074099c9dfc256acec2d4eaa71ae257e794ea"
+    },
+    "2023_AZUL_D2_Q154": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q154-source.png",
+      "source_sha256": "f2d80f2ab8c0ca208f4637c4aac1fd93952d8692b8e94d53a2925ab047d56130",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q154-support.png",
+      "figure_sha256": "cbadeacbc22ed4622fcaf3c0a5d489a95e6cd6dabc3c63da4936d75b3601120d",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "ad8970b4a5d34b00375136e9148e037256679c77ab0397bfab6b2977dea4dff4"
+    },
+    "2023_AZUL_D2_Q156": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q156-source.png",
+      "source_sha256": "6a3a17edef188c75525e33b00854299266bc34e7cf09bec1b6bb8b8548771608",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q156-support.png",
+      "figure_sha256": "53a221e7dae852fee58c9fc26ee31dc1e7ef92ff8df7e33f61e39943f3fce6a5",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "9601729469d90da398a92e628e62aa55c6802408f6d2533f26ae1bb775df3a90"
+    },
+    "2023_AZUL_D2_Q157": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q157-source.png",
+      "source_sha256": "7d87e74c55ab0146b81e6c972b9853cf4ded4a58969ff9fa8af89cb5ceeb77d9",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q157-support.png",
+      "figure_sha256": "38bba46002ad8179b2ecc313689237af90e49e6f1602613e9f6b55dba580f1cb",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "80665a090455d5ec3b1d0856cf318dc28569cabb8ec321d3a9509aa3b8d626be"
+    },
+    "2023_AZUL_D2_Q161": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2023-azul-d2-q161-source.png",
+      "source_sha256": "7482981e40975f26c3701915727e2eb0370990acbdd76dcc81ced06051b7d58d",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "201f172b7522fb25aaa849a4245161fc3c744e210c68bc0739fbdeef5dc3317f"
+    },
+    "2023_AZUL_D2_Q165": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q165-source.png",
+      "source_sha256": "111ca722dbe44cca3a02b0de2e2d6c317e32a03e8857d897791325b7bbb993fd",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q165-support.png",
+      "figure_sha256": "9d4712cf27e7e30ce428e31c17602740847b1ca2502fb4f7d570187df4864f11",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "ff655ded9e3c2445d931b05f4a6d1396adb05de60817af40eb941468574db7df"
+    },
+    "2023_AZUL_D2_Q166": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q166-source.png",
+      "source_sha256": "2f64046fee7f26de136c5a340c85ea2bf02315ef7a28eff8183f236f20e67dc6",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q166-support.png",
+      "figure_sha256": "96466362300c2c66b1f7279cc7b61b53a2efc0f0c20d6cc56f6adcf6472754a1",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "f7b720781ea8bd050e3b106774ac9c5d953700891ee96e266da08ea10f743cd4"
+    },
+    "2023_AZUL_D2_Q174": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q174-source.png",
+      "source_sha256": "92d019486440118dde287837cd026ff68ddd100902448a289c2717686dee2502",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q174-support.png",
+      "figure_sha256": "aa313c2ed7411ac5e2705e054a735988b032e1e2e2c84e02fdea12b304451f6a",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "848f881b7bcb56c7e4e617414de294c776b9259e39121c22668b6c502a413473"
+    },
+    "2023_AZUL_D2_Q176": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q176-source.png",
+      "source_sha256": "ad8f4047d5bfdd8f2175cdb0313536b8b52f68c73187e5accc537c2d0047b5fe",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2023-azul-d2-q176-support.png",
+      "figure_sha256": "f1f380a47372f519e6c0078527fe88ea094cbc7a4d03d4e01efd517cd72a36c2",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "12be8bd0df11259d5b508d64602cfad1625847d70f72ee7e7e30e21b8c4c1b93"
+    },
+    "2023_AZUL_D2_Q177": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2023-azul-d2-q177-source.png",
+      "source_sha256": "ac6b372d6a8b222c64263f2bc25d82ca4a93e84a4affe862b55be33ad7166775",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2023-azul-d2-q177-option-a.png",
+          "sha256": "bb533c583b339d1e47d3664176a4791bf9f1bb9d358ff35f93add7b8f9bb583d",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2023-azul-d2-q177-option-b.png",
+          "sha256": "848919048edf17555f2dd6b5884b4bab3984fc699f1ca1d0a1fa8679ae67a012",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2023-azul-d2-q177-option-c.png",
+          "sha256": "08d790e830541c8545937ab6df10e15081acacace8bffc3816a512defbf628b3",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2023-azul-d2-q177-option-d.png",
+          "sha256": "e80ac3bb7e9a4f1b97c4bdb8b0c2009080a3a685311a6a2158ca952587952b6b",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2023-azul-d2-q177-option-e.png",
+          "sha256": "9436fa812bdd99891d0b2fa60be27df5990c41f1feee357614f104c7d49e421f",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2023-azul-d2-q177-support.png",
+      "figure_sha256": "ab3aded71b89d3ef0ea9d452ef70a0f313b805f7891080f819ec513438b0548e",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "5ced7bcbc96f3dd87bb83a4546db121ece08d86fa9ce4f57b687d8f277362271"
+    },
+    "2024_AZUL_D1_Q01": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q001-source.png",
+      "source_sha256": "6c28f8dd88f1a8e175ffa3f4d7d7c71a63bc77d64c802c58a2d760ba90c087bb",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q001-support.png",
+      "figure_sha256": "4fbc3e8e68d7aa13e6ccc9e6fd0272c92223eab08a9dfc14a66f20f103990f5a",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "73e25028b611db8fcf7f8e1e07ac8ffdae9e410e6c128a067b885ab322eaa094"
+    },
+    "2024_AZUL_D1_Q02": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q002-source.png",
+      "source_sha256": "5bbd88846bfb81f3d4c2447a944d0bf9d299b7fa3d02529c6c30299ebc65a3d8",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "b0d1885be253269039fe0435cee5928e725cafad1185e9133b1f0a48f4660b2a"
+    },
+    "2024_AZUL_D1_Q03": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q003-source.png",
+      "source_sha256": "fd5166939d8fe459d2a883a3d7be559667140afc0cb41ee72f6f6c1c0130a388",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q003-support.png",
+      "figure_sha256": "9b874b6f7bdc31f5ff6ea857709a11d188c9d0f79c53db35b5a8aa55cc5edeca",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "cc79cb8fcf5bb0d5f0bd53700927dc5be6c623dab9666f0d32c4948fc5216c6f"
+    },
+    "2024_AZUL_D1_Q05": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q005-source.png",
+      "source_sha256": "d55b48497e124496d2ddf68a0a0507f3b33fc1b5a345d67ebedefe0440690152",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q005-support.png",
+      "figure_sha256": "ffbad50511eeed5ff460b0ec3c92e6a19942356209888fcb6b80ed200abfb9cb",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "9cc8f99cdccb9771d78fd18c77666f27fa557170529a4c31a4c6f6b7711224fc"
+    },
+    "2024_AZUL_D1_Q11": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q011-source.png",
+      "source_sha256": "3645d9639d9683f33d2e03cb580be6e1c523b260b32299f8276a3cf86560fd99",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "d70c559e690b5ab60250ae161f0035b9470da9ea7f047ad9df1cebed555a9eed"
+    },
+    "2024_AZUL_D1_Q12": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q012-source.png",
+      "source_sha256": "f165069deda39eedcf0a8f1fd215ef7aedb5e8a862db32c35217cc6e63dc90da",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "88df6ee5be436719d3974e77cb11e13b072f45be9136c8d2a08e53d96b4171f7"
+    },
+    "2024_AZUL_D1_Q13": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q013-source.png",
+      "source_sha256": "a34bde8356ff66ea0574fa88b0ea6f1448d206f3a5e3ce2e3c474d049c2a0d89",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "1b30b8db491d8fb0aa1be222919b696474f579befb67011964109afc551b7cb2"
+    },
+    "2024_AZUL_D1_Q14": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q014-source.png",
+      "source_sha256": "f3d6acc0dd7e18bc8a39b68a09dc0f848fcc2382b0512ba8b02a72e11a999c69",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "639d3b325bdc19c53f4edac90870e8475be4d185cf3d7928a061ef9b96f1aaa6"
+    },
+    "2024_AZUL_D1_Q15": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q015-source.png",
+      "source_sha256": "cf85900c02e4c064d663dbe8e00e08866ea8b07230ec71915a09e2a70910f93a",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "b52bc6496e8775a64f7defedc9747ffe0d3bc03b51675e86f3165d88f86ef53b"
+    },
+    "2024_AZUL_D1_Q16": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q016-source.png",
+      "source_sha256": "57587530b1026b6e3a8f822c9a6ab3e038d1ddeb1a37be49af51ac98985585ee",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "91cd6eb30a70afb1cd3d147c31a3a27c1946d74ca089b2045d6b8e04ba3d1472"
+    },
+    "2024_AZUL_D1_Q17": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q017-source.png",
+      "source_sha256": "ab8483516ee29177e82d27c5fda1b8b0ca6dc15aea3f9b59c3adbd20b145f649",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "72ffb1585c7d1307af11eb90bda7fcc8338573795bc27ba7aee0354d5b1781b3"
+    },
+    "2024_AZUL_D1_Q19": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q019-source.png",
+      "source_sha256": "5f611b7468d47d8ad541d21b3e1f6bed1355f16ad7d46379720c9319453c4a91",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "c331d2ec3b67c82622859176655b2e46149a17fea2aa0b5ac3225cba06521b39"
+    },
+    "2024_AZUL_D1_Q20": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q020-source.png",
+      "source_sha256": "b4769a93eeb3707aeaf0cf23880792c6c121cc9d90dda5583f36365f74fe6fbe",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "b9ed54db0e6eb7acbcedbe8bbc9901d9f243c730b2a93c6df64afaa5b2899c2f"
+    },
+    "2024_AZUL_D1_Q21": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q021-source.png",
+      "source_sha256": "c276290de17ce0b27ad0c7ffe5a3e518c2d65b93271cdd2df5ff00a0f3127404",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q021-support.png",
+      "figure_sha256": "23488e7f5f3b53d7197e0e66b82f51e166b24c1affb0ead7391cd7fd3a6a63fd",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "1b29f2e0cfbdcef157f0b6390bc03fd46951d3e8517d7ac674fef96419b7d7fb"
+    },
+    "2024_AZUL_D1_Q22": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q022-source.png",
+      "source_sha256": "e9687e777dda7738acc12cd478d9062d90306d95d1f21aa33e4575ef101c9c08",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "1ece74da3dc772ca2496ffac0a95e6c2c7d7f2a69c71f006d121813047d805df"
+    },
+    "2024_AZUL_D1_Q23": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q023-source.png",
+      "source_sha256": "732ae36ec5f6525094d1e2dcfc2047d14678f102c804839b605edee52c5b831d",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "8b292e9e2ae9d079c631ea2a7a4057204884d0f64bf30dc4fe6fb5d3627a3529"
+    },
+    "2024_AZUL_D1_Q24": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q024-source.png",
+      "source_sha256": "ee8908384d6ffe0614af6c801f192058ecd01a6c2180a1e96ac40f21e1ff2b0c",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "172172bdac6ee0c27328b971d516ebad682a48d225688cf762f6143584817827"
+    },
+    "2024_AZUL_D1_Q25": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q025-source.png",
+      "source_sha256": "3428d0a3516e9f8574e311b796e24a7db1a36edf62710f8d62df093ac7d2ddde",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q025-support.png",
+      "figure_sha256": "0bfa685f3dbc70efebf4033816f6fcec46fdd71972b25fe693ea52b2d90e9a57",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "9165613cd390af272fae0dfc0786ffc0fbba0e143ee670530e5a5cde84d837b9"
+    },
+    "2024_AZUL_D1_Q26": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q026-source.png",
+      "source_sha256": "a695f4d05d1e2caa3c9f240d87ceb641cec75baa8521100fb66a2e217d649aac",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "cd93e2644e2de3924b55e81a289a717f30cc6af21e5df1677df8c2ab0c690184"
+    },
+    "2024_AZUL_D1_Q27": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q027-source.png",
+      "source_sha256": "a199f495199f291f419eacd9adc4c6e3798360a5a6eea50975c4f9f72f48cdab",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "333a9565180c5f630e4571f8e4bccdad9bcb18ee8b126bd7f95551173b7ef157"
+    },
+    "2024_AZUL_D1_Q28": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q028-source.png",
+      "source_sha256": "6d5def0e705aa775f3380115de1b70958d3e6488e4b66e5ceaeae2682ecb48c6",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "8ef6316f4e46ddcaaf44aa5e599d7940fc4885e11ffa68946666e5f230eb54a2"
+    },
+    "2024_AZUL_D1_Q29": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q029-source.png",
+      "source_sha256": "f47d56df9217e57f9d5252114ec10032781e5d83aac8f737371e4dffbeb29b1f",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "708322a12c35ecf4974aee50272e5714f0e3ebde06c4f4b443760edd0e9f78ff"
+    },
+    "2024_AZUL_D1_Q30": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q030-source.png",
+      "source_sha256": "20c6c5c1285f50bbe75802f0ad4094426c9c0d9618fbfd0f736533d40ed04b3b",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "b4a45c75032f03db4f53a5f537ddf405981b687a2cb616e2487cad4c6b5bb7e8"
+    },
+    "2024_AZUL_D1_Q31": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q031-source.png",
+      "source_sha256": "f480df2d92dc386bb0001d2719f4055186c54ef05be4ed73228e3b722ecce3c4",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "f382a40ae38f99e524cc3646efed958809c7bd3977d78002b2bc598a81002e85"
+    },
+    "2024_AZUL_D1_Q32": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q032-source.png",
+      "source_sha256": "26293756f04455175ccd510b47bcec2339b975fa39e3c64c782b5d4d79b70270",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "a146d1e062dfbf3e0e422b72f5d9ed77eac38cdecdc72ebe4c7cb1e6b9b0ac7d"
+    },
+    "2024_AZUL_D1_Q33": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q033-source.png",
+      "source_sha256": "57be9e2f7da11cfd220d379c41673ce6925de463cacb1047949594afc4a81464",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q033-support.png",
+      "figure_sha256": "ac555c5a0967fcb06f6542c07bc8c15c1fa0ae8424ba25aa60cea39b1cc74623",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "ac58976e284921c56898d98ee9425608a59050a50f63cadb401e1357c480340d"
+    },
+    "2024_AZUL_D1_Q34": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q034-source.png",
+      "source_sha256": "bdf5a0528a63d0a666a58532411b8f91e2c3796bd09da386ac0dddfe6bfc616c",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "82a46a7aa466899fbf6ac7523a78de0ff15aaf7df13a8172a5f0c60e6b134614"
+    },
+    "2024_AZUL_D1_Q35": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q035-source.png",
+      "source_sha256": "923099d0828ef534883d2a87c8a49405dd22549670f8ed37b511ce236c6e1942",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "169f50a17628e7912cda50e268f7f93220df98af75981cbd079b3b6d16d4faf4"
+    },
+    "2024_AZUL_D1_Q36": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q036-source.png",
+      "source_sha256": "deb3a1bb1c70cd8fd4f6fef8a327581b6863e3b93c1351d22a57d7face0f4814",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q036-support.png",
+      "figure_sha256": "2f858cd687eb168444c541aa68ec4eaca3e2a9e8c4bd099ba42bf1cc94a29d0b",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "73db9a1d2a23d5af4d53ace2b6ef12d47b6fb0a2eac383006ee4ba97d5ff0fb0"
+    },
+    "2024_AZUL_D1_Q37": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q037-source.png",
+      "source_sha256": "de1c75201580a69d715b92b5252f826a9f96448aba72104115c63377729c3694",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "9d9aea43b7b9b109dfdf88e79422e71c9e471e3de8d1d98dfda233f0ff05c984"
+    },
+    "2024_AZUL_D1_Q38": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q038-source.png",
+      "source_sha256": "b530eff1fbd726c3fcd8ed48315d60d4243d31ed923aeab8ef3e025605500b9d",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "5c2e8fcd6c3623200b9fa0b70ec00c2ea8d20349d323a4d8e80cb7b4600b832b"
+    },
+    "2024_AZUL_D1_Q39": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q039-source.png",
+      "source_sha256": "49f1ec4595cdefe4771205ff840dadd3332a2a018220e0ad347e68fa94f6bc0f",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "0ba8bd34f9cee3d702b6aabb6be308211b9cc99145e48c3bfee362712c965ac3"
+    },
+    "2024_AZUL_D1_Q40": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q040-source.png",
+      "source_sha256": "f948ac01db38d9a033fac9b9af53280bfb04a1bb0ebab6aedae7dbe1accd5209",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "487312ffff6e87335bc6255dae5720788d1c479a8c8003288f75651c031ee3ab"
+    },
+    "2024_AZUL_D1_Q41": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q041-source.png",
+      "source_sha256": "56ea57056c344aa531089237146946b9f54b677198a091d9e0166014655f9a41",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "462d219027bf82a58cf2bc7a1257942c38a4cd447ef0dd4ffd971678b6b71946"
+    },
+    "2024_AZUL_D1_Q42": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q042-source.png",
+      "source_sha256": "7376072fc55839e155e43bf1976650ef435fa18fc7e8ff20a12a8a5168553ae0",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "945d66347a12480a167df4f7b6d37d0ecfbf5e78ef765621150fdde5f0d8e729"
+    },
+    "2024_AZUL_D1_Q43": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d1-q043-source.png",
+      "source_sha256": "ad71ff513aacc2a7f4359bb1c4e3eae34a53a484683c45cb01c3393ff47c95fb",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d1-q043-support.png",
+      "figure_sha256": "3423a5b4efddaefe972b4208daa37a8ccee453ba305018bf29e66471e7a90837",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "27ba3d01066efac6eac5d3483b336596e9396c0d986a73507663c26d271a360f"
+    },
+    "2024_AZUL_D1_Q44": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q044-source.png",
+      "source_sha256": "3a6061b576215d2cfa6652d6f5cc3f4dafd34cc502daf41286aee2eab08bc0f5",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "f630e7997cf3e5172ea6c8854475bda8b6238fa1ab284f97acc3a3feff11eb11"
+    },
+    "2024_AZUL_D1_Q45": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d1-q045-source.png",
+      "source_sha256": "423ce0982a43f0429c08c3f0948faa645e334f61159e539788aadd230e2666b8",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "0ef8818d59d6442fbc9cccd8ae31aaaa0a0267ba511b41331e694096af586edb"
+    },
+    "2024_AZUL_D2_Q95": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2024-azul-d2-q095-source.png",
+      "source_sha256": "0f0018fa742461794cb942b13fd82aa9a90d5052f0dd5fa0bd0e320244b68eab",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "8ee1a989d78db2197244fe46f57434c97467fdc6ffa1505626c670809c201b30"
+    },
+    "2024_AZUL_D2_Q98": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q098-source.png",
+      "source_sha256": "803c5905ce55906a4ee368ccdce61f8ba69eb32f8a3eada15c406f5f1e4635c8",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q098-support.png",
+      "figure_sha256": "a11bac258fb1469c6c2c786dcab9d6b2ecd4bc8a93e7d5f6044d721bb642f702",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "27ef12945d130b1c5109d86f5d55bd85ff4bb11d9335b0a503f9be2f10634867"
+    },
+    "2024_AZUL_D2_Q113": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q113-source.png",
+      "source_sha256": "dfa9cfee62eb4721ae5fdccecf9f522eed6ac9853f21daac7ca032cce4ae9112",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q113-support.png",
+      "figure_sha256": "ee2b19fc2628e482dc677a63eecf94627565b1f375683a490768ea05e85e8065",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "5f930b83946721b986a4b5b24f7ace1d91742869c4b3b3bccb9fdae87f3b58b9"
+    },
+    "2024_AZUL_D2_Q118": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q118-source.png",
+      "source_sha256": "01a6afa5c0e772054e13cca7922c1423f62f13a061efc712ee3f987ff1e6c5e0",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q118-support.png",
+      "figure_sha256": "c55169403e9f1824b468127ac7f3f9d9087d758609a0da951edbaaf073d15a89",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "0fd00f5ce2e3a785f601a0c69e1cce80aee522588edd86426be816ff4ed16b03"
+    },
+    "2024_AZUL_D2_Q125": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q125-source.png",
+      "source_sha256": "4c7579cdfe240cd50c27f6dfdc46a4db95a6352f26e56a809fc98f1f72caab89",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q125-support.png",
+      "figure_sha256": "2ff2b903050b84cdd65e845ec1ffc258950c5da5e5d7a0eb3d1610a5e53d0c1b",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "e765ecb484916af97e5bd013a47ede229110cc4e4f7e5a2dc646a2a88c2a7eb7"
+    },
+    "2024_AZUL_D2_Q130": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q130-source.png",
+      "source_sha256": "c3cd9b415d507e2997ea1caa2c608d95cb8f3cdc58b405c8ab635b753356c00e",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q130-support.png",
+      "figure_sha256": "18a1b1c47e44c647ed1f9cb87a208ac0f3b62726646df9bd37877a401a78b6d1",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "9c201cd5094e1940f23127934493423366e8dccbbba55ce021b3f40630bf28ce"
+    },
+    "2024_AZUL_D2_Q144": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q144-source.png",
+      "source_sha256": "d1a112c0406e5240832f0738339f2b9c734bb620e5ecf72dfe23d49ca984410b",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q144-support.png",
+      "figure_sha256": "5ce5ae8ffbd77cba9f7b1e2f0ac1edb6ffbd66fa8bb9f3250b056486b4d63464",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "87e046a34214f5e997095090d6f0c219a45097866ac84de133b7dda9262cbeba"
+    },
+    "2024_AZUL_D2_Q158": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q158-source.png",
+      "source_sha256": "305b59d79d2e0e75e1c71b99e0a2aa83e2b3ee3567059b2d0436866fb656db47",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q158-support.png",
+      "figure_sha256": "d0cc51fa454f0b24e9ae11e5fe926cdf3feab057866c80f4d845684a0058fa11",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "4936bd2955fc5c50ad035ad7a6fa22cdad47d9f9b80404c7c2c244b6d366a69d"
+    },
+    "2024_AZUL_D2_Q163": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q163-source.png",
+      "source_sha256": "27662708abe37ad8abf2b0d86fa61fcf0997a7f8d928da8633fa9a8522a971c3",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q163-support.png",
+      "figure_sha256": "bd21fc2f454937a8402f45e3b971287cb54f067f2adbd1f054c09b4193e5ebb2",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "705c832c9000969240418fbbbc0583d27d9ccb0171088c89f17c76403a40ccc1"
+    },
+    "2024_AZUL_D2_Q173": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q173-source.png",
+      "source_sha256": "30a13916995287efa1962b4aeff36c7727b0411f770f7e657b48a1aea7c10659",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q173-support.png",
+      "figure_sha256": "2b615bdb1ed027424ac1b5beecb83a5f69795495a4fbeee56e43fe68e4564e39",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "d6d0bd574e7501e61e523c5649990d988eef0316fb2cc9c116ceb3421522982d"
+    },
+    "2024_AZUL_D2_Q175": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q175-source.png",
+      "source_sha256": "87e14c00cbd522ef3af80363fdd5c94a9e3b771763891ff72c6164d77256f3e5",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2024-azul-d2-q175-option-a.png",
+          "sha256": "6d198d10abfd534ffadc9a0baac8782dc1677b01f42afbab049c5675a74e66ae",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2024-azul-d2-q175-option-b.png",
+          "sha256": "465307e02f3c342c8396a0ab6c78984f903e7d9fad40d106d0818d8d6161ec2b",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2024-azul-d2-q175-option-c.png",
+          "sha256": "5e359e5508cecb177570c43c96492d1fd9f1605ad0d1880dbed44c5e41263efe",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2024-azul-d2-q175-option-d.png",
+          "sha256": "e40ead826e2afd3173d303ecbe18bc9847898226faa81c63590fb309aeee977b",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2024-azul-d2-q175-option-e.png",
+          "sha256": "c19e61710b37623869654cd29cea2d0c18458c812207a39258eb3719add8267b",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2024-azul-d2-q175-support.png",
+      "figure_sha256": "2281315211947487ae6ebfc5031613fd33291ded79c341f4d091f02e023bc7fc",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "b0f02281bcc9e69576b72e543bd6c0a6e64f4a6f74b985b14a082abb8f4de1b3"
+    },
+    "2024_AZUL_D2_Q176": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2024-azul-d2-q176-source.png",
+      "source_sha256": "64cf1e4b9a64275126dd69b1c3b0c9c3a4676001c89af1ff36b4f138e656e818",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2024-azul-d2-q176-support.png",
+      "figure_sha256": "5e5edf06c19494e533ce9c781a8180c5d96b18c0be07369471affaca4df0066a",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "a37dce5f6a031bbdb3132ea2e61f9a59361e85fea95a234d5e8bbdb3946cc916"
+    },
+    "2025_AZUL_D1_Q01": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q001-source.png",
+      "source_sha256": "f7d34cf88e6bdcb45e061eceb326e3d86c53818e0cdbe977c19acc843c0d3e79",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "d7db7c642d5655f2e5533a3b4d911f41f983cdc7b595747cc20d3363650a6a27"
+    },
+    "2025_AZUL_D1_Q02": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q002-source.png",
+      "source_sha256": "32afe64c703751442ee1419e7455a15642194eee7717d6f94f7b0f1191d4b89f",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "8db4341e198b5c5e5ea01973423495b9694448c0bd97d04861920c23a2db20e1"
+    },
+    "2025_AZUL_D1_Q03": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q003-source.png",
+      "source_sha256": "0982e8a7a00278343773a8dd5c9cb50c1059dbbec73eb9fee6c3561c63bf93fd",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": true,
+      "record_sha256": "b4e510caefcad02397d6b8abaea74b9c8c2bee76dd53cf89779784e00c6657bc"
+    },
+    "2025_AZUL_D1_Q04": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q004-source.png",
+      "source_sha256": "deaf97c37ccb09b61c4722d399a94327a68cab760db3f0e8fbafb16c6fc8fd6b",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "71df3692cfbd98de2045d6d425ec02d0c75cd55b209d19c63e66cab7f09c6b00"
+    },
+    "2025_AZUL_D1_Q05": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d1-q005-source.png",
+      "source_sha256": "0a1b015931fd0bf35194c63ed30a9103c1a0eb10cc7fc873927089750d993d82",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d1-q005-support.png",
+      "figure_sha256": "f7622d7c9f3f876b49cce0c24dc5a5780bf3aa71a88b6160a1dd1b2f39c68043",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "9f5e18918d45fdffc69301ca659379549a6867b1cb5d422b133816e53015a230"
+    },
+    "2025_AZUL_D1_Q17": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q017-source.png",
+      "source_sha256": "92a80513c35f556e369e2aaa67aa9d0c45ed61d5b7b4fb0a5d070ca45c9e46d6",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "e93c5d594f12618a91f8e740b06b0323d071813268840cf837df47f7356e7e22"
+    },
+    "2025_AZUL_D1_Q20": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q020-source.png",
+      "source_sha256": "f7a8f1ede6cf8e083caec5a45c09e26183bf48c220b5661dadb30e58bba33bfa",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "fa3516143b600c1a4bb604bc16fbe7b9312d5cd258c571e6e6a09f70613d05d2"
+    },
+    "2025_AZUL_D1_Q26": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d1-q026-source.png",
+      "source_sha256": "5fcd20d399b6cd43601f004ba544ac3fbde2914b932fc6a469d7a9eefd5f7e6e",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d1-q026-support.png",
+      "figure_sha256": "4dc03826749e223b4d50b5f08ba36da90f8a996c613ff69d6e4c8850e793e9d2",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "e1c0fcc82617d550cd8104a3738fecafefe0a504bec02f298d1e332a482f3a6c"
+    },
+    "2025_AZUL_D1_Q30": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q030-source.png",
+      "source_sha256": "c10a25d8ee58707466b10bc0817f03bd626d4b57d489993b187932d70788dea0",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "3df1ca41e494c7a7f3d69f3652004aab54595ed0739dff242686245bef19a64d"
+    },
+    "2025_AZUL_D1_Q32": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q032-source.png",
+      "source_sha256": "87588570e57bd437b5e82d84c7b28172b784387011ad9f614467766ba9a59cb9",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "379390ed8eeea9e86b51f35f9867cff9d98923bd8b2634b6c1f2a6284083f0cf"
+    },
+    "2025_AZUL_D1_Q34": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d1-q034-source.png",
+      "source_sha256": "0b6c5f8760dcb1bfbcc457455b2ec7923de16a19a54c805808508fa565013298",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d1-q034-support.png",
+      "figure_sha256": "5729d4b03d5b27c1b15caea5716182660a57c457085b66c690c5afde170c2724",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "99b34f422cb700aad302814d202832ecd06c648a407ed76ef9da15ccc0b64317"
+    },
+    "2025_AZUL_D1_Q37": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q037-source.png",
+      "source_sha256": "9317df067e04979ae3a3a70a961ead0b2165db52361da62d1c2a071884052f89",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "ca54501c1d3bf76b003256344254361fa60ca0f1608262bb996641d0b65d7123"
+    },
+    "2025_AZUL_D1_Q64": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d1-q064-source.png",
+      "source_sha256": "e81c9308f3ec6c6deeaad4f0ea6d79dbdbb4f0927ebaee78214a21f3fe7191a6",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "75af5825270770b7fbab9aef346e17bf6dc85bcaadeafbcd45eac966f1d0388a"
+    },
+    "2025_AZUL_D2_Q96": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d2-q096-source.png",
+      "source_sha256": "aa2be8258df62fcf7644b207d540dd2c454ca1a45d30ec1fc86ad0b80ff738f4",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "6b829c737b385a653450aa6f6f9053aef1a6840ab4d50d901a36908ab4fb9621"
+    },
+    "2025_AZUL_D2_Q97": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q097-source.png",
+      "source_sha256": "8159109eea07e06cb74fb5d28517d2e7248485cbe6e07c79f767071617575a8f",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q097-support.png",
+      "figure_sha256": "726d051a5d37d05b83472c51a30553ecdfe6cfef20095920e642e86998f85124",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "d50cad5f0b744e0a8f388752c47903cd98da517121a4f39e8725ec95a6968cc0"
+    },
+    "2025_AZUL_D2_Q106": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q106-source.png",
+      "source_sha256": "fca16c17edf2e94722627b216e81cb18044b655c353ec61489b7f2ab8945b7d0",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2025-azul-d2-q106-option-a.png",
+          "sha256": "a35a46d57e5342c05c25c25a54224a15fca6e49fc6d6207a4475b6caa6d130f1",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2025-azul-d2-q106-option-b.png",
+          "sha256": "40c84f152ec08fc2519b444ab0bf666ea3b2b5d7e74204c3134150d405bcc919",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2025-azul-d2-q106-option-c.png",
+          "sha256": "2bdeb8af527f8c862f76d9c42987bf83ce3a50418351adeec79256484ca4fcec",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2025-azul-d2-q106-option-d.png",
+          "sha256": "267a17b0b541df670da11851ec6771a23411e6aceac777509fb3a78246112993",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2025-azul-d2-q106-option-e.png",
+          "sha256": "86cc0c436c2e8281e488cea4df4eb8b5ff519757e855c22c4f8275bd8faa7d8f",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2025-azul-d2-q106-support.png",
+      "figure_sha256": "eb73c104c8793aee4ff63eee7746e789f1ea0fe370fa1a57c8ab5846dc53e7f4",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "f54bdbbeb696c02a70d4fb42e0e75bc6d8442ad22b4ce1c862816111bf0d3d40"
+    },
+    "2025_AZUL_D2_Q107": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q107-source.png",
+      "source_sha256": "f2461faf3266d50770b2195b1381f79645d46dc1a3b3b4983dc5d41c83c00ad4",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2025-azul-d2-q107-option-a.png",
+          "sha256": "487e819aad798596701b2999d1b844f45f6c128208d8b6b844249c59bd932772",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2025-azul-d2-q107-option-b.png",
+          "sha256": "ffc0656ebd718c49fa8a7e12e53a058df630e8d7d0d6fd8bb210582b7039180a",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2025-azul-d2-q107-option-c.png",
+          "sha256": "a8c3c5a7f01b421025cb33682127c282266420c38d46b29bd3f6d341270fdf8e",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2025-azul-d2-q107-option-d.png",
+          "sha256": "5ea220b60c6b58fe48597b770826d8074f1ce9b21a44a6aac220effbe1b66d07",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2025-azul-d2-q107-option-e.png",
+          "sha256": "5d63941b4fc127430474b63218ab468e8edd95484222394571094e4b54487f33",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2025-azul-d2-q107-support.png",
+      "figure_sha256": "7f38b795b455c73068e39bb35119a3d2631a5e93077f6b9ec5043dd8fd4c49c6",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "15fb4744a2c3c568d55388aea6836d07092ec661ab4bcfe4cd8119a78fcd8a07"
+    },
+    "2025_AZUL_D2_Q129": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q129-source.png",
+      "source_sha256": "115f0dcc90202b2077f82c57892a1688b40a5628f6b3aa9855e0dd853421bc96",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q129-support.png",
+      "figure_sha256": "cd890695105de355f06fabd74ebfc5929b1a0178e953a32008d462c014f9bdfb",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "e5a23aace598ac006e2f087b59a07fe8aadb9d5883528b4b03fdb396a288dd71"
+    },
+    "2025_AZUL_D2_Q137": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q137-source.png",
+      "source_sha256": "9de007c0ddae756efc454ee494f2acdf30568ec63d792febda45f98466c431c3",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2025-azul-d2-q137-option-a.png",
+          "sha256": "317afb7582c54133fb0f5604df3c71a52c7733b0b4e430cc71600852c69756b1",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2025-azul-d2-q137-option-b.png",
+          "sha256": "234a1dec17f7bd6b455b5a308dd6108e059977ec8e53cdb5f3b00d7097ea3e26",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2025-azul-d2-q137-option-c.png",
+          "sha256": "e14fe490878887a83f3fa40fadbb7deb4208fdaa1a2e3c79a5e979a36cb380d3",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2025-azul-d2-q137-option-d.png",
+          "sha256": "e190a27a4af420beb14f827d5e147ce2573d8fe9b335def025ceeaa3479d6c3b",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2025-azul-d2-q137-option-e.png",
+          "sha256": "2d7cfd8b20ccb061f9e2f8bfbde5035cb634a61f3ed6822d8cf638fada46d74b",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "figure": "/images/verified/batch08-2025-azul-d2-q137-support.png",
+      "figure_sha256": "e661806237ee6bce7ae2522231528d63d06b13cff1a6a806446ca1f13a33810b",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "58d3d8edcf8bd1344b783f4015722de2d9fceedbf25f05d62ef9c10c9bc88701"
+    },
+    "2025_AZUL_D2_Q143": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q143-source.png",
+      "source_sha256": "463f1216bcc9d61ca083539f29b7b9a5b6e223db52a8c7f5a9cdcf4a2acf45b5",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q143-support.png",
+      "figure_sha256": "12bf63c6b070faf3e1c6457a4a2509883f661884d043bdd2f2695f45c4c8f083",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "504838857c66e890a6f0f423737759ce090b6008350ebc7c03ddfe4bf01dc687"
+    },
+    "2025_AZUL_D2_Q144": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d2-q144-source.png",
+      "source_sha256": "9d21223f8ed2fa37212631b8b907936baad0fc003ca08d4657c347b0091700b2",
+      "evidence": "data/audit/batch-08-review.json",
+      "preserve_line_breaks": false,
+      "record_sha256": "0a5d435809a3223c77d6445ea43d2096d4d2e43d7012e47b48486ff8c66a0925"
+    },
+    "2025_AZUL_D2_Q148": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q148-source.png",
+      "source_sha256": "5c4f9b557209cca200411545a71b4b3806ffefd1a3e4a179dba21cfae24e0611",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q148-support.png",
+      "figure_sha256": "1f5b9a5b7091c5cc6b6b1f4467353918c5131f76b51dee6c844a280db2dbd15d",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "1b14bf32e6ac43b91010d5bb53a2070c8b795fc616b5af396bd96a0564f285cd"
+    },
+    "2025_AZUL_D2_Q154": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q154-source.png",
+      "source_sha256": "0a872425e3c3aafd19ff9718daa83ec12616621049fd4baf9aed850a3160f329",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q154-support.png",
+      "figure_sha256": "d24061fd8a511ec6a0df937642ba6f8acfacbeb8e60a1b60b187519c2dfe5d09",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "b0a408ca84dd9e4fcd133e5d1a04960bcb980edf06a4a2c5bc43c4e79250a23a"
+    },
+    "2025_AZUL_D2_Q156": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q156-source.png",
+      "source_sha256": "b3fb5834754d60c55f63da79429987fc4c4ba388d5ea3fdf5d3677867a2d4dff",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q156-support.png",
+      "figure_sha256": "32b626dbe16b51f8c43edbbf8c7b578c1a202d9429d1dc79f144d0c7037c78b9",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "de77736cce0148acd3facbda43017fe3c2d378c0ee9c37693b0ba8cc3dd95c64"
+    },
+    "2025_AZUL_D2_Q161": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q161-source.png",
+      "source_sha256": "1483430e0266fbd50c5aa4cd411f4e19ada949cba03b59080613f69e49de571f",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q161-support.png",
+      "figure_sha256": "a8bfc99eb50a3fd2b73f0a1e07c4d9c8c7153327ecf6376c5692f0638d5bcc31",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "8c498fc34762a5b82b91649048b4ab582cb8f5fc0bee96c96eaf62f872075d11"
+    },
+    "2025_AZUL_D2_Q163": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q163-source.png",
+      "source_sha256": "f28e1fde6449ffd6281cd9cee550cacd187c2bbfa89316f14c1e36b269e2f8a4",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q163-support.png",
+      "figure_sha256": "45818459632d8b1c83bebbd1acadb12fe1458609996e5e6a7bbc4cb749ad36d6",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "b834fc5f07499601b6137bc7e2445819a4ab596586046e222d4dddd689458ca0"
+    },
+    "2025_AZUL_D2_Q165": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q165-source.png",
+      "source_sha256": "f39355110386c5c37dd607a15d35d1bf362af1ad461443cd1ef42678f50519a8",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q165-support.png",
+      "figure_sha256": "64caee2674b329ad9e0afb2777fda6b2b859f8100082e30fb984b0903e9c04ec",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "835bb94863da1d8cc2f1e42550005098f6c1437c1da4cad4a25028879b5fa4f0"
+    },
+    "2025_AZUL_D2_Q167": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q167-source.png",
+      "source_sha256": "0f568552f5478e8aa8dbc740c31db6053eadacaf62b59badf58b3e98795d262f",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q167-support.png",
+      "figure_sha256": "6e4cfff372a908ac6032822e1cd2eb081bb379d6bacba42d877f9e308e3b713d",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "ec2defb8a65869837cfec65289c4f3d0f1919e2bee03f139556824de4fc92a2e"
+    },
+    "2025_AZUL_D2_Q168": {
+      "mode": "composition",
+      "source": "/images/verified/batch08-2025-azul-d2-q168-source.png",
+      "source_sha256": "ed6ba9cf0748a392f85530ef6359694c924d3989bc3c0154ea89ba3833e43ba7",
+      "evidence": "data/audit/batch-08-review.json",
+      "figure": "/images/verified/batch08-2025-azul-d2-q168-support.png",
+      "figure_sha256": "c811d29703868929a23d99f3d44eb050903eb1370e4118a92a0cfac054c26b4f",
+      "alt": "Material de apoio original: figuras, fórmulas, tabelas e créditos preservados. Abra para ampliar.",
+      "record_sha256": "72f3047d31575f1b3ec55dc8d564db83ad53128aa12a7f0da4055f81ecc4771f"
+    },
+    "2025_AZUL_D2_Q178": {
+      "mode": "text",
+      "source": "/images/verified/batch08-2025-azul-d2-q178-source.png",
+      "source_sha256": "4149991dc74d999b426f62713bf3a4b27d800920a313ca8ec1f5df1ae576ac6a",
+      "evidence": "data/audit/batch-08-review.json",
+      "options": {
+        "A": {
+          "image": "/images/verified/batch08-2025-azul-d2-q178-option-a.png",
+          "sha256": "40a88b2667ed1421463d87bc02c4cbf07be5e81c3874d0eaefe6a259c86c4e4b",
+          "alt": "Alternativa A: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "B": {
+          "image": "/images/verified/batch08-2025-azul-d2-q178-option-b.png",
+          "sha256": "6aac1eb2c86f2745fe86f62a18c9fa2065fa3c3d9bdb8eaf3a4c30b832c45f2d",
+          "alt": "Alternativa B: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "C": {
+          "image": "/images/verified/batch08-2025-azul-d2-q178-option-c.png",
+          "sha256": "17cef3ef6c48261a9074a58c6dd49027483c862b2bd481b1fbece2c1774241bf",
+          "alt": "Alternativa C: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "D": {
+          "image": "/images/verified/batch08-2025-azul-d2-q178-option-d.png",
+          "sha256": "2a59ce6d5f914d11d5a7eff010ff5e605919aa77ecd925eef9880fc2fa5dd092",
+          "alt": "Alternativa D: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        },
+        "E": {
+          "image": "/images/verified/batch08-2025-azul-d2-q178-option-e.png",
+          "sha256": "a9e1dd27238a74466458e4d6c47ce6c05fd286626e46d2d097225dc7b3558bb4",
+          "alt": "Alternativa E: gráfico, fórmula ou diagrama original. Ampliação disponível."
+        }
+      },
+      "preserve_line_breaks": false,
+      "record_sha256": "992f92c0582c4d0f52c394a12df56d0b717942fc467295ce37c7d57e8b1e65d3"
     }
   }
 }

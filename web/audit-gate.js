@@ -45,6 +45,11 @@ function scorable(q, entries = readManifest().questions) {
       !/^[ABCDE]$/.test(q.gabarito_oficial || '') || !String(c.enunciado || '').trim() ||
       Object.keys(opts).sort().join('') !== 'ABCDE' || ![...'ABCDE'].every(k => typeof opts[k] === 'string' && opts[k].trim()) ||
       e.record_sha256 !== recordDigest(q)) return false;
+  for (const [name, digest] of Object.entries(e.display_assets_sha256 || {})) {
+    if (!/^\/images\/verified\/[\w-]+\.png$/.test(name)) return false;
+    const file = path.resolve(__dirname, '../data/extracted', name.slice('/images/'.length));
+    if (!fs.existsSync(file) || crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex') !== digest) return false;
+  }
   const visual = c.metadados_visual || {};
   if (visual.contem_imagem || visual.caminho_local_imagem) {
     const name = visual.caminho_local_imagem;

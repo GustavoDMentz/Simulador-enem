@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "batch": "08",
+  "python_tests": {
+    "passed": 83
+  },
+  "node_tests": {
+    "passed": 13
+  },
+  "browser": {
+    "viewports": [
+      {
+        "name": "desktop",
+        "new_questions": 181,
+        "submissions": 362,
+        "graphical_option_sets": 21,
+        "zooms": 212,
+        "pending_blocked": 4,
+        "random_selections": 20,
+        "no_horizontal_overflow": true
+      },
+      {
+        "name": "mobile",
+        "new_questions": 181,
+        "submissions": 362,
+        "graphical_option_sets": 21,
+        "zooms": 212,
+        "pending_blocked": 4,
+        "random_selections": 20,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "errors": []
+  },
+  "presentation_regressions": {
+    "viewports": [
+      {
+        "name": "desktop",
+        "cases": 5,
+        "keyboard_answer": true,
+        "zoom": true,
+        "focus_return": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "name": "mobile",
+        "cases": 5,
+        "keyboard_answer": true,
+        "zoom": true,
+        "focus_return": true,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "errors": []
+  },
+  "blocked_preview": {
+    "viewports": [
+      {
+        "width": 1280,
+        "blocked": [
+          "2020_AZUL_D2_Q157",
+          "2021_AZUL_D2_Q138",
+          "2022_AZUL_D2_Q157",
+          "2024_AZUL_D1_Q04"
+        ]
+      },
+      {
+        "width": 390,
+        "blocked": [
+          "2020_AZUL_D2_Q157",
+          "2021_AZUL_D2_Q138",
+          "2022_AZUL_D2_Q157",
+          "2024_AZUL_D1_Q04"
+        ]
+      }
+    ]
+  },
+  "replay": {
+    "published": 509,
+    "preview": 513,
+    "quarantined": [],
+    "database_changed": false
+  },
+  "integrity": {
+    "ok": true,
+    "records": 3687,
+    "issues": []
+  },
+  "previous_328_byte_identical": true,
+  "database_changed": false,
+  "ci": "See pull request checks; this file records local validation.",
+  "browser_scope": "All 181 additions in both viewports and five previous rendering regressions. The optional 509-item browser sweep has no completed result and is not counted."
+}
