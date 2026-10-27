@@ -232,6 +232,9 @@ async function loadQuestionsList() {
         document.querySelectorAll('.list-item').forEach(i => i.classList.remove('active'));
         item.classList.add('active');
         displayQuestion(q);
+        if (window.matchMedia('(max-width: 900px)').matches) {
+          document.querySelector('.content-panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       });
       
       questionsList.appendChild(item);
@@ -265,6 +268,9 @@ async function loadRandomQuestion() {
     }
     const q = await res.json();
     displayQuestion(q);
+    if (window.matchMedia('(max-width: 900px)').matches) {
+      document.querySelector('.content-panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
     
     // Highlight in list if present
     document.querySelectorAll('.list-item').forEach(item => {
