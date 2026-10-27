@@ -199,7 +199,9 @@ async function loadQuestionsList() {
     if (filterImage.checked) params.append('has_image', 'true');
     
     const res = await fetch(`${API_URL}/questions?${params.toString()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
     const data = await res.json();
+    if (!Array.isArray(data.results)) throw new Error('Resposta de questões inválida');
     
     questionsCount.textContent = data.total;
     questionsList.innerHTML = '';
@@ -221,7 +223,7 @@ async function loadQuestionsList() {
       }
       
       // Simple preview title
-      const hasImgIndicator = q.conteudo.metadados_visual.contem_imagem ? '🖼️ ' : '';
+      const hasImgIndicator = q.conteudo.metadados_visual?.contem_imagem ? '🖼️ ' : '';
       const previewText = q.conteudo.enunciado.substring(0, 45) + '...';
       item.innerHTML = `<strong>Q${q.posicao_prova}</strong> - ${hasImgIndicator}${previewText} <span style="font-size:10px; color:#94a3b8; display:block;">${q.ano} • D${q.dia} • ${q.area_conhecimento}</span>`;
       
@@ -242,7 +244,7 @@ async function loadQuestionsList() {
     
   } catch (err) {
     console.error("Erro ao carregar lista de questões:", err);
-    questionsList.innerHTML = '<p class="empty-msg">Erro ao carregar dados.</p>';
+    questionsList.innerHTML = '<p class="empty-msg" role="alert">Não foi possível carregar as questões. Tente atualizar a página.</p>';
   }
 }
 
