@@ -32,7 +32,7 @@ FILES = {
     2023: ("2023 ITENS PROVAS ENEM.csv", "1e086f7786afe964a744a13c8b64c6df"),
 }
 ITEM_MIRRORS = {
-    2024: 'https://huggingface.co/datasets/Luc4s-Carv/educadados-token/resolve/main/ITENS_PROVA_2024.csv',
+    2024: 'https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/main/src/tri_enem/data/itens/2024/ITENS_PROVA_2024.csv',
     2025: 'https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv',
 }
 OFFICIAL_ZIPS = {
@@ -78,14 +78,6 @@ def download(year, name, md5):
 
 def download_item_mirror(year):
     url = ITEM_MIRRORS[year]
-    if year == 2024:
-        api = 'https://huggingface.co/api/datasets/Luc4s-Carv/educadados-token/tree/main?recursive=true'
-        with urllib.request.urlopen(api, timeout=45) as response:
-            listing = json.load(response)
-        paths = [entry['path'] for entry in listing if entry.get('path', '').upper().endswith('ITENS_PROVA_2024.CSV')]
-        if len(paths) != 1:
-            raise ValueError(f'2024: expected one CSV in Hugging Face dataset, found {paths}')
-        url = 'https://huggingface.co/datasets/Luc4s-Carv/educadados-token/resolve/main/' + urllib.parse.quote(paths[0])
     req = urllib.request.Request(url, headers={"User-Agent": "Simulador-enem-TRI-import/1.0"})
     with urllib.request.urlopen(req, timeout=90) as response:
         payload = response.read(20_000_001)
