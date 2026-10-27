@@ -467,7 +467,12 @@ function submitAnswer() {
   if (!tri) {
     btnSubmit.classList.add("hidden");
     btnNextQuestion.classList.remove("hidden");
-    triDashboard.classList.add("hidden");
+    triDashboard.classList.remove("hidden");
+    triValA.textContent = "—";
+    triValB.textContent = "—";
+    triValC.textContent = "—";
+    [gaugeBarA, gaugeBarB, gaugeBarC].forEach(bar => { bar.style.width = "0%"; });
+    answerFeedback.textContent += " · TRI indisponível";
     return;
   }
   const a = tri.a_discriminacao;
