@@ -11,6 +11,9 @@ import io
 import json
 import math
 import pathlib
+import tempfile
+import zipfile
+import re
 import urllib.parse
 import urllib.request
 
@@ -28,7 +31,7 @@ FILES = {
     2022: ("2022 ITENS PROVA ENEM.csv", "52013f06fbce11f5d6731ee2a8d25bfc"),
     2023: ("2023 ITENS PROVAS ENEM.csv", "1e086f7786afe964a744a13c8b64c6df"),
 }
-REQUIRED = {"CO_ITEM", "SG_AREA", "TX_GABARITO", "IN_ITEM_ABAN", "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C"}
+OFFICIAL_ZIPS = {\n    2024: 'https://download.inep.gov.br/microdados/microdados_enem_2024.zip',\n    2025: 'https://download.inep.gov.br/microdados/microdados_enem_2025.zip',\n}\nREQUIRED = {"CO_ITEM", "SG_AREA", "TX_GABARITO", "IN_ITEM_ABAN", "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C"}
 
 
 def canonical_item(value):
@@ -65,13 +68,58 @@ def download(year, name, md5):
     return list(reader), url
 
 
+def download_official_zip(year):
+    """Read only the item-level CSV from an official INEP ZIP, never student records."""
+    url = OFFICIAL_ZIPS[year]
+    req = urllib.request.Request(url, headers={"User-Agent": "Simulador-enem-TRI-import/1.0"})
+    sha = hashlib.sha256()
+    with tempfile.TemporaryFile() as tmp:
+        with urllib.request.urlopen(req, timeout=180) as response:
+            total = 0
+            while True:
+                chunk = response.read(1024 * 1024)
+                if not chunk:
+                    break
+                total += len(chunk)
+                if total > 1_500_000_000:
+                    raise ValueError(f"{year}: ZIP exceeds size safety limit")
+                sha.update(chunk)
+                tmp.write(chunk)
+        tmp.seek(0)
+        with zipfile.ZipFile(tmp) as archive:
+            options = [i for i in archive.infolist()
+                       if re.search(r"ITENS[_ ]PROVA[_ ]?" + str(year) + r"\\.csv$", i.filename, re.I)]
+            if len(options) != 1:
+                raise ValueError(f"{year}: expected one ITENS_PROVA CSV, found {[i.filename for i in options]}")
+            entry = options[0]
+            if entry.file_size > 20_000_000:
+                raise ValueError(f"{year}: item CSV exceeds size limit")
+            payload = archive.read(entry)
+    text = payload.decode("utf-8-sig") if payload.startswith(bytes.fromhex("efbbbf")) else payload.decode("latin-1")
+    reader = csv.DictReader(io.StringIO(text), delimiter=";")
+    if not reader.fieldnames or not REQUIRED.issubset(set(reader.fieldnames)):
+        reader = csv.DictReader(io.StringIO(text), delimiter=",")
+    if not reader.fieldnames or not REQUIRED.issubset(set(reader.fieldnames)):
+        raise ValueError(f"{year}: unexpected official item columns {reader.fieldnames}")
+    return list(reader), {"url": url, "archive_sha256": sha.hexdigest(),
+                          "archive_bytes": total, "member": entry.filename,
+                          "member_sha256": hashlib.sha256(payload).hexdigest()}
+
+
 def main():
     questions = [json.loads(line) for line in CATALOG.read_text(encoding="utf-8").splitlines() if line.strip()]
     candidates, blocked, provenance = [], [], {}
     seen = set()
-    for year, (filename, digest) in FILES.items():
-        rows, url = download(year, filename, digest)
-        provenance[str(year)] = {"filename": filename, "md5": digest, "url": url, "source_rows": len(rows)}
+    for year in sorted(set(FILES) | set(OFFICIAL_ZIPS)):
+        if year in FILES:
+            filename, digest = FILES[year]
+            rows, url = download(year, filename, digest)
+            source = f"INEP ITENS_PROVA via Zenodo 10.5281/zenodo.18801899 ({digest})"
+            provenance[str(year)] = {"filename": filename, "md5": digest, "url": url, "source_rows": len(rows)}
+        else:
+            rows, meta = download_official_zip(year)
+            source = f"INEP official microdados ENEM {year} ({meta['member_sha256']})"
+            provenance[str(year)] = {**meta, "source_rows": len(rows)}
         by_item = collections.defaultdict(list)
         for row in rows:
             key = canonical_item(row.get("CO_ITEM"))
@@ -108,10 +156,10 @@ def main():
             a, b, c = next(iter(eligible))
             candidates.append({"ano": year, "co_item": int(item), "area_conhecimento": q["area_conhecimento"],
                                "gabarito_oficial": q["gabarito_oficial"], "a": a, "b": b, "c": c,
-                               "fonte": f"INEP ITENS_PROVA via Zenodo 10.5281/zenodo.18801899 ({digest})",
+                               "fonte": source,
                                "status": "VERIFIED"})
     candidates.sort(key=lambda p: (p["ano"], p["co_item"]))
-    report = {"source": "https://doi.org/10.5281/zenodo.18801899", "provenance": provenance,
+    report = {"source": "INEP official ZIP (2024-2025); checksum-pinned Zenodo mirror (2018-2023)", "provenance": provenance,
               "catalog_questions": len(questions), "matched": len(candidates),
               "blocked_count": len(blocked), "blocked": blocked,
               "note": "VERIFIED means exact catalog identity and unique valid parameters from checksum-pinned microdata; not independent PDF certification."}
