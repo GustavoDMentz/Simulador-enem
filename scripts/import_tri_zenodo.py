@@ -88,7 +88,7 @@ def download_item_mirror(year):
         payload = response.read(20_000_001)
     if len(payload) > 20_000_000:
         raise ValueError(f"{year}: item CSV exceeds limit")
-    blob = hashlib.sha1(b"blob " + str(len(payload)).encode() + b"\\0" + payload).hexdigest()
+    blob = hashlib.sha1(b"blob " + str(len(payload)).encode() + bytes([0]) + payload).hexdigest()
     if blob != SOURCE_BLOBS[year]:
         raise ValueError(f"{year}: source changed (git blob {blob} != {SOURCE_BLOBS[year]})")
     text = payload.decode("utf-8-sig") if payload.startswith(bytes.fromhex("efbbbf")) else payload.decode("latin-1")
