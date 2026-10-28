@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict');
-const {probability,logLikelihood,estimate}=require('../public/tri-mle');
+const {probability,logLikelihood,estimate,estimateEAP}=require('../public/tri-mle');
 test('3PL has lower asymptote c and increases with theta',()=>{
  const p={a:1,b:0,c:.2};
  assert.ok(Math.abs(probability(0,p)-.6)<1e-12);
@@ -22,3 +22,17 @@ test('extreme response patterns do not produce fabricated finite MLE',()=>{
  }
 });
 test('invalid 3PL inputs are rejected',()=>assert.throws(()=>probability(0,{a:0,b:0,c:.2}),/Invalid/));
+
+test('EAP remains finite for all-correct and all-wrong patterns',()=>{
+ const p={a:1,b:0,c:.2};
+ const low=estimateEAP(Array.from({length:45},()=>({...p,correct:false})));
+ const high=estimateEAP(Array.from({length:45},()=>({...p,correct:true})));
+ assert.ok(Number.isFinite(low.theta)&&Number.isFinite(high.theta));
+ assert.ok(low.theta<high.theta);
+ assert.ok(low.posteriorSD>0&&high.posteriorSD>0);
+});
+test('EAP with no informative pattern remains near prior mean',()=>{
+ const result=estimateEAP([{a:1,b:0,c:.2,correct:true},{a:1,b:0,c:.2,correct:false}]);
+ assert.ok(Number.isFinite(result.theta));
+ assert.equal(result.method,'3PL_EAP_APPROXIMATION');
+});
