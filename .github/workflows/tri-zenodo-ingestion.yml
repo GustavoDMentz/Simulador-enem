@@ -1,0 +1,39 @@
+name: TRI Zenodo ingestion (review branch)
+on:
+  push:
+    branches:
+      - feat/tri-zenodo-ingestion
+    paths:
+      - scripts/import_tri_zenodo.py
+      - .github/workflows/tri-zenodo-ingestion.yml
+permissions:
+  contents: write
+jobs:
+  import-tri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/tri-zenodo-ingestion
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download checksum-verified files and join catalog
+        run: python scripts/import_tri_zenodo.py
+      - name: Validate all 19 Node tests with populated TRI
+        run: node --test web/tests/*.test.js
+      - name: Publish generated files to review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/tri/parametros-oficiais.jsonl data/audit/tri-zenodo-import-review.json
+          if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'data: import verified TRI from checksum-pinned Zenodo microdata'; git push origin HEAD:feat/tri-zenodo-ingestion; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tri-zenodo-import-report
+          path: |
+            data/audit/tri-zenodo-import-review.json
+            data/tri/parametros-oficiais.jsonl
+          if-no-files-found: warn

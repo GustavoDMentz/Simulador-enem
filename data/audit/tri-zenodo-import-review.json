@@ -1,0 +1,2476 @@
+{
+  "source": "INEP item-level CSVs transported via HenriqueLindemann/analise-enem; Git blob identities pinned (2018-2025)",
+  "provenance": {
+    "2018": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2018/ITENS_PROVA_2018.csv",
+      "git_blob_sha1": "6cce612cddf66ba8b66918a130fbc402e21f34af",
+      "member_sha256": "330d2a26ba963ba84519f4c0783a06298e17818bd6069f5ad7dcef21319184c5",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 1850
+    },
+    "2019": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2019/ITENS_PROVA_2019.csv",
+      "git_blob_sha1": "17c85553ecf160e16c3daa446fb9f8440399e1a0",
+      "member_sha256": "2c7af4a732917d896944860f8c4a04fccb62094eea74fa0c3a343a4e4cc8ccc5",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 1945
+    },
+    "2020": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2020/ITENS_PROVA_2020.csv",
+      "git_blob_sha1": "0a96dcf128c176128961fa6ce30d1825d36ed016",
+      "member_sha256": "8dd629c9524df5f72f1080653ad3eac697ddf2ffe21ebe2bb22d729cf0b69345",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 4415
+    },
+    "2021": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2021/ITENS_PROVA_2021.csv",
+      "git_blob_sha1": "c3e56d7e967475ab3a726df924e7fcb8604f7fb4",
+      "member_sha256": "0bf2e0bb2c4faa4fd2bb60835523864d1333e759d81d084a600c38736773bf26",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 5365
+    },
+    "2022": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2022/ITENS_PROVA_2022.csv",
+      "git_blob_sha1": "608b81a8530eb5b9d797a00f0174690ee82032b9",
+      "member_sha256": "200c8f27f4e400c8a60d3b6a0842e411de208264ba06b09fa1bfc10ace4e8693",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 5365
+    },
+    "2023": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2023/ITENS_PROVA_2023.csv",
+      "git_blob_sha1": "6f0976d87bdca15e1b1f3f7562ccac64ac9dcdaf",
+      "member_sha256": "53e7dcec6ce95f8fac8bb7ff4df7a7e95630a5233fd19e0245dd9d36ed00aae9",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 5550
+    },
+    "2024": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2024/ITENS_PROVA_2024.csv",
+      "git_blob_sha1": "b83a02ad46f5426ab158a972649ac2c63a9d23c9",
+      "member_sha256": "6e36141d806f3e67e9d842f92672d7f3fd305048b4ee6ae019f6bdaba682fd3c",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 5550
+    },
+    "2025": {
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2025/ITENS_PROVA_2025.csv",
+      "git_blob_sha1": "46a56060869c23c1b535bfd29f7f395ea63973a4",
+      "member_sha256": "b3cbe87dab85e2811b3136c7c801450de3d6658556af03f0055b4d4f0cb0ca73",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 6105
+    }
+  },
+  "catalog_questions": 509,
+  "unavailable_years": {},
+  "matched": 359,
+  "blocked_count": 150,
+  "blocked": [
+    {
+      "id": "2018_AZUL_D1_Q01",
+      "ano": 2018,
+      "co_item": "55933",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D1_Q02",
+      "ano": 2018,
+      "co_item": "7212",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D1_Q03",
+      "ano": 2018,
+      "co_item": "17817",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D2_Q117",
+      "ano": 2018,
+      "co_item": "61010",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D2_Q139",
+      "ano": 2018,
+      "co_item": "63358",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D2_Q150",
+      "ano": 2018,
+      "co_item": "26265",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D2_Q162",
+      "ano": 2018,
+      "co_item": "29575",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D2_Q169",
+      "ano": 2018,
+      "co_item": "16115",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2018_AZUL_D2_Q176",
+      "ano": 2018,
+      "co_item": "40459",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2019_AZUL_D1_Q01",
+      "ano": 2019,
+      "co_item": "17910",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2019_AZUL_D1_Q02",
+      "ano": 2019,
+      "co_item": "25684",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2019_AZUL_D1_Q05",
+      "ano": 2019,
+      "co_item": "18848",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D1_Q03",
+      "ano": 2020,
+      "co_item": "40963",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q92",
+      "ano": 2020,
+      "co_item": "10251",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q93",
+      "ano": 2020,
+      "co_item": "62745",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 5,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q95",
+      "ano": 2020,
+      "co_item": "14315",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q96",
+      "ano": 2020,
+      "co_item": "17936",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q98",
+      "ano": 2020,
+      "co_item": "37791",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q100",
+      "ano": 2020,
+      "co_item": "63468",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q102",
+      "ano": 2020,
+      "co_item": "41142",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q107",
+      "ano": 2020,
+      "co_item": "49247",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q108",
+      "ano": 2020,
+      "co_item": "30236",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q109",
+      "ano": 2020,
+      "co_item": "31016",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q111",
+      "ano": 2020,
+      "co_item": "30208",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q112",
+      "ano": 2020,
+      "co_item": "45091",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q115",
+      "ano": 2020,
+      "co_item": "49826",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q116",
+      "ano": 2020,
+      "co_item": "44553",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q118",
+      "ano": 2020,
+      "co_item": "14993",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q119",
+      "ano": 2020,
+      "co_item": "41080",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q120",
+      "ano": 2020,
+      "co_item": "24283",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q121",
+      "ano": 2020,
+      "co_item": "33422",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q124",
+      "ano": 2020,
+      "co_item": "24700",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q126",
+      "ano": 2020,
+      "co_item": "61083",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q129",
+      "ano": 2020,
+      "co_item": "77782",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q130",
+      "ano": 2020,
+      "co_item": "67289",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q132",
+      "ano": 2020,
+      "co_item": "37203",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q133",
+      "ano": 2020,
+      "co_item": "28355",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q134",
+      "ano": 2020,
+      "co_item": "30673",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q135",
+      "ano": 2020,
+      "co_item": "40789",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q136",
+      "ano": 2020,
+      "co_item": "37733",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q139",
+      "ano": 2020,
+      "co_item": "32245",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q140",
+      "ano": 2020,
+      "co_item": "46653",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q143",
+      "ano": 2020,
+      "co_item": "7258",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q144",
+      "ano": 2020,
+      "co_item": "7246",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q148",
+      "ano": 2020,
+      "co_item": "56310",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q149",
+      "ano": 2020,
+      "co_item": "23725",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q156",
+      "ano": 2020,
+      "co_item": "55971",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q162",
+      "ano": 2020,
+      "co_item": "39587",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q163",
+      "ano": 2020,
+      "co_item": "9235",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q164",
+      "ano": 2020,
+      "co_item": "22841",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q165",
+      "ano": 2020,
+      "co_item": "18908",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q168",
+      "ano": 2020,
+      "co_item": "14102",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q169",
+      "ano": 2020,
+      "co_item": "15897",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 7,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q170",
+      "ano": 2020,
+      "co_item": "43495",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q172",
+      "ano": 2020,
+      "co_item": "85174",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q173",
+      "ano": 2020,
+      "co_item": "15561",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q174",
+      "ano": 2020,
+      "co_item": "40614",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 8,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q178",
+      "ano": 2020,
+      "co_item": "55141",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2020_AZUL_D2_Q179",
+      "ano": 2020,
+      "co_item": "43017",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 4,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2022_AZUL_D1_Q02",
+      "ano": 2022,
+      "co_item": "118252",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2022_AZUL_D1_Q03",
+      "ano": 2022,
+      "co_item": "76318",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2022_AZUL_D1_Q04",
+      "ano": 2022,
+      "co_item": "140527",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2022_AZUL_D1_Q05",
+      "ano": 2022,
+      "co_item": "140567",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2022_AZUL_D2_Q119",
+      "ano": 2022,
+      "co_item": "64099",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 16,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2022_AZUL_D2_Q134",
+      "ano": 2022,
+      "co_item": "54377",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 16,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D1_Q01",
+      "ano": 2023,
+      "co_item": "140730",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D1_Q02",
+      "ano": 2023,
+      "co_item": "140565",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D1_Q04",
+      "ano": 2023,
+      "co_item": "140729",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D1_Q05",
+      "ano": 2023,
+      "co_item": "140708",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q93",
+      "ano": 2023,
+      "co_item": "14425",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q94",
+      "ano": 2023,
+      "co_item": "40431",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q95",
+      "ano": 2023,
+      "co_item": "60991",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q98",
+      "ano": 2023,
+      "co_item": "117924",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q102",
+      "ano": 2023,
+      "co_item": "81637",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q115",
+      "ano": 2023,
+      "co_item": "41122",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q121",
+      "ano": 2023,
+      "co_item": "87842",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q126",
+      "ano": 2023,
+      "co_item": "14943",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q142",
+      "ano": 2023,
+      "co_item": "82327",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q144",
+      "ano": 2023,
+      "co_item": "141563",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q148",
+      "ano": 2023,
+      "co_item": "117596",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q156",
+      "ano": 2023,
+      "co_item": "117601",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q157",
+      "ano": 2023,
+      "co_item": "125975",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q161",
+      "ano": 2023,
+      "co_item": "64151",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q166",
+      "ano": 2023,
+      "co_item": "111538",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q174",
+      "ano": 2023,
+      "co_item": "125990",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q176",
+      "ano": 2023,
+      "co_item": "40387",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2023_AZUL_D2_Q177",
+      "ano": 2023,
+      "co_item": "37312",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q07",
+      "ano": 2024,
+      "co_item": "14475",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q09",
+      "ano": 2024,
+      "co_item": "140807",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q10",
+      "ano": 2024,
+      "co_item": "140816",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q12",
+      "ano": 2024,
+      "co_item": "141263",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q13",
+      "ano": 2024,
+      "co_item": "140935",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q15",
+      "ano": 2024,
+      "co_item": "140982",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q20",
+      "ano": 2024,
+      "co_item": "150460",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q27",
+      "ano": 2024,
+      "co_item": "150602",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q30",
+      "ano": 2024,
+      "co_item": "141399",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q32",
+      "ano": 2024,
+      "co_item": "16575",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q33",
+      "ano": 2024,
+      "co_item": "141447",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q35",
+      "ano": 2024,
+      "co_item": "118138",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q39",
+      "ano": 2024,
+      "co_item": "120372",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q41",
+      "ano": 2024,
+      "co_item": "118098",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q43",
+      "ano": 2024,
+      "co_item": "140836",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q44",
+      "ano": 2024,
+      "co_item": "26631",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q45",
+      "ano": 2024,
+      "co_item": "150600",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q46",
+      "ano": 2024,
+      "co_item": "140794",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q48",
+      "ano": 2024,
+      "co_item": "149816",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q49",
+      "ano": 2024,
+      "co_item": "118023",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q50",
+      "ano": 2024,
+      "co_item": "125769",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q51",
+      "ano": 2024,
+      "co_item": "125746",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q52",
+      "ano": 2024,
+      "co_item": "125853",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q57",
+      "ano": 2024,
+      "co_item": "140822",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q58",
+      "ano": 2024,
+      "co_item": "149809",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q63",
+      "ano": 2024,
+      "co_item": "125682",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q66",
+      "ano": 2024,
+      "co_item": "141379",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q67",
+      "ano": 2024,
+      "co_item": "140616",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q68",
+      "ano": 2024,
+      "co_item": "96219",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q71",
+      "ano": 2024,
+      "co_item": "141031",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q72",
+      "ano": 2024,
+      "co_item": "140508",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q73",
+      "ano": 2024,
+      "co_item": "141105",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q74",
+      "ano": 2024,
+      "co_item": "86829",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q75",
+      "ano": 2024,
+      "co_item": "141073",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q82",
+      "ano": 2024,
+      "co_item": "95775",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q84",
+      "ano": 2024,
+      "co_item": "111965",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q85",
+      "ano": 2024,
+      "co_item": "111807",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q86",
+      "ano": 2024,
+      "co_item": "140471",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q87",
+      "ano": 2024,
+      "co_item": "111991",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D1_Q88",
+      "ano": 2024,
+      "co_item": "141365",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CH"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q98",
+      "ano": 2024,
+      "co_item": "45163",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q111",
+      "ano": 2024,
+      "co_item": "56084",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q118",
+      "ano": 2024,
+      "co_item": "84020",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q125",
+      "ano": 2024,
+      "co_item": "17580",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 12,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q133",
+      "ano": 2024,
+      "co_item": "88476",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q141",
+      "ano": 2024,
+      "co_item": "126034",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q153",
+      "ano": 2024,
+      "co_item": "17549",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q155",
+      "ano": 2024,
+      "co_item": "96632",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q170",
+      "ano": 2024,
+      "co_item": "32627",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2024_AZUL_D2_Q176",
+      "ano": 2024,
+      "co_item": "141571",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 18,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D1_Q01",
+      "ano": 2025,
+      "co_item": "15029",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D1_Q02",
+      "ano": 2025,
+      "co_item": "153945",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 13,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "A"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D1_Q03",
+      "ano": 2025,
+      "co_item": "98252",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D1_Q05",
+      "ano": 2025,
+      "co_item": "140610",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "LC"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q96",
+      "ano": 2025,
+      "co_item": "87024",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q100",
+      "ano": 2025,
+      "co_item": "87797",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "B"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q106",
+      "ano": 2025,
+      "co_item": "67396",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q107",
+      "ano": 2025,
+      "co_item": "64014",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q129",
+      "ano": 2025,
+      "co_item": "56297",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "CN"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q137",
+      "ano": 2025,
+      "co_item": "47233",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "E"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q146",
+      "ano": 2025,
+      "co_item": "61653",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "C"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q148",
+      "ano": 2025,
+      "co_item": "5774",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    },
+    {
+      "id": "2025_AZUL_D2_Q179",
+      "ano": 2025,
+      "co_item": "126016",
+      "reason": "no unique compatible parameter triple",
+      "source_matches": 10,
+      "eligible_triples": 0,
+      "diagnosis": "ANSWER_MISMATCH",
+      "source_areas": [
+        "MT"
+      ],
+      "source_answers": [
+        "D"
+      ],
+      "source_abandoned": []
+    }
+  ],
+  "note": "VERIFIED means exact catalog identity and unique valid parameters from checksum-pinned microdata; not independent PDF certification."
+}
