@@ -39,6 +39,11 @@ OFFICIAL_ZIPS = {
     2024: 'https://download.inep.gov.br/microdados/microdados_enem_2024.zip',
     2025: 'https://download.inep.gov.br/microdados/microdados_enem_2025.zip',
 }
+SOURCE_REPOSITORY = "HenriqueLindemann/analise-enem"
+SOURCE_BASE = "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/"
+# Verified Git blob identities for all eight public item-level CSVs; fail closed on changes.
+SOURCE_BLOBS = {2018:"6cce612cddf66ba8b66918a130fbc402e21f34af",2019:"17c85553ecf160e16c3daa446fb9f8440399e1a0",2020:"0a96dcf128c176128961fa6ce30d1825d36ed016",2021:"c3e56d7e967475ab3a726df924e7fcb8604f7fb4",2022:"608b81a8530eb5b9d797a00f0174690ee82032b9",2023:"6f0976d87bdca15e1b1f3f7562ccac64ac9dcdaf",2024:"b83a02ad46f5426ab158a972649ac2c63a9d23c9",2025:"46a56060869c23c1b535bfd29f7f395ea63973a4"}
+
 REQUIRED = {"CO_ITEM", "SG_AREA", "TX_GABARITO", "IN_ITEM_ABAN", "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C"}
 
 
@@ -77,19 +82,24 @@ def download(year, name, md5):
 
 
 def download_item_mirror(year):
-    url = ITEM_MIRRORS[year]
+    url = f"{SOURCE_BASE}{year}/ITENS_PROVA_{year}.csv"
     req = urllib.request.Request(url, headers={"User-Agent": "Simulador-enem-TRI-import/1.0"})
     with urllib.request.urlopen(req, timeout=90) as response:
         payload = response.read(20_000_001)
     if len(payload) > 20_000_000:
         raise ValueError(f"{year}: item CSV exceeds limit")
+    blob = hashlib.sha1(b"blob " + str(len(payload)).encode() + b"\\0" + payload).hexdigest()
+    if blob != SOURCE_BLOBS[year]:
+        raise ValueError(f"{year}: source changed (git blob {blob} != {SOURCE_BLOBS[year]})")
     text = payload.decode("utf-8-sig") if payload.startswith(bytes.fromhex("efbbbf")) else payload.decode("latin-1")
     reader = csv.DictReader(io.StringIO(text), delimiter=";")
     if not reader.fieldnames or not REQUIRED.issubset(set(reader.fieldnames)):
         reader = csv.DictReader(io.StringIO(text), delimiter=",")
     if not reader.fieldnames or not REQUIRED.issubset(set(reader.fieldnames)):
         raise ValueError(f"{year}: mirror item columns invalid {reader.fieldnames}")
-    return list(reader), {"url": url, "member_sha256": hashlib.sha256(payload).hexdigest(),
+    return list(reader), {"url": url, "git_blob_sha1": blob,
+                          "member_sha256": hashlib.sha256(payload).hexdigest(),
+                          "source_repository": SOURCE_REPOSITORY,
                           "source_type": "public mirror of INEP item CSV (not official host)"}
 
 
@@ -135,20 +145,10 @@ def main():
     questions = [json.loads(line) for line in CATALOG.read_text(encoding="utf-8").splitlines() if line.strip()]
     candidates, blocked, provenance, unavailable = [], [], {}, {}
     seen = set()
-    for year in sorted(set(FILES) | set(OFFICIAL_ZIPS)):
-        if year in FILES:
-            filename, digest = FILES[year]
-            rows, url = download(year, filename, digest)
-            source = f"INEP ITENS_PROVA via Zenodo 10.5281/zenodo.18801899 ({digest})"
-            provenance[str(year)] = {"filename": filename, "md5": digest, "url": url, "source_rows": len(rows)}
-        else:
-            try:
-                rows, meta = download_item_mirror(year)
-            except (ValueError, OSError) as exc:
-                unavailable[str(year)] = str(exc)
-                continue
-            source = f"INEP ITENS_PROVA {year} via public mirror ({meta['member_sha256']})"
-            provenance[str(year)] = {**meta, "source_rows": len(rows)}
+    for year in sorted(SOURCE_BLOBS):
+        rows, meta = download_item_mirror(year)
+        source = f"INEP ITENS_PROVA {year} via {SOURCE_REPOSITORY} ({meta['member_sha256']})"
+        provenance[str(year)] = {**meta, "source_rows": len(rows)}
         by_item = collections.defaultdict(list)
         for row in rows:
             key = canonical_item(row.get("CO_ITEM"))
@@ -199,7 +199,7 @@ def main():
                                "fonte": source,
                                "status": "VERIFIED"})
     candidates.sort(key=lambda p: (p["ano"], p["co_item"]))
-    report = {"source": "Public item-CSV mirrors (2024-2025); checksum-pinned Zenodo mirror (2018-2023)", "provenance": provenance,
+    report = {"source": "INEP item-level CSVs transported via HenriqueLindemann/analise-enem; Git blob identities pinned (2018-2025)", "provenance": provenance,
               "catalog_questions": len(questions), "unavailable_years": unavailable, "matched": len(candidates),
               "blocked_count": len(blocked), "blocked": blocked,
               "note": "VERIFIED means exact catalog identity and unique valid parameters from checksum-pinned microdata; not independent PDF certification."}
