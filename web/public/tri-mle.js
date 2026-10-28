@@ -1,7 +1,7 @@
 'use strict';
 // Experimental 3PL EAP estimator. Reference: INEP microEnem.
 // Numerical quadrature here is approximate, pending reproduction of official mirt settings.
-const D=1.7;
+const D=1;
 function probability(theta,{a,b,c}){
  if(![theta,a,b,c].every(Number.isFinite)||a<=0||c<0||c>=1)throw Error('Invalid 3PL parameters');
  const z=D*a*(theta-b),sigmoid=z>=0?1/(1+Math.exp(-z)):Math.exp(z)/(1+Math.exp(z));
@@ -9,10 +9,10 @@ function probability(theta,{a,b,c}){
 }
 function estimateEAP(items){
  if(!Array.isArray(items)||items.length===0)throw Error('No answered items');
- const nodes=40,low=-4,high=4,step=(high-low)/nodes;
+ const nodes=40,low=-4,high=4,step=(high-low)/(nodes-1);
  const values=[];
  for(let i=0;i<nodes;i++){
-  const theta=low+(i+.5)*step;
+  const theta=low+i*step;
   let logWeight=-theta*theta/2;
   for(const item of items){
    if(typeof item.correct!=='boolean')throw Error('Invalid response');

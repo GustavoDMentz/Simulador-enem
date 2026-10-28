@@ -25,3 +25,8 @@ test('invalid parameters and responses are rejected',()=>{
  assert.throws(()=>probability(0,{a:0,b:0,c:.2}),/Invalid/);
  assert.throws(()=>estimateEAP([{a:1,b:0,c:.2,correct:'A'}]),/Invalid response/);
 });
+
+test('INEP mirt parameterization uses unit logistic slope',()=>{
+ const p={a:2,b:1,c:0};
+ assert.ok(Math.abs(probability(0,p)-1/(1+Math.exp(2)))<1e-12);
+});
