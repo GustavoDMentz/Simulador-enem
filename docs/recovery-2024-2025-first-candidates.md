@@ -1,19 +1,14 @@
-# Recuperação de posições ausentes — primeira checagem das fontes locais
+# Recuperação 2024–2025: auditoria inicial de candidatos locais
 
-Escopo: 13 posições ausentes dos arquivos `data/fused/` azuis de 2024–2025.
+O cruzamento com `data/extracted/2025/AZUL_dia1.json`, `AZUL_dia2.json` e respectivas versões `_raw.json` localizou duas posições não presentes nos fused. **Nenhuma é publicável.**
 
-A checagem adicional de `data/extracted/{year}/AZUL_dia{day}.json` encontrou **dois candidatos estruturais** que não estavam nos fused:
+| Questão | Constatação direta | Bloqueio |
+|---|---|---|
+| 2025 D1 Q50 | Texto atribuído a Derrida sobre direito e justiça; alternativas sobre memória coletiva, mobilidade urbana, afetividade etc. | **TEXT_OPTIONS_MISMATCH**: aparente mistura de conteúdos; exige reconstrução integral do PDF oficial |
+| 2025 D2 Q138 | Enunciado de projeções ortogonais do cubo; cinco alternativas vazias, representadas por imagens no original | **IMAGE_OPTIONS_MISSING**: recuperar as cinco figuras e validar visualmente |
 
-| Posição | Fonte local | Enunciado presente | A–E presentes | Imagem declarada | Estado |
-|---|---|---|---|---|---|
-| 2025 D1 Q50 | `data/extracted/2025/AZUL_dia1.json` | sim | sim | não | CANDIDATE_UNVERIFIED |
-| 2025 D2 Q138 | `data/extracted/2025/AZUL_dia2.json` | sim | sim | sim | CANDIDATE_UNVERIFIED |
+Os arquivos `_raw.json` repetem esses problemas e não fornecem solução independente. A presença do registro não equivale à recuperação completa. Nenhum gabarito foi atribuído, nenhum item foi publicado.
 
-Os dois **não estão autorizados para publicação**: falta conferir identidade, conteúdo, gabarito oficial e, na Q138, o recurso visual.
+Outras onze posições ainda sem registro nessas fontes: 2024 D1 Q18; 2024 D2 Q94, Q96, Q100, Q101; 2025 D2 Q151, Q152, Q153, Q157, Q158, Q159.
 
-Ainda sem registro nas duas fontes locais verificadas:
-- 2024 D1: 18.
-- 2024 D2: 94, 96, 100, 101.
-- 2025 D2: 151, 152, 153, 157, 158, 159.
-
-**Resultado:** 11 posições ainda precisam de extração/recuperação de outra fonte; 2 já têm candidato local. Não houve publicação nem alteração de questões existentes.
+Próxima ação técnica: conferir PDFs e gabaritos oficiais, reconstruir conteúdo e evidências; jamais usar a combinação incorreta da Q50 ou substituir as figuras da Q138 por texto inventado.
