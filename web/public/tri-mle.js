@@ -43,4 +43,25 @@ function estimate(items){
  const standardError=information>0?1/Math.sqrt(information):null;
  return {theta,standardError,answered:items.length,correct:successes,atBoundary:Math.abs(theta)>5.995,method:'3PL_MLE',scale:'LATENT_THETA_NOT_ENEM_SCORE',confidence:'APPROXIMATE_FISHER_INFORMATION'};
 }
-if(typeof module!=='undefined')module.exports={probability,logLikelihood,estimate};
+
+// EAP benchmark: standard normal prior, 40 midpoint quadrature points on [-4,4].
+// This is a research comparison, not a claim of exact replication of mirt quadrature.
+function estimateEAP(items){
+ if(!Array.isArray(items)||items.length===0)throw Error('No answered items');
+ const nodes=40,low=-4,high=4,step=(high-low)/nodes;
+ const values=[];
+ for(let i=0;i<nodes;i++){
+  const theta=low+(i+.5)*step;
+  values.push({theta,logWeight:logLikelihood(theta,items)-theta*theta/2});
+ }
+ const max=Math.max(...values.map(x=>x.logWeight));
+ let sum=0,weighted=0,second=0;
+ for(const {theta,logWeight} of values){
+  const weight=Math.exp(logWeight-max);
+  sum+=weight;weighted+=weight*theta;second+=weight*theta*theta;
+ }
+ const theta=weighted/sum;
+ return {theta,posteriorSD:Math.sqrt(Math.max(0,second/sum-theta*theta)),answered:items.length,
+  correct:items.filter(x=>x.correct).length,method:'3PL_EAP_APPROXIMATION',scale:'LATENT_THETA_NOT_ENEM_SCORE'};
+}
+if(typeof module!=='undefined')module.exports={probability,logLikelihood,estimate,estimateEAP};
