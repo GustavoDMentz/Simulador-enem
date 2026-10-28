@@ -45,6 +45,11 @@ $('next').addEventListener('click',()=>{
  $('exam').hidden=true;
  const eap=estimateEAP(answers);
  const years=[...new Set(questions.map(q=>q.ano))];
+ const calibration={LC:{origin:499.978,scale:108.086},CH:{origin:501.489,scale:112.310},CN:{origin:501.144,scale:113.102},MT:{origin:500.020,scale:129.646}};
+ const {origin,scale}=calibration[$('area').value];
+ const estimate=origin+scale*eap.theta;
+ const uncertainty=1.2815515655446004*scale*eap.posteriorSD;
+ const roundTen=n=>Math.round(n/10)*10;
  const context=years.length>1?' Anos misturados: comparabilidade dos parâmetros não demonstrada.':' Ano '+years[0]+'.';
- $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos em 45 questões. Proficiência latente EAP θ ≈ '+eap.theta.toFixed(2)+' (desvio-padrão posterior aproximado '+eap.posteriorSD.toFixed(2)+'). A faixa de nota foi temporariamente desativada: os coeficientes de transformação anteriormente usados geravam valores implausíveis e precisam de verificação na fonte oficial. Não é nota ENEM.'+context;
+ $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos. Faixa estimada de nota TRI: '+roundTen(estimate-uncertainty)+'–'+roundTen(estimate+uncertainty)+' pontos (intervalo posterior aproximado de 80%, arredondado às dezenas). Referência central: aproximadamente '+roundTen(estimate)+' pontos. EAP θ = '+eap.theta.toFixed(2)+'. Estimativa NÃO OFICIAL; intervalo representa somente incerteza do modelo, não erro empírico validado. Transformação: origem + escala × θ, com constantes por área da Tabela 7 de Jaloto (2023); equivalência com microEnem ainda não verificada.'+context;
 });
