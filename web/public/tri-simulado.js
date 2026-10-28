@@ -12,7 +12,7 @@ $('start').addEventListener('click',async()=>{
    const data=await r.json();all.push(...data.results);
    if(page>=data.totalPages)break;
   }
-  const eligible=all.filter(q=>q.scoring_enabled===true&&q.parametros_tri&&
+  const eligible=all.filter(q=>q.scoring_enabled===true&&q.conteudo?.metadados_visual?.contem_imagem!==true&&q.parametros_tri&&
    ['a','b','c'].every(k=>Number.isFinite(q.parametros_tri[k]))&&
    q.parametros_tri.a>0&&q.parametros_tri.c>=0&&q.parametros_tri.c<1&&
    /^[A-E]$/.test(q.gabarito_oficial)&&q.conteudo?.alternativas);
@@ -26,7 +26,7 @@ $('start').addEventListener('click',async()=>{
 function render(){
  const q=questions[index];selected=null;$('next').disabled=true;
  $('progress').textContent='Questão '+(index+1)+' de '+questions.length+' · '+q.ano;
- $('question').textContent=q.conteudo?.enunciado||q.conteudo?.texto_base||'Enunciado indisponível';
+ $('question').textContent=[q.conteudo?.texto_base,q.conteudo?.enunciado].filter(Boolean).join('\n\n')||'Enunciado indisponível';
  const choices=$('choices');choices.replaceChildren();
  const alt=q.conteudo.alternativas;
  for(const letter of 'ABCDE'){
