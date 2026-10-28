@@ -1,0 +1,55 @@
+{
+  "generated_from": "data/blue-published/questions.jsonl + data/tri/external-staging/tri-external-{2018..2025}.jsonl",
+  "identity_key": [
+    "ano",
+    "co_item",
+    "area_conhecimento"
+  ],
+  "totals": {
+    "published": 509,
+    "linked": 509,
+    "missing": 0,
+    "area_conflict": 0,
+    "answer_disagreement": 150
+  },
+  "by_year": {
+    "2018": {
+      "linked": 22,
+      "answer_disagreement": 9
+    },
+    "2019": {
+      "linked": 29,
+      "answer_disagreement": 3
+    },
+    "2020": {
+      "linked": 91,
+      "answer_disagreement": 47
+    },
+    "2021": {
+      "linked": 96,
+      "answer_disagreement": 0
+    },
+    "2022": {
+      "linked": 68,
+      "answer_disagreement": 6
+    },
+    "2023": {
+      "linked": 49,
+      "answer_disagreement": 22
+    },
+    "2024": {
+      "linked": 110,
+      "answer_disagreement": 50
+    },
+    "2025": {
+      "linked": 44,
+      "answer_disagreement": 13
+    }
+  },
+  "notes": [
+    "Gabaritos locais preservados.",
+    "Associação por CO_ITEM e área; gabarito externo não bloqueia parâmetros.",
+    "Não é validação independente da procedência dos coeficientes.",
+    "Ainda não ativado no cálculo de notas."
+  ]
+}
