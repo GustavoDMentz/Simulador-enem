@@ -1,51 +1,67 @@
 {
-  "source": "Public item-CSV mirrors (2024-2025); checksum-pinned Zenodo mirror (2018-2023)",
+  "source": "INEP item-level CSVs transported via HenriqueLindemann/analise-enem; Git blob identities pinned (2018-2025)",
   "provenance": {
     "2018": {
-      "filename": "2018 ITENS PROVA ENEM.csv",
-      "md5": "5487ab28cc2dac3f27dd06974ee4b5a4",
-      "url": "https://zenodo.org/records/18801899/files/2018%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2018/ITENS_PROVA_2018.csv",
+      "git_blob_sha1": "6cce612cddf66ba8b66918a130fbc402e21f34af",
+      "member_sha256": "330d2a26ba963ba84519f4c0783a06298e17818bd6069f5ad7dcef21319184c5",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
       "source_rows": 1850
     },
     "2019": {
-      "filename": "2019 ITENS PROVA ENEM.csv",
-      "md5": "d170738f168755aebcffd10cde468b83",
-      "url": "https://zenodo.org/records/18801899/files/2019%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2019/ITENS_PROVA_2019.csv",
+      "git_blob_sha1": "17c85553ecf160e16c3daa446fb9f8440399e1a0",
+      "member_sha256": "2c7af4a732917d896944860f8c4a04fccb62094eea74fa0c3a343a4e4cc8ccc5",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
       "source_rows": 1945
     },
     "2020": {
-      "filename": "2020 ITENS PROVA ENEM.csv",
-      "md5": "633746122218dc1e47e4aa1ddae6dd0e",
-      "url": "https://zenodo.org/records/18801899/files/2020%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2020/ITENS_PROVA_2020.csv",
+      "git_blob_sha1": "0a96dcf128c176128961fa6ce30d1825d36ed016",
+      "member_sha256": "8dd629c9524df5f72f1080653ad3eac697ddf2ffe21ebe2bb22d729cf0b69345",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
       "source_rows": 4415
     },
     "2021": {
-      "filename": "2021 ITENS PROVA ENEM.csv",
-      "md5": "0734c69fb976c9d1b533665b1ad8d306",
-      "url": "https://zenodo.org/records/18801899/files/2021%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2021/ITENS_PROVA_2021.csv",
+      "git_blob_sha1": "c3e56d7e967475ab3a726df924e7fcb8604f7fb4",
+      "member_sha256": "0bf2e0bb2c4faa4fd2bb60835523864d1333e759d81d084a600c38736773bf26",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
       "source_rows": 5365
     },
     "2022": {
-      "filename": "2022 ITENS PROVA ENEM.csv",
-      "md5": "52013f06fbce11f5d6731ee2a8d25bfc",
-      "url": "https://zenodo.org/records/18801899/files/2022%20ITENS%20PROVA%20ENEM.csv?download=1",
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2022/ITENS_PROVA_2022.csv",
+      "git_blob_sha1": "608b81a8530eb5b9d797a00f0174690ee82032b9",
+      "member_sha256": "200c8f27f4e400c8a60d3b6a0842e411de208264ba06b09fa1bfc10ace4e8693",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
       "source_rows": 5365
     },
     "2023": {
-      "filename": "2023 ITENS PROVAS ENEM.csv",
-      "md5": "1e086f7786afe964a744a13c8b64c6df",
-      "url": "https://zenodo.org/records/18801899/files/2023%20ITENS%20PROVAS%20ENEM.csv?download=1",
-      "source_rows": 5730
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2023/ITENS_PROVA_2023.csv",
+      "git_blob_sha1": "6f0976d87bdca15e1b1f3f7562ccac64ac9dcdaf",
+      "member_sha256": "53e7dcec6ce95f8fac8bb7ff4df7a7e95630a5233fd19e0245dd9d36ed00aae9",
+      "source_repository": "HenriqueLindemann/analise-enem",
+      "source_type": "public mirror of INEP item CSV (not official host)",
+      "source_rows": 5550
     },
     "2024": {
       "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2024/ITENS_PROVA_2024.csv",
+      "git_blob_sha1": "b83a02ad46f5426ab158a972649ac2c63a9d23c9",
       "member_sha256": "6e36141d806f3e67e9d842f92672d7f3fd305048b4ee6ae019f6bdaba682fd3c",
+      "source_repository": "HenriqueLindemann/analise-enem",
       "source_type": "public mirror of INEP item CSV (not official host)",
       "source_rows": 5550
     },
     "2025": {
-      "url": "https://raw.githubusercontent.com/ProfGabrielRibeiro/MICRODADOS-ENEM/main/dados/ITENS_PROVA_2025.csv",
-      "member_sha256": "16688912785563f418773a5c99e562f4b43a95cac79357622f05b3d47c7a35d0",
+      "url": "https://raw.githubusercontent.com/HenriqueLindemann/analise-enem/master/src/tri_enem/data/itens/2025/ITENS_PROVA_2025.csv",
+      "git_blob_sha1": "46a56060869c23c1b535bfd29f7f395ea63973a4",
+      "member_sha256": "b3cbe87dab85e2811b3136c7c801450de3d6658556af03f0055b4d4f0cb0ca73",
+      "source_repository": "HenriqueLindemann/analise-enem",
       "source_type": "public mirror of INEP item CSV (not official host)",
       "source_rows": 6105
     }
@@ -1292,7 +1308,7 @@
       "ano": 2023,
       "co_item": "82327",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1308,7 +1324,7 @@
       "ano": 2023,
       "co_item": "141563",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1324,7 +1340,7 @@
       "ano": 2023,
       "co_item": "117596",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1340,7 +1356,7 @@
       "ano": 2023,
       "co_item": "117601",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1356,7 +1372,7 @@
       "ano": 2023,
       "co_item": "125975",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 16,
+      "source_matches": 12,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1372,7 +1388,7 @@
       "ano": 2023,
       "co_item": "64151",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1388,7 +1404,7 @@
       "ano": 2023,
       "co_item": "111538",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1404,7 +1420,7 @@
       "ano": 2023,
       "co_item": "125990",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1420,7 +1436,7 @@
       "ano": 2023,
       "co_item": "40387",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
@@ -1436,7 +1452,7 @@
       "ano": 2023,
       "co_item": "37312",
       "reason": "no unique compatible parameter triple",
-      "source_matches": 22,
+      "source_matches": 18,
       "eligible_triples": 0,
       "diagnosis": "ANSWER_MISMATCH",
       "source_areas": [
