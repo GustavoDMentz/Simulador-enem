@@ -43,7 +43,9 @@ $('next').addEventListener('click',()=>{
  index++;
  if(index<questions.length){render();return;}
  $('exam').hidden=true;
- const out=estimate(answers);\n const years=[...new Set(questions.map(q=>q.ano))];\n const context=years.length>1?' Anos misturados: comparabilidade dos parâmetros não demonstrada.':' Ano '+years[0]+'.';
+ const out=estimate(answers);
+ const years=[...new Set(questions.map(q=>q.ano))];
+ const context=years.length>1?' Anos misturados: comparabilidade dos parâmetros não demonstrada.':' Ano '+years[0]+'.';
  $('result').textContent=out.theta===null?
   'Fim: '+out.correct+'/'+out.answered+' acertos. A MLE não possui máximo finito para este padrão extremo de respostas; θ não foi estimado.':
   'Fim: '+out.correct+'/'+out.answered+' acertos. Proficiência estimada θ = '+out.theta.toFixed(3)+(out.atBoundary?' (limite numérico atingido)':'')+(out.standardError===null?'':'. Erro-padrão aproximado de θ: '+out.standardError.toFixed(3))+'. Isto não é uma nota ENEM calibrada.'+context;
