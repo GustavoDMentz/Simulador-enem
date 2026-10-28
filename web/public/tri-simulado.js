@@ -5,9 +5,9 @@ const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;
 $('start').addEventListener('click',async()=>{
  $('result').textContent='Carregando questões…';$('exam').hidden=true;
  try{
-  const area=$('area').value,count=Number($('count').value),all=[];
+  const area=$('area').value,count=Number($('count').value),year=$('year').value,all=[];
   for(let page=1;page<=20;page++){
-   const r=await fetch('/api/published/questions?area='+encodeURIComponent(area)+'&limit=100&page='+page);
+   const r=await fetch('/api/published/questions?area='+encodeURIComponent(area)+(year==='all'?'':'&year='+year)+'&limit=100&page='+page);
    if(!r.ok)throw Error('Não foi possível carregar questões publicadas');
    const data=await r.json();all.push(...data.results);
    if(page>=data.totalPages)break;
@@ -43,8 +43,8 @@ $('next').addEventListener('click',()=>{
  index++;
  if(index<questions.length){render();return;}
  $('exam').hidden=true;
- const out=estimate(answers);
+ const out=estimate(answers);\n const years=[...new Set(questions.map(q=>q.ano))];\n const context=years.length>1?' Anos misturados: comparabilidade dos parâmetros não demonstrada.':' Ano '+years[0]+'.';
  $('result').textContent=out.theta===null?
   'Fim: '+out.correct+'/'+out.answered+' acertos. A MLE não possui máximo finito para este padrão extremo de respostas; θ não foi estimado.':
-  'Fim: '+out.correct+'/'+out.answered+' acertos. Proficiência estimada θ = '+out.theta.toFixed(3)+(out.atBoundary?' (limite numérico atingido)':'')+'. Isto não é uma nota ENEM calibrada.';
+  'Fim: '+out.correct+'/'+out.answered+' acertos. Proficiência estimada θ = '+out.theta.toFixed(3)+(out.atBoundary?' (limite numérico atingido)':'')+(out.standardError===null?'':'. Erro-padrão aproximado de θ: '+out.standardError.toFixed(3))+'. Isto não é uma nota ENEM calibrada.'+context;
 });
