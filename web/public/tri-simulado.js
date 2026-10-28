@@ -5,7 +5,7 @@ const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;
 $('start').addEventListener('click',async()=>{
  $('result').textContent='Carregando questões…';$('exam').hidden=true;
  try{
-  const area=$('area').value,count=Number($('count').value),year=$('year').value,all=[];
+  const area=$('area').value,count=45,year=$('year').value,all=[];
   for(let page=1;page<=20;page++){
    const r=await fetch('/api/published/questions?area='+encodeURIComponent(area)+(year==='all'?'':'&year='+year)+'&limit=100&page='+page);
    if(!r.ok)throw Error('Não foi possível carregar questões publicadas');
@@ -45,13 +45,6 @@ $('next').addEventListener('click',()=>{
  $('exam').hidden=true;
  const eap=estimateEAP(answers);
  const years=[...new Set(questions.map(q=>q.ano))];
- const calibration={LC:{k:499.978,d:108.086},CH:{k:501.489,d:112.310},CN:{k:501.144,d:113.102},MT:{k:500.020,d:129.646}};
- const area=$('area').value;
- const {k,d}=calibration[area];
- const estimate=k*eap.theta+d;
- const uncertainty=1.2815515655446004*k*eap.posteriorSD;
- const roundTen=n=>Math.round(n/10)*10;
- const low=roundTen(estimate-uncertainty),high=roundTen(estimate+uncertainty);
  const context=years.length>1?' Anos misturados: comparabilidade dos parâmetros não demonstrada.':' Ano '+years[0]+'.';
- $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos. Faixa estimada de nota TRI: '+low+'–'+high+' pontos (intervalo posterior aproximado de 80%, arredondado às dezenas). Referência central: aproximadamente '+roundTen(estimate)+' pontos. EAP θ = '+eap.theta.toFixed(2)+'. Estimativa NÃO OFICIAL; intervalo representa somente a incerteza do modelo, não um erro empírico validado. Constantes por área da Tabela 7 de estudo hospedado pelo Inep; equivalência com o arquivo do pacote microEnem ainda não verificada.'+context;
+ $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos em 45 questões. Proficiência latente EAP θ ≈ '+eap.theta.toFixed(2)+' (desvio-padrão posterior aproximado '+eap.posteriorSD.toFixed(2)+'). A faixa de nota foi temporariamente desativada: os coeficientes de transformação anteriormente usados geravam valores implausíveis e precisam de verificação na fonte oficial. Não é nota ENEM.'+context;
 });
