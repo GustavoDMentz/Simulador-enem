@@ -45,8 +45,13 @@ $('next').addEventListener('click',()=>{
  $('exam').hidden=true;
  const eap=estimateEAP(answers);
  const years=[...new Set(questions.map(q=>q.ano))];
- const proxy=500+100*eap.theta;
- const spread=100*eap.posteriorSD;
+ const calibration={LC:{k:499.978,d:108.086},CH:{k:501.489,d:112.310},CN:{k:501.144,d:113.102},MT:{k:500.020,d:129.646}};
+ const area=$('area').value;
+ const {k,d}=calibration[area];
+ const estimate=k*eap.theta+d;
+ const uncertainty=1.2815515655446004*k*eap.posteriorSD;
+ const roundTen=n=>Math.round(n/10)*10;
+ const low=roundTen(estimate-uncertainty),high=roundTen(estimate+uncertainty);
  const context=years.length>1?' Anos misturados: comparabilidade dos parâmetros não demonstrada.':' Ano '+years[0]+'.';
- $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos. Índice experimental (não oficial) 500+100θ: '+proxy.toFixed(1)+' (dispersão posterior aproximada ±'+spread.toFixed(1)+'). Proficiência EAP θ = '+eap.theta.toFixed(3)+'. ATENÇÃO: não é a transformação oficial do Inep; a conversão correta usa constantes k/d específicas da área, ainda não integradas.'+context;
+ $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos. Faixa estimada de nota TRI: '+low+'–'+high+' pontos (intervalo posterior aproximado de 80%, arredondado às dezenas). Referência central: aproximadamente '+roundTen(estimate)+' pontos. EAP θ = '+eap.theta.toFixed(2)+'. Estimativa NÃO OFICIAL; intervalo representa somente a incerteza do modelo, não um erro empírico validado. Constantes por área da Tabela 7 de estudo hospedado pelo Inep; equivalência com o arquivo do pacote microEnem ainda não verificada.'+context;
 });
