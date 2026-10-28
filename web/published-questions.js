@@ -6,6 +6,7 @@ const SOURCE=path.resolve(__dirname,'../data/blue-published/questions.jsonl');
 const PREVIEW=path.resolve(__dirname,'../data/blue-published/preview-questions.jsonl');
 const RECOVERY=path.resolve(__dirname,'../data/audit/session-recovery/preview-questions.jsonl');
 const TRI=path.resolve(__dirname,'../data/tri/parametros-oficiais.jsonl');
+const TRI_EXTERNAL=path.resolve(__dirname,'../data/tri/external-staging/tri-joined-2018-2025.jsonl');
 function readTri(){
  const result=new Map();
  if(!fs.existsSync(TRI))return result;
@@ -17,11 +18,25 @@ function readTri(){
  }
  return result;
 }
-function withTri(q,tri){
- const p=tri.get(`${q.ano}/${q.co_item}`);
+function readExternalTri(){
+ const result=new Map();
+ if(!fs.existsSync(TRI_EXTERNAL))return result;
+ for(const line of fs.readFileSync(TRI_EXTERNAL,'utf8').split(/\r?\n/).filter(Boolean)){
+  const p=JSON.parse(line),key=`${p.ano}/${p.co_item}`;
+  if(p.status!=='IDENTITY_MATCHED_EXTERNAL'||!Number.isInteger(p.ano)||!Number.isInteger(p.co_item)||!['LC','CH','CN','MT'].includes(p.area_conhecimento)||!['a','b','c'].every(k=>typeof p[k]==='number'&&Number.isFinite(p[k]))||p.a<=0||p.c<0||p.c>1||!p.fonte)throw Error('Invalid external TRI: '+key);
+  if(result.has(key))throw Error('Duplicate external TRI: '+key);
+  result.set(key,p);
+ }
+ return result;
+}
+function withTri(q,tri,external=new Map()){
+ const ext=external.get(`${q.ano}/${q.co_item}`);
+ const verified=tri.get(`${q.ano}/${q.co_item}`);
+ const p=verified||ext;
  if(!p)return q;
- if(p.area_conhecimento!==q.area_conhecimento||p.gabarito_oficial!==q.gabarito_oficial)throw Error('TRI identity mismatch: '+q.id_unico_sistema);
- return {...q,parametros_tri:{a:p.a,b:p.b,c:p.c}};
+ if(p.area_conhecimento!==q.area_conhecimento)throw Error('TRI item area mismatch: '+q.id_unico_sistema);
+ if(verified&&p.gabarito_oficial!==q.gabarito_oficial)throw Error('Verified TRI answer mismatch: '+q.id_unico_sistema);
+ return {...q,parametros_tri:{a:p.a,b:p.b,c:p.c,fonte:p.fonte,status:verified?'VERIFIED':'IDENTITY_MATCHED_EXTERNAL'}};
 }
 function load(file=SOURCE){
  if(!fs.existsSync(file))return null;
@@ -31,9 +46,9 @@ function load(file=SOURCE){
  const keys=rows.map(q=>`${q.ano}/${q.dia}/${q.posicao_prova}`);
  if(new Set(ids).size!==ids.length||new Set(keys).size!==keys.length)throw Error('Duplicate question identity');
  const entries=readManifest().questions;
- const tri=readTri();
+ const tri=readTri(),external=readExternalTri();
  const display=require('./question-presentation'), displayData=display.readPresentation();
- return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>{const scored=forScoring(q,entries);const joined=withTri(scored,tri);return {...joined,_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)};});
+ return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>{const scored=forScoring(q,entries);const joined=withTri(scored,tri,external);return {...joined,_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)};});
 }
 function filter(rows,query){
  for(const name of ['year','day','position'])if(query[name]!==undefined&&(!Number.isInteger(Number(query[name]))||Number(query[name])<1))throw Error('Invalid filter');
@@ -80,4 +95,4 @@ function publishedRouter(express){
  });
  return router;
 }
-module.exports={publishedRouter,load,filter,readTri,withTri};
+module.exports={publishedRouter,load,filter,readTri,readExternalTri,withTri};

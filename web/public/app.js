@@ -475,9 +475,17 @@ function submitAnswer() {
     answerFeedback.textContent += " · TRI indisponível";
     return;
   }
-  const a = tri.a_discriminacao;
-  const b = tri.b_dificuldade;
-  const c = tri.c_chute;
+  const a = tri.a ?? tri.a_discriminacao;
+  const b = tri.b ?? tri.b_dificuldade;
+  const c = tri.c ?? tri.c_chute;
+  if (![a,b,c].every(Number.isFinite)) {
+    triDashboard.classList.add('hidden');
+    answerFeedback.textContent += ' · Parâmetros TRI inválidos';
+    return;
+  }
+  answerFeedback.textContent += tri.status === 'VERIFIED'
+    ? ' · Parâmetros TRI verificados'
+    : ' · Parâmetros TRI de fonte externa (não certificados)';
   
   triValA.textContent = a.toFixed(3);
   triValB.textContent = b.toFixed(3);
