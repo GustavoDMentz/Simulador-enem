@@ -165,6 +165,9 @@ def main():
             seen.add(key)
             eligible = set()
             source_matches = by_item.get(item, [])
+            area_matches = [r for r in source_matches if r['SG_AREA'].strip().upper() == q.get('area_conhecimento')]
+            answer_matches = [r for r in area_matches if r['TX_GABARITO'].strip().upper() == q.get('gabarito_oficial')]
+            active_matches = [r for r in answer_matches if r['IN_ITEM_ABAN'].strip() == '0']
             for row in source_matches:
                 if row["SG_AREA"].strip().upper() != q.get("area_conhecimento"):
                     continue
@@ -180,7 +183,15 @@ def main():
             if len(eligible) != 1:
                 blocked.append({"id": q.get("id_unico_sistema"), "ano": year, "co_item": item,
                                 "reason": "no unique compatible parameter triple", "source_matches": len(source_matches),
-                                "eligible_triples": len(eligible)})
+                                "eligible_triples": len(eligible),
+                                "diagnosis": ("ITEM_NOT_FOUND" if not source_matches else
+                                              "AREA_MISMATCH" if not area_matches else
+                                              "ANSWER_MISMATCH" if not answer_matches else
+                                              "ABANDONED" if not active_matches else
+                                              "PARAMETER_INVALID_OR_AMBIGUOUS"),
+                                "source_areas": sorted({r["SG_AREA"].strip().upper() for r in source_matches}),
+                                "source_answers": sorted({r["TX_GABARITO"].strip().upper() for r in area_matches}),
+                                "source_abandoned": sorted({r["IN_ITEM_ABAN"].strip() for r in answer_matches})})
                 continue
             a, b, c = next(iter(eligible))
             candidates.append({"ano": year, "co_item": int(item), "area_conhecimento": q["area_conhecimento"],
