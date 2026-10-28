@@ -19,15 +19,28 @@ function estimate(items){
  const successes=items.filter(x=>x.correct).length;
  // All-correct/all-wrong sets have no finite unconstrained MLE.
  if(successes===0||successes===items.length)return {theta:null,reason:'EXTREME_RESPONSE_PATTERN',answered:items.length,correct:successes};
- let lo=-6,hi=6;
- // Golden-section maximization of the 3PL log-likelihood.
+ // The 3PL likelihood need not be unimodal: scan first, then refine the best peak.
+ const lower=-6,upper=6,steps=1200,step=(upper-lower)/steps;
+ let bestTheta=lower,bestLL=-Infinity;
+ for(let i=0;i<=steps;i++){
+  const theta=lower+i*step,ll=logLikelihood(theta,items);
+  if(ll>bestLL){bestLL=ll;bestTheta=theta;}
+ }
+ let lo=Math.max(lower,bestTheta-step),hi=Math.min(upper,bestTheta+step);
  const phi=(Math.sqrt(5)-1)/2;
  let x=hi-phi*(hi-lo),y=lo+phi*(hi-lo);
- for(let i=0;i<180;i++){
+ for(let i=0;i<100;i++){
   if(logLikelihood(x,items)<logLikelihood(y,items)){lo=x;x=y;y=lo+phi*(hi-lo);}
   else{hi=y;y=x;x=hi-phi*(hi-lo);}
  }
  const theta=(lo+hi)/2;
- return {theta,answered:items.length,correct:successes,atBoundary:Math.abs(theta)>5.999,method:'3PL_MLE',scale:'LATENT_THETA_NOT_ENEM_SCORE'};
+ const information=items.reduce((sum,item)=>{
+  const p=probability(theta,item),z=D*item.a*(theta-item.b);
+  const logistic=z>=0?1/(1+Math.exp(-z)):Math.exp(z)/(1+Math.exp(z));
+  const derivative=(1-item.c)*D*item.a*logistic*(1-logistic);
+  return sum+derivative*derivative/(p*(1-p));
+ },0);
+ const standardError=information>0?1/Math.sqrt(information):null;
+ return {theta,standardError,answered:items.length,correct:successes,atBoundary:Math.abs(theta)>5.995,method:'3PL_MLE',scale:'LATENT_THETA_NOT_ENEM_SCORE',confidence:'APPROXIMATE_FISHER_INFORMATION'};
 }
 if(typeof module!=='undefined')module.exports={probability,logLikelihood,estimate};
