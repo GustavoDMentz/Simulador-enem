@@ -48,5 +48,5 @@ $('next').addEventListener('click',()=>{
  const proxy=500+100*eap.theta;
  const spread=100*eap.posteriorSD;
  const context=years.length>1?' Anos misturados: comparabilidade dos parâmetros não demonstrada.':' Ano '+years[0]+'.';
- $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos. Indicador ilustrativo na escala 500+100θ: '+proxy.toFixed(1)+' (dispersão posterior aproximada ±'+spread.toFixed(1)+'). Proficiência EAP θ = '+eap.theta.toFixed(3)+'. ATENÇÃO: não é a transformação oficial do Inep; a conversão correta usa constantes k/d específicas da área, ainda não integradas.'+context;
+ $('result').textContent='Fim: '+eap.correct+'/'+eap.answered+' acertos. Índice experimental (não oficial) 500+100θ: '+proxy.toFixed(1)+' (dispersão posterior aproximada ±'+spread.toFixed(1)+'). Proficiência EAP θ = '+eap.theta.toFixed(3)+'. ATENÇÃO: não é a transformação oficial do Inep; a conversão correta usa constantes k/d específicas da área, ainda não integradas.'+context;
 });
