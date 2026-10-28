@@ -1,23 +1,63 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Simulado TRI experimental</title><style>
-:root{font-family:'Outfit',system-ui,sans-serif;color:#1d2340;background:#f6f7fb}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0,#e9e1ff 0,transparent 38%),#f6f7fb;color:#20263e}
-a{color:#6840c5;text-decoration:none}a:hover{text-decoration:underline}
-.topbar{background:#fff;border-bottom:1px solid #e9eaf0;padding:18px max(24px,calc((100vw - 1060px)/2));font-weight:700;font-size:17px}
-main{max-width:1060px;margin:40px auto;padding:0 20px}
-.hero{padding:32px 36px;border-radius:22px;background:linear-gradient(120deg,#3c246d,#7450cf);color:white;box-shadow:0 18px 45px #5136972e}
-.hero .tag{font-size:12px;letter-spacing:.15em;font-weight:700;color:#d9ccff}
-.hero h1{font-size:clamp(26px,4vw,40px);line-height:1.15;margin:12px 0}.hero p{max-width:720px;color:#e7ddff;line-height:1.6;margin-bottom:0}
-.layout{display:grid;grid-template-columns:300px 1fr;gap:22px;margin-top:24px}
-.panel{background:white;border:1px solid #e7e7f0;border-radius:18px;padding:24px;box-shadow:0 5px 24px #1f24400a}
-.panel h2{font-size:19px;margin:0 0 18px}.panel label{display:block;font-size:13px;font-weight:600;color:#47506b;margin:16px 0 6px}
-select{width:100%;border:1px solid #d9dce8;background:#fff;border-radius:10px;padding:12px;font:inherit;color:#20263e}
-button{border:0;background:#7046ce;color:white;font:inherit;font-weight:650;padding:13px 18px;border-radius:11px;cursor:pointer}
-button:hover:not(:disabled){background:#5b35b0}button:disabled{opacity:.5;cursor:not-allowed}
-#start{width:100%;margin-top:22px}.warning{border:1px solid #eadffb;background:#faf7ff;border-radius:12px;padding:18px;line-height:1.6;font-size:14px;color:#554d70}
-#exam{margin-top:20px}#progress{font-size:16px;color:#6542a8}#question{white-space:pre-wrap;line-height:1.8;margin:20px 0}
-#choices{border:0;padding:0;margin:0}#choices label{display:flex;gap:12px;align-items:flex-start;border:1px solid #e1e3ee;border-radius:12px;padding:14px;margin:10px 0;font-size:15px;font-weight:400;color:#27304b;cursor:pointer}
-#choices label:has(input:checked){border-color:#8056d6;background:#f6f1ff}#choices input{accent-color:#7046ce;margin-top:5px}
-#next{margin-top:16px}#result{font-size:17px;line-height:1.7;font-weight:600;color:#292b4a}
-small{display:block;color:#68728a;font-size:12px;line-height:1.65;margin-top:22px}
-@media(max-width:750px){main{margin:20px auto}.layout{grid-template-columns:1fr}.hero{padding:24px}.panel{padding:20px}}
-</style></head><body><div class="topbar">📊 Simulador ENEM <span style="color:#8051d4">TRI Analytics</span></div><main><p><a href="/">← Voltar ao painel</a></p><section class="hero"><span class="tag">SIMULADO · TRI EXPERIMENTAL</span><h1>Descubra sua faixa de desempenho</h1><p>Responda questões reais e receba uma estimativa de nota por área, calculada pelo método EAP. Sem promessas de precisão artificial.</p></section><div class="layout"><section class="panel"><h2>Monte seu simulado</h2><p class="warning">Estimativa de proficiência θ pelo modelo 3PL e esperança a posteriori (EAP). <strong>Não é uma nota ENEM oficial. A faixa usa constantes por área publicadas em pesquisa hospedada pelo Inep, sem validação empírica do erro.</strong> Os parâmetros externos ainda não foram certificados independentemente.</p><label>Área <select id="area"><option value="MT">Matemática</option><option value="CN">Ciências da Natureza</option><option value="CH">Ciências Humanas</option><option value="LC">Linguagens</option></select></label><label>Ano <select id="year"><option value="all">Todos</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020</option><option>2019</option><option>2018</option></select></label><label>Quantidade <select id="count"><option>10</option><option selected>20</option><option>30</option><option>45</option></select></label><button id="start">Iniciar simulado</button></section><section class="panel"><h2>Questões e resultado</h2><section id="exam" hidden><h2 id="progress"></h2><div id="question"></div><fieldset id="choices"></fieldset><button id="next" disabled>Confirmar e continuar</button></section><p id="result" aria-live="polite"></p><small>O cálculo é por área e usa somente questões publicadas com parâmetros TRI válidos. Para evitar divulgação antecipada do gabarito, o resultado é calculado somente após a última resposta.</small></section></div></main><script src="tri-mle.js"></script><script src="tri-simulado.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Simulado TRI | Simulador ENEM</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#20243a;background:#f8f9fc}
+*{box-sizing:border-box}body{margin:0}button,select{font:inherit}a{color:#5d45ad;text-decoration:none}a:hover{text-decoration:underline}
+.topbar{height:68px;background:#fff;border-bottom:1px solid #e9ebf1;display:flex;align-items:center;justify-content:space-between;padding:0 max(22px,calc((100vw - 980px)/2))}
+.brand{font-weight:800;letter-spacing:-.025em}.brand span{color:#7352be}.back{font-size:13px;font-weight:600}
+main{max-width:980px;margin:0 auto;padding:34px 22px 80px}
+.intro{margin:0 0 28px}.eyebrow{color:#7658b7;font-size:12px;letter-spacing:.12em;font-weight:800;text-transform:uppercase}
+h1{font-size:clamp(28px,4vw,38px);line-height:1.16;letter-spacing:-.04em;margin:9px 0 10px} .subtitle{font-size:15px;line-height:1.6;color:#697188;margin:0;max-width:650px}
+.panel{background:#fff;border:1px solid #e8eaf0;border-radius:18px;padding:30px;box-shadow:0 5px 22px #242b4607}
+.setup{max-width:660px;margin:auto}.panel h2{font-size:20px;letter-spacing:-.025em;margin:0 0 8px}.muted{color:#717991;font-size:14px;line-height:1.6}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}label.field{font-size:13px;font-weight:700;color:#39405b;display:block}
+select{display:block;margin-top:8px;width:100%;padding:13px 14px;border:1px solid #dce0e9;border-radius:11px;background:#fff;color:#252a42}
+.info{display:flex;gap:12px;align-items:flex-start;background:#f7f5fd;border-radius:12px;padding:15px 17px;margin:24px 0;color:#615779;font-size:13px;line-height:1.55}
+.info strong{color:#40365d}.info-icon{font-size:17px}
+button{background:#6948c0;border:0;border-radius:11px;color:#fff;font-weight:700;padding:14px 24px;cursor:pointer}button:hover:not(:disabled){background:#5735ab}button:disabled{opacity:.5;cursor:not-allowed}
+#start{width:100%}
+#workspace[hidden],#setup[hidden],#exam[hidden],#summary[hidden]{display:none}
+.exam-top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:13px}.exam-top strong{font-size:14px}.exam-top span{color:#70778d;font-size:13px}
+.progress-track{height:7px;border-radius:99px;background:#ececf3;overflow:hidden;margin-bottom:25px}.progress-fill{height:100%;background:#7554c7;width:0;transition:width .2s}
+.question-card{max-width:780px;margin:auto}.question-card h2{font-size:21px;margin:0 0 20px}
+#question{white-space:pre-wrap;overflow-wrap:anywhere;font-size:16px;line-height:1.85;color:#30374c;margin-bottom:24px}
+#choices{padding:0;margin:0;border:0;display:grid;gap:11px}
+#choices label{display:flex;align-items:flex-start;gap:13px;border:1px solid #e3e6ee;border-radius:12px;padding:17px 18px;cursor:pointer;line-height:1.55;font-size:15px;transition:background .15s,border-color .15s}
+#choices label:hover{background:#faf9ff;border-color:#b8a5e7}#choices label:has(input:checked){background:#f5f1ff;border-color:#7858cb;box-shadow:inset 0 0 0 1px #7858cb}
+#choices input{accent-color:#6e4fc4;margin-top:5px;flex-shrink:0}
+.exam-actions{display:flex;justify-content:flex-end;margin-top:25px}
+#summary{max-width:760px;margin:auto}.result-kicker{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#6b50b0;font-weight:800}
+.result-score{font-size:clamp(36px,6vw,56px);letter-spacing:-.06em;font-weight:800;margin:10px 0 0;color:#2d2550}.result-range{font-size:17px;font-weight:650;color:#43455e;margin:8px 0}
+.result-meta{color:#697188;font-size:14px;line-height:1.7}
+.disclaimer{font-size:12px;color:#7b8193;line-height:1.65;border-top:1px solid #edf0f5;padding-top:18px;margin-top:26px}
+#result:not(:empty){color:#655c7d;font-size:14px;line-height:1.7;margin:18px 0}
+#workspace{margin-top:14px}
+@media(max-width:650px){main{padding:25px 15px 50px}.topbar{padding:0 16px}.panel{padding:22px 18px;border-radius:14px}.fields{grid-template-columns:1fr}.back{font-size:12px}.intro{margin-bottom:22px}#question{font-size:15px}#choices label{padding:15px}.exam-actions button{width:100%}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="brand">Simulador <span>ENEM</span></div><a class="back" href="/">← Voltar ao início</a></header>
+<main>
+<header class="intro"><div class="eyebrow">Prática por área · TRI experimental</div><h1>Um simulado, no seu ritmo.</h1><p class="subtitle">45 questões reais, uma de cada vez. Concentre-se nas respostas; mostramos sua estimativa de desempenho ao final.</p></header>
+<section id="setup" class="panel setup" aria-labelledby="setup-title">
+<h2 id="setup-title">Preparar simulado</h2><p class="muted">Escolha a área e o ano. São 45 questões por sessão.</p>
+<div class="fields"><label class="field">Área<select id="area"><option value="MT">Matemática</option><option value="CN">Ciências da Natureza</option><option value="CH">Ciências Humanas</option><option value="LC">Linguagens</option></select></label>
+<label class="field">Ano<select id="year"><option value="all">Todos os anos</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020</option><option>2019</option><option>2018</option></select></label></div>
+<div class="info"><span class="info-icon" aria-hidden="true">ⓘ</span><div><strong>Como funciona a nota?</strong> Estimativa experimental pelo modelo TRI 3PL com EAP, não equivalente à nota oficial do ENEM. A escala utiliza constantes por área de pesquisa hospedada pelo Inep, ainda sem validação independente contra o microEnem.</div></div>
+<button id="start">Começar 45 questões →</button>
+</section>
+<section id="workspace" hidden>
+<section id="exam" aria-label="Questões do simulado" hidden>
+<div class="exam-top"><strong id="progress">Questão 1 de 45</strong><span id="progress-percent">0% concluído</span></div>
+<div class="progress-track" role="progressbar" aria-label="Progresso do simulado" aria-valuemin="0" aria-valuemax="45" aria-valuenow="0" id="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+<div class="panel question-card"><h2>Leia e responda</h2><div id="question"></div><fieldset id="choices" aria-label="Alternativas"></fieldset><div class="exam-actions"><button id="next" disabled>Confirmar e continuar →</button></div></div>
+</section>
+<section id="summary" class="panel" hidden aria-label="Resultado do simulado"><div class="result-kicker">Simulado concluído</div><h2>Seu desempenho</h2><div id="result-score" class="result-score"></div><div id="result-range" class="result-range"></div><p id="result-meta" class="result-meta"></p><p class="disclaimer">Estimativa não oficial. O intervalo expressa apenas a incerteza posterior do modelo, não erro empírico validado. Comparabilidade entre anos e equivalência com o microEnem ainda não verificadas.</p><button id="again" type="button">Fazer outro simulado</button></section>
+</section>
+<p id="result" role="status" aria-live="polite"></p>
+</main>
+<script src="tri-mle.js"></script><script src="tri-simulado.js"></script>
+</body></html>
