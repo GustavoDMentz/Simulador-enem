@@ -1,26 +1,28 @@
-# Cobertura de cinco edições: inventário inicial
+# Cobertura ENEM 2018–2025: inventário inicial
 
-Escopo provisório: 2021–2025 (a confirmar). Fonte: `data/audit/manifest.json` da main, que contém 509 registros autorizados, não as quatro questões bloqueadas do catálogo de 513.
+Escopo confirmado: oito edições, de 2018 a 2025. Meta: 8 × 180 = **1.440 posições**. Fonte: `data/audit/manifest.json` da `main`, com 509 registros autorizados; os quatro bloqueados do catálogo de 513 não constam deste manifesto.
 
-| Ano | D1 autorizadas | D2 autorizadas | Total | Lacunas até 180 |
+| Ano | D1 autorizadas | D2 autorizadas | Total autorizado | Lacunas até 180 |
 |---|---:|---:|---:|---:|
+| 2018 | 6 | 16 | 22 | 158 |
+| 2019 | 11 | 18 | 29 | 151 |
+| 2020 | 10 | 81 | 91 | 89 |
 | 2021 | 42 | 54 | 96 | 84 |
 | 2022 | 13 | 55 | 68 | 112 |
 | 2023 | 13 | 36 | 49 | 131 |
 | 2024 | 88 | 22 | 110 | 70 |
 | 2025 | 20 | 24 | 44 | 136 |
-| **Total** | | | **367** | **533** |
+| **Total** | | | **509** | **931** |
 
-Outros 142 itens autorizados pertencem a 2018–2020.
+## Interpretação
 
-## Ressalvas
-- Lacuna é posição ainda não autorizada nesse recorte, não necessariamente questão ausente do repositório.
-- Itens anulados permanecem bloqueados; cobertura integral de 900 posições não implica 900 pontuáveis.
-- Outras cores não podem ser mapeadas ao caderno azul sem evidência de correspondência.
-- TRI não é certificada pela presença no manifesto.
+- Existem **509** registros autorizados nesse recorte; a diferença até 1.440 é de **931 posições sem autorização**, não necessariamente ausentes do repositório.
+- A diferença nominal entre 1.440 posições e o catálogo de 513 é de 927, mas os dois números não medem a mesma coisa: 513 inclui quatro bloqueados.
+- Anulações oficiais devem permanecer não pontuáveis, mesmo quando as posições estiverem documentadas.
+- Há aplicações e variantes de caderno/idioma no legado: não mapear outras cores ou aplicações para o caderno azul automaticamente.
+- A autorização do item não certifica parâmetros TRI nem sua elegibilidade para EAP.
 
-## Execução seguinte
-1. Confirmar os cinco anos desejados.
-2. Cruzar lacunas por posição com `data/fused/` e provas/gabaritos oficiais.
-3. Classificar cada lacuna como recuperável, bloqueada ou dependente de fonte.
-4. Recuperar em lotes, preservando os 509 registros aprovados e rodando testes antes da publicação.
+## Próxima etapa
+1. Cruzar cada posição ausente por ano/dia com `data/fused/` e os PDFs/gabaritos oficiais.
+2. Classificar material existente, recuperável, anulado ou dependente de fonte/identidade.
+3. Recuperar em lotes, sem alterar os 509 registros aprovados, e testar antes de publicar.
