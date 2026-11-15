@@ -2,7 +2,40 @@
   "schema_version": 1,
   "note": "Linhas AZUL do ITENS_PROVA oficial do Inep (colunas de identidade apenas, sem dados de participantes). Obtido com scripts/fetch_inep_itens_prova.py por HTTP range; o SHA-256 é do CSV bruto extraído do zip (CRC32 conferido).",
   "sources": {
-    "2018": {"url": "https://download.inep.gov.br/microdados/microdados_enem_2018.zip", "entry": "DADOS/ITENS_PROVA_2018.csv", "csv_sha256": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626", "csv_bytes": 108072, "retrieved": "2026-11-15"},
-    "2023": {"url": "https://download.inep.gov.br/microdados/microdados_enem_2023.zip", "entry": "microdados_enem_2023/DADOS/ITENS_PROVA_2023.csv", "csv_sha256": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468", "csv_bytes": 330709, "retrieved": "2026-11-15"}
+    "2018": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2018.zip",
+      "entry": "DADOS/ITENS_PROVA_2018.csv",
+      "csv_sha256": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626",
+      "csv_bytes": 108072,
+      "retrieved": "2026-11-15"
+    },
+    "2019": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2019.zip",
+      "entry": "DADOS/ITENS_PROVA_2019.csv",
+      "csv_sha256": "360fbd34557a4e9889b969c8e80e8fe139f109677bde5e6082e750a4fa227efc",
+      "csv_bytes": 113851,
+      "retrieved": "2026-11-15"
+    },
+    "2020": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2020.zip",
+      "entry": "DADOS/ITENS_PROVA_2020.csv",
+      "csv_sha256": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
+      "csv_bytes": 263233,
+      "retrieved": "2026-11-15"
+    },
+    "2023": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2023.zip",
+      "entry": "microdados_enem_2023/DADOS/ITENS_PROVA_2023.csv",
+      "csv_sha256": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468",
+      "csv_bytes": 330709,
+      "retrieved": "2026-11-15"
+    },
+    "2024": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2024.zip",
+      "entry": "microdados_enem_2024/DADOS/ITENS_PROVA_2024.csv",
+      "csv_sha256": "6d8e293d1bd59f495feff9deee4aaa9b64fe82fd38a0169e4a06e81e1ade31de",
+      "csv_bytes": 330676,
+      "retrieved": "2026-11-15"
+    }
   }
 }

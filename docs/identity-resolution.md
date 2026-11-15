@@ -1,9 +1,9 @@
-# Resolução de identidade (CO_ITEM) — 2018 e 2023
+# Resolução de identidade (CO_ITEM) — 2018, 2019, 2020, 2023 e 2024 (D2)
 
 ## Problema
 O ITENS_PROVA oficial traz **vários CO_PROVA azuis por área** (regular, reaplicação, PPL…). O `fuse.py` escolheu, em alguns anos, um CO_PROVA azul que **não é o caderno do PDF que auditamos**. Sintomas:
 
-- o `gabarito_oficial` do fused diverge do gabarito oficial em cerca de metade das posições (2018, 2019, 2020, 2023, 2025);
+- o `gabarito_oficial` do fused diverge do gabarito oficial em cerca de metade das posições (2018, 2019, 2020, 2023, 2024, 2025);
 - 150 conflitos de resposta na junção TRI (`data/tri/external-staging/audit-2018-2025.md`);
 - o `co_item` publicado (usado só para juntar parâmetros TRI) aponta, nessas posições, para outro item.
 
@@ -14,18 +14,20 @@ O ITENS_PROVA oficial traz **vários CO_PROVA azuis por área** (regular, reapli
 
 | Prova | CO_PROVA escolhido | Concordância |
 | --- | --- | --- |
-| 2018 D1 LC / CH | 455 / 451 | 40/40 / 45/45 |
-| 2018 D2 CN / MT | 447 / 459 | 45/45 / 44/45 |
-| 2023 D1 LC / CH | 1201 / 1191 | 40/40 / 45/45 |
-| 2023 D2 CN / MT | 1221 / 1211 | 45/45 / 44/45 |
+| 2018 D1 LC / CH · D2 CN / MT | 455 / 451 · 447 / 459 | 40/40, 45/45 · 45/45, 44/45 |
+| 2019 D1 LC / CH · D2 CN / MT | 511 / 507 · 503 / 515 | 40/40, 45/45 · 45/45, 45/45 |
+| 2020 D1 LC / CH · D2 CN / MT | 577 / 567 · 597 / 587 | 40/40, 45/45 · 44/44, 43/43 |
+| 2023 D1 LC / CH · D2 CN / MT | 1201 / 1191 · 1221 / 1211 | 40/40, 45/45 · 45/45, 44/45 |
+| 2024 D2 CN / MT | 1419 / 1407 | 44/45, 45/45 |
 
-Os dois itens de MT que divergem são **anulações oficiais** (PDF "Anulado", CSV "X"): 2018 D2 Q163 e 2023 D2 Q164. Posições 1–5 de LC (idioma) não são resolvidas aqui.
+As posições em que o CSV traz `X` e o PDF não traz letra são **anulações oficiais**: 2018 D2 Q163, 2020 D2 Q157, 2023 D2 Q164 e 2024 D2 Q129. Posições 1–5 de LC (idioma) não são resolvidas aqui. **2024 D1** ficou sem resolução porque o gabarito oficial do PDF não está no repositório. **2020 D2 digital** (35 itens publicados da aplicação digital) fica fora: o caderno resolvido é o regular.
 
 ## Resultado
-- `data/audit/identity-resolution.json`: 350 itens resolvidos.
-- Dos 92 registros publicados de 2018/2023, **39 tinham CO_ITEM errado** (53 estavam certos, em geral por coincidência de posição entre cadernos).
+- `data/audit/identity-resolution.json`: **755 itens** resolvidos em 18 de 19 combinações ano/dia/área tentadas.
+- Dos 293 registros publicados nesses anos, **93 tinham CO_ITEM errado** (200 estavam certos, em geral por coincidência de posição entre cadernos).
 - `web/published-questions.js` aplica o CO_ITEM resolvido antes da junção TRI e marca `identidade.status = VERIFIED`; se a resposta/área não bater, `CONFLICT` e **sem junção TRI**. Os bytes de `questions.jsonl` não mudam.
-- Verificação independente: depois da correção, **0** das linhas TRI juntadas tem resposta externa divergente do gabarito oficial (antes, 150 conflitos no catálogo).
+- Verificação independente: depois da correção, **0** das 71 linhas TRI juntadas tem resposta externa divergente do gabarito oficial.
+- **2024 D2:** o CO_PROVA regular foi identificado (CN 1419, MT 1407), o que dá base objetiva para o conflito regular × reaplicação do PR #26.
 
 ## Ainda aberto
-2019, 2020, 2024 e 2025 mostram o mesmo sintoma (fused × gabarito ≈ 40–55%) e precisam do mesmo cruzamento. O zip de 2025 recusou conexão. Enquanto não resolvidos, o `co_item` e os parâmetros TRI desses anos não são confiáveis.
+2024 D1 (falta o PDF do gabarito) e 2025 (o zip recusou conexão) continuam sem resolução; enquanto isso, o `co_item` e os parâmetros TRI desses anos não são confiáveis. 2021 e 2022 já eram consistentes (fused ≈ 99% do gabarito).
