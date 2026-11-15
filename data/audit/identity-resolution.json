@@ -1,0 +1,3372 @@
+{
+ "schema_version": 1,
+ "method": "official ITENS_PROVA; azul CO_PROVA whose answer sequence equals the official key",
+ "thresholds": {
+  "min_match": 0.97,
+  "max_other": 0.6
+ },
+ "sources": {
+  "2018": {
+   "url": "https://download.inep.gov.br/microdados/microdados_enem_2018.zip",
+   "entry": "DADOS/ITENS_PROVA_2018.csv",
+   "csv_sha256": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626",
+   "csv_bytes": 108072,
+   "retrieved": "2026-11-15"
+  },
+  "2023": {
+   "url": "https://download.inep.gov.br/microdados/microdados_enem_2023.zip",
+   "entry": "microdados_enem_2023/DADOS/ITENS_PROVA_2023.csv",
+   "csv_sha256": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468",
+   "csv_bytes": 330709,
+   "retrieved": "2026-11-15"
+  }
+ },
+ "evidence": [
+  {
+   "year": 2018,
+   "day": 1,
+   "area": "LC",
+   "chosen_co_prova": "455",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "455",
+     "agree": 40,
+     "compared": 40,
+     "ratio": 1.0
+    },
+    {
+     "co_prova": "495",
+     "agree": 6,
+     "compared": 40,
+     "ratio": 0.15
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "day": 1,
+   "area": "CH",
+   "chosen_co_prova": "451",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "451",
+     "agree": 45,
+     "compared": 45,
+     "ratio": 1.0
+    },
+    {
+     "co_prova": "491",
+     "agree": 8,
+     "compared": 45,
+     "ratio": 0.178
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "day": 2,
+   "area": "CN",
+   "chosen_co_prova": "447",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "447",
+     "agree": 45,
+     "compared": 45,
+     "ratio": 1.0
+    },
+    {
+     "co_prova": "489",
+     "agree": 6,
+     "compared": 45,
+     "ratio": 0.133
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "day": 2,
+   "area": "MT",
+   "chosen_co_prova": "459",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "459",
+     "agree": 44,
+     "compared": 45,
+     "ratio": 0.978
+    },
+    {
+     "co_prova": "501",
+     "agree": 9,
+     "compared": 45,
+     "ratio": 0.2
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "day": 1,
+   "area": "LC",
+   "chosen_co_prova": "1201",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "1201",
+     "agree": 40,
+     "compared": 40,
+     "ratio": 1.0
+    },
+    {
+     "co_prova": "1281",
+     "agree": 10,
+     "compared": 40,
+     "ratio": 0.25
+    },
+    {
+     "co_prova": "1241",
+     "agree": 10,
+     "compared": 40,
+     "ratio": 0.25
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "day": 1,
+   "area": "CH",
+   "chosen_co_prova": "1191",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "1191",
+     "agree": 45,
+     "compared": 45,
+     "ratio": 1.0
+    },
+    {
+     "co_prova": "1271",
+     "agree": 5,
+     "compared": 45,
+     "ratio": 0.111
+    },
+    {
+     "co_prova": "1231",
+     "agree": 5,
+     "compared": 45,
+     "ratio": 0.111
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "day": 2,
+   "area": "CN",
+   "chosen_co_prova": "1221",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "1221",
+     "agree": 45,
+     "compared": 45,
+     "ratio": 1.0
+    },
+    {
+     "co_prova": "1301",
+     "agree": 8,
+     "compared": 45,
+     "ratio": 0.178
+    },
+    {
+     "co_prova": "1261",
+     "agree": 8,
+     "compared": 45,
+     "ratio": 0.178
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "day": 2,
+   "area": "MT",
+   "chosen_co_prova": "1211",
+   "resolved": true,
+   "candidates": [
+    {
+     "co_prova": "1211",
+     "agree": 44,
+     "compared": 45,
+     "ratio": 0.978
+    },
+    {
+     "co_prova": "1291",
+     "agree": 8,
+     "compared": 45,
+     "ratio": 0.178
+    },
+    {
+     "co_prova": "1251",
+     "agree": 8,
+     "compared": 45,
+     "ratio": 0.178
+    }
+   ]
+  }
+ ],
+ "published_with_wrong_co_item": 39,
+ "published_with_correct_co_item": 53,
+ "items": {
+  "2018_AZUL_D1_Q06": {
+   "co_item": 111829,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q07": {
+   "co_item": 111931,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q08": {
+   "co_item": 97995,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q09": {
+   "co_item": 112051,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q10": {
+   "co_item": 97968,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q11": {
+   "co_item": 112018,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q12": {
+   "co_item": 78076,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q13": {
+   "co_item": 9065,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q14": {
+   "co_item": 111896,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q15": {
+   "co_item": 24528,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q16": {
+   "co_item": 96758,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q17": {
+   "co_item": 83517,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q18": {
+   "co_item": 89331,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q19": {
+   "co_item": 89487,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q20": {
+   "co_item": 112076,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q21": {
+   "co_item": 112092,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q22": {
+   "co_item": 111948,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q23": {
+   "co_item": 24007,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q24": {
+   "co_item": 111970,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q25": {
+   "co_item": 23230,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q26": {
+   "co_item": 25943,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q27": {
+   "co_item": 68242,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q28": {
+   "co_item": 112143,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q29": {
+   "co_item": 23744,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q30": {
+   "co_item": 6818,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q31": {
+   "co_item": 112066,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q32": {
+   "co_item": 23615,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q33": {
+   "co_item": 76800,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q34": {
+   "co_item": 112150,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q35": {
+   "co_item": 112101,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q36": {
+   "co_item": 82889,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q37": {
+   "co_item": 112113,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q38": {
+   "co_item": 64063,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q39": {
+   "co_item": 112054,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q40": {
+   "co_item": 97416,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q41": {
+   "co_item": 112041,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q42": {
+   "co_item": 89028,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q43": {
+   "co_item": 8562,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q44": {
+   "co_item": 111884,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q45": {
+   "co_item": 112053,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 455,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q46": {
+   "co_item": 84321,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q47": {
+   "co_item": 111920,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 451,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q48": {
+   "co_item": 112045,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q49": {
+   "co_item": 97982,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q50": {
+   "co_item": 111805,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q51": {
+   "co_item": 96595,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q52": {
+   "co_item": 86760,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q53": {
+   "co_item": 111972,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q54": {
+   "co_item": 44378,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q55": {
+   "co_item": 83733,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q56": {
+   "co_item": 96813,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q57": {
+   "co_item": 97862,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q58": {
+   "co_item": 97652,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q59": {
+   "co_item": 111823,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q60": {
+   "co_item": 97747,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q61": {
+   "co_item": 95752,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q62": {
+   "co_item": 111988,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q63": {
+   "co_item": 89461,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q64": {
+   "co_item": 88500,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q65": {
+   "co_item": 112081,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 451,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q66": {
+   "co_item": 97786,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q67": {
+   "co_item": 88057,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q68": {
+   "co_item": 87101,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q69": {
+   "co_item": 98027,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q70": {
+   "co_item": 85205,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q71": {
+   "co_item": 111841,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q72": {
+   "co_item": 111943,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q73": {
+   "co_item": 96354,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q74": {
+   "co_item": 112110,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q75": {
+   "co_item": 112014,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q76": {
+   "co_item": 86195,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q77": {
+   "co_item": 88107,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q78": {
+   "co_item": 97888,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q79": {
+   "co_item": 84853,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q80": {
+   "co_item": 95528,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q81": {
+   "co_item": 111802,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D1_Q82": {
+   "co_item": 111978,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q83": {
+   "co_item": 87110,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q84": {
+   "co_item": 89639,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q85": {
+   "co_item": 26427,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 451,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q86": {
+   "co_item": 112013,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 451,
+   "official_key": "A"
+  },
+  "2018_AZUL_D1_Q87": {
+   "co_item": 111873,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 451,
+   "official_key": "B"
+  },
+  "2018_AZUL_D1_Q88": {
+   "co_item": 88520,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 451,
+   "official_key": "C"
+  },
+  "2018_AZUL_D1_Q89": {
+   "co_item": 112122,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 451,
+   "official_key": "D"
+  },
+  "2018_AZUL_D1_Q90": {
+   "co_item": 89113,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 451,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q100": {
+   "co_item": 66646,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q101": {
+   "co_item": 12591,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q102": {
+   "co_item": 67958,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q103": {
+   "co_item": 82306,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q104": {
+   "co_item": 60359,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q105": {
+   "co_item": 111394,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q106": {
+   "co_item": 62499,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q107": {
+   "co_item": 88496,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q108": {
+   "co_item": 43554,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q109": {
+   "co_item": 76029,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q110": {
+   "co_item": 111533,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q111": {
+   "co_item": 87724,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q112": {
+   "co_item": 89518,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q113": {
+   "co_item": 111653,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q114": {
+   "co_item": 59858,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q115": {
+   "co_item": 86222,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q116": {
+   "co_item": 76034,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q117": {
+   "co_item": 82909,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q118": {
+   "co_item": 12199,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q119": {
+   "co_item": 111720,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q120": {
+   "co_item": 111395,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q121": {
+   "co_item": 111414,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q122": {
+   "co_item": 111761,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q123": {
+   "co_item": 111637,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q124": {
+   "co_item": 111612,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q125": {
+   "co_item": 111463,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q126": {
+   "co_item": 111411,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q127": {
+   "co_item": 97446,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q128": {
+   "co_item": 111564,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q129": {
+   "co_item": 27417,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q130": {
+   "co_item": 40203,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q131": {
+   "co_item": 17449,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q132": {
+   "co_item": 46621,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q133": {
+   "co_item": 85700,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q134": {
+   "co_item": 83440,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q135": {
+   "co_item": 62289,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q136": {
+   "co_item": 82123,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q137": {
+   "co_item": 111477,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q138": {
+   "co_item": 32189,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 459,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q139": {
+   "co_item": 111725,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q140": {
+   "co_item": 86988,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q141": {
+   "co_item": 30331,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q142": {
+   "co_item": 66805,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 459,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q143": {
+   "co_item": 15292,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q144": {
+   "co_item": 111468,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q145": {
+   "co_item": 32905,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q146": {
+   "co_item": 111524,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q147": {
+   "co_item": 97059,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q148": {
+   "co_item": 48921,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q149": {
+   "co_item": 111535,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q150": {
+   "co_item": 111718,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 459,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q151": {
+   "co_item": 111554,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q152": {
+   "co_item": 96201,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q153": {
+   "co_item": 15884,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q154": {
+   "co_item": 111434,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q155": {
+   "co_item": 111594,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 459,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q156": {
+   "co_item": 28815,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q157": {
+   "co_item": 29500,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q158": {
+   "co_item": 82367,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q159": {
+   "co_item": 111609,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q160": {
+   "co_item": 111487,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q161": {
+   "co_item": 86027,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q162": {
+   "co_item": 62736,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 459,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q163": {
+   "co_item": 30294,
+   "co_habilidade": 4,
+   "in_item_aban": 1,
+   "area": "MT",
+   "tx_gabarito": "X",
+   "co_prova": 459,
+   "official_key": "Anulado"
+  },
+  "2018_AZUL_D2_Q164": {
+   "co_item": 29938,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q165": {
+   "co_item": 83742,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q166": {
+   "co_item": 12922,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q167": {
+   "co_item": 53559,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q168": {
+   "co_item": 111512,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q169": {
+   "co_item": 111557,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q170": {
+   "co_item": 84768,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q171": {
+   "co_item": 111692,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 459,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q172": {
+   "co_item": 98294,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 459,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q173": {
+   "co_item": 111628,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q174": {
+   "co_item": 111523,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q175": {
+   "co_item": 18456,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q176": {
+   "co_item": 61172,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 459,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q177": {
+   "co_item": 32953,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q178": {
+   "co_item": 5990,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 459,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q179": {
+   "co_item": 98070,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 459,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q180": {
+   "co_item": 85892,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 459,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q91": {
+   "co_item": 111456,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q92": {
+   "co_item": 87205,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q93": {
+   "co_item": 39342,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q94": {
+   "co_item": 111635,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 447,
+   "official_key": "E"
+  },
+  "2018_AZUL_D2_Q95": {
+   "co_item": 111630,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 447,
+   "official_key": "D"
+  },
+  "2018_AZUL_D2_Q96": {
+   "co_item": 61264,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 447,
+   "official_key": "B"
+  },
+  "2018_AZUL_D2_Q97": {
+   "co_item": 11526,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2018_AZUL_D2_Q98": {
+   "co_item": 111506,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 447,
+   "official_key": "A"
+  },
+  "2018_AZUL_D2_Q99": {
+   "co_item": 111408,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 447,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q06": {
+   "co_item": 141233,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1201,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q07": {
+   "co_item": 140884,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q08": {
+   "co_item": 141443,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q09": {
+   "co_item": 88031,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1201,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q10": {
+   "co_item": 111887,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1201,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q11": {
+   "co_item": 118301,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1201,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q12": {
+   "co_item": 141776,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q13": {
+   "co_item": 140949,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q14": {
+   "co_item": 140899,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1201,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q15": {
+   "co_item": 118195,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q16": {
+   "co_item": 140918,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q17": {
+   "co_item": 120115,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1201,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q18": {
+   "co_item": 140905,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q19": {
+   "co_item": 141474,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1201,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q20": {
+   "co_item": 140869,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1201,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q21": {
+   "co_item": 140942,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1201,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q22": {
+   "co_item": 140847,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q23": {
+   "co_item": 140987,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q24": {
+   "co_item": 140857,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1201,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q25": {
+   "co_item": 140880,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q26": {
+   "co_item": 140959,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q27": {
+   "co_item": 141814,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q28": {
+   "co_item": 141448,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q29": {
+   "co_item": 140944,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1201,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q30": {
+   "co_item": 140885,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q31": {
+   "co_item": 140858,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q32": {
+   "co_item": 141229,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q33": {
+   "co_item": 141239,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q34": {
+   "co_item": 120648,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q35": {
+   "co_item": 141243,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q36": {
+   "co_item": 141260,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q37": {
+   "co_item": 141201,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q38": {
+   "co_item": 141214,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q39": {
+   "co_item": 97007,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1201,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q40": {
+   "co_item": 141212,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q41": {
+   "co_item": 141204,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q42": {
+   "co_item": 141802,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1201,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q43": {
+   "co_item": 16384,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q44": {
+   "co_item": 40390,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q45": {
+   "co_item": 140920,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1201,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q46": {
+   "co_item": 140612,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q47": {
+   "co_item": 125687,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q48": {
+   "co_item": 140453,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q49": {
+   "co_item": 140581,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 1191,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q50": {
+   "co_item": 141106,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 1191,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q51": {
+   "co_item": 63635,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q52": {
+   "co_item": 140194,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q53": {
+   "co_item": 141131,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q54": {
+   "co_item": 141136,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q55": {
+   "co_item": 48754,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q56": {
+   "co_item": 141388,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q57": {
+   "co_item": 125719,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 1191,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q58": {
+   "co_item": 140376,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q59": {
+   "co_item": 48747,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q60": {
+   "co_item": 141049,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q61": {
+   "co_item": 140440,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 1191,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q62": {
+   "co_item": 141118,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q63": {
+   "co_item": 141363,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q64": {
+   "co_item": 141113,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q65": {
+   "co_item": 141104,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q66": {
+   "co_item": 140166,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q67": {
+   "co_item": 140499,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q68": {
+   "co_item": 118063,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q69": {
+   "co_item": 140674,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q70": {
+   "co_item": 95744,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q71": {
+   "co_item": 140819,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q72": {
+   "co_item": 141046,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q73": {
+   "co_item": 140657,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q74": {
+   "co_item": 140214,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q75": {
+   "co_item": 141383,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q76": {
+   "co_item": 140534,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q77": {
+   "co_item": 140543,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 1191,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q78": {
+   "co_item": 140430,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q79": {
+   "co_item": 140592,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q80": {
+   "co_item": 28657,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q81": {
+   "co_item": 141350,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q82": {
+   "co_item": 125684,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q83": {
+   "co_item": 140815,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "C",
+   "co_prova": 1191,
+   "official_key": "C"
+  },
+  "2023_AZUL_D1_Q84": {
+   "co_item": 141123,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q85": {
+   "co_item": 140476,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q86": {
+   "co_item": 141022,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "E",
+   "co_prova": 1191,
+   "official_key": "E"
+  },
+  "2023_AZUL_D1_Q87": {
+   "co_item": 140468,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D1_Q88": {
+   "co_item": 141051,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "A",
+   "co_prova": 1191,
+   "official_key": "A"
+  },
+  "2023_AZUL_D1_Q89": {
+   "co_item": 141142,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "D",
+   "co_prova": 1191,
+   "official_key": "D"
+  },
+  "2023_AZUL_D1_Q90": {
+   "co_item": 140571,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "CH",
+   "tx_gabarito": "B",
+   "co_prova": 1191,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q100": {
+   "co_item": 111665,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q101": {
+   "co_item": 117711,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q102": {
+   "co_item": 48641,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q103": {
+   "co_item": 82754,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q104": {
+   "co_item": 60978,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q105": {
+   "co_item": 87721,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q106": {
+   "co_item": 141723,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q107": {
+   "co_item": 12018,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q108": {
+   "co_item": 117823,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q109": {
+   "co_item": 83552,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q110": {
+   "co_item": 78578,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q111": {
+   "co_item": 54162,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q112": {
+   "co_item": 111466,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q113": {
+   "co_item": 82446,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q114": {
+   "co_item": 97149,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q115": {
+   "co_item": 117866,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q116": {
+   "co_item": 60037,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q117": {
+   "co_item": 82333,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q118": {
+   "co_item": 60689,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q119": {
+   "co_item": 88557,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q120": {
+   "co_item": 47231,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q121": {
+   "co_item": 47317,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q122": {
+   "co_item": 97767,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q123": {
+   "co_item": 54804,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q124": {
+   "co_item": 66259,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q125": {
+   "co_item": 64023,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q126": {
+   "co_item": 87989,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q127": {
+   "co_item": 97813,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q128": {
+   "co_item": 40724,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 1221,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q129": {
+   "co_item": 60332,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q130": {
+   "co_item": 126604,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q131": {
+   "co_item": 117631,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q132": {
+   "co_item": 83558,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q133": {
+   "co_item": 43890,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q134": {
+   "co_item": 85436,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q135": {
+   "co_item": 26042,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q136": {
+   "co_item": 48324,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q137": {
+   "co_item": 31650,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q138": {
+   "co_item": 141582,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q139": {
+   "co_item": 141567,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q140": {
+   "co_item": 98278,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q141": {
+   "co_item": 14994,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q142": {
+   "co_item": 117634,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q143": {
+   "co_item": 111446,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q144": {
+   "co_item": 39385,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q145": {
+   "co_item": 125929,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q146": {
+   "co_item": 14410,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q147": {
+   "co_item": 16795,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q148": {
+   "co_item": 141566,
+   "co_habilidade": 9,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q149": {
+   "co_item": 125884,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q150": {
+   "co_item": 117706,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q151": {
+   "co_item": 141570,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q152": {
+   "co_item": 86783,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q153": {
+   "co_item": 125935,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q154": {
+   "co_item": 126028,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q155": {
+   "co_item": 13725,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q156": {
+   "co_item": 141513,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q157": {
+   "co_item": 32176,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q158": {
+   "co_item": 117633,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q159": {
+   "co_item": 125977,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q160": {
+   "co_item": 141540,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q161": {
+   "co_item": 86360,
+   "co_habilidade": 17,
+   "in_item_aban": 1,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q162": {
+   "co_item": 27119,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q163": {
+   "co_item": 125902,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q164": {
+   "co_item": 14887,
+   "co_habilidade": 26,
+   "in_item_aban": 1,
+   "area": "MT",
+   "tx_gabarito": "X",
+   "co_prova": 1211,
+   "official_key": "Anulado"
+  },
+  "2023_AZUL_D2_Q165": {
+   "co_item": 28932,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q166": {
+   "co_item": 81946,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q167": {
+   "co_item": 27330,
+   "co_habilidade": 18,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q168": {
+   "co_item": 24523,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q169": {
+   "co_item": 81743,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q170": {
+   "co_item": 37441,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 1211,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q171": {
+   "co_item": 84857,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q172": {
+   "co_item": 125888,
+   "co_habilidade": 13,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q173": {
+   "co_item": 125933,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q174": {
+   "co_item": 126039,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q175": {
+   "co_item": 85504,
+   "co_habilidade": 21,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q176": {
+   "co_item": 81742,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 1211,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q177": {
+   "co_item": 14389,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 1211,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q178": {
+   "co_item": 111754,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 1211,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q179": {
+   "co_item": 14366,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q180": {
+   "co_item": 125969,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 1211,
+   "official_key": "C"
+  },
+  "2023_AZUL_D2_Q91": {
+   "co_item": 84422,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q92": {
+   "co_item": 83378,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q93": {
+   "co_item": 117887,
+   "co_habilidade": 12,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 1221,
+   "official_key": "E"
+  },
+  "2023_AZUL_D2_Q94": {
+   "co_item": 66330,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q95": {
+   "co_item": 48492,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q96": {
+   "co_item": 63155,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  },
+  "2023_AZUL_D2_Q97": {
+   "co_item": 84041,
+   "co_habilidade": 3,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 1221,
+   "official_key": "A"
+  },
+  "2023_AZUL_D2_Q98": {
+   "co_item": 86347,
+   "co_habilidade": 28,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 1221,
+   "official_key": "B"
+  },
+  "2023_AZUL_D2_Q99": {
+   "co_item": 89769,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 1221,
+   "official_key": "D"
+  }
+ }
+}
