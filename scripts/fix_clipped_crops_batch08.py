@@ -154,6 +154,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--triage", required=True)
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--pdf", action="append", default=[], metavar="ANO:DIA:APLICACAO=ARQUIVO",
+                    help="PDF de outra aplicação (ex.: 2020:2:digital=prova.pdf); o SHA-256 é conferido com o relatório")
     ap.add_argument("--changes", default=str(ROOT / "data/audit/image-corrections.json"))
     args = ap.parse_args()
 
@@ -162,6 +164,13 @@ def main():
     assets = {}
     walk_assets(report["results"], assets)
     pdfs = load_pdfs()
+    app_of = {r["id"]: (r["year"], r["day"], r.get("application")) for r in report["results"]}
+    sources = {r["id"]: r.get("source", {}) for r in report["results"]}
+    overrides = {}
+    for spec in args.pdf:
+        key, _, file = spec.partition("=")
+        y, d, a = key.split(":")
+        overrides[(int(y), int(d), a)] = file
     changes, skipped = [], []
     for ref, v in sorted(triage.items()):
         flags = [f for f in v["flags"] if f in ("CLIP_TOP", "CLIP_BOTTOM")]
@@ -169,7 +178,15 @@ def main():
             continue
         qid, asset = v["questions"][0], assets[ref]
         m = re.match(r"(\d{4})_AZUL_(D\d)", qid)
-        doc = pymupdf.open(pdfs[(int(m[1]), m[2])])
+        year, day, app = app_of[qid]
+        if app and app != "regular":
+            file = overrides.get((year, day, app))
+            if not file or sha(Path(file).read_bytes()) != sources[qid].get("source_sha256"):
+                skipped.append((qid, ref, f"aplicação {app}: informe --pdf com o PDF oficial (SHA-256 conferido)"))
+                continue
+            doc = pymupdf.open(file)
+        else:
+            doc = pymupdf.open(pdfs[(int(m[1]), m[2])])
         path = ROOT / "data/extracted" / ref[len("/images/"):]
         old = Image.open(path).convert("RGB")
         try:
