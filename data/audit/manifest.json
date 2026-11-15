@@ -2584,7 +2584,7 @@
       "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
       "record_sha256": "b6944b87379b3ae9f74a5222650f39049ef28f5ebc817b4cb4469c4bbd28ce6f",
-      "asset_sha256": "71a5583f8dfcd67d97e5fb3aa8efbc556bcde1751f6f20466078a0d6e97ac2d0",
+      "asset_sha256": "0997dbc0ebaa8f0987f7668a158ea57bd321f01228408996feddafe843cb4250",
       "audit": {
         "text": true,
         "options": true,
@@ -2684,7 +2684,7 @@
       "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
       "record_sha256": "175d73d375c224b035a6741770b4e7e1a247b5dfa45dc34b6275125dce7a07ff",
-      "asset_sha256": "a1e695ccb8a3c1391ce29b76e6ba3183f92f24afb042aca21c6ff19e40e89fba",
+      "asset_sha256": "d9555caf7085688093a25e3ccaf82fc9a2a76778031ff566910caa0c8ca4886f",
       "audit": {
         "text": true,
         "options": true,
@@ -2834,7 +2834,7 @@
       "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
       "record_sha256": "6286e76d821b5363c12ec150adfb561e8ea3b2318b0b6dd048b9e370b2237a9e",
-      "asset_sha256": "116ccdd848b0aeed0a6afa1450bcff95af8e5609c657812e13985d453caff133",
+      "asset_sha256": "86273908af982063ed0e4b1f26aaaedb861ecf0b2b30f06c2c6c402a832316bb",
       "audit": {
         "text": true,
         "options": true,
@@ -4833,7 +4833,7 @@
       "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
       "record_sha256": "24f34d7a90c15683b7b5bbaac849434f4c1e004668b3ab4dc47ca8d57c5562d7",
-      "asset_sha256": "de61fc11f822b35ee7abd9b69ed4681e0a9868edaf799769fa7ec11b5855840b",
+      "asset_sha256": "d15243761cb70303cfbe0e8f0ca9c2de83e796092c98a146259ee3ed7df81dab",
       "audit": {
         "text": true,
         "options": true,
@@ -4886,7 +4886,7 @@
       "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
       "record_sha256": "a747ed7ff3daccca83b58d71375b9187da17c888a2208d93a5c944331e9eeba2",
-      "asset_sha256": "cfe378e38c58afba815673e7c42e5f3438e30dd4fe2ecbd9e84821989ae50854",
+      "asset_sha256": "4b0fd29581f34d35582784fc5ff9a96a04363b062ced9f6ca76b5ae9045c5a29",
       "audit": {
         "text": true,
         "options": true,
@@ -6018,7 +6018,7 @@
       "answer_source_sha256": "9e2d470af35378df532173414ec7077c3ce4df38c084a5f1258579fdf9270aef",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD7.pdf",
       "record_sha256": "b4d97295f850039b63c149d9a3589662c2eba7178cc8529b3ca4bbfd05202399",
-      "asset_sha256": "70cea7a452b7cde28b7d2961595c1458a6c5b82f0209a055c24c607cbf061226",
+      "asset_sha256": "f70610c41f777c6e7ebb719d62a017d304a5ed9525aa5ecdaaff992033729c52",
       "audit": {
         "text": true,
         "options": true,
@@ -8361,7 +8361,7 @@
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
       "record_sha256": "9372fac6269677e026606e0da9089b7a904a3817ec7add5b896e2747a881afa8",
-      "asset_sha256": "ec2faaf453f031bc96d12bc6c98234bcf4b9e2fb059dd9984e7d3cf2d6edbcad",
+      "asset_sha256": "80b75782207f396289f9029e5c550a52639451209d0b4ffc4c50a77ce3c6e347",
       "audit": {
         "text": true,
         "options": true,
@@ -8734,7 +8734,7 @@
       "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
       "record_sha256": "05b170cec54db1d25ad1b1962b981f9983928829de77fce5e890e7de52a7628d",
-      "asset_sha256": "b7ebcf42d28dd7a947a65db235f8f5ee41c6bba55ce7db36f6fb691253d60264",
+      "asset_sha256": "e1df1df9143d945760106b4992a3d5d4c42274d74a1efd21fd25fea1e4d79726",
       "audit": {
         "text": true,
         "options": true,
@@ -8903,7 +8903,7 @@
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
       "record_sha256": "8de2f718ffae63276c2eb93fc655863db1728887018fbc988c47d42c5a43f9c5",
-      "asset_sha256": "9bb5ac399008c280ddcf5fa4f5c8534a916573b60dbcd568c1684b03e9d0dc6e",
+      "asset_sha256": "1bb27492edb32f1bf109aceadfeba17ab87065542b2b4a4cacc208d297a1ab10",
       "audit": {
         "text": true,
         "options": true,
@@ -9221,7 +9221,7 @@
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
       "record_sha256": "073159a0cc970bb05383c74e3a4d482b13c5a8f2fae6a6a7db329208cb369376",
-      "asset_sha256": "1e08026cef0195d47348b91b6da819881aaf048625a0524b3f460479481b5220",
+      "asset_sha256": "b0dc499e4037c496962657971767b18143e5e796ce60e68c0e7e62a1547ac7a0",
       "audit": {
         "text": true,
         "options": true,
@@ -9912,7 +9912,7 @@
       "answer_source_sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
       "record_sha256": "74c834522991ad0decda09079d1349dc5433353ded8459d06ef82a5544464232",
-      "asset_sha256": "4bad1b34b1ed5a28e8ff5549f35c608112d40630dce60cf5aed85125b826c807",
+      "asset_sha256": "f3c78c481a0bd1a92ceed3087853bad709e55424da1c04701d9a3658942a7c90",
       "audit": {
         "text": true,
         "options": true,
@@ -9965,7 +9965,7 @@
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
       "record_sha256": "62f8bf76a68b1270b6ba4b5cb625a91cf7493b545510584d66e26d543cad62d2",
-      "asset_sha256": "72a4ef35ceda854ffff5baf88f18e67d99bd7ea06f8da54ef4a51ae5de6f1375",
+      "asset_sha256": "4d4145ffab5d38066b22e57bb708ecfb8bf6a2148c341a8e268ae3ea8991a6ab",
       "audit": {
         "text": true,
         "options": true,
@@ -10464,7 +10464,7 @@
       "answer_source_sha256": "36ead3cbb0dc3032d2ebe89bdbb66de54777e311f8e8ffa57eec42756fa38e78",
       "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_2_AZUL.pdf",
       "record_sha256": "5df8e0315cb2bd1a2b4c1848033b7d3277d3c3920270c1e5659a19c16a1284a7",
-      "asset_sha256": "838ca161dc81412e8a5e00b2419b9c9f18b7b870712eec89ef799e9b0a852b8d",
+      "asset_sha256": "d975ab4f7a799721960a77b15bb351f104b010538d9e8c692aba81f8d207e596",
       "audit": {
         "text": true,
         "options": true,
@@ -10941,7 +10941,7 @@
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
       "record_sha256": "bd4064e88172b70667fac42fc3e989f921a142e06716a5c9c97c0c1c879aa02d",
-      "asset_sha256": "51d413334f914c4158c2576949f78f38734f3bad852817dceda08db0e3f3ae6a",
+      "asset_sha256": "1954dcb3e9b0e596fb50780b13ea66b3a11d3a34af07d82f9d2d21c64c985da4",
       "audit": {
         "text": true,
         "options": true,
@@ -16314,7 +16314,7 @@
         "/images/verified/batch08-2018-azul-d2-q108-option-c.png": "a4a3f6d96fd1869547ba2d53c952bcbb847e394dd92488e9812659d585143c39",
         "/images/verified/batch08-2018-azul-d2-q108-option-d.png": "c04931a5638d3ab06762c86ec60611ef90f4be2829f3f9b8a1e7ee57a80e234a",
         "/images/verified/batch08-2018-azul-d2-q108-option-e.png": "83b870f6eec47554304ab60d41729dfcd06b2df95c71e5498150e1fe00db0432",
-        "/images/verified/batch08-2018-azul-d2-q108-support.png": "a9c24ba0a469b678e82aaba4b1b3133b0d2e606e70253a0ba5465a2c02123253"
+        "/images/verified/batch08-2018-azul-d2-q108-support.png": "4a80d309a71523a03448fcbe3cb5d4960de8fc7d56e8964711dfe1a74a3e8ea1"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -16583,7 +16583,7 @@
       "asset_sha256": "3a237a4f2c88ae89b60f18841161f73f168c5e33acb25aec724e12051ee1e051",
       "display_assets_sha256": {
         "/images/verified/batch08-2018-azul-d2-q144-source.png": "3a237a4f2c88ae89b60f18841161f73f168c5e33acb25aec724e12051ee1e051",
-        "/images/verified/batch08-2018-azul-d2-q144-support.png": "9bb48da3220a3972b706563351c85815b819745a21c7735f7dd114172fdabfbd"
+        "/images/verified/batch08-2018-azul-d2-q144-support.png": "070697c29562bc6b7eba67048b173b108554a0acc48b292df8c1e6ae28b38f86"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -16627,7 +16627,7 @@
       "asset_sha256": "498da99215159b4e2916d43651b0d4fd4642971e59f73272756df816c4be4aa9",
       "display_assets_sha256": {
         "/images/verified/batch08-2018-azul-d2-q176-source.png": "498da99215159b4e2916d43651b0d4fd4642971e59f73272756df816c4be4aa9",
-        "/images/verified/batch08-2018-azul-d2-q176-support.png": "eec35f63f4959fed89d46ed812f6d046ee208818cd6485ec8c842d02e2126395"
+        "/images/verified/batch08-2018-azul-d2-q176-support.png": "1b54be29fc69c93c42863563f5050e498af221c9d7a65824b6797b084a48d05c"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -17191,9 +17191,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "6062bdaeea8997dac700f58c7c106dda6e8bfe55ab4ba83e80999f2a9a2dade4",
+      "asset_sha256": "6e3cb34ac50013cebbeab121173b9e4c3adbb37a9352204357cc440e00154a6d",
       "display_assets_sha256": {
-        "/images/verified/batch08-2020-azul-d1-q004-source.png": "6062bdaeea8997dac700f58c7c106dda6e8bfe55ab4ba83e80999f2a9a2dade4"
+        "/images/verified/batch08-2020-azul-d1-q004-source.png": "6e3cb34ac50013cebbeab121173b9e4c3adbb37a9352204357cc440e00154a6d"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -19669,7 +19669,7 @@
       "asset_sha256": "5f8cd9f59c4abb5c69f38890c91e4bb1d0df20c4889ad1d9ca1b1dc993279a73",
       "display_assets_sha256": {
         "/images/verified/batch08-2022-azul-d1-q007-source.png": "5f8cd9f59c4abb5c69f38890c91e4bb1d0df20c4889ad1d9ca1b1dc993279a73",
-        "/images/verified/batch08-2022-azul-d1-q007-support.png": "96a50bb1aea600a8baec0cf9d6814ef6a73d5437b5dd0a341604d0df7cbd67e2"
+        "/images/verified/batch08-2022-azul-d1-q007-support.png": "8882b3d8ef4fa429f94d0d8018cc97f1200989ffd10c40751991191a0e3a806c"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -19986,9 +19986,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "f9b2033b5986b8482df2a320403ac689161831a8de778d78d712915cdb556cf1",
+      "asset_sha256": "a5ac70ee516cb6d9cf09e2815e9a028bf4a237ce384422e98c5cbd3728430bfd",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d1-q003-source.png": "f9b2033b5986b8482df2a320403ac689161831a8de778d78d712915cdb556cf1"
+        "/images/verified/batch08-2023-azul-d1-q003-source.png": "a5ac70ee516cb6d9cf09e2815e9a028bf4a237ce384422e98c5cbd3728430bfd"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20029,9 +20029,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "d1b07d064f1325cbde08eae2d87c298afc25cb7fb9e5d7569dfbe89ff9120ae0",
+      "asset_sha256": "2a8c527ebbdd42d271f090674a173ef9f5b9739d89c1f4a9927fda002d2159f8",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d1-q004-source.png": "d1b07d064f1325cbde08eae2d87c298afc25cb7fb9e5d7569dfbe89ff9120ae0"
+        "/images/verified/batch08-2023-azul-d1-q004-source.png": "2a8c527ebbdd42d271f090674a173ef9f5b9739d89c1f4a9927fda002d2159f8"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20116,9 +20116,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+      "asset_sha256": "5f8b547fcf68643b4bb1c56e64c480e0d590a34932538f9bfe2bd7323798a40e",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q110-source.png": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+        "/images/verified/batch08-2023-azul-d2-q110-source.png": "5f8b547fcf68643b4bb1c56e64c480e0d590a34932538f9bfe2bd7323798a40e",
         "/images/verified/batch08-2023-azul-d2-q110-option-a.png": "9b15cc725efa0498c153244b9d2035424c12466127858c5359c8184c96d96682",
         "/images/verified/batch08-2023-azul-d2-q110-option-b.png": "f9e5a99fc5d0fd9875ddd63bd1bdb8d54a89c6e7dc6e2855ab1c6fc891daddd2",
         "/images/verified/batch08-2023-azul-d2-q110-option-c.png": "3072f8a06b33102e848a861fab857dedbdf7dea7e93b6530eca893d902f413d8",
@@ -20253,10 +20253,10 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
+      "asset_sha256": "ad178c441ddd588507c84a175de2bf242d9dbd8d90e2523a70bcfc788af5adc0",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q127-source.png": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
-        "/images/verified/batch08-2023-azul-d2-q127-support.png": "0ed3db3818041f81d226dae2fe63805019322e594a9576bc228c385e0b1fa06d"
+        "/images/verified/batch08-2023-azul-d2-q127-source.png": "ad178c441ddd588507c84a175de2bf242d9dbd8d90e2523a70bcfc788af5adc0",
+        "/images/verified/batch08-2023-azul-d2-q127-support.png": "394022826c03c5f886de99f1dc2a84463cdcfb1019c2ce820e073dbc84c47037"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20297,9 +20297,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+      "asset_sha256": "024067a914e3bed3e8afe65912a12fdb571060c9ad4328a9522c3ace1a053fdb",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q140-source.png": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+        "/images/verified/batch08-2023-azul-d2-q140-source.png": "024067a914e3bed3e8afe65912a12fdb571060c9ad4328a9522c3ace1a053fdb",
         "/images/verified/batch08-2023-azul-d2-q140-support.png": "f7dd27b601ad0f5831879c5ad7b141c8c705d0af8e40cbb4b9c9cc7e00952ca5"
       },
       "reviewed_at": "2026-10-27",
@@ -20385,10 +20385,10 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "6a3a17edef188c75525e33b00854299266bc34e7cf09bec1b6bb8b8548771608",
+      "asset_sha256": "e36d216acec15bc01647f7c53f7eedecac79fc3e7f8ff180eab7ba9b38473c31",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q156-source.png": "6a3a17edef188c75525e33b00854299266bc34e7cf09bec1b6bb8b8548771608",
-        "/images/verified/batch08-2023-azul-d2-q156-support.png": "53a221e7dae852fee58c9fc26ee31dc1e7ef92ff8df7e33f61e39943f3fce6a5"
+        "/images/verified/batch08-2023-azul-d2-q156-source.png": "e36d216acec15bc01647f7c53f7eedecac79fc3e7f8ff180eab7ba9b38473c31",
+        "/images/verified/batch08-2023-azul-d2-q156-support.png": "71be9724d7e6ec9c48a452fbad583264abb801b3c73e294c41127800640c5eca"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20516,9 +20516,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "111ca722dbe44cca3a02b0de2e2d6c317e32a03e8857d897791325b7bbb993fd",
+      "asset_sha256": "433f74c11d237a8a8ea0d0bc0cc1186600c8b8e6ff05e112a1ec6d331d509a91",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q165-source.png": "111ca722dbe44cca3a02b0de2e2d6c317e32a03e8857d897791325b7bbb993fd",
+        "/images/verified/batch08-2023-azul-d2-q165-source.png": "433f74c11d237a8a8ea0d0bc0cc1186600c8b8e6ff05e112a1ec6d331d509a91",
         "/images/verified/batch08-2023-azul-d2-q165-support.png": "9d4712cf27e7e30ce428e31c17602740847b1ca2502fb4f7d570187df4864f11"
       },
       "reviewed_at": "2026-10-27",
@@ -20563,7 +20563,7 @@
       "asset_sha256": "2f64046fee7f26de136c5a340c85ea2bf02315ef7a28eff8183f236f20e67dc6",
       "display_assets_sha256": {
         "/images/verified/batch08-2023-azul-d2-q166-source.png": "2f64046fee7f26de136c5a340c85ea2bf02315ef7a28eff8183f236f20e67dc6",
-        "/images/verified/batch08-2023-azul-d2-q166-support.png": "96466362300c2c66b1f7279cc7b61b53a2efc0f0c20d6cc56f6adcf6472754a1"
+        "/images/verified/batch08-2023-azul-d2-q166-support.png": "a3d8c9b38e499cae323ba5d00ad5cb3533bb07ce2876024b89dd5218c4774905"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20651,7 +20651,7 @@
       "asset_sha256": "ad8f4047d5bfdd8f2175cdb0313536b8b52f68c73187e5accc537c2d0047b5fe",
       "display_assets_sha256": {
         "/images/verified/batch08-2023-azul-d2-q176-source.png": "ad8f4047d5bfdd8f2175cdb0313536b8b52f68c73187e5accc537c2d0047b5fe",
-        "/images/verified/batch08-2023-azul-d2-q176-support.png": "f1f380a47372f519e6c0078527fe88ea094cbc7a4d03d4e01efd517cd72a36c2"
+        "/images/verified/batch08-2023-azul-d2-q176-support.png": "e8c4a545d475412d32dbe072a212e2d27edf22aa93f5ea91307c95acb16155d2"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20692,9 +20692,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "ac6b372d6a8b222c64263f2bc25d82ca4a93e84a4affe862b55be33ad7166775",
+      "asset_sha256": "794cea52c44de6891c0821da8645e802125f5beee51898df8a90c45b9ec17950",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q177-source.png": "ac6b372d6a8b222c64263f2bc25d82ca4a93e84a4affe862b55be33ad7166775",
+        "/images/verified/batch08-2023-azul-d2-q177-source.png": "794cea52c44de6891c0821da8645e802125f5beee51898df8a90c45b9ec17950",
         "/images/verified/batch08-2023-azul-d2-q177-option-a.png": "bb533c583b339d1e47d3664176a4791bf9f1bb9d358ff35f93add7b8f9bb583d",
         "/images/verified/batch08-2023-azul-d2-q177-option-b.png": "848919048edf17555f2dd6b5884b4bab3984fc699f1ca1d0a1fa8679ae67a012",
         "/images/verified/batch08-2023-azul-d2-q177-option-c.png": "08d790e830541c8545937ab6df10e15081acacace8bffc3816a512defbf628b3",

@@ -950,7 +950,7 @@
         "format": "PNG",
         "composition": "vertical in source reading order"
       },
-      "asset_sha256": "4bad1b34b1ed5a28e8ff5549f35c608112d40630dce60cf5aed85125b826c807",
+      "asset_sha256": "f3c78c481a0bd1a92ceed3087853bad709e55424da1c04701d9a3658942a7c90",
       "accessible_support": false,
       "before_content": {
         "enunciado": "A proposta escolhida foi a",
@@ -1039,7 +1039,7 @@
         "format": "PNG",
         "composition": "vertical in source reading order"
       },
-      "asset_sha256": "72a4ef35ceda854ffff5baf88f18e67d99bd7ea06f8da54ef4a51ae5de6f1375",
+      "asset_sha256": "4d4145ffab5d38066b22e57bb708ecfb8bf6a2148c341a8e268ae3ea8991a6ab",
       "accessible_support": true,
       "before_content": {
         "enunciado": "Quantos anos de fundação essa cidade comemorará em 2050?",
@@ -1994,7 +1994,7 @@
         "format": "PNG",
         "composition": "vertical in source reading order"
       },
-      "asset_sha256": "838ca161dc81412e8a5e00b2419b9c9f18b7b870712eec89ef799e9b0a852b8d",
+      "asset_sha256": "d975ab4f7a799721960a77b15bb351f104b010538d9e8c692aba81f8d207e596",
       "accessible_support": true,
       "before_content": {
         "enunciado": "Com o objetivo de obter a maior probabilidade possível de ganhar o prêmio, a pessoa deve escolher a opção",
@@ -2844,7 +2844,7 @@
         "format": "PNG",
         "composition": "vertical in source reading order"
       },
-      "asset_sha256": "51d413334f914c4158c2576949f78f38734f3bad852817dceda08db0e3f3ae6a",
+      "asset_sha256": "1954dcb3e9b0e596fb50780b13ea66b3a11d3a34af07d82f9d2d21c64c985da4",
       "accessible_support": true,
       "before_content": {
         "enunciado": "Segundo as informações do texto e aplicando princípios de evolução biológica às relações do tipo patógeno-hospedeiro, qual dos dois vírus infecta seres humanos há mais tempo?",
