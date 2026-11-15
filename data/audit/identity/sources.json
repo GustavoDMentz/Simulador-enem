@@ -36,6 +36,21 @@
       "csv_sha256": "6d8e293d1bd59f495feff9deee4aaa9b64fe82fd38a0169e4a06e81e1ade31de",
       "csv_bytes": 330676,
       "retrieved": "2026-11-15"
+    },
+    "2025": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2025.zip",
+      "entry": "microdados_enem_2025/DADOS/ITENS_PROVA_2025.csv",
+      "csv_sha256": "16688912785563f418773a5c99e562f4b43a95cac79357622f05b3d47c7a35d0",
+      "csv_bytes": 365768,
+      "retrieved": "2026-11-15"
+    }
+  },
+  "answer_keys": {
+    "2024_D1": {
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D1_CD1.pdf",
+      "sha256": "673d3d060156d6ad610ecf96c3dd0b8c61f361e16c57860c4ca5b5fecc8be050",
+      "retrieved": "2026-11-15",
+      "note": "já citado em docs/enem-audit-batch-06.md; usado só para resolver identidade"
     }
   }
 }
