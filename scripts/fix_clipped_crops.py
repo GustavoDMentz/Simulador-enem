@@ -82,7 +82,13 @@ def find_box(cands, qid, w, h):
     return None
 
 
-HEADER = re.compile(r"^\s*QUEST[ÃA]O\s*\d+", re.I)
+HEADER = re.compile(r"^\s*QUEST[ÃA]O\s*\d+|CADERNO\s*\d+\s*•\s*AZUL", re.I)
+PAGE_NO = re.compile(r"^\s*\d{1,3}\s*$")
+
+
+def furniture(text, y0):
+    """Cabeçalho de outra questão, rodapé de caderno ou número de página."""
+    return bool(HEADER.search(text)) or (y0 > 735 and bool(PAGE_NO.match(text)))
 
 
 def extend(page, b, skip_headers=False):
@@ -93,7 +99,7 @@ def extend(page, b, skip_headers=False):
         for ln in blk.get("lines", []):
             lx0, ly0, lx1, ly1 = ln["bbox"]
             ov = min(lx1, x1) - max(lx0, x0)
-            if skip_headers and HEADER.match("".join(sp["text"] for sp in ln["spans"])):
+            if skip_headers and furniture("".join(sp["text"] for sp in ln["spans"]), ly0):
                 continue
             if lx1 > lx0 and ov / (lx1 - lx0) >= 0.5:
                 lines.append((ly0, ly1))

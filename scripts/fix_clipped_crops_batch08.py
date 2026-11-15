@@ -27,7 +27,7 @@ import pymupdf
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fix_clipped_crops import HEADER, ROOT, PAD, extend, load_pdfs  # noqa: E402
+from fix_clipped_crops import ROOT, PAD, extend, furniture, load_pdfs  # noqa: E402
 
 REPORT = ROOT / "data/audit/batch-08-review.json"
 INK = 200
@@ -101,7 +101,7 @@ def has_text(doc, r, y0px, y1px):
             lx0, ly0, lx1, ly1 = ln["bbox"]
             ov = min(lx1, x1) - max(lx0, x0)
             if lx1 > lx0 and ov / (lx1 - lx0) >= 0.5 and ly0 < b and ly1 > a and "".join(sp["text"] for sp in ln["spans"]).strip() \
-                    and not HEADER.match("".join(sp["text"] for sp in ln["spans"])):
+                    and not furniture("".join(sp["text"] for sp in ln["spans"]), ly0):
                 return True
     return False
 

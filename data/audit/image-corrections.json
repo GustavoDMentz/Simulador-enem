@@ -1030,6 +1030,162 @@
    ],
    "sha256_before": "ac6b372d6a8b222c64263f2bc25d82ca4a93e84a4affe862b55be33ad7166775",
    "sha256_after": "794cea52c44de6891c0821da8645e802125f5beee51898df8a90c45b9ec17950"
+  },
+  {
+   "id": "2023_AZUL_D2_Q110",
+   "image": "/images/verified/batch08-2023-azul-d2-q110-source.png",
+   "method": "trim",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 6,
+     "bbox": [
+      18,
+      62.834190368652344,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      4,
+      1312,
+      1698
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 6,
+     "bbox": [
+      18,
+      62.834190368652344,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      4,
+      1312,
+      1633
+     ]
+    }
+   ],
+   "size_before": [
+    1285,
+    1694
+   ],
+   "size_after": [
+    1285,
+    1629
+   ],
+   "sha256_before": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+   "sha256_after": "5f8b547fcf68643b4bb1c56e64c480e0d590a34932538f9bfe2bd7323798a40e"
+  },
+  {
+   "id": "2023_AZUL_D2_Q127",
+   "image": "/images/verified/batch08-2023-azul-d2-q127-source.png",
+   "method": "trim",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 12,
+     "bbox": [
+      18,
+      469.48321533203125,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      4,
+      1300,
+      682
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 12,
+     "bbox": [
+      18,
+      469.48321533203125,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      4,
+      1300,
+      660
+     ]
+    }
+   ],
+   "size_before": [
+    1273,
+    678
+   ],
+   "size_after": [
+    1273,
+    656
+   ],
+   "sha256_before": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
+   "sha256_after": "ad178c441ddd588507c84a175de2bf242d9dbd8d90e2523a70bcfc788af5adc0"
+  },
+  {
+   "id": "2023_AZUL_D2_Q140",
+   "image": "/images/verified/batch08-2023-azul-d2-q140-source.png",
+   "method": "trim",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 17,
+     "bbox": [
+      18,
+      378.3962707519531,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      5,
+      1300,
+      910
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 17,
+     "bbox": [
+      18,
+      378.3962707519531,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      5,
+      1300,
+      888
+     ]
+    }
+   ],
+   "size_before": [
+    1273,
+    905
+   ],
+   "size_after": [
+    1273,
+    883
+   ],
+   "sha256_before": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+   "sha256_after": "024067a914e3bed3e8afe65912a12fdb571060c9ad4328a9522c3ace1a053fdb"
   }
  ]
 }

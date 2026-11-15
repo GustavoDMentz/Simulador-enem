@@ -14918,7 +14918,7 @@
       "presentation_metadata": {
         "mode": "composition",
         "source": "/images/verified/batch08-2023-azul-d2-q110-source.png",
-        "source_sha256": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+        "source_sha256": "5f8b547fcf68643b4bb1c56e64c480e0d590a34932538f9bfe2bd7323798a40e",
         "evidence": "data/audit/batch-08-review.json",
         "options": {
           "A": {
@@ -14955,7 +14955,7 @@
       "assets": {
         "source": {
           "image": "/images/verified/batch08-2023-azul-d2-q110-source.png",
-          "sha256": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+          "sha256": "5f8b547fcf68643b4bb1c56e64c480e0d590a34932538f9bfe2bd7323798a40e",
           "render": [
             {
               "page": 6,
@@ -14970,12 +14970,12 @@
                 27,
                 4,
                 1312,
-                1698
+                1633
               ]
             }
           ],
           "width": 1285,
-          "height": 1694
+          "height": 1629
         },
         "option_A": {
           "image": "/images/verified/batch08-2023-azul-d2-q110-option-a.png",
@@ -15508,7 +15508,7 @@
       "presentation_metadata": {
         "mode": "composition",
         "source": "/images/verified/batch08-2023-azul-d2-q127-source.png",
-        "source_sha256": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
+        "source_sha256": "ad178c441ddd588507c84a175de2bf242d9dbd8d90e2523a70bcfc788af5adc0",
         "evidence": "data/audit/batch-08-review.json",
         "figure": "/images/verified/batch08-2023-azul-d2-q127-support.png",
         "figure_sha256": "394022826c03c5f886de99f1dc2a84463cdcfb1019c2ce820e073dbc84c47037",
@@ -15518,7 +15518,7 @@
       "assets": {
         "source": {
           "image": "/images/verified/batch08-2023-azul-d2-q127-source.png",
-          "sha256": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
+          "sha256": "ad178c441ddd588507c84a175de2bf242d9dbd8d90e2523a70bcfc788af5adc0",
           "render": [
             {
               "page": 12,
@@ -15533,12 +15533,12 @@
                 27,
                 4,
                 1300,
-                682
+                660
               ]
             }
           ],
           "width": 1273,
-          "height": 678
+          "height": 656
         },
         "support": {
           "image": "/images/verified/batch08-2023-azul-d2-q127-support.png",
@@ -15658,7 +15658,7 @@
       "presentation_metadata": {
         "mode": "composition",
         "source": "/images/verified/batch08-2023-azul-d2-q140-source.png",
-        "source_sha256": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+        "source_sha256": "024067a914e3bed3e8afe65912a12fdb571060c9ad4328a9522c3ace1a053fdb",
         "evidence": "data/audit/batch-08-review.json",
         "figure": "/images/verified/batch08-2023-azul-d2-q140-support.png",
         "figure_sha256": "f7dd27b601ad0f5831879c5ad7b141c8c705d0af8e40cbb4b9c9cc7e00952ca5",
@@ -15668,7 +15668,7 @@
       "assets": {
         "source": {
           "image": "/images/verified/batch08-2023-azul-d2-q140-source.png",
-          "sha256": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+          "sha256": "024067a914e3bed3e8afe65912a12fdb571060c9ad4328a9522c3ace1a053fdb",
           "render": [
             {
               "page": 17,
@@ -15683,12 +15683,12 @@
                 27,
                 5,
                 1300,
-                910
+                888
               ]
             }
           ],
           "width": 1273,
-          "height": 905
+          "height": 883
         },
         "support": {
           "image": "/images/verified/batch08-2023-azul-d2-q140-support.png",

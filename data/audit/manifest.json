@@ -20116,9 +20116,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+      "asset_sha256": "5f8b547fcf68643b4bb1c56e64c480e0d590a34932538f9bfe2bd7323798a40e",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q110-source.png": "ca487a51ca30880bcd7c9cba878bca543f68c430875ba2bca9c2a55397258aa6",
+        "/images/verified/batch08-2023-azul-d2-q110-source.png": "5f8b547fcf68643b4bb1c56e64c480e0d590a34932538f9bfe2bd7323798a40e",
         "/images/verified/batch08-2023-azul-d2-q110-option-a.png": "9b15cc725efa0498c153244b9d2035424c12466127858c5359c8184c96d96682",
         "/images/verified/batch08-2023-azul-d2-q110-option-b.png": "f9e5a99fc5d0fd9875ddd63bd1bdb8d54a89c6e7dc6e2855ab1c6fc891daddd2",
         "/images/verified/batch08-2023-azul-d2-q110-option-c.png": "3072f8a06b33102e848a861fab857dedbdf7dea7e93b6530eca893d902f413d8",
@@ -20253,9 +20253,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
+      "asset_sha256": "ad178c441ddd588507c84a175de2bf242d9dbd8d90e2523a70bcfc788af5adc0",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q127-source.png": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
+        "/images/verified/batch08-2023-azul-d2-q127-source.png": "ad178c441ddd588507c84a175de2bf242d9dbd8d90e2523a70bcfc788af5adc0",
         "/images/verified/batch08-2023-azul-d2-q127-support.png": "394022826c03c5f886de99f1dc2a84463cdcfb1019c2ce820e073dbc84c47037"
       },
       "reviewed_at": "2026-10-27",
@@ -20297,9 +20297,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+      "asset_sha256": "024067a914e3bed3e8afe65912a12fdb571060c9ad4328a9522c3ace1a053fdb",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q140-source.png": "06f62eab1b87da53e554501b863c4c404d5957693591bdd444bdd18230b825c3",
+        "/images/verified/batch08-2023-azul-d2-q140-source.png": "024067a914e3bed3e8afe65912a12fdb571060c9ad4328a9522c3ace1a053fdb",
         "/images/verified/batch08-2023-azul-d2-q140-support.png": "f7dd27b601ad0f5831879c5ad7b141c8c705d0af8e40cbb4b9c9cc7e00952ca5"
       },
       "reviewed_at": "2026-10-27",
