@@ -23,7 +23,7 @@ O **Simulador ENEM** reúne uma aplicação web para resolver questões e um pip
 A aplicação oferece navegação por questões, seleção de respostas, eliminação de alternativas e recursos de apoio ao estudo. A camada de dados mantém evidências de origem e impede que itens ainda não revisados entrem na pontuação.
 
 > [!IMPORTANT]
-> **Estado da auditoria — 15/11/2026 (lote 09):** o catálogo tem agora **573 questões autorizadas para pontuação**: as 509 do catálogo auditado de 513 mais **64 recuperadas no lote 09** (texto puro, direto da camada de texto do PDF oficial, com gabarito oficial e identidade corroborada). Das 513 originais, **4 permanecem bloqueadas**: 3 oficialmente anuladas (2020 digital/D2/Q157, 2021/D2/Q138 e 2022/D2/Q157) e 1 com conflito de identidade/idioma (2024/D1/Q04). Esses números descrevem o lote auditado, não toda a cobertura histórica do repositório. Não são uma certificação do Inep nem significam que a aplicação esteja implantada em produção.
+> **Estado da auditoria — 15/11/2026 (lote 09):** o catálogo tem agora **677 questões autorizadas para pontuação**: as 509 do catálogo auditado de 513, mais **64 do lote 09** e **104 do lote 10** (texto puro, direto da camada de texto do PDF oficial, com gabarito oficial; no lote 10 o CO_ITEM vem do ITENS_PROVA oficial, ver [docs/identity-resolution.md](docs/identity-resolution.md)). Das 513 originais, **4 permanecem bloqueadas**: 3 oficialmente anuladas (2020 digital/D2/Q157, 2021/D2/Q138 e 2022/D2/Q157) e 1 com conflito de identidade/idioma (2024/D1/Q04). Esses números descrevem o lote auditado, não toda a cobertura histórica do repositório. Não são uma certificação do Inep nem significam que a aplicação esteja implantada em produção.
 
 ## O que você encontra aqui
 
@@ -106,6 +106,8 @@ O **audit gate** é a principal garantia do projeto. Uma questão só pode ser p
 O sistema segue uma política **fail-closed**: na dúvida, não publica. A verificação estrutural de um JSON, sozinha, não comprova fidelidade à prova.
 
 **Onde acompanhar:** [manifesto de auditoria](data/audit/manifest.json) · [relatório completo do lote 08](docs/enem-audit-batch-08.md) · [decisões das 185 pendências](data/audit/batch-08-review.json) · [verificações do lote 08](data/audit/batch-08-verification.json) · [histórico de validação](docs/validation-progress.md).
+
+**Lote 10:** 104 questões novas de 2018 e 2023, com identidade (CO_ITEM) resolvida pelo ITENS_PROVA oficial; 93 testes Python e 36 Node aprovados; as 573 anteriores preservadas byte a byte. Detalhes em [docs/enem-audit-batch-10.md](docs/enem-audit-batch-10.md).
 
 **Lote 09:** 64 questões novas (2018, 2022, 2023 e 2025), todas de texto puro; 89 testes Python e 30 Node aprovados; as 509 anteriores foram preservadas byte a byte. Detalhes e limites em [docs/enem-audit-batch-09.md](docs/enem-audit-batch-09.md).
 
