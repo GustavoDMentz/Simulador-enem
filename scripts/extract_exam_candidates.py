@@ -30,7 +30,7 @@ from segment_question_candidates import find_headers  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TOP, BOTTOM = 57.0, 740.0
-OPT = re.compile(r"^([A-E])\t(.*)$")
+OPT = re.compile(r"^([A-E])\s*\t(.*)$")
 DEIXIS = re.compile(r"\b(texto|trecho|fragmento|figura|imagem|gr[aá]fico|tabela|charge|tirinha|poema|mapa|quadro|"
                     r"infogr[aá]fico|fotografia|can[cç][aã]o|letra|an[uú]ncio|cartaz|pintura|obra|cena|ilustra[cç][aã]o)\b", re.I)
 CREDIT = re.compile(r"(Dispon[ií]vel em|Acesso em|\(adaptad[oa]\)|\(fragmento\)|Fonte:|Dispon[ií]vel em:)", re.I)
@@ -101,6 +101,10 @@ def graphics_in(page, rect):
             continue  # moldura de sangria da página
         if (r.height < 6 and r.width > 60) or (r.width < 6 and r.height > 60):
             continue  # réguas e fios de coluna
+        if r.width <= 12 and r.height <= 12:
+            continue  # marcador gráfico da letra da alternativa (2019)
+        if r.height <= 22 and r.width > 60 and rect.y0 - 2 <= r.y0 <= rect.y0 + 22:
+            continue  # barra do cabeçalho "QUESTÃO N" (2019)
         if r.intersects(rect):
             draws += 1
     return imgs, draws
