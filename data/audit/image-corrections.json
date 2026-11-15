@@ -290,6 +290,746 @@
    ],
    "sha256_before": "4bad1b34b1ed5a28e8ff5549f35c608112d40630dce60cf5aed85125b826c807",
    "sha256_after": "f3c78c481a0bd1a92ceed3087853bad709e55424da1c04701d9a3658942a7c90"
+  },
+  {
+   "id": "2018_AZUL_D2_Q108",
+   "image": "/images/verified/batch08-2018-azul-d2-q108-support.png",
+   "method": "extend",
+   "pdf": "2018-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 7,
+     "bbox": [
+      18,
+      93.12980651855469,
+      289.7513916015625,
+      256.2873229980469
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      42,
+      0,
+      671,
+      409
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 7,
+     "bbox": [
+      18,
+      89.92980651855468,
+      289.7513916015625,
+      258.2873229980469
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      42,
+      0,
+      671,
+      422
+     ]
+    }
+   ],
+   "size_before": [
+    629,
+    409
+   ],
+   "size_after": [
+    629,
+    422
+   ],
+   "sha256_before": "a9c24ba0a469b678e82aaba4b1b3133b0d2e606e70253a0ba5465a2c02123253",
+   "sha256_after": "4a80d309a71523a03448fcbe3cb5d4960de8fc7d56e8964711dfe1a74a3e8ea1"
+  },
+  {
+   "id": "2018_AZUL_D2_Q144",
+   "image": "/images/verified/batch08-2018-azul-d2-q144-support.png",
+   "method": "extend",
+   "pdf": "2018-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 18,
+     "bbox": [
+      291.5513916015625,
+      187.59764099121094,
+      561.102783203125,
+      310.0623779296875
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      9,
+      2,
+      638,
+      308
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 18,
+     "bbox": [
+      291.5513916015625,
+      185.19764099121093,
+      561.102783203125,
+      310.0623779296875
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      9,
+      2,
+      638,
+      314
+     ]
+    }
+   ],
+   "size_before": [
+    629,
+    306
+   ],
+   "size_after": [
+    629,
+    312
+   ],
+   "sha256_before": "9bb48da3220a3972b706563351c85815b819745a21c7735f7dd114172fdabfbd",
+   "sha256_after": "070697c29562bc6b7eba67048b173b108554a0acc48b292df8c1e6ae28b38f86"
+  },
+  {
+   "id": "2018_AZUL_D2_Q176",
+   "image": "/images/verified/batch08-2018-azul-d2-q176-support.png",
+   "method": "extend",
+   "pdf": "2018-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 30,
+     "bbox": [
+      291.5513916015625,
+      93.12980651855469,
+      561.102783203125,
+      527.9918212890625
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      8,
+      4,
+      640,
+      1088
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 30,
+     "bbox": [
+      291.5513916015625,
+      90.72980651855468,
+      561.102783203125,
+      530.3918212890625
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      8,
+      4,
+      640,
+      1100
+     ]
+    }
+   ],
+   "size_before": [
+    632,
+    1084
+   ],
+   "size_after": [
+    632,
+    1096
+   ],
+   "sha256_before": "eec35f63f4959fed89d46ed812f6d046ee208818cd6485ec8c842d02e2126395",
+   "sha256_after": "1b54be29fc69c93c42863563f5050e498af221c9d7a65824b6797b084a48d05c"
+  },
+  {
+   "id": "2020_AZUL_D1_Q04",
+   "image": "/images/verified/batch08-2020-azul-d1-q004-source.png",
+   "method": "extend",
+   "pdf": "2020-regular-d1-azul.pdf",
+   "render_before": [
+    {
+     "page": 3,
+     "bbox": [
+      18,
+      568.5355834960938,
+      282.6645080566406,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      29,
+      0,
+      655,
+      433
+     ]
+    },
+    {
+     "page": 3,
+     "bbox": [
+      284.4645080566406,
+      57,
+      546.9290161132812,
+      179.77813720703125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      23,
+      634,
+      308
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 3,
+     "bbox": [
+      18,
+      556.5355834960938,
+      282.6645080566406,
+      742.0
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      29,
+      0,
+      655,
+      463
+     ]
+    },
+    {
+     "page": 3,
+     "bbox": [
+      284.4645080566406,
+      57,
+      546.9290161132812,
+      179.77813720703125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      23,
+      634,
+      308
+     ]
+    }
+   ],
+   "size_before": [
+    634,
+    718
+   ],
+   "size_after": [
+    634,
+    748
+   ],
+   "sha256_before": "6062bdaeea8997dac700f58c7c106dda6e8bfe55ab4ba83e80999f2a9a2dade4",
+   "sha256_after": "6e3cb34ac50013cebbeab121173b9e4c3adbb37a9352204357cc440e00154a6d"
+  },
+  {
+   "id": "2022_AZUL_D1_Q07",
+   "image": "/images/verified/batch08-2022-azul-d1-q007-support.png",
+   "method": "extend",
+   "pdf": "2022-regular-d1-azul.pdf",
+   "render_before": [
+    {
+     "page": 6,
+     "bbox": [
+      18,
+      81.79618835449219,
+      282.6645080566406,
+      441.6827392578125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      4,
+      654,
+      901
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 6,
+     "bbox": [
+      18,
+      79.39618835449218,
+      282.6645080566406,
+      446.8827392578125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      4,
+      654,
+      920
+     ]
+    }
+   ],
+   "size_before": [
+    626,
+    897
+   ],
+   "size_after": [
+    626,
+    916
+   ],
+   "sha256_before": "96a50bb1aea600a8baec0cf9d6814ef6a73d5437b5dd0a341604d0df7cbd67e2",
+   "sha256_after": "8882b3d8ef4fa429f94d0d8018cc97f1200989ffd10c40751991191a0e3a806c"
+  },
+  {
+   "id": "2023_AZUL_D1_Q03",
+   "image": "/images/verified/batch08-2023-azul-d1-q003-source.png",
+   "method": "trim",
+   "pdf": "2023-regular-d1-azul.pdf",
+   "render_before": [
+    {
+     "page": 2,
+     "bbox": [
+      284.4645080566406,
+      62.834190368652344,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      4,
+      634,
+      1698
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 2,
+     "bbox": [
+      284.4645080566406,
+      62.834190368652344,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      4,
+      634,
+      1674
+     ]
+    }
+   ],
+   "size_before": [
+    634,
+    1694
+   ],
+   "size_after": [
+    634,
+    1670
+   ],
+   "sha256_before": "f9b2033b5986b8482df2a320403ac689161831a8de778d78d712915cdb556cf1",
+   "sha256_after": "a5ac70ee516cb6d9cf09e2815e9a028bf4a237ce384422e98c5cbd3728430bfd"
+  },
+  {
+   "id": "2023_AZUL_D1_Q04",
+   "image": "/images/verified/batch08-2023-azul-d1-q004-source.png",
+   "method": "trim",
+   "pdf": "2023-regular-d1-azul.pdf",
+   "render_before": [
+    {
+     "page": 3,
+     "bbox": [
+      18,
+      62.834190368652344,
+      282.6645080566406,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      4,
+      662,
+      1698
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 3,
+     "bbox": [
+      18,
+      62.834190368652344,
+      282.6645080566406,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      4,
+      662,
+      1674
+     ]
+    }
+   ],
+   "size_before": [
+    635,
+    1694
+   ],
+   "size_after": [
+    635,
+    1670
+   ],
+   "sha256_before": "d1b07d064f1325cbde08eae2d87c298afc25cb7fb9e5d7569dfbe89ff9120ae0",
+   "sha256_after": "2a8c527ebbdd42d271f090674a173ef9f5b9739d89c1f4a9927fda002d2159f8"
+  },
+  {
+   "id": "2023_AZUL_D2_Q127",
+   "image": "/images/verified/batch08-2023-azul-d2-q127-support.png",
+   "method": "extend",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 12,
+     "bbox": [
+      18,
+      488.4451904296875,
+      546.9290161132812,
+      655.43212890625
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      5,
+      1299,
+      418
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 12,
+     "bbox": [
+      18,
+      485.6451904296875,
+      546.9290161132812,
+      657.83212890625
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      5,
+      1299,
+      431
+     ]
+    }
+   ],
+   "size_before": [
+    1271,
+    413
+   ],
+   "size_after": [
+    1271,
+    426
+   ],
+   "sha256_before": "0ed3db3818041f81d226dae2fe63805019322e594a9576bc228c385e0b1fa06d",
+   "sha256_after": "394022826c03c5f886de99f1dc2a84463cdcfb1019c2ce820e073dbc84c47037"
+  },
+  {
+   "id": "2023_AZUL_D2_Q156",
+   "image": "/images/verified/batch08-2023-azul-d2-q156-source.png",
+   "method": "trim",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 22,
+     "bbox": [
+      284.4645080566406,
+      405.94866943359375,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      0,
+      634,
+      841
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 22,
+     "bbox": [
+      284.4645080566406,
+      405.94866943359375,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      0,
+      634,
+      817
+     ]
+    }
+   ],
+   "size_before": [
+    634,
+    841
+   ],
+   "size_after": [
+    634,
+    817
+   ],
+   "sha256_before": "6a3a17edef188c75525e33b00854299266bc34e7cf09bec1b6bb8b8548771608",
+   "sha256_after": "e36d216acec15bc01647f7c53f7eedecac79fc3e7f8ff180eab7ba9b38473c31"
+  },
+  {
+   "id": "2023_AZUL_D2_Q156",
+   "image": "/images/verified/batch08-2023-azul-d2-q156-support.png",
+   "method": "extend",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 22,
+     "bbox": [
+      284.4645080566406,
+      424.91064453125,
+      546.9290161132812,
+      638.1220703125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      0,
+      634,
+      534
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 22,
+     "bbox": [
+      284.4645080566406,
+      424.91064453125,
+      546.9290161132812,
+      642.1220703125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      0,
+      634,
+      544
+     ]
+    }
+   ],
+   "size_before": [
+    634,
+    534
+   ],
+   "size_after": [
+    634,
+    544
+   ],
+   "sha256_before": "53a221e7dae852fee58c9fc26ee31dc1e7ef92ff8df7e33f61e39943f3fce6a5",
+   "sha256_after": "71be9724d7e6ec9c48a452fbad583264abb801b3c73e294c41127800640c5eca"
+  },
+  {
+   "id": "2023_AZUL_D2_Q166",
+   "image": "/images/verified/batch08-2023-azul-d2-q166-support.png",
+   "method": "extend",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 26,
+     "bbox": [
+      18,
+      81.79618835449219,
+      546.9290161132812,
+      328.13653564453125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      4,
+      1299,
+      617
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 26,
+     "bbox": [
+      18,
+      79.39618835449218,
+      546.9290161132812,
+      328.13653564453125
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      4,
+      1299,
+      623
+     ]
+    }
+   ],
+   "size_before": [
+    1271,
+    613
+   ],
+   "size_after": [
+    1271,
+    619
+   ],
+   "sha256_before": "96466362300c2c66b1f7279cc7b61b53a2efc0f0c20d6cc56f6adcf6472754a1",
+   "sha256_after": "a3d8c9b38e499cae323ba5d00ad5cb3533bb07ce2876024b89dd5218c4774905"
+  },
+  {
+   "id": "2023_AZUL_D2_Q176",
+   "image": "/images/verified/batch08-2023-azul-d2-q176-support.png",
+   "method": "extend",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 30,
+     "bbox": [
+      18,
+      81.79618835449219,
+      282.6645080566406,
+      335.87908935546875
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      0,
+      662,
+      636
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 30,
+     "bbox": [
+      18,
+      81.79618835449219,
+      282.6645080566406,
+      339.87908935546875
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      28,
+      0,
+      662,
+      646
+     ]
+    }
+   ],
+   "size_before": [
+    634,
+    636
+   ],
+   "size_after": [
+    634,
+    646
+   ],
+   "sha256_before": "f1f380a47372f519e6c0078527fe88ea094cbc7a4d03d4e01efd517cd72a36c2",
+   "sha256_after": "e8c4a545d475412d32dbe072a212e2d27edf22aa93f5ea91307c95acb16155d2"
+  },
+  {
+   "id": "2023_AZUL_D2_Q177",
+   "image": "/images/verified/batch08-2023-azul-d2-q177-source.png",
+   "method": "trim",
+   "pdf": "2023-regular-d2-azul.pdf",
+   "render_before": [
+    {
+     "page": 30,
+     "bbox": [
+      18,
+      432.91937255859375,
+      282.6645080566406,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      0,
+      662,
+      753
+     ]
+    },
+    {
+     "page": 30,
+     "bbox": [
+      284.4645080566406,
+      57,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      0,
+      634,
+      1713
+     ]
+    }
+   ],
+   "render_after": [
+    {
+     "page": 30,
+     "bbox": [
+      18,
+      432.91937255859375,
+      282.6645080566406,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      27,
+      0,
+      662,
+      753
+     ]
+    },
+    {
+     "page": 30,
+     "bbox": [
+      284.4645080566406,
+      57,
+      546.9290161132812,
+      742
+     ],
+     "scale": 2.5,
+     "pixel_trim": [
+      0,
+      0,
+      634,
+      1689
+     ]
+    }
+   ],
+   "size_before": [
+    635,
+    2466
+   ],
+   "size_after": [
+    635,
+    2442
+   ],
+   "sha256_before": "ac6b372d6a8b222c64263f2bc25d82ca4a93e84a4affe862b55be33ad7166775",
+   "sha256_after": "794cea52c44de6891c0821da8645e802125f5beee51898df8a90c45b9ec17950"
   }
  ]
 }

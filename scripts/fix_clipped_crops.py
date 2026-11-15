@@ -82,7 +82,10 @@ def find_box(cands, qid, w, h):
     return None
 
 
-def extend(page, b):
+HEADER = re.compile(r"^\s*QUEST[ÃA]O\s*\d+", re.I)
+
+
+def extend(page, b, skip_headers=False):
     """Estende y0/y1 para conter por inteiro linhas de texto cruzadas pela borda."""
     x0, y0, x1, y1 = b
     lines = []
@@ -90,6 +93,8 @@ def extend(page, b):
         for ln in blk.get("lines", []):
             lx0, ly0, lx1, ly1 = ln["bbox"]
             ov = min(lx1, x1) - max(lx0, x0)
+            if skip_headers and HEADER.match("".join(sp["text"] for sp in ln["spans"])):
+                continue
             if lx1 > lx0 and ov / (lx1 - lx0) >= 0.5:
                 lines.append((ly0, ly1))
     ny0, ny1 = y0, y1

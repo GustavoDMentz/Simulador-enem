@@ -16314,7 +16314,7 @@
         "/images/verified/batch08-2018-azul-d2-q108-option-c.png": "a4a3f6d96fd1869547ba2d53c952bcbb847e394dd92488e9812659d585143c39",
         "/images/verified/batch08-2018-azul-d2-q108-option-d.png": "c04931a5638d3ab06762c86ec60611ef90f4be2829f3f9b8a1e7ee57a80e234a",
         "/images/verified/batch08-2018-azul-d2-q108-option-e.png": "83b870f6eec47554304ab60d41729dfcd06b2df95c71e5498150e1fe00db0432",
-        "/images/verified/batch08-2018-azul-d2-q108-support.png": "a9c24ba0a469b678e82aaba4b1b3133b0d2e606e70253a0ba5465a2c02123253"
+        "/images/verified/batch08-2018-azul-d2-q108-support.png": "4a80d309a71523a03448fcbe3cb5d4960de8fc7d56e8964711dfe1a74a3e8ea1"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -16583,7 +16583,7 @@
       "asset_sha256": "3a237a4f2c88ae89b60f18841161f73f168c5e33acb25aec724e12051ee1e051",
       "display_assets_sha256": {
         "/images/verified/batch08-2018-azul-d2-q144-source.png": "3a237a4f2c88ae89b60f18841161f73f168c5e33acb25aec724e12051ee1e051",
-        "/images/verified/batch08-2018-azul-d2-q144-support.png": "9bb48da3220a3972b706563351c85815b819745a21c7735f7dd114172fdabfbd"
+        "/images/verified/batch08-2018-azul-d2-q144-support.png": "070697c29562bc6b7eba67048b173b108554a0acc48b292df8c1e6ae28b38f86"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -16627,7 +16627,7 @@
       "asset_sha256": "498da99215159b4e2916d43651b0d4fd4642971e59f73272756df816c4be4aa9",
       "display_assets_sha256": {
         "/images/verified/batch08-2018-azul-d2-q176-source.png": "498da99215159b4e2916d43651b0d4fd4642971e59f73272756df816c4be4aa9",
-        "/images/verified/batch08-2018-azul-d2-q176-support.png": "eec35f63f4959fed89d46ed812f6d046ee208818cd6485ec8c842d02e2126395"
+        "/images/verified/batch08-2018-azul-d2-q176-support.png": "1b54be29fc69c93c42863563f5050e498af221c9d7a65824b6797b084a48d05c"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -17191,9 +17191,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "6062bdaeea8997dac700f58c7c106dda6e8bfe55ab4ba83e80999f2a9a2dade4",
+      "asset_sha256": "6e3cb34ac50013cebbeab121173b9e4c3adbb37a9352204357cc440e00154a6d",
       "display_assets_sha256": {
-        "/images/verified/batch08-2020-azul-d1-q004-source.png": "6062bdaeea8997dac700f58c7c106dda6e8bfe55ab4ba83e80999f2a9a2dade4"
+        "/images/verified/batch08-2020-azul-d1-q004-source.png": "6e3cb34ac50013cebbeab121173b9e4c3adbb37a9352204357cc440e00154a6d"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -19669,7 +19669,7 @@
       "asset_sha256": "5f8cd9f59c4abb5c69f38890c91e4bb1d0df20c4889ad1d9ca1b1dc993279a73",
       "display_assets_sha256": {
         "/images/verified/batch08-2022-azul-d1-q007-source.png": "5f8cd9f59c4abb5c69f38890c91e4bb1d0df20c4889ad1d9ca1b1dc993279a73",
-        "/images/verified/batch08-2022-azul-d1-q007-support.png": "96a50bb1aea600a8baec0cf9d6814ef6a73d5437b5dd0a341604d0df7cbd67e2"
+        "/images/verified/batch08-2022-azul-d1-q007-support.png": "8882b3d8ef4fa429f94d0d8018cc97f1200989ffd10c40751991191a0e3a806c"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -19986,9 +19986,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "f9b2033b5986b8482df2a320403ac689161831a8de778d78d712915cdb556cf1",
+      "asset_sha256": "a5ac70ee516cb6d9cf09e2815e9a028bf4a237ce384422e98c5cbd3728430bfd",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d1-q003-source.png": "f9b2033b5986b8482df2a320403ac689161831a8de778d78d712915cdb556cf1"
+        "/images/verified/batch08-2023-azul-d1-q003-source.png": "a5ac70ee516cb6d9cf09e2815e9a028bf4a237ce384422e98c5cbd3728430bfd"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20029,9 +20029,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "d1b07d064f1325cbde08eae2d87c298afc25cb7fb9e5d7569dfbe89ff9120ae0",
+      "asset_sha256": "2a8c527ebbdd42d271f090674a173ef9f5b9739d89c1f4a9927fda002d2159f8",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d1-q004-source.png": "d1b07d064f1325cbde08eae2d87c298afc25cb7fb9e5d7569dfbe89ff9120ae0"
+        "/images/verified/batch08-2023-azul-d1-q004-source.png": "2a8c527ebbdd42d271f090674a173ef9f5b9739d89c1f4a9927fda002d2159f8"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20256,7 +20256,7 @@
       "asset_sha256": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
       "display_assets_sha256": {
         "/images/verified/batch08-2023-azul-d2-q127-source.png": "b43e20a733e4a1b6838c9f403ff0ded70e44d8115be09a1949cb6099230b35c5",
-        "/images/verified/batch08-2023-azul-d2-q127-support.png": "0ed3db3818041f81d226dae2fe63805019322e594a9576bc228c385e0b1fa06d"
+        "/images/verified/batch08-2023-azul-d2-q127-support.png": "394022826c03c5f886de99f1dc2a84463cdcfb1019c2ce820e073dbc84c47037"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20385,10 +20385,10 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "6a3a17edef188c75525e33b00854299266bc34e7cf09bec1b6bb8b8548771608",
+      "asset_sha256": "e36d216acec15bc01647f7c53f7eedecac79fc3e7f8ff180eab7ba9b38473c31",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q156-source.png": "6a3a17edef188c75525e33b00854299266bc34e7cf09bec1b6bb8b8548771608",
-        "/images/verified/batch08-2023-azul-d2-q156-support.png": "53a221e7dae852fee58c9fc26ee31dc1e7ef92ff8df7e33f61e39943f3fce6a5"
+        "/images/verified/batch08-2023-azul-d2-q156-source.png": "e36d216acec15bc01647f7c53f7eedecac79fc3e7f8ff180eab7ba9b38473c31",
+        "/images/verified/batch08-2023-azul-d2-q156-support.png": "71be9724d7e6ec9c48a452fbad583264abb801b3c73e294c41127800640c5eca"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20563,7 +20563,7 @@
       "asset_sha256": "2f64046fee7f26de136c5a340c85ea2bf02315ef7a28eff8183f236f20e67dc6",
       "display_assets_sha256": {
         "/images/verified/batch08-2023-azul-d2-q166-source.png": "2f64046fee7f26de136c5a340c85ea2bf02315ef7a28eff8183f236f20e67dc6",
-        "/images/verified/batch08-2023-azul-d2-q166-support.png": "96466362300c2c66b1f7279cc7b61b53a2efc0f0c20d6cc56f6adcf6472754a1"
+        "/images/verified/batch08-2023-azul-d2-q166-support.png": "a3d8c9b38e499cae323ba5d00ad5cb3533bb07ce2876024b89dd5218c4774905"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20651,7 +20651,7 @@
       "asset_sha256": "ad8f4047d5bfdd8f2175cdb0313536b8b52f68c73187e5accc537c2d0047b5fe",
       "display_assets_sha256": {
         "/images/verified/batch08-2023-azul-d2-q176-source.png": "ad8f4047d5bfdd8f2175cdb0313536b8b52f68c73187e5accc537c2d0047b5fe",
-        "/images/verified/batch08-2023-azul-d2-q176-support.png": "f1f380a47372f519e6c0078527fe88ea094cbc7a4d03d4e01efd517cd72a36c2"
+        "/images/verified/batch08-2023-azul-d2-q176-support.png": "e8c4a545d475412d32dbe072a212e2d27edf22aa93f5ea91307c95acb16155d2"
       },
       "reviewed_at": "2026-10-27",
       "reviewer": "Official PDF pixel and key comparison in ChatGPT Work",
@@ -20692,9 +20692,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "ac6b372d6a8b222c64263f2bc25d82ca4a93e84a4affe862b55be33ad7166775",
+      "asset_sha256": "794cea52c44de6891c0821da8645e802125f5beee51898df8a90c45b9ec17950",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q177-source.png": "ac6b372d6a8b222c64263f2bc25d82ca4a93e84a4affe862b55be33ad7166775",
+        "/images/verified/batch08-2023-azul-d2-q177-source.png": "794cea52c44de6891c0821da8645e802125f5beee51898df8a90c45b9ec17950",
         "/images/verified/batch08-2023-azul-d2-q177-option-a.png": "bb533c583b339d1e47d3664176a4791bf9f1bb9d358ff35f93add7b8f9bb583d",
         "/images/verified/batch08-2023-azul-d2-q177-option-b.png": "848919048edf17555f2dd6b5884b4bab3984fc699f1ca1d0a1fa8679ae67a012",
         "/images/verified/batch08-2023-azul-d2-q177-option-c.png": "08d790e830541c8545937ab6df10e15081acacace8bffc3816a512defbf628b3",
