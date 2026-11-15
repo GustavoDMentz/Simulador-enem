@@ -76,7 +76,7 @@ def main():
     args.out_dir.mkdir(parents=True, exist_ok=True)
     (args.out_dir / f"ITENS_PROVA_{args.year}.csv").write_bytes(raw)
     text = raw.decode("latin-1")
-    rows = list(csv.DictReader(io.StringIO(text), delimiter=";"))
+    rows = list(csv.DictReader(io.StringIO(text), delimiter=";", quoting=csv.QUOTE_NONE))
     cols = [c for c in KEEP if c in rows[0]]
     with (args.out_dir / f"itens-prova-{args.year}.min.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh, delimiter=";")

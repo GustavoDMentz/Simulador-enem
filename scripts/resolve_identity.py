@@ -41,7 +41,9 @@ def resolve_year(year):
             for (prova, a), rs in by_prova.items():
                 if a != area:
                     continue
-                comp = [r for r in rs if not (area == "LC" and int(r["CO_POSICAO"]) <= 5) and int(r["CO_POSICAO"]) in key]
+                # anuladas (PDF sem letra / CSV "X") não entram na comparação
+                comp = [r for r in rs if not (area == "LC" and int(r["CO_POSICAO"]) <= 5) and key.get(int(r["CO_POSICAO"])) in tuple("ABCDE")
+                        and r["TX_GABARITO"] in tuple("ABCDE")]
                 m = sum(1 for r in comp if key[int(r["CO_POSICAO"])] == r["TX_GABARITO"])
                 scored.append((m / len(comp) if comp else 0.0, m, len(comp), prova))
             scored.sort(reverse=True)
