@@ -35,9 +35,9 @@ def test_restored_release_and_unchanged_quarantine():
     preview=[json.loads(l) for l in (preview_path if preview_path.exists() else root/'data/audit/session-recovery/preview-questions.jsonl').read_text().splitlines()]
     release=[json.loads(l) for l in (root/'data/blue-published/questions.jsonl').read_text().splitlines()]
     entries=json.loads((root/'data/audit/manifest.json').read_text())['questions']
-    assert len(snapshot)==len(preview)==681  # 513 + 64 (batch 09) + 104 (batch 10) identities
-    assert len(release)==len(entries)==677
-    assert len({q['id_unico_sistema'] for q in release})==677
+    assert len(snapshot)==len(preview)==800  # 513 + 64 (batch 09) + 104 (batch 10) + 119 (batch 11) identities
+    assert len(release)==len(entries)==796
+    assert len({q['id_unico_sistema'] for q in release})==796
     original=[q for q in snapshot if q['scoring_enabled']]
     current={q['id_unico_sistema']:q for q in release}
     assert len(original)==59
