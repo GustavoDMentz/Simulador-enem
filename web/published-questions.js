@@ -5,6 +5,7 @@ const {scorable,forScoring,readManifest}=require('./audit-gate');
 const SOURCE=path.resolve(__dirname,'../data/blue-published/questions.jsonl');
 const PREVIEW=path.resolve(__dirname,'../data/blue-published/preview-questions.jsonl');
 const RECOVERY=path.resolve(__dirname,'../data/audit/session-recovery/preview-questions.jsonl');
+const IDENTITY=path.resolve(__dirname,'../data/audit/identity-resolution.json');
 const TRI=path.resolve(__dirname,'../data/tri/parametros-oficiais.jsonl');
 const TRI_EXTERNAL=path.resolve(__dirname,'../data/tri/external-staging/tri-joined-2018-2025.jsonl');
 function readTri(){
@@ -29,6 +30,20 @@ function readExternalTri(){
  }
  return result;
 }
+function readIdentity(file=IDENTITY){
+ if(!fs.existsSync(file))return new Map();
+ const data=JSON.parse(fs.readFileSync(file,'utf8'));
+ if(data.schema_version!==1||typeof data.items!=='object')throw Error('Invalid identity resolution');
+ return new Map(Object.entries(data.items));
+}
+// CO_ITEM do fused vem, em alguns anos, de outro CO_PROVA azul (reaplicação/PPL). Onde o ITENS_PROVA
+// oficial foi cruzado com o gabarito do PDF, vale o CO_ITEM resolvido; sem concordância de resposta, não há junção TRI.
+function withIdentity(q,identity){
+ const r=identity.get(q.id_unico_sistema);
+ if(!r)return q;
+ if(r.tx_gabarito!==q.gabarito_oficial||r.area!==q.area_conhecimento)return {...q,co_item:null,identidade:{status:'CONFLICT',fonte:'ITENS_PROVA oficial'}};
+ return {...q,co_item:r.co_item,co_habilidade:r.co_habilidade??q.co_habilidade,identidade:{status:'VERIFIED',fonte:'ITENS_PROVA oficial',co_prova:r.co_prova}};
+}
 function withTri(q,tri,external=new Map()){
  const ext=external.get(`${q.ano}/${q.co_item}`);
  const verified=tri.get(`${q.ano}/${q.co_item}`);
@@ -46,9 +61,9 @@ function load(file=SOURCE){
  const keys=rows.map(q=>`${q.ano}/${q.dia}/${q.posicao_prova}`);
  if(new Set(ids).size!==ids.length||new Set(keys).size!==keys.length)throw Error('Duplicate question identity');
  const entries=readManifest().questions;
- const tri=readTri(),external=readExternalTri();
+ const tri=readTri(),external=readExternalTri(),identity=readIdentity();
  const display=require('./question-presentation'), displayData=display.readPresentation();
- return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>{const scored=forScoring(q,entries);const joined=withTri(scored,tri,external);return {...joined,_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)};});
+ return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>{const scored=withIdentity(forScoring(q,entries),identity);const joined=withTri(scored,tri,external);return {...joined,_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)};});
 }
 function filter(rows,query){
  for(const name of ['year','day','position'])if(query[name]!==undefined&&(!Number.isInteger(Number(query[name]))||Number(query[name])<1))throw Error('Invalid filter');
@@ -95,4 +110,4 @@ function publishedRouter(express){
  });
  return router;
 }
-module.exports={publishedRouter,load,filter,readTri,readExternalTri,withTri};
+module.exports={publishedRouter,load,filter,readTri,readExternalTri,withTri,readIdentity,withIdentity};
