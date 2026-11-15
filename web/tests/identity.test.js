@@ -4,15 +4,15 @@ const {load,readIdentity,withIdentity,readExternalTri}=require('../published-que
 const raw=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../data/audit/identity-resolution.json'),'utf8'));
 test('identity: every area resolves to exactly one azul CO_PROVA that matches the official key',()=>{
  const resolved=raw.evidence.filter(e=>e.resolved);
- assert.equal(raw.evidence.length,24);assert.equal(resolved.length,24);
+ assert.equal(raw.evidence.length,36);assert.equal(resolved.length,36);
  for(const e of resolved){
   assert(e.candidates[0].ratio>=0.97);
-  for(const c of e.candidates.slice(1))assert(c.ratio<=0.6,`${e.year} ${e.area} ${c.co_prova}`);
+  for(const c of e.candidates.slice(1)){if(e.equivalent_co_prova.includes(c.co_prova))continue;assert(c.ratio<=0.6,`${e.year} ${e.area} ${c.co_prova}`);}
  }
 });
 test('identity: published records get the resolved CO_ITEM and a verified status',()=>{
  const id=readIdentity(),rows=load();
- assert.equal(id.size,1015);
+ assert.equal(id.size,1540);
  let changed=0;
  for(const q of rows){
   const r=id.get(q.id_unico_sistema);if(!r)continue;
@@ -21,7 +21,7 @@ test('identity: published records get the resolved CO_ITEM and a verified status
  }
  const original=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'),'utf8').trim().split('\n').map(JSON.parse);
  for(const q of original){const r=id.get(q.id_unico_sistema);if(r&&r.co_item!==q.co_item)changed++}
- assert.equal(changed,157);
+ assert.equal(changed,160);
 });
 test('identity: joined TRI rows agree with the official answer after the correction',()=>{
  const ext=readExternalTri();let joined=0;

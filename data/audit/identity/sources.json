@@ -2,6 +2,13 @@
   "schema_version": 1,
   "note": "Linhas AZUL do ITENS_PROVA oficial do Inep (colunas de identidade apenas, sem dados de participantes). Obtido com scripts/fetch_inep_itens_prova.py por HTTP range; o SHA-256 é do CSV bruto extraído do zip (CRC32 conferido).",
   "sources": {
+    "2017": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2017.zip",
+      "entry": "DADOS/ITENS_PROVA_2017.csv",
+      "csv_sha256": "bd6a258576b65be0b64ba5cee3fc8c4576e008af7672c90c4c79f3abeb6e2e0f",
+      "csv_bytes": 107228,
+      "retrieved": "2026-11-15"
+    },
     "2018": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2018.zip",
       "entry": "DADOS/ITENS_PROVA_2018.csv",
@@ -21,6 +28,20 @@
       "entry": "DADOS/ITENS_PROVA_2020.csv",
       "csv_sha256": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
       "csv_bytes": 263233,
+      "retrieved": "2026-11-15"
+    },
+    "2021": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2021.zip",
+      "entry": "DADOS/ITENS_PROVA_2021.csv",
+      "csv_sha256": "94b1dedbe1b32cab244dcf8b7dee13a8a4c651e0edb45ca6f2d3178297efef1f",
+      "csv_bytes": 311039,
+      "retrieved": "2026-11-15"
+    },
+    "2022": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2022.zip",
+      "entry": "DADOS/ITENS_PROVA_2022.csv",
+      "csv_sha256": "58c274f15013094f950ac813fe61c29ea68a557e48e013e45ba2b3abec629400",
+      "csv_bytes": 315206,
       "retrieved": "2026-11-15"
     },
     "2023": {
