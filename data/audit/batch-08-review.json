@@ -16382,7 +16382,7 @@
       "presentation_metadata": {
         "mode": "composition",
         "source": "/images/verified/batch08-2023-azul-d2-q165-source.png",
-        "source_sha256": "111ca722dbe44cca3a02b0de2e2d6c317e32a03e8857d897791325b7bbb993fd",
+        "source_sha256": "433f74c11d237a8a8ea0d0bc0cc1186600c8b8e6ff05e112a1ec6d331d509a91",
         "evidence": "data/audit/batch-08-review.json",
         "figure": "/images/verified/batch08-2023-azul-d2-q165-support.png",
         "figure_sha256": "9d4712cf27e7e30ce428e31c17602740847b1ca2502fb4f7d570187df4864f11",
@@ -16392,7 +16392,7 @@
       "assets": {
         "source": {
           "image": "/images/verified/batch08-2023-azul-d2-q165-source.png",
-          "sha256": "111ca722dbe44cca3a02b0de2e2d6c317e32a03e8857d897791325b7bbb993fd",
+          "sha256": "433f74c11d237a8a8ea0d0bc0cc1186600c8b8e6ff05e112a1ec6d331d509a91",
           "render": [
             {
               "page": 25,
@@ -16407,12 +16407,12 @@
                 27,
                 4,
                 1300,
-                896
+                875
               ]
             }
           ],
           "width": 1273,
-          "height": 892
+          "height": 871
         },
         "support": {
           "image": "/images/verified/batch08-2023-azul-d2-q165-support.png",

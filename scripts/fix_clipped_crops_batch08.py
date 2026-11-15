@@ -177,9 +177,14 @@ def main():
         except (IndexError, ValueError):
             skipped.append((qid, ref, "PDF local não corresponde à aplicação do recorte"))
             continue
-        if sha(to_png(base)) != asset["sha256"] or to_png(base) != path.read_bytes():
-            skipped.append((qid, ref, "render original não reproduz o PNG publicado"))
-            continue
+        exact = sha(to_png(base)) == asset["sha256"] and to_png(base) == path.read_bytes()
+        if not exact:
+            # versões diferentes do MuPDF reamostram imagens com ±1 em alguns pixels;
+            # só aceitamos aparar (subimagem exata do PNG publicado), nunca re-renderizar.
+            near = base.size == old.size and np.abs(np.asarray(base, int) - np.asarray(old, int)).max() <= 2
+            if not near or len(asset["render"]) != 1:
+                skipped.append((qid, ref, "render original não reproduz o PNG publicado"))
+                continue
         how, new_render = "trim", try_trim(doc, asset, old)
         if not new_render:
             how, new_render = "extend", try_extend(doc, asset)
@@ -187,7 +192,14 @@ def main():
             skipped.append((qid, ref, "sem linha cortada nem fragmento isolável"))
             continue
         new_asset = dict(asset, render=new_render)
-        img = render_panels(doc, new_asset)
+        if exact:
+            img = render_panels(doc, new_asset)
+        elif how == "trim":
+            o, n = asset["render"][0]["pixel_trim"], new_render[0]["pixel_trim"]
+            img = old.crop((0, n[1] - o[1], old.width, old.height - (o[3] - n[3])))
+        else:
+            skipped.append((qid, ref, "render original não reproduz o PNG; extensão exigiria re-renderizar"))
+            continue
         data = to_png(img)
         if how == "extend":
             # o PNG antigo deve estar contido sem alteração no novo

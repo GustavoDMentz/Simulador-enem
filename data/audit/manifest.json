@@ -4833,7 +4833,7 @@
       "answer_source_sha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D1_CD1.pdf",
       "record_sha256": "24f34d7a90c15683b7b5bbaac849434f4c1e004668b3ab4dc47ca8d57c5562d7",
-      "asset_sha256": "de61fc11f822b35ee7abd9b69ed4681e0a9868edaf799769fa7ec11b5855840b",
+      "asset_sha256": "d15243761cb70303cfbe0e8f0ca9c2de83e796092c98a146259ee3ed7df81dab",
       "audit": {
         "text": true,
         "options": true,
@@ -8734,7 +8734,7 @@
       "answer_source_sha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
       "record_sha256": "05b170cec54db1d25ad1b1962b981f9983928829de77fce5e890e7de52a7628d",
-      "asset_sha256": "b7ebcf42d28dd7a947a65db235f8f5ee41c6bba55ce7db36f6fb691253d60264",
+      "asset_sha256": "e1df1df9143d945760106b4992a3d5d4c42274d74a1efd21fd25fea1e4d79726",
       "audit": {
         "text": true,
         "options": true,
@@ -8903,7 +8903,7 @@
       "answer_source_sha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
       "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_GB_impresso_D2_CD7.pdf",
       "record_sha256": "8de2f718ffae63276c2eb93fc655863db1728887018fbc988c47d42c5a43f9c5",
-      "asset_sha256": "9bb5ac399008c280ddcf5fa4f5c8534a916573b60dbcd568c1684b03e9d0dc6e",
+      "asset_sha256": "1bb27492edb32f1bf109aceadfeba17ab87065542b2b4a4cacc208d297a1ab10",
       "audit": {
         "text": true,
         "options": true,
@@ -10464,7 +10464,7 @@
       "answer_source_sha256": "36ead3cbb0dc3032d2ebe89bdbb66de54777e311f8e8ffa57eec42756fa38e78",
       "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_2_AZUL.pdf",
       "record_sha256": "5df8e0315cb2bd1a2b4c1848033b7d3277d3c3920270c1e5659a19c16a1284a7",
-      "asset_sha256": "838ca161dc81412e8a5e00b2419b9c9f18b7b870712eec89ef799e9b0a852b8d",
+      "asset_sha256": "d975ab4f7a799721960a77b15bb351f104b010538d9e8c692aba81f8d207e596",
       "audit": {
         "text": true,
         "options": true,
@@ -20516,9 +20516,9 @@
         "continuity": true,
         "answer": true
       },
-      "asset_sha256": "111ca722dbe44cca3a02b0de2e2d6c317e32a03e8857d897791325b7bbb993fd",
+      "asset_sha256": "433f74c11d237a8a8ea0d0bc0cc1186600c8b8e6ff05e112a1ec6d331d509a91",
       "display_assets_sha256": {
-        "/images/verified/batch08-2023-azul-d2-q165-source.png": "111ca722dbe44cca3a02b0de2e2d6c317e32a03e8857d897791325b7bbb993fd",
+        "/images/verified/batch08-2023-azul-d2-q165-source.png": "433f74c11d237a8a8ea0d0bc0cc1186600c8b8e6ff05e112a1ec6d331d509a91",
         "/images/verified/batch08-2023-azul-d2-q165-support.png": "9d4712cf27e7e30ce428e31c17602740847b1ca2502fb4f7d570187df4864f11"
       },
       "reviewed_at": "2026-10-27",

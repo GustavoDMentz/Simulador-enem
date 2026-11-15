@@ -17,6 +17,7 @@ import glob
 import hashlib
 import io
 import json
+import math
 import re
 from pathlib import Path
 
@@ -148,6 +149,14 @@ def main():
             skipped.append((qid, ref, "render base não reproduz o recorte antigo"))
             continue
         nb = extend(page, box)
+        sides = {f.split("_")[1] for f in v["flags"] if f.startswith("CLIP")}
+        if "TOP" not in sides:
+            nb[1] = box[1]
+        if "BOTTOM" not in sides:
+            nb[3] = box[3]
+        # extensões em pixels inteiros: mantém a grade de pixels do recorte antigo
+        nb[1] = box[1] - math.ceil((box[1] - nb[1]) * scale - 1e-6) / scale
+        nb[3] = box[3] + math.ceil((nb[3] - box[3]) * scale - 1e-6) / scale
         if nb == box:
             skipped.append((qid, ref, "nenhuma linha cruzada pela borda"))
             continue
@@ -177,8 +186,10 @@ def main():
     for s in skipped:
         print("  pulado", *s)
     if args.apply:
-        Path(args.changes).write_text(json.dumps({"schema_version": 1, "corrections": changes},
-                                                 ensure_ascii=False, indent=1), encoding="utf-8")
+        cf = Path(args.changes)
+        doc = json.loads(cf.read_text(encoding="utf-8")) if cf.exists() else {"schema_version": 1, "corrections": []}
+        doc["corrections"] += changes
+        cf.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
         print("registro:", args.changes)
 
 
