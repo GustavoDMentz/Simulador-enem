@@ -21,6 +21,18 @@ from audit_official_gabaritos import extract_pdf  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 AREAS = {1: ("LC", "CH"), 2: ("CN", "MT")}
 MIN_MATCH, MAX_OTHER = 0.97, 0.60
+START = {"LC": 1, "CH": 46, "CN": 91, "MT": 136}  # primeira posição global de cada área
+
+
+def global_pos(area, rows):
+    """Posição global (1–180). Até 2017 o CSV traz posições relativas à área; em LC as questões
+    comuns começam na posição 6 (global) e, em 2017, aparecem a partir da 11 (1–5 inglês, 6–10 espanhol)."""
+    first = min(int(r["CO_POSICAO"]) for r in rows)
+    if area == "LC":
+        off = 6 - first
+    else:
+        off = START[area] - first if first < START[area] else 0
+    return {id(r): int(r["CO_POSICAO"]) + off for r in rows}
 
 
 def resolve_year(year):
@@ -28,6 +40,11 @@ def resolve_year(year):
     by_prova = collections.defaultdict(list)
     for r in rows:
         by_prova[(r["CO_PROVA"], r["SG_AREA"])].append(r)
+    gpos = {}
+    for (prova, a), rs in by_prova.items():
+        if a == "LC":  # linhas de idioma (TP_LINGUA 0/1, questões 1–5 em inglês/espanhol) ficam de fora
+            by_prova[(prova, a)] = rs = [r for r in rs if r["TP_LINGUA"] == ""]
+        gpos.update(global_pos(a, rs))
     out, evidence = {}, []
     for day, areas in AREAS.items():
         key_pdf = ROOT / f"data/enem-pdfs/oficiais/{year}-regular-d{day}-azul-gabarito.pdf"
@@ -42,19 +59,24 @@ def resolve_year(year):
                 if a != area:
                     continue
                 # anuladas (PDF sem letra / CSV "X") não entram na comparação
-                comp = [r for r in rs if not (area == "LC" and int(r["CO_POSICAO"]) <= 5) and key.get(int(r["CO_POSICAO"])) in tuple("ABCDE")
+                comp = [r for r in rs if not (area == "LC" and gpos[id(r)] <= 5) and key.get(gpos[id(r)]) in tuple("ABCDE")
                         and r["TX_GABARITO"] in tuple("ABCDE")]
-                m = sum(1 for r in comp if key[int(r["CO_POSICAO"])] == r["TX_GABARITO"])
+                m = sum(1 for r in comp if key[gpos[id(r)]] == r["TX_GABARITO"])
                 scored.append((m / len(comp) if comp else 0.0, m, len(comp), prova))
             scored.sort(reverse=True)
             best = scored[0]
-            ok = best[0] >= MIN_MATCH and all(s[0] <= MAX_OTHER for s in scored[1:])
+            top = [x for x in scored if x[0] >= MIN_MATCH]
+            # vários CO_PROVA azuis podem trazer a mesma prova (regular e reaplicação com os mesmos itens):
+            # só é aceito se todos mapeiam posição -> CO_ITEM de forma idêntica
+            maps = [{gpos[id(r)]: r["CO_ITEM"] for r in by_prova[(x[3], area)]} for x in top]
+            ok = bool(top) and all(m == maps[0] for m in maps) and all(x[0] <= MAX_OTHER for x in scored if x not in top)
             evidence.append(dict(year=year, day=day, area=area, chosen_co_prova=best[3] if ok else None, resolved=ok,
+                                 equivalent_co_prova=[x[3] for x in top[1:]] if ok else [],
                                  candidates=[dict(co_prova=s[3], agree=s[1], compared=s[2], ratio=round(s[0], 3)) for s in scored]))
             if not ok:
                 continue
             for r in by_prova[(best[3], area)]:
-                pos = int(r["CO_POSICAO"])
+                pos = gpos[id(r)]
                 if area == "LC" and pos <= 5:
                     continue  # posições 1-5 têm variante de idioma; não resolvidas aqui
                 uid = f"{year}_AZUL_D{day}_Q{pos:02d}"
