@@ -57,6 +57,25 @@ def safe_alternativas(alts, flags):
     return alts, False
 
 
+def replay_png(pdf, renders):
+    """PNG gerado exatamente como o replay (documento novo + store_shrink antes do primeiro render), para que o hash bata:
+    o cache de imagens do MuPDF faz o mesmo recorte variar de um processo/estado para outro."""
+    from PIL import Image
+    with fitz.open(pdf) as document:
+        fitz.TOOLS.store_shrink(100)
+        panels = []
+        for r in renders:
+            sc = r["scale"]
+            pix = document[r["page"] - 1].get_pixmap(matrix=fitz.Matrix(sc, sc), clip=fitz.Rect(r["bbox"]), alpha=False)
+            panels.append(Image.frombytes("RGB", (pix.width, pix.height), pix.samples).crop(tuple(r["pixel_trim"])))
+    img = Image.new("RGB", (max(p.width for p in panels), sum(p.height for p in panels)), "white")
+    top = 0
+    for p in panels:
+        img.paste(p, (0, top)); top += p.height
+    buf = BytesIO(); img.save(buf, format="PNG")
+    return buf.getvalue(), img.size
+
+
 def content_rect(page, rect):
     """União de texto, imagens e desenhos da região (sem marcas escuras da margem e sem a barra do cabeçalho)."""
     boxes = []
@@ -287,11 +306,7 @@ def main():
             if bad_all:
                 failures.append((uid, bad_all)); continue
             text = "\n".join(texts)
-            img = Image.new("RGB", (max(p.width for p in panels), sum(p.height for p in panels)), "white")
-            top = 0
-            for p in panels:
-                img.paste(p, (0, top)); top += p.height
-            buf = BytesIO(); img.save(buf, format="PNG"); data = buf.getvalue()
+            data, size = replay_png(pdf, renders)
             image = f"/images/verified/batch{batch}-{year}-azul-d{day}-q{n:03d}-source.png"
             content = dict(provisional, metadados_visual=dict(contem_imagem=True, descricao_imagem=DESCRIPTION, caminho_local_imagem=image))
             q = dict(pending, conteudo=content, gabarito_oficial=c["answer"])
@@ -306,7 +321,7 @@ def main():
                 after_content=content, record_sha256=digest,
                 presentation_metadata=dict(mode="composition", includes_command=True, source=image, source_sha256=sha_bytes(data),
                                            evidence=f"data/audit/batch-{batch}-review.json", record_sha256=digest),
-                assets=dict(source=dict(image=image, sha256=sha_bytes(data), render=renders, width=img.size[0], height=img.size[1])),
+                assets=dict(source=dict(image=image, sha256=sha_bytes(data), render=renders, width=size[0], height=size[1])),
                 visual_review=dict.fromkeys(["text", "options", "graphics", "credits", "continuity", "answer"], True),
                 identity_reconciliation=dict(
                     method="official ITENS_PROVA: the azul CO_PROVA whose answer sequence equals the official key (data/audit/identity-resolution.json)",
