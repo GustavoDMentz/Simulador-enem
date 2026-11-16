@@ -31,6 +31,7 @@ from segment_question_candidates import find_headers  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 TOP, BOTTOM = 57.0, 740.0
 OPT = re.compile(r"^([A-E])\s*\t(.*)$")
+OPT2 = re.compile(r"^([A-E])\s{2,}(\S.*)$")  # PDFs em que a letra vem separada por espaços, sem tabulação
 DEIXIS = re.compile(r"\b(texto|trecho|fragmento|figura|imagem|gr[aá]fico|tabela|charge|tirinha|poema|mapa|quadro|"
                     r"infogr[aá]fico|fotografia|can[cç][aã]o|letra|an[uú]ncio|cartaz|pintura|obra|cena|ilustra[cç][aã]o)\b", re.I)
 CREDIT = re.compile(r"(Dispon[ií]vel em|Acesso em|\(adaptad[oa]\)|\(fragmento\)|Fonte:|Dispon[ií]vel em:)", re.I)
@@ -185,7 +186,11 @@ def parse(lines_all):
     pairs = [p for i, p in enumerate(pairs)
              if not (re.fullmatch(r"[A-E]", p[0].strip()) and i + 1 < len(pairs) and pairs[i + 1][0].startswith(p[0].strip() + "\t"))]
     lines = [t for t, *_ in pairs]
+    opt_re = OPT
     first_opt = next((i for i, ln in enumerate(lines) if OPT.match(ln)), None)
+    if first_opt is None:
+        first_opt = next((i for i, ln in enumerate(lines) if OPT2.match(ln)), None)
+        opt_re = OPT2
     if first_opt is None:
         return None, ["sem_alternativas"]
     stem, opts = lines[:first_opt], {}
@@ -194,7 +199,7 @@ def parse(lines_all):
         flags.append("caractere_estranho_ou_ligadura")
     cur = None
     for ln in lines[first_opt:]:
-        m = OPT.match(ln)
+        m = opt_re.match(ln)
         if m and m.group(1) not in opts and (cur is None or ord(m.group(1)) == ord(cur) + 1):
             cur = m.group(1)
             opts[cur] = m.group(2).strip()
