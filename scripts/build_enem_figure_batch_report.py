@@ -37,8 +37,18 @@ TEXT_OVERRIDES = {
         enunciado="Com base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
         texto_base_append=" Esta é a matriz obtida para essa análise: a matriz A é apresentada na imagem."),
     "2018_AZUL_D2_Q152": dict(enunciado="Esse conjunto é dado pelos pares ordenados (x ; y) ∈ ℕ × ℕ, tais que"),
+    "2021_AZUL_D1_Q43": dict(enunciado="A sequência dos quadrinhos conjuga lirismo e violência ao"),
+    "2021_AZUL_D2_Q130": dict(
+        enunciado="O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
+        texto_base_append="Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. "
+                          "Em geral, essas substâncias são ésteres, como as apresentadas no quadro (nome, fórmula e aroma)."),
+    "2021_AZUL_D2_Q144": dict(enunciado="Qual é a média das idades, em ano, desses alunos?"),
 }
 HEADER = re.compile(r"^\s*Quest[ãa]o\s+(\d+)\s*$", re.I)
+
+
+RECOVERY_PATH = ROOT / "data/audit/text-recovery-2021.json"
+RECOVERY = json.loads(RECOVERY_PATH.read_text()) if RECOVERY_PATH.exists() else {"items": {}}
 
 
 def sha_bytes(b):
@@ -116,16 +126,17 @@ def content_rect(page, rect):
 MARK = re.compile(r"^([A-E])(?:[\s\t]+\S.{0,14})?$")
 
 
-def graphic_content(doc, regions, number):
+def graphic_content(doc, regions, number, lines=None):
     """Conteúdo de questões cujas alternativas são gráficas ou não saem como texto: o comando vem das linhas antes
     da primeira letra da sequência A–E (mesma coluna), e as alternativas recebem o texto de apoio padrão.
     Reprova (ValueError) se as cinco letras A–E não aparecerem em sequência na mesma coluna."""
-    lines = []
-    for reg in regions:
-        page = doc[reg["page"] - 1]
-        for t, x, z in raw_lines(page, fitz.Rect(reg["bbox"])):
-            if t.strip():
-                lines.append((clean(t.strip()), x))
+    if lines is None:
+        lines = []
+        for reg in regions:
+            page = doc[reg["page"] - 1]
+            for t, x, z in raw_lines(page, fitz.Rect(reg["bbox"])):
+                if t.strip():
+                    lines.append((clean(t.strip()), x))
     head = next((i for i, (t, _) in enumerate(lines[:3]) if HEADER.match(t)), None)
     if head is not None:
         lines = lines[head + 1:]  # descarta ruído antes do cabeçalho "Questão n"
@@ -265,10 +276,14 @@ def main():
             c, r = cand[n], ident[uid]
             assert c["regions"], uid
             assert r["tx_gabarito"] == c["answer"] == r["official_key"], f"identidade não corroborada: {uid}"
-            src = c["content"]
+            src, rec = c["content"], RECOVERY["items"].get(uid)
+            if rec:  # 2021: camada de texto do azul corrompida; texto recuperado de outros cadernos pelo CO_ITEM
+                if rec["lacunas"] and not rec["transcricao_manual"]:
+                    failures.append((uid, ["texto corrompido sem transcrição"])); continue
+                src = rec["content"]
             if not (src and len(src["alternativas"]) == 5):
                 try:
-                    src = graphic_content(doc, c["regions"], n)
+                    src = graphic_content(doc, c["regions"], n, lines=list(zip(map(clean, rec["text_lines"]), rec["line_x"])) if rec else None)
                 except ValueError as e:
                     failures.append((uid, [str(e)])); continue
             alts, replaced = safe_alternativas(src["alternativas"], c["flags"])
@@ -305,7 +320,7 @@ def main():
                 panels.append(Image.frombytes("RGB", (pm.width, pm.height), pm.samples))
             if bad_all:
                 failures.append((uid, bad_all)); continue
-            text = "\n".join(texts)
+            text = "\n".join(rec["text_lines"]) if rec else "\n".join(texts)
             data, size = replay_png(pdf, renders)
             image = f"/images/verified/batch{batch}-{year}-azul-d{day}-q{n:03d}-source.png"
             content = dict(provisional, metadados_visual=dict(contem_imagem=True, descricao_imagem=DESCRIPTION, caminho_local_imagem=image))
@@ -328,7 +343,10 @@ def main():
                     co_item=r["co_item"], co_prova=r["co_prova"], tx_gabarito=r["tx_gabarito"], official_answer=c["answer"],
                     independent_item_csv="official Inep ITENS_PROVA (see data/audit/identity/sources.json)",
                     note="CO_ITEM não vem do fused (CO_PROVA azul diferente do caderno do PDF)."),
-                parser_flags=c["flags"], manual_text_overrides=sorted(fix) or None, options_replaced_by_placeholder=replaced))
+                parser_flags=c["flags"] + (["texto_recuperado_de_outros_cadernos"] if rec else []),
+                text_recovery=dict(file="data/audit/text-recovery-2021.json", co_item=rec["co_item"], cadernos_usados=rec["cadernos_usados"],
+                                   lacunas_transcritas=rec["lacunas"], linhas_por_origem=rec["linhas_por_origem"]) if rec else None,
+                manual_text_overrides=sorted(fix) or None, options_replaced_by_placeholder=replaced))
     release_path = ROOT / "data/blue-published/questions.jsonl"
     lines = release_path.read_bytes().splitlines(keepends=True)
     prev = {json.loads(l)["id_unico_sistema"]: l for l in lines}
