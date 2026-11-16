@@ -14,8 +14,11 @@ def test_identity_resolution_is_bound_to_official_sources_and_key():
     assert set(report['sources']) == {'2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'} == set(sources)
     for s in sources.values():
         assert s['url'].startswith('https://download.inep.gov.br/microdados/') and len(s['csv_sha256']) == 64
-    assert len(report['items']) == 1577 and report['published_with_wrong_co_item'] == 160  # +37 de idioma (LC 1–5)
+    assert len(report['items']) == 1612 and report['published_with_wrong_co_item'] == 160  # +37 de idioma (LC 1–5)
     assert report['language_resolution']['resolved'] == 37 and report['language_resolution']['published_with_wrong_co_item'] == 24 and not report['language_resolution']['unresolved']
+    d = report['digital_resolution']  # 2020 D2 aplicação digital, pelo gabarito oficial digital
+    assert d['resolved'] == 35 and d['published_with_wrong_co_item'] == 19 and not d['unresolved'] and len(d['key_sha256']) == 64
+    assert {e['area']: e['chosen_co_prova'] for e in d['evidence']} == {'CN': '699', 'MT': '695'}
     assert len(report['skipped_other_application']) == 35  # 2020 D2 digital
     resolved = [e for e in report['evidence'] if e['resolved']]
     assert len(resolved) == 36 and len(report['evidence']) == 36
