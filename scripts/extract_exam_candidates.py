@@ -33,8 +33,42 @@ ROOT = Path(__file__).resolve().parent.parent
 REGION_KEEP = {
     (2021, 1, 45): [0], (2021, 2, 118): [0], (2021, 2, 120): [0], (2021, 2, 138): [0], (2021, 2, 161): [0],
     # contracapa (logo) e faixa de cabeçalho da página ("Exame Nacional do Ensino Médio") detectadas como continuação
-    (2022, 2, 180): [0], (2025, 2, 108): [0], (2025, 2, 119): [0], (2025, 2, 127): [0], (2025, 2, 130): [0], (2025, 2, 135): [0],
+    (2022, 2, 180): [0], (2025, 2, 108): [0], (2025, 2, 119): [0], (2025, 2, 127): [0], (2025, 2, 130): [0], (2025, 2, 135): [0, 2],  # 135: região 2 = coluna das alternativas (EXTRA_REGION)
+    # questão que ocupa a página inteira: a "continuação" é a mesma página relida desde o topo (região duplicada)
+    (2017, 2, 121): [0], (2017, 2, 152): [0], (2018, 2, 159): [0], (2018, 2, 173): [0], (2019, 2, 139): [0],
+    (2022, 2, 95): [0], (2022, 2, 156): [0], (2023, 2, 132): [0], (2024, 2, 161): [0], (2024, 2, 168): [0],
+    (2025, 2, 138): [0], (2025, 2, 169): [0],
+    # a página repete a questão vizinha acima ou abaixo: só a primeira região é da questão
+    (2018, 2, 126): [0],
+    (2024, 2, 180): [0],  # a continuação é o logo "enem" da contracapa
+    (2020, 1, 58): [0],  # a faixa de 15 pt no topo da outra coluna é só o resto da questão vizinha
 }
+# (ano, dia, questão) -> x0 da região de continuação: ela vem numa faixa de largura total que traz o fim da questão vizinha
+# na coluna esquerda; só a coluna direita é continuação (conferido na imagem)
+CONT_X0 = {(2025, 1, 16): 283.46, (2025, 1, 44): 283.46, (2025, 1, 50): 283.46, (2025, 1, 67): 283.46}
+# (ano, dia, questão) -> regiões acrescentadas (página 0-based, x0, y0, x1, y1): alternativas na coluna direita da mesma página
+EXTRA_REGION = {(2025, 2, 135): [(14, 283.46, 57.0, 567.0, 740.0)]}
+# questões cujas letras A–E vêm com espaços em vez de tabulação (A com um espaço, E com um espaço…): normaliza para "X\t"
+SPACE_OPT = {(2020, 1, 38), (2020, 1, 57), (2020, 1, 58)}
+
+
+def tab_options(lines):
+    """Troca por tabulação as letras A–E em sequência (a última ocorrência de 'A' em diante) separadas só por espaços."""
+    pat = re.compile(r"^([A-E])\s+(?=\S)")
+    idx = [i for i, (t, *_) in enumerate(lines) if pat.match(t)]
+    starts = [i for i in idx if lines[i][0][0] == "A"]
+    if not starts:
+        return lines
+    out, want = list(lines), "A"
+    for i in idx:
+        if i < starts[-1] or lines[i][0][0] != want:
+            continue
+        t, *rest = lines[i]
+        out[i] = (pat.sub(want + "\t", t, count=1), *rest)
+        want = chr(ord(want) + 1)
+    return out
+
+
 TOP, BOTTOM = 57.0, 740.0
 OPT = re.compile(r"^([A-E])\s*\t(.*)$")
 OPT2 = re.compile(r"^([A-E])\s{2,}(\S.*)$")  # PDFs em que a letra vem separada por espaços, sem tabulação
@@ -274,6 +308,8 @@ def candidates(year, day):
         page_i, rect, open_end = region_for(doc, heads, h)
         regions = [(page_i, rect, False)]
         lines = raw_lines(doc[page_i], rect)
+        if (year, day, n) in SPACE_OPT:
+            lines = tab_options(lines)
         content, flags = parse(lines)
         if content is None and open_end:
             cont = continuation(doc, heads, h)
@@ -281,6 +317,16 @@ def candidates(year, day):
                 regions.append((cont[0], cont[1], True))
                 lines = lines + raw_lines(doc[cont[0]], cont[1])
                 content, flags = parse(lines)
+        if (year, day, n) in CONT_X0 and len(regions) > 1:
+            pg, r, flag = regions[1]
+            regions[1] = (pg, fitz.Rect(CONT_X0[(year, day, n)], r.y0, r.x1, r.y1), flag)
+            lines = sum((raw_lines(doc[pg_], r_) for pg_, r_, _ in regions), [])
+            content, flags = parse(lines)
+        if (year, day, n) in EXTRA_REGION:
+            for pg, x0, y0, x1, y1 in EXTRA_REGION[(year, day, n)]:
+                regions.append((pg, fitz.Rect(x0, y0, x1, y1), True))
+            lines = sum((raw_lines(doc[pg_], r_) for pg_, r_, _ in regions), [])
+            content, flags = parse(lines)
         if (year, day, n) in REGION_KEEP:  # a continuação detectada é outra coisa (ex.: instruções da redação)
             regions = [regions[i] for i in REGION_KEEP[(year, day, n)]]
             flags = [f for f in flags if f != "continua_em_outra_coluna_ou_pagina"]
