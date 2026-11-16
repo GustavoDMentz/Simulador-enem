@@ -66,6 +66,9 @@ def content_rect(page, rect):
         f = d.get("fill")
         if f and all(0.28 <= c <= 0.33 for c in f) and (r.width < 35 or r.height < 35) and (r.x0 < 25 or r.x1 > page.rect.width - 25 or r.x0 < 0):
             continue  # marca escura da margem da página
+        pr = page.rect
+        if f and r.width < 60 and (r.x0 < pr.x0 or r.y0 < pr.y0 or r.x1 > pr.x1 or r.y1 > pr.y1):
+            continue  # marca preenchida que sai da página (aba de margem)
         if r.x0 >= rect.x0 + 1 and r.width < 500:
             boxes.append(r & rect)
     u = boxes[0]
