@@ -12,7 +12,7 @@ test('identity: every area resolves to exactly one azul CO_PROVA that matches th
 });
 test('identity: published records get the resolved CO_ITEM and a verified status',()=>{
  const id=readIdentity(),rows=load();
- assert.equal(id.size,1577);
+ assert.equal(id.size,1612);
  let changed=0;
  for(const q of rows){
   const r=id.get(q.id_unico_sistema);if(!r)continue;
@@ -21,7 +21,7 @@ test('identity: published records get the resolved CO_ITEM and a verified status
  }
  const original=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'),'utf8').trim().split('\n').map(JSON.parse);
  for(const q of original){const r=id.get(q.id_unico_sistema);if(r&&r.co_item!==q.co_item)changed++}
- assert.equal(changed,184);
+ assert.equal(changed,203);
 });
 test('identity: joined TRI rows agree with the official answer after the correction',()=>{
  const ext=readTri();let joined=0;

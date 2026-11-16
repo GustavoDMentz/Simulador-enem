@@ -5,7 +5,7 @@ const {load,readTri,withTri} = require('../published-questions');
 
 test('official TRI rows are valid, unique and VERIFIED', () => {
  const tri = readTri();
- assert.equal(tri.size, 1551);
+ assert.equal(tri.size, 1586);
  for (const p of tri.values()) assert.equal(p.status, 'VERIFIED');
 });
 test('published questions expose the official TRI parameters without changing answers', () => {
@@ -23,7 +23,7 @@ test('published questions expose the official TRI parameters without changing an
   assert.equal(q.parametros_tri.status, 'VERIFIED');
   assert.equal(p.gabarito_oficial, q.gabarito_oficial);
  }
- assert.equal(joined, 893);
+ assert.equal(joined, 928);
 });
 test('an answer that disagrees with the official row blocks the join', () => {
  const q = {ano:2024,co_item:14475,area_conhecimento:'LC',gabarito_oficial:'C',id_unico_sistema:'sample'};

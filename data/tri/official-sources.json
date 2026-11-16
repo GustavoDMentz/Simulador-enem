@@ -23,7 +23,7 @@
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2020.zip",
       "entry": "DADOS/ITENS_PROVA_2020.csv",
       "csv_sha256": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
-      "items": 144
+      "items": 179
     },
     "2021": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2021.zip",

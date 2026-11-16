@@ -15365,12 +15365,434 @@
    "co_prova": 1459,
    "official_key": "A",
    "lingua": "ingles"
+  },
+  "2020_AZUL_D2_Q101": {
+   "co_item": 40441,
+   "co_habilidade": 27,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 699,
+   "official_key": "C",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q102": {
+   "co_item": 62176,
+   "co_habilidade": 14,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 699,
+   "official_key": "B",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q106": {
+   "co_item": 77720,
+   "co_habilidade": 16,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 699,
+   "official_key": "E",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q107": {
+   "co_item": 82599,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 699,
+   "official_key": "E",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q111": {
+   "co_item": 97662,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 699,
+   "official_key": "C",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q113": {
+   "co_item": 31408,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 699,
+   "official_key": "A",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q115": {
+   "co_item": 83996,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "E",
+   "co_prova": 699,
+   "official_key": "E",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q118": {
+   "co_item": 52675,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 699,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q120": {
+   "co_item": 59924,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 699,
+   "official_key": "C",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q121": {
+   "co_item": 82301,
+   "co_habilidade": 17,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 699,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q123": {
+   "co_item": 37072,
+   "co_habilidade": 23,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 699,
+   "official_key": "B",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q125": {
+   "co_item": 56271,
+   "co_habilidade": 19,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 699,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q126": {
+   "co_item": 88640,
+   "co_habilidade": 30,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "B",
+   "co_prova": 699,
+   "official_key": "B",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q127": {
+   "co_item": 42284,
+   "co_habilidade": 15,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 699,
+   "official_key": "A",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q128": {
+   "co_item": 60859,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 699,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q129": {
+   "co_item": 88359,
+   "co_habilidade": 22,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 699,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q131": {
+   "co_item": 59505,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 699,
+   "official_key": "C",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q135": {
+   "co_item": 48544,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 699,
+   "official_key": "A",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q138": {
+   "co_item": 14369,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 695,
+   "official_key": "B",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q144": {
+   "co_item": 27348,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 695,
+   "official_key": "E",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q146": {
+   "co_item": 10112,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "B",
+   "co_prova": 695,
+   "official_key": "B",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q147": {
+   "co_item": 48920,
+   "co_habilidade": 25,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 695,
+   "official_key": "A",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q154": {
+   "co_item": 23267,
+   "co_habilidade": 24,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 695,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q155": {
+   "co_item": 23775,
+   "co_habilidade": 20,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 695,
+   "official_key": "E",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q156": {
+   "co_item": 86006,
+   "co_habilidade": 29,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 695,
+   "official_key": "E",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q166": {
+   "co_item": 15485,
+   "co_habilidade": 2,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 695,
+   "official_key": "C",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q169": {
+   "co_item": 44567,
+   "co_habilidade": 4,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 695,
+   "official_key": "A",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q173": {
+   "co_item": 84320,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "C",
+   "co_prova": 695,
+   "official_key": "C",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q175": {
+   "co_item": 96385,
+   "co_habilidade": 26,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "A",
+   "co_prova": 695,
+   "official_key": "A",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q176": {
+   "co_item": 10220,
+   "co_habilidade": 10,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 695,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q177": {
+   "co_item": 81405,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "D",
+   "co_prova": 695,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q180": {
+   "co_item": 22700,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "MT",
+   "tx_gabarito": "E",
+   "co_prova": 695,
+   "official_key": "E",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q91": {
+   "co_item": 97904,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "D",
+   "co_prova": 699,
+   "official_key": "D",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q93": {
+   "co_item": 84177,
+   "co_habilidade": 1,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "A",
+   "co_prova": 699,
+   "official_key": "A",
+   "aplicacao": "digital"
+  },
+  "2020_AZUL_D2_Q96": {
+   "co_item": 97821,
+   "co_habilidade": 11,
+   "in_item_aban": 0,
+   "area": "CN",
+   "tx_gabarito": "C",
+   "co_prova": 699,
+   "official_key": "C",
+   "aplicacao": "digital"
   }
  },
  "language_resolution": {
   "method": "posições 1–5 de LC: ITENS_PROVA (CO_PROVA escolhido, TP_LINGUA 0=inglês/1=espanhol) + idioma do manifesto conferido pela seção do PDF + gabarito do idioma",
   "resolved": 37,
   "published_with_wrong_co_item": 24,
+  "unresolved": []
+ },
+ "digital_resolution": {
+  "method": "2020 D2 aplicação digital: CO_PROVA azul cuja sequência de respostas é a do gabarito oficial digital; resposta do ITENS_PROVA = gabarito digital = gabarito publicado",
+  "key_sha256": "2a47b812782a96432801c4b6ff3c7e25dbbbb8ea90a1b7a74974660c69279d93",
+  "key_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_digital_D2_CD7.pdf",
+  "evidence": [
+   {
+    "area": "CN",
+    "chosen_co_prova": "699",
+    "resolved": true,
+    "candidates": [
+     {
+      "co_prova": "699",
+      "agree": 45,
+      "compared": 45,
+      "ratio": 1.0
+     },
+     {
+      "co_prova": "677",
+      "agree": 9,
+      "compared": 44,
+      "ratio": 0.205
+     },
+     {
+      "co_prova": "637",
+      "agree": 9,
+      "compared": 44,
+      "ratio": 0.205
+     },
+     {
+      "co_prova": "597",
+      "agree": 9,
+      "compared": 44,
+      "ratio": 0.205
+     }
+    ]
+   },
+   {
+    "area": "MT",
+    "chosen_co_prova": "695",
+    "resolved": true,
+    "candidates": [
+     {
+      "co_prova": "695",
+      "agree": 44,
+      "compared": 44,
+      "ratio": 1.0
+     },
+     {
+      "co_prova": "587",
+      "agree": 12,
+      "compared": 44,
+      "ratio": 0.273
+     },
+     {
+      "co_prova": "667",
+      "agree": 8,
+      "compared": 44,
+      "ratio": 0.182
+     },
+     {
+      "co_prova": "627",
+      "agree": 8,
+      "compared": 44,
+      "ratio": 0.182
+     }
+    ]
+   }
+  ],
+  "resolved": 35,
+  "published_with_wrong_co_item": 19,
   "unresolved": []
  }
 }
