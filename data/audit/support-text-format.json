@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "note": "Formatação de exibição (expoentes, índices e frações) do texto-base das questões transcritas à mão. Cada troca [de, para, ocorrências] só pode mudar a forma dos caracteres: o texto resultante, normalizado (NFKC, sinal de menos e barra de fração unificados, sem espaços), tem de ser idêntico ao do registro auditado, que não é alterado. Serve apenas à descrição da imagem (alt).",
+  "questions": {
+    "2017_AZUL_D2_Q121": {
+      "texto_base": [
+        [
+          "Ce4+",
+          "Ce⁴⁺",
+          1
+        ],
+        [
+          "Ce3+",
+          "Ce³⁺",
+          1
+        ],
+        [
+          "e−",
+          "e⁻",
+          4
+        ],
+        [
+          "Cr2O7 2−",
+          "Cr₂O₇²⁻",
+          1
+        ],
+        [
+          "H+",
+          "H⁺",
+          1
+        ],
+        [
+          "Cr3+",
+          "Cr³⁺",
+          1
+        ],
+        [
+          "H2O",
+          "H₂O",
+          1
+        ],
+        [
+          "Ni2+",
+          "Ni²⁺",
+          1
+        ],
+        [
+          "Zn2+",
+          "Zn²⁺",
+          1
+        ]
+      ]
+    },
+    "2022_AZUL_D2_Q108": {
+      "texto_base": [
+        [
+          "L−1",
+          "L⁻¹",
+          1
+        ],
+        [
+          "mol−1",
+          "mol⁻¹",
+          1
+        ],
+        [
+          "H2O",
+          "H₂O",
+          1
+        ]
+      ]
+    },
+    "2022_AZUL_D2_Q156": {
+      "texto_base": [
+        [
+          "1/4 OM",
+          "¼ OM",
+          1
+        ],
+        [
+          "1/2 OM",
+          "½ OM",
+          1
+        ]
+      ]
+    },
+    "2023_AZUL_D2_Q132": {
+      "texto_base": [
+        [
+          "P0",
+          "P₀",
+          1
+        ],
+        [
+          "T0",
+          "T₀",
+          1
+        ]
+      ]
+    },
+    "2023_AZUL_D2_Q170": {
+      "texto_base": [
+        [
+          "V0",
+          "V₀",
+          6
+        ]
+      ]
+    },
+    "2024_AZUL_D2_Q148": {
+      "texto_base": [
+        [
+          "b^t",
+          "bᵗ",
+          1
+        ]
+      ]
+    }
+  },
+  "alternativas_transcritas_note": "Alternativas que são fórmulas (o registro guarda o marcador de reprodução gráfica): transcritas à mão da imagem do recorte durante o lote de origem, em forma linear com expoentes e frações. Entram só na descrição da imagem (alt).",
+  "alternativas_transcritas": {
+    "2017_AZUL_D2_Q136": {
+      "A": "P[1 + 1/(1 + i/100) + 1/(1 + i/100)²]",
+      "B": "P[1 + 1/(1 + i/100) + 1/(1 + 2i/100)]",
+      "C": "P[1 + 1/(1 + i/100)² + 1/(1 + i/100)²]",
+      "D": "P[1/(1 + i/100) + 1/(1 + 2i/100) + 1/(1 + 3i/100)]",
+      "E": "P[1/(1 + i/100) + 1/(1 + i/100)² + 1/(1 + i/100)³]"
+    },
+    "2024_AZUL_D2_Q148": {
+      "A": "a = 20; b = log(0,5)",
+      "B": "a = 100; b = 0,5",
+      "C": "a = 20; b = (0,5)^(1/10)",
+      "D": "a = 20; b = (40)^(1/10)/80",
+      "E": "a = 20; b = 40"
+    },
+    "2025_AZUL_D2_Q160": {
+      "A": "D = 2,5 + tg[30(T − (5 − 2π)/2)]",
+      "B": "D = 4 + tg[30(T + 5/2)]",
+      "C": "D = 4 + tg[2,5(T + (5 + 2π)/2)]",
+      "D": "D = 30 + tg[(1/2)(T − 5)]",
+      "E": "D = 30 + tg[(1/2)(T − 5/2)]"
+    }
+  }
+}
