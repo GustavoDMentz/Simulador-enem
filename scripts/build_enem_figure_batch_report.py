@@ -29,6 +29,15 @@ ROOT = Path(__file__).resolve().parent.parent
 SCALE = 2.5
 PAD = 6.0
 DESCRIPTION = "Recorte original da prova oficial (texto, figuras, comando e alternativas) para conferência. Abra para ampliar."
+STRANGE = re.compile("[\ue000-\uf8ff\ufffd\x00-\x08\x0b-\x1f]")
+# Correções de texto conferidas na imagem do recorte, onde a camada de texto do PDF traz glifos privados de fórmulas
+# (o texto é lido por leitores de tela quando a questão é exibida como recorte). id -> campos substituídos.
+TEXT_OVERRIDES = {
+    "2018_AZUL_D2_Q136": dict(
+        enunciado="Com base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
+        texto_base_append=" Esta é a matriz obtida para essa análise: a matriz A é apresentada na imagem."),
+    "2018_AZUL_D2_Q152": dict(enunciado="Esse conjunto é dado pelos pares ordenados (x ; y) ∈ ℕ × ℕ, tais que"),
+}
 HEADER = re.compile(r"^\s*Quest[ãa]o\s+(\d+)\s*$", re.I)
 
 
@@ -144,7 +153,11 @@ def main():
             bad = gates(page, crop, n)
             if bad:
                 failures.append((uid, bad)); continue
-            provisional = dict(enunciado=c["content"]["enunciado"], texto_base=c["content"]["texto_base"] or "",
+            fix = TEXT_OVERRIDES.get(uid, {})
+            enun = fix.get("enunciado", c["content"]["enunciado"])
+            base_text = (c["content"]["texto_base"] or "") + fix.get("texto_base_append", "")
+            assert not any(STRANGE.search(v) for v in [enun, base_text, *c["content"]["alternativas"].values()]), "glifo privado no texto: " + uid
+            provisional = dict(enunciado=enun, texto_base=base_text,
                                alternativas=c["content"]["alternativas"],
                                metadados_visual=dict(contem_imagem=False, descricao_imagem=None, caminho_local_imagem=None))
             pending = dict(id_unico_sistema=uid, co_item=r["co_item"], ano=year, dia=day, cor_prova="AZUL", posicao_prova=n,
@@ -180,7 +193,7 @@ def main():
                     co_item=r["co_item"], co_prova=r["co_prova"], tx_gabarito=r["tx_gabarito"], official_answer=c["answer"],
                     independent_item_csv="official Inep ITENS_PROVA (see data/audit/identity/sources.json)",
                     note="CO_ITEM não vem do fused (CO_PROVA azul diferente do caderno do PDF)."),
-                parser_flags=c["flags"]))
+                parser_flags=c["flags"], manual_text_overrides=sorted(fix) or None))
     release_path = ROOT / "data/blue-published/questions.jsonl"
     lines = release_path.read_bytes().splitlines(keepends=True)
     prev = {json.loads(l)["id_unico_sistema"]: l for l in lines}
