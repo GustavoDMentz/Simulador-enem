@@ -1,6 +1,6 @@
 # Base independente de parâmetros TRI
 
-Este diretório armazena exclusivamente parâmetros **verificados** de itens ENEM. A base inicia vazia: ausência de dados não autoriza estimativas ou preenchimento automático.
+Este diretório armazena exclusivamente parâmetros **verificados** de itens ENEM, copiados do ITENS_PROVA oficial do Inep por `scripts/build_official_tri.py` (ver `docs/tri-oficial.md`). Ausência de dados não autoriza estimativas ou preenchimento automático.
 
 Formato JSONL (um objeto por linha):
 

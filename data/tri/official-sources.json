@@ -1,0 +1,217 @@
+{
+  "note": "Parâmetros a, b, c copiados do ITENS_PROVA oficial do Inep, sem estimativa. Só itens da identidade resolvida.",
+  "years": {
+    "2017": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2017.zip",
+      "entry": "DADOS/ITENS_PROVA_2017.csv",
+      "csv_sha256": "bd6a258576b65be0b64ba5cee3fc8c4576e008af7672c90c4c79f3abeb6e2e0f",
+      "items": 175
+    },
+    "2018": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2018.zip",
+      "entry": "DADOS/ITENS_PROVA_2018.csv",
+      "csv_sha256": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626",
+      "items": 174
+    },
+    "2019": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2019.zip",
+      "entry": "DADOS/ITENS_PROVA_2019.csv",
+      "csv_sha256": "360fbd34557a4e9889b969c8e80e8fe139f109677bde5e6082e750a4fa227efc",
+      "items": 170
+    },
+    "2020": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2020.zip",
+      "entry": "DADOS/ITENS_PROVA_2020.csv",
+      "csv_sha256": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
+      "items": 139
+    },
+    "2021": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2021.zip",
+      "entry": "DADOS/ITENS_PROVA_2021.csv",
+      "csv_sha256": "94b1dedbe1b32cab244dcf8b7dee13a8a4c651e0edb45ca6f2d3178297efef1f",
+      "items": 171
+    },
+    "2022": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2022.zip",
+      "entry": "DADOS/ITENS_PROVA_2022.csv",
+      "csv_sha256": "58c274f15013094f950ac813fe61c29ea68a557e48e013e45ba2b3abec629400",
+      "items": 168
+    },
+    "2023": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2023.zip",
+      "entry": "microdados_enem_2023/DADOS/ITENS_PROVA_2023.csv",
+      "csv_sha256": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468",
+      "items": 173
+    },
+    "2024": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2024.zip",
+      "entry": "microdados_enem_2024/DADOS/ITENS_PROVA_2024.csv",
+      "csv_sha256": "6d8e293d1bd59f495feff9deee4aaa9b64fe82fd38a0169e4a06e81e1ade31de",
+      "items": 174
+    },
+    "2025": {
+      "url": "https://download.inep.gov.br/microdados/microdados_enem_2025.zip",
+      "entry": "microdados_enem_2025/DADOS/ITENS_PROVA_2025.csv",
+      "csv_sha256": "16688912785563f418773a5c99e562f4b43a95cac79357622f05b3d47c7a35d0",
+      "items": 170
+    }
+  },
+  "skipped_without_params": [
+    {
+      "id": "2018_AZUL_D2_Q163",
+      "ano": 2018,
+      "co_item": 30294,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2019_AZUL_D1_Q33",
+      "ano": 2019,
+      "co_item": 118260,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2019_AZUL_D1_Q48",
+      "ano": 2019,
+      "co_item": 118067,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2019_AZUL_D1_Q90",
+      "ano": 2019,
+      "co_item": 76955,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2019_AZUL_D2_Q122",
+      "ano": 2019,
+      "co_item": 83609,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2019_AZUL_D2_Q145",
+      "ano": 2019,
+      "co_item": 23065,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2020_AZUL_D2_Q157",
+      "ano": 2020,
+      "co_item": 44322,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2021_AZUL_D1_Q24",
+      "ano": 2021,
+      "co_item": 118240,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2021_AZUL_D1_Q43",
+      "ano": 2021,
+      "co_item": 118258,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2021_AZUL_D2_Q118",
+      "ano": 2021,
+      "co_item": 86378,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2021_AZUL_D2_Q138",
+      "ano": 2021,
+      "co_item": 117674,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2022_AZUL_D1_Q64",
+      "ano": 2022,
+      "co_item": 84199,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2022_AZUL_D2_Q112",
+      "ano": 2022,
+      "co_item": 89554,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2022_AZUL_D2_Q113",
+      "ano": 2022,
+      "co_item": 141605,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2022_AZUL_D2_Q119",
+      "ano": 2022,
+      "co_item": 64203,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2022_AZUL_D2_Q134",
+      "ano": 2022,
+      "co_item": 75845,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2022_AZUL_D2_Q141",
+      "ano": 2022,
+      "co_item": 89637,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2022_AZUL_D2_Q157",
+      "ano": 2022,
+      "co_item": 39443,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2023_AZUL_D2_Q161",
+      "ano": 2023,
+      "co_item": 86360,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2023_AZUL_D2_Q164",
+      "ano": 2023,
+      "co_item": 14887,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2024_AZUL_D2_Q129",
+      "ano": 2024,
+      "co_item": 61076,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2025_AZUL_D2_Q123",
+      "ano": 2025,
+      "co_item": 141774,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2025_AZUL_D2_Q125",
+      "ano": 2025,
+      "co_item": 96748,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2025_AZUL_D2_Q132",
+      "ano": 2025,
+      "co_item": 141557,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2025_AZUL_D2_Q172",
+      "ano": 2025,
+      "co_item": 97593,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    },
+    {
+      "id": "2025_AZUL_D2_Q174",
+      "ano": 2025,
+      "co_item": 31350,
+      "motivo": "sem parâmetros oficiais válidos (anulado/abandonado)"
+    }
+  ]
+}

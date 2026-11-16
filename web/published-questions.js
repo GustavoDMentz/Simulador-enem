@@ -7,25 +7,13 @@ const PREVIEW=path.resolve(__dirname,'../data/blue-published/preview-questions.j
 const RECOVERY=path.resolve(__dirname,'../data/audit/session-recovery/preview-questions.jsonl');
 const IDENTITY=path.resolve(__dirname,'../data/audit/identity-resolution.json');
 const TRI=path.resolve(__dirname,'../data/tri/parametros-oficiais.jsonl');
-const TRI_EXTERNAL=path.resolve(__dirname,'../data/tri/external-staging/tri-joined-2018-2025.jsonl');
-function readTri(){
+function readTri(file=TRI){
  const result=new Map();
- if(!fs.existsSync(TRI))return result;
- for(const line of fs.readFileSync(TRI,'utf8').split(/\r?\n/).filter(Boolean)){
+ if(!fs.existsSync(file))return result;
+ for(const line of fs.readFileSync(file,'utf8').split(/\r?\n/).filter(Boolean)){
   const p=JSON.parse(line),key=`${p.ano}/${p.co_item}`;
   if(p.status!=='VERIFIED'||!Number.isInteger(p.ano)||!Number.isInteger(Number(p.co_item))||!['LC','CH','CN','MT'].includes(p.area_conhecimento)||!['A','B','C','D','E'].includes(p.gabarito_oficial)||!['a','b','c'].every(k=>typeof p[k]==='number'&&Number.isFinite(p[k]))||p.a<=0||p.c<0||p.c>1||!p.fonte)throw Error('Invalid TRI record: '+key);
   if(result.has(key))throw Error('Duplicate TRI record: '+key);
-  result.set(key,p);
- }
- return result;
-}
-function readExternalTri(){
- const result=new Map();
- if(!fs.existsSync(TRI_EXTERNAL))return result;
- for(const line of fs.readFileSync(TRI_EXTERNAL,'utf8').split(/\r?\n/).filter(Boolean)){
-  const p=JSON.parse(line),key=`${p.ano}/${p.co_item}`;
-  if(p.status!=='IDENTITY_MATCHED_EXTERNAL'||!Number.isInteger(p.ano)||!Number.isInteger(p.co_item)||!['LC','CH','CN','MT'].includes(p.area_conhecimento)||!['a','b','c'].every(k=>typeof p[k]==='number'&&Number.isFinite(p[k]))||p.a<=0||p.c<0||p.c>1||!p.fonte)throw Error('Invalid external TRI: '+key);
-  if(result.has(key))throw Error('Duplicate external TRI: '+key);
   result.set(key,p);
  }
  return result;
@@ -44,14 +32,12 @@ function withIdentity(q,identity){
  if(r.tx_gabarito!==q.gabarito_oficial||r.area!==q.area_conhecimento)return {...q,co_item:null,identidade:{status:'CONFLICT',fonte:'ITENS_PROVA oficial'}};
  return {...q,co_item:r.co_item,co_habilidade:r.co_habilidade??q.co_habilidade,identidade:{status:'VERIFIED',fonte:'ITENS_PROVA oficial',co_prova:r.co_prova}};
 }
-function withTri(q,tri,external=new Map()){
- const ext=external.get(`${q.ano}/${q.co_item}`);
- const verified=tri.get(`${q.ano}/${q.co_item}`);
- const p=verified||ext;
+function withTri(q,tri){
+ const p=tri.get(`${q.ano}/${q.co_item}`);
  if(!p)return q;
  if(p.area_conhecimento!==q.area_conhecimento)throw Error('TRI item area mismatch: '+q.id_unico_sistema);
- if(verified&&p.gabarito_oficial!==q.gabarito_oficial)throw Error('Verified TRI answer mismatch: '+q.id_unico_sistema);
- return {...q,parametros_tri:{a:p.a,b:p.b,c:p.c,fonte:p.fonte,status:verified?'VERIFIED':'IDENTITY_MATCHED_EXTERNAL'}};
+ if(p.gabarito_oficial!==q.gabarito_oficial)throw Error('Verified TRI answer mismatch: '+q.id_unico_sistema);
+ return {...q,parametros_tri:{a:p.a,b:p.b,c:p.c,fonte:p.fonte,status:'VERIFIED'}};
 }
 function load(file=SOURCE){
  if(!fs.existsSync(file))return null;
@@ -61,9 +47,9 @@ function load(file=SOURCE){
  const keys=rows.map(q=>`${q.ano}/${q.dia}/${q.posicao_prova}`);
  if(new Set(ids).size!==ids.length||new Set(keys).size!==keys.length)throw Error('Duplicate question identity');
  const entries=readManifest().questions;
- const tri=readTri(),external=readExternalTri(),identity=readIdentity();
+ const tri=readTri(),identity=readIdentity();
  const display=require('./question-presentation'), displayData=display.readPresentation();
- return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>{const scored=withIdentity(forScoring(q,entries),identity);const joined=withTri(scored,tri,external);return {...joined,_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)};});
+ return (file===SOURCE?rows.filter(q=>scorable(q,entries)):rows).map(q=>{const scored=withIdentity(forScoring(q,entries),identity);const joined=withTri(scored,tri);return {...joined,_key:q._key||q.id_unico_sistema,presentation:display.presentation(q,displayData)};});
 }
 function filter(rows,query){
  for(const name of ['year','day','position'])if(query[name]!==undefined&&(!Number.isInteger(Number(query[name]))||Number(query[name])<1))throw Error('Invalid filter');
@@ -110,4 +96,4 @@ function publishedRouter(express){
  });
  return router;
 }
-module.exports={publishedRouter,load,filter,readTri,readExternalTri,withTri,readIdentity,withIdentity};
+module.exports={publishedRouter,load,filter,readTri,withTri,readIdentity,withIdentity};

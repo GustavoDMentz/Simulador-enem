@@ -1,6 +1,6 @@
 'use strict';
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),path=require('path');
-const {load,readIdentity,withIdentity,readExternalTri}=require('../published-questions');
+const {load,readIdentity,withIdentity,readTri}=require('../published-questions');
 const raw=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../data/audit/identity-resolution.json'),'utf8'));
 test('identity: every area resolves to exactly one azul CO_PROVA that matches the official key',()=>{
  const resolved=raw.evidence.filter(e=>e.resolved);
@@ -24,7 +24,7 @@ test('identity: published records get the resolved CO_ITEM and a verified status
  assert.equal(changed,160);
 });
 test('identity: joined TRI rows agree with the official answer after the correction',()=>{
- const ext=readExternalTri();let joined=0;
+ const ext=readTri();let joined=0;
  for(const q of load()){
   if(!q.identidade||!q.parametros_tri)continue;
   const p=ext.get(`${q.ano}/${q.co_item}`);assert(p);joined++;
