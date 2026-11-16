@@ -49,6 +49,20 @@ TEXT_OVERRIDES = {
         enunciado="A quantidade de fantasias com materiais diferentes que podem ser produzidas é representada pela expressão",
         texto_base_append="Uma pessoa produzirá uma fantasia utilizando como materiais: 2 tipos de tecidos diferentes e 5 tipos distintos de pedras "
                           "ornamentais. Essa pessoa tem à sua disposição 6 tecidos diferentes e 15 pedras ornamentais distintas."),
+    "2021_AZUL_D2_Q156": dict(
+        enunciado="A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é",
+        texto_base_append="Uma mola é solta da posição distendida conforme a figura. A figura à direita representa o gráfico da posição P (em cm) da massa m "
+                          "em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do "
+                          "tipo P(t) = ± A cos (ωt) ou P(t) = ± A sen (ωt), em que A > 0 é a amplitude de deslocamento máximo e ω é a frequência, que se "
+                          "relaciona com o período T pela fórmula ω = 2π/T. Considere a ausência de quaisquer forças dissipativas."),
+    "2021_AZUL_D2_Q157": dict(
+        enunciado="Qual região foi selecionada para o investimento da construtora?",
+        texto_base_append="Uma construtora, pretendendo investir na construção de imóveis em uma metrópole com cinco grandes regiões, fez uma pesquisa sobre a "
+                          "quantidade de famílias que mudaram de uma região para outra, de modo a determinar qual região foi o destino do maior fluxo de "
+                          "famílias, sem levar em consideração o número de famílias que deixaram a região. Os valores da pesquisa estão dispostos em uma "
+                          "matriz A = [aij], i, j ∈ {1, 2, 3, 4, 5}, em que o elemento aij corresponde ao total de famílias (em dezena) que se mudaram da "
+                          "região i para a região j durante um certo período, e o elemento aii é considerado nulo, uma vez que somente são consideradas "
+                          "mudanças entre regiões distintas. A seguir, está apresentada a matriz com os dados da pesquisa."),
     "2021_AZUL_D2_Q144": dict(enunciado="Qual é a média das idades, em ano, desses alunos?"),
 }
 HEADER = re.compile(r"^\s*Quest[ãa]o\s+(\d+)\s*$", re.I)

@@ -47,9 +47,12 @@ CO_PROVA = {
     "branca": {"LC": "892", "CH": "881"},
     "cinza": {"CN": "911", "MT": "902"},
 }
-BAD = re.compile(r"[\x00-\x08\x0b-\x1f\x7f-\x9f\ue000-\uf8ff\ufffd]|[\[\]]\$|\$[\[\]]")  # inclui controles C1 e símbolos soltos da fonte quebrada
+BAD = re.compile(r"[\x00-\x08\x0b-\x1f\x7f-\x9f\ue000-\uf8ff\ufffd]|[\[\]]\$|\$[\[\]]|[a-zà-ú]4$")  # inclui controles C1, símbolos soltos e o ponto final lido como "4" pela fonte quebrada
 ALT_BAD = re.compile(r"^([A-E])[ \t]{1,2}(?=[\x00-\x1f])")  # letra da alternativa seguida de lixo
 GAP = "⟦?⟧"
+# alternativas gráficas em duas colunas (A, B, C à esquerda e D, E à direita): as letras não formam sequência na mesma coluna.
+# uid -> número de linhas do enunciado depois do cabeçalho (a última é o comando); as alternativas viram o texto de apoio padrão.
+GRAPHIC_STEM = {"2021_AZUL_D2_Q161": 6}
 
 
 def sha(path):
@@ -159,11 +162,20 @@ def main():
             it_fill = iter(manual)
             def fill(t):
                 f = next(it_fill)
+                if f.startswith("!"):  # substitui a linha inteira (ex.: rótulo "A =" de matriz lido como letra de alternativa)
+                    return f[1:]
                 m = re.match(r"^([A-E])\|(.*)$", f)  # linha inteira de alternativa sem a letra reconhecida
                 return (m.group(1) + sep + m.group(2)) if m else t.replace(GAP, f)
             merged = [(fill(t) if GAP in t else t, x, z) for t, x, z in merged]
             assert next(it_fill, None) is None and len(manual) == gaps, f"{uid}: {gaps} lacunas, {len(manual)} transcrições"
         content, flags = ex.parse(merged)
+        if content is None and uid in GRAPHIC_STEM:
+            k = GRAPHIC_STEM[uid]
+            stem = [t for t, _, _ in merged[1:1 + k]]
+            assert not any(GAP in t for t in stem), uid
+            content = dict(texto_base=" ".join(stem[:-1]) or None, enunciado=stem[-1],
+                           alternativas={c: f"Alternativa {c}: reprodução gráfica oficial." for c in "ABCDE"})
+            flags = flags + ["alternativas_graficas_em_duas_colunas"]
         if content is None:  # alternativas com um só espaço depois da letra ("A 1", "A kiwi."): reescreve as cinco linhas
             hits = [(i, m.group(1)) for i, (t, _, _) in enumerate(merged)
                     if not BAD.search(t) and (m := re.match(r"^([A-E])\s{1,2}(\S.*)$", t))]
