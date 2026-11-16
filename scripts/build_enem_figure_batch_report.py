@@ -42,6 +42,7 @@ TEXT_OVERRIDES = {
         enunciado="O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
         texto_base_append="Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. "
                           "Em geral, essas substâncias são ésteres, como as apresentadas no quadro (nome, fórmula e aroma)."),
+    "2022_AZUL_D2_Q112": dict(enunciado="Qual é a tensão de ruptura da corda escolhida?"),
     "2021_AZUL_D2_Q116": dict(enunciado="O teste positivo será observado com o pesticida"),
     "2021_AZUL_D2_Q139": dict(enunciado="Com base nessas informações, a gerência decidiu incluir no cardápio o lanche de tipo"),
     "2021_AZUL_D2_Q147": dict(enunciado="As quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são"),
