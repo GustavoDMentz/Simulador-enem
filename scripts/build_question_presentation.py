@@ -3,13 +3,48 @@
 import argparse
 import hashlib
 import json
+import re
 import sys
+import unicodedata
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from publish_blue_candidates import record_digest
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT/'data/audit/question-presentation.json'
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+
+GENERIC=re.compile(r'^Recorte original da prova oficial \(texto, ')
+AREAS={'LC':'Linguagens, Códigos e suas Tecnologias','CH':'Ciências Humanas e suas Tecnologias','CN':'Ciências da Natureza e suas Tecnologias','MT':'Matemática e suas Tecnologias'}
+FORMAT=ROOT/'data/audit/support-text-format.json'
+def norm(text):
+    """Forma comparável: NFKC, menos e fração unificados, sem '^' nem espaços (só a forma dos caracteres pode mudar)."""
+    return re.sub(r'\s+','',unicodedata.normalize('NFKC',text).replace('\u2212','-').replace('\u2044','/').replace('^',''))
+def formatted(uid,field,text,spec):
+    for old,new,count in spec.get(uid,{}).get(field,[]):
+        assert text.count(old)==count,(uid,old,text.count(old))
+        text=text.replace(old,new)
+    return text
+def plural(n,um,varios): return f"{n} {um if n==1 else varios}"
+def describe(q,flags,spec,transcribed):
+    """Descrição específica do recorte (alt): o que a imagem traz e o texto-base, que a tela esconde dos leitores de tela."""
+    c=q['conteudo'];base=(c.get('texto_base') or '').strip();uid=q['id_unico_sistema']
+    shown=''
+    if base:
+        shown=formatted(uid,'texto_base',base,spec)
+        assert norm(shown)==norm(base),('A formatação alterou o texto',uid)
+    n=sum(int(f.split(':')[1]) for f in flags if f.startswith('imagens:'))
+    parts=(['texto-base'] if base else [])+['comando','alternativas A a E']
+    figs=([plural(n,'imagem ou fotografia','imagens ou fotografias')] if n else [])+(['desenhos vetoriais (gráficos, esquemas, tabelas ou quadros)'] if any(f.startswith('desenhos:') for f in flags) else [])
+    out=f"Questão {q['posicao_prova']} do ENEM {q['ano']}, dia {q['dia']}, {AREAS.get(q['area_conhecimento'],q['area_conhecimento'])}. Reprodução do caderno oficial com {', '.join(parts[:-1])} e {parts[-1]}"
+    out+=(f", além de {' e '.join(figs)}. O conteúdo visual das figuras não está descrito em texto: use Ampliar para vê-lo" if figs else '')
+    out+='. O comando e as alternativas também estão disponíveis em texto fora da imagem.'
+    if all('reprodução gráfica oficial' in v for v in c['alternativas'].values()):
+        if uid in transcribed:
+            assert set(transcribed[uid])==set('ABCDE')
+            out+=' As alternativas são fórmulas, transcritas da imagem: '+' '.join(f"{k}) {transcribed[uid][k]};" for k in 'ABCDE')
+        else: out+=' As alternativas A a E são figuras e só aparecem na imagem.'
+    if shown: out+=' Texto-base: '+shown
+    return out
 def build():
     rows={q['id_unico_sistema']:q for q in map(json.loads,(ROOT/'data/blue-published/questions.jsonl').read_text().splitlines())}
     entries={}
@@ -63,6 +98,7 @@ def build():
         for asset in result['assets'].values():
             assert sha(ROOT/'data/extracted'/asset['image'].removeprefix('/images/'))==asset['sha256']
         entries[uid]=e
+    fmt=json.loads(FORMAT.read_text());spec=fmt['questions'];transcribed=fmt['alternativas_transcritas']
     for batch in ('09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34'):
         report=json.loads((ROOT/f'data/audit/batch-{batch}-review.json').read_text())
         for result in report['results']:
@@ -72,6 +108,8 @@ def build():
             assert record_digest(q)==e['record_sha256']
             for asset in result['assets'].values():
                 assert sha(ROOT/'data/extracted'/asset['image'].removeprefix('/images/'))==asset['sha256']
+            if e['mode']!='text' and 'alt' not in e and GENERIC.match(q['conteudo']['metadados_visual'].get('descricao_imagem') or ''):
+                e=dict(e,alt=describe(q,result.get('parser_flags') or [],spec,transcribed))
             entries[uid]=e
     return dict(schema_version=1,questions=entries)
 if __name__=='__main__':
