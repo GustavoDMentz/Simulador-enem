@@ -155,15 +155,8 @@ def main():
             uid = f"{year}_AZUL_D{day}_Q{n:02d}"
             assert uid not in manifest_ids, uid
             c, r = cand[n], ident[uid]
-            assert len(c["regions"]) == 1 and c["content"] and len(c["content"]["alternativas"]) == 5, uid
+            assert c["regions"] and c["content"] and len(c["content"]["alternativas"]) == 5, uid
             assert r["tx_gabarito"] == c["answer"] == r["official_key"], f"identidade não corroborada: {uid}"
-            reg = c["regions"][0]
-            page = doc[reg["page"] - 1]
-            rect = fitz.Rect(reg["bbox"])
-            crop = extend_cut_lines(page, content_rect(page, rect), n)
-            bad = gates(page, crop, n)
-            if bad:
-                failures.append((uid, bad)); continue
             fix = TEXT_OVERRIDES.get(uid, {})
             enun = fix.get("enunciado", c["content"]["enunciado"])
             base_text = (c["content"]["texto_base"] or "") + fix.get("texto_base_append", "")
@@ -176,13 +169,25 @@ def main():
                            in_item_aban=r["in_item_aban"], conteudo=provisional, parametros_tri=None,
                            preview_status="REVIEW_TEXT", preview_unverified=True, scoring_enabled=False,
                            preview_warning="Questão em revisão: texto, imagem ou resposta podem estar incorretos. Sem pontuação.")
-            text = page.get_text(clip=rect)
-            fitz.TOOLS.store_shrink(100)  # igual ao replay: o cache de imagens do MuPDF pode mudar o primeiro render
-            pm = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), clip=crop, alpha=False)
-            render = dict(page=reg["page"], bbox=[round(v, 3) for v in crop], scale=SCALE, pixel_trim=[0, 0, pm.width, pm.height])
             from PIL import Image
-            fitz.TOOLS.store_shrink(100)
-            img = Image.frombytes("RGB", (pm.width, pm.height), pm.samples)
+            fitz.TOOLS.store_shrink(100)  # igual ao replay: o cache de imagens do MuPDF pode mudar o primeiro render
+            texts, renders, panels, bad_all = [], [], [], []
+            for k, reg in enumerate(c["regions"]):
+                page = doc[reg["page"] - 1]
+                rect = fitz.Rect(reg["bbox"])
+                crop = extend_cut_lines(page, content_rect(page, rect), n)
+                bad_all += gates(page, crop, n)
+                texts.append(page.get_text(clip=rect))
+                pm = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), clip=crop, alpha=False)
+                renders.append(dict(page=reg["page"], bbox=[round(v, 3) for v in crop], scale=SCALE, pixel_trim=[0, 0, pm.width, pm.height]))
+                panels.append(Image.frombytes("RGB", (pm.width, pm.height), pm.samples))
+            if bad_all:
+                failures.append((uid, bad_all)); continue
+            text = "\n".join(texts)
+            img = Image.new("RGB", (max(p.width for p in panels), sum(p.height for p in panels)), "white")
+            top = 0
+            for p in panels:
+                img.paste(p, (0, top)); top += p.height
             buf = BytesIO(); img.save(buf, format="PNG"); data = buf.getvalue()
             image = f"/images/verified/batch{batch}-{year}-azul-d{day}-q{n:03d}-source.png"
             content = dict(provisional, metadados_visual=dict(contem_imagem=True, descricao_imagem=DESCRIPTION, caminho_local_imagem=image))
@@ -190,7 +195,7 @@ def main():
             digest = record_digest(q)
             results.append(dict(
                 id=uid, year=year, day=day, number=n, application="regular", language=None,
-                regions=[dict(page=reg["page"], bbox=reg["bbox"], is_prefix=False)],
+                regions=[dict(page=g["page"], bbox=g["bbox"], is_prefix=False) for g in c["regions"]],
                 pending_row=pending, before_content=provisional, official_answer=c["answer"], source=source,
                 source_file=pdf.name, key_file=key.name, source_text=text, source_text_sha256=sha_bytes(text.encode()),
                 status="APPROVED", classification="RECOVERABLE",
@@ -198,7 +203,7 @@ def main():
                 after_content=content, record_sha256=digest,
                 presentation_metadata=dict(mode="composition", includes_command=True, source=image, source_sha256=sha_bytes(data),
                                            evidence=f"data/audit/batch-{batch}-review.json", record_sha256=digest),
-                assets=dict(source=dict(image=image, sha256=sha_bytes(data), render=[render], width=img.size[0], height=img.size[1])),
+                assets=dict(source=dict(image=image, sha256=sha_bytes(data), render=renders, width=img.size[0], height=img.size[1])),
                 visual_review=dict.fromkeys(["text", "options", "graphics", "credits", "continuity", "answer"], True),
                 identity_reconciliation=dict(
                     method="official ITENS_PROVA: the azul CO_PROVA whose answer sequence equals the official key (data/audit/identity-resolution.json)",
