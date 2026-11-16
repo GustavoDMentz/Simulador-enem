@@ -30,7 +30,11 @@ from segment_question_candidates import find_headers  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 # (ano, dia, questão) -> índices das regiões que realmente pertencem à questão (conferido na imagem)
-REGION_KEEP = {(2021, 1, 45): [0], (2021, 2, 118): [0], (2021, 2, 120): [0], (2021, 2, 138): [0], (2021, 2, 161): [0]}
+REGION_KEEP = {
+    (2021, 1, 45): [0], (2021, 2, 118): [0], (2021, 2, 120): [0], (2021, 2, 138): [0], (2021, 2, 161): [0],
+    # contracapa (logo) e faixa de cabeçalho da página ("Exame Nacional do Ensino Médio") detectadas como continuação
+    (2022, 2, 180): [0], (2025, 2, 108): [0], (2025, 2, 119): [0], (2025, 2, 127): [0], (2025, 2, 130): [0], (2025, 2, 135): [0],
+}
 TOP, BOTTOM = 57.0, 740.0
 OPT = re.compile(r"^([A-E])\s*\t(.*)$")
 OPT2 = re.compile(r"^([A-E])\s{2,}(\S.*)$")  # PDFs em que a letra vem separada por espaços, sem tabulação

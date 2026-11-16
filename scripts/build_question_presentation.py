@@ -63,7 +63,7 @@ def build():
         for asset in result['assets'].values():
             assert sha(ROOT/'data/extracted'/asset['image'].removeprefix('/images/'))==asset['sha256']
         entries[uid]=e
-    for batch in ('09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'):
+    for batch in ('09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32'):
         report=json.loads((ROOT/f'data/audit/batch-{batch}-review.json').read_text())
         for result in report['results']:
             if result['status']!='APPROVED': continue
