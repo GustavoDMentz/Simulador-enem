@@ -14995,6 +14995,382 @@
    "tx_gabarito": "C",
    "co_prova": 1483,
    "official_key": "C"
+  },
+  "2018_AZUL_D1_Q01": {
+   "co_item": 87035,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2018_AZUL_D1_Q02": {
+   "co_item": 87507,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 455,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2018_AZUL_D1_Q03": {
+   "co_item": 95804,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 455,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2019_AZUL_D1_Q01": {
+   "co_item": 55166,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 511,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2019_AZUL_D1_Q02": {
+   "co_item": 54110,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 511,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2019_AZUL_D1_Q03": {
+   "co_item": 23564,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 511,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2019_AZUL_D1_Q04": {
+   "co_item": 31954,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 511,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2019_AZUL_D1_Q05": {
+   "co_item": 118180,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 511,
+   "official_key": "E",
+   "lingua": "ingles"
+  },
+  "2020_AZUL_D1_Q01": {
+   "co_item": 66641,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 577,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2020_AZUL_D1_Q02": {
+   "co_item": 112060,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 577,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2020_AZUL_D1_Q03": {
+   "co_item": 98143,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 577,
+   "official_key": "E",
+   "lingua": "ingles"
+  },
+  "2020_AZUL_D1_Q04": {
+   "co_item": 60777,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 577,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2020_AZUL_D1_Q05": {
+   "co_item": 112080,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 577,
+   "official_key": "C",
+   "lingua": "ingles"
+  },
+  "2021_AZUL_D1_Q01": {
+   "co_item": 111852,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 889,
+   "official_key": "C",
+   "lingua": "ingles"
+  },
+  "2021_AZUL_D1_Q02": {
+   "co_item": 118292,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 889,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2021_AZUL_D1_Q03": {
+   "co_item": 118145,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 889,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2021_AZUL_D1_Q04": {
+   "co_item": 81488,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 889,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2021_AZUL_D1_Q05": {
+   "co_item": 63712,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 889,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2022_AZUL_D1_Q01": {
+   "co_item": 111918,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1179,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2022_AZUL_D1_Q02": {
+   "co_item": 111835,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1179,
+   "official_key": "C",
+   "lingua": "ingles"
+  },
+  "2022_AZUL_D1_Q03": {
+   "co_item": 140767,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1179,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2022_AZUL_D1_Q04": {
+   "co_item": 140731,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1179,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2022_AZUL_D1_Q05": {
+   "co_item": 140626,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1179,
+   "official_key": "E",
+   "lingua": "ingles"
+  },
+  "2023_AZUL_D1_Q01": {
+   "co_item": 140743,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2023_AZUL_D1_Q02": {
+   "co_item": 140595,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2023_AZUL_D1_Q03": {
+   "co_item": 140736,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1201,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2023_AZUL_D1_Q04": {
+   "co_item": 140785,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1201,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2023_AZUL_D1_Q05": {
+   "co_item": 140732,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "B",
+   "co_prova": 1201,
+   "official_key": "B",
+   "lingua": "ingles"
+  },
+  "2024_AZUL_D1_Q01": {
+   "co_item": 61929,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 1395,
+   "official_key": "C",
+   "lingua": "ingles"
+  },
+  "2024_AZUL_D1_Q02": {
+   "co_item": 118194,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1395,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2024_AZUL_D1_Q03": {
+   "co_item": 87876,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1395,
+   "official_key": "A",
+   "lingua": "ingles"
+  },
+  "2024_AZUL_D1_Q05": {
+   "co_item": 97312,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1395,
+   "official_key": "E",
+   "lingua": "ingles"
+  },
+  "2025_AZUL_D1_Q01": {
+   "co_item": 153875,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1459,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2025_AZUL_D1_Q02": {
+   "co_item": 118169,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1459,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2025_AZUL_D1_Q03": {
+   "co_item": 153836,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 1459,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2025_AZUL_D1_Q04": {
+   "co_item": 112036,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 1459,
+   "official_key": "E",
+   "lingua": "ingles"
+  },
+  "2025_AZUL_D1_Q05": {
+   "co_item": 153930,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1459,
+   "official_key": "A",
+   "lingua": "ingles"
   }
+ },
+ "language_resolution": {
+  "method": "posições 1–5 de LC: ITENS_PROVA (CO_PROVA escolhido, TP_LINGUA 0=inglês/1=espanhol) + idioma do manifesto conferido pela seção do PDF + gabarito do idioma",
+  "resolved": 37,
+  "published_with_wrong_co_item": 24,
+  "unresolved": []
  }
 }

@@ -11,49 +11,49 @@
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2018.zip",
       "entry": "DADOS/ITENS_PROVA_2018.csv",
       "csv_sha256": "b521f22e9cd60067943df84e188e25a590d766750c1fbed4b29b2ca32d230626",
-      "items": 174
+      "items": 177
     },
     "2019": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2019.zip",
       "entry": "DADOS/ITENS_PROVA_2019.csv",
       "csv_sha256": "360fbd34557a4e9889b969c8e80e8fe139f109677bde5e6082e750a4fa227efc",
-      "items": 170
+      "items": 175
     },
     "2020": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2020.zip",
       "entry": "DADOS/ITENS_PROVA_2020.csv",
       "csv_sha256": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b",
-      "items": 139
+      "items": 144
     },
     "2021": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2021.zip",
       "entry": "DADOS/ITENS_PROVA_2021.csv",
       "csv_sha256": "94b1dedbe1b32cab244dcf8b7dee13a8a4c651e0edb45ca6f2d3178297efef1f",
-      "items": 171
+      "items": 176
     },
     "2022": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2022.zip",
       "entry": "DADOS/ITENS_PROVA_2022.csv",
       "csv_sha256": "58c274f15013094f950ac813fe61c29ea68a557e48e013e45ba2b3abec629400",
-      "items": 168
+      "items": 173
     },
     "2023": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2023.zip",
       "entry": "microdados_enem_2023/DADOS/ITENS_PROVA_2023.csv",
       "csv_sha256": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468",
-      "items": 173
+      "items": 178
     },
     "2024": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2024.zip",
       "entry": "microdados_enem_2024/DADOS/ITENS_PROVA_2024.csv",
       "csv_sha256": "6d8e293d1bd59f495feff9deee4aaa9b64fe82fd38a0169e4a06e81e1ade31de",
-      "items": 174
+      "items": 178
     },
     "2025": {
       "url": "https://download.inep.gov.br/microdados/microdados_enem_2025.zip",
       "entry": "microdados_enem_2025/DADOS/ITENS_PROVA_2025.csv",
       "csv_sha256": "16688912785563f418773a5c99e562f4b43a95cac79357622f05b3d47c7a35d0",
-      "items": 170
+      "items": 175
     }
   },
   "skipped_without_params": [
