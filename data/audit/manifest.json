@@ -41221,6 +41221,1425 @@
       ],
       "evidence": "data/audit/batch-12-review.json",
       "note": "Batch 12: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q10",
+      "year": 2017,
+      "day": 1,
+      "number": 10,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "6e817e533b59a5fddba327937e85811d49eca0e8d3239d8b22dc7d09d86231ed",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "6790c33480e71b8997ff0c8b5692fad1a3122bf870c76a5940dc7eeacab0da21",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q010-source.png": "6790c33480e71b8997ff0c8b5692fad1a3122bf870c76a5940dc7eeacab0da21"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 6,
+          "bbox": [
+            290.55,
+            459.03,
+            581.1,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q13",
+      "year": 2017,
+      "day": 1,
+      "number": 13,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "53a296a538abc52e20ead293edd824800fc45505d43ccf87d775b2f235bc9276",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "5bc8d9b4a0d1eaeb048682d5d2702c5e653802be5512a65ecdcfd4ec198cfc05",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q013-source.png": "5bc8d9b4a0d1eaeb048682d5d2702c5e653802be5512a65ecdcfd4ec198cfc05"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 7,
+          "bbox": [
+            290.55,
+            346.67,
+            581.1,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q15",
+      "year": 2017,
+      "day": 1,
+      "number": 15,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "a7b44e5f21654be0d25364ea7e1b090b7fafb8e5f4569732f1b819060e787060",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "8c8c8f0d3634575bdd0165c1268fb59d9dcc3039f941de92659c0795152ad014",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q015-source.png": "8c8c8f0d3634575bdd0165c1268fb59d9dcc3039f941de92659c0795152ad014"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 8,
+          "bbox": [
+            0.0,
+            406.82,
+            290.55,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q30",
+      "year": 2017,
+      "day": 1,
+      "number": 30,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "022f12ceb2ac3a2372b2e9b84d619b7aceb7bf6f180ed90c97663261cd23b785",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "5cb0834d7ab542455f8e59cef99256b42a31952842358aac2651c0f2640ba11c",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q030-source.png": "5cb0834d7ab542455f8e59cef99256b42a31952842358aac2651c0f2640ba11c"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 13,
+          "bbox": [
+            290.55,
+            345.96,
+            581.1,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q50",
+      "year": 2017,
+      "day": 1,
+      "number": 50,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "d9266b76b4d708ba643b72fd976e6d38942bcf2adb7c784863da050afe8978fb",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "10fd986fc3387ccdacfe74f143187dd1ab0863ef9390174b869d1f0b5742beea",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q050-source.png": "10fd986fc3387ccdacfe74f143187dd1ab0863ef9390174b869d1f0b5742beea"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 20,
+          "bbox": [
+            290.55,
+            531.47,
+            581.1,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q57",
+      "year": 2017,
+      "day": 1,
+      "number": 57,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "764bcd264f47ad410551c6f33fd05ddb334a6995890cdf9e7c9607cb1d66c287",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "b8b34475d8c397de242ea473946cfb3d75f98ebbc45e497df2de4b8d023eb651",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q057-source.png": "b8b34475d8c397de242ea473946cfb3d75f98ebbc45e497df2de4b8d023eb651"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 22,
+          "bbox": [
+            290.55,
+            394.95,
+            581.1,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q74",
+      "year": 2017,
+      "day": 1,
+      "number": 74,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "b5702933d40f40685b6264484667b50d0dd88cc7320ddb95c552aabd1aad465c",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "dde91717767a4f1cc12f331e8c671da9b168ec29ea420c47eb09cd7128a140f2",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q074-source.png": "dde91717767a4f1cc12f331e8c671da9b168ec29ea420c47eb09cd7128a140f2"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 27,
+          "bbox": [
+            0.0,
+            383.19,
+            290.55,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2017_AZUL_D1_Q79",
+      "year": 2017,
+      "day": 1,
+      "number": 79,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "c7e130925e3d9dddd2a6370cbfaacd5edbbc20c2b789f55522721954447038e6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+      "answer_source_sha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "record_sha256": "430068f89b2b59ca9b380beec59ed1a7d807114d0b253cd2970f78c6bbe8bb7c",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "160e95bc4aa3e18f78557be95826514f135713c2b4ef0c0007bea80e46e84dda",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2017-azul-d1-q079-source.png": "160e95bc4aa3e18f78557be95826514f135713c2b4ef0c0007bea80e46e84dda"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 28,
+          "bbox": [
+            290.55,
+            74.97,
+            581.1,
+            543.36
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2018_AZUL_D1_Q24",
+      "year": 2018,
+      "day": 1,
+      "number": 24,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ec8c73472ad5d64e69224abd20cd837c4ca4b58b607a3804dcac47ff4ffbe3a8",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+      "answer_source_sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041",
+      "record_sha256": "ef099bc1bbd6fdcd3101a1d6dcb0a6b21256db6edc2f9473e90ea800ad34371a",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "1a9c496a00f40d5def53ad960c14eb9db16d71ace9c3052449cab7786c4065d4",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2018-azul-d1-q024-source.png": "1a9c496a00f40d5def53ad960c14eb9db16d71ace9c3052449cab7786c4065d4"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 11,
+          "bbox": [
+            0.0,
+            75.05,
+            290.55,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2018_AZUL_D1_Q36",
+      "year": 2018,
+      "day": 1,
+      "number": 36,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ec8c73472ad5d64e69224abd20cd837c4ca4b58b607a3804dcac47ff4ffbe3a8",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+      "answer_source_sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041",
+      "record_sha256": "66eb80f4d7758e2ead22fa26987f8fe5d48718a43ae5a189700ad715e67dfdf8",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "4c9d87609ae1deac2da22a7a39cc0ad82013635d5eb039932776f36c4f581c9f",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2018-azul-d1-q036-source.png": "4c9d87609ae1deac2da22a7a39cc0ad82013635d5eb039932776f36c4f581c9f"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 15,
+          "bbox": [
+            290.55,
+            479.4,
+            581.1,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2018_AZUL_D1_Q65",
+      "year": 2018,
+      "day": 1,
+      "number": 65,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ec8c73472ad5d64e69224abd20cd837c4ca4b58b607a3804dcac47ff4ffbe3a8",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2018/GAB_ENEM_2018_DIA_1_AZUL.pdf",
+      "answer_source_sha256": "8962d77f20412f17adfebdda624b1487a91de808b9b8ef00561316bd9b9a7041",
+      "record_sha256": "76a121dd23877ce3e116461c2a834057f5ada0070b4ddb4c78b382b54a7d755c",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "61f529cedac014751aa853a1e097b8104ddcac0a11b318ffce15631a78924dfe",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2018-azul-d1-q065-source.png": "61f529cedac014751aa853a1e097b8104ddcac0a11b318ffce15631a78924dfe"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 25,
+          "bbox": [
+            0.0,
+            75.05,
+            290.55,
+            360.94
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q14",
+      "year": 2019,
+      "day": 1,
+      "number": 14,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "b3a72969a557e730aba34357a16e4de33e906c160f5f7849473e3023cd1875b2",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "d2f797c430072f90f125e2c183a08f41b92398c97d67e5c7ee013be0e1457459",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q014-source.png": "d2f797c430072f90f125e2c183a08f41b92398c97d67e5c7ee013be0e1457459"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 9,
+          "bbox": [
+            0.0,
+            74.76,
+            283.46,
+            538.22
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q24",
+      "year": 2019,
+      "day": 1,
+      "number": 24,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "aee5541746dc4b843ed47d3662e2f70e1a73111d9bf0b8ad39f7f2bea93dedff",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "c0e68fc4b68f1cf1a8c571c9d55b98f6499e00f5f5710d4e20a94ed492d431df",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q024-source.png": "c0e68fc4b68f1cf1a8c571c9d55b98f6499e00f5f5710d4e20a94ed492d431df"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 12,
+          "bbox": [
+            283.46,
+            74.26,
+            566.93,
+            415.6
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q39",
+      "year": 2019,
+      "day": 1,
+      "number": 39,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "fc3e635f5614c315af6043fed4474d961695673b02b36b07cc0010c54121c4d2",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "415de40707bc09d0b6330641073e1adc615eda55ee39f77b57ed20c3a3fa7397",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q039-source.png": "415de40707bc09d0b6330641073e1adc615eda55ee39f77b57ed20c3a3fa7397"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 17,
+          "bbox": [
+            283.46,
+            362.12,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q45",
+      "year": 2019,
+      "day": 1,
+      "number": 45,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "9afb10085affe0f6ff296e5f4398221644d12bd4fd69a9e7eacfc3a0edee4465",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "1d1e79e8d24a23087994094da9f5f568de11a3212934a2532dd57ed2edd0cb74",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q045-source.png": "1d1e79e8d24a23087994094da9f5f568de11a3212934a2532dd57ed2edd0cb74"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 19,
+          "bbox": [
+            283.46,
+            395.42,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q48",
+      "year": 2019,
+      "day": 1,
+      "number": 48,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "296af4bcc42ad85b5166f73674ac13808c26994b19f907a4931cff40c47e93cf",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "323a223db455fe4fc8b0607adc0d351d83c087ebd9836b199a7b067e40bd11bb",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q048-source.png": "323a223db455fe4fc8b0607adc0d351d83c087ebd9836b199a7b067e40bd11bb"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 21,
+          "bbox": [
+            283.46,
+            190.48,
+            566.93,
+            466.07
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q52",
+      "year": 2019,
+      "day": 1,
+      "number": 52,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "a8d80cbf0575109b62802023941137ef39e80efd54dccb1aef930abb6c81d1f3",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "e96341656a03dd4c4f9a267b29d2fbeefd8835fc7fb3b3dd57e691e5d3e873ff",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q052-source.png": "e96341656a03dd4c4f9a267b29d2fbeefd8835fc7fb3b3dd57e691e5d3e873ff"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 22,
+          "bbox": [
+            283.46,
+            74.26,
+            566.93,
+            367.55
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q54",
+      "year": 2019,
+      "day": 1,
+      "number": 54,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "dd0f153da28f47d8a09fc8c428be6d89ea21e3ca5eed1c5bd513788191dc0660",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "d92dad1e0b5554447cbe413ad6cad7e9b8d9e414018f03162979fbc92cc7c6d6",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q054-source.png": "d92dad1e0b5554447cbe413ad6cad7e9b8d9e414018f03162979fbc92cc7c6d6"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 23,
+          "bbox": [
+            0.0,
+            74.26,
+            283.46,
+            316.45
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q64",
+      "year": 2019,
+      "day": 1,
+      "number": 64,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "1c752ced33c8a360088ea90a6a4acd4ffba19bcd14a8d39e2c80c2a03be3d32c",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "089f000dc8cd4b7d3f690b8c134d23b0c3003d86dd2177918fb66811eefd2f07",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q064-source.png": "089f000dc8cd4b7d3f690b8c134d23b0c3003d86dd2177918fb66811eefd2f07"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 25,
+          "bbox": [
+            283.46,
+            441.46,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D1_Q69",
+      "year": 2019,
+      "day": 1,
+      "number": 69,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "67d6ada3312f0964bf9fac60c28c550d96dc453f1352e4a59a06c4449a11fbc6",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "record_sha256": "451f4ccee064efdcba0291cdb136ed1000c36c02fb65469fa6a8baf3cf059313",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "037a658d8e86d4669dc0664de4f1e394ddc146c88f1188124484ac13d1ac54c2",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d1-q069-source.png": "037a658d8e86d4669dc0664de4f1e394ddc146c88f1188124484ac13d1ac54c2"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 27,
+          "bbox": [
+            0.0,
+            74.26,
+            283.46,
+            363.65
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2019_AZUL_D2_Q135",
+      "year": 2019,
+      "day": 2,
+      "number": 135,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+      "source_sha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+      "answer_source_url": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+      "answer_source_sha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "record_sha256": "475440e8982b109219d79503186d5eba25b56dbd50702791e27b25f3a937f301",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "4f728a59f29a3721c72d8f102801d35cc4f1eec2c3c86dd56a00af665acc47e6",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2019-azul-d2-q135-source.png": "4f728a59f29a3721c72d8f102801d35cc4f1eec2c3c86dd56a00af665acc47e6"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 16,
+          "bbox": [
+            283.46,
+            404.05,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D1_Q19",
+      "year": 2020,
+      "day": 1,
+      "number": 19,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "record_sha256": "5636294ea2d1d5054b7c70dea1126b78131ea9053f4c247e5246d937b6951948",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "ff51e3145b82aac22b45df6789fe594f89a5387657279ec83f4483f3f7534aa5",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2020-azul-d1-q019-source.png": "ff51e3145b82aac22b45df6789fe594f89a5387657279ec83f4483f3f7534aa5"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 10,
+          "bbox": [
+            283.46,
+            240.78,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D1_Q29",
+      "year": 2020,
+      "day": 1,
+      "number": 29,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "record_sha256": "ac25c8c7583c99004381db251d7572e7192e419620c1ca27cc839eda2f960f2c",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "eeb4d4f68df0fc2c8e19f64b99213e967f67f4897ca421dff5f494cce3cd38a5",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2020-azul-d1-q029-source.png": "eeb4d4f68df0fc2c8e19f64b99213e967f67f4897ca421dff5f494cce3cd38a5"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 13,
+          "bbox": [
+            283.46,
+            327.92,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D1_Q39",
+      "year": 2020,
+      "day": 1,
+      "number": 39,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "record_sha256": "18a15b0b417eee247adc0f3a822d81fcdf11f1bb4453c8c9dced32c0c7150601",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "a6b58d62ffc5f019e8a56a34310f6845f79f5a2f2ae1471aa0f920ffd46f5381",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2020-azul-d1-q039-source.png": "a6b58d62ffc5f019e8a56a34310f6845f79f5a2f2ae1471aa0f920ffd46f5381"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 17,
+          "bbox": [
+            0.0,
+            71.76,
+            283.46,
+            396.31
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D1_Q56",
+      "year": 2020,
+      "day": 1,
+      "number": 56,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "record_sha256": "5a90b6cbebf785ad1ed3ed45e76c6d1ac656df96d0833ed0cee1d9c158bec726",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "f6df18c7a85c3197e4a02c886fc9c601777b98db847dcca7325c8243eb02be85",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2020-azul-d1-q056-source.png": "f6df18c7a85c3197e4a02c886fc9c601777b98db847dcca7325c8243eb02be85"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 23,
+          "bbox": [
+            0.0,
+            71.76,
+            283.46,
+            275.77
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D1_Q71",
+      "year": 2020,
+      "day": 1,
+      "number": 71,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "record_sha256": "01aa46e07679ba902defb87a0f81fc399dc62b385eb33d5d3a5f4e7ad5e1e88b",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "b314eaaabaa7d538b239079cd37e800f7c3a9855549d4b89e0e70dcd6941b54e",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2020-azul-d1-q071-source.png": "b314eaaabaa7d538b239079cd37e800f7c3a9855549d4b89e0e70dcd6941b54e"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 27,
+          "bbox": [
+            0.0,
+            71.76,
+            283.46,
+            469.14
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2020_AZUL_D1_Q76",
+      "year": 2020,
+      "day": 1,
+      "number": 76,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "ab25200a67d34c0c0be86316572d5ca5a93d7836f005fc1a90b1f195f7e5fdd2",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "record_sha256": "bda78c5d03da2bf5bc6d2d95bfbd64b55ac9a0874c6d7399e9aec9c5feefc54b",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "4cb69ca8c79fbe3c1352bff573411a4b383e857a0a902fc37335bbde4e6a696b",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2020-azul-d1-q076-source.png": "4cb69ca8c79fbe3c1352bff573411a4b383e857a0a902fc37335bbde4e6a696b"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 28,
+          "bbox": [
+            0.0,
+            304.12,
+            283.46,
+            582.82
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2022_AZUL_D1_Q52",
+      "year": 2022,
+      "day": 1,
+      "number": 52,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e",
+      "record_sha256": "d1ba57100e609daec5a2cb4ac20ca7970a9cc0dd17cd4e5a572eb3ce841295d6",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "21b20fb4c6389d2e2ab25d2ce77bfe85ab2b3cb9b5a87a2fffa87c8efed16154",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2022-azul-d1-q052-source.png": "21b20fb4c6389d2e2ab25d2ce77bfe85ab2b3cb9b5a87a2fffa87c8efed16154"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 22,
+          "bbox": [
+            283.46,
+            63.33,
+            566.93,
+            398.23
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q13",
+      "year": 2023,
+      "day": 1,
+      "number": 13,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "record_sha256": "b43d2957e27f8bde6b89b7da5a6d5ad8e3d43ced0d4f621da5e61f47499d4896",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "14a67b8d6111110585891a0fda55cf55e1ad246fa9da4613f061479575aaaf59",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2023-azul-d1-q013-source.png": "14a67b8d6111110585891a0fda55cf55e1ad246fa9da4613f061479575aaaf59"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 8,
+          "bbox": [
+            283.46,
+            63.33,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q18",
+      "year": 2023,
+      "day": 1,
+      "number": 18,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "record_sha256": "b1380256fe759d5b4cf442f8085e5d5974229ad94f7b8160a2d98b6cad9d7024",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "e0ec3a7a8166c12439026c0ca4c0bc7a2357ebdbcdd5c8a5eda176774926f600",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2023-azul-d1-q018-source.png": "e0ec3a7a8166c12439026c0ca4c0bc7a2357ebdbcdd5c8a5eda176774926f600"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 10,
+          "bbox": [
+            283.46,
+            230.75,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q28",
+      "year": 2023,
+      "day": 1,
+      "number": 28,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "record_sha256": "9405b9fb7a1fd77714dd43f4c62e2053c963f978359bd2feb1ab79bdc5b144ec",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "a2af940fb53d906f0749541f7850c78aefe71bf42113f404c515633d564a173c",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2023-azul-d1-q028-source.png": "a2af940fb53d906f0749541f7850c78aefe71bf42113f404c515633d564a173c"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 13,
+          "bbox": [
+            283.46,
+            411.38,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2023_AZUL_D1_Q31",
+      "year": 2023,
+      "day": 1,
+      "number": 31,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "8f0f7ff3ae3bdf64754fdc48d7c79bad696b053f80d3083373580dc48b484fc8",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "record_sha256": "ea040caa7e88c69de03ae0d0eed0f867473427158770ed9d7ab0b731aeff61a3",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "80c3ff90cdf48f123b64ff6a4381830bf07921901c71139432631514c89acdf5",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2023-azul-d1-q031-source.png": "80c3ff90cdf48f123b64ff6a4381830bf07921901c71139432631514c89acdf5"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 14,
+          "bbox": [
+            283.46,
+            218.71,
+            566.93,
+            740.0
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
+    },
+    {
+      "id": "2025_AZUL_D1_Q28",
+      "year": 2025,
+      "day": 1,
+      "number": 28,
+      "application": "regular",
+      "language": null,
+      "status": "CONFORME",
+      "publication_authorized": true,
+      "source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D1_CD1.pdf",
+      "source_sha256": "a0f19f878d4ef3ba94c3e0f5ef9e57c13fb046d4bb362f72651898b473ddb7c8",
+      "answer_source_url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D1_CD1.pdf",
+      "answer_source_sha256": "583ac1950cd1927c42c971c270f96c0e33816844084fd5866a13bf94d8e08a81",
+      "record_sha256": "5d71556a283ad84ce2a1cfc187fcd471b9fc5a4084a3a14f189d772548af0a99",
+      "audit": {
+        "text": true,
+        "options": true,
+        "graphics": true,
+        "credits": true,
+        "continuity": true,
+        "answer": true
+      },
+      "asset_sha256": "c4f34dd3e9154151e98d8dda1c9dfeabb822057d050457603af86d435ddd0495",
+      "display_assets_sha256": {
+        "/images/verified/batch13-2025-azul-d1-q028-source.png": "c4f34dd3e9154151e98d8dda1c9dfeabb822057d050457603af86d435ddd0495"
+      },
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)",
+      "regions": [
+        {
+          "page": 13,
+          "bbox": [
+            283.46,
+            74.69,
+            566.93,
+            416.11
+          ],
+          "is_prefix": false
+        }
+      ],
+      "evidence": "data/audit/batch-13-review.json",
+      "note": "Batch 13: text-only region from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI."
     }
   ]
 }
