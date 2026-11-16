@@ -122,45 +122,80 @@ def graphic_content(doc, regions, number):
     return dict(enunciado=stem, texto_base="", alternativas={k: f"Alternativa {k}: reprodução gráfica oficial." for k in "ABCDE"})
 
 
-def extend_cut_lines(page, crop, number):
-    """Estende a caixa na vertical até conter por inteiro as linhas que a borda corta (sem entrar no cabeçalho de outra questão)."""
-    heads = []
-    for blk in page.get_text("dict", clip=crop + (0, -40, 0, 40))["blocks"]:
+def trim_to_header(page, crop, number):
+    """Corta a caixa entre o fim da tinta da linha anterior (linha base + descendente) e o início da tinta do cabeçalho
+    'Questão n' quando o fim da questão anterior fica colado nele (as caixas das linhas se sobrepõem).
+    Devolve (caixa, ok); ok é False quando a tinta das duas linhas se sobrepõe."""
+    lines = []
+    for blk in page.get_text("dict", clip=crop + (0, -30, 0, 0))["blocks"]:
         for ln in blk.get("lines", []):
-            m = HEADER.match("".join(s["text"] for s in ln["spans"]).strip())
-            if m and int(m.group(1)) != number:
-                heads.append(ln["bbox"][1])
+            t = "".join(s["text"] for s in ln["spans"]).strip()
+            if t:
+                sp = ln["spans"][0]
+                lines.append((ln["bbox"], sp["origin"][1], sp["size"], t))
+    head = next(((b, o, z) for b, o, z, t in lines if (m := HEADER.match(t)) and int(m.group(1)) == number and b[1] > crop.y0 - 5), None)
+    if head is None:
+        return crop, True
+    hb, ho, hz = head
+    prev = [(b, o, z) for b, o, z, t in lines if b[1] < hb[1] and b[3] > hb[1] - 1.0 and not HEADER.match(t)]
+    if not prev:
+        return crop, True
+    prev_ink = max(o + 0.28 * z for b, o, z in prev)
+    head_ink = ho - 0.78 * hz
+    if prev_ink >= head_ink:
+        return crop, False
+    return fitz.Rect(crop.x0, max(crop.y0, (prev_ink + head_ink) / 2), crop.x1, crop.y1), True
+
+
+def _lines(page, window):
+    out = []
+    for blk in page.get_text("dict", clip=window)["blocks"]:
+        for ln in blk.get("lines", []):
+            t = "".join(s["text"] for s in ln["spans"]).strip()
+            if t:
+                sp = max(ln["spans"], key=lambda q: q["size"])
+                out.append((fitz.Rect(ln["bbox"]), ln["spans"][0]["origin"][1], sp["size"], t))
+    return out
+
+
+def extend_cut_lines(page, crop, number):
+    """Estende a caixa na vertical até conter a tinta (linha base + descendente) das linhas que a borda corta, sem entrar
+    na tinta do cabeçalho de outra questão (corta no meio do vão entre elas)."""
     for _ in range(3):
-        for blk in page.get_text("dict", clip=crop + (-3, -3, 3, 3))["blocks"]:
-            for ln in blk.get("lines", []):
-                if not "".join(s["text"] for s in ln["spans"]).strip():
-                    continue
-                r = fitz.Rect(ln["bbox"])
-                inside = max(0.0, min(r.y1, crop.y1) - max(r.y0, crop.y0))
-                if r.height < 40 and 0.1 * r.height < inside < 0.9 * r.height:
-                    if r.y1 > crop.y1:
-                        below = [h for h in heads if h > crop.y1 - 1]
-                        crop = fitz.Rect(crop.x0, crop.y0, crop.x1, min(r.y1, (min(below) - 0.1) if below else r.y1))
-                    if r.y0 < crop.y0:
-                        crop = fitz.Rect(crop.x0, r.y0, crop.x1, crop.y1)
+        lines = _lines(page, crop + (-3, -3, 3, 40))
+        heads = [(b, o, z) for b, o, z, t in lines if (m := HEADER.match(t)) and int(m.group(1)) != number]
+        for b, o, z, t in lines:
+            if b.height >= 40 or HEADER.match(t):
+                continue
+            ink_bottom, ink_top = o + 0.28 * z, o - 0.78 * z
+            if o <= crop.y1 + 1 and ink_bottom > crop.y1 + 0.3:  # corta a base
+                target = ink_bottom + 0.8
+                below = [hb for hb, ho, hz in heads if hb.y0 > o - 2]
+                if below:
+                    head_ink = min(ho - 0.78 * hz for hb, ho, hz in heads if hb.y0 > o - 2)
+                    if ink_bottom >= head_ink:
+                        continue
+                    target = min(target, (ink_bottom + head_ink) / 2)
+                crop = fitz.Rect(crop.x0, crop.y0, crop.x1, max(crop.y1, target))
+            if o >= crop.y0 - 1 and ink_top < crop.y0 - 0.3:  # corta o topo
+                crop = fitz.Rect(crop.x0, ink_top - 0.8, crop.x1, crop.y1)
     return crop
 
 
 def gates(page, crop, number):
-    """Linhas de texto cortadas pela borda e cabeçalhos de outras questões dentro do recorte."""
+    """Linhas de texto cortadas (pela tinta) e cabeçalhos de outras questões dentro do recorte."""
     problems = []
-    for blk in page.get_text("dict", clip=crop + (-3, -3, 3, 3))["blocks"]:
-        for ln in blk.get("lines", []):
-            t = "".join(s["text"] for s in ln["spans"]).strip()
-            if not t:
-                continue
-            r = fitz.Rect(ln["bbox"])
-            inside = max(0.0, min(r.y1, crop.y1) - max(r.y0, crop.y0))
-            if r.height < 40 and 0.1 * r.height < inside < 0.9 * r.height:
-                problems.append("linha cortada na borda vertical: " + t[:30])
-            m = HEADER.match(t)
-            if m and int(m.group(1)) != number:
-                problems.append("cabeçalho de outra questão: " + t)
+    for b, o, z, t in _lines(page, crop + (-3, -3, 3, 3)):
+        if b.height >= 40:
+            continue
+        m = HEADER.match(t)
+        if m and int(m.group(1)) != number:
+            problems.append("cabeçalho de outra questão: " + t)
+            continue
+        if o <= crop.y1 + 1 and o + 0.28 * z > crop.y1 + 0.3 and o > crop.y0:
+            problems.append("linha cortada na borda inferior: " + t[:30])
+        if o >= crop.y0 - 1 and o - 0.78 * z < crop.y0 - 0.3 and o < crop.y1 and not HEADER.match(t):
+            problems.append("linha cortada na borda superior: " + t[:30])
     return problems
 
 
@@ -224,7 +259,12 @@ def main():
             for k, reg in enumerate(c["regions"]):
                 page = doc[reg["page"] - 1]
                 rect = fitz.Rect(reg["bbox"])
-                crop = extend_cut_lines(page, content_rect(page, rect), n)
+                crop = content_rect(page, rect)
+                if k == 0:
+                    crop, ok_trim = trim_to_header(page, crop, n)
+                    if not ok_trim:
+                        bad_all.append("tinta da linha anterior sobreposta ao cabeçalho")
+                crop = extend_cut_lines(page, crop, n)
                 bad_all += gates(page, crop, n)
                 texts.append(page.get_text(clip=rect))
                 pm = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), clip=crop, alpha=False)
