@@ -47,7 +47,7 @@ CO_PROVA = {
     "branca": {"LC": "892", "CH": "881"},
     "cinza": {"CN": "911", "MT": "902"},
 }
-BAD = re.compile(r"[\x00-\x08\x0b-\x1f-�]")
+BAD = re.compile(r"[\x00-\x08\x0b-\x1f\x7f-\x9f\ue000-\uf8ff\ufffd]|[\[\]]\$|\$[\[\]]")  # inclui controles C1 e símbolos soltos da fonte quebrada
 ALT_BAD = re.compile(r"^([A-E])[ \t]{1,2}(?=[\x00-\x1f])")  # letra da alternativa seguida de lixo
 GAP = "⟦?⟧"
 
@@ -119,10 +119,11 @@ def main():
     fills_path = ROOT / "data/audit/text-recovery-2021-fills.json"
     fills = {k: v for k, v in json.loads(fills_path.read_text()).items() if not k.startswith("_")} if fills_path.exists() else {}
 
+    previous = json.loads(args.out.read_text())["items"] if args.out.exists() else {}
     result = {}
     for uid, it in sorted(ident.items()):
-        if not uid.startswith("2021") or "lingua" in it or uid in published:
-            continue
+        if not uid.startswith("2021") or "lingua" in it or (uid in published and uid not in previous):
+            continue  # publicadas só entram se já estavam neste arquivo (lotes anteriores continuam reproduzíveis)
         n, day = int(uid.rsplit("Q", 1)[1]), (1 if it["area"] in ("LC", "CH") else 2)
         az = cands[("azul", day)][n]
         base = lines_of(azul_docs[day], az["regions"])
