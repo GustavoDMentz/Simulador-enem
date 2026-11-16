@@ -4,7 +4,7 @@
 O ITENS_PROVA oficial traz **vários CO_PROVA azuis por área** (regular, reaplicação, PPL…). O `fuse.py` escolheu, em alguns anos, um CO_PROVA azul que **não é o caderno do PDF que auditamos**. Sintomas:
 
 - o `gabarito_oficial` do fused diverge do gabarito oficial em cerca de metade das posições (2018, 2019, 2020, 2023, 2024, 2025);
-- 150 conflitos de resposta na junção TRI (`data/tri/external-staging/audit-2018-2025.md`);
+- 150 conflitos de resposta na junção TRI com uma base externa não oficial (já removida do repositório; ver `docs/tri-oficial.md`);
 - o `co_item` publicado (usado só para juntar parâmetros TRI) aponta, nessas posições, para outro item.
 
 ## Método (`scripts/resolve_identity.py`)
