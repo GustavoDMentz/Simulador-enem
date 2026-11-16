@@ -5,7 +5,7 @@ const {scorable,readManifest}=require('../audit-gate');
 const {presentation}=require('../question-presentation');
 const rows=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'),'utf8').trim().split('\n').map(JSON.parse);
 test('all recovered items are selectable and blocked decisions never enter scoring',()=>{
- const entries=readManifest().questions;assert.equal(rows.length,1509);
+ const entries=readManifest().questions;assert.equal(rows.length,1517);
  for(const r of report.results){const q=rows.find(q=>q.id_unico_sistema===r.id);
   if(r.status!=='APPROVED'){assert.equal(q,undefined);continue;}
   assert(scorable(q,entries));const p=presentation(q);assert(p);assert.equal(p.mode,r.presentation_metadata.mode);

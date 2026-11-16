@@ -522,7 +522,7 @@
    "day": 1,
    "co_item": 86515,
    "lacunas": 12,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -546,19 +546,17 @@
     "lacuna": 12
    },
    "content": {
-    "texto_base": "Devagar, devagarinho\n\nDesacelerar é preciso. Acelerar não é preciso. Afobados e voltados para o próprio umbigo, operamos, automatizados, falas robóticas e silêncios glaciais. Ilustra bem esse estado de espírito a música Sinal fechado ⟦?⟧ dois sujeitos que se encontram inesperadamente em um sinal de trânsito. A conversa entre ambos, porém, se deu rápida e rasteira. Logo, os personagens se despedem, com a promessa de se verem em outra ⟦?⟧ ⟦?⟧ ⟦?⟧ ⟦?⟧ ⟦?⟧ ⟦?⟧ tranquilo, quem sabe? / Quanto tempo… / Pois é, quanto ⟦?⟧ ⟦?⟧ a cem”.\n\nO culto à velocidade, no contexto apresentado, se coloca como fruto de um imediatismo processual que ⟦?⟧ dos meios\n\nnecessários para atingir determinado\n\npropósito. Tal conjuntura favorece a lei do menor esforço — a comodidade — e prejudica a lei do maior esforço — a dignidade.\n\nComo modelo alternativo à cultura fast, temos o movimento slow life, cujo propósito, resumidamente, é conscientizar as pessoas de que a pressa é inimiga da perfeição e do prazer, buscando assim reeducar seus sentidos para desfrutar melhor os sabores da vida.\n\n⟦?⟧",
+    "texto_base": "Devagar, devagarinho\n\nDesacelerar é preciso. Acelerar não é preciso. Afobados e voltados para o próprio umbigo, operamos, automatizados, falas robóticas e silêncios glaciais. Ilustra bem esse estado de espírito a música Sinal fechado (1969), de Paulinho da Viola. Trata-se da história de dois sujeitos que se encontram inesperadamente em um sinal de trânsito. A conversa entre ambos, porém, se deu rápida e rasteira. Logo, os personagens se despedem, com a promessa de se verem em outra oportunidade. Percebe-se um registro de comunicação vazia e superficial, cuja tônica foi o contato ligeiro e superficial construído pelos interlocutores: “Olá, como vai? / Eu vou indo, e você, tudo bem? / Tudo bem, eu vou indo correndo, / pegar meu lugar no futuro. E você? / Tudo bem, eu vou indo em busca de um sono / tranquilo, quem sabe? / Quanto tempo… / Pois é, quanto tempo… / Me perdoe a pressa / é a alma dos nossos negócios… / Oh! Não tem de quê. / Eu também só ando a cem”.\n\nO culto à velocidade, no contexto apresentado, se coloca como fruto de um imediatismo processual que celebra o alcance dos fins sem dimensionar a qualidade dos meios\n\nnecessários para atingir determinado\n\npropósito. Tal conjuntura favorece a lei do menor esforço — a comodidade — e prejudica a lei do maior esforço — a dignidade.\n\nComo modelo alternativo à cultura fast, temos o movimento slow life, cujo propósito, resumidamente, é conscientizar as pessoas de que a pressa é inimiga da perfeição e do prazer, buscando assim reeducar seus sentidos para desfrutar melhor os sabores da vida.\n\nSILVA, M. F. L. Boletim UFMG, n. 1 749, set. 2011 (adaptado).",
     "enunciado": "Nesse artigo de opinião, a apresentação da letra da canção Sinal fechado é uma estratégia argumentativa que visa sensibilizar o leitor porque",
     "alternativas": {
      "A": "adverte sobre os riscos que o ritmo acelerado da vida oferece.",
-     "B": "⟦?⟧ concreta.",
+     "B": "exemplifica o fato criticado no texto com uma situação concreta.",
      "C": "contrapõe situações de aceleração e de serenidade na vida das pessoas.",
      "D": "questiona o clichê sobre a rapidez e a aceleração da vida moderna.",
      "E": "apresenta soluções para a cultura da correria que as pessoas vivenciam hoje."
     }
    },
-   "parse_flags": [
-    "possivel_poesia"
-   ],
+   "parse_flags": [],
    "text_lines": [
     "Questão 16",
     "Devagar, devagarinho",
@@ -566,24 +564,24 @@
     "Afobados e voltados para o próprio umbigo, operamos,",
     "automatizados, falas robóticas e silêncios glaciais. Ilustra",
     "bem esse estado de espírito a música Sinal fechado",
-    "⟦?⟧",
+    "(1969), de Paulinho da Viola. Trata-se da história de",
     "dois sujeitos que se encontram inesperadamente em",
     "um sinal de trânsito. A conversa entre ambos, porém,",
     "se deu rápida e rasteira. Logo, os personagens se",
     "despedem, com a promessa de se verem em outra",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "oportunidade. Percebe-se um registro de comunicação",
+    "vazia e superficial, cuja tônica foi o contato ligeiro e",
+    "superficial construído pelos interlocutores: “Olá, como",
+    "vai? / Eu vou indo, e você, tudo bem? / Tudo bem,",
+    "eu vou indo correndo, / pegar meu lugar no futuro.",
+    "E você? / Tudo bem, eu vou indo em busca de um sono /",
     "tranquilo, quem sabe? / Quanto tempo… / Pois é, quanto",
-    "⟦?⟧",
-    "⟦?⟧",
+    "tempo… / Me perdoe a pressa / é a alma dos nossos",
+    "negócios… / Oh! Não tem de quê. / Eu também só ando",
     "a cem”.",
     " O culto à velocidade, no contexto apresentado, se",
     "coloca como fruto de um imediatismo processual que",
-    "⟦?⟧",
+    "celebra o alcance dos fins sem dimensionar a qualidade",
     "dos",
     "meios",
     "necessários",
@@ -598,13 +596,13 @@
     "conscientizar as pessoas de que a pressa é inimiga da",
     "perfeição e do prazer, buscando assim reeducar seus",
     "sentidos para desfrutar melhor os sabores da vida.",
-    "⟦?⟧",
+    "SILVA, M. F. L. Boletim UFMG, n. 1 749, set. 2011 (adaptado).",
     "Nesse artigo de opinião, a apresentação da letra da",
     "canção Sinal fechado é uma estratégia argumentativa",
     "que visa sensibilizar o leitor porque",
     "A  adverte sobre os riscos que o ritmo acelerado da vida",
     "oferece.",
-    "B  ⟦?⟧",
+    "B  exemplifica o fato criticado no texto com uma situação",
     "concreta.",
     "C  contrapõe situações de aceleração e de serenidade",
     "na vida das pessoas.",
@@ -981,7 +979,7 @@
    "day": 1,
    "co_item": 120623,
    "lacunas": 8,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -1005,14 +1003,14 @@
     "lacuna": 8
    },
    "content": {
-    "texto_base": "Que tal transformar a internet em palco para a dança?\n\nO coreógrafo e bailarino Didier Mulleras se destaca como um dos criadores que descobriram a dança de outro ponto de vista. Mini@tures é uma experiência emblemática entre movimento, computador, internet e vídeo. Com os recursos da computação gráfica, a dança das miniaturas pode caber na palma da mão. Pelo fato de usar a internet como palco, o processo de criação das miniaturas de dança levou em consideração os limites de tempo de download e o tamanho de arquivo, para que um número maior de “espectadores” pudesse assistir. A graça das miniaturas está justamente na contaminação entre ⟦?⟧\n\n⟦?⟧ ⟦?⟧\n\nDe fato, é a rede que faz a maior diferença nesse grupo. Mini@tures explora uma nova dimensão que descobre o espaço-tempo da web e conquista um novo território para a dança contemporânea. A qualquer ⟦?⟧\n\nSPANGHERO, M. A dança dos encéfalos acesos. São Paulo: Itaú Cultural, 2003 (adaptado).",
+    "texto_base": "Que tal transformar a internet em palco para a dança?\n\nO coreógrafo e bailarino Didier Mulleras se destaca como um dos criadores que descobriram a dança de outro ponto de vista. Mini@tures é uma experiência emblemática entre movimento, computador, internet e vídeo. Com os recursos da computação gráfica, a dança das miniaturas pode caber na palma da mão. Pelo fato de usar a internet como palco, o processo de criação das miniaturas de dança levou em consideração os limites de tempo de download e o tamanho de arquivo, para que um número maior de “espectadores” pudesse assistir. A graça das miniaturas está justamente na contaminação entre mídias:\n\ncorpo/dança/computação gráfica/internet.\n\nDe fato, é a rede que faz a maior diferença nesse grupo. Mini@tures explora uma nova dimensão que descobre o espaço-tempo da web e conquista um novo território para a dança contemporânea. A qualquer hora, dança on-line.\n\nSPANGHERO, M. A dança dos encéfalos acesos. São Paulo: Itaú Cultural, 2003 (adaptado).",
     "enunciado": "Considerado o primeiro projeto de dança contemporânea concebido para a rede, esse trabalho é apresentado como inovador por",
     "alternativas": {
      "A": "adotar uma perspectiva conceitual como contraposição à tradição de grandes espetáculos.",
-     "B": "⟦?⟧ internet para divulgação das apresentações.",
-     "C": "privilegiar movimentos gerados por computação ⟦?⟧",
+     "B": "criar novas formas de financiamento ao utilizar a internet para divulgação das apresentações.",
+     "C": "privilegiar movimentos gerados por computação gráfica, com a substituição do palco pela tela.",
      "D": "produzir uma arte multimodal, com o intuito de ampliar as possibilidades de expressão estética.",
-     "E": "⟦?⟧ ⟦?⟧"
+     "E": "redefinir a extensão e o propósito do espetáculo para adaptá-lo ao perfil de diferentes usuários."
     }
    },
    "parse_flags": [],
@@ -1031,14 +1029,14 @@
     "e o tamanho de arquivo, para que um número maior",
     "de “espectadores” pudesse assistir. A graça das",
     "miniaturas está justamente na contaminação entre",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "mídias:",
+    "corpo/dança/computação",
+    "gráfica/internet.",
     "De fato, é a rede que faz a maior diferença nesse",
     "grupo. Mini@tures explora uma nova dimensão que",
     "descobre o espaço-tempo da web e conquista um novo",
     "território para a dança contemporânea. A qualquer",
-    "⟦?⟧",
+    "hora, dança on-line.",
     "SPANGHERO, M. A dança dos encéfalos acesos.",
     "São Paulo: Itaú Cultural, 2003 (adaptado).",
     "Considerado o primeiro projeto de dança contemporânea",
@@ -1046,14 +1044,14 @@
     "como inovador por",
     "A  adotar uma perspectiva conceitual como contraposição",
     "à tradição de grandes espetáculos.",
-    "B  ⟦?⟧",
+    "B  criar novas formas de financiamento ao utilizar a",
     "internet para divulgação das apresentações.",
     "C  privilegiar movimentos gerados por computação",
-    "⟦?⟧",
+    "gráfica, com a substituição do palco pela tela.",
     "D  produzir uma arte multimodal, com o intuito de ampliar",
     "as possibilidades de expressão estética.",
-    "E  ⟦?⟧",
-    "⟦?⟧"
+    "E  redefinir a extensão e o propósito do espetáculo para",
+    "adaptá-lo ao perfil de diferentes usuários."
    ],
    "line_x": [
     31.2,
@@ -1883,7 +1881,7 @@
    "day": 1,
    "co_item": 120154,
    "lacunas": 8,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -1907,8 +1905,8 @@
     "lacuna": 8
    },
    "content": {
-    "texto_base": "Não que Pelino fosse químico, longe disso; mas era sábio, era gramático. Ninguém escrevia em Tubiacanga que não levasse bordoada do Capitão Pelino, e mesmo quando se falava em algum homem notável lá no Rio, ele não deixava de dizer: “Não há dúvida! O homem tem talento, mas escreve: ‘um outro’, ‘de resto’…” E contraía os lábios como se tivesse engolido alguma cousa amarga.\n\nToda a vila de Tubiacanga acostumou-se a respeitar o solene Pelino, que corrigia e emendava as maiores glórias nacionais. Um sábio…\n\nAo entardecer, depois de ler um pouco o Sotero, ⟦?⟧ passado mais uma vez a tintura nos cabelos, o velho ⟦?⟧ ⟦?⟧ ⟦?⟧ Conversar é um modo de dizer, porque era Pelino ⟦?⟧ Quando, porém, dos lábios de alguém escapava a menor incorreção de linguagem, intervinha e emendava. “Eu asseguro, dizia o agente do Correio, que…” Por aí, ⟦?⟧ “Não diga ‘asseguro’, Senhor Bernardes; em português é garanto”.\n\nE a conversa continuava depois da emenda, para ser de novo interrompida por uma outra. Por essas e outras, houve muitos palestradores que se afastaram, mas Pelino, indiferente, seguro dos seus deveres, continuava o seu apostolado de vernaculismo.\n\nBARRETO, L. A Nova Califórnia. Disponível em: www.dominiopublico.gov.br. Acesso em: 24 jul. 2019.",
-    "enunciado": "⟦?⟧ ⟦?⟧",
+    "texto_base": "Não que Pelino fosse químico, longe disso; mas era sábio, era gramático. Ninguém escrevia em Tubiacanga que não levasse bordoada do Capitão Pelino, e mesmo quando se falava em algum homem notável lá no Rio, ele não deixava de dizer: “Não há dúvida! O homem tem talento, mas escreve: ‘um outro’, ‘de resto’…” E contraía os lábios como se tivesse engolido alguma cousa amarga.\n\nToda a vila de Tubiacanga acostumou-se a respeitar o solene Pelino, que corrigia e emendava as maiores glórias nacionais. Um sábio…\n\nAo entardecer, depois de ler um pouco o Sotero, o Candido de Figueiredo ou o Castro Lopes, e de ter passado mais uma vez a tintura nos cabelos, o velho mestre-escola saía vagarosamente de casa, muito abotoado no seu paletó de brim mineiro, e encaminhava- -se para a botica do Bastos a dar dous dedos de prosa. Conversar é um modo de dizer, porque era Pelino avaro de palavras, limitando-se tão-somente a ouvir. Quando, porém, dos lábios de alguém escapava a menor incorreção de linguagem, intervinha e emendava. “Eu asseguro, dizia o agente do Correio, que…” Por aí, o mestre-escola intervinha com mansuetude evangélica: “Não diga ‘asseguro’, Senhor Bernardes; em português é garanto”.\n\nE a conversa continuava depois da emenda, para ser de novo interrompida por uma outra. Por essas e outras, houve muitos palestradores que se afastaram, mas Pelino, indiferente, seguro dos seus deveres, continuava o seu apostolado de vernaculismo.\n\nBARRETO, L. A Nova Califórnia. Disponível em: www.dominiopublico.gov.br. Acesso em: 24 jul. 2019.",
+    "enunciado": "Do ponto de vista linguístico, a defesa da norma-padrão pelo personagem caracteriza-se por",
     "alternativas": {
      "A": "contestar o ensino de regras em detrimento do conteúdo das informações.",
      "B": "resgatar valores patrióticos relacionados às tradições da língua portuguesa.",
@@ -1918,7 +1916,7 @@
     }
    },
    "parse_flags": [
-    "possivel_poesia"
+    "hifen_fim_de_linha"
    ],
    "text_lines": [
     "Questão 30",
@@ -1934,17 +1932,17 @@
     "o solene Pelino, que corrigia e emendava as maiores",
     "glórias nacionais. Um sábio…",
     "Ao entardecer, depois de ler um pouco o Sotero,",
-    "⟦?⟧",
+    "o Candido de Figueiredo ou o Castro Lopes, e de ter",
     "passado mais uma vez a tintura nos cabelos, o velho",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "mestre-escola saía vagarosamente de casa, muito",
+    "abotoado no seu paletó de brim mineiro, e encaminhava-",
+    "-se para a botica do Bastos a dar dous dedos de prosa.",
     "Conversar é um modo de dizer, porque era Pelino",
-    "⟦?⟧",
+    "avaro de palavras, limitando-se tão-somente a ouvir.",
     "Quando, porém, dos lábios de alguém escapava a",
     "menor incorreção de linguagem, intervinha e emendava.",
     "“Eu asseguro, dizia o agente do Correio, que…” Por aí,",
-    "⟦?⟧",
+    "o mestre-escola intervinha com mansuetude evangélica:",
     "“Não diga ‘asseguro’, Senhor Bernardes; em português",
     "é garanto”.",
     "E a conversa continuava depois da emenda, para ser",
@@ -1954,8 +1952,8 @@
     "o seu apostolado de vernaculismo.",
     "BARRETO, L. A Nova Califórnia. Disponível em: www.dominiopublico.gov.br.",
     "Acesso em: 24 jul. 2019.",
-    "⟦?⟧",
-    "⟦?⟧",
+    "Do ponto de vista linguístico, a defesa da norma-padrão",
+    "pelo personagem caracteriza-se por",
     "A  contestar o ensino de regras em detrimento do",
     "conteúdo das informações.",
     "B  resgatar valores patrióticos relacionados às tradições",
@@ -5442,7 +5440,7 @@
    "day": 2,
    "co_item": 111623,
    "lacunas": 11,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -5464,19 +5462,30 @@
     "azul": 17,
     "lacuna": 11
    },
-   "content": null,
+   "content": {
+    "texto_base": "Organismos autótrofos e heterótrofos realizam processos complementares que associam os ciclos do carbono e do oxigênio. O carbono fixado pela energia luminosa ou a partir de compostos inorgânicos é eventualmente degradado pelos organismos, resultando em fontes de carbono como metano ou gás carbônico. Ainda, outros compostos orgânicos são catabolizados pelos seres, com menor rendimento energético, produzindo compostos secundários (subprodutos) que podem funcionar como combustíveis ambientais.",
+    "enunciado": "O processo metabólico associado à expressão combustíveis ambientais é a",
+    "alternativas": {
+     "A": "fotossíntese.",
+     "B": "fermentação.",
+     "C": "quimiossíntese.",
+     "D": "respiração aérobica.",
+     "E": "fosforilação oxidativa."
+    }
+   },
    "parse_flags": [
-    "alternativas_incompletas:D"
+    "comando_por_ultima_frase",
+    "possivel_poesia"
    ],
    "text_lines": [
     "Questão 110",
     "Organismos autótrofos e heterótrofos realizam",
     "processos complementares que associam os ciclos do",
-    "⟦?⟧",
+    "carbono e do oxigênio. O carbono fixado pela energia",
     "luminosa ou a partir de compostos inorgânicos é",
     "eventualmente degradado pelos organismos, resultando",
     "em fontes de carbono como metano ou gás carbônico.",
-    "⟦?⟧",
+    "Ainda, outros compostos orgânicos são catabolizados",
     "pelos",
     "seres,",
     "com",
@@ -5485,18 +5494,18 @@
     "energético,",
     "produzindo compostos secundários (subprodutos) que",
     "podem funcionar como combustíveis ambientais.",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "O",
+    "processo",
+    "metabólico",
+    "associado",
+    "à",
+    "expressão",
     "combustíveis ambientais é a",
     "A fotossíntese.",
-    "⟦?⟧",
+    "B\tfermentação.",
     "C quimiossíntese.",
-    "D\t⟦?⟧",
-    "⟦?⟧"
+    "D\trespiração aérobica.",
+    "E\tfosforilação oxidativa."
    ],
    "line_x": [
     289.1,
@@ -5534,7 +5543,7 @@
    "day": 2,
    "co_item": 39279,
    "lacunas": 10,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -5557,14 +5566,14 @@
     "lacuna": 10
    },
    "content": {
-    "texto_base": "Uma escola iniciou o processo educativo para ⟦?⟧ ⟦?⟧ 1)  sensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua; 2)  capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados com a coleta seletiva; e 3)  distribuir coletores de materiais recicláveis ⟦?⟧ para acondicionamento dos resíduos.",
-    "enunciado": "⟦?⟧ falta ser inserido no planejamento?",
+    "texto_base": "Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis. Para atingir seus objetivos, a instituição planejou: 1)  sensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua; 2)  capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados com a coleta seletiva; e 3)  distribuir coletores de materiais recicláveis específicos nas salas, pátio e outros ambientes para acondicionamento dos resíduos.",
+    "enunciado": "Para completar a ação proposta no ambiente escolar, o que falta ser inserido no planejamento?",
     "alternativas": {
-     "A": "⟦?⟧ bairros vizinhos para fortalecer a coleta seletiva.",
-     "B": "Firmar parceria com a prefeitura ou cooperativa de catadores para recolhimento dos materiais recicláveis ⟦?⟧",
-     "C": "⟦?⟧ ⟦?⟧ ⟦?⟧",
+     "A": "Realizar campanhas educativas de sensibilização em bairros vizinhos para fortalecer a coleta seletiva.",
+     "B": "Firmar parceria com a prefeitura ou cooperativa de catadores para recolhimento dos materiais recicláveis e destinação apropriada.",
+     "C": "Organizar visitas ao lixão ou aterro local para identificar aspectos importantes sobre a disposição final do lixo.",
      "D": "Divulgar na rádio local, no jornal impresso e nas redes sociais que a escola está realizando a coleta seletiva.",
-     "E": "Colocar recipientes coletores de lixo reciclável fora da ⟦?⟧"
+     "E": "Colocar recipientes coletores de lixo reciclável fora da escola para entrega voluntária pela população."
     }
    },
    "parse_flags": [
@@ -5574,8 +5583,8 @@
    "text_lines": [
     "Questão 111",
     "Uma escola iniciou o processo educativo para",
-    "⟦?⟧",
-    "⟦?⟧",
+    "implantação da coleta seletiva e destino de materiais",
+    "recicláveis. Para atingir seus objetivos, a instituição planejou:",
     "1)  sensibilizar a comunidade escolar, desenvolvendo",
     "atividades em sala e extraclasse de maneira",
     "contínua;",
@@ -5587,22 +5596,22 @@
     "de",
     "materiais",
     "recicláveis",
-    "⟦?⟧",
+    "específicos nas salas, pátio e outros ambientes",
     "para acondicionamento dos resíduos.",
-    "⟦?⟧",
+    "Para completar a ação proposta no ambiente escolar, o que",
     "falta ser inserido no planejamento?",
-    "A\t⟦?⟧",
+    "A\tRealizar campanhas educativas de sensibilização em",
     "bairros vizinhos para fortalecer a coleta seletiva.",
     "B Firmar parceria com a prefeitura ou cooperativa de",
     "catadores para recolhimento dos materiais recicláveis",
-    "⟦?⟧",
-    "C\t⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "e destinação apropriada.",
+    "C\tOrganizar visitas ao lixão ou aterro local para",
+    "identificar aspectos importantes sobre a disposição",
+    "final do lixo.",
     "D Divulgar na rádio local, no jornal impresso e nas redes",
     "sociais que a escola está realizando a coleta seletiva.",
     "E Colocar recipientes coletores de lixo reciclável fora da",
-    "⟦?⟧"
+    "escola para entrega voluntária pela população."
    ],
    "line_x": [
     31.2,
@@ -6710,7 +6719,7 @@
    "day": 2,
    "co_item": 117980,
    "lacunas": 10,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -6735,14 +6744,14 @@
     "lacuna": 10
    },
    "content": {
-    "texto_base": "O alcoolômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v), de soluções de água e álcool na faixa de 0 °GL a 100 °GL, ⟦?⟧ ⟦?⟧ semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20 °C, sendo necessária a ⟦?⟧ ⟦?⟧ ⟦?⟧ Tabela de correção do alcoolômetro com\n\ntemperatura 20 °C\n\n°GL\n\nLeitura da temperatura (°C) 20 21 22 23 24 25\n\n35\n\n35,0 34,6 34,2 33,8 33,4 33,0\n\n36\n\n36,0 35,6 35,2 34,8 34,4 34,0 Manual alcoolômetro Gay Lussac. Disponível em: www.incoterm.com.br. Acesso em: 4 dez. 2018 (adaptado).",
-    "enunciado": "⟦?⟧ um aumento na temperatura promove o(a)",
+    "texto_base": "O alcoolômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v), de soluções de água e álcool na faixa de 0 °GL a 100 °GL, com divisões de 0,1 °GL. A concepção do alcoolômetro se baseia no princípio de flutuabilidade de Arquimedes, semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20 °C, sendo necessária a correção da medida, caso a temperatura da solução não esteja na temperatura de aferição. É apresentada parte da tabela de correção de um alcoolômetro, com a temperatura.\n\nTabela de correção do alcoolômetro com\n\ntemperatura 20 °C\n\n°GL\n\nLeitura da temperatura (°C) 20 21 22 23 24 25\n\n35\n\n35,0 34,6 34,2 33,8 33,4 33,0\n\n36\n\n36,0 35,6 35,2 34,8 34,4 34,0 Manual alcoolômetro Gay Lussac. Disponível em: www.incoterm.com.br. Acesso em: 4 dez. 2018 (adaptado).",
+    "enunciado": "É necessária a correção da medida do instrumento, pois um aumento na temperatura promove o(a)",
     "alternativas": {
-     "A": "⟦?⟧",
+     "A": "aumento da dissociação da água.",
      "B": "aumento da densidade da água e do álcool.",
-     "C": "⟦?⟧",
-     "D": "⟦?⟧",
-     "E": "⟦?⟧ álcool e água."
+     "C": "mudança do volume dos materiais por dilatação.",
+     "D": "aumento da concentração de álcool durante a medida.",
+     "E": "alteração das propriedades químicas da mistura álcool e água."
     }
    },
    "parse_flags": [
@@ -6754,13 +6763,13 @@
     "O alcoolômetro Gay Lussac é um instrumento destinado",
     "a medir o teor de álcool, em porcentagem de volume (v/v),",
     "de soluções de água e álcool na faixa de 0 °GL a 100 °GL,",
-    "⟦?⟧",
-    "⟦?⟧",
+    "com divisões de 0,1 °GL. A concepção do alcoolômetro",
+    "se baseia no princípio de flutuabilidade de Arquimedes,",
     "semelhante ao funcionamento de um densímetro. A escala",
     "do instrumento é aferida a 20 °C, sendo necessária a",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "correção da medida, caso a temperatura da solução não",
+    "esteja na temperatura de aferição. É apresentada parte da",
+    "tabela de correção de um alcoolômetro, com a temperatura.",
     "Tabela de correção do alcoolômetro com",
     "temperatura 20 °C",
     "°GL",
@@ -6787,13 +6796,13 @@
     "34,0",
     "Manual alcoolômetro Gay Lussac. Disponível em: www.incoterm.com.br.",
     "Acesso em: 4 dez. 2018 (adaptado).",
-    "⟦?⟧",
+    "É necessária a correção da medida do instrumento, pois",
     "um aumento na temperatura promove o(a)",
-    "A\t⟦?⟧",
+    "A\taumento da dissociação da água.",
     "B aumento da densidade da água e do álcool.",
-    "C\t⟦?⟧",
-    "D\t⟦?⟧",
-    "E\t⟦?⟧",
+    "C\tmudança do volume dos materiais por dilatação.",
+    "D\taumento da concentração de álcool durante a medida.",
+    "E\talteração das propriedades químicas da mistura",
     "álcool e água."
    ],
    "line_x": [
@@ -9748,7 +9757,7 @@
    "day": 2,
    "co_item": 111476,
    "lacunas": 11,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -9771,8 +9780,8 @@
     "lacuna": 11
    },
    "content": {
-    "texto_base": "⟦?⟧ ⟦?⟧ ⟦?⟧ ⟦?⟧ ⟦?⟧ encontrados em praças e parques públicos apresentam ⟦?⟧ tridimensionais. Uma empresa foi contratada para desenvolver uma nova forma de brinquedo.",
-    "enunciado": "A proposta apresentada pela empresa foi de uma estrutura formada apenas por hastes metálicas, conectadas umas às ⟦?⟧ ⟦?⟧ ⟦?⟧ ⟦?⟧ ⟦?⟧",
+    "texto_base": "Muitos brinquedos que frequentemente são encontrados em praças e parques públicos apresentam formatos de figuras geométricas bidimensionais e tridimensionais. Uma empresa foi contratada para desenvolver uma nova forma de brinquedo. A proposta apresentada pela empresa foi de uma estrutura formada apenas por hastes metálicas, conectadas umas às outras, como apresentado na figura. As hastes de mesma tonalidade e espessura são congruentes.",
+    "enunciado": "Com base na proposta apresentada, quantas figuras geométricas planas de cada tipo são formadas pela união das hastes?",
     "alternativas": {
      "A": "12 trapézios isósceles e 12 quadrados.",
      "B": "24 trapézios isósceles e 12 quadrados.",
@@ -9787,22 +9796,22 @@
    ],
    "text_lines": [
     "Questão 175",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "Muitos",
+    "brinquedos",
+    "que",
+    "frequentemente",
+    "são",
     "encontrados em praças e parques públicos apresentam",
-    "⟦?⟧",
+    "formatos de figuras geométricas bidimensionais e",
     "tridimensionais. Uma empresa foi contratada para",
     "desenvolver uma nova forma de brinquedo. A proposta",
     "apresentada pela empresa foi de uma estrutura formada",
     "apenas por hastes metálicas, conectadas umas às",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "outras, como apresentado na figura. As hastes de mesma",
+    "tonalidade e espessura são congruentes.",
+    "Com base na proposta apresentada, quantas figuras",
+    "geométricas planas de cada tipo são formadas pela",
+    "união das hastes?",
     "A  12 trapézios isósceles e 12 quadrados.",
     "B  24 trapézios isósceles e 12 quadrados.",
     "C  12 paralelogramos e 12 quadrados.",
@@ -10056,7 +10065,7 @@
    "day": 2,
    "co_item": 85781,
    "lacunas": 9,
-   "transcricao_manual": false,
+   "transcricao_manual": true,
    "cadernos_usados": [
     {
      "cor": "rosa",
@@ -10079,8 +10088,8 @@
     "lacuna": 9
    },
    "content": {
-    "texto_base": "⟦?⟧ computadores, chamado Bang! Bang!\n\nP ⟦?⟧ 10 m A 35 m υ θ B 120 m\n\nNo jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo ⟦?⟧ valores estimados para o módulo da velocidade inicial de ⟦?⟧ Em determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada ⟦?⟧ ⟦?⟧ ⟦?⟧\n\nDisponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).",
-    "enunciado": "Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, ⟦?⟧ ⟦?⟧",
+    "texto_base": "A figura foi extraída de um antigo jogo para computadores, chamado Bang! Bang!\n\nP g 10 m A 35 m υ θ B 120 m\n\nNo jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo da velocidade inicial de disparo (|v⃗₀|) e para o ângulo de disparo (θ).\n\nEm determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada anteriormente, θ = 53°, passou tangenciando o ponto P.\n\nNo jogo, |g⃗| é igual a 10 m/s². Considere sen 53° = 0,8, cos 53° = 0,6 e desprezível a ação de forças dissipativas.\n\nDisponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).",
+    "enunciado": "Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de |v⃗₀| que permitiria ao disparo efetuado pelo canhão B atingir o canhão A?",
     "alternativas": {
      "A": "30 m/s.",
      "B": "35 m/s.",
@@ -10094,10 +10103,10 @@
    ],
    "text_lines": [
     "Questão 94",
-    "⟦?⟧",
+    "A figura foi extraída de um antigo jogo para",
     "computadores, chamado Bang! Bang!",
     "P",
-    "⟦?⟧",
+    "g",
     "10 m",
     "A",
     "35 m",
@@ -10107,19 +10116,19 @@
     "120 m",
     "No jogo, dois competidores controlam os canhões",
     "A e B, disparando balas alternadamente com o objetivo",
-    "⟦?⟧",
+    "de atingir o canhão do adversário; para isso, atribuem",
     "valores estimados para o módulo da velocidade inicial de",
-    "⟦?⟧",
+    "disparo (|v⃗₀|) e para o ângulo de disparo (θ).",
     "Em determinado momento de uma partida, o",
     "competidor B deve disparar; ele sabe que a bala disparada",
-    "⟦?⟧",
-    "⟦?⟧",
-    "⟦?⟧",
+    "anteriormente, θ = 53°, passou tangenciando o ponto P.",
+    "No jogo, |g⃗| é igual a 10 m/s². Considere sen 53° = 0,8,",
+    "cos 53° = 0,6 e desprezível a ação de forças dissipativas.",
     "Disponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).",
     "Com base nas distâncias dadas e mantendo o último",
     "ângulo de disparo, qual deveria ser, aproximadamente,",
-    "⟦?⟧",
-    "⟦?⟧",
+    "o menor valor de |v⃗₀| que permitiria ao disparo efetuado",
+    "pelo canhão B atingir o canhão A?",
     "A 30 m/s.",
     "B 35 m/s.",
     "C 40 m/s.",
