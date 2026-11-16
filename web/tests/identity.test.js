@@ -12,7 +12,7 @@ test('identity: every area resolves to exactly one azul CO_PROVA that matches th
 });
 test('identity: published records get the resolved CO_ITEM and a verified status',()=>{
  const id=readIdentity(),rows=load();
- assert.equal(id.size,1612);
+ assert.equal(id.size,1620);
  let changed=0;
  for(const q of rows){
   const r=id.get(q.id_unico_sistema);if(!r)continue;

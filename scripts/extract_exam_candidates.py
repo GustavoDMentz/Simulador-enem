@@ -69,6 +69,11 @@ def tab_options(lines):
     return out
 
 
+# a região invade o banner da seção seguinte ("LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS / Questões de 01 a 05 (opção espanhol)")
+BANNER_CUT = {(2017, 1, 5), (2018, 1, 5)}
+# texto compartilhado ("Texto para as Questões de 06 a 10") que precede as questões: (ano, dia, questão) -> (página 0-based, x0, y0, x1, y1)
+SHARED_PREFIX = {(2025, 1, n): (5, 0.0, 70.0, 567.0, 740.0) for n in range(6, 11)}
+
 TOP, BOTTOM = 57.0, 740.0
 OPT = re.compile(r"^([A-E])\s*\t(.*)$")
 OPT2 = re.compile(r"^([A-E])\s{2,}(\S.*)$")  # PDFs em que a letra vem separada por espaços, sem tabulação
@@ -330,6 +335,18 @@ def candidates(year, day):
         if (year, day, n) in REGION_KEEP:  # a continuação detectada é outra coisa (ex.: instruções da redação)
             regions = [regions[i] for i in REGION_KEEP[(year, day, n)]]
             flags = [f for f in flags if f != "continua_em_outra_coluna_ou_pagina"]
+        if (year, day, n) in BANNER_CUT:
+            cut = []
+            for pi, r, pref in regions:
+                for b in doc[pi].get_text("blocks", clip=r):
+                    if "LINGUAGENS, CÓDIGOS" in b[4] and b[1] > r.y0 + 20:
+                        r = fitz.Rect(r.x0, r.y0, r.x1, b[1] - 2)
+                        break
+                cut.append((pi, r, pref))
+            regions = cut
+        if (year, day, n) in SHARED_PREFIX:
+            pg, x0, y0, x1, y1 = SHARED_PREFIX[(year, day, n)]
+            regions.insert(0, (pg, fitz.Rect(x0, y0, x1, y1), True))
         imgs = draws = sups = 0
         for pi, r, _ in regions:
             a, b = graphics_in(doc[pi], r)
@@ -360,7 +377,7 @@ def candidates(year, day):
             flags.append("texto_compartilhado")
         hard = [f for f in flags if not f.startswith("comando_por_ultima_frase")]
         out[n] = dict(
-            number=n, answer=ans, content=content, flags=flags,
+            number=n, shared_prefix=((year, day, n) in SHARED_PREFIX), answer=ans, answer_by_language=(key if key and "comum" not in key else None), content=content, flags=flags,
             regions=[dict(page=pi + 1, bbox=[round(v, 2) for v in r], is_prefix=pref) for pi, r, pref in regions],
             tier="tier_a" if content and ans and not hard else "tier_b",
         )

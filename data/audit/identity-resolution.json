@@ -15715,13 +15715,106 @@
    "co_prova": 699,
    "official_key": "C",
    "aplicacao": "digital"
+  },
+  "2017_AZUL_D1_Q01": {
+   "co_item": 48074,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 399,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2017_AZUL_D1_Q02": {
+   "co_item": 37043,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 399,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2017_AZUL_D1_Q03": {
+   "co_item": 7463,
+   "co_habilidade": 5,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 399,
+   "official_key": "C",
+   "lingua": "ingles"
+  },
+  "2017_AZUL_D1_Q04": {
+   "co_item": 54099,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "D",
+   "co_prova": 399,
+   "official_key": "D",
+   "lingua": "ingles"
+  },
+  "2017_AZUL_D1_Q05": {
+   "co_item": 18212,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 399,
+   "official_key": "E",
+   "lingua": "ingles"
+  },
+  "2018_AZUL_D1_Q04": {
+   "co_item": 13652,
+   "co_habilidade": 7,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "E",
+   "co_prova": 455,
+   "official_key": "E",
+   "lingua": "ingles"
+  },
+  "2018_AZUL_D1_Q05": {
+   "co_item": 85387,
+   "co_habilidade": 6,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "C",
+   "co_prova": 455,
+   "official_key": "C",
+   "lingua": "ingles"
+  },
+  "2024_AZUL_D1_Q04": {
+   "co_item": 118157,
+   "co_habilidade": 8,
+   "in_item_aban": 0,
+   "area": "LC",
+   "tx_gabarito": "A",
+   "co_prova": 1395,
+   "official_key": "A",
+   "lingua": "ingles"
   }
  },
  "language_resolution": {
   "method": "posições 1–5 de LC: ITENS_PROVA (CO_PROVA escolhido, TP_LINGUA 0=inglês/1=espanhol) + idioma do manifesto conferido pela seção do PDF + gabarito do idioma",
   "resolved": 37,
   "published_with_wrong_co_item": 24,
-  "unresolved": []
+  "unresolved": [],
+  "unpublished_english": {
+   "resolved": [
+    "2017_AZUL_D1_Q01",
+    "2017_AZUL_D1_Q02",
+    "2017_AZUL_D1_Q03",
+    "2017_AZUL_D1_Q04",
+    "2017_AZUL_D1_Q05",
+    "2018_AZUL_D1_Q04",
+    "2018_AZUL_D1_Q05",
+    "2024_AZUL_D1_Q04"
+   ],
+   "unresolved": []
+  }
  },
  "digital_resolution": {
   "method": "2020 D2 aplicação digital: CO_PROVA azul cuja sequência de respostas é a do gabarito oficial digital; resposta do ITENS_PROVA = gabarito digital = gabarito publicado",
