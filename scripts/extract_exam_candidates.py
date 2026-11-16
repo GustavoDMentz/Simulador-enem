@@ -29,6 +29,8 @@ from audit_official_gabaritos import extract_pdf  # noqa: E402
 from segment_question_candidates import find_headers  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+# (ano, dia, questão) -> índices das regiões que realmente pertencem à questão (conferido na imagem)
+REGION_KEEP = {(2021, 1, 45): [0], (2021, 2, 118): [0], (2021, 2, 120): [0], (2021, 2, 138): [0], (2021, 2, 161): [0]}
 TOP, BOTTOM = 57.0, 740.0
 OPT = re.compile(r"^([A-E])\s*\t(.*)$")
 OPT2 = re.compile(r"^([A-E])\s{2,}(\S.*)$")  # PDFs em que a letra vem separada por espaços, sem tabulação
@@ -275,6 +277,9 @@ def candidates(year, day):
                 regions.append((cont[0], cont[1], True))
                 lines = lines + raw_lines(doc[cont[0]], cont[1])
                 content, flags = parse(lines)
+        if (year, day, n) in REGION_KEEP:  # a continuação detectada é outra coisa (ex.: instruções da redação)
+            regions = [regions[i] for i in REGION_KEEP[(year, day, n)]]
+            flags = [f for f in flags if f != "continua_em_outra_coluna_ou_pagina"]
         imgs = draws = sups = 0
         for pi, r, _ in regions:
             a, b = graphics_in(doc[pi], r)
