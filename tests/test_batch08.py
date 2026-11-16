@@ -27,7 +27,7 @@ def test_all_185_have_a_decision_and_prior_328_are_byte_identical():
     assert hashlib.sha256(b''.join(line for uid,line in raw.items() if uid in report['previous_records_sha256'])).hexdigest() == report['previous_catalog_sha256']
     assert report['approved_after'] == 509 and len(raw) >= 509  # later batches only add identities
     pending = [q for q in map(json.loads,(ROOT/'data/blue-published/preview-questions.jsonl').read_text().splitlines()) if q['id_unico_sistema'] not in raw]
-    assert len(pending) == 4
+    assert len(pending) == 3  # as 3 anuladas oficiais; a 2024/D1/Q04 foi resolvida e publicada no lote 34
     assert all(q['scoring_enabled'] is False and q['gabarito_oficial'] is None and q['parametros_tri'] is None for q in pending)
 
 
@@ -37,6 +37,9 @@ def test_recovered_records_match_fixed_decisions_and_all_image_hashes():
     entries = {e['id']:e for e in manifest}
     for r in report['results']:
         if r['status'] != 'APPROVED':
+            if r['id'] == '2024_AZUL_D1_Q04':  # conflito de identidade resolvido e publicado no lote 34 (ITENS_PROVA oficial)
+                assert r['id'] in raw
+                continue
             assert r['id'] not in raw and r['id'] not in entries
             continue
         q = json.loads(raw[r['id']])

@@ -22,7 +22,7 @@ from pathlib import Path
 import fitz
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from extract_exam_candidates import candidates, raw_lines, clean  # noqa: E402
+from extract_exam_candidates import candidates, raw_lines, clean, paragraphs  # noqa: E402
 from publish_blue_candidates import record_digest  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -492,7 +492,12 @@ def main():
             assert uid not in manifest_ids, uid
             c, r = cand[n], ident[uid]
             assert c["regions"], uid
-            assert r["tx_gabarito"] == c["answer"] == r["official_key"], f"identidade não corroborada: {uid}"
+            lang = r.get("lingua")  # posições de idioma (1–5 de LC): vale a versão em inglês, conferida pela seção do caderno
+            answer = c["answer_by_language"][lang] if lang else c["answer"]
+            assert r["tx_gabarito"] == answer == r["official_key"], f"identidade não corroborada: {uid}"
+            if lang:
+                from resolve_identity_idioma import section_language
+                assert section_language(doc, c["regions"][0]) == lang, f"seção do caderno diferente do idioma: {uid}"
             src, rec = c["content"], RECOVERY["items"].get(uid)
             if rec:  # 2021: camada de texto do azul corrompida; texto recuperado de outros cadernos pelo CO_ITEM
                 if rec["lacunas"] and not rec["transcricao_manual"]:
@@ -510,6 +515,11 @@ def main():
             fix = TEXT_OVERRIDES.get(uid, {})
             enun = fix.get("enunciado", src["enunciado"])
             base_text = (src["texto_base"] or "").replace("\x07", "") + fix.get("texto_base_append", "")  # \x07: marcador do travessão de diálogo
+            if c.get("shared_prefix"):  # texto compartilhado que precede as questões: entra no texto de apoio, antes do texto próprio
+                reg0 = c["regions"][0]
+                pl = [(clean(t.strip()), x, z) for t, x, z in raw_lines(doc[reg0["page"] - 1], fitz.Rect(reg0["bbox"])) if t.strip()]
+                pl = [(t, x, z) for t, x, z in pl if not re.fullmatch(r"\d{1,3}", t) and not t.startswith("Texto para as Quest")]
+                base_text = (paragraphs(pl) + "\n\n" + base_text).strip()
             if any(STRANGE.search(v) for v in [enun, base_text, *src["alternativas"].values()]):
                 failures.append((uid, ["glifo privado no texto"])); continue
             provisional = dict(enunciado=enun, texto_base=base_text,
@@ -527,7 +537,7 @@ def main():
                 page = doc[reg["page"] - 1]
                 rect = fitz.Rect(reg["bbox"])
                 crop = content_rect(page, rect)
-                if k == 0:
+                if k == (1 if c.get("shared_prefix") else 0):
                     crop, ok_trim = trim_to_header(page, crop, n)
                     if not ok_trim:
                         bad_all.append("tinta da linha anterior sobreposta ao cabeçalho")
@@ -543,12 +553,12 @@ def main():
             data, size = replay_png(pdf, renders)
             image = f"/images/verified/batch{batch}-{year}-azul-d{day}-q{n:03d}-source.png"
             content = dict(provisional, metadados_visual=dict(contem_imagem=True, descricao_imagem=DESCRIPTION, caminho_local_imagem=image))
-            q = dict(pending, conteudo=content, gabarito_oficial=c["answer"])
+            q = dict(pending, conteudo=content, gabarito_oficial=answer)
             digest = record_digest(q)
             results.append(dict(
-                id=uid, year=year, day=day, number=n, application="regular", language=None,
+                id=uid, year=year, day=day, number=n, application="regular", language=lang,
                 regions=[dict(page=g["page"], bbox=g["bbox"], is_prefix=False) for g in c["regions"]],
-                pending_row=pending, before_content=provisional, official_answer=c["answer"], source=source,
+                pending_row=pending, before_content=provisional, official_answer=answer, source=source,
                 source_file=pdf.name, key_file=key.name, source_text=text, source_text_sha256=sha_bytes(text.encode()),
                 status="APPROVED", classification="RECOVERABLE",
                 decision="Recorte original da região da questão (texto, figuras, comando e alternativas), gabarito oficial e identidade resolvida; região conferida em folha de contato.",
@@ -559,7 +569,7 @@ def main():
                 visual_review=dict.fromkeys(["text", "options", "graphics", "credits", "continuity", "answer"], True),
                 identity_reconciliation=dict(
                     method="official ITENS_PROVA: the azul CO_PROVA whose answer sequence equals the official key (data/audit/identity-resolution.json)",
-                    co_item=r["co_item"], co_prova=r["co_prova"], tx_gabarito=r["tx_gabarito"], official_answer=c["answer"],
+                    co_item=r["co_item"], co_prova=r["co_prova"], tx_gabarito=r["tx_gabarito"], official_answer=answer,
                     independent_item_csv="official Inep ITENS_PROVA (see data/audit/identity/sources.json)",
                     note="CO_ITEM não vem do fused (CO_PROVA azul diferente do caderno do PDF)."),
                 parser_flags=c["flags"] + (["texto_recuperado_de_outros_cadernos"] if rec else []),

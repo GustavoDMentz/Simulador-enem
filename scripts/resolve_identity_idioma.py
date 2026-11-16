@@ -27,6 +27,9 @@ from audit_official_gabaritos import extract_pdf  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TP = {"ingles": "0", "espanhol": "1"}
+# posições de idioma que ainda não estavam no catálogo: a versão em inglês (a que vale na posição) ganha identidade aqui;
+# a região vem do cabeçalho da seção em inglês do PDF (primeira ocorrência de "Questão n") e é conferida pela seção
+NEW_ENGLISH = {2017: [1, 2, 3, 4, 5], 2018: [4, 5], 2024: [4]}
 HEADER = re.compile(r"Quest[õo]es de 0?1 a 0?5\s*\(op[çc][ãa]o:?\s+(ingl[êe]s|espanhol)\)", re.I)
 
 
@@ -80,15 +83,42 @@ def main():
         added[uid] = dict(co_item=int(r["CO_ITEM"]), co_habilidade=int(r["CO_HABILIDADE"]) if r["CO_HABILIDADE"] else None,
                           in_item_aban=int(r["IN_ITEM_ABAN"] or 0), area="LC", tx_gabarito=r["TX_GABARITO"], co_prova=co_prova,
                           official_key=key, lingua=lang)
+    new_english, new_problems = {}, []
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from extract_exam_candidates import candidates  # noqa: E402
+    for year, positions in NEW_ENGLISH.items():
+        ref = next(v for k, v in ident["items"].items() if k.startswith(f"{year}_AZUL_D1_") and v["area"] == "LC" and "lingua" not in v)
+        co_prova = ref["co_prova"]
+        if year not in rows_cache:
+            rows_cache[year] = list(csv.DictReader((ROOT / f"data/audit/identity/itens-prova-{year}-azul.csv").open(encoding="utf-8"), delimiter=";"))
+            keys[year] = extract_pdf(ROOT / f"data/enem-pdfs/oficiais/{year}-regular-d1-azul-gabarito.pdf")[0]
+        cand = candidates(year, 1)
+        with fitz.open(ROOT / f"data/enem-pdfs/oficiais/{year}-regular-d1-azul.pdf") as doc:
+            for pos in positions:
+                uid = f"{year}_AZUL_D1_Q{pos:02d}"
+                if uid in {q["id_unico_sistema"] for q in release}:
+                    new_problems.append((uid, "já está no catálogo")); continue
+                sec = section_language(doc, cand[pos]["regions"][0])
+                match = [r for r in rows_cache[year] if int(r["CO_PROVA"]) == co_prova and r["SG_AREA"] == "LC"
+                         and int(r["CO_POSICAO"]) == pos and r["TP_LINGUA"] == "0"]
+                key = keys[year].get(pos, {}).get("ingles")
+                if sec != "ingles" or len(match) != 1 or match[0]["TX_GABARITO"] != key:
+                    new_problems.append((uid, f"seção={sec} linhas={len(match)} itens={match and match[0]['TX_GABARITO']} pdf={key}")); continue
+                r = match[0]
+                new_english[uid] = dict(co_item=int(r["CO_ITEM"]), co_habilidade=int(r["CO_HABILIDADE"]) if r["CO_HABILIDADE"] else None,
+                                        in_item_aban=int(r["IN_ITEM_ABAN"] or 0), area="LC", tx_gabarito=r["TX_GABARITO"], co_prova=co_prova,
+                                        official_key=key, lingua="ingles")
+    added.update(new_english)
     ident["items"].update(added)
     ident["language_resolution"] = dict(
         method="posições 1–5 de LC: ITENS_PROVA (CO_PROVA escolhido, TP_LINGUA 0=inglês/1=espanhol) + idioma do manifesto conferido pela seção do PDF + gabarito do idioma",
-        resolved=len(added),
+        resolved=len(added) - len(new_english),
         published_with_wrong_co_item=sum(1 for q in todo if q["id_unico_sistema"] in added and q["co_item"] != added[q["id_unico_sistema"]]["co_item"]),
-        unresolved=[dict(id=u, motivo=m) for u, m in problems])
+        unresolved=[dict(id=u, motivo=m) for u, m in problems],
+        unpublished_english=dict(resolved=sorted(new_english), unresolved=[dict(id=u, motivo=m) for u, m in new_problems]))
     ident_path.write_text(json.dumps(ident, ensure_ascii=False, indent=1) + "\n")
-    print(len(added), "resolvidas;", len(problems), "pendentes")
-    for u, m in problems:
+    print(len(added), "resolvidas;", len(problems) + len(new_problems), "pendentes")
+    for u, m in problems + new_problems:
         print(" ", u, m)
 
 

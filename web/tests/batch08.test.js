@@ -5,9 +5,9 @@ const {scorable,readManifest}=require('../audit-gate');
 const {presentation}=require('../question-presentation');
 const rows=fs.readFileSync(path.resolve(__dirname,'../../data/blue-published/questions.jsonl'),'utf8').trim().split('\n').map(JSON.parse);
 test('all recovered items are selectable and blocked decisions never enter scoring',()=>{
- const entries=readManifest().questions;assert.equal(rows.length,1597);
+ const entries=readManifest().questions;assert.equal(rows.length,1611);
  for(const r of report.results){const q=rows.find(q=>q.id_unico_sistema===r.id);
-  if(r.status!=='APPROVED'){assert.equal(q,undefined);continue;}
+  if(r.status!=='APPROVED'){if(r.id==='2024_AZUL_D1_Q04'){assert(q&&scorable(q,entries));continue;}assert.equal(q,undefined);continue;} // 2024/D1/Q04: identidade resolvida e publicada no lote 34
   assert(scorable(q,entries));const p=presentation(q);assert(p);assert.equal(p.mode,r.presentation_metadata.mode);
   if(p.options)assert.deepEqual(Object.keys(p.options).sort(),[...'ABCDE']);
  }
