@@ -53,16 +53,19 @@ def content_rect(page, rect):
             for ln in blk["lines"]:
                 if "".join(s["text"] for s in ln["spans"]).strip():
                     boxes.append(fitz.Rect(ln["bbox"]))
-        elif blk.get("type") == 1:
-            boxes.append(fitz.Rect(blk["bbox"]))
+    pw = page.rect.width
     for i in page.get_image_info():
         r = fitz.Rect(i["bbox"])
+        if r.width < 40 and (r.x1 <= 30 or r.x0 >= pw - 30 or r.height > 600):
+            continue  # faixa decorativa da margem da página (2024)
         if r.intersects(rect):
             boxes.append(r & rect)
     for d in page.get_drawings():
         r = fitz.Rect(d["rect"])
         if not (r.intersects(rect) and r.width > 3 and r.height > 3) or (r.width > 200 and r.height < 16):
             continue
+        if r.x1 <= 24 or r.x0 >= pw - 24:
+            continue  # desenho dentro da faixa da margem
         f = d.get("fill")
         if f and all(0.28 <= c <= 0.33 for c in f) and (r.width < 35 or r.height < 35) and (r.x0 < 25 or r.x1 > page.rect.width - 25 or r.x0 < 0):
             continue  # marca escura da margem da página
@@ -133,7 +136,12 @@ def main():
     manifest_ids = {e["id"] for e in json.loads((ROOT / "data/audit/manifest.json").read_text())["questions"]}
     results, sources, failures = [], [], []
     for (year, day), numbers in sorted(selection.items()):
-        ex = exams[(year, day)]
+        ex = dict(exams[(year, day)])
+        if "source_sha256" not in ex:  # 2024 D1: o inventário não traz as fontes; usa as já auditadas no manifesto de publicação
+            ref = next(e for e in json.loads((ROOT / "data/audit/manifest.json").read_text())["questions"]
+                       if e["year"] == year and e["day"] == day and e.get("application") == "regular")
+            ex.update(source_url=ref["source_url"], source_sha256=ref["source_sha256"],
+                      answer_key_url=ref["answer_source_url"], answer_key_sha256=ref["answer_source_sha256"])
         pdf = args.pdf_root / f"{year}-regular-d{day}-azul.pdf"
         key = args.pdf_root / f"{year}-regular-d{day}-azul-gabarito.pdf"
         assert sha_bytes(pdf.read_bytes()) == ex["source_sha256"], pdf
