@@ -1,32 +1,346 @@
 {
-  "_nota": "Transcrição manual, conferida na imagem do recorte azul, das linhas cuja camada de texto está corrompida em todos os cadernos. Cada lista preenche, em ordem, as lacunas ⟦?⟧ de scripts/recover_2021_text.py; 'X|texto' é a linha inteira da alternativa X.",
-  "2021_AZUL_D1_Q12": ["e do cão configura recurso expressivo que busca", "estimular denúncias de maus-tratos contra animais."],
-  "2021_AZUL_D1_Q13": ["HENFIL. Disponível em: https://medium.com. Acesso em: 29 out. 2018 (adaptado).", "verbais e não verbais sinalizam a finalidade de"],
-  "2021_AZUL_D1_Q14": ["As esculturas do Museu Atlântico ficam a 14 metros", "Disponível em: http://conexaoplaneta.com.br. Acesso em: 22 jun. 2019 (adaptado)."],
-  "2021_AZUL_D1_Q29": ["Há uma diferença importante entre desconfiar de", "de um mesmo fato, dado ou evento. Apenas desconfiar"],
-  "2021_AZUL_D1_Q33": ["uso de elementos gráficos voltados para o público-alvo."],
-  "2021_AZUL_D1_Q36": ["se concentram apenas nas possibilidades antropomórficas", "FARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).", "de diferentes matérias-primas."],
-  "2021_AZUL_D1_Q37": ["Pra ganhar um fuscão no juízo final", "por Gonzaguinha na década de 1970, infere-se o"],
-  "2021_AZUL_D1_Q39": ["Fim de semana você deixa a companheira", "Segunda-feira chega na repartição"],
-  "2021_AZUL_D1_Q41": ["os meus outros pavões foram-se embora.", "recurso poético que configura uma imagem com a qual", "A|revela a intenção de isolar-se em seu espaço."],
-  "2021_AZUL_D1_Q43": ["D'SALETE, M. Cumbe. São Paulo: Veneta, 2018, p. 10-11 (adaptado)."],
-  "2021_AZUL_D1_Q61": ["paisagem geográfica que ainda recordava a cidade do", "moradores, uma nova configuração socioespacial capaz", "intensificação da participação na competitividade global."],
-  "2021_AZUL_D1_Q62": ["Constatou-se uma ínfima inserção da indústria", "subordinação aos fluxos globais."],
-  "2021_AZUL_D1_Q64": ["DELEUZE, G.; GUATTARI, F. Mil platôs. São Paulo: Editora 34, 2012 (adaptado)."],
-  "2021_AZUL_D1_Q66": ["identificar o perfil da população que está nas prisões do", "flexibilização do Código Civil."],
-  "2021_AZUL_D1_Q70": ["Foram esses cientistas Xavante que esclareceram", "Disponível em: https://outraspalavras.net.", "reflorestamento comercial para a produção orgânica."],
-  "2021_AZUL_D1_Q71": ["Compactação superficial."],
-  "2021_AZUL_D1_Q72": ["(Lei n. 10.257/2001), que estabeleceu condições para", "processo. Este rumo deve ser corrigido e deve-se continuar", "Fortalecimento das associações de bairro."],
-  "2021_AZUL_D1_Q76": ["agitada pelo desafio lançado pela cultura profana — a dos", "latim. Francisco de Assis veio alterar a situação, propondo"],
-  "2021_AZUL_D1_Q77": ["e panfletos) na América espanhola, que não era permitida"],
-  "2021_AZUL_D1_Q85": ["http://bndigital.bn.gov.br. Acesso em: 2 ago. 2019 (adaptado).", "Fundação de territórios quilombolas."],
-  "2021_AZUL_D2_Q119": ["Com o objetivo de identificar a melhor espécie produtora de madeira para construção (com resistência mecânica", "e à degradação), foram analisadas as estruturas anatômicas de cinco espécies, conforme o quadro."],
-  "2021_AZUL_D2_Q130": ["flavorizantes. Em geral, essas substâncias são ésteres,", "O aroma do flavorizante derivado do ácido etanoico e que"],
-  "2021_AZUL_D2_Q144": ["esses dados no gráfico."],
-  "2021_AZUL_D2_Q145": ["com 10 anos ou mais, observou-se que a leitura ocupa,", "de idade seguiu a distribuição percentual descrita no", "Os valores de x e y do quadro são, respectivamente, iguais a"],
-  "2021_AZUL_D2_Q153": ["e 1,68 m de largura. O artesão que trabalhou para o"],
-  "2021_AZUL_D2_Q165": ["a combustão que economiza, em relação ao consumo"],
-  "2021_AZUL_D2_Q172": ["Sabe-se que a faixa aeróbica ideal para o ganho", "condicionamento físico, são"],
-  "2021_AZUL_D2_Q174": ["Farmácia 2, recebe-se um desconto de 20% em", "do medicamento Z, e não há desconto para o", "recebe-se 20% de desconto no valor total da"],
-  "2021_AZUL_D2_Q177": ["dos números 9 e 12, na base binária, são 1001 e 1100,", "respectivamente. A operação de adição, na base binária,", "adição 9 + 12 será representado, na base binária, por"]
+ "_nota": "Transcrição manual, conferida na imagem do recorte azul, das linhas cuja camada de texto está corrompida em todos os cadernos. Cada lista preenche, em ordem, as lacunas ⟦?⟧ de scripts/recover_2021_text.py; 'X|texto' é a linha inteira da alternativa X.",
+ "2021_AZUL_D1_Q12": [
+  "e do cão configura recurso expressivo que busca",
+  "estimular denúncias de maus-tratos contra animais."
+ ],
+ "2021_AZUL_D1_Q13": [
+  "HENFIL. Disponível em: https://medium.com. Acesso em: 29 out. 2018 (adaptado).",
+  "verbais e não verbais sinalizam a finalidade de"
+ ],
+ "2021_AZUL_D1_Q14": [
+  "As esculturas do Museu Atlântico ficam a 14 metros",
+  "Disponível em: http://conexaoplaneta.com.br. Acesso em: 22 jun. 2019 (adaptado)."
+ ],
+ "2021_AZUL_D1_Q29": [
+  "Há uma diferença importante entre desconfiar de",
+  "de um mesmo fato, dado ou evento. Apenas desconfiar"
+ ],
+ "2021_AZUL_D1_Q33": [
+  "uso de elementos gráficos voltados para o público-alvo."
+ ],
+ "2021_AZUL_D1_Q36": [
+  "se concentram apenas nas possibilidades antropomórficas",
+  "FARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).",
+  "de diferentes matérias-primas."
+ ],
+ "2021_AZUL_D1_Q37": [
+  "Pra ganhar um fuscão no juízo final",
+  "por Gonzaguinha na década de 1970, infere-se o"
+ ],
+ "2021_AZUL_D1_Q39": [
+  "Fim de semana você deixa a companheira",
+  "Segunda-feira chega na repartição"
+ ],
+ "2021_AZUL_D1_Q41": [
+  "os meus outros pavões foram-se embora.",
+  "recurso poético que configura uma imagem com a qual",
+  "A|revela a intenção de isolar-se em seu espaço."
+ ],
+ "2021_AZUL_D1_Q43": [
+  "D'SALETE, M. Cumbe. São Paulo: Veneta, 2018, p. 10-11 (adaptado)."
+ ],
+ "2021_AZUL_D1_Q61": [
+  "paisagem geográfica que ainda recordava a cidade do",
+  "moradores, uma nova configuração socioespacial capaz",
+  "intensificação da participação na competitividade global."
+ ],
+ "2021_AZUL_D1_Q62": [
+  "Constatou-se uma ínfima inserção da indústria",
+  "subordinação aos fluxos globais."
+ ],
+ "2021_AZUL_D1_Q64": [
+  "DELEUZE, G.; GUATTARI, F. Mil platôs. São Paulo: Editora 34, 2012 (adaptado)."
+ ],
+ "2021_AZUL_D1_Q66": [
+  "identificar o perfil da população que está nas prisões do",
+  "flexibilização do Código Civil."
+ ],
+ "2021_AZUL_D1_Q70": [
+  "Foram esses cientistas Xavante que esclareceram",
+  "Disponível em: https://outraspalavras.net.",
+  "reflorestamento comercial para a produção orgânica."
+ ],
+ "2021_AZUL_D1_Q71": [
+  "Compactação superficial."
+ ],
+ "2021_AZUL_D1_Q72": [
+  "(Lei n. 10.257/2001), que estabeleceu condições para",
+  "processo. Este rumo deve ser corrigido e deve-se continuar",
+  "Fortalecimento das associações de bairro."
+ ],
+ "2021_AZUL_D1_Q76": [
+  "agitada pelo desafio lançado pela cultura profana — a dos",
+  "latim. Francisco de Assis veio alterar a situação, propondo"
+ ],
+ "2021_AZUL_D1_Q77": [
+  "e panfletos) na América espanhola, que não era permitida"
+ ],
+ "2021_AZUL_D1_Q85": [
+  "http://bndigital.bn.gov.br. Acesso em: 2 ago. 2019 (adaptado).",
+  "Fundação de territórios quilombolas."
+ ],
+ "2021_AZUL_D2_Q119": [
+  "Com o objetivo de identificar a melhor espécie produtora de madeira para construção (com resistência mecânica",
+  "e à degradação), foram analisadas as estruturas anatômicas de cinco espécies, conforme o quadro."
+ ],
+ "2021_AZUL_D2_Q130": [
+  "flavorizantes. Em geral, essas substâncias são ésteres,",
+  "O aroma do flavorizante derivado do ácido etanoico e que"
+ ],
+ "2021_AZUL_D2_Q144": [
+  "esses dados no gráfico."
+ ],
+ "2021_AZUL_D2_Q145": [
+  "com 10 anos ou mais, observou-se que a leitura ocupa,",
+  "de idade seguiu a distribuição percentual descrita no",
+  "Os valores de x e y do quadro são, respectivamente, iguais a"
+ ],
+ "2021_AZUL_D2_Q153": [
+  "e 1,68 m de largura. O artesão que trabalhou para o"
+ ],
+ "2021_AZUL_D2_Q165": [
+  "a combustão que economiza, em relação ao consumo"
+ ],
+ "2021_AZUL_D2_Q172": [
+  "Sabe-se que a faixa aeróbica ideal para o ganho",
+  "condicionamento físico, são"
+ ],
+ "2021_AZUL_D2_Q174": [
+  "Farmácia 2, recebe-se um desconto de 20% em",
+  "do medicamento Z, e não há desconto para o",
+  "recebe-se 20% de desconto no valor total da"
+ ],
+ "2021_AZUL_D2_Q177": [
+  "dos números 9 e 12, na base binária, são 1001 e 1100,",
+  "respectivamente. A operação de adição, na base binária,",
+  "adição 9 + 12 será representado, na base binária, por"
+ ],
+ "2021_AZUL_D1_Q17": [
+  "de outro, achava-se investida do poder de representar",
+  "como “jogador-problema”. Ele esboçava a revolta",
+  "moral na derrota de 1950, Paulo César contra-atacava",
+  "os que pretendiam condená-lo pelo insucesso de 1974.",
+  "Disponível em: https://observatorioracialfutebol.com.br. Acesso em: 22 jun. 2019 (adaptado).",
+  "na final da Copa de 1950.",
+  "atitude contestadora de um “jogador-problema”."
+ ],
+ "2021_AZUL_D1_Q18": [
+  "poema épico brasileiro, a filiação à estética romântica",
+  "manifesta-se na",
+  "exaltação do retrato fiel da beleza feminina.",
+  "ressignificação de obras do cânone literário nacional."
+ ],
+ "2021_AZUL_D1_Q21": [
+  "oceanos, infinitos via evaporação e precipitação, ou seja,",
+  "nos continentes serão repostos indefinidamente.",
+  "maior, e regiões áridas, onde, por razões específicas da",
+  "do que a precipitação, gerando déficit de reposição de",
+  "superficial, ela não consegue penetrar no solo para",
+  "utilizar a água superficial para o consumo."
+ ],
+ "2021_AZUL_D1_Q24": [
+  "deslocado, braços e pernas quebrados; por fim, um dia",
+  "ficou lesionado da perna quando foi jogado da laje de um",
+  "o fim dos seus dias. Já não questiona mais. Obedece.",
+  "recursos formais e numa representação ficcional que"
+ ],
+ "2021_AZUL_D1_Q26": [
+  "antigo de Florianópolis, pelo pesquisador independente",
+  "Felipe Rissato.",
+  "“Das florestas em que habito/ Solto um canto",
+  "varonil:/ Em honra e glória de Pedro/ O gigante do Brasil”,",
+  "cidade de Desterro, antigo nome de Florianópolis."
+ ],
+ "2021_AZUL_D1_Q27": [
+  "desenvolveu-se uma tendência feita de linhas retas e",
+  "Chaves, com a reprodução fotográfica de cadeiras",
+  "e poltronas de Sérgio Rodrigues, verifica-se que os",
+  "aparecem definidos nas linhas retas dos objetos.",
+  "apontam a unidade de matéria-prima utilizada em sua",
+  "surgem na simplificação das informações visuais de"
+ ],
+ "2021_AZUL_D1_Q28": [
+  "Ponto positivo para o Facebook, que vai dar uma",
+  "conhecido como o espaço da treta. Durante a F8,",
+  "integrados em grupos de “assuntos significativos”.",
+  "Zuckerberg também disse que o futuro do Facebook é",
+  "#FicaaDica",
+  "Disponível em: https://thebrief.us16.list-manage.com. Acesso em: 3 maio 2019 (adaptado).",
+  "E|evoluem para ficar mais parecidas umas com as"
+ ],
+ "2021_AZUL_D1_Q31": [
+  "em períodos de baixa nas ondas e ficou conhecido como",
+  "“surfinho”. No início foram utilizados eixos e rodinhas",
+  "quando o engenheiro químico chamado Frank Nasworthy",
+  "descobriu o uretano, material mais flexível, que oferecia",
+  "ARMBRUST, L; LAURO, F. A. A. O skate e suas possibilidades educacionais.",
+  "Motriz, jul.-set. 2010 (adaptado).",
+  "C|definiram a carreira de skatista profissional."
+ ],
+ "2021_AZUL_D1_Q32": [
+  "[…] Como pretendo viajar esses dias, habilitei-me a",
+  "a cabine de avião, a aparelho de ultrassonografia onde",
+  "A|mensagem, elevando-a à categoria de objeto estético do",
+  "E|interlocutor,",
+  "considerando-o",
+  "responsável",
+  "pelo"
+ ],
+ "2021_AZUL_D1_Q35": [
+  "chão e conte-me tudo. Está viúva, naturalmente?",
+  "— Assim, assim. Deve chamar-se hoje D. Maria",
+  "No diálogo, descortinam-se aspectos da condição da",
+  "encontra um modo de dignificar-se na prática da",
+  "condiciona seu bem-estar à estabilidade do"
+ ],
+ "2021_AZUL_D1_Q38": [
+  "Se for possível, manda-me dizer:",
+  "Manda-me dizer, e o paraíso",
+  "Há de ficar mais perto, e mais recente",
+  "Manda-me buscar se tens o dia",
+  "E dos meus pés molhados, manda-me dizer:",
+  "Falando ao outro, o eu lírico revela-se vocalizando um",
+  "questionamento sobre o significado do amor ausente."
+ ],
+ "2021_AZUL_D1_Q40": [
+  "boa pessoa. Sua filha de doze anos não a visita nunca",
+  "e talvez raramente se lembre dela. Puseram-na numa",
+  "onde não pôde mais sair. Lá, todos gritam-lhe irritados,",
+  "alguém não a possa mais amar. Eu amo-a. Amo-a quando",
+  "-se, posta no olhar. Amo-a quando criança brinca na areia",
+  "Cercada de mundo, às vezes sofrendo-o ainda.",
+  "CANÇADO, M. L. O sofredor do ver. Belo Horizonte: Autêntica, 2015."
+ ],
+ "2021_AZUL_D1_Q44": [
+  "Eis em que consistia este segundo uso. Contratava-",
+  "-se um homem, por um ou mais dias, para andar as ruas",
+  "E dizem as crônicas que algumas pessoas afirmavam ter",
+  "visto cascavéis dançando no peito do vereador; afirmação",
+  "perfeitamente falsa, mas só devida à absoluta confiança",
+  "localidade sem imprensa. Ao destacar a confiança da",
+  "informações não fidedignas."
+ ],
+ "2021_AZUL_D1_Q63": [
+  "As atividades mineradoras têm criado conflitos",
+  "dificuldade de reproduzir suas dinâmicas territoriais",
+  "pelo Estado e pela empresa, ficando sem qualquer tipo",
+  "PALHETA, J. M. et al. Conflitos pelo uso do território na Amazônia mineral.",
+  "carência de investimento financeiro."
+ ],
+ "2021_AZUL_D1_Q65": [
+  "procure incessantemente afirmar o contrário e vos queira",
+  "ENGELS, F. A situação da classe trabalhadora na Inglaterra. São Paulo: Boitempo, 2010.",
+  "alicerce da ideia de mais-valia.",
+  "fundamentos do método científico."
+ ],
+ "2021_AZUL_D1_Q78": [
+  "significou o primeiro confronto entre a liberdade e a",
+  "crentes contra o Anticristo a fim de instalar o reino de",
+  "diferencia-se da do Texto I ao destacar a existência de",
+  "D|superficialidade dos interesses políticos."
+ ],
+ "2021_AZUL_D1_Q79": [
+  "exercem grande influência na economia extralocal.",
+  "DAVIDOVICH, F. Estado do Rio de Janeiro: o urbano metropolitano.",
+  "Que tipo de ação tomada por empresas reflete a forma",
+  "Importação de mão de obra qualificada."
+ ],
+ "2021_AZUL_D2_Q100": [
+  "afirmava que se abandonarmos corpos leves e pesados",
+  "é difícil de refutar, a observação direta da realidade",
+  "convencer o outro de que tinha razão:",
+  "Colega B: “Eu não acho! Peguei uma folha de papel",
+  "explicação!”.",
+  "comportamento dos corpos em queda nessa discussão",
+  "aceleração da gravidade."
+ ],
+ "2021_AZUL_D2_Q108": [
+  "Gonçalo Ferreira da Silva, lê-se a sextilha:",
+  "A distância em relação",
+  "**Plutão",
+  "u.a. = 149 600 000 km, é a unidade astronômica, *Planeta clássico, **Planeta-anão"
+ ],
+ "2021_AZUL_D2_Q112": [
+  "Os búfalos são animais considerados rústicos pelos",
+  "criadores e, por isso, são deixados no campo sem",
+  "controle reprodutivo. Por causa desse tipo de criação,",
+  "DAMÉ, M. C. F.; RIET-CORREA, F.; SCHILD, A. L. Pesq. Vet. Bras., n. 7, 2013 (adaptado).",
+  "nessa situação?"
+ ],
+ "2021_AZUL_D2_Q116": [
+  "usualmente encontradas, algumas são apresentadas na figura. A distinção dessas substâncias pode ser feita por",
+  "meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente",
+  "específico. O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base",
+  "de Brönsted-Lowry."
+ ],
+ "2021_AZUL_D2_Q117": [
+  "Com o aumento da população de suínos no Brasil, torna-se necessária a adoção de métodos para reduzir o",
+  "suínos são 200 vezes mais poluentes. Sendo assim, a utilização desses resíduos como matéria-prima na obtenção de",
+  "combustíveis é uma alternativa que permite diversificar a matriz energética nacional, ao mesmo tempo em que parte",
+  "dos recursos hídricos do país são preservados.",
+  "BECK, A. M. Resíduos suínos como alternativa energética sustentável. XXVII Encontro Nacional de Engenharia de Produção. Anais ENEGEP, Foz do Iguaçu, 2007 (adaptado)."
+ ],
+ "2021_AZUL_D2_Q128": [
+  "Carros elétricos estão cada vez mais baratos,",
+  "no entanto, os órgãos governamentais e a indústria se",
+  "carregador ideal que opera a uma tensão de 220 V e é",
+  "Quantas horas são necessárias para recarregar a energia"
+ ],
+ "2021_AZUL_D2_Q139": [
+  "seria incluído definitivamente no cardápio. Terminado o"
+ ],
+ "2021_AZUL_D2_Q147": [
+  "A Cifra de César é um exemplo de um método de codificação de mensagens usado por Júlio César para se",
+  "No método, cada letra era trocada por uma letra que aparecia no alfabeto um número fixo de casas adiante (ou atrás)",
+  "Codificado",
+  "seguinte gráfico de frequências:",
+  "Após codificar esse texto com a regra do exemplo fornecido, faz-se nova análise de frequência no texto codificado.",
+  "As quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são"
+ ],
+ "2021_AZUL_D2_Q154": [
+  "A demografia médica é o estudo da população de",
+  "a necessidade da formação de novos médicos. Um",
+  "a evolução do número de médicos e da população",
+  "Segundo uma projeção estatística, a variação do",
+  "número de médicos e o da população brasileira de 2010",
+  "para 2020 será a média entre a variação de 1990 para",
+  "projeção, determina-se o número de médicos por mil"
+ ],
+ "2021_AZUL_D2_Q155": [
+  "Uma atleta produz sua própria refeição com custo fixo de R$ 10,00. Ela é composta por 400 g de frango, 600 g de",
+  "batata-doce e uma hortaliça. Atualmente, os preços dos produtos para essa refeição são:",
+  "Em relação a esses preços, haverá um aumento de 50% no preço do quilograma de batata-doce, e os outros",
+  "preços não serão alterados. O atleta deseja manter o custo da refeição, a quantidade de batata-doce e a hortaliça.",
+  "Qual deve ser a redução percentual da quantidade de frango para que o atleta alcance seu objetivo?"
+ ],
+ "2021_AZUL_D2_Q159": [
+  "são necessários 4 segundos para que a troca seja efetuada. O",
+  "uma dessas paradas, um dos trabalhadores passou mal, não",
+  "um dos quatro grupos de troca ficou reduzido.",
+  "Nessa parada específica, com um dos grupos reduzido, qual"
+ ],
+ "2021_AZUL_D2_Q166": [
+  "Em relação ao previsto para o projeto original, as",
+  "devendo ser o escolhido pelo construtor para a aquisição"
+ ],
+ "2021_AZUL_D2_Q170": [
+  "conforme ilustração.",
+  "Sabe-se que 1 cm³ = 1 mL e que o topo da caneca",
+  "Além disso, sabe-se que a altura (h) dessa caneca mede",
+  "Utilize 3 como aproximação para π."
+ ],
+ "2021_AZUL_D2_Q173": [
+  "Um lava-rápido oferece dois tipos de lavagem de",
+  "as despesas com produtos e funcionários, e não ter",
+  "prejuízos, o lava-rápido deve ter uma receita diária de,",
+  "Para não ter prejuízo, o menor número de lavagens",
+  "diárias que o lava-rápido deve efetuar é"
+ ],
+ "2021_AZUL_D2_Q179": [
+  "disposição 6 tecidos diferentes e 15 pedras ornamentais",
+  "podem ser produzidas é representada pela expressão",
+  "___ · ____",
+  "__ · __"
+ ]
 }

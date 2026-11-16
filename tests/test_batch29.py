@@ -1,0 +1,71 @@
+import hashlib
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'scripts'))
+from publish_blue_candidates import approved_record, record_digest  # noqa: E402
+
+
+IDENT = json.loads((ROOT / 'data/audit/identity-resolution.json').read_text())['items']
+
+
+def load():
+    report = json.loads((ROOT / 'data/audit/batch-29-review.json').read_text())
+    raw = {json.loads(l)['id_unico_sistema']: l for l in (ROOT / 'data/blue-published/questions.jsonl').read_bytes().splitlines(keepends=True)}
+    return report, raw
+
+
+def test_batch_29_adds_32_new_identities_and_keeps_1477_previous_lines_byte_identical():
+    report, raw = load()
+    assert report['approved_before'] == 1477 and report['newly_approved'] == 32 and report['approved_after'] == 1509
+    assert len(report['results']) == len({r['id'] for r in report['results']}) == 32
+    assert len(report['previous_lines_sha256']) == 1477
+    for uid, digest in report['previous_lines_sha256'].items():
+        assert hashlib.sha256(raw[uid]).hexdigest() == digest
+    assert len(raw) >= 1509
+
+
+def test_each_new_record_is_content_bound_text_only_and_has_its_crop():
+    report, raw = load()
+    entries = {e['id']: e for e in json.loads((ROOT / 'data/audit/manifest.json').read_text())['questions']}
+    for r in report['results']:
+        q = json.loads(raw[r['id']])
+        e = entries[r['id']]
+        assert r['status'] == 'APPROVED' and r['visual_review'] and all(r['visual_review'].values())
+        assert approved_record(q, list(entries.values()), ROOT / 'data/extracted')
+        assert record_digest(q) == r['record_sha256'] == e['record_sha256']
+        ident = IDENT[r['id']]
+        assert q['gabarito_oficial'] == r['official_answer'] == r['identity_reconciliation']['tx_gabarito'] == ident['tx_gabarito'] == ident['official_key']
+        assert q['co_item'] == ident['co_item'] == r['identity_reconciliation']['co_item']
+        assert q['parametros_tri'] is None and q['scoring_enabled'] is True
+        assert q['conteudo'] == r['after_content'] and set(q['conteudo']['alternativas']) == set('ABCDE')
+        asset = r['assets']['source']
+        assert hashlib.sha256((ROOT / 'data/extracted' / asset['image'].removeprefix('/images/')).read_bytes()).hexdigest() == asset['sha256']
+        assert r['presentation_metadata']['mode'] == 'composition' and r['presentation_metadata']['includes_command'] is True and all(f.split(':')[0] in ('imagens', 'desenhos', 'comando_por_ultima_frase', 'possivel_poesia', 'numeracao_de_linhas', 'hifen_fim_de_linha', 'caractere_estranho_ou_ligadura', 'continua_em_outra_coluna_ou_pagina', 'sem_alternativas', 'alternativas_incompletas', 'sobrescrito_ou_indice', 'texto_recuperado_de_outros_cadernos') for f in r['parser_flags'])
+
+
+def test_new_identities_enter_the_inventory_as_pending_rows_only():
+    report, _ = load()
+    snap = {json.loads(l)['id_unico_sistema']: json.loads(l) for l in (ROOT / 'data/audit/session-recovery/preview-questions.jsonl').read_text().splitlines()}
+    for r in report['results']:
+        row = snap[r['id']]
+        assert row['gabarito_oficial'] is None and row['scoring_enabled'] is False and row['parametros_tri'] is None
+        assert row == r['pending_row']
+
+
+def test_2021_text_comes_from_other_booklets_by_co_item_and_every_gap_is_a_checked_transcription():
+    report, _ = load()
+    rec = json.loads((ROOT / 'data/audit/text-recovery-2021.json').read_text())
+    assert len(rec['items']) == 84 and len(rec['sources']) == 6
+    for s in rec['sources'].values():
+        assert s['source_url'].startswith('https://download.inep.gov.br/enem/provas_e_gabaritos/') and len(s['source_sha256']) == len(s['answer_key_sha256']) == 64
+        assert s['ordem_conferida_com_gabarito']['iguais'] >= s['ordem_conferida_com_gabarito']['comparadas'] - 1  # no máximo 1 anulada oficial sem letra
+    fills = {k: v for k, v in json.loads((ROOT / 'data/audit/text-recovery-2021-fills.json').read_text()).items() if not k.startswith('_')}
+    for r in report['results']:
+        item = rec['items'][r['id']]
+        assert 'texto_recuperado_de_outros_cadernos' in r['parser_flags'] and r['text_recovery']['co_item'] == item['co_item'] == r['pending_row']['co_item']
+        assert item['lacunas'] == len(fills.get(r['id'], [])) and (item['lacunas'] == 0 or item['transcricao_manual'])
+        assert '\u27e6?\u27e7' not in r['source_text'] and r['source_text'] == '\n'.join(item['text_lines'])
+        assert not any(c in r['source_text'] for c in map(chr, range(0, 9)))

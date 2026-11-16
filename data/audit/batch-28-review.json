@@ -7043,7 +7043,7 @@
         "in_item_aban": 0,
         "conteudo": {
           "enunciado": "Qual a quantidade máxima de camisetas que essa pessoa poderá levar?",
-          "texto_base": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg. Em duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens: Viagem Camisetas Calças Sapatos  12 4 3  18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.",
+          "texto_base": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg. Em duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens: Viagem Camisetas Calças Sapatos I 12 4 3 II 18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.",
           "alternativas": {
             "A": "22",
             "B": "24",
@@ -7065,7 +7065,7 @@
       },
       "before_content": {
         "enunciado": "Qual a quantidade máxima de camisetas que essa pessoa poderá levar?",
-        "texto_base": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg. Em duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens: Viagem Camisetas Calças Sapatos  12 4 3  18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.",
+        "texto_base": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg. Em duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens: Viagem Camisetas Calças Sapatos I 12 4 3 II 18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.",
         "alternativas": {
           "A": "22",
           "B": "24",
@@ -7090,14 +7090,14 @@
       },
       "source_file": "2021-regular-d2-azul.pdf",
       "key_file": "2021-regular-d2-azul-gabarito.pdf",
-      "source_text": "Questão 164\nUma pessoa pretende viajar por uma companhia\naérea que despacha gratuitamente uma mala com até\n10 kg.\nEm duas viagens que realizou, essa pessoa utilizou\na mesma mala e conseguiu 10 kg com as seguintes\ncombinações de itens:\nViagem\nCamisetas\nCalças\nSapatos\n\n12\n4\n3\n\n18\n3\n2\nPara ter certeza de que sua bagagem terá massa de\n10 kg, ela decide levar essa mala com duas calças, um\nsapato e o máximo de camisetas, admitindo que itens do\nmesmo tipo têm a mesma massa.\nQual a quantidade máxima de camisetas que essa\npessoa poderá levar?\nA  22\nB  24\nC  26\nD  33\nE  39",
-      "source_text_sha256": "c59ae8a01af9fcd923e661a12d676feb183c70f4a5d4099f11faac0d292ed689",
+      "source_text": "Questão 164\nUma pessoa pretende viajar por uma companhia\naérea que despacha gratuitamente uma mala com até\n10 kg.\nEm duas viagens que realizou, essa pessoa utilizou\na mesma mala e conseguiu 10 kg com as seguintes\ncombinações de itens:\nViagem\nCamisetas\nCalças\nSapatos\nI\n12\n4\n3\nII\n18\n3\n2\nPara ter certeza de que sua bagagem terá massa de\n10 kg, ela decide levar essa mala com duas calças, um\nsapato e o máximo de camisetas, admitindo que itens do\nmesmo tipo têm a mesma massa.\nQual a quantidade máxima de camisetas que essa\npessoa poderá levar?\nA  22\nB  24\nC  26\nD  33\nE  39",
+      "source_text_sha256": "35b2043ab0123f053841c7ab935e3dc8f5debc3b6fc291b455b280fcdbd0b0d8",
       "status": "APPROVED",
       "classification": "RECOVERABLE",
       "decision": "Recorte original da região da questão (texto, figuras, comando e alternativas), gabarito oficial e identidade resolvida; região conferida em folha de contato.",
       "after_content": {
         "enunciado": "Qual a quantidade máxima de camisetas que essa pessoa poderá levar?",
-        "texto_base": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg. Em duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens: Viagem Camisetas Calças Sapatos  12 4 3  18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.",
+        "texto_base": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg. Em duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens: Viagem Camisetas Calças Sapatos I 12 4 3 II 18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.",
         "alternativas": {
           "A": "22",
           "B": "24",
@@ -7111,14 +7111,14 @@
           "caminho_local_imagem": "/images/verified/batch28-2021-azul-d2-q164-source.png"
         }
       },
-      "record_sha256": "0d6040c1cac5d146452117be3f8984c33271aa582bdaa6d3e848f60ff2e281d6",
+      "record_sha256": "bc0de80224fb570f2126f90ea04245f73f07fa5c1be4b905047762cf2078535d",
       "presentation_metadata": {
         "mode": "composition",
         "includes_command": true,
         "source": "/images/verified/batch28-2021-azul-d2-q164-source.png",
         "source_sha256": "fcaa2f0191eac0fcdff120bc1e9c27685f665118da5ed7201adc1a8805eb3942",
         "evidence": "data/audit/batch-28-review.json",
-        "record_sha256": "0d6040c1cac5d146452117be3f8984c33271aa582bdaa6d3e848f60ff2e281d6"
+        "record_sha256": "bc0de80224fb570f2126f90ea04245f73f07fa5c1be4b905047762cf2078535d"
       },
       "assets": {
         "source": {
@@ -7173,10 +7173,27 @@
       "text_recovery": {
         "file": "data/audit/text-recovery-2021.json",
         "co_item": 111521,
-        "cadernos_usados": [],
+        "cadernos_usados": [
+          {
+            "cor": "rosa",
+            "posicao": 173,
+            "co_prova": "901"
+          },
+          {
+            "cor": "amarela",
+            "posicao": 150,
+            "co_prova": "900"
+          },
+          {
+            "cor": "cinza",
+            "posicao": 142,
+            "co_prova": "902"
+          }
+        ],
         "lacunas_transcritas": 0,
         "linhas_por_origem": {
-          "azul": 30
+          "azul": 28,
+          "rosa": 2
         }
       },
       "manual_text_overrides": null,

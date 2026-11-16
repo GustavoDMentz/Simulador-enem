@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SCALE = 2.5
 PAD = 6.0
 DESCRIPTION = "Recorte original da prova oficial (texto, figuras, comando e alternativas) para conferência. Abra para ampliar."
-STRANGE = re.compile("[\ue000-\uf8ff\ufffd\x00-\x08\x0b-\x1f]")
+STRANGE = re.compile("[\ue000-\uf8ff\ufffd\x00-\x08\x0b-\x1f\x7f-\x9f]")
 # Correções de texto conferidas na imagem do recorte, onde a camada de texto do PDF traz glifos privados de fórmulas
 # (o texto é lido por leitores de tela quando a questão é exibida como recorte). id -> campos substituídos.
 TEXT_OVERRIDES = {
@@ -42,6 +42,13 @@ TEXT_OVERRIDES = {
         enunciado="O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
         texto_base_append="Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. "
                           "Em geral, essas substâncias são ésteres, como as apresentadas no quadro (nome, fórmula e aroma)."),
+    "2021_AZUL_D2_Q116": dict(enunciado="O teste positivo será observado com o pesticida"),
+    "2021_AZUL_D2_Q139": dict(enunciado="Com base nessas informações, a gerência decidiu incluir no cardápio o lanche de tipo"),
+    "2021_AZUL_D2_Q147": dict(enunciado="As quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são"),
+    "2021_AZUL_D2_Q179": dict(
+        enunciado="A quantidade de fantasias com materiais diferentes que podem ser produzidas é representada pela expressão",
+        texto_base_append="Uma pessoa produzirá uma fantasia utilizando como materiais: 2 tipos de tecidos diferentes e 5 tipos distintos de pedras "
+                          "ornamentais. Essa pessoa tem à sua disposição 6 tecidos diferentes e 15 pedras ornamentais distintas."),
     "2021_AZUL_D2_Q144": dict(enunciado="Qual é a média das idades, em ano, desses alunos?"),
 }
 HEADER = re.compile(r"^\s*Quest[ãa]o\s+(\d+)\s*$", re.I)
