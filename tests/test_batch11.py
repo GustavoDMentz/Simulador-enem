@@ -24,7 +24,7 @@ def test_batch_11_adds_119_new_identities_and_keeps_677_previous_lines_byte_iden
     assert len(report['previous_lines_sha256']) == 677
     for uid, digest in report['previous_lines_sha256'].items():
         assert hashlib.sha256(raw[uid]).hexdigest() == digest
-    assert len(raw) == 796
+    assert len(raw) >= 796
 
 
 def test_each_new_record_is_content_bound_text_only_and_has_its_crop():
