@@ -177,6 +177,7 @@ def main():
                            preview_status="REVIEW_TEXT", preview_unverified=True, scoring_enabled=False,
                            preview_warning="Questão em revisão: texto, imagem ou resposta podem estar incorretos. Sem pontuação.")
             text = page.get_text(clip=rect)
+            fitz.TOOLS.store_shrink(100)  # igual ao replay: o cache de imagens do MuPDF pode mudar o primeiro render
             pm = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), clip=crop, alpha=False)
             render = dict(page=reg["page"], bbox=[round(v, 3) for v in crop], scale=SCALE, pixel_trim=[0, 0, pm.width, pm.height])
             from PIL import Image
