@@ -35,9 +35,9 @@ def test_restored_release_and_unchanged_quarantine():
     preview=[json.loads(l) for l in (preview_path if preview_path.exists() else root/'data/audit/session-recovery/preview-questions.jsonl').read_text().splitlines()]
     release=[json.loads(l) for l in (root/'data/blue-published/questions.jsonl').read_text().splitlines()]
     entries=json.loads((root/'data/audit/manifest.json').read_text())['questions']
-    assert len(snapshot)==len(preview)==1448  # 513 + 64 (batch 09) + 104 (batch 10) + 119 (batch 11) + 107 (batch 12) + 33 (batch 13) + 63 (batch 14) + 55 (batch 15) + 47 (batch 16) + 32 (batch 17) + 41 (batch 18) + 35 (batch 19) + 9 (batch 20) + 54 (batch 21) + 11 (batch 22) + 22 (batch 23) + 9 (batch 24) + 47 (batch 25) + 49 (batch 26) + 34 (batch 27) identities
-    assert len(release)==len(entries)==1444
-    assert len({q['id_unico_sistema'] for q in release})==1444
+    assert len(snapshot)==len(preview)==1481  # 513 + 64 (batch 09) + 104 (batch 10) + 119 (batch 11) + 107 (batch 12) + 33 (batch 13) + 63 (batch 14) + 55 (batch 15) + 47 (batch 16) + 32 (batch 17) + 41 (batch 18) + 35 (batch 19) + 9 (batch 20) + 54 (batch 21) + 11 (batch 22) + 22 (batch 23) + 9 (batch 24) + 47 (batch 25) + 49 (batch 26) + 34 (batch 27) + 33 (batch 28) identities
+    assert len(release)==len(entries)==1477
+    assert len({q['id_unico_sistema'] for q in release})==1477
     original=[q for q in snapshot if q['scoring_enabled']]
     current={q['id_unico_sistema']:q for q in release}
     assert len(original)==59
