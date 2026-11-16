@@ -9149,6 +9149,182 @@
       "source_sha256": "cc3e9a96a7b4c9f49c8a5eb30cfe33fa746f7bd8c7edc41a3a86cccf4a362205",
       "evidence": "data/audit/batch-22-review.json",
       "record_sha256": "ce03da8747827c006f5bd38d118b2fb71432982c2e259290712602a2a58c1281"
+    },
+    "2017_AZUL_D1_Q21": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d1-q021-source.png",
+      "source_sha256": "43f3ffb6dbf3aa401c693c621b4f1db2a243b5ea8f84428da36e6583408d64c2",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "77cecb4298a5e5343947bedeb16c56bb1a4cd21afc53498e8fc95adb6bfa3b70"
+    },
+    "2017_AZUL_D2_Q125": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d2-q125-source.png",
+      "source_sha256": "bbbc87afbc007e51b9b0a7f70bac63aa2bce394fef53bdcb0d028287312cd8fd",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "f30f0683ee681bfec425783b5e87a749ef5ab0347021edc5c7acc5f95d3f7402"
+    },
+    "2017_AZUL_D2_Q127": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d2-q127-source.png",
+      "source_sha256": "bd79c77948e226a8c684c86204621afff651d3f36e60016d639c0e36d742317c",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "98b8b3d601448d10799029273e553014341e8785005fb4202816237c4c4afbee"
+    },
+    "2017_AZUL_D2_Q164": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d2-q164-source.png",
+      "source_sha256": "7115b61325839d9e10e76e594675bf2a6d6a5e066ecbaa4856cb0bb29ae31fc5",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "9802d67fd52e065dce1c7396f69385b65e5d6eb7178d8411fcb25a3cbb030f92"
+    },
+    "2017_AZUL_D2_Q165": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d2-q165-source.png",
+      "source_sha256": "c28dbd74aabff158296e7664fb380f7982d0d4be5fbaaec1a439d566db226da5",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "3d9f6bc7ab2e4321652fd723c239a099c0b1f12a7455d9470c43b332396789a9"
+    },
+    "2017_AZUL_D2_Q167": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d2-q167-source.png",
+      "source_sha256": "095b9a8756152655eb929091612aefd9ce6498fbedfe1680723fb4587332f382",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "3132424127dd503a6669b23346cdf8de8fce39682d9492c68034bfe303cbeeb9"
+    },
+    "2017_AZUL_D2_Q168": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d2-q168-source.png",
+      "source_sha256": "a17ee143bc84ce1eac5634d40cd5edc4ae12a202931dcbf28a54e4ea4c72c842",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "8a07661d6a7832bbfde12abc7e4068369cb12267552cf15b08197fe98b99d69a"
+    },
+    "2017_AZUL_D2_Q173": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2017-azul-d2-q173-source.png",
+      "source_sha256": "33223c99b775333896953d45f3470158542ffef53c25d05b99c72e90d0ac85d9",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "4b5fc3061518dc2b6ac0f98ec86ece1f88d1e4f3e1f7f2966a460628fcc1ddf0"
+    },
+    "2018_AZUL_D1_Q56": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2018-azul-d1-q056-source.png",
+      "source_sha256": "23a81ef56a46b2e9bfbd99c553657e1abc89036ebda401be09cf691184544f1a",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "d764c14b5e531e56d106b81289b029945e13c7a254392bd48455aef188e7f2bb"
+    },
+    "2019_AZUL_D2_Q113": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2019-azul-d2-q113-source.png",
+      "source_sha256": "c7fe1fd7c5abcadd80868a0613fccb3f707343e02e441b261c44812e1585161c",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "0affb3e288dc65e52b3b5edb50a79b082e22dd44145abf87d625c5f3ed72af6e"
+    },
+    "2019_AZUL_D2_Q136": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2019-azul-d2-q136-source.png",
+      "source_sha256": "8898a1a8fbbc7f3182a8252e36ffae8076046f14448e18d99b3453e685f1b676",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "a3f033ffadeb98ab12de43ce0062e989dbb0e14f39ce8586e640df72b72bebf7"
+    },
+    "2019_AZUL_D2_Q165": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2019-azul-d2-q165-source.png",
+      "source_sha256": "fc0cc820391601064bcf79bd6850a6011fb3e0081e34b8c078bad30fe01c9c6d",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "47e3dd69d85382faf655da6bf190274d4c4b81550a799806bb545e66fb0018e2"
+    },
+    "2019_AZUL_D2_Q171": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2019-azul-d2-q171-source.png",
+      "source_sha256": "d7f6db11fd46d9e43229bebe47a0e09138126fad69f79eb5a93512a2cf6e0a8f",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "ef015f50542415a077cb73421fed6afc1d8b475763299ee02d25ee0c0a233bd5"
+    },
+    "2019_AZUL_D2_Q179": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2019-azul-d2-q179-source.png",
+      "source_sha256": "8f02eaa6b98fd2ee8ed68a045c30ccb5b259f1826e754c2954933584b16ffcaf",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "0b121db7346bdd9b1d31fbc83dc109ae10a655226989c573cc13bbb99937a365"
+    },
+    "2022_AZUL_D2_Q96": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2022-azul-d2-q096-source.png",
+      "source_sha256": "7d3ed6211067552f9803c557d8e2b23ff17ee5e9e92fcadc9c73590638e1fe39",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "adb9b7055a672713c8553355ce6a059c7b43a731728b2b2533bfb15b2a7238d4"
+    },
+    "2022_AZUL_D2_Q141": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2022-azul-d2-q141-source.png",
+      "source_sha256": "6a0764c3042501fd2f5877905b7fb49c8d4ed5af608d3b84b7978e89d0781bf0",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "4cb022d711454502cf7c5323d5c827df171adc5306e83639b21041c1c0de5240"
+    },
+    "2022_AZUL_D2_Q143": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2022-azul-d2-q143-source.png",
+      "source_sha256": "3598967a521ef66dcceb9ac86651a8fbf8263cf318d92a3d4ac04494b5af7731",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "5be5f7018dae250df8217bb7cb10b6c114c9533eaac3e8779721ac965491720a"
+    },
+    "2023_AZUL_D2_Q163": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2023-azul-d2-q163-source.png",
+      "source_sha256": "83a6a859674ea12dc46d746f5fee740bbc1fd7a6effc95a0e6d830d0520ca214",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "ae4809fa8b7e42751b2be67cd8d025a44e2ee7dbd1388ce365f2d0c78155ef83"
+    },
+    "2023_AZUL_D2_Q168": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2023-azul-d2-q168-source.png",
+      "source_sha256": "f87bfce419fafebe02d934bbf2f98af0eed960b2c01a3e02c32400230d9fb62e",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "148d5cdd7f3398f056758e0f7784729c134e87e7838bab9a6357b206dc45c27e"
+    },
+    "2023_AZUL_D2_Q178": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2023-azul-d2-q178-source.png",
+      "source_sha256": "d5797e45d7a1a42e7afd8d1f8ff1448ebf469169ca317cca74742ac9bb92a253",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "038362c3f5b6477cd7b3f0fbc5ed3863bbcec06a06166c40e9aaffcfcfe2eb74"
+    },
+    "2024_AZUL_D2_Q112": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2024-azul-d2-q112-source.png",
+      "source_sha256": "d01f58cd79d02f3ad6f192633be8a4087eb176d2d6dcf33a9bfedceedc26a0fb",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "a7b88345fb1349f841821860b5adb40ee0b0cf190de7f4bf65ffb94bee8adc4a"
+    },
+    "2024_AZUL_D2_Q121": {
+      "mode": "composition",
+      "includes_command": true,
+      "source": "/images/verified/batch23-2024-azul-d2-q121-source.png",
+      "source_sha256": "c78a2ffa3c8db91992d7256b80ee4f44d6df1225c64c39955ed5e1e06cfec0de",
+      "evidence": "data/audit/batch-23-review.json",
+      "record_sha256": "72ab363263b6fc5a9dab248dd529ea41e5e20ec999571885ec8625933898b24b"
     }
   }
 }

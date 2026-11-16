@@ -22,7 +22,7 @@ from pathlib import Path
 import fitz
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from extract_exam_candidates import candidates  # noqa: E402
+from extract_exam_candidates import candidates, raw_lines, clean  # noqa: E402
 from publish_blue_candidates import record_digest  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -74,10 +74,52 @@ def content_rect(page, rect):
             continue  # marca preenchida que sai da página (aba de margem)
         if r.x0 >= rect.x0 + 1 and r.width < 500:
             boxes.append(r & rect)
+    if not boxes:
+        return rect
     u = boxes[0]
     for b in boxes[1:]:
         u |= b
     return fitz.Rect(u.x0 - PAD, u.y0 - PAD, u.x1 + PAD, u.y1 + PAD) & rect
+
+
+MARK = re.compile(r"^([A-E])(?:[\s\t]+\S.{0,14})?$")
+
+
+def graphic_content(doc, regions, number):
+    """Conteúdo de questões cujas alternativas são gráficas ou não saem como texto: o comando vem das linhas antes
+    da primeira letra da sequência A–E (mesma coluna), e as alternativas recebem o texto de apoio padrão.
+    Reprova (ValueError) se as cinco letras A–E não aparecerem em sequência na mesma coluna."""
+    lines = []
+    for reg in regions:
+        page = doc[reg["page"] - 1]
+        for t, x, z in raw_lines(page, fitz.Rect(reg["bbox"])):
+            if t.strip():
+                lines.append((clean(t.strip()), x))
+    head = next((i for i, (t, _) in enumerate(lines[:3]) if HEADER.match(t)), None)
+    if head is not None:
+        lines = lines[head + 1:]  # descarta ruído antes do cabeçalho "Questão n"
+    best = None
+    for col in sorted({round(x / 8) for _, x in lines}):
+        seq = [(i, MARK.match(t).group(1)) for i, (t, x) in enumerate(lines) if round(x / 8) == col and MARK.match(t)]
+        for start in range(len(seq)):
+            want, idx = "A", []
+            for i, letter in seq[start:]:
+                if letter == want:
+                    idx.append(i); want = chr(ord(want) + 1)
+                    if want == "F":
+                        break
+            if len(idx) == 5:
+                best = best or idx
+                break
+        if best:
+            break
+    if not best:
+        raise ValueError("letras A–E não encontradas em sequência na mesma coluna")
+    stem = " ".join(t for t, _ in lines[:best[0]]).strip()
+    stem = re.sub(r"\s+", " ", stem)
+    if not stem:
+        raise ValueError("comando vazio")
+    return dict(enunciado=stem, texto_base="", alternativas={k: f"Alternativa {k}: reprodução gráfica oficial." for k in "ABCDE"})
 
 
 def extend_cut_lines(page, crop, number):
@@ -155,14 +197,21 @@ def main():
             uid = f"{year}_AZUL_D{day}_Q{n:02d}"
             assert uid not in manifest_ids, uid
             c, r = cand[n], ident[uid]
-            assert c["regions"] and c["content"] and len(c["content"]["alternativas"]) == 5, uid
+            assert c["regions"], uid
             assert r["tx_gabarito"] == c["answer"] == r["official_key"], f"identidade não corroborada: {uid}"
+            src = c["content"]
+            if not (src and len(src["alternativas"]) == 5):
+                try:
+                    src = graphic_content(doc, c["regions"], n)
+                except ValueError as e:
+                    failures.append((uid, [str(e)])); continue
             fix = TEXT_OVERRIDES.get(uid, {})
-            enun = fix.get("enunciado", c["content"]["enunciado"])
-            base_text = (c["content"]["texto_base"] or "") + fix.get("texto_base_append", "")
-            assert not any(STRANGE.search(v) for v in [enun, base_text, *c["content"]["alternativas"].values()]), "glifo privado no texto: " + uid
+            enun = fix.get("enunciado", src["enunciado"])
+            base_text = (src["texto_base"] or "") + fix.get("texto_base_append", "")
+            if any(STRANGE.search(v) for v in [enun, base_text, *src["alternativas"].values()]):
+                failures.append((uid, ["glifo privado no texto"])); continue
             provisional = dict(enunciado=enun, texto_base=base_text,
-                               alternativas=c["content"]["alternativas"],
+                               alternativas=src["alternativas"],
                                metadados_visual=dict(contem_imagem=False, descricao_imagem=None, caminho_local_imagem=None))
             pending = dict(id_unico_sistema=uid, co_item=r["co_item"], ano=year, dia=day, cor_prova="AZUL", posicao_prova=n,
                            area_conhecimento=r["area"], gabarito_oficial=None, co_habilidade=r["co_habilidade"],
