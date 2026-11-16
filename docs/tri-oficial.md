@@ -11,7 +11,7 @@ python scripts/build_official_tri.py DIR
 ```
 - O download é por HTTP range, só da entrada `ITENS_PROVA_ANO.csv`, com CRC32 conferido; o SHA-256 de cada CSV bruto é conferido contra `data/audit/identity/sources.json`.
 - `scripts/build_official_tri.py` copia os parâmetros dos itens cuja identidade foi resolvida (`data/audit/identity-resolution.json`), exigindo que `CO_ITEM`, área e gabarito da linha oficial do `CO_PROVA` escolhido coincidam com a resolução. Nada é estimado.
-- Saídas: `data/tri/parametros-oficiais.jsonl` (1514 itens, `status: VERIFIED`) e `data/tri/official-sources.json` (URL, entrada e SHA-256 por ano, e os 26 itens sem parâmetros oficiais: anulados ou abandonados).
+- Saídas: `data/tri/parametros-oficiais.jsonl` (1551 itens, `status: VERIFIED`) e `data/tri/official-sources.json` (URL, entrada e SHA-256 por ano, e os 26 itens sem parâmetros oficiais: anulados ou abandonados).
 
 ## No app
-`web/published-questions.js` junta o TRI pelo `CO_ITEM` resolvido. Das 936 questões publicadas, **856** recebem a, b, c oficiais. As 72 sem identidade resolvida (2020 D2 digital e posições 1–5 de LC, por exemplo) e as 8 sem parâmetros oficiais ficam sem TRI. Se o gabarito ou a área divergirem da linha oficial, a junção lança erro.
+`web/published-questions.js` junta o TRI pelo `CO_ITEM` resolvido. Das 936 questões publicadas, **893** recebem a, b, c oficiais. As 35 de 2020 D2 digital (sem identidade resolvida) e as 8 sem parâmetros oficiais (anulados/abandonados) ficam sem TRI. Se o gabarito ou a área divergirem da linha oficial, a junção lança erro.
