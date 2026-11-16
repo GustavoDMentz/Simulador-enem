@@ -23,7 +23,7 @@ test('published questions expose the official TRI parameters without changing an
   assert.equal(q.parametros_tri.status, 'VERIFIED');
   assert.equal(p.gabarito_oficial, q.gabarito_oficial);
  }
- assert.equal(joined, 1399);
+ assert.equal(joined, 1431);
 });
 test('an answer that disagrees with the official row blocks the join', () => {
  const q = {ano:2024,co_item:14475,area_conhecimento:'LC',gabarito_oficial:'C',id_unico_sistema:'sample'};
