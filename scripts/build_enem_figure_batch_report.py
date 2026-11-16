@@ -45,6 +45,18 @@ def sha_bytes(b):
     return hashlib.sha256(b).hexdigest()
 
 
+UNSAFE_OPT = re.compile(r"[A-Za-z]\d|\d[A-Za-z]|×|\^|=|[<>]|[\u2070-\u209f\u00b2\u00b3\u00b9]|\b[A-Z]\s[A-Z]\b")
+
+
+def safe_alternativas(alts, flags):
+    """Questões com fórmulas (sobrescritos e índices): a camada de texto achata expoentes e índices ('x2', '16o', 'C C 4 2'),
+    e as alternativas aparecem como cartões na tela. Se algum texto for suspeito, as cinco ficam com o texto de apoio padrão
+    (o recorte original mostra as alternativas corretas)."""
+    if any(f.startswith("sobrescrito_ou_indice") for f in flags) and any(UNSAFE_OPT.search(t) for t in alts.values()):
+        return {k: f"Alternativa {k}: reprodução gráfica oficial." for k in "ABCDE"}, True
+    return alts, False
+
+
 def content_rect(page, rect):
     """União de texto, imagens e desenhos da região (sem marcas escuras da margem e sem a barra do cabeçalho)."""
     boxes = []
@@ -240,6 +252,8 @@ def main():
                     src = graphic_content(doc, c["regions"], n)
                 except ValueError as e:
                     failures.append((uid, [str(e)])); continue
+            alts, replaced = safe_alternativas(src["alternativas"], c["flags"])
+            src = dict(src, alternativas=alts)
             fix = TEXT_OVERRIDES.get(uid, {})
             enun = fix.get("enunciado", src["enunciado"])
             base_text = (src["texto_base"] or "") + fix.get("texto_base_append", "")
@@ -299,7 +313,7 @@ def main():
                     co_item=r["co_item"], co_prova=r["co_prova"], tx_gabarito=r["tx_gabarito"], official_answer=c["answer"],
                     independent_item_csv="official Inep ITENS_PROVA (see data/audit/identity/sources.json)",
                     note="CO_ITEM não vem do fused (CO_PROVA azul diferente do caderno do PDF)."),
-                parser_flags=c["flags"], manual_text_overrides=sorted(fix) or None))
+                parser_flags=c["flags"], manual_text_overrides=sorted(fix) or None, options_replaced_by_placeholder=replaced))
     release_path = ROOT / "data/blue-published/questions.jsonl"
     lines = release_path.read_bytes().splitlines(keepends=True)
     prev = {json.loads(l)["id_unico_sistema"]: l for l in lines}
