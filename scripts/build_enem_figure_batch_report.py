@@ -493,6 +493,8 @@ def main():
             c, r = cand[n], ident[uid]
             assert c["regions"], uid
             lang = r.get("lingua")  # posições de idioma (1–5 de LC): vale a versão em inglês, conferida pela seção do caderno
+            if lang:
+                assert c.get("answer_by_language") and lang in c["answer_by_language"], f"identidade não corroborada: sem gabarito por idioma ({lang}) em {uid}"
             answer = c["answer_by_language"][lang] if lang else c["answer"]
             assert r["tx_gabarito"] == answer == r["official_key"], f"identidade não corroborada: {uid}"
             if lang:

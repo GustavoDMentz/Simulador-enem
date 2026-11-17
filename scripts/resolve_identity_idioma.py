@@ -84,6 +84,7 @@ def main():
                           in_item_aban=int(r["IN_ITEM_ABAN"] or 0), area="LC", tx_gabarito=r["TX_GABARITO"], co_prova=co_prova,
                           official_key=key, lingua=lang)
     new_english, new_problems = {}, []
+    published = {q["id_unico_sistema"] for q in release}
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from extract_exam_candidates import candidates  # noqa: E402
     for year, positions in NEW_ENGLISH.items():
@@ -96,8 +97,10 @@ def main():
         with fitz.open(ROOT / f"data/enem-pdfs/oficiais/{year}-regular-d1-azul.pdf") as doc:
             for pos in positions:
                 uid = f"{year}_AZUL_D1_Q{pos:02d}"
-                if uid in {q["id_unico_sistema"] for q in release}:
-                    new_problems.append((uid, "já está no catálogo")); continue
+                if uid in added:  # já publicada e resolvida no primeiro laço: reexecução idempotente
+                    new_english[uid] = added[uid]; continue
+                if uid in published:
+                    new_problems.append((uid, "já está no catálogo sem identidade resolvida")); continue
                 sec = section_language(doc, cand[pos]["regions"][0])
                 match = [r for r in rows_cache[year] if int(r["CO_PROVA"]) == co_prova and r["SG_AREA"] == "LC"
                          and int(r["CO_POSICAO"]) == pos and r["TP_LINGUA"] == "0"]

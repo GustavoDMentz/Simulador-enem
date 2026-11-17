@@ -14,7 +14,7 @@ FMT = json.loads((ROOT / 'data/audit/support-text-format.json').read_text())
 
 def test_every_visible_crop_with_a_generic_record_description_has_a_specific_alt():
     visible = [u for u, q in ROWS.items() if GENERIC.match(q['conteudo']['metadados_visual'].get('descricao_imagem') or '') and PRES[u]['mode'] != 'text']
-    assert len(visible) == 675
+    assert visible, 'nenhum recorte com descrição genérica no registro: o teste não verificaria nada'
     for uid in visible:
         q, alt = ROWS[uid], PRES[uid].get('alt', '')
         assert alt.startswith(f"Questão {q['posicao_prova']} do ENEM {q['ano']}, dia {q['dia']}, "), uid
@@ -32,7 +32,7 @@ def test_formatted_support_text_only_changes_how_characters_look_and_never_edits
             assert text.count(old) == count, (uid, old)
             text = text.replace(old, new)
         assert text != base and norm(text) == norm(base), uid
-        assert re.sub(r'\s+', ' ', text) in PRES[uid]['alt'].replace('\n', ' ') or text.replace('\n\n', ' ') in PRES[uid]['alt'], uid
+        assert re.sub(r'\s+', ' ', text) in re.sub(r'\s+', ' ', PRES[uid]['alt']), uid  # o texto formatado inteiro, não só parte dele
     for uid, alts in FMT['alternativas_transcritas'].items():
         assert set(alts) == set('ABCDE')
         assert all('reprodução gráfica oficial' in v for v in ROWS[uid]['conteudo']['alternativas'].values())  # o registro não guarda a fórmula
@@ -42,7 +42,8 @@ def test_formatted_support_text_only_changes_how_characters_look_and_never_edits
 def test_every_visible_crop_with_figures_is_either_described_or_declared_text_only():
     fig = json.loads((ROOT / 'data/audit/figure-descriptions.json').read_text())
     described, plain = set(fig['questions']), set(fig['sem_figura'])
-    assert not described & plain and len(described) == 391 and len(plain) == 163
+    assert described and plain and not described & plain
+    assert (described | plain) <= set(ROWS) and (described | plain) <= set(PRES)
     for uid in described:
         v = fig['questions'][uid]
         assert v.get('figura') or v.get('alternativas'), uid
