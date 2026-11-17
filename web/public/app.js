@@ -554,7 +554,8 @@ async function getAiExplanation() {
         ...(getByokKey() ? { 'x-gemini-key': getByokKey() } : {})
       },
       body: JSON.stringify({
-        selected: selectedAlternative
+        selected: selectedAlternative,
+        model: getSavedModel() || undefined
       })
     });
     
@@ -579,10 +580,12 @@ async function getAiExplanation() {
   } catch (err) {
     console.error("Erro ao obter explicação da IA:", err);
     const needsKey = err.code === 'GEMINI_KEY_MISSING' || err.code === 'GEMINI_KEY_INVALID';
+    const badModel = err.code === 'GEMINI_MODEL_INVALID';
     aiExplanationContent.innerHTML = `<p style="color:var(--error-color);">❌ Falha ao gerar explicação: ${escapeHtml(err.message)}</p>` +
-      (needsKey ? '<p>Abrimos o painel <strong>🔑 Sua chave do Gemini</strong> logo acima: cole a sua chave e tente de novo.</p>' : '');
+      (needsKey ? '<p>Abrimos o painel <strong>🔑 Sua chave do Gemini</strong> logo acima: cole a sua chave e tente de novo.</p>' : '') +
+      (badModel ? '<p>Abrimos o painel logo acima: escolha outro <strong>modelo</strong> e tente de novo.</p>' : '');
     aiExplanationContainer.classList.remove('hidden');
-    if (needsKey) openByokPanel();
+    if (needsKey || badModel) openByokPanel();
   } finally {
     btnAiExplain.removeAttribute('disabled');
     btnAiExplain.textContent = "✨ Explicar com IA (Gemini)";
@@ -606,6 +609,52 @@ function setByokKey(key) {
     if (key) localStorage.setItem(BYOK_STORAGE, key); else localStorage.removeItem(BYOK_STORAGE);
     return true;
   } catch { return false; }
+}
+
+// Seletor de modelo: a lista vem do Google (sempre atual); a escolha fica no navegador.
+const MODEL_STORAGE = 'enem.geminiModel';
+// Modelos de texto da documentação do Google (nov/2026); a lista ao vivo, com a chave, substitui esta.
+const FALLBACK_MODELS = ['gemini-4-carbon', 'gemini-4-argon', 'gemini-4-hydrogen', 'gemini-3.8-flash', 'gemini-3.6-flash', 'gemini-3.5-flash-lite'];
+const FALLBACK_DEFAULT = 'gemini-4-hydrogen';
+
+function getSavedModel() {
+  try { return localStorage.getItem(MODEL_STORAGE) || ''; } catch { return ''; }
+}
+
+function saveModel(id) {
+  try { if (id) localStorage.setItem(MODEL_STORAGE, id); else localStorage.removeItem(MODEL_STORAGE); } catch { /* sem armazenamento: usa o padrão do servidor */ }
+}
+
+function fillModelSelect(ids, serverDefault) {
+  const select = document.getElementById('model-select');
+  const saved = getSavedModel();
+  const list = [...new Set([...(saved ? [saved] : []), ...ids])];
+  select.innerHTML = '';
+  list.forEach(id => {
+    const opt = document.createElement('option');
+    opt.value = id;
+    opt.textContent = id + (id === serverDefault ? ' (padrão)' : '');
+    select.appendChild(opt);
+  });
+  select.value = saved || serverDefault || list[0];
+}
+
+async function refreshModels() {
+  const note = document.getElementById('model-help');
+  const key = getByokKey();
+  fillModelSelect(FALLBACK_MODELS, FALLBACK_DEFAULT);
+  try {
+    const res = await fetch(`${API_URL}/gemini/models`, { headers: key ? { 'x-gemini-key': key } : {} });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      note.textContent = key ? (data.error || 'Não foi possível atualizar a lista agora; mostrando os modelos comuns.') : 'Salve sua chave para carregar a lista completa e atual de modelos do Google.';
+      return;
+    }
+    if (data.models.length) fillModelSelect(data.models.map(m => m.id), data.default);
+    note.textContent = `Lista atualizada direto do Google (${data.models.length} modelos de texto, os mais novos primeiro).`;
+  } catch {
+    note.textContent = 'Sem conexão com o servidor agora; mostrando os modelos comuns.';
+  }
 }
 
 function openByokPanel() {
@@ -649,6 +698,11 @@ function initByok() {
     show.setAttribute('aria-pressed', String(!visible));
   });
   render();
+  document.getElementById('model-select').addEventListener('change', e => saveModel(e.target.value));
+  document.getElementById('model-refresh').addEventListener('click', refreshModels);
+  panel.addEventListener('toggle', () => { if (panel.open && !panel.dataset.modelsLoaded) { panel.dataset.modelsLoaded = '1'; refreshModels(); } });
+  document.getElementById('byok-save').addEventListener('click', () => setTimeout(refreshModels, 0));
+  fillModelSelect(FALLBACK_MODELS, FALLBACK_DEFAULT);
 }
 
 // Simple Markdown parser for bolding, bullet points and paragraphs

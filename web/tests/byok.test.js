@@ -47,3 +47,37 @@ test('explain com chave malformada é recusado antes de qualquer chamada externa
     assert.equal(r.body.code, 'GEMINI_KEY_INVALID');
   } finally { server.close(); }
 });
+
+test('pickGeminiModels: só modelos de texto com generateContent, mais novos primeiro, sem duplicados', () => {
+  const m = (name, methods = ['generateContent']) => ({ name: `models/${name}`, supportedGenerationMethods: methods });
+  const out = app.pickGeminiModels([
+    m('gemini-3.8-flash'), m('gemini-4-hydrogen'), m('gemini-4-carbon'), m('gemini-4-argon'), m('gemini-3.5-flash-lite'), m('gemini-3.1-pro-preview'), m('gemini-4-hydrogen'),
+    m('gemini-embedding-001', ['embedContent']), m('gemini-3.8-flash-tts'), m('gemini-3.8-live'), m('gemini-3.1-flash-image'), m('gemini-omni-1.2-flash'), m('text-bison-001'),
+  ]).map(x => x.id);
+  assert.deepEqual(out, ['gemini-4-carbon', 'gemini-4-argon', 'gemini-4-hydrogen', 'gemini-3.8-flash', 'gemini-3.5-flash-lite', 'gemini-3.1-pro-preview']);
+});
+
+test('explain recusa id de modelo malformado antes de chamar o Google', async () => {
+  const server = app.listen(0);
+  try {
+    const { port } = server.address();
+    const r = await new Promise((resolve, reject) => {
+      const req = http.request({ port, path: '/api/questions/q/explain', method: 'POST', headers: { 'content-type': 'application/json', 'x-gemini-key': 'AQ.Ab8RN6Jexemplo-1234567890_abcdefghij' } },
+        res => { let b = ''; res.on('data', c => b += c); res.on('end', () => resolve({ status: res.statusCode, body: JSON.parse(b) })); });
+      req.on('error', reject);
+      req.end(JSON.stringify({ selected: 'A', model: '../../v1/outro?x=1' }));
+    });
+    assert.equal(r.status, 400);
+    assert.equal(r.body.code, 'GEMINI_MODEL_INVALID');
+  } finally { server.close(); }
+});
+
+test('GET /api/gemini/models sem chave pede a chave', async () => {
+  const server = app.listen(0);
+  try {
+    const { port } = server.address();
+    const r = await new Promise((resolve, reject) => http.get({ port, path: '/api/gemini/models' }, res => { let b = ''; res.on('data', c => b += c); res.on('end', () => resolve({ status: res.statusCode, body: JSON.parse(b) })); }).on('error', reject));
+    assert.equal(r.status, 401);
+    assert.equal(r.body.code, 'GEMINI_KEY_MISSING');
+  } finally { server.close(); }
+});
