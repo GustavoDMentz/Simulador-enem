@@ -267,10 +267,50 @@ function geminiKeyFromHeader(value) {
   return /^[A-Za-z0-9_.-]{20,256}$/.test(key) ? key : false;
 }
 
+// Modelos: o padrão é configurável (GEMINI_MODEL); o estudante pode escolher outro, validado pelo formato do id.
+const DEFAULT_GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-4-hydrogen';
+const GEMINI_MODEL_ID = /^gemini-[a-z0-9][a-z0-9.-]{1,60}$/;
+const GEMINI_MODEL_SKIP = /(tts|image|live|audio|embedding|robotics|computer-use|aqa|veo|imagen|vision|transcribe|omni|decision|nano-banana|translate)/;
+
+// Transforma a resposta do ListModels do Google em uma lista curta de modelos de texto, os mais novos primeiro.
+function pickGeminiModels(apiList) {
+  const versionOf = id => parseFloat((id.match(/^gemini-(\d+(?:\.\d+)?)/) || [])[1]) || 0;
+  // mais capaz primeiro dentro da mesma versão: Gemini 4 (carbon > argon > hydrogen) e a família pro > flash > lite
+  const tier = id => (/carbon|pro/.test(id) ? 0 : /argon/.test(id) ? 1 : /lite/.test(id) ? 4 : /hydrogen/.test(id) ? 3 : 2);
+  const seen = new Set();
+  return (apiList || [])
+    .filter(m => (m.supportedGenerationMethods || []).includes('generateContent'))
+    .map(m => ({ id: String(m.name || '').replace(/^models\//, ''), label: m.displayName || '' }))
+    .filter(m => GEMINI_MODEL_ID.test(m.id) && !GEMINI_MODEL_SKIP.test(m.id) && !seen.has(m.id) && seen.add(m.id))
+    .sort((a, b) => versionOf(b.id) - versionOf(a.id) || tier(a.id) - tier(b.id) || a.id.localeCompare(b.id));
+}
+
+// API: modelos Gemini disponíveis para a chave do estudante (a lista do próprio Google, sempre atual)
+app.get('/api/gemini/models', async (req, res) => {
+  try {
+    const userKey = geminiKeyFromHeader(req.get('x-gemini-key'));
+    if (userKey === false) return res.status(400).json({ code: 'GEMINI_KEY_INVALID', error: 'A chave informada não tem o formato de uma chave de API do Gemini.' });
+    const apiKey = userKey || process.env.GEMINI_API_KEY;
+    if (!apiKey) return res.status(401).json({ code: 'GEMINI_KEY_MISSING', error: 'Informe sua chave de API do Gemini para listar os modelos.' });
+    const r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000', { headers: { 'x-goog-api-key': apiKey } });
+    if (!r.ok) {
+      if ([400, 401, 403].includes(r.status)) return res.status(401).json({ code: 'GEMINI_KEY_INVALID', error: 'O Google recusou a chave de API. Confira se ela foi copiada inteira e se está ativa.' });
+      return res.status(502).json({ error: 'Não foi possível listar os modelos do Gemini agora.' });
+    }
+    const data = await r.json();
+    res.json({ default: DEFAULT_GEMINI_MODEL, models: pickGeminiModels(data.models) });
+  } catch (err) {
+    console.error('Erro ao listar modelos do Gemini:', err.message);
+    res.status(502).json({ error: 'Não foi possível listar os modelos do Gemini agora.' });
+  }
+});
+
 // API: Explicar questão por IA (Gemini)
 app.post('/api/questions/:id/explain', async (req, res) => {
   try {
     const { selected } = req.body;
+    const requestedModel = req.body.model === undefined || req.body.model === '' ? DEFAULT_GEMINI_MODEL : String(req.body.model);
+    if (!GEMINI_MODEL_ID.test(requestedModel)) return res.status(400).json({ code: 'GEMINI_MODEL_INVALID', error: 'Modelo do Gemini inválido. Escolha um da lista.' });
     // BYOK: a chave do próprio estudante (cabeçalho) tem prioridade; a do servidor é só um padrão opcional.
     // A chave nunca é registrada em log nem devolvida ao cliente.
     const userKey = geminiKeyFromHeader(req.get('x-gemini-key'));
@@ -330,7 +370,7 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
 `;
 
     // 3. Chama a API REST do Gemini
-    const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${requestedModel}:generateContent`;
     const geminiRes = await fetch(geminiUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
@@ -344,6 +384,9 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
       console.error('Gemini API status:', geminiRes.status, errText.slice(0, 300).split(apiKey).join('[chave]'));
       if ([400, 401, 403].includes(geminiRes.status) && /API key|API_KEY|PERMISSION_DENIED|UNAUTHENTICATED/i.test(errText)) {
         return res.status(401).json({ code: 'GEMINI_KEY_INVALID', error: 'O Google recusou a chave de API. Confira se ela foi copiada inteira e se está ativa.' });
+      }
+      if (geminiRes.status === 404) {
+        return res.status(404).json({ code: 'GEMINI_MODEL_INVALID', error: 'O Google não encontrou esse modelo para a sua chave. Escolha outro na lista de modelos.' });
       }
       if (geminiRes.status === 429) {
         return res.status(429).json({ code: 'GEMINI_QUOTA', error: 'A cota gratuita da sua chave acabou por agora. Tente novamente em alguns minutos.' });
@@ -369,3 +412,4 @@ if (require.main === module) app.listen(PORT, () => {
 
 module.exports = app;
 module.exports.geminiKeyFromHeader = geminiKeyFromHeader;
+module.exports.pickGeminiModels = pickGeminiModels;

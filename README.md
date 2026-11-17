@@ -104,6 +104,7 @@ Quem usa o simulador não precisa de nada instalado nem de chave no servidor: de
 - A chave fica **só no navegador** de quem a colou (`localStorage`) e pode ser removida a qualquer momento.
 - Ela viaja apenas no cabeçalho `x-gemini-key` de cada pedido de explicação, para ser repassada ao Google; o servidor não a grava nem a registra em log.
 - Se existir `GEMINI_API_KEY` no servidor, ela serve de padrão para quem não informar a própria chave.
+- O mesmo painel tem um **seletor de modelo**. A lista vem do próprio Google, com a chave de quem usa (só modelos de texto, os mais novos primeiro), então modelos novos aparecem sem mudar o código; sem chave, mostra os comuns. A escolha fica no navegador. O padrão é `gemini-4-hydrogen` (o `gemini-2.5-flash` foi descontinuado pelo Google) e pode ser trocado no servidor com `GEMINI_MODEL`.
 - Sem nenhuma chave, ou com chave recusada pelo Google, a tela abre o painel e explica o que fazer, em vez de mostrar um erro técnico.
 
 ### Executar as verificações
