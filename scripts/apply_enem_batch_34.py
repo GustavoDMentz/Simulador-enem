@@ -18,7 +18,6 @@ from publish_blue_candidates import record_digest, publish, write_jsonl
 
 REPORT = Path('data/audit/batch-34-review.json')
 SNAPSHOT = Path('data/audit/session-recovery/preview-questions.jsonl')
-LEGACY_BLOCKED = {'2024_AZUL_D1_Q04'}
 REVIEWER = 'Official PDF text layer + answer key + ITENS_PROVA identity; region contact-sheet visual confirmation (Claude Code)'
 
 
@@ -64,17 +63,16 @@ def apply(pdf_root):
     for result in report['results']:
         row = result['pending_row']
         assert row['gabarito_oficial'] is None and row['scoring_enabled'] is False and row['parametros_tri'] is None
-        if result['id'] in LEGACY_BLOCKED:
-            # linha legada bloqueada (texto de outra questão, CO_ITEM errado, sem gabarito/pontuação/TRI): substituída pela
-            # linha pendente com a identidade oficial resolvida; só vale se a antiga realmente nunca pontuou
-            old = snapshot[result['id']]
-            if old != row:
-                assert old['gabarito_oficial'] is None and old['scoring_enabled'] is False and old['parametros_tri'] is None
-                assert result['id'] not in by_id, 'Legacy row was published: ' + result['id']
-                index = next(i for i, l in enumerate(snap_lines) if json.loads(l)['id_unico_sistema'] == result['id'])
-                snap_lines[index] = (json.dumps(row, ensure_ascii=False) + '\n').encode()
-                snapshot[result['id']] = row
-                replaced_legacy = True
+        old = snapshot.get(result['id'])
+        if old is not None and old != row and old.get('preview_unverified') is True:
+            # linha legada bloqueada (preview não verificado, sem gabarito/pontuação/TRI; p.ex. texto de outra questão ou CO_ITEM errado):
+            # substituída pela linha pendente com a identidade oficial resolvida; só vale se a antiga realmente nunca pontuou
+            assert old['gabarito_oficial'] is None and old['scoring_enabled'] is False and old['parametros_tri'] is None
+            assert result['id'] not in by_id, 'Legacy row was published: ' + result['id']
+            index = next(i for i, l in enumerate(snap_lines) if json.loads(l)['id_unico_sistema'] == result['id'])
+            snap_lines[index] = (json.dumps(row, ensure_ascii=False) + '\n').encode()
+            snapshot[result['id']] = row
+            replaced_legacy = True
         elif result['id'] in snapshot:
             assert snapshot[result['id']] == row, 'Inventory row changed: ' + result['id']
         else:
@@ -132,7 +130,7 @@ def apply(pdf_root):
             **{k: v for k, v in source.items() if k not in ('year', 'day')}, record_sha256=result['record_sha256'],
             audit=result['visual_review'], asset_sha256=asset['sha256'], display_assets_sha256={asset['image']: asset['sha256']},
             reviewed_at='2026-11-15', reviewer=REVIEWER, regions=result['regions'], evidence=str(REPORT),
-            note='Batch 27: figure region (original crop) from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI.'))
+            note='Batch 34: figure region (original crop) from the official PDF; answer from the official key; CO_ITEM resolved from the official ITENS_PROVA. No TRI.'))
         additions.append(q)
     manifest['questions'].extend(decisions)
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
