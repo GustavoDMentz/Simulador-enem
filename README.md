@@ -5,12 +5,13 @@
 
 **Um simulador de questões do ENEM com correção, recursos de estudo e um processo explícito de auditoria das provas oficiais.**
 
-[![Python checks](https://github.com/GustavoDMentz/Simulador-enem/actions/workflows/python-checks.yml/badge.svg)](https://github.com/GustavoDMentz/Simulador-enem/actions)
+[![Testes Python](https://github.com/GustavoDMentz/Simulador-enem/actions/workflows/enem-python-tests.yml/badge.svg)](https://github.com/GustavoDMentz/Simulador-enem/actions/workflows/enem-python-tests.yml)
+[![Integridade do banco](https://github.com/GustavoDMentz/Simulador-enem/actions/workflows/db-integrity.yml/badge.svg)](https://github.com/GustavoDMentz/Simulador-enem/actions/workflows/db-integrity.yml)
+![Questões auditadas](https://img.shields.io/badge/quest%C3%B5es%20auditadas-1611%20%2F%201620-2ea44f)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org/)
-[![License](https://img.shields.io/badge/licen%C3%A7a-MIT-64748b)](LICENSE)
 
-[Começar a usar](#comece-em-poucos-passos) · [Como funciona a auditoria](#uma-questão-só-vale-pontos-quando-é-confiável) · [Arquitetura](#por-dentro-do-projeto) · [Contribuir](#contribuindo)
+[Começar](#comece-em-poucos-passos) · [Cobertura](#cobertura-atual) · [Auditoria](#uma-questão-só-vale-pontos-quando-é-confiável) · [Estrutura](#por-dentro-do-projeto) · [Contribuir](#contribuindo)
 
 </div>
 
@@ -18,38 +19,52 @@
 
 ## O que é este projeto?
 
-O **Simulador ENEM** reúne uma aplicação web para resolver questões e um pipeline de preparação, conferência e publicação de conteúdo extraído de provas do Inep. O foco não é simplesmente exibir um banco enorme: é saber **quais questões podem ser corrigidas com confiança**.
+O **Simulador ENEM** reúne uma aplicação web para resolver questões e um pipeline de extração, conferência e publicação de conteúdo das provas do Inep. O foco não é exibir um banco enorme, e sim saber **quais questões podem ser corrigidas com confiança**.
 
-A aplicação oferece navegação por questões, seleção de respostas, eliminação de alternativas e recursos de apoio ao estudo. A camada de dados mantém evidências de origem e impede que itens ainda não revisados entrem na pontuação.
+A aplicação oferece navegação por questões, seleção de respostas, eliminação de alternativas e recursos de apoio ao estudo. A camada de dados guarda a origem de cada item e impede que questões ainda não revisadas entrem na pontuação.
+
+## Cobertura atual
+
+O alvo é o **caderno azul da aplicação regular, de 2017 a 2025**: 9 provas × 180 posições = **1620**. Hoje **1611 posições (99,4%)** estão autorizadas para pontuação.
+
+| Ano | Autorizadas | Ano | Autorizadas | Ano | Autorizadas |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 2017 | 180 / 180 | 2018 | 179 / 180 | 2019 | 180 / 180 |
+| 2020 | 179 / 180 | 2021 | 179 / 180 | 2022 | 179 / 180 |
+| 2023 | 179 / 180 | 2024 | 179 / 180 | 2025 | 177 / 180 |
+
+As **9 posições restantes são questões anuladas pelo Inep**, que não valem pontos e por isso ficam de fora: 2018 D2 Q163, 2020 D2 Q157, 2021 D2 Q138, 2022 D2 Q157, 2023 D2 Q164, 2024 D2 Q129 e 2025 D2 Q123, Q132 e Q174.
+
+Nas posições de língua estrangeira (inglês ou espanhol), só a versão em inglês conta, com o gabarito do idioma. Cada questão mantém o recorte original do PDF oficial e uma descrição em texto para leitores de tela (ver [Acessibilidade](#acessibilidade)).
 
 > [!IMPORTANT]
-> **Estado da auditoria — 16/11/2026 (lote 34):** o catálogo tem agora **1611 questões autorizadas para pontuação**: as 509 do catálogo auditado de 513, mais **64 do lote 09**, **104 do lote 10** **119 do lote 11** **107 do lote 12** **33 do lote 13** **63 do lote 14** **55 do lote 15** **47 do lote 16** **32 do lote 17** **41 do lote 18** **35 do lote 19** **9 do lote 20** **54 do lote 21** **11 do lote 22** **22 do lote 23** **9 do lote 24** **47 do lote 25** **49 do lote 26** **34 do lote 27** **33 do lote 28** **32 do lote 29** **8 do lote 30** **10 do lote 31** **28 do lote 32** **42 do lote 33** e **14 do lote 34** (as primeiras com figura, em recorte original do PDF) (texto puro, direto da camada de texto do PDF oficial, com gabarito oficial; no lote 10 o CO_ITEM vem do ITENS_PROVA oficial, ver [docs/identity-resolution.md](docs/identity-resolution.md)). Das 513 originais, **4 permanecem bloqueadas**: 3 oficialmente anuladas (2020 digital/D2/Q157, 2021/D2/Q138 e 2022/D2/Q157) e 1 com conflito de identidade/idioma (2024/D1/Q04). Esses números descrevem o lote auditado, não toda a cobertura histórica do repositório. Não são uma certificação do Inep nem significam que a aplicação esteja implantada em produção.
+> Estes números descrevem o catálogo auditado. Não são uma certificação do Inep, não equivalem à nota oficial do exame e não significam que a aplicação esteja implantada em produção.
 
 ## O que você encontra aqui
 
 | Para estudar | Para confiar nos dados |
 | --- | --- |
 | Resolução e correção de questões | Gabaritos confrontados com fontes oficiais |
-| Navegação e seleção de alternativas | Revisão de textos, fórmulas, imagens e créditos |
+| Navegação e seleção de alternativas | Identidade de cada item conferida no ITENS_PROVA oficial |
 | Marca-texto e eliminação de opções | Registro de origem, hashes e decisões de auditoria |
-| Recursos pedagógicos e integração opcional com IA | Publicação bloqueada por padrão para itens inconclusivos |
-| Visualização de informações TRI quando disponíveis | Parâmetros TRI não certificados permanecem ausentes (`null`) |
+| Descrições de figuras para leitores de tela | Publicação bloqueada por padrão para itens inconclusivos |
+| Informações TRI quando disponíveis | Parâmetros TRI não certificados permanecem ausentes (`null`) |
 
-### Uma prévia do fluxo
+### Do PDF à tela
 
 ```text
 Provas e gabaritos do Inep
           │
           ▼
- Extração e organização
+ Extração e recorte das questões
           │
           ▼
- Revisão de conteúdo e gabarito
+ Conferência: identidade, gabarito, recorte
           │
           ├── Inconclusivo ──► Quarentena (sem pontuação)
           │
           ▼
- Evidências e integridade verificadas
+ Evidências e hashes verificados
           │
           ▼
  Manifesto de publicação autorizada
@@ -71,7 +86,7 @@ npm start
 
 Abra **http://localhost:3000**.
 
-O servidor pode exigir ArangoDB e variáveis de ambiente conforme os recursos utilizados. Para configurar a integração local, crie `web/.env` com os valores apropriados para o seu ambiente:
+O servidor pode exigir ArangoDB e variáveis de ambiente conforme os recursos usados. Para o desenvolvimento local, crie `web/.env`:
 
 ```dotenv
 PORT=3000
@@ -80,53 +95,63 @@ DB_NAME=enem
 GEMINI_API_KEY=
 ```
 
-A chave Gemini é opcional para a integração pedagógica e **não deve ser versionada**. Confira os nomes e requisitos efetivos no código do servidor antes de implantar; este exemplo é para desenvolvimento local.
+A chave Gemini é opcional (integração pedagógica) e **não deve ser versionada**. Confira os nomes e requisitos no código do servidor antes de implantar.
 
-### Executar verificações
+### Executar as verificações
 
 ```bash
-# Na raiz do repositório: testes Python
+# Na raiz: testes Python
 python3 -m pytest
 
-# Testes de auditoria da API
-cd web
-node --test tests/audit-gate.test.js
+# Testes Node (como no CI)
+node --test web/tests/*.test.js
 ```
 
-Algumas verificações exigem dependências ou serviços adicionais. Consulte os workflows em [GitHub Actions](https://github.com/GustavoDMentz/Simulador-enem/actions) para os comandos completos de CI.
+Alguns fluxos exigem serviços adicionais; os comandos completos de CI estão em [`.github/workflows/`](.github/workflows/).
 
 ## Uma questão só vale pontos quando é confiável
 
-O **audit gate** é a principal garantia do projeto. Uma questão só pode ser publicada quando seu registro contém autorização explícita e evidências consistentes de identidade, conteúdo, alternativas, gabarito e elementos visuais.
+O **audit gate** é a principal garantia do projeto. Uma questão só é publicada quando seu registro traz autorização explícita e evidências consistentes de **identidade**, **gabarito** e **recorte** (texto, alternativas, figuras e créditos).
 
 - **Aprovada:** pode ser selecionada e corrigida pelo simulador.
-- **Pendente:** continua acessível na prévia de revisão, mas não conta pontos.
-- **Inconsistente:** alterações inesperadas em conteúdo, hashes ou imagens impedem a publicação.
+- **Pendente:** aparece na prévia de revisão, mas não conta pontos.
+- **Inconsistente:** mudança inesperada em conteúdo, hash ou imagem impede a publicação.
 
-O sistema segue uma política **fail-closed**: na dúvida, não publica. A verificação estrutural de um JSON, sozinha, não comprova fidelidade à prova.
+A política é **fail-closed**: na dúvida, não publica. Para entrar, o `TX_GABARITO` do ITENS_PROVA, o gabarito do PDF oficial e o gabarito publicado precisam coincidir, e o recorte precisa passar nas verificações visuais (alternativas A–E em sequência, cabeçalho da própria questão, nenhuma tinta de outra questão sobreposta).
 
-**Onde acompanhar:** [manifesto de auditoria](data/audit/manifest.json) · [relatório completo do lote 08](docs/enem-audit-batch-08.md) · [decisões das 185 pendências](data/audit/batch-08-review.json) · [verificações do lote 08](data/audit/batch-08-verification.json) · [histórico de validação](docs/validation-progress.md).
+**Onde acompanhar:** [manifesto de auditoria](data/audit/manifest.json) · [resolução de identidade](docs/identity-resolution.md) · [histórico de validação](docs/validation-progress.md) · [fluxo dos lotes](docs/verified-batch-workflow.md) · relatórios por lote em `docs/enem-audit-batch-NN.md`.
 
-**Lote 11:** 119 questões novas de 2019, 2020 e 2025 com identidade resolvida pelo ITENS_PROVA oficial; 104 testes Python e 38 Node aprovados; as 677 anteriores preservadas byte a byte. Detalhes em [docs/enem-audit-batch-11.md](docs/enem-audit-batch-11.md).
+<details>
+<summary><b>Linha do tempo dos lotes</b></summary>
 
-**Lote 10:** 104 questões novas de 2018 e 2023, com identidade (CO_ITEM) resolvida pelo ITENS_PROVA oficial; 93 testes Python e 36 Node aprovados; as 573 anteriores preservadas byte a byte. Detalhes em [docs/enem-audit-batch-10.md](docs/enem-audit-batch-10.md).
+| Lote | Marco |
+| --- | --- |
+| 08 | 181 questões recuperadas e verificadas em desktop e celular; [relatório](docs/enem-audit-batch-08.md) |
+| 09–11 | Texto puro com identidade resolvida pelo ITENS_PROVA oficial; [lote 09](docs/enem-audit-batch-09.md), [10](docs/enem-audit-batch-10.md), [11](docs/enem-audit-batch-11.md) |
+| 12–32 | Expansão por ano e por tipo de questão, sempre preservando byte a byte as linhas anteriores |
+| 33 | 42 candidatas antes reprovadas voltam com recorte corrigido; [relatório](docs/enem-audit-batch-33.md) |
+| 34 | Posições de idioma e texto compartilhado; chega a 1611; [relatório](docs/enem-audit-batch-34.md) |
 
-**Lote 09:** 64 questões novas (2018, 2022, 2023 e 2025), todas de texto puro; 89 testes Python e 30 Node aprovados; as 509 anteriores foram preservadas byte a byte. Detalhes e limites em [docs/enem-audit-batch-09.md](docs/enem-audit-batch-09.md).
-
-**Validação do lote 08:** 181 questões recuperadas; 83 testes Python e 13 Node/API aprovados; as 181 adições foram verificadas em desktop e celular com Chromium. A varredura opcional de todas as 509 questões no navegador **não** foi concluída. As 328 questões publicadas antes do lote foram preservadas byte a byte, conforme o relatório de auditoria.
+</details>
 
 ### E a TRI?
 
-A Teoria de Resposta ao Item utiliza parâmetros de discriminação (`a`), dificuldade (`b`) e acerto casual (`c`). O repositório contém ferramentas para trabalhar com esses dados, mas **não presume que qualquer associação de parâmetros seja oficial ou validada**. Quando não houver comprovação suficiente, os parâmetros ficam `null`. Acertar questões no simulador não equivale a obter uma nota oficial do ENEM.
+A Teoria de Resposta ao Item usa parâmetros de discriminação (`a`), dificuldade (`b`) e acerto casual (`c`). O repositório tem ferramentas para trabalhar com esses dados, mas **não presume que qualquer associação de parâmetros seja oficial ou validada**. Sem comprovação suficiente, os parâmetros ficam `null`. Acertar questões no simulador não equivale a obter uma nota oficial do ENEM.
+
+## Acessibilidade
+
+Cada questão exibida como recorte da prova traz uma descrição específica para leitores de tela: identificação da questão, conteúdo do recorte, figura descrita em texto, alternativas quando só existem na imagem e o texto-base. A camada de apresentação (`data/audit/question-presentation.json`) fica **separada** dos registros auditados e não altera gabarito nem conteúdo. Os limites (leitura sem OCR, valores densos de gráficos aproximados) estão em [docs/question-rendering.md](docs/question-rendering.md).
 
 ## Por dentro do projeto
 
 | Diretório | Responsabilidade |
 | --- | --- |
 | `web/` | Servidor Express, endpoints, interface e testes Node |
-| `data/fused/` | Registros estruturados legados de questões |
-| `data/audit/` | Manifesto, evidências e controle de publicação |
+| `data/blue-published/` | Catálogo publicado (questões autorizadas) |
+| `data/audit/` | Manifesto, evidências, identidades e relatórios de lote |
+| `data/extracted/` | Recortes e imagens verificados |
 | `scripts/` | Extração, auditoria, reconciliação e carregamento |
+| `tests/` | Testes Python dos lotes, da identidade e da apresentação |
 | `docs/` | Procedimentos, decisões e limites da validação |
 | `.github/workflows/` | Verificações automatizadas e aquisição histórica |
 
@@ -134,24 +159,24 @@ A Teoria de Resposta ao Item utiliza parâmetros de discriminação (`a`), dific
 
 ### Aquisição das provas oficiais
 
-O pipeline contempla provas regulares de **2017 a 2025**, com atenção às variantes de caderno e língua estrangeira. A aquisição histórica é uma tarefa **manual e independente** da publicação das questões já verificadas.
+O pipeline cobre as provas regulares de **2017 a 2025**, com atenção às variantes de caderno e de língua estrangeira. A aquisição histórica é **manual** e independente da publicação das questões já verificadas.
 
 > [!NOTE]
-> O downloader oficial encontrou falhas de confiança TLS na conexão com o Inep em ambiente de CI. O problema está documentado; não se desativa a verificação HTTPS nem se declara sucesso com fontes ausentes. A auditoria das questões já restauradas é controlada separadamente.
+> O downloader oficial encontrou falhas de confiança TLS na conexão com o Inep em ambiente de CI. O problema está documentado: não se desativa a verificação HTTPS nem se declara sucesso com fontes ausentes.
 
 ## Contribuindo
 
-Ajuda é bem-vinda na revisão de questões, correção de recortes, acessibilidade da interface, testes e documentação.
+Ajuda é bem-vinda na revisão de questões, correção de recortes, acessibilidade, testes e documentação.
 
-Antes de propor a aprovação de uma questão, inclua a identificação da prova, a fonte consultada, o que foi corrigido e as evidências que sustentam a mudança. Não envie gabaritos inferidos por IA como se fossem oficiais.
+Antes de propor a aprovação de uma questão, inclua a identificação da prova, a fonte consultada, o que foi corrigido e as evidências da mudança. Não envie gabaritos inferidos por IA como se fossem oficiais.
 
 [Abra uma issue](https://github.com/GustavoDMentz/Simulador-enem/issues) ou [proponha um pull request](https://github.com/GustavoDMentz/Simulador-enem/pulls).
 
 ## Limites e transparência
 
-Este é um **projeto independente**, sem afiliação ou endosso do Inep. As provas e gabaritos oficiais pertencem aos respectivos titulares. A licença do código não altera os direitos sobre materiais de terceiros.
+Este é um **projeto independente**, sem afiliação ou endosso do Inep. As provas e gabaritos oficiais pertencem aos respectivos titulares, e este repositório não altera os direitos sobre materiais de terceiros.
 
-O projeto ainda está em evolução: a prévia contém itens pendentes, o histórico de aquisição pode depender de fontes externas e não há promessa de equivalência entre a pontuação local e a nota oficial do exame.
+O projeto segue em evolução: o histórico de aquisição pode depender de fontes externas e não há promessa de equivalência entre a pontuação local e a nota oficial.
 
 ---
 
