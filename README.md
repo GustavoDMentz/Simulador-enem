@@ -95,7 +95,16 @@ DB_NAME=enem
 GEMINI_API_KEY=
 ```
 
-A chave Gemini é opcional (integração pedagógica) e **não deve ser versionada**. Confira os nomes e requisitos no código do servidor antes de implantar.
+A chave Gemini do servidor é opcional e **não deve ser versionada**. Confira os nomes e requisitos no código do servidor antes de implantar.
+
+### Explicação por IA com a sua própria chave (BYOK)
+
+Quem usa o simulador não precisa de nada instalado nem de chave no servidor: depois de responder uma questão, o painel **🔑 Sua chave do Gemini** (logo abaixo de "Explicar com IA") ensina a criar uma chave gratuita no [Google AI Studio](https://aistudio.google.com/apikey) e a colá-la.
+
+- A chave fica **só no navegador** de quem a colou (`localStorage`) e pode ser removida a qualquer momento.
+- Ela viaja apenas no cabeçalho `x-gemini-key` de cada pedido de explicação, para ser repassada ao Google; o servidor não a grava nem a registra em log.
+- Se existir `GEMINI_API_KEY` no servidor, ela serve de padrão para quem não informar a própria chave.
+- Sem nenhuma chave, ou com chave recusada pelo Google, a tela abre o painel e explica o que fazer, em vez de mostrar um erro técnico.
 
 ### Executar as verificações
 

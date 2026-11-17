@@ -170,6 +170,7 @@ function setupEventListeners() {
   
   // AI Explanation Trigger
   btnAiExplain.addEventListener('click', getAiExplanation);
+  initByok();
 }
 
 function updateQuestionButtonLabel() {
@@ -549,7 +550,8 @@ async function getAiExplanation() {
     const res = await fetch(`${API_URL}/questions/${activeQuestion._key}/explain`, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        ...(getByokKey() ? { 'x-gemini-key': getByokKey() } : {})
       },
       body: JSON.stringify({
         selected: selectedAlternative
@@ -557,8 +559,10 @@ async function getAiExplanation() {
     });
     
     if (!res.ok) {
-      const errData = await res.json();
-      throw new Error(errData.error || "Erro na geração do Gemini.");
+      const errData = await res.json().catch(() => ({}));
+      const err = new Error(errData.error || "Erro na geração do Gemini.");
+      err.code = errData.code;
+      throw err;
     }
     
     const data = await res.json();
@@ -574,12 +578,77 @@ async function getAiExplanation() {
     
   } catch (err) {
     console.error("Erro ao obter explicação da IA:", err);
-    aiExplanationContent.innerHTML = `<p style="color:var(--error-color);">❌ Falha ao gerar explicação: ${err.message}</p>`;
+    const needsKey = err.code === 'GEMINI_KEY_MISSING' || err.code === 'GEMINI_KEY_INVALID';
+    aiExplanationContent.innerHTML = `<p style="color:var(--error-color);">❌ Falha ao gerar explicação: ${escapeHtml(err.message)}</p>` +
+      (needsKey ? '<p>Abrimos o painel <strong>🔑 Sua chave do Gemini</strong> logo acima: cole a sua chave e tente de novo.</p>' : '');
     aiExplanationContainer.classList.remove('hidden');
+    if (needsKey) openByokPanel();
   } finally {
     btnAiExplain.removeAttribute('disabled');
     btnAiExplain.textContent = "✨ Explicar com IA (Gemini)";
   }
+}
+
+// BYOK: a chave do estudante fica só no localStorage deste navegador.
+const BYOK_STORAGE = 'enem.geminiKey';
+const BYOK_FORMAT = /^[A-Za-z0-9_-]{20,128}$/;
+
+function escapeHtml(text) {
+  return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function getByokKey() {
+  try { return (localStorage.getItem(BYOK_STORAGE) || '').trim(); } catch { return ''; }
+}
+
+function setByokKey(key) {
+  try {
+    if (key) localStorage.setItem(BYOK_STORAGE, key); else localStorage.removeItem(BYOK_STORAGE);
+    return true;
+  } catch { return false; }
+}
+
+function openByokPanel() {
+  const panel = document.getElementById('byok-panel');
+  if (!panel) return;
+  panel.open = true;
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  document.getElementById('byok-input')?.focus();
+}
+
+function initByok() {
+  const panel = document.getElementById('byok-panel');
+  if (!panel) return;
+  const input = document.getElementById('byok-input');
+  const status = document.getElementById('byok-status');
+  const msg = document.getElementById('byok-msg');
+  const show = document.getElementById('byok-show');
+  const render = () => {
+    const key = getByokKey();
+    status.textContent = key ? `🔑 Sua chave do Gemini: configurada (…${key.slice(-4)})` : '🔑 Sua chave do Gemini: não configurada';
+    panel.classList.toggle('byok-ok', Boolean(key));
+  };
+  document.getElementById('byok-save').addEventListener('click', () => {
+    const key = input.value.trim();
+    if (!BYOK_FORMAT.test(key)) { msg.textContent = 'Essa chave não parece válida: use só letras, números, "-" e "_", sem espaços.'; msg.className = 'byok-msg byok-bad'; return; }
+    if (!setByokKey(key)) { msg.textContent = 'Seu navegador bloqueou o armazenamento local; a chave não pôde ser salva.'; msg.className = 'byok-msg byok-bad'; return; }
+    input.value = '';
+    msg.textContent = 'Chave salva neste navegador. Agora é só clicar em "Explicar com IA".'; msg.className = 'byok-msg byok-good';
+    render();
+  });
+  document.getElementById('byok-remove').addEventListener('click', () => {
+    setByokKey('');
+    input.value = '';
+    msg.textContent = 'Chave removida deste navegador.'; msg.className = 'byok-msg';
+    render();
+  });
+  show.addEventListener('click', () => {
+    const visible = input.type === 'text';
+    input.type = visible ? 'password' : 'text';
+    show.textContent = visible ? 'Mostrar' : 'Ocultar';
+    show.setAttribute('aria-pressed', String(!visible));
+  });
+  render();
 }
 
 // Simple Markdown parser for bolding, bullet points and paragraphs

@@ -220,6 +220,25 @@
           <!-- AI Help Section -->
           <div class="ai-help-section">
             <button id="btn-ai-explain" class="btn-ai-explain">✨ Explicar com IA (Gemini)</button>
+            <details id="byok-panel" class="byok-panel">
+              <summary><span id="byok-status" class="byok-status">🔑 Sua chave do Gemini: não configurada</span></summary>
+              <div class="byok-body">
+                <p class="byok-help">A explicação usa a <strong>sua</strong> chave gratuita do Google. Leva um minuto:
+                  <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer">crie uma chave no Google AI Studio</a>,
+                  copie e cole abaixo.</p>
+                <label for="byok-input" class="byok-label">Chave de API do Gemini</label>
+                <div class="byok-row">
+                  <input id="byok-input" class="byok-input" type="password" autocomplete="off" spellcheck="false" placeholder="Cole aqui (começa com AIza…)">
+                  <button id="byok-show" type="button" class="byok-btn" aria-pressed="false">Mostrar</button>
+                </div>
+                <div class="byok-row">
+                  <button id="byok-save" type="button" class="byok-btn byok-primary">Salvar chave</button>
+                  <button id="byok-remove" type="button" class="byok-btn">Remover</button>
+                </div>
+                <p id="byok-msg" class="byok-msg" role="status" aria-live="polite"></p>
+                <p class="byok-privacy">🔒 A chave fica <strong>só neste navegador</strong> (armazenamento local). Ela é enviada ao servidor apenas junto de cada pedido de explicação, para repassar ao Google, e não é gravada nem registrada. Use um computador de confiança.</p>
+              </div>
+            </details>
             <div id="ai-explanation-container" class="ai-explanation hidden">
               <div class="ai-header">
                 <span class="ai-icon">🤖</span>
