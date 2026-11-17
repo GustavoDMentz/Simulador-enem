@@ -591,7 +591,7 @@ async function getAiExplanation() {
 
 // BYOK: a chave do estudante fica só no localStorage deste navegador.
 const BYOK_STORAGE = 'enem.geminiKey';
-const BYOK_FORMAT = /^[A-Za-z0-9_-]{20,128}$/;
+const BYOK_FORMAT = /^[A-Za-z0-9_.-]{20,256}$/;
 
 function escapeHtml(text) {
   return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -630,7 +630,7 @@ function initByok() {
   };
   document.getElementById('byok-save').addEventListener('click', () => {
     const key = input.value.trim();
-    if (!BYOK_FORMAT.test(key)) { msg.textContent = 'Essa chave não parece válida: use só letras, números, "-" e "_", sem espaços.'; msg.className = 'byok-msg byok-bad'; return; }
+    if (!BYOK_FORMAT.test(key)) { msg.textContent = 'Essa chave não parece válida: use só letras, números, ponto, "-" e "_", sem espaços.'; msg.className = 'byok-msg byok-bad'; return; }
     if (!setByokKey(key)) { msg.textContent = 'Seu navegador bloqueou o armazenamento local; a chave não pôde ser salva.'; msg.className = 'byok-msg byok-bad'; return; }
     input.value = '';
     msg.textContent = 'Chave salva neste navegador. Agora é só clicar em "Explicar com IA".'; msg.className = 'byok-msg byok-good';

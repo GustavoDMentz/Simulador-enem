@@ -23,6 +23,7 @@ test('geminiKeyFromHeader: ausente é null, formato válido passa, lixo é recus
   assert.equal(f(undefined), null);
   assert.equal(f('   '), null);
   assert.equal(f(' AIzaSyA-1234567890_abcdefghijklmnop '), 'AIzaSyA-1234567890_abcdefghijklmnop');
+  assert.equal(f('AQ.Ab8RN6Jexemplo-1234567890_abcdefghij'), 'AQ.Ab8RN6Jexemplo-1234567890_abcdefghij'); // formato novo, com ponto
   assert.equal(f('curta'), false);
   assert.equal(f('AIzaSyA 1234567890 abcdefghijklmnop'), false);
   assert.equal(f('AIza\r\nX-Injetado: 1234567890abcdef'), false);
