@@ -264,7 +264,7 @@ app.get('/api/questions/:id', async (req, res) => {
 function geminiKeyFromHeader(value) {
   if (value === undefined || value === null || String(value).trim() === '') return null;
   const key = String(value).trim();
-  return /^[A-Za-z0-9_-]{20,128}$/.test(key) ? key : false;
+  return /^[A-Za-z0-9_.-]{20,256}$/.test(key) ? key : false;
 }
 
 // API: Explicar questão por IA (Gemini)
