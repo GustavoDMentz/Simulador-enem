@@ -335,56 +335,16 @@ app.post('/api/questions/:id/explain', async (req, res) => {
     if (!q) return res.status(404).json({ error: 'Questão não encontrada no catálogo publicado.' });
     if (q.scoring_enabled !== true) return res.status(409).json({ error: 'Questão não aprovada.' });
 
-    // 2. Prepara o prompt para o Gemini
-    const enunciado = q.conteudo.enunciado;
-    const textoBase = q.conteudo.texto_base || "(Sem texto base)";
-    const alternativas = JSON.stringify(q.conteudo.alternativas, null, 2);
-    const gabarito = q.gabarito_oficial;
-    const tri = q.parametros_tri;
-    const descImagem = q.conteudo.metadados_visual?.descricao_imagem || "(Sem imagens ou sem descrição)";
-    
-    const prompt = `
-Você é um professor especialista em ENEM. Explique a seguinte questão de forma didática e motivadora.
-
-DADOS DA QUESTÃO:
-- ID: ${q._key}
-- Ano: ${q.ano}
-- Área: ${q.area_conhecimento}
-- Texto Base: ${textoBase}
-- Enunciado: ${enunciado}
-- Alternativas:
-${alternativas}
-- Gabarito Oficial: ${gabarito}
-- Descrição da Imagem de Apoio (se houver): ${descImagem}
-- Parâmetros TRI: ${tri ? JSON.stringify(tri) : "Não disponíveis para esta questão; não invente valores."}
-
-RESPOSTA DO ESTUDANTE:
-- O estudante escolheu a alternativa: ${selected || "(Não selecionada)"}
-- Resultado: ${selected === gabarito ? "ACERTOU!" : "ERROU!"}
-
-INSTRUÇÕES DE FORMATO:
-Estruture sua explicação em português usando Markdown limpo com exatamente estes 3 títulos principais em negrito (usando ** no início da linha, NÃO use # ou ##):
-
-**Análise da Escolha do Estudante**
-Se o estudante errou (gabarito é ${gabarito} mas ele marcou ${selected}), explique com muita paciência e gentileza por que a alternativa ${selected} está errada e qual foi a provável "pegadinha" ou confusão conceitual que o levou a esse erro. Se ele acertou, parabenize-o e confirme o raciocínio correto.
-
-**Análise das Alternativas**
-Explique brevemente, em uma lista com marcadores:
-* Por que a alternativa ${gabarito} é a única correta.
-* Por que as demais 4 alternativas estão incorretas (mencione-as brevemente).
-
-**Resumo Teórico do Assunto**
-Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto) sobre o conceito cobrado nesta questão (seja ele um conceito de Física, História, Matemática, etc.) para ajudar o estudante a fixar o assunto.
-`;
+    // 2. Prepara o pedido: regras fixas na instrução do sistema; dados da questão (com a descrição das figuras) na mensagem
+    const display = require('./question-presentation').presentation(q);
+    const geminiBody = require('./explain-prompt').buildExplainRequest(q, selected, display && display.alt);
 
     // 3. Chama a API REST do Gemini
     const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${requestedModel}:generateContent`;
     const geminiRes = await fetch(geminiUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }]
-      })
+      body: JSON.stringify(geminiBody)
     });
     
     if (!geminiRes.ok) {
