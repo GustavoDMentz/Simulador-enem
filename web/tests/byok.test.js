@@ -81,3 +81,25 @@ test('GET /api/gemini/models sem chave pede a chave', async () => {
     assert.equal(r.body.code, 'GEMINI_KEY_MISSING');
   } finally { server.close(); }
 });
+
+test('erro do Google que não é de chave/cota/modelo mostra o status e a mensagem, sem vazar a chave', async () => {
+  const key = 'AQ.Ab8RN6Jexemplo-1234567890_abcdefghij';
+  const realFetch = global.fetch;
+  global.fetch = async () => ({ ok: false, status: 400, text: async () => JSON.stringify({ error: { message: `Thinking level not supported for this model. key=${key}` } }) });
+  const server = app.listen(0);
+  try {
+    const { port } = server.address();
+    const r = await new Promise((resolve, reject) => {
+      const req = http.request({ port, path: '/api/questions/2024_AZUL_D2_Q153/explain', method: 'POST', headers: { 'content-type': 'application/json', 'x-gemini-key': key } },
+        res => { let b = ''; res.on('data', c => b += c); res.on('end', () => resolve({ status: res.statusCode, body: JSON.parse(b) })); });
+      req.on('error', reject);
+      req.end(JSON.stringify({ selected: 'A', model: 'gemini-3.5-flash-lite' }));
+    });
+    assert.equal(r.status, 502);
+    assert.equal(r.body.code, 'GEMINI_UPSTREAM');
+    assert.match(r.body.error, /gemini-3\.5-flash-lite/);
+    assert.match(r.body.error, /HTTP 400/);
+    assert.match(r.body.error, /Thinking level not supported/);
+    assert.ok(!r.body.error.includes(key));
+  } finally { global.fetch = realFetch; server.close(); }
+});

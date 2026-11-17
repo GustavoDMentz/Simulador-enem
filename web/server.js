@@ -260,6 +260,14 @@ app.get('/api/questions/:id', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+// Mensagem de erro do Google, curta e sem a chave, para o estudante entender o que houve.
+function upstreamMessage(errText, apiKey) {
+  let msg = '';
+  try { msg = JSON.parse(errText)?.error?.message || ''; } catch { msg = ''; }
+  msg = (msg || errText || 'sem detalhes').split(apiKey).join('[chave]').replace(/\s+/g, ' ').trim();
+  return msg.length > 300 ? msg.slice(0, 297) + '…' : msg;
+}
+
 // Chave BYOK: ausente -> null; com formato aceitável -> a chave; fora do formato -> false.
 function geminiKeyFromHeader(value) {
   if (value === undefined || value === null || String(value).trim() === '') return null;
@@ -391,7 +399,10 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
       if (geminiRes.status === 429) {
         return res.status(429).json({ code: 'GEMINI_QUOTA', error: 'A cota gratuita da sua chave acabou por agora. Tente novamente em alguns minutos.' });
       }
-      return res.status(502).json({ error: 'Não foi possível obter a explicação do Gemini. Verifique a chave, a cota e o modelo configurado.' });
+      if (geminiRes.status === 503 || geminiRes.status === 500) {
+        return res.status(502).json({ code: 'GEMINI_BUSY', error: `O Google está sobrecarregado com o modelo ${requestedModel} (HTTP ${geminiRes.status}). Tente de novo em instantes ou escolha outro modelo.` });
+      }
+      return res.status(502).json({ code: 'GEMINI_UPSTREAM', error: `O Google recusou o pedido com o modelo ${requestedModel} (HTTP ${geminiRes.status}): ${upstreamMessage(errText, apiKey)}` });
     }
     
     const geminiData = await geminiRes.json();
