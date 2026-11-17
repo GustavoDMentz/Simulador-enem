@@ -1,0 +1,1911 @@
+{
+ "schema_version": 1,
+ "note": "Descrições em texto das figuras de cada recorte (lidas na imagem oficial, uma a uma). 'figura': o que a imagem mostra; 'alternativas': alternativas que são figuras, descritas letra a letra. 'sem_figura': recortes que só têm texto (nenhuma figura a descrever). Entram só no alt da apresentação; o registro auditado não muda.",
+ "questions": {
+  "2017_AZUL_D1_Q03": {
+   "figura": "Anúncio impresso em preto e branco: sobre um piso de asfalto claro, uma grande mancha escura de óleo derramado, com um parafuso sextavado caído sobre a mancha. Acima da imagem, o texto em inglês «Take your car just anyplace for an oil change, and you may regret it down the road.»"
+  },
+  "2017_AZUL_D1_Q11": {
+   "figura": "Diagrama circular. No centro, a silhueta cinza de uma pessoa e o título «Novo consumidor social». Em volta, sete balões pretos ligados por um anel cinza, com os textos: «Usa novos canais on-line e novas ferramentas de comunicação»; «Confia em conselhos de amigos on-line, conhecidos e estranhos»; «Tende a comprar mais on-line do que off-line»; «Quer fornecer feedback sobre o produto e serviço ao cliente»; «Deseja uma experiência melhor on-line do que off-line»; «Lê e cria avaliações, ranking de produtos e posts em blogs»; «Quer suporte para encontrar pessoas que compartilham da mesma opinião»."
+  },
+  "2017_AZUL_D1_Q16": {
+   "figura": "Anúncio impresso (Texto II), em cartaz de fundo claro com letras cinza: «Ninguém entende melhor de criação do que elas.», com a palavra «criação» em destaque (letras maiores e de cor mais clara). Abaixo, a data «13 de maio - Dia das Mães»."
+  },
+  "2017_AZUL_D1_Q21": {
+   "figura": "Texto I: desenho a bico de pena em preto e branco, de Oswaldo Goeldi («Sem título», c. 1940): casas com janelas, sol e fumaça ao fundo; em primeiro plano, duas figuras esqueléticas junto a uma câmera fotográfica antiga sobre tripé e um urubu à esquerda.",
+   "alternativas": {
+    "A": "Desenho em preto e branco de um homem com as mãos no rosto e uma figura deitada, com um coração e uma vela; legenda: Alfred Kubin, representante do Expressionismo. «Sonho e desarranjo», Alfred Kubin.",
+    "B": "Desenho de uma mulher deitada, de vestido estampado; legenda: Henri Matisse, representante do Fauvismo. «Bailarina deitada», Henri Matisse.",
+    "C": "Desenho em traços de contorno de um homem curvado, de chapéu, cavando com uma picareta; legenda: Diego Rivera, representante do Muralismo. «Mineiro», Diego Rivera.",
+    "D": "Desenho de um homem de óculos e terno sentado numa cadeira, com as mãos cruzadas; legenda: Pablo Picasso, representante do Cubismo. «Retrato de Igor Stravinsky», Pablo Picasso.",
+    "E": "Imagem em preto e branco de duas pessoas que se beijam, com panos cobrindo os rostos; legenda: René Magritte, representante do Surrealismo. «Os amantes», René Magritte."
+   }
+  },
+  "2017_AZUL_D1_Q28": {
+   "figura": "Cartaz com o texto grande «Quem bate na mulher machuca a família inteira.» Abaixo, um desenho infantil de quatro figuras lado a lado, com legendas manuscritas: «eu», «mamãe» (com um bebê no colo e expressão triste), «aninha» e «papai» (figura escura e peluda, de dentes à mostra). No rodapé, um coração com uma cruz e o texto «Ligue 180. Não se cale diante da violência doméstica.»"
+  },
+  "2017_AZUL_D1_Q34": {
+   "figura": "Cartaz com fotografia em preto e branco de um menino sorridente que segura um livro infantil. À esquerda, o texto «Leia para uma criança. A cada livro, o Brasil inteiro vira a página. Gostar de ler é o início de uma história cheia de descobertas e aprendizados na vida da criança. E tudo começa quando você abre um livro para ela.» e, abaixo, três capas de livros infantis."
+  },
+  "2017_AZUL_D1_Q36": {
+   "figura": "Pintura «Emblema 78», de Rubem Valentim (acrílico sobre tela, 1978): composição geométrica simétrica. Um círculo claro, contornado por um anel escuro, contém um triângulo escuro de vértice para baixo, com um semicírculo claro e uma bolinha na parte inferior, e uma haste vertical que sustenta formas escuras em escada, semelhantes a machados de duas lâminas, e uma pequena cruz clara no alto. Nas laterais, faixas retangulares escuras."
+  },
+  "2017_AZUL_D1_Q37": {
+   "figura": "Fotografia da instalação «Dengo», de Ernesto Neto (MAM-SP, 2010): sala com grandes estruturas de malha de crochê penduradas no teto, em forma de funis e gotas alongadas que descem até o chão; visitantes, entre eles uma criança, circulam entre elas."
+  },
+  "2017_AZUL_D1_Q41": {
+   "figura": "Cartaz com fotografia em preto e branco, tirada de baixo para cima, de uma floresta de eucaliptos: troncos altos, retos e claros que sobem em direção ao céu. Legenda em maiúsculas: «É DESSA FLORESTA QUE SAI O CHAPEUZINHO VERMELHO, JOÃO E MARIA, OS IRMÃOS KARAMAZOV, A DAMA DAS CAMÉLIAS E OS TRÊS MOSQUETEIROS.»"
+  },
+  "2017_AZUL_D1_Q43": {
+   "figura": "Texto I: grafite em preto e branco numa parede do Museu Afro Brasil, de Speto. Da esquerda para a direita: uma mulher de rosto sereno, com colar, asas de inseto e uma bacia sobre a cabeça; um homem de torso nu, sentado, com um facão erguido, correntes e os pés descalços; um galo estilizado; uma pequena igreja com cruz; uma criança de olhos grandes; e plantas secas de sertão."
+  },
+  "2017_AZUL_D1_Q45": {
+   "figura": "Texto I: obra «Cama», de Robert Rauschenberg, em formato vertical, com a imagem em preto e branco: na parte de cima, pinceladas e respingos claros e acinzentados; na de baixo, uma colcha de retalhos em quadrados, pendurada como um quadro."
+  },
+  "2017_AZUL_D1_Q51": {
+   "figura": "Fotografia antiga em preto e branco (cartão de visita de 1860): uma mulher negra sentada, de vestido escuro com xale e colar, olha de frente; ao lado, em pé e encostado nela, um menino de paletó claro e gravata-borboleta. Há um carimbo circular no canto inferior direito."
+  },
+  "2017_AZUL_D1_Q54": {
+   "figura": "Tabela com as colunas «Tipologia de área» e «% de chuva» (subdividida em «retida no local» e «escoada»). Bacias naturais/florestas: 80 a 100 retida, 0 a 20 escoada. Bacias com ocupação agrícola/cultivos: 40 a 60 retida, 40 a 60 escoada. Bacias com ocupação residencial: 40 a 50 retida, 50 a 60 escoada. Bacias com ocupação urbana pesada: 0 a 10 retida, 90 a 100 escoada."
+  },
+  "2017_AZUL_D1_Q59": {
+   "figura": "Figura 1: climograma de janeiro a dezembro, com barras de taxa de pluviosidade (eixo direito, de 0 a 100 mm) e uma linha de temperatura (eixo esquerdo, de −10 a 50 °C). A temperatura é negativa no fim e no início do ano (mínima de cerca de −9 °C em janeiro), sobe até cerca de 18 °C em julho e volta a cair. Chove em todos os meses: cerca de 33 a 43 mm de dezembro a abril, com os maiores valores de junho a agosto (pico de cerca de 89 mm em julho). Figura 2: mapa-múndi em cinza com pontos e nomes de cinco cidades: Moscou, Barcelona, Mumbai, Cidade do Cabo e Sydney."
+  },
+  "2017_AZUL_D1_Q71": {
+   "figura": "Infográfico «Ranking da eficiência», que compara a energia e o alagamento das dez maiores usinas do Brasil, com as silhuetas dos lagos na mesma escala (barra de 50 km), mapas do Brasil com a localização e os valores. Área alagada (mil km²) e potência (mil MW): Itaipu 1,4 e 14 (PR); Belo Monte, em destaque, 0,5 e 11,2 (PA); Tucuruí 3,5 e 8,7 (PA); Jirau 0,3 e 3,8 (RO); Ilha Solteira 1,2 e 3,4 (SP e MS); Xingó 0,1 e 3,2 (AL e SE); Santo Antônio 0,4 e 3,2 (RO); Marimbondo 0,4 e 1,4 (SP e MG); Serra da Mesa 1,8 e 1,3 (GO); Sobradinho 4,1 e 1,1 (BA)."
+  },
+  "2017_AZUL_D1_Q77": {
+   "figura": "Dois esquemas em corte, com terra hachurada à esquerda e mar à direita. Figura 1, «Formação da brisa marinha»: terra «quente» e mar «morno»; sobre o mar, setas horizontais apontam para a terra, com o rótulo «alta pressão»; sobre a terra, setas curvas sobem, com o rótulo «baixa pressão». Figura 2, «Formação do terral»: terra «frio» e mar «morno»; sobre a terra, setas horizontais apontam para o mar, com o rótulo «alta pressão»; sobre o mar, uma seta curva sobe, com o rótulo «baixa pressão»."
+  },
+  "2017_AZUL_D1_Q87": {
+   "figura": "Figura 1: mapa do Brasil, «Mínimas – quinta-feira, 28/08/2014» (CPTEC/INPE), com temperaturas mínimas em °C marcadas por estado: valores entre 21 e 24 °C no Norte e no litoral do Nordeste, 18 a 19 °C em partes do Nordeste, 17 a 23 °C no Centro-Oeste e no interior do Sudeste, 19 e 20 °C no Sudeste e entre 4 e 11 °C no Sul e em Mato Grosso do Sul. Figura 2: tabela «Umidade relativa do ar, por região do país, para o dia 28/08/2014» (intervalo médio): Norte 60 a 70%; Nordeste 90 a 100%; Centro-Oeste 55 a 65%; Sudeste 65 a 75%; Sul 90 a 100%."
+  },
+  "2017_AZUL_D1_Q90": {
+   "figura": "Duas fotografias em preto e branco lado a lado. Figura 1, «Recorte fotográfico de Maria Bonita, década de 1930»: mulher de chapéu de aba curta e vestido claro estampado, com cartucheiras cruzadas no peito, em pé diante de homens do cangaço. Figura 2, «Traje de coleção de Zuzu Angel»: modelo de chapéu de aba larga enfeitado, macacão-culote estampado com faixas cruzadas no peito e na cintura, botas altas pretas e as mãos na cintura."
+  },
+  "2017_AZUL_D2_Q101": {
+   "figura": "Gráfico com cinco painéis empilhados, um para cada lâmpada (haleto metálico, tungstênio, mercúrio, xênon e LED), com o mesmo eixo horizontal de comprimento de onda (de 200 a 900 nm), dividido em UV (até cerca de 380 nm), visível (de 380 a 750 nm) e IV (acima disso). No eixo vertical, a intensidade emitida. Em cada painel, a área cinza mostra a emissão da lâmpada e duas linhas pontilhadas mostram a sensibilidade do olho humano (curvas em sino centradas em cerca de 500 e 560 nm). Haleto metálico: vários picos estreitos entre 350 e 600 nm. Tungstênio: emissão contínua que cresce de 350 nm até 900 nm, com a maior parte no infravermelho. Mercúrio: picos estreitos, o maior em cerca de 360 nm e outros entre 400 e 600 nm, mais uma cauda fraca até o infravermelho. Xênon: emissão baixa no visível e picos altos no infravermelho, entre 800 e 880 nm. LED: emissão concentrada no visível, entre 400 e 700 nm, com um pico em cerca de 450 nm."
+  },
+  "2017_AZUL_D2_Q103": {
+   "figura": "Gráfico da perda óptica (de 0 a 6 dB/km, no eixo vertical) em função do comprimento de onda (de 0,8 a 1,8 µm, no eixo horizontal) para certo tipo de fibra óptica. A curva começa em cerca de 6 dB/km em 0,8 µm, desce até um mínimo local de cerca de 2,6 em 0,95 µm, sobe a um pico de cerca de 4 em 1,0 µm, desce a cerca de 1,6 em 1,25 µm, sobe a um pico de 5 em 1,4 µm, desce ao mínimo de cerca de 1,0 em 1,5 µm e volta a subir até 6 em 1,8 µm."
+  },
+  "2017_AZUL_D2_Q105": {
+   "figura": "Esquema ilustrado de uma estação híbrida de geração de eletricidade. No centro, turbinas eólicas; setas «Eletricidade» levam a energia delas à rede de distribuição elétrica (torre de alta tensão, à esquerda) e à produção de hidrogênio (à direita). A produção de hidrogênio envia «Hidrogênio» ao armazenamento de hidrogênio, que o envia à válvula para mistura (seta para a esquerda) e a um posto de abastecimento de «Combustível» (seta para baixo). Um armazenamento de biogás, embaixo, envia «Biogás» à válvula para mistura. Da válvula, a «Mistura» segue para a planta mista de geração de energia, que manda «Eletricidade» à rede de distribuição e «Calor» ao destino da energia térmica (tubulações, embaixo à esquerda)."
+  },
+  "2017_AZUL_D2_Q107": {
+   "figura": "Gráfico da absorção (%, de 0 a 50) em função do comprimento de onda (de 400 a 1 100 nm) para três materiais. Melanina (linha preta): cai de forma suave, de cerca de 43% em 400 nm para cerca de 23% em 1 100 nm. Oxi-hemoglobina (linha cinza): cerca de 46% a 48% entre 400 e 450 nm, desce a cerca de 27% em 500 nm, tem dois pequenos picos (cerca de 30% e 32%) perto de 520 e 560 nm, cai a 0% em 700 nm, sobe a cerca de 10% em 750 nm, fica perto de 8% entre 800 e 850 nm, sobe a cerca de 17% perto de 1 000 nm e termina em cerca de 14%. Água (linha pontilhada): só aparece a partir de 900 nm, com cerca de 5% a 6%, e sobe até cerca de 21% em 1 100 nm."
+  },
+  "2017_AZUL_D2_Q108": {
+   "figura": null,
+   "alternativas": {
+    "A": "Gráfico da energia cinética Ec em função da altura h, com h_mín, 0 e h_máx no eixo horizontal: uma reta decrescente de um valor positivo em h_mín até Ec = 0 em h = 0, seguida de uma reta crescente até um valor maior em h_máx (forma de V assimétrico).",
+    "B": "Reta crescente de Ec = 0 em h_mín até um valor máximo em h = 0, seguida de reta decrescente até Ec = 0 em h_máx (forma de triângulo).",
+    "C": "Curva crescente, côncava, de Ec = 0 em h_mín até um máximo em h = 0, seguida de reta decrescente até Ec = 0 em h_máx.",
+    "D": "Reta crescente de Ec = 0 em h_mín até um valor em h = 0, seguida de uma curva arredondada, quase horizontal no início, que desce até Ec = 0 em h_máx.",
+    "E": "Curva suave com Ec pequeno em h_mín, mínimo (perto de zero) em h = 0 e crescimento cada vez mais acentuado até um valor alto em h_máx."
+   }
+  },
+  "2017_AZUL_D2_Q110": {
+   "figura": "Circuito elétrico com uma fonte de tensão U (embaixo) e um fusível. Há quatro nós principais: esquerdo, direito, superior e inferior. Entre o nó esquerdo e o superior, um resistor de 60 Ω; entre o superior e o direito, outro de 60 Ω e, em paralelo com ele, um de 30 Ω; entre o esquerdo e o inferior, um de 60 Ω; entre o inferior e o direito, um de 40 Ω. Do nó esquerdo parte ainda um resistor de 120 Ω ligado em série com o fusível, que desce até o nó inferior. A fonte U está ligada entre o nó esquerdo e o nó direito."
+  },
+  "2017_AZUL_D2_Q112": {
+   "figura": "Esquema do trombone de Quincke, em vista superior: um tubo em forma de laço alongado, com um trecho móvel à esquerda. A fonte sonora fica no alto, com a «entrada do som» no ponto A, e o detector, embaixo, com a «saída do som» no ponto C. Os dois caminhos entre A e C são ADC (pelo lado esquerdo, passando por D) e AEC (pelo lado direito, passando por E). Cotas horizontais: 40 cm da extremidade esquerda (D) até a linha vertical central que passa por A e C, e 30 cm dessa linha até a extremidade direita (E)."
+  },
+  "2017_AZUL_D2_Q113": {
+   "figura": "Fluxograma de separação da farinha de linhaça. A «Farinha de linhaça» recebe «adição de éter etílico, seguida de agitação» e passa por «filtração», que dá o «Resíduo 1» e o «Extrato etéreo (fase orgânica)». O extrato etéreo passa por «destilação» e dá o «Destilado 1» e o «Resíduo 4». O Resíduo 1 recebe «adição de água, seguida de agitação» e passa por «filtração», que dá o «Resíduo 2» e o «Extrato aquoso». O extrato aquoso passa por «destilação» e dá o «Destilado 2» e o «Resíduo 3»."
+  },
+  "2017_AZUL_D2_Q114": {
+   "figura": "Equação química em estruturas. Reagentes: um triglicerídeo, em que três grupos CH₂–O–C(=O)–R (com R₁, R₂ e R₃) estão ligados a uma cadeia CH₂–CH–CH₂, mais 3 CH₃OH. Seta com «catalisador». Produtos: três moléculas CH₃–O–C(=O)–R (R₁, R₂ e R₃) e, ao lado, o glicerol, CH₂(OH)–CH(OH)–CH₂(OH)."
+  },
+  "2017_AZUL_D2_Q116": {
+   "figura": "Esquema em quatro etapas de um experimento com células. Etapa 1: uma célula de camundongo (membrana com proteínas em forma de gota escura) e uma célula humana (proteínas em forma de losango cinza). Etapa 2: fusão celular, que forma uma célula híbrida com os dois tipos de proteína distribuídos em regiões separadas da membrana. Etapa 3, no tempo = 0 minuto: adição de anticorpos contra proteína de membrana de camundongo (marcados com fluoresceína) e contra proteína de membrana humana (marcados com rodamina); os anticorpos aparecem ligados às proteínas, cada tipo na sua região. Incubação a 37 °C. Etapa 4, no tempo = 40 minutos: os dois tipos de proteína marcada aparecem misturados ao longo de toda a membrana da célula."
+  },
+  "2017_AZUL_D2_Q118": {
+   "figura": "Duas figuras lado a lado, vistas de cima. «Piso tradicional de concreto»: um quadrado inteiro preenchido com a textura do concreto. «Piso concregrama»: o mesmo quadrado com quatro aberturas retangulares brancas, em duas linhas de duas, cada uma com o rótulo «Grama» e cercada por concreto."
+  },
+  "2017_AZUL_D2_Q119": {
+   "figura": "Fórmula estrutural do lapachol: um anel benzênico fundido a um anel de seis átomos com duas carbonilas (C=O), uma no alto e outra embaixo; no carbono ao lado da carbonila superior há um grupo OH e, no carbono ao lado da inferior, uma cadeia lateral de cinco carbonos com uma ligação dupla e dois grupos metila na ponta (grupo prenil).",
+   "alternativas": {
+    "A": "Solução de Na₂CO₃ para formar um sal de lapachol.",
+    "B": "Solução-tampão ácido acético/acetato de sódio (pH = 4,5).",
+    "C": "Solução de NaCl a fim de aumentar a força iônica do meio.",
+    "D": "Solução de Na₂SO₄ para formar um par iônico com lapachol.",
+    "E": "Solução de HCl a fim de extraí-lo por meio de reação ácido-base."
+   }
+  },
+  "2017_AZUL_D2_Q121": {
+   "figura": null,
+   "alternativas": {
+    "A": "Esquema com quatro béqueres em série, ligados dois a dois por pontes de KCl e por fios, com um LED no topo. Da esquerda para a direita, eletrodos e soluções: Grafite em Ce⁴⁺ e Ce³⁺; Ni em Ni²⁺; Zn em Zn²⁺; Grafite em Cr₂O₇²⁻, H⁺ e Cr³⁺.",
+    "B": "Esquema com quatro béqueres em série, ligados dois a dois por pontes de KCl e por fios, com um LED no topo. Da esquerda para a direita, eletrodos e soluções: Grafite em Ce⁴⁺ e Ce³⁺; Zn em Zn²⁺; Ni em Ni²⁺; Grafite em Cr₂O₇²⁻, H⁺ e Cr³⁺.",
+    "C": "Esquema com quatro béqueres em série, ligados dois a dois por pontes de KCl e por fios, com um LED no topo. Da esquerda para a direita, eletrodos e soluções: Grafite em Ce⁴⁺ e Ce³⁺; Zn em Zn²⁺; Grafite em Cr₂O₇²⁻, H⁺ e Cr³⁺; Ni em Ni²⁺.",
+    "D": "Esquema com quatro béqueres em série, ligados dois a dois por pontes de KCl e por fios, com um LED no topo. Da esquerda para a direita, eletrodos e soluções: Grafite em Ce⁴⁺ e Ce³⁺; Grafite em Cr₂O₇²⁻, H⁺ e Cr³⁺; Ni em Ni²⁺; Zn em Zn²⁺.",
+    "E": "Esquema com quatro béqueres em série, ligados dois a dois por pontes de KCl e por fios, com um LED no topo. Da esquerda para a direita, eletrodos e soluções: Grafite em Ce⁴⁺ e Ce³⁺; Grafite em Cr₂O₇²⁻, H⁺ e Cr³⁺; Zn em Zn²⁺; Ni em Ni²⁺."
+   }
+  },
+  "2017_AZUL_D2_Q122": {
+   "figura": "Equação química com fórmulas estruturais. Reagentes: ácido salicílico (anel benzênico com um grupo COOH e um grupo OH em carbonos vizinhos) + anidrido acético (H₃C–C(=O)–O–C(=O)–CH₃); sobre a seta, H₂SO₄. Produtos: ácido acetilsalicílico (anel benzênico com um grupo COOH e um grupo O–C(=O)–CH₃ em carbonos vizinhos) + ácido acético (H₃C–COOH)."
+  },
+  "2017_AZUL_D2_Q127": {
+   "figura": "Gráfico «Elevação de temperatura × Curva vazão»: ΔT (°C, de 0 a 40) em função da vazão (de 1 a 10 L/min), com três curvas decrescentes que começam perto de 2,7 L/min e terminam perto de 9 L/min. Curva 1 (morno): de cerca de 12 °C a cerca de 2 °C. Curva 2 (quente): de cerca de 23 °C a cerca de 5 °C. Curva 3 (superquente): de cerca de 38 °C a cerca de 8 °C.",
+   "alternativas": {
+    "A": "1/3 (um terço).",
+    "B": "1/5 (um quinto).",
+    "C": "3/5 (três quintos).",
+    "D": "3/8 (três oitavos).",
+    "E": "5/8 (cinco oitavos)."
+   }
+  },
+  "2017_AZUL_D2_Q130": {
+   "figura": "Fórmulas estruturais de cinco pigmentos de pimentão, todas com uma longa cadeia de ligações duplas conjugadas e grupos metila. Licopeno: cadeia aberta nas duas extremidades, sem anéis. α-caroteno: um anel de seis carbonos em cada extremidade, sem oxigênio. γ-caroteno: um anel de seis carbonos numa extremidade e cadeia aberta na outra. Capsorubina: um anel de cinco carbonos em cada extremidade, cada um com um grupo OH e um grupo C=O ligado à cadeia. α-criptoxantina: um anel de seis carbonos em cada extremidade, com um grupo OH em um dos anéis."
+  },
+  "2017_AZUL_D2_Q134": {
+   "figura": "Esquema da ozonólise do but-1-eno (cadeia de quatro carbonos com ligação dupla terminal): com O₃ e H₂O sobre a seta e Zn abaixo, formam-se o propanal (cadeia de três carbonos terminada em grupo CHO) e o metanal (H₂C=O). Em seguida, a fórmula estrutural do 1-fenil-2-metilprop-1-eno: um anel benzênico ligado a um carbono com ligação dupla ao carbono seguinte, que tem dois grupos metila."
+  },
+  "2017_AZUL_D2_Q138": {
+   "figura": "Esquema: o Sol, desenhado como um círculo com pontas triangulares, no alto à direita; dele sai uma seta tracejada que desce em diagonal até a superfície do lago (linha horizontal hachurada), onde forma com ela o ângulo x, marcado do lado direito da seta."
+  },
+  "2017_AZUL_D2_Q139": {
+   "figura": "Gráfico da velocidade em função do tempo (de 0 a 10 min), com quadriculado e sem valores no eixo da velocidade. A velocidade é constante num nível baixo de 0 a 1 min, sobe até o máximo em 2 min, cai a um nível intermediário em cerca de 3 min e fica constante até 4 min, sobe a um segundo pico em 5 min, cai a zero em 6 min, permanece zero de 6 a 8 min e depois cresce em linha reta até um nível intermediário em 10 min."
+  },
+  "2017_AZUL_D2_Q140": {
+   "figura": "Desenho de uma taça de espumante: bojo largo e raso, em forma de tigela, haste longa e fina e base circular achatada."
+  },
+  "2017_AZUL_D2_Q141": {
+   "figura": "No texto aparecem duas frações escritas na vertical: 2/3 (dois terços) de polpa de morango e 1/3 (um terço) de polpa de acerola."
+  },
+  "2017_AZUL_D2_Q143": {
+   "figura": "Desenho de um brinquedo caminhão-cegonha visto de lado: cabine à esquerda e, na carreta, dez carrinhos em três fileiras (quatro na de cima, três na do meio e três na de baixo), todos iguais.",
+   "alternativas": {
+    "A": "C₆,₄ (combinação de 6 elementos tomados 4 a 4).",
+    "B": "C₉,₃ (combinação de 9 elementos tomados 3 a 3).",
+    "C": "C₁₀,₄ (combinação de 10 elementos tomados 4 a 4).",
+    "D": "6⁴ (seis elevado a quatro).",
+    "E": "4⁶ (quatro elevado a seis)."
+   }
+  },
+  "2017_AZUL_D2_Q145": {
+   "figura": "Tabela com as colunas Pesquisa, σ, N e √N. P1: σ = 0,5, N = 1 764, √N = 42. P2: 0,4, 784, 28. P3: 0,3, 576, 24. P4: 0,2, 441, 21. P5: 0,1, 64, 8. Abaixo, a fórmula do erro: |e| < 1,96 · σ / √N (σ dividido pela raiz quadrada de N).",
+   "alternativas": {
+    "A": "P1",
+    "B": "P2",
+    "C": "P3",
+    "D": "P4",
+    "E": "P5"
+   }
+  },
+  "2017_AZUL_D2_Q147": {
+   "figura": "Gráfico de linhas «Registro de profundidade»: horas de 13 a 17 no eixo horizontal e profundidade (m) no eixo vertical, que tem uma quebra perto do zero; a profundidade h, às 13 h, não foi anotada e, a partir dela, cada linha da grade sobe 1 metro. Pontos ligados por segmentos: às 13 h, o nível h (o mais baixo); às 14 h, 2 unidades acima de h; às 15 h, 6 unidades acima de h (o ponto mais alto); às 16 h, 4 unidades acima de h; às 17 h, 1 unidade acima de h."
+  },
+  "2017_AZUL_D2_Q148": {
+   "figura": "Figura 1: fotografia de uma cabana de madeira de lados inclinados, com um tronco que atravessa o telhado, em meio a árvores. Figura 2: desenho em perspectiva das arestas da estrutura, com as arestas ocultas tracejadas e pequenos quadrados marcando ângulos retos nos vértices."
+  },
+  "2017_AZUL_D2_Q149": {
+   "figura": "Tabuleiro do Campo Minado de 16 × 16 quadrados fechados, com quatro quadrados abertos que mostram números: 2 (na segunda coluna, na parte de cima), 1 (na sexta coluna, na mesma linha do 2), 3 (na 13ª coluna, na parte de baixo) e 4 (na quarta coluna, na penúltima linha). Os quadrados marcados com letras estão fechados: P logo abaixo do 2; Q logo abaixo do 1; R isolado, à esquerda do centro, sem nenhum quadrado aberto por perto; S logo abaixo do 4, na última linha do tabuleiro; T logo abaixo do 3. Na barra inferior: um relógio com 109 e, à direita, o contador de minas com 40."
+  },
+  "2017_AZUL_D2_Q150": {
+   "figura": "Duas imagens da tela quadrada «O peixe», em preto e branco (fundo cinza-escuro com círculos claros e um peixe estilizado, com o rosto voltado para a direita). Na primeira, a tela está na posição original, fixada nos pontos A (canto superior esquerdo) e B (canto inferior direito). Na segunda, depois do giro, a tela aparece como um losango preso apenas no ponto B, que ficou no vértice de cima; uma linha horizontal por B forma com o lado da tela um ângulo de 45°, e o ponto A ficou solto, à esquerda e mais alto que B."
+  },
+  "2017_AZUL_D2_Q151": {
+   "figura": "Primeira tabela, «Avaliação» e «Média de notas (M)»: Excelente, 9 < M ≤ 10; Bom, 7 ≤ M ≤ 9; Regular, 5 ≤ M < 7; Ruim, 3 ≤ M < 5; Péssimo, M < 3. Segunda tabela, com as colunas Disciplinas, Notas e Número de créditos: I, sem nota, 12 créditos; II, 8,00, 4; III, 6,00, 8; IV, 5,00, 8; V, 7,50, 10."
+  },
+  "2017_AZUL_D2_Q152": {
+   "figura": "Esquema de dois reservatórios idênticos, em forma de bloco retangular, ligados por um cano horizontal igual ao cano de entrada; o cano de entrada chega ao Reservatório 1, à esquerda.",
+   "alternativas": {
+    "A": "Gráfico da altura h em função do volume V: uma reta crescente que parte da origem.",
+    "B": "Curva que parte da origem e sobe com concavidade para cima até um ponto, onde há uma subida brusca seguida de um trecho quase horizontal; depois a curva volta a subir, cada vez mais inclinada, até o final.",
+    "C": "Reta crescente a partir da origem, depois um trecho horizontal e, por fim, outra reta crescente com a mesma inclinação da primeira.",
+    "D": "Reta crescente a partir da origem, depois um trecho horizontal e, por fim, uma reta crescente menos inclinada que a primeira.",
+    "E": "Curva crescente que parte da origem, com concavidade para baixo, e se aproxima de um valor máximo sem ter trecho horizontal intermediário."
+   }
+  },
+  "2017_AZUL_D2_Q153": {
+   "figura": "Fotografia de um caminhão com carreta que transporta três grandes tubos cilíndricos empilhados (dois embaixo e um em cima) e que ficou entalado embaixo de um viaduto. Em seguida, um desenho da vista traseira do empilhamento: três circunferências do mesmo tamanho, duas lado a lado apoiadas numa base horizontal, tangentes entre si, e a terceira por cima, tangente às duas; o raio de uma delas está indicado como 0,60 m."
+  },
+  "2017_AZUL_D2_Q154": {
+   "figura": "Mapa de quadras com ruas, em vista de cima. Quatro fileiras de quadras: Quadras 1 a 4 (entre as ruas A e B), 5 a 8 (entre B e C), 9 a 12 (entre C e D) e 13 a 16 (entre D e E); as colunas de ruas verticais da última fileira são nomeadas Rua 1 a Rua 5. Os pontos numerados ficam nos cruzamentos: ① abaixo da Quadra 2, entre as ruas B e C; ② abaixo da Quadra 3, na Rua B; ③ abaixo da Quadra 4, na Rua B; ⓧ (onde está o menino) na Rua C, abaixo da Quadra 7; ④ na Rua D, abaixo da Quadra 11; ⑤ na Rua D, abaixo da Quadra 12. À direita, uma rosa dos ventos com N para cima, S para baixo, L à direita e O à esquerda."
+  },
+  "2017_AZUL_D2_Q155": {
+   "figura": "Tabela de notas, com as colunas Aluno, 1ª Prova, 2ª Prova, 3ª Prova, 4ª Prova e 5ª Prova. X: 5, 5, 5, 10, 6. Y: 4, 9, 3, 9, 5. Z: 5, 5, 8, 5, 6."
+  },
+  "2017_AZUL_D2_Q156": {
+   "figura": "Desenho de um compasso sobre um plano cartesiano (eixos x e y): a cabeça do compasso, no ponto A, no alto; as duas hastes se abrem formando um ângulo de 120°; a ponta seca está no ponto C, de coordenadas (3, 1) (marcadas pelos valores 3 no eixo x e 1 no eixo y, com linhas tracejadas), e a ponta do grafite, no ponto B, traça uma circunferência em torno de C; o segmento CB é um raio da circunferência. Abaixo, tabela de materiais por intervalo do raio R (cm): tipo I, 0 < R ≤ 5; II, 5 < R ≤ 10; III, 10 < R ≤ 15; IV, 15 < R ≤ 21; V, 21 < R ≤ 40."
+  },
+  "2017_AZUL_D2_Q157": {
+   "figura": "Fotografia de uma pulseira de pérolas esféricas brancas, com fileiras de pérolas intercaladas com pedrinhas brilhantes; uma seta indica, na fileira da frente, o lugar de uma pérola que falta (aparece como um círculo branco liso)."
+  },
+  "2017_AZUL_D2_Q159": {
+   "figura": "Fotografia da coroa (engrenagens grandes, à esquerda) e da catraca (engrenagens pequenas, à direita) de uma bicicleta, ligadas por uma corrente. Primeira tabela, com as engrenagens da 1ª à 6ª: número de dentes da coroa, 46, 36 e 26 (1ª a 3ª; 4ª a 6ª sem valor); número de dentes da catraca, 24, 22, 20, 18, 16 e 14. Segunda tabela, com as combinações coroa × catraca: I, 1ª × 1ª; II, 1ª × 6ª; III, 2ª × 4ª; IV, 3ª × 1ª; V, 3ª × 6ª."
+  },
+  "2017_AZUL_D2_Q160": {
+   "figura": "Desenho em contorno, em preto e branco, da logomarca da Copa do Mundo de 2014: uma taça formada por mãos estilizadas, dividida em várias regiões fechadas pelos contornos, com a parte de cima arredondada e a base mais estreita. Abaixo, o slogan «JUNTOS NUM SÓ RITMO»."
+  },
+  "2017_AZUL_D2_Q161": {
+   "figura": "Desenho em perspectiva de um viveiro em forma de prisma reto-retangular, de telas laterais; a parte inferior, em cinza, está abaixo do «nível do mar» (indicado por uma seta na superfície da água). X é a medida da frente da base e Y, a da profundidade."
+  },
+  "2017_AZUL_D2_Q162": {
+   "figura": "Tabela de uma coluna, «Tipo de curva», com cinco linhas: semirreta oblíqua; semirreta horizontal; ramo de parábola; arco de circunferência; ramo de hipérbole."
+  },
+  "2017_AZUL_D2_Q163": {
+   "figura": "Desenho de dois mirantes cilíndricos, cada um com uma porta na base: o Mirante 1, à esquerda, mais baixo, e o Mirante 2, à direita, mais alto. Um cabo liga o topo do Mirante 1 ao topo do Mirante 2, com uma cabine de teleférico pendurada."
+  },
+  "2017_AZUL_D2_Q165": {
+   "figura": "Dois gráficos de colunas dos eleitores (%) por candidato. Gráfico 1: eixo vertical de 0 a 70, de 10 em 10; coluna A (preta) em 70 e coluna B (cinza) em 30. Gráfico 2: os mesmos valores, A em 70 e B em 30, mas o eixo vertical está cortado e começa em 20, de modo que a coluna B parece muito menor.",
+   "alternativas": {
+    "A": "0",
+    "B": "1/2 (um meio)",
+    "C": "1/5 (um quinto)",
+    "D": "2/15 (dois quinze avos)",
+    "E": "8/35 (oito trinta e cinco avos)"
+   }
+  },
+  "2017_AZUL_D2_Q167": {
+   "figura": "Desenho de um melão esférico de centro O, cortado por um plano horizontal. A seção circular de corte, hachurada, tem centro A e raio r (segmento de A até o ponto B, na borda; o ângulo em A é reto, com o eixo vertical OA). Abaixo do plano fica a calota esférica, de altura h, marcada com uma seta vertical. Legendas: «Região onde serão afixados os doces» (aponta para a superfície da esfera), «A parte hachurada será apoiada na mesa» e «Calota a ser cortada e eliminada».",
+   "alternativas": {
+    "A": "5 − √91 / 2 (cinco menos raiz de 91 dividida por dois).",
+    "B": "10 − √91 (dez menos raiz de 91).",
+    "C": "1",
+    "D": "4",
+    "E": "5"
+   }
+  },
+  "2017_AZUL_D2_Q168": {
+   "figura": "Figura 1: desenho em perspectiva de uma abóbada parabólica da Igreja de São Francisco de Assis, com uma seta apontando para ela. Figura 2: vista frontal da abóbada, um arco parabólico apoiado no chão; do chão ao topo, a altura H (em metros, a ser determinada). Uma linha horizontal a 3 metros de altura cruza a parábola; a partir da linha vertical central (eixo de simetria), a distância horizontal até a parábola nessa altura é de 4 metros e, no chão, de 5 metros.",
+   "alternativas": {
+    "A": "16/3",
+    "B": "31/5",
+    "C": "25/4",
+    "D": "25/3",
+    "E": "75/2"
+   }
+  },
+  "2017_AZUL_D2_Q169": {
+   "figura": "Dois gráficos de setores (pizza) do tempo de acesso, em minutos, a cinco sites. Sexta-feira: Site X, 12; Site Y, 30; Site Z, 10; Site W, 38; Site U, 40. Sábado: Site X, 21; Site Y, 51; Site Z, 11; Site W, 57; Site U, 56."
+  },
+  "2017_AZUL_D2_Q170": {
+   "figura": "Desenho de um termômetro de duas colunas, em forma de casa. Coluna da esquerda, com escala de −30 °C (no alto) a 50 °C (embaixo); coluna da direita, com escala de −30 °C (embaixo) a 50 °C (no alto). Filetes pretos: na coluna da esquerda, vai do topo (−30) até cerca de −5 °C; na da direita, vai do topo (50) até cerca de 19 °C. Filetes cinza, na parte de baixo de cada coluna: o nível superior dos dois fica em cerca de 7 °C."
+  },
+  "2017_AZUL_D2_Q171": {
+   "figura": "Fotografia em preto e branco de um pivô central de irrigação numa plantação: uma torre metálica em forma de pirâmide, no centro, da qual parte um cano horizontal longo apoiado em torres sobre rodas. Em seguida, um diagrama visto de cima: três circunferências tracejadas concêntricas em torno do ponto «BASE»; sobre um mesmo raio ficam os pontos T1, T2 e T3, cada um sobre uma das circunferências (T1 na menor e T3 na maior); uma seta no alto indica o sentido do giro (anti-horário)."
+  },
+  "2017_AZUL_D2_Q172": {
+   "figura": "Gráfico «Quantidade de água armazenada», volume em litros em função do tempo (de 0 a 20 h), com dois eixos verticais: o do Reservatório A, à esquerda, vai de 0 a 180 000 L e o do Reservatório B, à direita, de 0 a 90 000 L. Reservatório A (círculos): sobe de 0 a cerca de 60 000 L em 4 h, cai a cerca de 30 000 L em 8 h, fica nisso até 9 h e depois sobe 15 000 L por hora até 180 000 L em 19 h e 20 h. Reservatório B (triângulos): sobe de 0 a 30 000 L em 4 h, fica em 30 000 L de 4 a 10 h, sobe até 75 000 L em 16 h, fica em 75 000 L de 16 a 18 h e sobe até 90 000 L em 20 h."
+  },
+  "2017_AZUL_D2_Q173": {
+   "figura": null,
+   "alternativas": {
+    "A": "20 / 0,075 (vinte dividido por 0,075)",
+    "B": "20 / 0,75 (vinte dividido por 0,75)",
+    "C": "20 / 7,5 (vinte dividido por 7,5)",
+    "D": "20 × 0,075",
+    "E": "20 × 0,75"
+   }
+  },
+  "2017_AZUL_D2_Q174": {
+   "figura": "Gráfico de linha da taxa de desemprego (%) mês a mês, de março de 2008 a abril de 2009: 8,6; 8,5; 7,9; 7,9; 8,1; 7,6; 7,7; 7,5; 7,6; 6,8 (dezembro); 8,2 (janeiro de 2009); 8,5; 9,0 (março); 8,9 (abril)."
+  },
+  "2017_AZUL_D2_Q177": {
+   "figura": "Tabela «Opção» e «Formato», em que L é letra maiúscula e D é dígito: I, LDDDDD; II, DDDDDD; III, LLDDDD; IV, DDDDD; V, LLLDD."
+  },
+  "2017_AZUL_D2_Q178": {
+   "figura": "Tabela: quantidade de jogadores 2, 3, 4, 5, 6 e 7; número de partidas 1, 3, 6, 10, 15 e 21, respectivamente."
+  },
+  "2017_AZUL_D2_Q91": {
+   "figura": "Tabela de toxicidade, com as colunas Pesticidas e DL₅₀ (mg/kg): Diazinon, 70; Malation, 1 000; Atrazina, 3 100."
+  },
+  "2017_AZUL_D2_Q93": {
+   "figura": "Gráfico da corrente (em 10⁻⁶ A) em função da diferença de potencial (em V): seis pontos alinhados sobre uma reta tracejada que passa pela origem: (0,5; 1,0), (1,0; 2,0), (1,5; 3,0), (2,0; 4,0), (2,5; 5,0) e (3,0; 6,0).",
+   "alternativas": {
+    "A": "0,5 × 10⁰",
+    "B": "2,0 × 10⁰",
+    "C": "2,5 × 10⁵",
+    "D": "5,0 × 10⁵",
+    "E": "2,0 × 10⁶"
+   }
+  },
+  "2017_AZUL_D2_Q95": {
+   "figura": "Esquema de uma célula eletroquímica (cuba retangular com solução) ligada a uma bateria (com polos + e −) por fios, com setas de elétrons (e⁻) do polo − da bateria para o cátodo e do ânodo para o polo +. Dentro da cuba, uma divisória central, o «diafragma de amianto», separa duas metades: à esquerda, o «ânodo de carbono» (+), por onde entra a «solução aquosa de NaCl» e sai o gás Cl₂ (g); à direita, o «cátodo de carbono» (−), de onde sai o «produto secundário». Na lateral direita, uma torneira com a legenda «dreno para solução aquosa alcalina»."
+  },
+  "2017_AZUL_D2_Q98": {
+   "figura": "Tabela de duas colunas comparando classificações. Whittaker (1969), cinco reinos: Monera, Protista, Fungi, Plantae e Animalia. Woese (1990), três domínios: Archaea e Eubacteria, que correspondem ao reino Monera, e Eukarya, que corresponde juntos a Protista, Fungi, Plantae e Animalia."
+  },
+  "2017_AZUL_D2_Q99": {
+   "figura": "Gráfico da aceleração (de 0 a 200 m/s²) em função do tempo (de 0,00 a 0,30 s) para cinco modelos de cinto. Cinto 1 (traço e ponto): pico de cerca de 150 m/s², em torno de 0,08 s, que termina em cerca de 0,15 s. Cinto 2 (pontilhada): curva larga e baixa, com máximo de cerca de 65 m/s², por volta de 0,15 s, indo de 0,05 a 0,27 s. Cinto 3 (pontilhada fina): pico estreito e alto de cerca de 190 m/s², em 0,14 s, entre 0,12 e 0,20 s. Cinto 4 (linha cheia): sobe devagar a cerca de 85 m/s², por volta de 0,21 s, e cai até 0,30 s. Cinto 5 (tracejada): começa em 0,20 s, sobe até cerca de 170 m/s², em 0,28 s, e cai de modo brusco em 0,30 s."
+  },
+  "2018_AZUL_D1_Q07": {
+   "figura": "Peça de campanha educativa: fotografia de uma xícara de café preto sobre um pires e de um açucareiro de aço com açúcar, com uma colher pondo açúcar na xícara. Na imagem, o texto «SEU ORGANISMO JÁ ESTÁ ACOSTUMADO COM O AÇÚCAR E ESTÁ DIFÍCIL LARGAR?» e, embaixo, «O IDEAL É IR SE ACOSTUMANDO AOS POUCOS COM CADA VEZ MENOS AÇÚCAR.»"
+  },
+  "2018_AZUL_D1_Q11": {
+   "figura": "Texto I: fotografia em preto e branco, «Dentro de mim» (Helena Almeida, 2000), vista rente ao chão de lajotas: as pernas de uma pessoa deitada, com um pequeno espelho preso a cada pé, um espelho na planta de um pé e outro apoiado no outro."
+  },
+  "2018_AZUL_D1_Q13": {
+   "figura": "Texto I: cartaz com fotografia de uma mulher de cabelo curto, de top esportivo e calça, sorrindo, em pé, com as mãos na cintura e o abdômen definido. À esquerda, o texto em maiúsculas: «AQUELES QUE PENSAM QUE NÃO TÊM TEMPO PARA FAZER EXERCÍCIO, MAIS CEDO OU MAIS TARDE SERÃO OBRIGADOS A TER TEMPO PARA AS DOENÇAS.»"
+  },
+  "2018_AZUL_D1_Q19": {
+   "figura": "Tirinha em três quadros, com o título «Ideologia e internet». Quadro 1, «1) Nova ética»: um personagem pergunta «Você não era blogueiro da oposição?» e o outro responde «Coerência é coisa de torcedor, eu sou profissional.» Quadro 2, «2) Novas oportunidades»: um personagem diz «Meme eu cobro X, textão eu cobro Y.» Quadro 3, «3) Nova bolha»: um pergunta «Viu o preço da opinião na internet?» e o outro responde «Tá pela hora da morte.»"
+  },
+  "2018_AZUL_D1_Q22": {
+   "figura": "Fotografia em preto e branco da fachada de um supermercado em Foz do Iguaçu: uma parede cinza com a palavra «Supermercado» escrita em português e, abaixo, a mesma palavra em inglês («Supermarket»), alemão («Supermarkt»), espanhol («Tienda»), chinês e árabe. Em primeiro plano, um poste, uma pessoa de pé e uma caminhonete escura estacionada."
+  },
+  "2018_AZUL_D1_Q25": {
+   "figura": "Página de quadrinhos em preto e branco, de alto contraste, da adaptação de «Grande sertão: veredas». No alto, à esquerda, um quadro com o rosto de um homem barbado, em detalhe, com o balão «Daí, vieram me chamar. Causa dum bezerro:». À direita, a onomatopeia «PAM!» em grandes letras brancas sobre fundo preto, e uma mão com um revólver. Abaixo, textos narrativos: «Um bezerro branco, erroso, os olhos de nem ser – se viu –; e com máscara de cachorro. Determinaram – era o demo.» e «Mataram. Dono dele nem sei quem for. Vieram emprestar minhas armas, cedi. Não tenho abusões. O senhor ri certas risadas. Olhe: quando é tiro de verdade, primeiro a cachorrada pega a latir, depois, então, se vai ver se deu mortos. Senhor tolere, isto é o sertão.» Sobre a página inteira, o desenho escuro de um animal de pé, com o tronco erguido, e, embaixo, um corpo caído no chão."
+  },
+  "2018_AZUL_D1_Q28": {
+   "figura": "Cartaz de campanha de reciclagem: uma grande garrafa PET vazia, desenhada na diagonal, no centro. À esquerda, duas lixeiras: «Úmido» (cascas e ossos, restos de comida, pó de café e chá, galhos e podas) e «Seco» (latas, papéis, plástico, vidro). À direita, desenhos de fita métrica, tesoura, carretel de linha e tecido, com a frase manuscrita «Plástico velho pode virar tecido novo». Texto na parte de baixo: «Garrafa PET vazia tem valor líquido e certo: reciclada, vira tecido, madeira sintética ou plástico novo de novo. Separar o lixo facilita o trabalho dos catadores e aumenta o material aproveitado, principalmente se você limpar as embalagens por dentro, retirando toda a sujeira antes de descartá-las. Mude de atitude. Assim, você ajuda a gerar renda para quem precisa e poupa recursos naturais.» e o slogan «SEPARE O LIXO E ACERTE NA LATA»."
+  },
+  "2018_AZUL_D1_Q32": {
+   "figura": "Fotografia em preto e branco de um show do grupo O Teatro Mágico: no palco, um cantor de cartola, colete e calça com franjas, tocando violão; acima dele, uma acrobata suspensa num aro aéreo, de pernas abertas, em meio a fumaça e a feixes de luz."
+  },
+  "2018_AZUL_D1_Q34": {
+   "figura": "Texto I: fotografia da escultura «Estrutura vertical dupla», de Norma Grimberg: uma pilha vertical de peças brancas em forma de discos ovais, com leve torção, sobre uma base escura. Texto II: fotografia da «Urna cerimonial marajoara» (cerâmica, 1400 a 400 a.C., 81 cm, Museu Nacional do Rio de Janeiro): um grande vaso de corpo arredondado e gargalo largo, decorado com padrões geométricos incisos, de espirais e meandros, e com pequenos relevos nas laterais."
+  },
+  "2018_AZUL_D1_Q39": {
+   "figura": "Quadro «Reações celíacas ao ler um rótulo sem glúten», com seis ícones circulares cinza, no estilo das reações de uma rede social, cada um com uma legenda: polegar para cima, «Não contém glúten :) CURTI!»; coração, «Sem glúten e com sabor AMEI!»; rosto rindo, «Sem glúten e barato HAHA!»; rosto de surpresa, «Sem glúten, barato e gostoso UAU!»; rosto triste com uma lágrima, «Sem glúten mas pode conter traços TRISTE!»; rosto zangado, «Rótulo tá todo errado :( GRR!»."
+  },
+  "2018_AZUL_D1_Q41": {
+   "figura": "Cartaz da «Campanha permanente pelo fim da violência contra as mulheres»: fotografia de três mulheres lado a lado, uma cobrindo os olhos com as mãos, outra cobrindo a boca e a terceira tapando os ouvidos. Texto: «SE VOCÊ FOI VÍTIMA DE ASSÉDIO, ROMPA O SILÊNCIO: DENUNCIE». No rodapé: ícone de figura feminina e «LIGUE 180»; «Não silencie, o governo do Estado está ao seu lado. TELEFONE LILÁS 0800 541 0803, Centro Estadual de Referência da Mulher Vânia Araújo Machado»; logotipo da Trensurb (Empresa de Trens Urbanos de Porto Alegre S.A.)."
+  },
+  "2018_AZUL_D1_Q45": {
+   "figura": "Texto I: mapa de ruas da cidade de Victoria (Canadá), em tons de cinza, com um trajeto de GPS em linhas pretas que desenha a silhueta de uma figura humana de braços abertos. No canto inferior esquerdo, uma fotografia do Cristo Redentor, de braços abertos, sobre a cidade do Rio de Janeiro e o Pão de Açúcar ao fundo."
+  },
+  "2018_AZUL_D1_Q50": {
+   "figura": "Figura 1: fotografia de um ônibus antigo exposto num museu, com o letreiro «Cleveland Ave» na frente e piso de madeira em espinha de peixe. Figura 2: fotografia de Rosa Parks, uma mulher de óculos de armação fina e blusa listrada, sorrindo, em primeiro plano; ao fundo, à esquerda, Martin Luther King Jr., de perfil e de terno, e um carro."
+  },
+  "2018_AZUL_D1_Q56": {
+   "figura": null,
+   "alternativas": {
+    "A": "Ilustração em perspectiva de um trecho de terreno em forma de placa, com vegetação: árvores de copa escura e densa e outras secas, sem folhas, espalhadas pelo terreno.",
+    "B": "Representação em perspectiva do relevo por curvas de nível: três planos horizontais cortam duas elevações, nas altitudes 400, 420 e 440 (com 20 m entre planos); pontos cotados 456, 432 e 416; embaixo, no plano da base, as curvas de nível projetadas.",
+    "C": "Mapa de blocos (anamorfose) das Américas, com países desenhados como retângulos de áreas proporcionais a um valor: um grande bloco cinza para os Estados Unidos, com uma faixa escura no alto para o Canadá, blocos menores para México, Guatemala, Cuba, República Dominicana, Venezuela, Colômbia, Equador, Peru, Chile, Brasil e Argentina.",
+    "D": "Perfil lateral de uma encosta que sobe da esquerda para a direita, coberta por árvores, com um degrau e outro grupo de árvores no alto, à direita.",
+    "E": "Mapa de ruas de uma cidade, em perspectiva, com um percurso destacado entre os pontos «Largada» e «Chegada», que passa pelas avenidas Paulista, Brigadeiro Luís Antônio, Rio Branco, Pacaembu e Marquês de São Vicente, pela Praça da República e pelo viaduto do Chá."
+   }
+  },
+  "2018_AZUL_D1_Q63": {
+   "figura": "Mapa-múndi em tons de cinza escuro, com o título «Trajetória de ciclones tropicais». As trajetórias, em linhas claras sobrepostas, formam faixas: no hemisfério norte, uma sobre o Atlântico Norte e o Caribe, rumo à América do Norte, e outras sobre o Pacífico noroeste, o sul e o leste da Ásia e o Índico norte; no hemisfério sul, uma faixa sobre o Índico e o Pacífico sudoeste, perto da Austrália. Não há trajetórias sobre a faixa equatorial nem sobre o Atlântico Sul."
+  },
+  "2018_AZUL_D1_Q67": {
+   "figura": "Gráfico com precipitações (mm, de 0 a 90) em barras e duas curvas de vazão ao longo do tempo (de 0 a 16 h). Barras: cerca de 58 mm entre 0 e 1 h, 64 mm entre 1 e 2 h e 36 mm entre 2 e 3 h. Vazão em áreas urbanizadas (linha contínua): sobe rapidamente até um pico de cerca de 93 em 3,3 h e cai até zero em 12 h. Vazão em áreas não urbanizadas (linha tracejada): sobe mais devagar até um pico de cerca de 71 em 5,7 h e cai até zero em 15 h."
+  },
+  "2018_AZUL_D1_Q82": {
+   "figura": "Texto II: dois mapas esquemáticos da América do Sul, com latitudes de 0°, 20° S e 40° S e longitude 60° W. «Verão normal»: a Amazônia, com uma seta cinza dos jatos de baixos níveis (JBN) que desce para o sudeste; uma seta preta do fluxo do oceano Atlântico; uma faixa cinza diagonal, a zona de convergência do Atlântico Sul (ZCAS), sobre o Sudeste, com a indicação «solo úmido»; e uma frente fria (FF) ao sul. «Verão de 2014»: os mesmos elementos, mas com um círculo com a letra A (centro da anomalia de alta pressão) sobre o Sudeste, com setas girando em torno dele, a indicação «solo seco» e a frente fria (FF) mais ao sul."
+  },
+  "2018_AZUL_D1_Q87": {
+   "figura": "Anúncio antigo, em preto e branco: título «ELLA SERIA ADORAVEL ...si não fosse doentia». Ilustração de uma mulher recostada em uma poltrona, com os braços atrás da cabeça, de blusa e saia curta, com as pernas cruzadas; no canto inferior esquerdo, um frasco do tônico «A Saude da Mulher». Texto: «Só uma saude perfeita póde dar á mulher belleza e encanto capazes de a tornar adoravel aos olhos masculinos! Para ter uma saude assim, tome “A SAUDE DA MULHER”, o remedio que traz no nome o resumo das suas virtudes. “A SAUDE DA MULHER” regulariza o funccionamento do delicado organismo feminino.» Faixa inferior com o nome «A SAUDE DA MULHER»."
+  },
+  "2018_AZUL_D1_Q88": {
+   "figura": "Gráfico de linhas «Participação percentual do extrativismo vegetal e da silvicultura no valor da produção primária florestal — Brasil — 1996-2014» (%, de 0 a 90). Silvicultura: sobe de cerca de 41% em 1996 para cerca de 51% a 54% entre 1998 e 2002, dá um salto para cerca de 63% em 2003 e continua subindo até cerca de 78% em 2014. Extrativismo vegetal: cai de cerca de 59% em 1996 para cerca de 46% a 49% entre 1998 e 2002, cerca de 38% em 2003 e chega a cerca de 22% em 2014. As linhas se cruzam por volta de 1998 e 1999."
+  },
+  "2018_AZUL_D2_Q104": {
+   "figura": "Cinco fotografias de objetos, cada uma com seu nome: alicate (à esquerda, em pé), pinça, quebra-nozes, carrinho de mão (numa plantação) e abridor de garrafa (numa mão)."
+  },
+  "2018_AZUL_D2_Q106": {
+   "figura": "Diagrama «Resultados dos cruzamentos» entre nove populações de orquídeas, dispostas em círculo e ligadas por setas de doador para receptor. Populações da Mata Atlântica (ícone de folha preta): Pão de Açúcar, Alcobaça, Olivença, Bertioga, Marambaia e Massambaba. Populações do Cerrado (ícone de folha cinza): Peti (duas vezes), Itirapina e Itapeva. Seta de linha contínua: polinização induzida bem-sucedida; seta de linha pontilhada: polinização induzida inviável ou nula. As populações do Cerrado cruzam com sucesso entre si (Itirapina–Itapeva, Peti–Peti) e as setas pontilhadas aparecem em cruzamentos entre algumas populações de Mata Atlântica e entre estas e outras, em particular com Marambaia (por exemplo, de Pão de Açúcar, Peti, Alcobaça e Olivença para Marambaia)."
+  },
+  "2018_AZUL_D2_Q112": {
+   "figura": "Fotografia de um dedo pressionando uma tela feita de camadas e, ao lado, o circuito simplificado: uma fonte de tensão ε (polo + em cima), duas colunas de resistores de 4 kΩ cada (dois resistores em série em cada coluna, cada coluna com um resistor de cima e outro de baixo) e dois pontos de toque A e B, em chaves que podem ser fechadas ao tocar a tela: A, na coluna da direita, entre os resistores de cima e de baixo, liga-se por uma chave ao ponto médio da coluna da esquerda; B, no fim da coluna da direita, liga-se à ligação inferior do circuito."
+  },
+  "2018_AZUL_D2_Q115": {
+   "figura": "Tabela com as colunas Equipamento elétrico e Potência aproximada (watt): exaustor, 150; computador, 300; aspirador de pó, 600; churrasqueira elétrica, 1 200; secadora de roupas, 3 600."
+  },
+  "2018_AZUL_D2_Q118": {
+   "figura": "Gráfico da energia de ligação em função da distância interatômica: uma curva que desce muito rapidamente à esquerda, passa de valores positivos para negativos, atinge o mínimo (T = 0 K) na distância de equilíbrio R₀, marcada com uma linha tracejada vertical, e depois sobe lentamente, aproximando-se de zero à direita. Quatro linhas horizontais, T₁ a T₄ (temperaturas crescentes), cortam a curva nos dois lados; cada uma tem um círculo cheio, a posição média de equilíbrio, que se desloca para a direita e para cima conforme a temperatura aumenta."
+  },
+  "2018_AZUL_D2_Q120": {
+   "figura": "Dois esquemas de ligação de caixas de som a um equipamento de som mono. «Polaridade correta»: as saídas E e D do equipamento, cada uma com um terminal + e um −, são ligadas por fios verticais às caixas de som E e D, de modo que + liga com + e − liga com −. «Polaridade invertida»: a ligação da caixa E é igual à anterior, mas, na caixa D, os dois fios se cruzam, de forma que o + da saída fica ligado ao − da caixa e o − da saída, ao + da caixa."
+  },
+  "2018_AZUL_D2_Q123": {
+   "figura": "Diagrama de um ciclo com quatro caixas e setas no sentido horário: no alto, «Combustíveis reduzidos e O₂»; à direita, «Processo 2»; embaixo, «CO₂ e H₂O»; à esquerda, «Processo 1». As setas vão de «Combustíveis reduzidos e O₂» ao Processo 2, deste a «CO₂ e H₂O», daí ao Processo 1 e do Processo 1 de volta a «Combustíveis reduzidos e O₂»."
+  },
+  "2018_AZUL_D2_Q125": {
+   "figura": "Parte de cima: faixa do espectro visível numa escala de 400 a 750 nm, com as cores, da esquerda para a direita, violeta, azul, verde, amarelo, laranja e vermelho. Parte de baixo: esquema em corte de um prisma triangular; o «feixe incidente» entra pela face A, à esquerda; três raios saem pela face B e descem em direções diferentes até um espelho horizontal; depois de refletidos, sobem em três raios até o «perfil do filme», uma placa vertical à direita, onde chegam em três alturas diferentes."
+  },
+  "2018_AZUL_D2_Q126": {
+   "figura": null,
+   "alternativas": {
+    "A": "Fórmula estrutural de uma cadeia com duas unidades repetidas entre colchetes (uma com subíndice 15 e outra, com um átomo de oxigênio, com subíndice 20), terminada em OH.",
+    "B": "Cadeia carbônica ramificada (com várias ramificações, entre elas um grupo isopropila) ligada a um anel benzênico que tem o grupo SO₃⁻ Na⁺.",
+    "C": "Anel benzênico com o grupo SO₃⁻ Na⁺ de um lado e, do outro, preso por um carbono, uma cadeia de carbonos linear, sem ramificações, que forma duas cadeias lineares a partir desse carbono.",
+    "D": "Cadeia carbônica linear longa que termina em um átomo de nitrogênio positivo ligado a três grupos metila, com íon Cl⁻.",
+    "E": "Cadeia carbônica longa, ramificada com grupos metila, que termina em um anel de piridina com nitrogênio positivo, com íon Cl⁻."
+   }
+  },
+  "2018_AZUL_D2_Q127": {
+   "figura": "Dois esquemas de géis de eletroforese, com as amostras M (matriz), S1 (semente) e DP1 a DP5 (doadoras de pólen) nas colunas e os alelos nas linhas; barras pretas indicam os alelos presentes. Gel 1, loco A (alelos 1 a 4): M, alelos 1 e 3; S1, 1 e 2; DP1, 3; DP2, 2 e 3; DP3, 1; DP4, 3 e 4; DP5, 2. Gel 2, loco B (alelos 1 a 5): M, 3 e 4; S1, 3; DP1, 2 e 4; DP2, 2 e 5; DP3, 1 e 5; DP4, 5; DP5, 3."
+  },
+  "2018_AZUL_D2_Q128": {
+   "figura": "Dois desenhos em perfil de carrinhos de plástico, o Carro A e o Carro B. Cada carro tem, à esquerda, uma pequena ventoinha com traços de vento e, à direita, uma cartolina curvada fixada na vertical sobre uma haste (a «vela»). No carro A, a ventoinha está voltada para a vela; no carro B, o sentido da ventoinha foi invertido e a vela foi mantida.",
+   "alternativas": {
+    "A": "V_A = 0; V_B > 0; o carro A não se move.",
+    "B": "0 < V_A < V_B; o carro A se move para a direita.",
+    "C": "0 < V_A < V_B; o carro A se move para a esquerda.",
+    "D": "0 < V_B < V_A; o carro A se move para a direita.",
+    "E": "0 < V_B < V_A; o carro A se move para a esquerda."
+   }
+  },
+  "2018_AZUL_D2_Q129": {
+   "figura": "Gráfico da ativação (%) dos pigmentos em função do comprimento de onda (de cerca de 360 a 680 nm), com uma barra de cores embaixo (roxo, azul, verde, amarelo, laranja, vermelho). Pigmento «azul» (linha contínua): pico de 100% em cerca de 420 nm e queda até 0 em cerca de 530 nm. Pigmento «verde» (tracejada): pico de 100% em cerca de 535 nm e queda até 0 em cerca de 640 nm. Pigmento «vermelho» (pontilhada): pico de 100% em cerca de 565 nm e queda até 0 em cerca de 680 nm. Dois retângulos cinza verticais marcam as faixas I (em torno de 530 nm) e II (em torno de 600 nm)."
+  },
+  "2018_AZUL_D2_Q130": {
+   "figura": "Estrutura do grafeno: uma folha plana de átomos de carbono (esferas cinza) ligados em hexágonos que se encaixam lado a lado, como um favo de mel, em três fileiras de hexágonos.",
+   "alternativas": {
+    "A": "sp de geometria linear.",
+    "B": "sp² de geometria trigonal planar.",
+    "C": "sp³ alternados com carbonos com hibridação sp de geometria linear.",
+    "D": "sp³d de geometria planar.",
+    "E": "sp³d² com geometria hexagonal planar."
+   }
+  },
+  "2018_AZUL_D2_Q136": {
+   "figura": "Matriz A de 5 linhas e 5 colunas (a linha i dá as transferências do banco i para os bancos 1 a 5): linha 1: 0, 2, 0, 2, 2; linha 2: 0, 0, 2, 1, 0; linha 3: 1, 2, 0, 1, 1; linha 4: 0, 2, 2, 0, 0; linha 5: 3, 0, 1, 1, 0."
+  },
+  "2018_AZUL_D2_Q137": {
+   "figura": "No texto, a fórmula V = P · (1 + i)ⁿ e o valor ln(4/3), com a fração 4 sobre 3 escrita na vertical.",
+   "alternativas": {
+    "A": "56ª",
+    "B": "55ª",
+    "C": "52ª",
+    "D": "51ª",
+    "E": "45ª"
+   }
+  },
+  "2018_AZUL_D2_Q138": {
+   "figura": "Plano cartesiano com eixo x de 0 a 6 e eixo y de 0 a 5, com grade tracejada. Pontos marcados: A (0; 4), B (4; 4), C (4; 0), D (2; 2) e E (0; 2).",
+   "alternativas": {
+    "A": "x = 0",
+    "B": "y = 0",
+    "C": "x² + y² = 16",
+    "D": "x² + (y − 2)² = 4",
+    "E": "(x − 2)² + (y − 2)² = 8"
+   }
+  },
+  "2018_AZUL_D2_Q140": {
+   "figura": "Tabela das dimensões internas das caixas (comprimento, largura e altura, em cm). Modelo I: 8, 8, 40. Modelo II: 8, 20, 14. Modelo III: 18, 5, 35. Modelo IV: 20, 12, 12. Modelo V: 24, 8, 14."
+  },
+  "2018_AZUL_D2_Q142": {
+   "figura": "No texto, a fórmula F = k·m / r² (k vezes m, dividido por r ao quadrado). Gráfico com a massa (m) no eixo horizontal e o raio (r) no eixo vertical, com três pontos: A, perto do eixo vertical e a uma altura baixa; B, à direita de A, na mesma altura (mesmo raio e massa maior); C, diretamente acima de A (mesma massa e raio maior). Linhas tracejadas ligam A a B e A a C.",
+   "alternativas": {
+    "A": "F_C = F_A < F_B",
+    "B": "F_A = F_B < F_C",
+    "C": "F_A < F_B < F_C",
+    "D": "F_A < F_C < F_B",
+    "E": "F_C < F_A < F_B"
+   }
+  },
+  "2018_AZUL_D2_Q145": {
+   "figura": "Tabela com número de acidentes sofridos e número de trabalhadores: 0 acidentes, 50 trabalhadores; 1, 17; 2, 15; 3, 10; 4, 6; 5, 2."
+  },
+  "2018_AZUL_D2_Q147": {
+   "figura": "Tabela «Taxa de LDL (mg/dL)»: ótima, menor do que 100; próxima de ótima, de 100 a 129; limite, de 130 a 159; alta, de 160 a 189; muito alta, 190 ou mais."
+  },
+  "2018_AZUL_D2_Q149": {
+   "figura": "Primeira figura: um triângulo retângulo com o cateto vertical de 20 cm e o horizontal de 1 m, com a indicação «Inclinação = 20%». Segunda figura: corte lateral do projeto da rampa. À esquerda, o nível da rua, com um portão; a rampa, em forma de triângulo, desce 2 m na vertical, até o nível da base da garagem, ao longo de 8 m na horizontal; à direita, a garagem, uma construção com telhado de quatro águas sobre pilares."
+  },
+  "2018_AZUL_D2_Q151": {
+   "figura": "A palavra «ecofont» escrita em quatro tamanhos, em letras com pequenos furos circulares. Abaixo, as letras E, C e O ampliadas: cada uma é formada por quadrados cinza com furos circulares brancos; marcações «x» indicam a medida do lado dos quadrados e das aberturas das letras."
+  },
+  "2018_AZUL_D2_Q152": {
+   "figura": "Plano cartesiano com os eixos x e y de −15 a 15 e, no primeiro quadrante, pontos pretos de coordenadas inteiras que formam um triângulo retângulo: para cada valor de x, de 0 a 10, há pontos de y = 0 até y = x, de modo que o lado vertical do triângulo fica em x = 10, de y = 0 a y = 10, e a hipotenusa segue a reta y = x.",
+   "alternativas": {
+    "A": "0 ≤ x ≤ y ≤ 10",
+    "B": "0 ≤ y ≤ x ≤ 10",
+    "C": "0 ≤ x ≤ 10, 0 ≤ y ≤ 10",
+    "D": "0 ≤ x + y ≤ 10",
+    "E": "0 ≤ x + y ≤ 20"
+   }
+  },
+  "2018_AZUL_D2_Q153": {
+   "figura": "Duas figuras de uma praça circular com um chafariz circular concêntrico no centro, ruas saindo da praça e, entre as duas circunferências, o passeio (um anel). Primeira figura, com os rótulos «Chafariz», «Passeio» e «Praça». Segunda figura: a mesma praça, com um segmento horizontal tracejado AB, de 16 m, tangente ao chafariz por baixo e com as extremidades A e B na circunferência externa da praça."
+  },
+  "2018_AZUL_D2_Q154": {
+   "figura": "Tabuleiro de 8 × 8 casas, alternadas em branco e cinza. Uma peça (círculo preto) está na quinta linha, na terceira coluna; barras escuras destacam as casas da mesma linha e da mesma coluna da peça: duas casas à esquerda, cinco à direita, quatro acima e três abaixo.",
+   "alternativas": {
+    "A": "4 × 4",
+    "B": "6 × 6",
+    "C": "9 × 9",
+    "D": "10 × 10",
+    "E": "11 × 11"
+   }
+  },
+  "2018_AZUL_D2_Q155": {
+   "figura": "Fotografia em preto e branco de um remador sentado num barco longo e estreito, visto de cima, com um remo de cada lado, abertos para os lados. O ponto A fica no encontro dos dois remos, junto ao remador; os pontos B e C marcam as outras extremidades dos remos, à esquerda e à direita."
+  },
+  "2018_AZUL_D2_Q157": {
+   "figura": "Mapa antigo, desenhado num pergaminho, com a escala 1 : 58 000 000. No canto superior esquerdo, o «Tesouro» marcado por uma cruz preta grande; ao centro, o ponto «Fonte do Lavra» marcado por um X; à direita, uma rosa dos ventos (N, S, L, O) com uma caveira no centro; no canto inferior direito, um navio. Um segmento de reta preto liga o navio ao tesouro. Também há montanhas, rios e ilhas desenhados."
+  },
+  "2018_AZUL_D2_Q159": {
+   "figura": "À esquerda, quatro camadas de cubinhos, uma sobre a outra, ligadas por sinais de mais: a de cima, pequena e incompleta (cerca de 5 cubinhos, com um canto faltando); a segunda, de 4 por 4 com um canto faltando; e as duas de baixo, de 4 por 4 completas. À direita, o bloco que resulta delas, em perspectiva: um cubo 4 × 4 × 4 ainda incompleto, com um degrau na parte de cima e um canto aberto.",
+   "alternativas": {
+    "A": "Peça de cubinhos em perspectiva: uma fileira da frente com 4 cubinhos, uma faixa que se estende para trás, à direita, e 2 cubinhos pendurados abaixo, sob o quarto da frente.",
+    "B": "Mesma estrutura da A, com a faixa para trás e apenas 1 cubinho pendurado abaixo, sob o quarto da frente.",
+    "C": "Mesma estrutura da A, com a faixa para trás e 2 cubinhos pendurados abaixo, mas com a parte de cima da fileira da frente e a da faixa em níveis diferentes dos da A.",
+    "D": "Peça mais compacta: fileira da frente de 4 cubinhos, uma faixa de 2 cubinhos de profundidade à direita e 2 cubinhos pendurados abaixo, no canto direito.",
+    "E": "Fileira da frente com 4 cubinhos, faixa para trás mais longa e 2 cubinhos pendurados sob o terceiro e o quarto da frente."
+   }
+  },
+  "2018_AZUL_D2_Q160": {
+   "figura": "Gráfico de pictogramas das vendas da marca A por ano, com o número de carros no eixo horizontal; cada ícone é um carro elétrico, com uma tomada. Em 2014, 1 ícone; em 2015, 2 ícones; em 2016, 5 ícones."
+  },
+  "2018_AZUL_D2_Q168": {
+   "figura": "Gráfico de linhas da cobertura da campanha de vacinação antirrábica em cães em Belo Horizonte, com os anos 2013 a 2017 no eixo horizontal e três pontos conhecidos: 67% em 2013, 59% em 2015 e 61% em 2017. Linhas retas ligam 2013 a 2015 (descendo) e 2015 a 2017 (subindo)."
+  },
+  "2018_AZUL_D2_Q170": {
+   "figura": "Esboço da roda-gigante High Roller: uma circunferência com raios saindo do centro O, apoiada sobre uma haste vertical que chega ao solo em ângulo reto; o ponto A, uma cadeira, está na extremidade direita do raio horizontal OA; uma seta no alto indica o giro anti-horário. Gráfico de f (altura de A, em metros) em função de t (em radianos), até 4π: a curva parte de 88 m em t = 0, sobe até 168 m em t = π/2, desce até um mínimo logo acima de zero, volta a 88 m em t = 2π e repete o mesmo ciclo até 4π, onde volta a 88 m.",
+   "alternativas": {
+    "A": "f(t) = 80 sen(t) + 88",
+    "B": "f(t) = 80 cos(t) + 88",
+    "C": "f(t) = 88 cos(t) + 168",
+    "D": "f(t) = 168 sen(t) + 88 cos(t)",
+    "E": "f(t) = 88 sen(t) + 168 cos(t)"
+   }
+  },
+  "2018_AZUL_D2_Q171": {
+   "figura": "Rosa dos ventos de oito pontas, com N no alto, S embaixo, L à direita, O à esquerda e, entre eles, NE, SE, SO e NO; as quatro pontas principais (N, S, L e O) são mais longas e as quatro intermediárias, mais curtas, dentro de dois círculos tracejados."
+  },
+  "2018_AZUL_D2_Q172": {
+   "figura": "Primeira tabela, «Ranking» de I a IV por colocação: 1º, Ana, Dani, Bia, Edu; 2º, Bia, Caio, Ana, Ana; 3º, Caio, Edu, Caio, Dani; 4º, Dani, Ana, Edu, Bia; 5º, Edu, Bia, Dani, Caio. Segunda tabela, frequência de cada ranking: I, 4; II, 9; III, 7; IV, 5."
+  },
+  "2018_AZUL_D2_Q173": {
+   "figura": "Três esquemas de um guindaste (torre com braço horizontal e cabo de aço vertical) ao longo de três estágios. Estágio 1: a viga, com o ponto médio M, deitada no chão, e o ponto O sob o cabo, na extremidade direita da viga. Estágio 2: a viga inclinada, com uma ponta içada pelo cabo (seta para cima) e a outra deslizando em direção a O (seta para a direita). Estágio 3: a viga na vertical sob o cabo, com M no meio.",
+   "alternativas": {
+    "A": "Gráfico Distância × Tempo (de 0 a t_f): uma reta horizontal, distância constante.",
+    "B": "Reta crescente, de um valor positivo em t = 0 até um valor maior em t_f.",
+    "C": "Reta decrescente, de um valor positivo em t = 0 até um valor menor, ainda positivo, em t_f.",
+    "D": "Arco que sobe até um máximo e desce, com a distância em t_f igual à de t = 0.",
+    "E": "Arco que desce até um mínimo, positivo, e sobe, com a distância em t_f igual à de t = 0."
+   }
+  },
+  "2018_AZUL_D2_Q179": {
+   "figura": "Quadrado recoberto por triângulos retângulos isósceles em três tons (cinza-claro, cinza-escuro e preto): um grande triângulo cinza-claro no canto superior esquerdo e outro grande, cinza-escuro, no canto superior direito; um triângulo cinza-escuro grande na base; um triângulo cinza-claro médio no centro-direita; um triângulo cinza-escuro menor à direita; um triângulo cinza-claro pequeno e o menor de todos, preto, no canto inferior direito.",
+   "alternativas": {
+    "A": "14",
+    "B": "12",
+    "C": "7√2",
+    "D": "6 + 4√2",
+    "E": "6 + 2√2"
+   }
+  },
+  "2018_AZUL_D2_Q180": {
+   "figura": "Desenho de um cilindro circular reto e de uma faixa retangular, ao lado, com uma diagonal em negrito que forma 30° com a borda inferior; uma seta tracejada curva mostra a faixa sendo enrolada no cilindro. À direita, o cilindro já enrolado, com a diagonal formando uma linha em hélice.",
+   "alternativas": {
+    "A": "36√3",
+    "B": "24√3",
+    "C": "4√3",
+    "D": "36",
+    "E": "72"
+   }
+  },
+  "2018_AZUL_D2_Q91": {
+   "figura": "Esquema de uma lâmina delgada de silício, presa a um suporte em forma de L, ligada a um polímero de azobenzeno. À esquerda, a lâmina está reta e o polímero, esticado; uma seta rotulada «365 nm» leva ao estado da direita, em que a lâmina está curvada (seta curva no alto) e o polímero, dobrado; uma seta rotulada «420 nm» volta ao estado inicial. Em cada estado há um detalhe ampliado da molécula de azobenzeno (dois anéis ligados por uma ligação N=N): alongada à esquerda e dobrada à direita. Legenda dos átomos: hidrogênio (esfera pequena clara), carbono (esfera cinza média) e nitrogênio (esfera escura)."
+  },
+  "2018_AZUL_D2_Q92": {
+   "figura": "Tabela com Combustível, Densidade (g mL⁻¹) e Calor de combustão (kcal g⁻¹): etanol, 0,8 e −6; gasolina, 0,7 e −10."
+  },
+  "2018_AZUL_D2_Q93": {
+   "figura": "Desenho em corte de um vaso de barro em forma de ovo, com legendas: dentro dele, um tubo de cobre cilíndrico e, no centro do tubo, uma barra de ferro que sai pela abertura; no alto, uma tampa de betume prende as peças; ao redor do tubo, o «vestígio de ácido» ocupa o interior do vaso."
+  },
+  "2018_AZUL_D2_Q95": {
+   "figura": "Figura de um recipiente com água pura e de um densímetro (bulbo embaixo e haste fina com faixas cinza e brancas alternadas) flutuando, com a linha da água cortando a haste; legendas «densímetro» e «água». Cada alternativa mostra dois recipientes, A e B, com o densímetro flutuando, e muda quanto da haste fica acima do nível do líquido em cada um.",
+   "alternativas": {
+    "A": "A haste fica na mesma posição em A e em B (mesmo trecho fora do líquido).",
+    "B": "Fica menos haste fora do líquido em B do que em A.",
+    "C": "Fica menos haste fora do líquido em B do que em A, com diferença menor que a da alternativa B.",
+    "D": "Fica mais haste fora do líquido em B do que em A.",
+    "E": "Fica mais haste fora do líquido em B do que em A, com diferença menor que a da alternativa D."
+   }
+  },
+  "2018_AZUL_D2_Q99": {
+   "figura": "Sinalização de um caminhão: à esquerda, um painel de segurança retangular cinza (laranja no original), com o número de risco «268» em cima e o número ONU «1005» embaixo; à direita, o rótulo de risco em forma de losango, com uma caveira sobre dois ossos cruzados, o texto «GÁS TÓXICO» e o número 2 embaixo.",
+   "alternativas": {
+    "A": "eteno (C₂H₄).",
+    "B": "nitrogênio (N₂).",
+    "C": "amônia (NH₃).",
+    "D": "propano (C₃H₈).",
+    "E": "dióxido de carbono (CO₂)."
+   }
+  },
+  "2019_AZUL_D1_Q06": {
+   "figura": "Anúncio de texto sobre fundo cinza, com o título em letras grandes: «PALAVRAS TÊM PODER». Texto: «Palavras informam, libertam, destroem preconceitos. Palavras desinformam, aprisionam e criam preconceitos. Liberdade de expressão. A escolha é sua. A responsabilidade, também. A liberdade de expressão é uma conquista inquestionável. O que todos precisam saber é que liberdade traz responsabilidades. Publicar informações e mensagens sensacionalistas, explorar imagens mórbidas, desrespeitar os Direitos Humanos e estimular o preconceito e a violência são atos de desrespeito à lei. Para promover a liberdade de expressão com responsabilidade, o Ministério Público de Pernambuco se une a vários parceiros nesta ação educativa. Colabore. Caso veja alguma mensagem que desrespeite os seus direitos, denuncie. 0800 281 9455 - Ministério Público de Pernambuco.»"
+  },
+  "2019_AZUL_D1_Q10": {
+   "figura": "Cartaz em preto e branco: faixa cinza no alto com o texto «Faz com que o BULLYING passe à história!». À esquerda, sobre fundo escuro, uma mão aberta branca com a palavra «STOP» acima e «Bullying» abaixo. À direita, três blocos de recomendações: «És vítima:» (fica calmo(a), os bullies adoram reações nervosas, finge que não é contigo; não dês troco, o agressor é ele, não és tu; evita ficar sozinho(a) com o bullie, junta-te com os teus amigos; mostra-te confiante, não demonstres medo e acredita em ti; conta a uma pessoa de confiança o que está a acontecer contigo); «Conheces alguma vítima:» (nunca deixes o teu amigo(a) sozinho(a), assim farás com que ele(a) se sinta seguro(a); ajuda-o(a) a contar a alguém de confiança o que se passa); e «Conheces o(a) agressor(a):» (tenta convencê-lo(a) a mudar o seu comportamento; caso não tenhas sucesso, denuncia o caso às autoridades)."
+  },
+  "2019_AZUL_D1_Q12": {
+   "figura": "Texto I: quadrinhos sem palavras, «A promessa da felicidade», de Ju Loyola, em cinco quadros em preto e branco. No quadro superior, uma pessoa de chapéu de palha, vista de perto, em meio a plantas. Abaixo, à esquerda, a silhueta escura de uma pessoa diante do sol; à direita, o olho da pessoa de chapéu em close. No centro, uma mão estende um ramo de flores, com traços de brilho em volta. Na fileira inferior, à esquerda, a pessoa de chapéu, de olhos baixos, junta as mãos diante do peito, com uma planta e um símbolo ao lado; à direita, um rapaz de cabelo escuro, rindo, coça a cabeça, com o ramo de flores na outra mão."
+  },
+  "2019_AZUL_D1_Q17": {
+   "figura": "Infográfico «Os tipos cheios de si», com o subtítulo «O difícil é encontrar quem nunca cruzou com (ou se passou por) um desses on-line». Oito tipos, cada um com um desenho e uma legenda: «O turista em tempo integral» (posta o ano inteiro fotos das férias); «A única bem-amada» (só ela tem o parceiro mais especial); «O baladeiro vida louca» (quase dá para escutar o «Uhuuu!!!» das fotos de bebidas e pistas de dança); «O exibido humilde» (disfarça ao dar dicas do próprio sucesso); «O bem relacionado de ocasião» (descobriu quem é o «famoso» que aparece na foto naquela hora); «O gourmet de aparências» (por que ir a um restaurante se ninguém souber? É clique no prato); «A mãe orgulhosa demais» (faz questão de contar todas as gracinhas); «O(A) lindo(a) demais para não mostrar» (acha que o dia de cabelo bom desculpa um autorretrato, uma selfie)."
+  },
+  "2019_AZUL_D1_Q23": {
+   "figura": "Cartaz com fotografia, vista de cima, de um par de tênis brancos, gastos e sujos, com os cadarços soltos, sobre chão escuro e molhado. À direita, o texto «VAMOS CALÇAR OS SAPATOS DOS REFUGIADOS E DAR O PRIMEIRO PASSO PARA ENTENDER SUA SITUAÇÃO» e o endereço «www.ensuszpatos.org»; embaixo, os logotipos do Acnur (Agência da ONU para Refugiados), da Prefeitura de São Paulo, do Metrô e de outros apoiadores."
+  },
+  "2019_AZUL_D1_Q26": {
+   "figura": "Texto II: infográfico «Direito dos idosos», em fundo cinza-escuro, com um desenho de uma idosa de óculos sentada numa poltrona, com um notebook no colo. À esquerda, «Estatuto do Idoso e a Constituição Federal asseguram:» atendimento preferencial no SUS; prioridade na tramitação de processos judiciais; vagas preferenciais em estacionamentos; meia-entrada em eventos culturais, esportivos e de lazer. À direita, «Aos idosos de baixa renda também estão garantidos:» viagem gratuita em ônibus interestadual; assistência de um salário mínimo; acesso a mais de 20 programas sociais."
+  },
+  "2019_AZUL_D1_Q31": {
+   "figura": "Fotografia em preto e branco da escultura «Cabeça de touro», de Picasso (bronze, 1945): um selim de bicicleta, que faz a cabeça do animal, com um guidão curvo preso sobre ele, que faz os chifres; a escultura projeta uma sombra na parede."
+  },
+  "2019_AZUL_D1_Q36": {
+   "figura": "Texto I: fotografia em preto e branco de Jackson Pollock pintando em seu ateliê (Hans Namuth, 1951): o pintor, inclinado, de pé sobre uma grande tela estendida no chão, despeja tinta de uma lata, que deixa respingos e fios escuros na tela; latas de tinta no chão, à esquerda. Texto II: obra «Action Photo», de Vick Muniz, em alto contraste preto e branco, que reproduz a mesma cena, feita com chocolate derretido: a figura do pintor inclinado, com a lata na mão, em meio a manchas e respingos."
+  },
+  "2019_AZUL_D1_Q43": {
+   "figura": "Cartão no formato de carta de jogo, número «02»: fotografia do físico Marcelo Gleiser, sorrindo, diante de uma lousa com equações. Abaixo, o nome «Marcelo Gleiser» e quatro campos: «Área de atuação: Física e astronomia»; «Contribuição mais famosa: Seus livros A dança do universo e O fim da Terra e do céu»; «Nascimento: 19 de março de 1959»; «Alma Mater: PUC-Rio, UFRJ e King's College de Londres». Rodapé: «Super Trunfo Tecmundo»."
+  },
+  "2019_AZUL_D1_Q47": {
+   "figura": "Esquema da geração de imagens por sensoriamento remoto: o Sol, no alto à direita, envia setas escuras de «energia solar incidente» à superfície, onde estão (da esquerda para a direita) uma floresta, um rio, pastagens, uma rodovia e uma área urbana com casas e prédios; de cada uma dessas superfícies saem setas claras de «energia solar refletida» em direção a um satélite, acima, que ocupa a «atmosfera» e capta a energia refletida."
+  },
+  "2019_AZUL_D1_Q57": {
+   "figura": "Mapa-múndi «Regiões áridas e semiáridas do mundo», com linhas horizontais de 30° N, Trópico de Câncer, Equador, Trópico de Capricórnio e 30° S; legenda: pontilhado, semiárida; preto, árida (deserto). As áreas áridas aparecem no norte da África e na Península Arábica (Saara e Arábia), no sudoeste dos Estados Unidos e no norte do México, na Ásia central, no sudoeste da África, na Austrália e, na América do Sul, em faixas estreitas no oeste, na costa do Pacífico (Peru e Chile) e na Argentina, mas não no Brasil."
+  },
+  "2019_AZUL_D1_Q59": {
+   "figura": "Mapa em preto e branco, dentro de um círculo cinza, com os continentes unidos numa única massa de terra (como no supercontinente Pangeia), com as fronteiras políticas atuais dos países desenhadas sobre ela."
+  },
+  "2019_AZUL_D1_Q77": {
+   "figura": "Fotografia de uma rua de paralelepípedos, com uma jardineira baixa e branca com a palavra «veracidade» escrita na lateral (letras manuscritas) e, ao fundo, um muro com um grande grafite colorido de figuras estilizadas: um rosto de perfil com a boca aberta e uma figura deitada."
+  },
+  "2019_AZUL_D1_Q85": {
+   "figura": "Fotografia de um mural numa parede branca, com a frase em espanhol «NUESTRA CULTURA NO CABE EN SUS MUSEOS» («Nossa cultura não cabe nos seus museus»). À esquerda, a fotografia de uma pessoa de chapéu e poncho, em moldura ornamentada; à direita, em outra moldura, a de um grupo de pessoas indígenas; entre as molduras, um pequeno desenho de uma mulher de cabelo preso."
+  },
+  "2019_AZUL_D2_Q103": {
+   "figura": "Esquema do biochip, em dois painéis. (i) «Biochip antes da adição de soro»: um canal horizontal com três câmaras circulares (esquerda, centro e direita); sobre a câmara central, a seta «Enzimas»; sobre a da direita, «KI». (ii) «Biochip após a adição de soro»: o mesmo canal; sobre a câmara da esquerda, «Soro»; uma seta de «Fluxo» da esquerda para a direita embaixo; a câmara da direita aparece preenchida em cinza, com a legenda «Cor». Em seguida, duas equações: Equação 1, C₆H₁₂O₆ (aq) + O₂ (g) + H₂O (l) → C₆H₁₂O₇ (aq) + H₂O₂ (aq), com «Enzimas» sobre a seta; Equação 2, 2 H₂O₂ (aq) + 3 I⁻ (aq) → I₃⁻ (aq) + 2 H₂O (l) + O₂ (g)."
+  },
+  "2019_AZUL_D2_Q106": {
+   "figura": "Desenho de duas árvores, uma de cada lado, com uma fita esticada entre os troncos a poucos centímetros do chão; uma atleta equilibra-se de pé no meio da fita, com os braços abertos, e a fita forma um «V» muito aberto sob o peso dela (linha tracejada horizontal mostra a posição original da fita).",
+   "alternativas": {
+    "A": "4,0 × 10² N",
+    "B": "4,1 × 10² N",
+    "C": "8,0 × 10² N",
+    "D": "2,4 × 10³ N",
+    "E": "4,7 × 10³ N"
+   }
+  },
+  "2019_AZUL_D2_Q109": {
+   "figura": "Desenho do globo terrestre visto do lado do Atlântico, com o eixo de rotação vertical no alto e uma seta curva indicando o «sentido de rotação da Terra» (anti-horário, visto de cima do polo norte). Aparecem a linha do «Equador», a América do Sul e parte da América do Norte e da África, o «Oceano Atlântico» e o ponto «Rio de Janeiro», na costa sudeste do Brasil."
+  },
+  "2019_AZUL_D2_Q113": {
+   "figura": "Esquema em perspectiva, com os eixos x (horizontal, para a direita), y (vertical) e z (para a esquerda, em profundidade). Linhas retas paralelas ao eixo x, com setas à direita, indicam o campo magnético constante B⃗. Uma partícula de carga +q descreve uma trajetória helicoidal («trajetória helicoidal»), formada por voltas de um movimento circular no plano yz que avançam ao longo do eixo x.",
+   "alternativas": {
+    "A": "qBt / (2πN)",
+    "B": "qBt / (πN)",
+    "C": "2qBt / (πN)",
+    "D": "qBt / N",
+    "E": "2qBt / N"
+   }
+  },
+  "2019_AZUL_D2_Q116": {
+   "figura": "Representação simplificada de um fosfolipídio: uma cabeça polar (círculo preto) e duas caudas hidrocarbônicas retas e paralelas, uma delas com uma dobra no final (insaturação). Abaixo, cinco bicamadas lipídicas, de I a V, cada uma com duas fileiras de fosfolipídios com as cabeças para fora. I: todas as caudas retas e unidas, sem dobras, curtas. II: caudas com dobras, curtas. III: caudas com dobras em parte delas, curtas. IV: caudas retas, sem dobras, mais longas. V: caudas longas, com várias dobras."
+  },
+  "2019_AZUL_D2_Q117": {
+   "figura": "Tabela nutricional «Quantidade por porção de 10 g (2 castanhas)»: valor energético, 70 kcal; carboidratos, 0,8 g; proteínas, 3,5 g; gorduras totais, 3,5 g."
+  },
+  "2019_AZUL_D2_Q118": {
+   "figura": "Esquema da bateria zinco-ar, com uma lâmpada acesa ligada por fios aos dois eletrodos. À esquerda, o «eletrodo poroso», que recebe O₂ do ar (moléculas de O₂ chegam por uma seta da esquerda); dele sai uma seta rotulada OH⁻, que atravessa a «membrana separadora», no centro, em direção ao «eletrodo de zinco», à direita. Do eletrodo de zinco sai uma seta curva rotulada Zn(OH)₄²⁻.",
+   "alternativas": {
+    "A": "H₂ (g).",
+    "B": "O₂ (g).",
+    "C": "H₂O (l).",
+    "D": "OH⁻ (aq).",
+    "E": "Zn(OH)₄²⁻ (aq)."
+   }
+  },
+  "2019_AZUL_D2_Q121": {
+   "figura": "Desenho do disco de Maxwell (ioiô): uma estrutura com base de metal inclinada, duas hastes verticais e uma barra superior; do alto pendem dois fios que sustentam um eixo horizontal com um disco no centro, na posição mais baixa. Cotas: h, a altura da haste, à direita; 2h/3, à esquerda, a distância entre a barra superior e o disco. Abaixo, uma caixa de texto: «Conteúdo: base de metal, hastes metálicas, barra superior, disco de metal. Tamanho (C × L × A): 300 mm × 100 mm × 410 mm. Massa do disco de metal: 30 g».",
+   "alternativas": {
+    "A": "4,10 × 10⁻² J",
+    "B": "8,20 × 10⁻² J",
+    "C": "1,23 × 10⁻¹ J",
+    "D": "8,20 × 10⁴ J",
+    "E": "1,23 × 10⁵ J"
+   }
+  },
+  "2019_AZUL_D2_Q122": {
+   "figura": "Estrutura I (alicina): fórmula em traços com uma cadeia de três carbonos com ligação dupla terminal (alil), ligada a um átomo de enxofre S, que se liga a outro enxofre com carga positiva (S⁺) que tem um oxigênio com carga negativa (O⁻) ligado acima e outro grupo alil do outro lado. Estrutura II: CH₂=CH–CH₂–S–S–CH₂–CH=CH₂ (dois grupos alil ligados por uma ponte de dois enxofres)."
+  },
+  "2019_AZUL_D2_Q125": {
+   "figura": "Árvore evolutiva das plantas (eixo horizontal em milhões de anos, de 500 até 0), da alga verde ancestral até os grupos atuais, na ordem de cima para baixo: hepáticas, antóceros, musgos, licófitas (licopódios, Isoetes, Selaginella), pteridófitas (samambaias, cavalinhas, Psilotum), gimnospermas e angiospermas, cada um com um desenho. Cinco características marcadas por números nos ramos: 1, na base de todas as plantas, perto de 480 milhões de anos; 2, no ramo que leva às licófitas, às pteridófitas e às plantas com sementes, por volta de 430 milhões de anos; 3, no ramo de gimnospermas e angiospermas, por volta de 300 milhões de anos; 4, no ramo das gimnospermas; 5, no ramo das angiospermas. Legenda: 1, embriões protegidos no gametófito; 2, tecidos condutores verdadeiros; 3, formação de tubo polínico; 4, polinização pelo vento; 5, produção de frutos."
+  },
+  "2019_AZUL_D2_Q126": {
+   "figura": "Esquema do circuito elétrico: uma fonte de 120 V à esquerda, ligada a um resistor em série de 10 Ω (o cabo) no fio superior. Em paralelo, cinco ramos, cada um com uma chave e um resistor de 200 Ω (as lâmpadas), e mais um ramo, sem chave, com um resistor de 50 Ω (a televisão), à direita."
+  },
+  "2019_AZUL_D2_Q129": {
+   "figura": "Tabela «Polpa de fruta» e «Valor mínimo da acidez total expressa em ácido cítrico (g/100 g)»: acerola, 0,8; caju, 0,3; cupuaçu, 1,5; graviola, 0,6; maracujá, 2,5."
+  },
+  "2019_AZUL_D2_Q131": {
+   "figura": "Esquema «Vant com câmera fotográfica», em corte: três aviões pequenos (1, 2 e 3), na mesma altura H acima do solo, em linha. De cada um parte um cone tracejado de abertura de 90° até o solo, com ângulos de 45° nas bordas. Os cones de aviões vizinhos se sobrepõem no solo numa faixa de largura ΔS, marcada como «20% de sobreposição frontal». Embaixo, as «imagens coletadas 1, 2 e 3», três retângulos lado a lado, com as faixas de sobreposição entre eles em cinza."
+  },
+  "2019_AZUL_D2_Q134": {
+   "figura": "Desenho de um copo de vidro cilíndrico com um pouco de etanol no fundo e uma tira de «papel de filtro» em pé dentro dele; o etanol (em cinza) sobe pelo papel acima do nível do líquido no copo."
+  },
+  "2019_AZUL_D2_Q136": {
+   "figura": "Duas figuras de apoio no texto: a palavra «PINE» em letras grossas, e a mesma palavra como escultura em 3D, suspensa acima de um plano cinza (o solo), com as letras P, I, N e E em pé, lado a lado.",
+   "alternativas": {
+    "A": "Plano cinza com uma única faixa preta longa e contínua, sem separações.",
+    "B": "Plano cinza com quatro faixas pretas separadas por pequenos vãos, todas ligadas por um traço fino, com as faixas dos meios mais curtas.",
+    "C": "Plano cinza com uma faixa preta curta e isolada à esquerda e, depois de um vão grande, três faixas ligadas, as do meio mais largas.",
+    "D": "Plano cinza com uma faixa preta curta e isolada à esquerda e, depois de um vão grande, três faixas separadas por pequenos vãos.",
+    "E": "Plano cinza com quatro faixas pretas encostadas, formando uma linha quase contínua, com divisões entre elas."
+   }
+  },
+  "2019_AZUL_D2_Q139": {
+   "figura": null,
+   "alternativas": {
+    "A": "Gráfico do valor P (R$) em função do volume V (m³), de 0 a 15: reta horizontal até 6 m³, uma reta crescente até 10 m³ e, depois, outra reta crescente mais inclinada até 15 m³.",
+    "B": "Reta horizontal até 6 m³, reta crescente até 10 m³ e, depois, reta crescente menos inclinada até 15 m³.",
+    "C": "Reta horizontal até 6 m³, reta crescente até 10 m³ e, depois, de novo reta horizontal até 15 m³.",
+    "D": "Reta horizontal até 6 m³ e, depois, uma única reta crescente até 15 m³ (sem mudança de inclinação).",
+    "E": "Reta crescente pouco inclinada desde 0 até 6 m³, reta crescente até 10 m³ e reta mais inclinada até 15 m³ (sem trecho horizontal)."
+   }
+  },
+  "2019_AZUL_D2_Q144": {
+   "figura": "Matriz 5 × 5 (linhas: Ana, Bruno, Carlos, Denis e Érica; colunas: segunda a sexta-feira): linha 1: 3, 2, 0, 1, 2; linha 2: 3, 2, 4, 1, 2; linha 3: 2, 2, 2, 3, 2; linha 4: 3, 2, 4, 1, 0; linha 5: 0, 2, 0, 4, 4."
+  },
+  "2019_AZUL_D2_Q145": {
+   "figura": "Desenho de um disco dentado (catraca): um círculo cinza com pequenos dentes triangulares ao longo da borda; uma seta vertical à direita, entre duas linhas pontilhadas horizontais, marca o «diâmetro do disco dentado» (da ponta de um dente até a do dente oposto)."
+  },
+  "2019_AZUL_D2_Q146": {
+   "figura": "Gráfico de 15 dias, com a temperatura (°C, linha contínua, eixo esquerdo de 0 a 60) e a umidade relativa do ar (%, linha pontilhada, eixo direito de 0 a 60) em função do dia (de 0 a 16). Temperatura: começa em cerca de 6 °C no dia 1, sobe de forma quase contínua até cerca de 32 °C no dia 11, 40 °C no dia 12, 42 °C no dia 13 e cai para 30 °C e 28 °C nos dias 14 e 15. Umidade: 35% no dia 1, cai a 14% no dia 2, sobe devagar até 47% no dia 11, cai a 20% no dia 12, volta a 40% no dia 13, cai a 33% no dia 14 e sobe a 40% no dia 15."
+  },
+  "2019_AZUL_D2_Q149": {
+   "figura": "Tabela do número total de acidentes por ano: 2013, 1 050; 2014, 900; 2015, 850."
+  },
+  "2019_AZUL_D2_Q154": {
+   "figura": "Tabela da escala de magnitude local (Ms, em µm·Hz): pequeno, 0 ≤ Ms ≤ 3,9; ligeiro, 4,0 ≤ Ms ≤ 4,9; moderado, 5,0 ≤ Ms ≤ 5,9; grande, 6,0 ≤ Ms ≤ 9,9; extremo, Ms ≥ 10,0. No texto, a fórmula Ms = 3,30 + log (A · f)."
+  },
+  "2019_AZUL_D2_Q157": {
+   "figura": "Desenho de um tetraedro regular de aresta a, apoiado numa face triangular, cortado perto do vértice de cima por um plano paralelo à base; o pedaço cortado tem aresta a/3 (marcada por uma seta). Uma seta leva à figura seguinte, o sólido resultante: o tetraedro com o vértice superior cortado, que forma uma pequena face triangular no topo."
+  },
+  "2019_AZUL_D2_Q161": {
+   "figura": "Tabela «Quantidade de garrafas fora das especificações por dia» e «Quantidade de dias»: 0 garrafas, 52 dias; 1 garrafa, 5 dias; 2 garrafas, 2 dias; 3 garrafas, 1 dia."
+  },
+  "2019_AZUL_D2_Q162": {
+   "figura": "Tabela «Unidade» e «Equivalência»: polegada, 2,54 centímetros; jarda, 3 pés; jarda, 0,9144 metro."
+  },
+  "2019_AZUL_D2_Q163": {
+   "figura": "No texto, os índices dos cinco países são escritos como X, √X (raiz quadrada de X), X elevado a 1/3 (a fração 1 sobre 3 no expoente), X² e X³."
+  },
+  "2019_AZUL_D2_Q165": {
+   "figura": null,
+   "alternativas": {
+    "A": "q / (0,8 m) > 0,4",
+    "B": "0,4 m / q > 0,8",
+    "C": "q / (0,4 m) > 0,8",
+    "D": "0,08 m / q > 0,4",
+    "E": "q / (0,08 m) > 0,4"
+   }
+  },
+  "2019_AZUL_D2_Q167": {
+   "figura": "Tabela com Média, Mediana e Moda das alturas da turma: média, 1,65; mediana, 1,67; moda, 1,70."
+  },
+  "2019_AZUL_D2_Q169": {
+   "figura": "Plano cartesiano com x e y em km (x de 0 a 7, y de 0 a 8), com grade tracejada. Pontos de usuários, cada um com um círculo concêntrico tracejado que indica o raio de abrangência: P na origem (0, 0); Q em (3, 7); R em (6, 7); S em (5, 3). Os bares são marcados por losangos: I em (5, 6); II em (4, 5); III em (5, 5); IV em (4, 6); V em (3, 4)."
+  },
+  "2019_AZUL_D2_Q171": {
+   "figura": "Desenho de um trem de brinquedo: uma locomotiva preta, com chaminé e fumaça, seguida de 12 vagões numerados de 1 a 12, em fila, ordenados da esquerda para a direita.",
+   "alternativas": {
+    "A": "C(12,4) × C(12,3) × C(12,3) × C(12,2)",
+    "B": "C(12,4) + C(8,3) + C(5,3) + C(2,2)",
+    "C": "C(12,4) × 2 × C(8,3) × C(5,2)",
+    "D": "C(12,4) + 2 × C(12,3) + C(12,2)",
+    "E": "C(12,4) × C(8,3) × C(5,3) × C(2,2)"
+   }
+  },
+  "2019_AZUL_D2_Q172": {
+   "figura": "Gráfico de linha das unidades vendidas por mês, de julho a novembro de 2011: julho, 700; agosto, 2 500; setembro, 2 500; outubro, 2 800; novembro, 2 700."
+  },
+  "2019_AZUL_D2_Q175": {
+   "figura": "Desenho de cinco reservatórios cilíndricos: o reservatório central R_c, grande, no meio; e quatro reservatórios auxiliares menores, R₁ (esquerda), R₂ (acima, à direita), R₃ (direita) e R₄ (abaixo, à esquerda), cada um ligado ao central por um cano perto da base."
+  },
+  "2019_AZUL_D2_Q177": {
+   "figura": "Dois esquemas em corte do pistão dentro da «câmara de combustão», cada um com uma biela ligada a um disco cinza embaixo. «Instante t = 0»: o pistão na posição mais baixa, com h(0) = 0, e a biela na vertical. «Instante t ≠ 0»: o pistão mais alto, com uma seta para cima e a altura h(t) marcada, e a biela inclinada; uma seta curva indica o sentido de rotação do disco. No texto, a função h(t) = 4 + 4 sen(βt/2 − π/2), com a fração na vertical."
+  },
+  "2019_AZUL_D2_Q178": {
+   "figura": "Gráfico de radar «Vendas na última semana», com sete eixos (domingo no alto e, no sentido horário, segunda, terça, quarta, quinta, sexta e sábado), escala de 0 a 10. Três séries: caldo de cana (tracejada), refrigerante (cinza) e pastel (preta). Valores aproximados — pastel: domingo 10, segunda 2, terça 3, quarta 4, quinta 6, sexta 7, sábado 9; refrigerante: domingo 7, segunda 4, terça 3, quarta 5, quinta 7, sexta 7, sábado 8; caldo de cana: domingo 4, segunda 1, terça 0,5, quarta 3, quinta 3, sexta 6, sábado 6."
+  },
+  "2019_AZUL_D2_Q179": {
+   "figura": "Dois elementos: à esquerda, um gráfico do consumo acumulado de energia (W·min) em função do tempo (min), uma linha quebrada que passa pelos pontos (0; 0), (1; 20), (2; 35), (3; 40), (4; 55), (5; 75), (6; 85), (7; 105) e (8; 120). À direita, a planta baixa da casa, com a entrada embaixo e seis cômodos numerados: 1, sala (20 W); 2, quarto (13 W); 3, banho (2 W); 4, suíte (15 W); 5, banho (5 W); 6, cozinha (10 W).",
+   "alternativas": {
+    "A": "1 → 4 → 5 → 4 → 1 → 6 → 1 → 4",
+    "B": "1 → 2 → 3 → 1 → 4 → 1 → 4 → 4",
+    "C": "1 → 4 → 5 → 4 → 1 → 6 → 1 → 2 → 3",
+    "D": "1 → 2 → 3 → 5 → 4 → 1 → 6 → 1 → 4",
+    "E": "1 → 4 → 2 → 3 → 5 → 1 → 6 → 1 → 4"
+   }
+  },
+  "2019_AZUL_D2_Q180": {
+   "figura": "Tabela de países, moedas, taxas de câmbio e gastos diários: França, euro (€), R$ 3,14, 315,00 €; EUA, dólar (US$), R$ 2,78, US$ 390,00; Austrália, dólar australiano (A$), R$ 2,14, A$ 400,00; Canadá, dólar canadense (C$), R$ 2,10, C$ 410,00; Reino Unido, libra esterlina (£), R$ 4,24, £ 290,00."
+  },
+  "2019_AZUL_D2_Q91": {
+   "figura": "Quadro dos potenciais padrão de redução (E°, em V), com a semirreação e o valor: 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻, −0,83; Co(OH)₂ + 2 e⁻ → Co + 2 OH⁻, −0,73; Cu(OH)₂ + 2 e⁻ → Cu + 2 OH⁻, −0,22; PbO + H₂O + 2 e⁻ → Pb + 2 OH⁻, −0,58; Al(OH)₄⁻ + 3 e⁻ → Al + 4 OH⁻, −2,33; Fe(OH)₂ + 2 e⁻ → Fe + 2 OH⁻, −0,88."
+  },
+  "2019_AZUL_D2_Q96": {
+   "figura": "Quadro de duas estratégias de sobrevivência. Estratégia 1: habitat mais instável e imprevisível; potencial biótico muito elevado; duração da vida curta e com reprodução precoce; muitos descendentes, de tamanho corporal pequeno; tamanho populacional variável. Estratégia 2: habitat mais estável e previsível; potencial biótico baixo; duração da vida longa e com reprodução tardia; poucos descendentes, de tamanho corporal maior; tamanho populacional constante."
+  },
+  "2019_AZUL_D2_Q98": {
+   "figura": "Diagrama de três círculos que se sobrepõem, como um diagrama de Venn de cores: vermelho (em cima, à esquerda), verde (em cima, à direita) e azul (embaixo). Interseções: vermelho e verde, amarelo; vermelho e azul, magenta; verde e azul, ciano; as três, branco, no centro."
+  },
+  "2020_AZUL_D1_Q07": {
+   "figura": "Cartaz do filme «Que horas ela volta?», em preto e branco: uma mulher de óculos, de blusa listrada, sorri e afaga a cabeça de um jovem que está deitado, de olhos fechados, em primeiro plano. Texto: «REGINA CASÉ em QUE HORAS ELA VOLTA? um filme de ANNA MUYLAERT» e os nomes Camila Márdila, Karine Teles, Lourenço Mutarelli, Michel Joelsas e Helena Albergaria."
+  },
+  "2020_AZUL_D1_Q14": {
+   "figura": "Texto I: fotografia de «Mother and Child», de Damien Hirst (1993, detalhe): um bezerro dividido ao meio no sentido do comprimento, com as duas metades expostas separadas, em vitrine de vidro e solução de formaldeído; vê-se a pelagem preta e branca do lado de fora e, do outro lado, a parte interna da cabeça."
+  },
+  "2020_AZUL_D1_Q15": {
+   "figura": "Infográfico «Quanto vale o gol?» sobre uma foto em preto e branco de Marta (à esquerda) e Neymar (à direita) de uniforme da seleção. Marta: US$ 400 mil de salário anual; 103 gols pela seleção; US$ 3,9 mil por gol. Neymar: US$ 14,5 milhões de salário anual; 50 gols pela seleção; US$ 290 mil por gol. Cada um tem uma fileira de bolinhas, com poucas preenchidas para Marta."
+  },
+  "2020_AZUL_D1_Q22": {
+   "figura": "Cartaz com fotografia de torcedoras sorrindo e o texto «Respeita as torcedoras!», com quatro perguntas e uma marca de visto ou de recusa em cada: «Conversar?», com visto; «Torcer juntos?», com visto; «Tocar sem permissão?», com X; «Empurrar?», com X. Depois: «Se sentiu desrespeitada? Denuncie: disque 180», com as hashtags «#respeitaasminas» e «#geralnapaz»."
+  },
+  "2020_AZUL_D1_Q25": {
+   "figura": "Fotografia da obra «One and Three Chairs», de Joseph Kosuth (1965): numa parede branca, à esquerda, a fotografia de uma cadeira dobrável de madeira; no centro, uma cadeira dobrável de madeira de verdade, encostada na parede; à direita, um quadro com o verbete «Cadeira – s.f. 1 assento com encosto e pernas, ger. para uma pessoa; 2 fig. lugar de honra ocupado por político, cientista, literato etc.; 3 fig. disciplina; cátedra»."
+  },
+  "2020_AZUL_D1_Q26": {
+   "figura": "Fotografia em preto e branco de uma mulher de pescoço alto e olhar para cima, com uma nuvem de pequenas imagens e telas flutuando em órbita em volta da cabeça dela, sobre um céu nublado."
+  },
+  "2020_AZUL_D1_Q30": {
+   "figura": "Cartaz com o texto manuscrito «para nós, a rua é UM CAMPO DE BATALHA». Abaixo, uma ilustração em tinta de uma mulher de cabelo cacheado preso por uma faixa, com um lenço cobrindo o nariz e a boca, e uma moldura ornamentada ao redor; respingos escuros e uma parte inferior em cinza. No canto, o selo «chega de fiu fiu!»."
+  },
+  "2020_AZUL_D1_Q33": {
+   "figura": "Texto II: fotografia de um cartaz de papel branco colado num poste de madeira, com o poema em letras pretas grossas: «ONTEM, FUI DORMIR COM SAUDADES DE MIM E HOJE, SUBITAMENTE, VOLTEI.»"
+  },
+  "2020_AZUL_D1_Q44": {
+   "figura": "Peça de campanha «Adoção – lição de amor»: fotografia em preto e branco de uma família sorrindo (um homem ao centro, uma mulher e quatro jovens, dois de cada lado), com os nomes e as idades da adoção escritos junto a cada filho: André, adotado aos 15 anos; Rodrigo, adotado aos 13 anos; Sinomar, adotou aos 29 anos; Bruno, ganhou novos irmãos a partir dos 3 anos; Débora, adotou aos 27 anos; Francisco, adotado aos 8 anos. Na base, o texto manuscrito «Adoção. Pra encontrar a sua verdadeira família, não existe idade.»"
+  },
+  "2020_AZUL_D1_Q51": {
+   "figura": "Diagrama circular «Zona de pastoreio e cultura do algodão e cereais do agreste (1963)»: um calendário em anéis concêntricos com os meses (de janeiro, no alto, a dezembro) em volta, e em cada anel ícones de atividades ao longo do ano: pastoreio, plantio e limpa, crescimento e colheita de feijão, milho verde, milho seco e algodão, cada um na época do ano em que ocorre. Anéis, de fora para dentro: feijão, milho e algodão, mais um anel de pastoreio contínuo. Legenda «convenções» com os ícones de pastoreio, plantio e limpa, crescimento, colheita de feijão, de milho verde, de milho seco e de algodão."
+  },
+  "2020_AZUL_D1_Q65": {
+   "figura": "Mapa do Brasil, com a rosa dos ventos no canto superior direito e escala de 0 a 2 310 km. A região Centro-Oeste está em cinza. Legenda: linha preta contínua, rodovias longitudinais (BR-163, BR-158, BR-153, BR-165, entre outras, na direção norte-sul); linha cinza contínua, rodovia diagonal (BR-364, do oeste da Amazônia até o Sudeste, atravessando o Centro-Oeste); linha preta tracejada, rodovia radial (BR-070, no sentido leste-oeste, no Centro-Oeste)."
+  },
+  "2020_AZUL_D1_Q67": {
+   "figura": "Mapa do leste da África e da Península Arábica, com a legenda: linha tracejada, «Vale da Grande Fenda», e triângulo, «Vulcões». As linhas tracejadas do vale correm de norte a sul pelo leste africano, em dois ramos paralelos que se dividem ao sul de um grande lago; os triângulos dos vulcões se concentram ao longo do vale e no sul da Península Arábica. Rótulos: África, Ásia e oceano Índico."
+  },
+  "2020_AZUL_D1_Q88": {
+   "figura": "Texto I: fotografia aérea em preto e branco do rio Tietê, em São Paulo: um canal largo e reto, de margens de concreto, com avenidas marginais movimentadas e pontes dos dois lados, cercado por prédios e galpões da cidade."
+  },
+  "2020_AZUL_D2_Q150": {
+   "figura": "No texto, a fórmula Q(t) = Q₀ · 2^(−t/5730) (expoente com a fração t sobre 5730). Tabela com as colunas Fóssil, Q₀ e Q(t): fóssil 1, 128 e 32; fóssil 2, 256 e 8; fóssil 3, 512 e 64; fóssil 4, 1 024 e 512; fóssil 5, 2 048 e 128."
+  },
+  "2020_AZUL_D2_Q152": {
+   "figura": "Esquema de um processo de aeração: o tanque T1, alto e estreito, à esquerda, liga-se a uma bomba B, embaixo; da bomba o líquido sobe a um aerador A1, que se liga em seguida, em linha reta, ao aerador A2 e, deste, por um cano que desce, ao tanque T2, largo e baixo, à direita.",
+   "alternativas": {
+    "A": "y = 1,265x",
+    "B": "y = 1,250x",
+    "C": "y = 1,150x",
+    "D": "y = 1,125x",
+    "E": "y = x"
+   }
+  },
+  "2020_AZUL_D2_Q153": {
+   "figura": "Tabela de velocidade média por dia, com as colunas Ônibus (km/h) e Bicicleta (km/h): segunda-feira, 9 e 15; terça-feira, 20 e 22; quarta-feira, 15 e 24; quinta-feira, 12 e 15; sexta-feira, 10 e 18; sábado, 30 e 16."
+  },
+  "2020_AZUL_D2_Q158": {
+   "figura": "Quadriculado de 6 colunas por 5 linhas, que representa as ruas do condomínio, com três pontos: A, na parte de baixo, entre a 1ª e a 2ª coluna de ruas (na 4ª linha de baixo para cima); C, mais acima e à direita de A; e B, no canto superior direito, mais acima e à direita de C. Os deslocamentos permitidos são para a direita e para cima."
+  },
+  "2020_AZUL_D2_Q159": {
+   "figura": "Tabela dos depósitos, com valor do saco de cimento (R$), valor do frete para cada quilômetro (R$) e distância entre a casa e o depósito (km): A, 23,00, 1,00 e 10; B, 21,50, 3,00 e 12; C, 22,00, 1,50 e 14; D, 21,00, 3,50 e 18; E, 24,00, 2,50 e 2."
+  },
+  "2020_AZUL_D2_Q161": {
+   "figura": null,
+   "alternativas": {
+    "A": "R/2 (R dividido por 2)",
+    "B": "2R",
+    "C": "4R",
+    "D": "5R",
+    "E": "16R"
+   }
+  },
+  "2021_AZUL_D1_Q12": {
+   "figura": "Peça de campanha com fundo cinza-claro: ao centro, uma imagem dividida na vertical; a metade esquerda é uma garrafa PET transparente e a direita, o rosto e o peito de um cão preto, branco e marrom, de orelha caída. Texto à esquerda: «ESSE PET É DESCARTÁVEL.»; à direita: «ESSE NÃO.»; embaixo, ao lado de um ícone de cabeça com uma exclamação: «ABANDONO É CRIME. LEI FEDERAL Nº 9 605/98». No canto superior direito, o logotipo de um cão e um gato."
+  },
+  "2021_AZUL_D1_Q13": {
+   "figura": "Tirinha de Henfil em seis quadros, com um cenário de deserto: um cacto e o sol; o personagem Graúna, um pássaro preto de óculos redondos, fala em cada quadro. Falas, em ordem: «Quando nenén nascer, renunciarei aos prazeres mundanos»; «Renunciarei à vida folgaza, renunciarei à busca da beleza física!»; «Renunciarei à vida social! Renunciarei aos projetos individualistas!»; no quadro seguinte o personagem aparece calado; e, no último, «Assim termina mais um capítulo na luta da mulher por sua emancipação...». No último quadro, o cacto parece cada vez mais murcho."
+  },
+  "2021_AZUL_D1_Q14": {
+   "figura": "Fotografia subaquática, em preto e branco, da instalação «A balsa de Lampedusa», de Jason de Caires Taylor (Museu Atlântico, Lanzarote, 2016, detalhe): esculturas de pessoas, entre elas crianças, sobre uma grande balsa no fundo do mar; algumas estão sentadas, outras encolhidas, com expressão de abandono, e uma menina se debruça na borda do bote."
+  },
+  "2021_AZUL_D1_Q18": {
+   "figura": "Pintura «Moema», de Victor Meirelles (óleo sobre tela, 1866, Masp), reproduzida em tons de cinza: uma mulher indígena nua, deitada de costas à beira da água, com o corpo pálido, o cabelo longo e escuro espalhado na margem e a cabeça virada para trás; ao fundo, uma paisagem com vegetação e, no alto, pequenos grupos de figuras distantes."
+  },
+  "2021_AZUL_D1_Q20": {
+   "figura": "Mosaico de 16 quadros (4 por 4), com o título «Que tal transformar a internet em palco para a dança?». Cada quadro mostra a silhueta preta de um bailarino em miniatura, em fundo branco, em interação com um objeto ou uma mão enormes: por exemplo, uma mão que segura uma figura de cabeça para baixo, uma figura de braços abertos, uma mão em punho que sustenta um bailarino de braços abertos, uma roda, um spray, um círculo com uma cruz, duas mãos fechadas lado a lado, uma figura entre barras horizontais."
+  },
+  "2021_AZUL_D1_Q27": {
+   "figura": "Fotografia, em preto e branco, de três cadeiras e poltronas de Sérgio Rodrigues, em fileira: uma cadeira de encosto e assento de madeira, de linhas retas; uma poltrona de almofadas claras e braços retos de madeira escura; e uma poltrona de encosto curvo em palhinha, com estrutura de madeira. Ao fundo, à direita, o próprio designer, de gravata, de pé, que desaparece em um degradê."
+  },
+  "2021_AZUL_D1_Q33": {
+   "figura": "Prefácio em quadrinhos, em seis quadros, sobre a produção do livro «Artistas brasileiras». Falas e legendas, em ordem: «A pesquisa foi o primeiro passo na produção deste livro» (uma mulher lê um livro entre pilhas de livros) e, de outra personagem, «Deixa de drama, a maior parte do material está on-line.»; «Seguida da seleção das informações e da elaboração de um roteiro» (a autora diante de um notebook); «O desenho feito à tinta» (a autora desenha) e, de outra personagem, «Não olha ainda!»; «E depois editado e colorizado digitalmente» (mãos no mouse e as páginas na tela); «Depois de todo trabalho, este livro só precisa de mais uma coisa:» (a autora, sentada, de pernas para cima); e, por fim, «Ser lido.» (duas pessoas leem juntas um livro)."
+  },
+  "2021_AZUL_D1_Q34": {
+   "figura": "Infográfico «Os riscos para crianças do uso do celular antes de dormir», em tons de cinza. Texto de abertura: estudo do King's College concluiu que essas crianças e adolescentes têm maior risco de obesidade, baixo sistema imunológico, crescimento atrofiado e depressão. Faixa «Falta de sono no longo prazo reduz hormônios»: melatonina (prepara o corpo para o sono), leptina (da saciedade), GH (do crescimento) e cortisol (da estabilidade emocional e do controle de inflamações). No centro, uma criança de pijama segurando o celular, com um gato ao lado, e balões em volta: a forte luz penetra no olho e confunde o relógio biológico; não só a luz, mas estímulos deixam o cérebro em alerta; a criança demora a dormir, acorda mais vezes e descansa menos; isso pode levar a problemas de comportamento e de atenção às aulas; prejudica também o processamento da memória. Em «O que fazer?»: ficar entre 30 minutos e 2 horas sem telas antes de ir para a cama; reduzir a intensidade da luz emitida; manter o telefone longe, porém no quarto, não resolve: a expectativa de receber mensagens é suficiente para atrapalhar o sono."
+  },
+  "2021_AZUL_D1_Q36": {
+   "figura": "Texto I: fotografia da obra «Nanawax», de Romuald Hazoumé (plástico e tecido, 2009): uma máscara feita de um recipiente plástico claro, com um bico, e uma cabeleira de tiras de tecido estampado em preto e branco que cai sobre o rosto."
+  },
+  "2021_AZUL_D1_Q42": {
+   "figura": "Pintura «Garota com bola», de Roy Lichtenstein (1961), no estilo de história em quadrinhos, com pontos de impressão: uma mulher de cabelo ondulado, de boca aberta, com os braços erguidos, segurando uma bola de praia listrada acima da cabeça; ela veste um maiô preto com alça e está com a água na altura do peito."
+  },
+  "2021_AZUL_D1_Q43": {
+   "figura": "Página de quadrinhos em preto e branco, «Cumbe» (D'Salete), com seis quadros numerados. 1: um corpo em queda entre folhas grandes, com a legenda «O tata contou sobre o Calunga, o mar que não acaba.» 2: uma mulher deitada, abraçada por um homem com as mãos amarradas, e a fala «Nana, se a gente beber a nsanga e enfrentar o Calunga, podemos ficar juntos lá na outra terra.» 3: homens ao longe, ao lado de um barco virado, e «Longe daqui...» 4: dois rostos. 5: pés descalços. 6: as costas de um homem com cicatrizes, diante da mata, e «...Longe disso tudo.»"
+  },
+  "2021_AZUL_D1_Q85": {
+   "figura": "Anúncio de jornal do século XIX, em fundo cinza, com o título «Escravo fugido» em letras grandes. Texto: «No dia 8 de Outubro do anno proximo passado fugio da fazenda do Bom Retiro, propriedade do dr. Francisco Antonio de Araújo, o escravo José, pardo claro, de 22 annos de idade, estatura regular, cheio de corpo, com a falta de um dente na frente do lado superior, cabellos avermelhados, orelha roxa, falla macia, e andar vagaroso. Intitula-se forro, e quando fugio a primeira vez esteve contratado como camarada em uma fazenda em Capivary. Quem o aprehender e entregar ao seu senhor no Amparo, ou o recolher a cadêa em qualquer parte será bem gratificado, e protesta-se com todo o rigor da lei contra quem o acoutar.»"
+  },
+  "2021_AZUL_D1_Q89": {
+   "figura": "Esquema «Movimento de translação da Terra», em perspectiva: o Sol no centro de uma elipse e a Terra em quatro posições, ligadas ao Sol por linhas tracejadas, cada uma com a metade voltada para o Sol iluminada e a outra metade em cinza. Em cima, «Equinócio, 21 de março»; à direita, «Solstício, 21 de dezembro»; embaixo, «Equinócio, 23 de setembro»; à esquerda, «Solstício, 21 de junho»."
+  },
+  "2021_AZUL_D2_Q108": {
+   "figura": "Texto II: tabela «Distâncias médias dos planetas ao Sol e suas densidades médias», com distância média ao Sol (u.a.) e densidade relativa média: Mercúrio, 0,39 e 5,6; Vênus, 0,72 e 5,2; Terra, 1,0 e 5,5; Marte, 1,5 e 4,0; Ceres (planeta-anão), 2,8 e 2,1; Júpiter, 5,2 e 1,3; Saturno, 9,6 e 0,7; Urano, 19 e 1,2; Netuno, 30 e 1,7; Plutão (planeta-anão), 40 e 2,0; Éris (planeta-anão), 68 e 2,5. Nota: u.a. = 149 600 000 km, a unidade astronômica; um asterisco indica planeta clássico e dois, planeta-anão."
+  },
+  "2021_AZUL_D2_Q116": {
+   "figura": "Fórmulas estruturais de cinco pesticidas, numerados de I a V. I: anel benzênico com dois átomos de cloro e um grupo NH–C(=O)–N(CH₃)₂ (ureia). II: anel de piridina com um cloro, ligado por um CH₂ a um anel de cinco membros (imidazolidina) com um grupo N–NO₂ e um NH. III: duas unidades de fenol (cada uma com OH e cloros no anel) ligadas por um CH₂. IV: anel benzênico com um grupo metila e um grupo sulfonil (SO₂) ligado a um carbono com dois átomos de iodo (CHI₂). V: anéis aromáticos com éter etílico, um átomo de silício com dois grupos metila, uma cadeia de três carbonos, um flúor e um grupo fenoxila."
+  },
+  "2021_AZUL_D2_Q119": {
+   "figura": "Quadro «Tecido analisado» de cinco espécies, com as colunas Periderme/Esclerênquima, Floema/Esclerênquima e Xilema (alburno e cerne). Espécie 1: «+ / +», «+ / −», alburno «+», cerne «+++». Espécie 2: «+ / −», «+ / −», «+++», «−». Espécie 3: «++ / −», «+++ / +», «+», «−». Espécie 4: «+++ / +», «+++ / −», «+», «−». Espécie 5: «+++ / +», «+++ / +», «++», «+». Legenda: (−) ausente, (+) presente em pequena quantidade, (++) presente em média quantidade, (+++) presente em grande quantidade."
+  },
+  "2021_AZUL_D2_Q120": {
+   "figura": "À esquerda, o gráfico «Espectro de absorção na região do visível» (absorção em função do comprimento de onda, de 300 a 700 nm): a clorofila (linha preta) tem um ombro por volta de 430 nm e um pico forte em cerca de 470 nm, cai a quase zero em 550 nm e tem outro pico em cerca de 630 nm; a antocianina (linha cinza) tem um único pico largo, em cerca de 530 nm, entre 400 e 600 nm. À direita, o diagrama «Cores complementares»: um círculo dividido em seis setores — violeta (400 a 430 nm), azul (430 a 480), verde (480 a 560), amarelo (560 a 590), laranja (590 a 630) e vermelho (630 a 750) —, com cada cor oposta a sua complementar."
+  },
+  "2021_AZUL_D2_Q130": {
+   "figura": "Quadro com nome, fórmula e aroma: benzoato de metila, C₆H₅CO₂CH₃, kiwi; acetato de isoamila, CH₃CO₂(CH₂)₂CH(CH₃)₂, banana; acetato de benzila, CH₃CO₂CH₂C₆H₅, pêssego; propanoato de isobutila, CH₃CH₂CO₂CH₂CH(CH₃)₂, rum; antranilato de metila, C₆H₄NH₂CO₂CH₃, uva."
+  },
+  "2021_AZUL_D2_Q134": {
+   "figura": "Tabela de correção do alcoolômetro, com temperatura de aferição de 20 °C: para as leituras de temperatura de 20, 21, 22, 23, 24 e 25 °C, em 35 °GL os valores corrigidos são 35,0; 34,6; 34,2; 33,8; 33,4 e 33,0; em 36 °GL, são 36,0; 35,6; 35,2; 34,8; 34,4 e 34,0."
+  },
+  "2021_AZUL_D2_Q139": {
+   "figura": "Tabela das quantidades vendidas de cada lanche em cada franquia. Franquia I: lanche I, 415; II, 395; III, 425; IV, 430; V, 435. Franquia II: 415; 445; 370; 370; 425. Franquia III: 415; 390; 425; 433; 420."
+  },
+  "2021_AZUL_D2_Q144": {
+   "figura": "Gráfico de barras da frequência de ocorrência por idade: 9 anos, frequência 6; 18 anos, frequência 12; 27 anos, frequência 9."
+  },
+  "2021_AZUL_D2_Q145": {
+   "figura": "Quadro do percentual de entrevistados por faixa etária: de 10 a 24 anos, x; entre 24 e 60 anos, y; a partir de 60 anos, x."
+  },
+  "2021_AZUL_D2_Q147": {
+   "figura": "Quadro da cifra de César, com o alfabeto original de A a Z e, embaixo, o alfabeto codificado deslocado três posições (A vira D, B vira E, ..., X vira A, Y vira B, Z vira C). Gráfico de barras da frequência de cada letra no texto «O guarani» (491 631 letras), com valores aproximados: A, 71 000; B, 5 000; C, 17 500; D, 23 500; E, 64 500; F, 5 000; G, 5 500; H, 6 000; I, 31 500; J, 1 000; K, 0; L, 14 500; M, 22 000; N, 24 000; O, 52 500; P, 13 000; Q, 6 500; R, 33 000; S, 39 000; T, 19 500; U, 23 500; V, 10 000; W, 0; X, 1 000; Y, 0; Z, 2 500."
+  },
+  "2021_AZUL_D2_Q153": {
+   "figura": "Fotografia em preto e branco do castelo de Liechtenstein, na Alemanha: uma construção de pedra num penhasco, com uma torre alta e cilíndrica no centro, telhados em pontas e uma ponte de madeira à esquerda, com árvores sem folhas em primeiro plano."
+  },
+  "2021_AZUL_D2_Q154": {
+   "figura": "Quadro com ano, número de médicos e população brasileira (em milhar): 1990, 219 000 e 147 000; 2000, 292 000 e 170 000; 2010, 365 000 e 191 000."
+  },
+  "2021_AZUL_D2_Q155": {
+   "figura": "Tabela de preços da refeição: frango, R$ 12,50 o quilo; batata-doce, R$ 5,00 o quilo; hortaliças, R$ 2,00 a unidade."
+  },
+  "2021_AZUL_D2_Q156": {
+   "figura": "À esquerda, dois desenhos de uma mola presa ao teto com uma massa m na ponta: um na «posição de equilíbrio» e outro com a «mola distendida», com a massa mais baixa. À direita, o gráfico da posição P (cm, de −3 a 3) em função do tempo t (marcas em π/2, π, 3π/2, 2π, 5π/2 e 3π): uma onda senoidal que começa no mínimo, −3, em t = 0, passa por 0 perto de π/4, atinge o máximo, 3, em π/2, volta ao mínimo em π, ao máximo em 3π/2, e repete o padrão até 3π, sempre entre −3 e 3.",
+   "alternativas": {
+    "A": "−3 cos (2t)",
+    "B": "−3 sen (2t)",
+    "C": "3 cos (2t)",
+    "D": "−6 cos (2t)",
+    "E": "6 sen (2t)"
+   }
+  },
+  "2021_AZUL_D2_Q157": {
+   "figura": "Matriz A, de ordem 5, em que a linha i traz as famílias (em dezena) que saíram da região i para cada região: linha 1: 0, 4, 2, 2, 5; linha 2: 0, 0, 6, 2, 3; linha 3: 2, 2, 0, 3, 0; linha 4: 1, 0, 2, 0, 4; linha 5: 1, 2, 0, 4, 0."
+  },
+  "2021_AZUL_D2_Q161": {
+   "figura": "Texto sem figura além das alternativas, que são gráficos da arrecadação em função do valor do desconto (de 0 a 23).",
+   "alternativas": {
+    "A": "Reta crescente e contínua que parte de 4 000 em desconto 0 e chega a cerca de 5 600 em desconto 20.",
+    "B": "Pontos isolados (descontos inteiros de 0 a 20) alinhados numa reta crescente, de 4 000 a cerca de 5 600.",
+    "C": "Reta decrescente e contínua, de 4 000 em desconto 0 a cerca de 3 700 em desconto 20.",
+    "D": "Curva contínua em forma de arco (parábola): sobe de 4 000 em desconto 0 até um máximo de cerca de 6 200 entre os descontos 7 e 8 e desce até 0 em desconto 20.",
+    "E": "Pontos isolados (descontos inteiros de 0 a 20) formando um arco: sobem de 4 000 até um máximo de cerca de 6 300 entre 7 e 8 e descem até quase 0 em desconto 20."
+   }
+  },
+  "2021_AZUL_D2_Q164": {
+   "figura": "Tabela de itens das duas viagens: viagem I, 12 camisetas, 4 calças e 3 sapatos; viagem II, 18 camisetas, 3 calças e 2 sapatos."
+  },
+  "2021_AZUL_D2_Q170": {
+   "figura": "Desenho em perspectiva de uma caneca em forma de tronco de cone, com a boca larga em cima (círculo de diâmetro D) e a base menor embaixo (círculo de diâmetro d), com uma asa em forma de coração à direita. A altura h é marcada por uma linha vertical à esquerda, do centro da base ao centro da boca."
+  },
+  "2021_AZUL_D2_Q172": {
+   "figura": "Tabela de trechos do percurso e frequências cardíacas máximas (bpm): leve no plano, 90; forte no plano, 120; subida moderada, 130; subida forte, 140."
+  },
+  "2021_AZUL_D2_Q174": {
+   "figura": "Quadro de preços dos medicamentos X, Y e Z. Farmácia 1: R$ 45,00, R$ 40,00 e R$ 50,00. Farmácia 2: R$ 50,00, R$ 50,00 e R$ 40,00. Farmácia 3: R$ 65,00, R$ 45,00 e R$ 35,00."
+  },
+  "2021_AZUL_D2_Q175": {
+   "figura": "Desenho em perspectiva de uma estrutura de hastes metálicas: um cubo grande de hastes claras e, dentro dele, um cubo menor de hastes pretas finas, paralelo ao grande; hastes cinza mais escuras ligam cada vértice do cubo menor ao vértice correspondente do maior, como em uma projeção de um cubo dentro de outro."
+  },
+  "2021_AZUL_D2_Q177": {
+   "figura": "Quadro da adição na base binária, com as colunas a, b e a + b: 0 e 0, 0; 0 e 1, 1; 1 e 0, 1; 1 e 1, 10. Abaixo, o exemplo da soma 10 + 10 = 100, armada em coluna."
+  },
+  "2021_AZUL_D2_Q179": {
+   "figura": null,
+   "alternativas": {
+    "A": "(6! / (4!·2!)) · (15! / (10!·5!))",
+    "B": "(6! / (4!·2!)) + (15! / (10!·5!))",
+    "C": "6!/2! + 15!/5!",
+    "D": "(6!/2!) · (15!/5!)",
+    "E": "21! / (7!·14!)"
+   }
+  },
+  "2021_AZUL_D2_Q94": {
+   "figura": "Esquema, em corte lateral, do jogo «Bang! Bang!»: um canhão A, no alto de um platô de 35 m de altura, à esquerda, com uma bandeira; à direita, um canhão B, ao nível do chão, com bandeira, que dispara com velocidade inicial v₀ num ângulo θ acima da horizontal. A distância horizontal entre A e B é de 120 m. Entre eles há um morro que começa a subir logo depois de A e termina num ponto P, 10 m acima do platô, com uma queda abrupta do lado de B. A seta da gravidade g aponta para baixo."
+  },
+  "2022_AZUL_D1_Q15": {
+   "figura": "Fotografia de um outdoor iluminado por três refletores, sobre dois postes, em fundo cinza. No painel branco: «QUANTO CUSTOU?» em letras grandes; «Proposta obriga órgão público a divulgar gasto com anúncio na própria peça publicitária.» e «Qual sua opinião?»"
+  },
+  "2022_AZUL_D1_Q32": {
+   "figura": "Peça «Manual de orientação», com o texto «O primeiro guia prático da Sociedade Brasileira de Pediatria para ajudar pais e pediatras no desafio de educar nativos digitais», sob o título «Trabalho de base». Três colunas, cada uma com um ícone de rosto: «Até 2 anos» (rosto de bebê), «A criança não deve ser exposta passivamente às telas — TV, tablet, celular etc. —, principalmente durante as refeições e até 2 horas antes de dormir»; «De 2 a 5 anos» (rosto de criança), «O tempo de exposição às telas deve ser limitado a 1 hora por dia. Crianças dessa faixa etária devem ser mais protegidas da violência virtual, pois não sabem separar fantasia de realidade»; «Até 10 anos» (rosto de criança maior), «Devem ter acesso controlado a computadores e dispositivos móveis. Crianças de até 10 anos não devem usar TV ou computador no próprio quarto»."
+  },
+  "2022_AZUL_D1_Q38": {
+   "figura": "Texto I: pintura «Laocoonte», de El Greco (óleo sobre tela, c. 1610–1614), em tons de cinza: o sacerdote Laocoonte, de barba, caído e contorcido no centro, é atacado por serpentes; seus dois filhos, nus, estão ao lado: um de pé, à esquerda, tentando se desvencilhar de uma serpente, e outro caído; à direita, duas figuras nuas, altas e alongadas, de pé. Ao fundo, uma paisagem com uma cidade (Toledo) sob um céu carregado."
+  },
+  "2022_AZUL_D1_Q39": {
+   "figura": "Texto I: fotografia da obra «Sem título» (1969), de Donald Judd: uma coluna de dez caixas metálicas retangulares idênticas, abertas, empilhadas na parede com espaços iguais entre elas, da base até o alto."
+  },
+  "2022_AZUL_D1_Q44": {
+   "figura": "Texto I: fotografia da instalação «In absentia» (1983), de Rubens Silveira, numa grande sala de paredes brancas: no canto, a sombra preta, pintada, de uma roda de bicicleta, que se projeta pelo chão e pela parede; um bloco branco, retangular, no piso, é a base, de onde sai a sombra de um banquinho — o objeto, a roda de bicicleta sobre o banquinho, está ausente."
+  },
+  "2022_AZUL_D1_Q49": {
+   "figura": "Quatro painéis, de cima para baixo, com o título de cada um e a distribuição da chuva, em setas. «Cobertura natural do solo» (árvores e gramado): evapotranspiração, 40%; escoamento superficial, 10%; infiltração subsuperficial, 25%; percolação profunda, 25%. «10% – 20% de superfície impermeável» (uma casa entre árvores): 38%; 20%; 21%; 21%. «35% – 50% de superfície impermeável» (poucas casas): 35%; 30%; 20%; 15%. «75% – 100% de superfície impermeável» (prédios e casas): 30%; 55%; 10%; 5%."
+  },
+  "2022_AZUL_D1_Q56": {
+   "figura": "Texto I: charge de Cazo. Casas de madeira e de tábuas, amontoadas e tortas, numa comunidade; de uma janela alta sai uma vara de pescar com um celular na ponta, como isca no ar. Balões de fala: «Tá estudando, Júnior?» e a resposta «Calma, tô tentando achar um sinal de Wi-Fi!»"
+  },
+  "2022_AZUL_D1_Q65": {
+   "figura": "Diagrama em espiral que sobe de baixo para cima, em voltas sucessivas, cada uma com três marcas: «Lua de mel» (ponto preto), «Tensão» (ponto cinza) e «Agressão» (ponto cinza-claro), repetidas cinco vezes; no topo da espiral, uma cruz com a palavra «Morte». Legenda: lua de mel — carinho, paixão, presentes, promessas, reconciliação, liberdade; tensão — insulto, humilhação, intimidação, gritos, ameaça, controle, isolamento, medo, conflitos, descumprimento de promessa; agressão — empurrão, beliscão, puxão de cabelo, sufocamento, arremesso de objetos, tapa, chute, espancamento."
+  },
+  "2022_AZUL_D1_Q68": {
+   "figura": "Texto II: mapa-múndi com manchas cinza que indicam petróleo e gás (Canadá, Oriente Médio, Ásia central, entre outros), elipses que marcam áreas de alta densidade e variedade germoplásmica (América Central e norte da América do Sul, sudeste asiático, Austrália) e uma linha tracejada, a «brecha» crítica do «Novo Mapa do Pentágono», que atravessa a América do Sul, a África, o Oriente Médio e a Ásia."
+  },
+  "2022_AZUL_D1_Q70": {
+   "figura": "Texto II: gráfico de barras horizontais «Proporção de pessoas abaixo da linha de pobreza, por arranjo domiciliar no Brasil — 2017»: mulher sem cônjuge e com filho(s) até 14 anos, 56,9%, com dois detalhes — mulher preta ou parda, 64,4%, e mulher branca, 41,5%; casal com filho(s), 30,4%; outros, 21,0%; unipessoal, 11,6%; casal sem filho, 10,0%."
+  },
+  "2022_AZUL_D1_Q74": {
+   "figura": "Mapa do Brasil «Radiação solar global horizontal média anual», em tons de cinza, com latitudes de 5° N a 30° S e longitudes de 70° O a 40° O. Legenda em kWh/m² por faixas, de 3,15 (mais escuro) a 6,65 (mais claro). Os menores valores (tons escuros) aparecem na Amazônia ocidental, no litoral do Sudeste e no Sul; os maiores (tons claros), no interior do Nordeste, entre a Bahia, o Piauí e Pernambuco."
+  },
+  "2022_AZUL_D1_Q78": {
+   "figura": "Mapa «Possível trajeto do voo MH370 da Malaysia Airlines antes da queda, em 2014»: do último contato, perto de Kuala Lumpur (Malásia), uma linha tracejada desce em direção ao sul sobre o oceano Índico até o «local onde os destroços foram avistados». Há também Indonésia, Madagascar e Austrália no mapa, e uma seta de 2 500 km entre esse local e a cidade de Perth, na costa oeste da Austrália."
+  },
+  "2022_AZUL_D1_Q82": {
+   "figura": "Mapa «Rochas ígneas da Amazônia Legal», com coordenadas de 5° N a 15° S e de 70° O a 50° O, que mostra os estados da Amazônia Legal (Amazonas, Pará, Mato Grosso, Acre, Rondônia, Roraima, Amapá, Maranhão, Tocantins) e os países vizinhos. As rochas ígneas, em cinza, aparecem em manchas grandes no norte do Pará e de Roraima, numa área extensa no centro-sul do Pará e do Tocantins, e em manchas menores em Rondônia e no Mato Grosso. Legenda: rochas ígneas e Amazônia Legal (linha preta)."
+  },
+  "2022_AZUL_D2_Q103": {
+   "figura": "Figura de apoio: uma muleta na vertical, apoiada no piso, com a força F aplicada de cima para baixo, na ponta de cima, e o centro de massa (CM) marcado ao lado.",
+   "alternativas": {
+    "A": "Muleta inclinada para a direita: F vertical para baixo na ponta de cima; na base, N para cima, P para baixo e a força de atrito f_e para a direita.",
+    "B": "Muleta inclinada: F vertical para baixo na ponta de cima; N para cima e P para baixo, ambos aplicados no centro de massa; f_e para a esquerda na base.",
+    "C": "Muleta inclinada: F oblíqua, ao longo da muleta, para baixo; na base, N para cima, P para baixo e f_e para a direita.",
+    "D": "Muleta inclinada: F oblíqua, ao longo da muleta; N e P aplicados no centro de massa; f_e para a esquerda na base.",
+    "E": "Muleta inclinada: F oblíqua, ao longo da muleta; P aplicado no centro de massa, para baixo; N para cima e f_e para a direita, na base."
+   }
+  },
+  "2022_AZUL_D2_Q108": {
+   "figura": "Equação química em fórmulas estruturais: o ácido tartárico (HOOC–CH(OH)–CH(OH)–COOH, massa molar 150 g mol⁻¹) + 2 NaOH → o sal de sódio (NaOOC–CH(OH)–CH(OH)–COONa) + 2 H₂O."
+  },
+  "2022_AZUL_D2_Q115": {
+   "figura": "Tabela com densidade (kg/m³) e calor específico (J/(g °C)): água, 1 000 e 4,2; concreto, 2 500 e 0,8."
+  },
+  "2022_AZUL_D2_Q131": {
+   "figura": "Fórmulas estruturais de seis compostos aromáticos, cada um com um anel benzênico: benzaldeído (anel com grupo aldeído, no óleo de amêndoas); salicilato de metila (anel com éster metílico e OH, no óleo de gaultéria); anetol (anel com grupo metóxi e cadeia com ligação dupla, no óleo de anis); vanilina (anel com aldeído, OH e metóxi, no óleo de baunilha); eugenol (anel com OH, metóxi e cadeia alila, no óleo de cravos); cinamaldeído (anel ligado a uma cadeia com ligação dupla e aldeído, no óleo de canela)."
+  },
+  "2022_AZUL_D2_Q136": {
+   "figura": "Gráfico da temperatura T (°C, com marcas em −2, 0, 2 e 4) em função do tempo t (de 0 a 10 h). A curva começa em cerca de 3 °C, sobe a 4 °C, desce e cruza o eixo, chega a −2 °C, sobe até 0 °C (toca o eixo sem cruzar), volta a −2 °C, sobe a 0 °C de novo (toca o eixo sem cruzar), desce a −2 °C, sobe cruzando o eixo e termina em cerca de 3 °C em t = 10 h."
+  },
+  "2022_AZUL_D2_Q141": {
+   "figura": "Figura 1: três cartelas de 4 × 4 casas com quatro marcas pretas, que mostram o «preenchimento em linha» (quatro casas da primeira linha), «em coluna» (quatro casas da última coluna) e «em diagonal» (as quatro casas da diagonal principal). Figura 2: o cartão de Pedro, com números: primeira linha, 03 (circulado), 48 (circulado), 12, 27 (circulado); segunda linha, 49, 11, 22, 05; terceira linha, 29, 50, 19, 45; quarta linha, 33, 23, 38, 07 (circulado).",
+   "alternativas": {
+    "A": "1/46 + 1/45",
+    "B": "1/46 + 2/(46 × 45)",
+    "C": "1/46 + 8/(46 × 45)",
+    "D": "1/46 + 43/(46 × 45)",
+    "E": "1/46 + 49/(46 × 45)"
+   }
+  },
+  "2022_AZUL_D2_Q143": {
+   "figura": "Figura 1: planificação de cubo em escada, com seis quadrados: dois lado a lado em cima, dois deslocados abaixo à direita no meio e dois lado a lado embaixo, ainda mais à direita. Figura 2: cubo em perspectiva com três quadrados cinza-escuros, de um quarto da face, em torno de um vértice comum, na face da frente, na de cima e na da direita.",
+   "alternativas": {
+    "A": "Planificação em escada com dois quadradinhos cinza-escuros lado a lado na parte de cima do primeiro quadrado do alto e um quadradinho cinza no canto superior direito do último quadrado, embaixo.",
+    "B": "Dois quadradinhos escuros lado a lado no alto e um terceiro no canto superior direito do quadrado do meio-direita.",
+    "C": "Dois quadradinhos escuros lado a lado no alto e um terceiro no canto inferior esquerdo do penúltimo quadrado.",
+    "D": "Dois quadradinhos escuros lado a lado no alto e um terceiro no canto superior direito do último quadrado, na ponta de baixo.",
+    "E": "Dois quadradinhos escuros lado a lado no alto e um terceiro no canto inferior esquerdo do último quadrado."
+   }
+  },
+  "2022_AZUL_D2_Q144": {
+   "figura": "Esquema do número de uma agência bancária: quatro caixas para os dígitos N₁, N₂, N₃ e N₄, um hífen e uma caixa separada para o dígito verificador N₅."
+  },
+  "2022_AZUL_D2_Q150": {
+   "figura": "Desenho em perspectiva de uma quadra de vôlei vista de cima, com a rede no meio e um eixo x ao longo do chão (a 1,5 m do piso, com a cota «1,5 m» marcada em três pontos) e um eixo y vertical, na rede. Um jogador, à esquerda, saca; a trajetória da bola, tracejada, é uma parábola que sobe bem alto, passa acima da rede e cai do outro lado da quadra. No texto, a função y = −x²/6 − 7x/3 + 12."
+  },
+  "2022_AZUL_D2_Q152": {
+   "figura": "À esquerda, esquema em corte da sala de cinema, em forma de trapézio, com a tela de largura L na base, as poltronas em fileiras ao longo da sala e as distâncias marcadas: D_mín = 0,6L (primeira fileira), D_máx = 2L (última fileira atual) e D_aceitável = 2,9L (limite de até onde a sala pode ir); o trecho entre 2L e 2,9L é a «área de instalação de novas poltronas». À direita, três fileiras de poltronas vistas de cima, com 1 m entre os encostos de fileiras consecutivas."
+  },
+  "2022_AZUL_D2_Q153": {
+   "figura": "Desenho de um cone circular reto, de ponta para baixo: a base elíptica em cima, com o diâmetro de 8 cm marcado por uma seta, e a altura de 10 cm, marcada por outra seta vertical à direita."
+  },
+  "2022_AZUL_D2_Q156": {
+   "figura": "Figuras 1 a 3: uma folha quadrada, dobrada na diagonal (linha tracejada), vira um triângulo (Figura 2, com um ângulo reto ao lado do ponto O) e, dobrada de novo, vira um triângulo menor (Figura 3), com o ponto O no vértice. Figura 4: o triângulo dobrado, com os pontos O, R e M na linha de simetria e um arco de circunferência com centro em R. Figura 5: o triângulo sem a parte do arco, com um recorte curvo em um lado.",
+   "alternativas": {
+    "A": "Quadrado cinza com um recorte branco central de contorno arredondado, em forma de quatro lóbulos suaves, quase um quadrado de cantos arredondados, com leves reentrâncias nos quatro lados.",
+    "B": "Quadrado cinza com um furo circular branco no centro.",
+    "C": "Quadrado cinza com um furo branco em forma de trevo de quatro folhas, com quatro reentrâncias bem marcadas.",
+    "D": "Quadrado cinza com um furo branco de contorno oval (elipse) no centro, mais largo que alto.",
+    "E": "Quadrado cinza com um furo branco em forma de laço (duas cunhas de setor circular opostas ligadas no centro)."
+   }
+  },
+  "2022_AZUL_D2_Q166": {
+   "figura": "Gráfico da distância percorrida (m, até 100) em função do tempo (s, até 15) para cinco carros, todos saindo da origem. Um carro (curva escura côncava para baixo, o mais rápido de início) chega aos 100 m em cerca de 6,5 s; outro (curva escura côncava para cima) chega aos 100 m em cerca de 8 s, depois de cruzar as outras; um terceiro (reta cinza) chega em cerca de 10 s; um quarto (reta preta, de velocidade constante) chega aos 100 m em 15 s; e o último a chegar (curva cinza-clara côncava para cima) chega em cerca de 12 s. Ao longo do gráfico, as curvas se cruzam em vários pontos, que são as ultrapassagens."
+  },
+  "2022_AZUL_D2_Q168": {
+   "figura": "Malha de ruas 6 × 6, com o ponto P na parte de baixo, à esquerda, e uma seta para cima indicando o sentido inicial, e o ponto Q no alto, à direita. O caminho destacado sobe uma quadra de P, vai para a direita por quatro quadras, sobe duas, vai uma quadra para a direita, desce uma, vai uma para a direita, sobe quatro e termina com uma quadra para a direita, até Q."
+  },
+  "2022_AZUL_D2_Q170": {
+   "figura": "Dois gráficos de barras de 2005 a 2013 (2005, 2007, 2009, 2011 e 2013). Valor mensal do aluguel (R$): 630; 960; 1 350; 1 800; 3 240. Valor de mercado do imóvel (milhar de R$): 90; 120; 270; 450; 540."
+  },
+  "2022_AZUL_D2_Q171": {
+   "figura": "Quadro de pontos de cinco jogadores nos quatro primeiros jogos. I: 12, 25, 20, 20. II: 12, 12, 27, 20. III: 14, 14, 17, 26. IV: 15, 18, 21, 21. V: 22, 15, 23, 15."
+  },
+  "2022_AZUL_D2_Q180": {
+   "figura": "Esfera (globo) com os pontos N e S nos polos, o meridiano 1 e o meridiano 2 (em planos perpendiculares), a linha do Equador e, embaixo, o plano α paralelo ao do Equador. Trechos em traço grosso: do polo N ao Equador pelo meridiano 2 (parte tracejada, atrás), um arco do Equador, e do Equador ao polo S pelo meridiano 1 e pelo meridiano 2, com um arco do Equador entre eles, na frente.",
+   "alternativas": {
+    "A": "Círculo com quatro arcos curvos que partem do centro, em forma de cata-vento, dividindo o círculo em quatro regiões.",
+    "B": "Três regiões em forma de folhas curvas, saindo do centro (cata-vento de três pás), sem o círculo em volta.",
+    "C": "Duas folhas curvas em cima, à direita, e uma embaixo, à esquerda, ligadas no centro, sem o círculo em volta.",
+    "D": "Círculo dividido em quatro partes iguais por um diâmetro horizontal e um vertical.",
+    "E": "Dois quartos de círculo opostos (um em cima, à direita, e outro embaixo, à esquerda), unidos por duas retas em cruz no centro."
+   }
+  },
+  "2022_AZUL_D2_Q91": {
+   "figura": "Esquema da remediação de águas subterrâneas contaminadas com tricloroeteno (TCE): na superfície, tambores vazando e um caminhão-tanque com S₂O₈²⁻ (persulfato), um ponto de monitoramento com um computador; no subsolo, uma fase líquida densa («DNAPL»), com TCE, no fundo do aquífero, e a «solubilização» do TCE na água subterrânea. Reação S₂O₈²⁻ → •SO₄⁻ catalisada por Fe(III). O TCE (Cl₂C=CHCl) se converte em ácido dicloroacético (CHCl₂–COOH), depois em ácido oxálico (HOOC–COOH), ácido fórmico (HCOOH) e, por fim, H₂O, CO₂ e Cl⁻."
+  },
+  "2022_AZUL_D2_Q95": {
+   "figura": "Desenho de um fio vertical que atravessa o centro de um plano horizontal, com a corrente i apontando para cima; sobre o plano, uma circunferência tracejada com os pontos A, B e C. À direita, uma bússola, com a metade norte (N) escura e a sul (S) clara. Cada alternativa mostra o mesmo plano com três bússolas, em A, B e C, com as agulhas orientadas de maneira diferente; as agulhas são pequenas na imagem e a diferença de orientação só se vê na figura ampliada."
+  },
+  "2022_AZUL_D2_Q96": {
+   "figura": "Quadro de corrente elétrica e dano físico: até 10 mA, dor e contração muscular; de 10 mA até 20 mA, aumento das contrações musculares; de 20 mA até 100 mA, parada respiratória; de 100 mA até 3 A, fibrilação ventricular; acima de 3 A, parada cardíaca e queimaduras.",
+   "alternativas": {
+    "A": "Duas baterias em série, lado a lado: o ponto A liga ao polo + da primeira; o polo − da primeira liga ao polo + da segunda; o polo − da segunda liga ao ponto B.",
+    "B": "Duas baterias lado a lado: A liga ao polo + da primeira; o polo − da primeira liga ao polo − da segunda; o polo + da segunda liga a B.",
+    "C": "Duas baterias com os polos − e + invertidos (− à esquerda e + à direita em ambas): A liga ao polo − da primeira; o polo + da primeira liga ao polo − da segunda; e o polo + da segunda liga a B (cabos cruzados).",
+    "D": "Duas baterias lado a lado: A liga ao polo − da primeira; o polo + da primeira liga ao polo + da segunda; o polo − da segunda liga a B.",
+    "E": "Duas baterias, uma sobre a outra, em paralelo: A liga ao polo + da de cima e ao polo − da de baixo; B liga ao polo − da de cima e ao polo + da de baixo."
+   }
+  },
+  "2023_AZUL_D1_Q24": {
+   "figura": "Cartaz em preto e branco, com a hashtag «#JuntasSomosMaisFortes» e «Disque 180», «A Defensoria não para!», e a frase manuscrita «Eu uso máscara mas não me calo!». Fotografia de três mulheres de máscara, uma de braços cruzados. Texto: «Em tempos de isolamento social por conta da pandemia de covid-19, a Defensoria Pública alerta para o aumento da violência contra a mulher! Não se cale! Denuncie!»"
+  },
+  "2023_AZUL_D1_Q33": {
+   "figura": "Texto I: pintura «Eternos caminhantes», de Lasar Segall (óleo sobre tela, 1919): um grupo de figuras alongadas de rostos angulosos e estilizados, em tons de vermelho, amarelo, rosa e azul sobre fundo escuro; uma figura menor, no centro-direita, está entre os adultos."
+  },
+  "2023_AZUL_D1_Q34": {
+   "figura": "Texto II: fotografia do espetáculo «Gira», do Grupo Corpo: bailarinos de torso nu e saias brancas, com adereços vermelhos no pescoço, dançando com os troncos inclinados e os braços soltos, em palco escuro."
+  },
+  "2023_AZUL_D1_Q44": {
+   "figura": "Peça de campanha do Ministério da Saúde, sobre fundo verde-azulado, com o título «Por que é tão importante amamentar?» e quatro tópicos: o bebê recebe os anticorpos da mãe para proteção contra diversas doenças, como diarreia e infecções, principalmente respiratórias; diminui o risco de asma, diabetes e obesidade em crianças; é um ótimo exercício para o desenvolvimento da face do bebê e para o crescimento de dentes fortes e bonitos; desenvolve a fala e uma boa respiração. À direita, a fotografia de uma mulher sorrindo, amamentando um bebê."
+  },
+  "2023_AZUL_D1_Q46": {
+   "figura": "Fotografia de um bordado sobre tecido claro: no alto, uma fotografia em preto e branco de uma senhora (a avó), com pontos vermelhos bordados no peito e um contorno vermelho em volta da cabeça e do ombro; embaixo, em letras azuis bordadas: «Sertão é a avó bordando caminhos com linhas coloridas»; fios coloridos pendem da base."
+  },
+  "2023_AZUL_D1_Q56": {
+   "figura": "Charge de Laerte, em três quadros: uma mulher sentada no chão, nua, segura uma lâmpada mágica, que ela esfrega. Falas: «Eu queria poder.»; «Força? Visão de raio X? Telecinese? Telepatia?»; «Poder político.»"
+  },
+  "2023_AZUL_D1_Q65": {
+   "figura": "Fotografia do prédio do Museu de Arte de São Paulo (Masp), projeto de Lina Bo Bardi: um grande volume envidraçado, retangular, suspenso sobre quatro pilares vermelhos, vão livre embaixo, numa avenida, com edifícios ao fundo."
+  },
+  "2023_AZUL_D1_Q72": {
+   "figura": "Texto II: charge de Cazo, com o título «Bilionários lançam nova era de viagens ao espaço...». Em uma superfície lunar com crateras e um foguete ao fundo, um astronauta de capacete diz «Viemos em paz!»; um alienígena verde de antenas, de olhos grandes, segura um tablet com a imagem de um indígena de cocar e pintura no rosto e diz «Acredite em mim. Não confie nesse pessoal!»"
+  },
+  "2023_AZUL_D1_Q76": {
+   "figura": "Gráfico de barras «Taxa de fecundidade no Brasil» (filhos por mulher, fonte IBGE), com a chamada «De 1960 a 2020, número de filhos baixa de 6,3 para 1,5»: 1960, 6,3; 1970, 5,8; 1980, 4,1; 1990, 2,8; 2000, 2,4; 2010, 1,8; 2020, 1,5; projeção para 2030, 2040 e 2050, 1,5 em cada."
+  },
+  "2023_AZUL_D2_Q109": {
+   "figura": "Dois desenhos de aparelhos de musculação, entre colunas de madeira, com polias. «Aparelho do tipo 1»: a carga M₁ pendurada por uma corda que passa por uma polia fixa no alto e desce pela lateral até a mão do usuário, que puxa para cima com a força F. «Aparelho do tipo 2»: a carga M₂ pendurada numa polia móvel, com a corda que passa por ela e por polias fixas, até a mão do usuário, com a força F para cima.",
+   "alternativas": {
+    "A": "1/4",
+    "B": "1/2",
+    "C": "1",
+    "D": "2",
+    "E": "4"
+   }
+  },
+  "2023_AZUL_D2_Q111": {
+   "figura": "Tirinha de Mauricio de Sousa: Cebolinha, à esquerda, e Cascão, à direita, brincam de telefone com duas latas ligadas por um barbante esticado; o personagem da esquerda fala numa lata e o da direita escuta na lata em que está escrito «LIXO»."
+  },
+  "2023_AZUL_D2_Q114": {
+   "figura": "Desenho de um caminhão de carroceria aberta, em perfil, com a cabine à direita e a seta da velocidade V apontando para a direita. Sobre a carroceria, uma caixa cinza com a massa M, presa por duas cordas às laterais da carroceria: a corda 1, à esquerda da caixa, e a corda 2, à direita, entre a caixa e a cabine.",
+   "alternativas": {
+    "A": "aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 600 e T₂ = 0.",
+    "B": "aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 1 400 e T₂ = 0.",
+    "C": "aceleração: T₁ = 0 e T₂ = 600; frenagem: T₁ = 600 e T₂ = 0.",
+    "D": "aceleração: T₁ = 560 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 960.",
+    "E": "aceleração: T₁ = 640 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 1 040."
+   }
+  },
+  "2023_AZUL_D2_Q118": {
+   "figura": "Quadro com o composto e a nomenclatura: I, n-decano; II, n-heptano; III, 2,2,4-trimetilpentano; IV, 3-etil-4-metilex-1-eno; V, 3-etil-2-metilpentan-1-ol."
+  },
+  "2023_AZUL_D2_Q120": {
+   "figura": "Circuito elétrico: uma pilha, à esquerda (fonte de energia, polo + em cima), ligada em série a três conjuntos. Cada conjunto é uma lâmpada em paralelo com um resistor de resistência R: o de cima tem a lâmpada L₁, o do meio, à direita, tem a lâmpada L₂ e o de baixo, a L₃.",
+   "alternativas": {
+    "A": "os mesmos.",
+    "B": "mais intensos.",
+    "C": "menos intensos.",
+    "D": "menos intenso para L₁ e o mesmo para L₃.",
+    "E": "mais intenso para L₁ e menos intenso para L₃."
+   }
+  },
+  "2023_AZUL_D2_Q123": {
+   "figura": "Fórmulas estruturais de seis princípios ativos. Ibuprofeno: anel benzênico com um grupo isobutila de um lado e, do outro, um carbono ligado a um metila e ao grupo COOH. Fenacetina: anel benzênico com um grupo etoxi e um grupo amida (NH–CO–CH₃). Paracetamol: anel com OH e NH–CO–CH₃. Dipirona sódica: anel pirazolona com um fenil, dois metilas e um grupo N(CH₃)–CH₂–SO₃⁻ Na⁺. Diclofenaco sódico: duas unidades de anel benzênico ligadas por um NH, uma com dois cloros e a outra com um CH₂–COO⁻ Na⁺. Butilbrometo de escopolamina: estrutura bicíclica com nitrogênio quaternário (butila e metila), um epóxido e um éster com um anel benzênico e um grupo CH₂OH, com Br⁻."
+  },
+  "2023_AZUL_D2_Q129": {
+   "figura": "Fórmula estrutural do Aldrin (C₁₂H₈Cl₆), simétrica: um anel de seis carbonos com uma ligação dupla em cima e um CH₂ em ponte, ligado a outro sistema de anéis com seis átomos de cloro (um carbono central com dois cloros, quatro cloros nos demais vértices e uma ligação dupla embaixo)."
+  },
+  "2023_AZUL_D2_Q132": {
+   "figura": null,
+   "alternativas": {
+    "A": "Gráfico de P (Pa) em função de T (K): uma seta horizontal para a esquerda, a P₀ constante, de T₀ até T, e depois uma seta vertical para baixo em T, até uma pressão menor.",
+    "B": "Reta horizontal, com a seta para a esquerda, de T₀ até T, com a pressão constante em P₀.",
+    "C": "Curva decrescente (hiperbólica) de T₀ até T, com a seta apontando de T para T₀, em que a pressão aumenta quando a temperatura diminui.",
+    "D": "Reta inclinada, com a pressão crescente quando T diminui: de P₀ em T₀ a um valor maior, em T.",
+    "E": "Reta inclinada que passa pela origem, com a pressão decrescente quando T diminui: de P₀ em T₀ a um valor menor, em T."
+   }
+  },
+  "2023_AZUL_D2_Q133": {
+   "figura": "Fórmula estrutural do tensoativo não biodegradável: um anel benzênico com um grupo sulfonato (SO₃⁻ Na⁺) em um carbono e, no carbono oposto, uma longa cadeia carbônica com várias ramificações metila."
+  },
+  "2023_AZUL_D2_Q135": {
+   "figura": "Esquema em corte do subsolo: um emissor e detector de pulsos na superfície, com ondas sonoras saindo para baixo, e três camadas: «Rocha» em cima, uma camada de «Líquido» de 450 m de espessura (cota marcada à direita) e «Rocha» embaixo."
+  },
+  "2023_AZUL_D2_Q136": {
+   "figura": "À esquerda, um cone reto de 36 cm de altura e 18 cm de diâmetro na base, do qual se tira, perto do vértice, um cone menor de 6 cm de diâmetro na base (o tronco de cone fica embaixo). À direita, o tronco de cone resultante, com uma perfuração cilíndrica de 6 cm de diâmetro, de base a base, no eixo."
+  },
+  "2023_AZUL_D2_Q137": {
+   "figura": "Quadro com setor, quantidade de funcionários e salário (em real): produção, 75 e 2 000,00; administração, 25 e 7 000,00."
+  },
+  "2023_AZUL_D2_Q139": {
+   "figura": "Tabela de vendas, em unidades. Produto I: abril, 80; maio, 90; junho, 100. Produto II: abril, 190; maio, 170; junho, 150."
+  },
+  "2023_AZUL_D2_Q145": {
+   "figura": "Vista de cima de um campo de futebol verde, com a trave da esquerda e os pontos A e B (os dois pés da trave) na linha de fundo. Q₁, com a bola, está no centro-esquerda do campo, com o ângulo α (em amarelo) formado pelos segmentos Q₁A e Q₁B. Os outros jogadores: Q₂ e Q₄, perto da área, à esquerda e próximos de Q₁; Q₃, no alto, mais à frente; Q₅, à direita de Q₁; e Q₆, à direita e embaixo. Arcos de circunferência tracejados passam por A e B, em volta dos jogadores.",
+   "alternativas": {
+    "A": "Q₂",
+    "B": "Q₃",
+    "C": "Q₄",
+    "D": "Q₅",
+    "E": "Q₆"
+   }
+  },
+  "2023_AZUL_D2_Q146": {
+   "figura": "Desenho de um «triângulo mágico»: seis círculos vazios, um em cada vértice e um no meio de cada lado: um no alto (vértice), dois círculos na lateral intermediária e três embaixo (os dois vértices da base e o do meio)."
+  },
+  "2023_AZUL_D2_Q149": {
+   "figura": "Tela de um instrumento de voo, com malha quadriculada em que cada quadradinho tem 1 cm de lado: eixo horizontal «distância» e eixo vertical «altitude». O traçado parte da «origem do voo», sobe em linha reta até um patamar horizontal, que segue por cerca de 6 quadradinhos, desce em linha reta até um segundo patamar mais baixo, curto, e desce até o «destino», no eixo horizontal."
+  },
+  "2023_AZUL_D2_Q151": {
+   "figura": "Gráfico das criptomoedas, com a criptomoeda A (milhar de real, de 0 a 7) no eixo horizontal e a criptomoeda B (milhar de real, de 0 a 6) no vertical; uma curva percorre nove instantes, em ordem: 9 h (3; 0,5), 10 h (2; 2), 11 h (4; 4), 12 h (5,5; 3), 13 h (6; 1,5), 14 h (3,5; 2), 15 h (2,5; 4), 16 h (1; 5) e 17 h (0,5; 3,5)."
+  },
+  "2023_AZUL_D2_Q163": {
+   "figura": "Gráfico «Distância do vigilante em relação à base em função do tempo»: distância (km) por tempo (min). A reta sobe de 0 km em t = 0 até 3 km em t = 10 min, fica constante em 3 km até t = 20 min e desce até 0 km em t = 30 min.",
+   "alternativas": {
+    "A": "Vista superior em forma de setor circular (fatia de pizza): dois segmentos que partem de um ponto e se abrem, unidos por um arco no alto; setas indicam o percurso (ida por um lado, arco, volta pelo outro).",
+    "B": "Triângulo com o vértice para baixo: dois lados que partem do ponto e a base reta em cima; setas indicam o percurso.",
+    "C": "Dois segmentos em «V» invertido (como um telhado), partindo do mesmo ponto no alto, sem o terceiro lado; setas indicam subida e descida.",
+    "D": "Trapézio aberto: um segmento inclinado que sobe, um segmento horizontal no alto e outro inclinado que desce, sem a base; setas indicam o percurso.",
+    "E": "Semicírculo: um arco que sai de um ponto, sobe e desce, com o diâmetro reto embaixo, percorrido por setas de volta ao início."
+   }
+  },
+  "2023_AZUL_D2_Q172": {
+   "figura": "Primeira figura: um triângulo retângulo de lados a (hipotenusa), b e c, com um círculo de diâmetro a (C₁), um de diâmetro b (C₂) e um de diâmetro c (C₃) traçados em torno de seus lados. Segunda figura: um triângulo com ângulo α num vértice e, em cada lado, uma meia pizza (semicírculo) com diâmetro nesse lado: a «meia pizza do amigo 1», a «meia pizza do amigo 2» e a «meia pizza do professor de matemática», no lado maior.",
+   "alternativas": {
+    "A": "0° < α < 90°",
+    "B": "α = 90°",
+    "C": "90° < α < 180°",
+    "D": "α = 180°",
+    "E": "180° < α < 360°"
+   }
+  },
+  "2023_AZUL_D2_Q178": {
+   "figura": null,
+   "alternativas": {
+    "A": "Gráfico do volume de água (L) em função do tempo (s, até 12): reta crescente de 0 a 3 s; volume que volta a zero e fica em zero de 3 a 8 s; e outra reta crescente a partir de um valor intermediário, de 8 a 11 s.",
+    "B": "Reta crescente de 0 a 3 s, patamar constante de 3 a 8 s (volume acumulado se mantém) e outra reta crescente de 8 a 11 s, com a mesma inclinação.",
+    "C": "Duas retas horizontais: uma em um valor positivo, de 0 a 3 s, e outra de 8 a 11 s, com um trecho em zero entre 3 e 8 s.",
+    "D": "Uma única reta crescente, contínua, de 0 a 11 s.",
+    "E": "Reta crescente de 0 a 3 s, trecho em zero de 3 a 8 s e uma reta mais inclinada de 8 a 11 s."
+   }
+  },
+  "2023_AZUL_D2_Q179": {
+   "figura": "Quadrinho com seis personagens de braços erguidos, cada um sobre uma placa numerada de 1 a 6, falando: 1, «URAPUM!»; 2, «OKOSA!»; 3, «OKOSA URAPUM!»; 4, «OKOSA OKOSA!»; 5, «?»; 6, «OKOSA OKOSA OKOSA!»."
+  },
+  "2024_AZUL_D2_Q100": {
+   "figura": "Mirascópio 3D: em cima, a fotografia do equipamento — dois espelhos côncavos, um sobre o outro, em formato de disco — com uma raposa em miniatura sobre a abertura circular do alto. Embaixo, o esquema em corte, com as dimensões: espelho E₂ em cima, com uma abertura circular de 5 cm de diâmetro; espelho E₁ embaixo, com a raposa-objeto sobre o vértice dele; largura de 23 cm; distância de 3,8 cm do vértice de E₁ até o plano das bordas e de mais 3,8 cm até o vértice de E₂ (o foco). Raios luminosos cruzados saem da raposa, refletem em E₂ e E₁ e se encontram na abertura, onde se forma a imagem."
+  },
+  "2024_AZUL_D2_Q101": {
+   "figura": "Infográfico de uma sala de aula em perspectiva: o professor, à esquerda, diante de uma lousa verde, e cinco alunos sentados em carteiras ao longo de uma linha, com a escala de distância de 0 a 10 m. Acima, o gráfico do nível sonoro (dB, de 0 a 60) em função da distância (m, de 0 a 10): a curva começa em 60 dB a 1 m, cai rapidamente até cerca de 53 dB a 2 m, 50 dB a 3 m, 46 dB a 4 m, 45 dB a 5 m, 44 dB a 6 m, 42 dB a 7 m, 40 dB a 8 m e cerca de 38 dB a 10 m."
+  },
+  "2024_AZUL_D2_Q103": {
+   "figura": "Esquema de um aquecedor solar: à esquerda, o reservatório de água, um cilindro inclinado com «isolamento térmico de poliuretano»; embaixo e à direita, o coletor solar de tubo a vácuo (um painel inclinado de tubos paralelos), sob «radiação solar» (setas amarelas). Um tubo azul de «água fria» leva a água do reservatório até o coletor, e um tubo vermelho de «água quente» a traz de volta ao reservatório."
+  },
+  "2024_AZUL_D2_Q104": {
+   "figura": "Fluxograma em cinco caixas ligadas por setas: «Urbanização» → «Ausência de saneamento básico» → «Contaminação da água» → (seta para baixo) «Redução da biodiversidade aquática» → «Riscos para a saúde humana»."
+  },
+  "2024_AZUL_D2_Q110": {
+   "figura": "Duas fotografias de serpentes enroladas sobre folhas secas. À esquerda, a coral-verdadeira (Micrurus decoratus), com anéis vermelhos, pretos e brancos; à direita, a falsa-coral (Erythrolamprus aesculapii), também com anéis vermelhos, pretos e brancos, em um padrão muito parecido."
+  },
+  "2024_AZUL_D2_Q112": {
+   "figura": "Legenda: círculo com um ponto vermelho, mulher heterozigota portadora do gene para daltonismo; círculo branco, mulher não daltônica; círculo vermelho, mulher daltônica; quadrado branco, homem não daltônico; quadrado azul, homem daltônico. Em cada alternativa, um heredograma: o casal (mulher portadora e homem não daltônico) e quatro filhos.",
+   "alternativas": {
+    "A": "Filhos: uma mulher não daltônica, uma mulher daltônica, um homem daltônico e um homem não daltônico.",
+    "B": "Filhos: uma mulher não daltônica, uma mulher portadora, um homem não daltônico e um homem daltônico.",
+    "C": "Filhos: duas mulheres portadoras e dois homens não daltônicos.",
+    "D": "Filhos: duas mulheres não daltônicas e dois homens daltônicos.",
+    "E": "Filhos: duas mulheres daltônicas e dois homens não daltônicos."
+   }
+  },
+  "2024_AZUL_D2_Q114": {
+   "figura": "Gráfico das composições dos gases do escapamento em função da razão ar/combustível (massa/massa, de 10 a 20, com «deficiência» à esquerda e «excesso» à direita da razão estequiométrica, em cerca de 14,7, marcada por uma linha tracejada vertical). Eixo esquerdo: O₂, CO e CO₂ (% em volume, de 0 a 14); eixo direito: NO (10³ vppm) e HC como C₆ (10² vppm). CO₂ sobe de cerca de 7,5% até um máximo de cerca de 14% na razão estequiométrica e cai a cerca de 11% em 19,5. CO cai de cerca de 12% em 10,5 para quase zero perto de 15. HC cai de cerca de 7 (eixo direito) em 10,5, até cerca de 1,2 em 17,5, e sobe um pouco depois. NO sobe até um máximo, perto de 3,5, em 16 e cai a cerca de 0,7 em 19,5. O₂ é perto de zero até 14 e cresce até cerca de 5,5% em 19,5.",
+   "alternativas": {
+    "A": "baixa de O₂ e alta de NO.",
+    "B": "baixa de NO e alta de HC.",
+    "C": "baixa de CO e alta de CO₂.",
+    "D": "baixa de HC e alta de CO.",
+    "E": "baixa de CO₂ e alta de HC."
+   }
+  },
+  "2024_AZUL_D2_Q115": {
+   "figura": "Esquema do experimento com a ameba Amoeba proteus. À esquerda, o «grupo controle»: uma ameba irregular, com expansões (pseudópodes), que se desloca e continua com formato irregular. À direita, a «ameba tratada com citocalasina B»: começa com o mesmo formato irregular e, depois do tratamento, torna-se arredondada, quase um círculo, sem expansões."
+  },
+  "2024_AZUL_D2_Q119": {
+   "figura": "Diagrama de um circuito retangular com quatro boias numeradas: 1 (embaixo, à esquerda), 2 (embaixo, à direita), 3 (em cima, à direita) e 4 (em cima, à esquerda). Os lados longos, de 1 a 2 e de 3 a 4, medem 800 m; os curtos, de 2 a 3 e de 4 a 1, medem 400 m. A corrente marinha vc aponta para baixo, no lado de 2 a 3 (paralela à praia). Nos lados longos, o nadador deve nadar na direção do vetor vn, inclinado: de 1 até 2, para cima e à direita; de 3 até 4, para cima e à esquerda."
+  },
+  "2024_AZUL_D2_Q121": {
+   "figura": "Tirinha de Calvin em quatro quadros: no primeiro, ele balança sorrindo; no segundo, solta-se do balanço, no ar, gritando «AUUUUUUU!»; no terceiro, voa em arco, no ar; no quarto, aparece de cabeça para baixo, a ponto de tocar o chão, com a fala «Houston, estamos com um problema na trajetória orbital.»",
+   "alternativas": {
+    "A": "Vetor inclinado, apontando para cima e para a direita.",
+    "B": "Vetor horizontal, apontando para a esquerda.",
+    "C": "Vetor inclinado, apontando para cima e para a esquerda.",
+    "D": "Vetor vertical, apontando para cima.",
+    "E": "Vetor horizontal, apontando para a direita."
+   }
+  },
+  "2024_AZUL_D2_Q122": {
+   "figura": "Tirinha de Laerte em três quadros, com esquimós dentro de um iglu. Quadro 1: dois esquimós entram e um pergunta «Ué, você comprou uma geladeira?!»; a resposta é «É», e a geladeira aparece ao fundo. Quadro 2: «Pra quê?!» «É para as crianças.»; um dos esquimós tira uma forma de gelo do congelador. Quadro 3: «Elas adoram brincar de casinha.»; duas crianças constroem uma casinha de pedras de gelo, com uma forma de gelo ao lado."
+  },
+  "2024_AZUL_D2_Q123": {
+   "figura": "Fórmulas estruturais de dois compostos de defesa das plantas. Composto 1 (ácido salicílico): um anel benzênico com um grupo COOH e, no carbono vizinho, um OH. Composto 2: um anel de cinco carbonos com um grupo cetona (C=O), uma cadeia lateral com uma ligação dupla (um pent-2-enil) e uma cadeia lateral CH₂–COOH."
+  },
+  "2024_AZUL_D2_Q124": {
+   "figura": "Três tubos de ensaio, com meio nutritivo amarelo e células bacterianas representadas por pontos vermelhos. Tubo 1: as células concentradas numa faixa na parte de cima, perto da superfície. Tubo 2: as células concentradas no fundo. Tubo 3: células espalhadas por todo o tubo, mais numerosas na parte de cima."
+  },
+  "2024_AZUL_D2_Q127": {
+   "figura": "Vista superior do experimento: duas barras metálicas verticais, A (com sinais +, à esquerda) e B (com sinais −, à direita), com linhas de campo elétrico horizontais e paralelas, em setas de A para B, entre elas.",
+   "alternativas": {
+    "A": "Linhas de campo horizontais, de A para B, que atravessam o cilindro oco (círculo) sem se alterar.",
+    "B": "Linhas de campo horizontais, de B para A (setas invertidas), que atravessam o cilindro sem se alterar.",
+    "C": "Linhas de B para A, que se curvam em direção ao cilindro e terminam nele, com poucas linhas dentro dele.",
+    "D": "Linhas de A para B que se cruzam dentro do cilindro, em forma de X, e se deformam ao redor.",
+    "E": "Linhas de A para B que se encurvam ao redor do cilindro (por cima e por baixo) e não entram nele; o interior fica sem linhas."
+   }
+  },
+  "2024_AZUL_D2_Q128": {
+   "figura": "Esquema de uma placa solar, em camadas azuis, revestida por grafeno (rede de átomos de carbono), sob uma nuvem que chove. Um detalhe ampliado mostra uma gota: a «camada fina de água» com íons Aᵐ⁺ e Bⁿ⁻ sobre a «camada fina de grafeno», com elétrons (e⁻) em movimento; setas indicam «alto potencial elétrico» na água e «baixo potencial elétrico» no grafeno."
+  },
+  "2024_AZUL_D2_Q131": {
+   "figura": "Símbolo do LED (um triângulo apontando para uma barra, com setas de luz saindo) e a seta do «sentido permitido da corrente», da esquerda para a direita.",
+   "alternativas": {
+    "A": "Circuito com uma bateria (+ em cima) e, em série, um resistor, ligados a dois LEDs em paralelo entre si.",
+    "B": "Bateria ligada a dois ramos em paralelo, cada um com um resistor em série com um LED.",
+    "C": "Bateria ligada a dois ramos em paralelo, cada um com um resistor em série com um LED, com os LEDs em sentido oposto ao da alternativa B.",
+    "D": "Bateria ligada a dois LEDs e dois resistores todos em série, um resistor em cima e outro embaixo.",
+    "E": "Bateria ligada a um resistor em série com dois LEDs em paralelo entre si, com os LEDs em sentido oposto ao da alternativa A."
+   }
+  },
+  "2024_AZUL_D2_Q132": {
+   "figura": "Esquema do circuito: uma bateria de tensão V_QR na parte de baixo, em paralelo com o fio resistivo QR de 48 cm, na horizontal, com cinco pontos A, B, C, D e E que o dividem em seis segmentos iguais (de Q para R: Q, A, B, C, D, E, R). Em cima, as lâmpadas L₁ (à esquerda) e L₂ (à direita) em série, com o ponto P entre elas; do ponto P parte um fio com um amperímetro, que termina no terminal livre S, que será ligado a um dos pontos do fio QR."
+  },
+  "2024_AZUL_D2_Q134": {
+   "figura": "Esquema da fitorremediação, com uma árvore e círculos ampliados: na parte aérea, a fitovolatilização (poluente que sai pelas folhas) e a fitoextração (acúmulo nas folhas); na raiz, a fitodegradação (degradação por enzimas), a fitoestimulação (microrganismos, com CO₂, em volta da raiz), a fitoestabilização (imobilização do contaminante na raiz) e a fitoextração (absorção pelas raízes). À direita, um quadro com as definições: fitoestabilização, imobilização dos contaminantes através de sorção por raízes, precipitação, complexação ou redução de valência; fitovolatilização, retirada de poluentes pelas plantas e transferência para uma forma volátil; fitodegradação, degradação dos contaminantes orgânicos por ação enzimática; fitoestimulação, estimulação dos microrganismos degradadores de contaminantes orgânicos; fitoextração, remoção de poluentes pelas raízes e sua transferência e acúmulo na parte aérea das plantas."
+  },
+  "2024_AZUL_D2_Q136": {
+   "figura": "Desenho em perspectiva de um microscópio óptico: base, estativa em arco, platina com presilhas, a lente ocular no tubo vertical, em cima, e as lentes objetivas no revólver, embaixo do tubo, com os rótulos «Lente ocular» e «Lentes objetivas»."
+  },
+  "2024_AZUL_D2_Q138": {
+   "figura": "Teclado alfanumérico de 4 linhas por 3 colunas: 1; 2 (ABC); 3 (DEF); 4 (GHI); 5 (JKL); 6 (MNO); 7 (PQRS); 8 (TUV); 9 (WXYZ); e, embaixo, uma tecla vazia, o 0 e outra tecla vazia."
+  },
+  "2024_AZUL_D2_Q139": {
+   "figura": "Quadro de preços dos componentes (R$), por loja. Loja I: componente X, 3,00; componente Y, 1,00. Loja II: X, 2,00; Y, 4,00."
+  },
+  "2024_AZUL_D2_Q142": {
+   "figura": "Quadro «Etapas» e «Visor de escrita». 1ª etapa: inseriu três figuras de rosto sorridente no visor — três rostos. 2ª etapa: copiou o que havia inserido e colou ao lado — seis rostos. 3ª etapa: copiou o que tinha no visor na 2ª etapa e colou ao lado — doze rostos, em duas linhas (dez em cima e dois embaixo)."
+  },
+  "2024_AZUL_D2_Q147": {
+   "figura": "Desenho de uma máquina caça-números, com a legenda «Encontre três quantidades iguais», seis compartimentos de visor numerados de I a VI e uma alavanca à direita. Valores no visor: I, 4 elevado a 1/2; II, 4 e 1/2 (número misto); III, 10/45; IV, 18/4; V, 4,5; VI, 4/5."
+  },
+  "2024_AZUL_D2_Q148": {
+   "figura": "Gráfico «Temperatura da caneca (em grau Celsius)» em função do tempo (em minuto, de 0 a 20): curva decrescente e convexa, que começa em 100 °C em t = 0 e termina em 40 °C em t = 20, passando por cerca de 72 °C em 6 min, 60 °C em 10 min e 49 °C em 16 min.",
+   "alternativas": {
+    "A": "a = 20; b = log(0,5)",
+    "B": "a = 100; b = 0,5",
+    "C": "a = 20; b = (0,5)^(1/10)",
+    "D": "a = 20; b = (40)^(1/10) / 80",
+    "E": "a = 20; b = 40"
+   }
+  },
+  "2024_AZUL_D2_Q150": {
+   "figura": "Planta de uma sala retangular de 6 m por 3 m, dividida por uma linha de colunas cilíndricas (círculos azuis), com os centros em uma reta paralela aos lados menores, no meio da sala, de cima a baixo; reticências entre os círculos indicam que há mais colunas. Duas portas aparecem na parte de baixo, ao lado da fileira. Tabela de lojas, com raio (cm) e preço por unidade (R$): I, 5 e 60; II, 10 e 70; III, 12 e 75; IV, 15 e 90; V, 20 e 120."
+  },
+  "2024_AZUL_D2_Q152": {
+   "figura": "Gráfico de linhas «Valor total de exportações e importações», em bilhão de dólares (de 9 a 18), de junho de 2009 a junho de 2010. Exportações (linha preta): começa em cerca de 14,5, oscila entre 12,7 e 14,5 até janeiro de 2010, cai a cerca de 11,3 em janeiro de 2010, sobe até cerca de 17,7 e termina em 17,1 em junho de 2010. Importações (linha cinza): começa em cerca de 10, sobe a cerca de 12,8, cai a cerca de 11,6 em janeiro de 2010, sobe a cerca de 15 e termina em 14,8 em junho de 2010. A região entre as linhas está sombreada.",
+   "alternativas": {
+    "A": "S₁, S₃ e S₂",
+    "B": "S₂, S₁ e S₃",
+    "C": "S₂, S₃ e S₁",
+    "D": "S₃, S₁ e S₂",
+    "E": "S₃, S₂ e S₁"
+   }
+  },
+  "2024_AZUL_D2_Q154": {
+   "figura": "Quadro do tipo de serviço e do tempo necessário para a leitura completa do contrato (em minuto): A, 36; B, 17; C, 27; D, 13; E, 13; F, 13."
+  },
+  "2024_AZUL_D2_Q159": {
+   "figura": null,
+   "alternativas": {
+    "A": "mL · s · cm²",
+    "B": "(mL / s) · cm²",
+    "C": "mL / (cm² · s)",
+    "D": "(cm² · s) / mL",
+    "E": "cm² / (mL · s)"
+   }
+  },
+  "2024_AZUL_D2_Q161": {
+   "figura": "Desenho em perspectiva de um tanque em forma de paralelepípedo reto-retângulo, de altura H e comprimento L, com a «entrada para abastecimento» no teto, no canto de trás. No interior, dois anteparos verticais na base, que dividem o comprimento em três partes de L/3; o primeiro, mais perto da entrada, tem a altura H/2 e o segundo, H/4.",
+   "alternativas": {
+    "A": "Gráfico da maior altura (m) por tempo (h, de 0 a 12): reta crescente de 0 a 2 h, patamar de 2 a 4 h, reta crescente menos inclinada de 4 a 6 h e outra reta ainda menos inclinada de 6 a 12 h.",
+    "B": "Reta crescente de 0 a 2 h, patamar de 2 a 6 h e reta crescente de 6 a 12 h.",
+    "C": "Reta crescente de 0 a 2 h, patamar longo de 2 a 10 h e reta crescente bem inclinada de 10 a 12 h.",
+    "D": "Trechos horizontais e separados: um em um nível médio de 0 a 2 h, um mais baixo de 2 a 4 h, o médio de novo de 4 a 6 h e um mais alto de 6 a 12 h (sem inclinação).",
+    "E": "Degraus: nível médio de 0 a 2 h, nível mais baixo de 2 a 4 h, nível médio de 4 a 6 h e nível alto de 6 a 12 h, ligados por segmentos verticais."
+   }
+  },
+  "2024_AZUL_D2_Q164": {
+   "figura": "Esquema, em um mesmo plano, do hospital H (ponto azul, no centro) e dos três postos de saúde P₁ (em cima), P₂ (embaixo, à direita) e P₃ (embaixo, à esquerda), em laranja. Segmentos iguais (marcados com traços) ligam H a cada posto. As distâncias entre os postos medem 10 km cada: de P₁ a P₃, de P₁ a P₂ e de P₃ a P₂, formando um triângulo equilátero em volta de H."
+  },
+  "2024_AZUL_D2_Q167": {
+   "figura": "Desenho de dois celulares retangulares, lado a lado, com a diagonal da tela marcada por uma seta: o celular 1, menor, com a tela de 3 e 1/2 polegadas, e o celular 2, maior, com a tela de 4 e 5/6 polegadas."
+  },
+  "2024_AZUL_D2_Q168": {
+   "figura": null,
+   "alternativas": {
+    "A": "Gráfico da amplitude (cm) por tempo (min, de 0 a 20): oscilação de amplitude pequena e constante de 0 a 9 min e de amplitude maior e constante de 9 a 20 min, com frequência mais alta no segundo trecho.",
+    "B": "Oscilação de amplitude constante de 0 a 9 min e, depois, de amplitude maior que vai diminuindo até 20 min (não constante).",
+    "C": "Oscilação de amplitude que vai diminuindo ao longo de todo o gráfico, de 0 a 20 min.",
+    "D": "Oscilação de amplitude constante em todo o gráfico, igual nos dois trechos, com frequência mais alta no segundo trecho.",
+    "E": "Oscilação de amplitude constante, com frequência alta de 0 a 9 min e frequência mais baixa e amplitude igual de 9 a 20 min."
+   }
+  },
+  "2024_AZUL_D2_Q169": {
+   "figura": "Duas fileiras de letras em caixas, de A a Z: a de baixo, «letra do texto original», de A a Z; a de cima, «letra do texto codificado», de A a Z deslocada três posições (D, E, F, ..., Z, A, B, C), com setas para cima ligando cada letra original à sua correspondente.",
+   "alternativas": {
+    "A": "1/25 + 1/25 + 1/25",
+    "B": "24/25 + 23/24 + 1/23",
+    "C": "1/25 × 1/24 × 1/23",
+    "D": "24/25 × 23/25 × 1/25",
+    "E": "24/25 × 23/24 × 1/23"
+   }
+  },
+  "2024_AZUL_D2_Q172": {
+   "figura": "Esquema de uma faixa horizontal entre o «Terminal 1», à esquerda, e o «Terminal 2», à direita, com cinco câmeras (I a V) que cobrem trechos triangulares ao longo do percurso, em ordem da esquerda para a direita: I, cobertura média; II, cobertura larga; III e IV, coberturas pequenas e próximas; V, cobertura larga, perto do Terminal 2."
+  },
+  "2024_AZUL_D2_Q174": {
+   "figura": "Desenho em perspectiva de dois planos verticais paralelos (as paredes), ortogonais ao plano da base, com malha. A trajetória em vermelho parte de A, no alto da parede da direita, vai até B, na parede da esquerda, desce até C, vai por uma reta ao ponto D (tracejada onde passa por trás da parede da direita), segue até E, também na parede da direita, e chega a F, no chão, na frente, no plano da base.",
+   "alternativas": {
+    "A": "Projeção em malha quadrada: um segmento do canto superior direito até a esquerda, uma reta horizontal da esquerda até a direita e uma reta inclinada descendo da direita até a base, no meio.",
+    "B": "Projeção em malha: um segmento do canto superior direito à esquerda, um segmento da esquerda à direita, descendo, e uma reta inclinada da direita até a base, no meio.",
+    "C": "Projeção com vários segmentos: do canto superior direito à esquerda, da esquerda à direita, descendo, um trecho vertical na borda direita e um segmento inclinado até a base, no meio.",
+    "D": "Projeção: do canto superior direito à esquerda; um segmento vertical na borda esquerda; uma horizontal até a direita; um trecho vertical na borda direita e uma reta inclinada até a base.",
+    "E": "Projeção: do canto superior direito à esquerda; uma horizontal até a direita; um pequeno trecho vertical na borda direita e uma reta inclinada até a base, no meio."
+   }
+  },
+  "2024_AZUL_D2_Q177": {
+   "figura": "Tabela da quantidade de mochilas e do custo total (R$): 30 mochilas, 1 050,00; 50 mochilas, 1 650,00; 100 mochilas, 3 150,00."
+  },
+  "2024_AZUL_D2_Q178": {
+   "figura": "Quadro com os meses e a média mensal da umidade relativa do ar (%): maio, 66; junho, 64; julho, 54; agosto, 46; setembro, 60; outubro, 64."
+  },
+  "2024_AZUL_D2_Q180": {
+   "figura": null,
+   "alternativas": {
+    "A": "(7!/4!) × (6!/4!)",
+    "B": "(7!/(3! × 4!)) × (6!/(2! × 4!))",
+    "C": "7!/(3! × 4!) + 6!/(2! × 4!) + 5!/(1! × 4!)",
+    "D": "(7!/(3! × 4!) + 6!/(2! × 4!)) × (7!/(4! × 3!) + 6!/(1! × 5!)) × (7!/(5! × 2!) + 6!/(0! × 6!))",
+    "E": "(7!/(3! × 4!) × 6!/(2! × 4!)) + (7!/(4! × 3!) × 6!/(1! × 5!)) + (7!/(5! × 2!) × 6!/(0! × 6!))"
+   }
+  },
+  "2024_AZUL_D2_Q91": {
+   "figura": "Ilustração em corte lateral de um carro cinza que bateu de frente em um muro vermelho e branco: o capô amassado, na frente, está indicado como «Crumple zone (Região deformável)»; dois bonecos de teste de colisão, amarelos, ocupam os bancos da frente e de trás; o «Air bag» está inflado diante do boneco do motorista; os «Seat belts (Cintos de segurança)» prendem os dois."
+  },
+  "2024_AZUL_D2_Q92": {
+   "figura": "Esquema de uma célula a combustível microbiana, com duas câmaras separadas por uma membrana: à esquerda, a câmara verde, com o ânodo, onde entra «matéria orgânica (CH₃COO⁻)» e sai CO₂; à direita, a câmara azul, com o cátodo, onde sai H₂O e entra O₂. Um fio condutor externo liga o ânodo ao cátodo, com e⁻ subindo do ânodo e descendo ao cátodo, e H⁺ atravessa a membrana do ânodo para o cátodo. Reações: CH₃COO⁻ (aq) + 2 H₂O (l) → 2 CO₂ (g) + 7 H⁺ (aq) + 8 e⁻; 4 H⁺ (aq) + O₂ (g) + 4 e⁻ → 2 H₂O (l).",
+   "alternativas": {
+    "A": "CH₃COO⁻ (aq) + O₂ (g) → 2 CO₂ (g) + 3 H⁺ (aq)",
+    "B": "CO₂ (g) + O₂ (g) + H⁺ (aq) → H₂O (l) + CH₃COO⁻ (aq)",
+    "C": "CH₃COO⁻ (aq) + H⁺ (aq) + 2 O₂ (g) → 2 CO₂ (g) + 2 H₂O (l)",
+    "D": "CH₃COO⁻ (aq) + 6 H₂O (l) → 2 CO₂ (g) + 2 O₂ (g) + 15 H⁺ (aq)",
+    "E": "2 CO₂ (g) + 11 H⁺ (aq) + O₂ (g) → CH₃COO⁻ (aq) + 4 H₂O (l)"
+   }
+  },
+  "2024_AZUL_D2_Q94": {
+   "figura": "Fórmula estrutural da nimesulida, com os grupos circulados e nomeados: a «metila» (H₃C) ligada a um átomo de enxofre da «sulfonamida» (S com dois oxigênios duplos e um N–H), que se liga a um anel benzênico; no mesmo anel, um grupo «éter» (–O–) que o liga ao anel «fenila», e, em posição oposta, o grupo «nitro» (N⁺ com O e O⁻)."
+  },
+  "2024_AZUL_D2_Q96": {
+   "figura": "Vista frontal de um conjunto roda/pneu: um pneu preto, com a inscrição «PNEU», e, dentro, a roda cinza de cinco raios, com o centro geométrico no meio e o «CM» (centro de massa, ponto laranja) à direita do centro, um pouco acima. Cinco pontos amarelos possíveis, na borda da roda: 1, em cima; 5, no alto à direita; 2, à esquerda; 3, embaixo à esquerda; 4, embaixo."
+  },
+  "2025_AZUL_D1_Q22": {
+   "figura": "Texto II: fotografia de cinco esculturas de bailarinos entalhados em gravetos de madeira (Y. Farias, Ilha do Ferro, AL), sobre uma mesa de madeira escura: figuras filiformes, com cabeça pintada de rosto, em poses de dança, de braços e pernas abertos, algumas com partes pintadas de amarelo, azul, vermelho e branco, cada uma sobre uma base de madeira clara."
+  },
+  "2025_AZUL_D1_Q23": {
+   "figura": "Texto II: obra «Azulejaria em carne viva», de Adriana Varejão (óleo sobre tela, poliuretano, madeira e alumínio, 1999): uma parede de azulejos portugueses brancos, com motivos azuis e amarelos de flores e rosetas, da qual se abre uma grande fenda; da fenda sai uma massa que parece carne vermelha, com aspecto de ferida, e, abaixo dela, os azulejos aparecem dobrados, como um pano enrolado."
+  },
+  "2025_AZUL_D1_Q24": {
+   "figura": "Cartaz do Unicef, com duas fotografias de rostos de crianças. À esquerda, uma criança indígena de pintura vermelha no rosto e cocar, com a legenda «Carlos Pataxicoré, aos 36 anos, médico e o futuro todo pela frente.» À direita, uma menina negra, de tranças, com a legenda «Quézia Silva, aos 29 anos, advogada e o futuro todo pela frente.» Embaixo: «Em um mundo de diferenças enxerga a igualdade», «O Brasil tem 31 milhões de crianças negras e indígenas. A maioria sofre com discriminação racial, sem ter acesso à educação, à saúde e ao desenvolvimento. Ajude a mudar essa realidade. Contribua para uma infância sem racismo.», «Participe desta campanha. Acesse: www.unicef.org.br» e a marca «Racismo» riscada, ao lado de «unicef»."
+  },
+  "2025_AZUL_D1_Q41": {
+   "figura": "Texto II: fotografia do «Tatu Kamayurá 1» (Y. Kamayurá, madeira, 61 × 24 × 20 cm, Xingu, MT), um banco de madeira escura em forma de tatu, de corpo alongado e focinho comprido, com grafismos gravados no dorso e uma cauda longa, apoiado sobre uma base retangular, com dois suportes de madeira."
+  },
+  "2025_AZUL_D1_Q45": {
+   "figura": "Ilustração de Marija Tiurina da série «Palavras intraduzíveis», em tons de verde: duas mãos grandes, em concha, seguram um pouco de água, na qual uma menina de franja, sentada, tem um barquinho de papel ao lado; uma gota cai da mão. No canto, em letras manuscritas: «Gufra (árabe) — A quantidade de água que pode ser segurada com as mãos.»"
+  },
+  "2025_AZUL_D1_Q47": {
+   "figura": "Mapa de satélite «Concentração de CO₂ por queimadas entre África e Brasil em 30 de agosto de 2019», com a América do Sul, à esquerda, com o contorno do Brasil em azul, e a África, à direita. A concentração de CO₂ é mostrada em tons de amarelo a marrom-escuro e preto, com legenda em ppbv (partes por bilhão em volume): 0, 50, 100, 500 e 1 200. As maiores concentrações aparecem no centro-sul da África e em manchas no interior do Brasil, e uma faixa de menor concentração liga os dois continentes sobre o oceano Atlântico."
+  },
+  "2025_AZUL_D1_Q49": {
+   "figura": "Texto I: pintura «La piazetta» (detalhe), de Luca Carlevaris (óleo sobre tela, 1729): uma praça de Veneza, com um longo edifício de arcadas e colunas à direita e uma coluna alta ao fundo; em primeiro plano, homens de trajes variados, entre eles dois de roupas orientais (um de fez vermelho e outro de turbante e manto azul), um homem sentado lendo, junto a uma banca de livros, e cães."
+  },
+  "2025_AZUL_D1_Q63": {
+   "figura": "Infográfico «Produção e exportações brasileiras no ranking mundial em 2019», com oito produtos em colunas, cada um com o ícone, a produção (posição no ranking), a exportação (posição) e a fatia de participação na produção mundial (share). Açúcar: produz 29,5 Mi t (2º), exporta 19,6 Mi t (1º), 36%. Café: 3,8 Mi t (1º), 1,9 Mi t (1º), 27%. Suco de laranja: 1,3 Mi t (1º), 1,2 Mi t (1º), 76%. Soja: 117 Mi t (2º), 75,4 Mi t (1º), 51%. Carne de frango: 13,3 Mi t (2º), 3,6 Mi t (1º), 38%. Carne bovina: 9,9 Mi t (2º), 2,0 Mi t (1º), 22%. Milho: 101 Mi t (3º), 39,0 Mi t (3º), 20%. Carne suína: 3,7 Mi t (4º), 0,7 Mi t (4º), 10%. Fonte: USDA, 2020."
+  },
+  "2025_AZUL_D1_Q68": {
+   "figura": "Fotografia aérea de Salvador (BA): uma faixa litorânea com prédios altos e verticalizados à esquerda; na ponta, um forte com um farol, sobre um promontório rochoso e gramado, cercado de mar verde com ondas; ao fundo, mais prédios ao longo da orla."
+  },
+  "2025_AZUL_D1_Q77": {
+   "figura": "Charge «Carro elétrico, uma miragem ecológica», dividida por uma parede em dois lados. À esquerda, um dia limpo, com sol, um homem de terno ao lado de um carro verde com um raio no capô, rodando. À direita, um cenário escuro, de fumaça e destroços, onde dois homens, de aparência primitiva, puxam um grande cabo vermelho ligado a uma tomada que sai da parede e leva ao carro."
+  },
+  "2025_AZUL_D2_Q105": {
+   "figura": "Esquema de uma usina termonuclear, com legenda de três sistemas: circuito primário (amarelo), circuito secundário (azul) e sistema de água de refrigeração (verde). Dentro do vaso de contenção: o reator, com o elemento combustível, o pressurizador e uma bomba, no circuito primário, que leva calor ao gerador de vapor. O vapor segue para a turbina, ligada ao gerador elétrico e à torre de transmissão; depois, para o condensador, e a água volta, por bombas, ao tanque de água de alimentação. A água de refrigeração, em verde, circula do condensador para a torre de resfriamento e para o ecossistema aquático (um corpo de água com peixes e plantas), de onde volta como água fria."
+  },
+  "2025_AZUL_D2_Q108": {
+   "figura": null,
+   "alternativas": {
+    "A": "Gráfico da força de atrito em função do tempo: começa alta, desce até um mínimo e, depois, sobe e se mantém constante num nível alto.",
+    "B": "Começa num valor intermediário, sobe até um máximo, desce e se mantém constante num nível baixo.",
+    "C": "Reta horizontal: força de atrito constante.",
+    "D": "Constante no começo e, depois, decrescente até o final.",
+    "E": "Começa num valor intermediário, sobe até um máximo e, depois, decresce até o final."
+   }
+  },
+  "2025_AZUL_D2_Q109": {
+   "figura": "Equação química em estruturas: o ácido anacárdico (anel benzênico com um grupo OH, um grupo COOH e uma cadeia C₁₅H₃₁) se transforma, a 180 a 200 °C (Δ), em cardanol (o mesmo anel, com o OH e a cadeia C₁₅H₃₁, sem o grupo COOH) + CO₂."
+  },
+  "2025_AZUL_D2_Q111": {
+   "figura": "Esquema da biodigestão, em quatro etapas numeradas. 1: excrementos animais e restos de alimentos (de uma vaca e um porco) são misturados com água no alimentador do biodigestor, um tanque de tijolos. 2: dentro do biodigestor, uma câmara cilíndrica de tijolos, a ação das bactérias decompõe os resíduos, transformando-os em gás metano e adubo. 3: o gás metano pode ser encanado para alimentar um gerador ou aquecedor (seta para cima). 4: as sobras servem como fertilizante (um monte de terra ao lado)."
+  },
+  "2025_AZUL_D2_Q113": {
+   "figura": "Figura 1: esquema de um tubo de imagem. À esquerda, o filamento (A) emite elétrons; um feixe passa por eletrodos acelerados, em forma de anéis, e pela região B, entre duas placas horizontais, e atinge a tela, curva e larga, à direita, com cinco pontos marcados: 1, no alto; 2, embaixo; 3, à direita, no meio; 4, à esquerda, no meio; e 5, no centro. Figura 2: o campo elétrico E da região B, com linhas verticais, apontando para cima, entre as placas, e um elétron (carga negativa, em amarelo, com o sinal −) com velocidade v horizontal, para a direita."
+  },
+  "2025_AZUL_D2_Q114": {
+   "figura": "Tirinha da Turma da Mônica: no restaurante, uma mulher de rosto assustado diz «É quem está gritando muito?» e uma Mônica de braços cruzados na mesa responde; um garçom de uniforme, à direita, vem com uma bandeja de taças de cristal quebradas; à esquerda, um homem de óculos, perto de taças e cacos."
+  },
+  "2025_AZUL_D2_Q115": {
+   "figura": "Representação tridimensional do borneol: uma estrutura bicíclica (um anel de seis carbonos com uma ponte de um carbono), com dois grupos metila (H₃C) no carbono da ponte, um metila (H₃C) em outro carbono do anel e um grupo OH.",
+   "alternativas": {
+    "A": "C₉H₁₆O",
+    "B": "C₉H₁₇O",
+    "C": "C₁₀H₁₆O",
+    "D": "C₁₀H₁₆O₂",
+    "E": "C₁₀H₁₈O₂"
+   }
+  },
+  "2025_AZUL_D2_Q119": {
+   "figura": "Esquema do circuito da placa fotovoltaica em circuito aberto: um gerador não ideal, com f.e.m. ε = 40 V e uma resistência interna r em série.",
+   "alternativas": {
+    "A": "Circuito em série: um gerador de 136 V, um resistor de 3,2 Ω e a «bomba».",
+    "B": "Circuito em série: um gerador de 120 V, um resistor de 2,4 Ω e a «bomba».",
+    "C": "Circuito em série: um gerador de 120 V, um resistor de 5,3 Ω e a «bomba».",
+    "D": "Circuito em série: um gerador de 102 V, um resistor de 2,4 Ω e a «bomba».",
+    "E": "Circuito em série: um gerador de 102 V, um resistor de 5,3 Ω e a «bomba»."
+   }
+  },
+  "2025_AZUL_D2_Q120": {
+   "figura": "Em cima, um transmissor, à esquerda, emite um feixe vermelho horizontal de diâmetro d até o receptor, à direita. Embaixo, cinco movimentos de um invasor e suas velocidades típicas: um homem que sobe uma parede de tijolos (0,5 m/s); um homem que desce a parede (0,7 m/s); e três homens de perfil que andam, em passos crescentes: 1,0 m/s, 2,0 m/s e 5,0 m/s."
+  },
+  "2025_AZUL_D2_Q122": {
+   "figura": "Esquema de um fogão por indução: em cima, uma panela com o «conteúdo aquecido» (água com bolhas); setas indicam a «transferência do calor gerado na panela»; embaixo da panela, uma placa de «vidro cerâmico»; sob ela, uma «bobina de indução» (um cilindro enrolado em fio) cujo «campo magnético criado» aparece como linhas curvas que saem pelas laterais, em direção à panela."
+  },
+  "2025_AZUL_D2_Q126": {
+   "figura": "Diagrama em três dimensões, com os eixos Norte (para cima e para a direita), Leste (para a direita), Sul e Oeste (para a esquerda). Um avião verde sai da origem, na decolagem, com o vetor velocidade v apontado para a posição a ser atingida, marcada por um ponto no alto e à direita; linhas tracejadas azuis mostram as projeções dessa posição nos eixos Leste e Norte."
+  },
+  "2025_AZUL_D2_Q127": {
+   "figura": null,
+   "alternativas": {
+    "A": "Gráfico de energia por progresso da reação: a curva cheia (sem enzima) parte de A, sobe até um pico e desce até B; a curva pontilhada (com enzima) parte de A em um nível mais alto, sobe ao mesmo pico e desce ao mesmo B.",
+    "B": "As duas curvas partem do mesmo A e sobem ao mesmo pico; a curva cheia desce a B, mais baixo, e a pontilhada termina em B num nível mais alto.",
+    "C": "As duas partem do mesmo A e terminam no mesmo B; a curva pontilhada (com enzima) tem um pico mais baixo que a cheia.",
+    "D": "As duas partem do mesmo A e terminam no mesmo B; a pontilhada (com enzima) tem um pico mais alto que a cheia.",
+    "E": "A pontilhada parte de A em um nível mais alto e termina em B também mais alto que a cheia, com o mesmo pico nas duas."
+   }
+  },
+  "2025_AZUL_D2_Q128": {
+   "figura": "Gráfico da resistência (ohm, de 50 a 250) em função da temperatura (°C, de −100 a 350), com cinco retas. Sensor 1 (laranja): quase horizontal, em cerca de 225 a 228. Sensor 2 (verde-escura): a mais inclinada, de cerca de 75 em −50 °C a cerca de 225 em 320 °C. Sensor 3 (roxa): de cerca de 146 a cerca de 168, pouco inclinada. Sensor 4 (azul): de cerca de 90 em −50 °C a cerca de 148 em 320 °C. Sensor 5 (lilás): de cerca de 65 em −50 °C a cerca de 145 em 320 °C."
+  },
+  "2025_AZUL_D2_Q130": {
+   "figura": null,
+   "alternativas": {
+    "A": "Circuito com uma bateria ligada a um ramo em paralelo: o equipamento R_C e o resistor de proteção R_P = 0,2 R_C, cada um em um ramo.",
+    "B": "Circuito com uma bateria, com o equipamento R_C e o resistor de proteção R_P = 1,2 R_C, em paralelo.",
+    "C": "Circuito em série: bateria, resistor de proteção R_P = 1,2 R_C e o equipamento R_C.",
+    "D": "Circuito em série: bateria, resistor de proteção R_P = 2,2 R_C e o equipamento R_C.",
+    "E": "Circuito em série: bateria, resistor de proteção R_P = 0,2 R_C e o equipamento R_C."
+   }
+  },
+  "2025_AZUL_D2_Q133": {
+   "figura": "Representação esquemática do dispositivo, em camadas de baixo para cima: a «malha de aço»; a «camada inferior de polímero» (cadeias com anéis de nitrogênio positivo, N⁺); uma camada de «nanopartículas de sílica» (círculos SiO₂); a «camada superior de polímero» (mesma estrutura); e, em cima, o «surfactante» (moléculas fluoradas, com cadeias de carbono com flúor e uma extremidade carregada negativamente)."
+  },
+  "2025_AZUL_D2_Q134": {
+   "figura": "Fórmulas estruturais de cinco hormônios, todos com quatro anéis fundidos (esteroides), um grupo CH₃ e um OH no anel de cinco membros: estradiol (HO no anel aromático, OH no anel de cinco membros); estriol (HO aromático, mais dois OH no anel de cinco membros); estrona (HO aromático, C=O no anel de cinco membros); novestrol (HO aromático, OH e uma ligação tripla C≡CH no anel de cinco membros); noretindrona (sem anel aromático, com uma C=O no primeiro anel, uma ligação dupla, e OH e C≡CH no anel de cinco membros)."
+  },
+  "2025_AZUL_D2_Q135": {
+   "figura": "Em cima, o gráfico do espectro de fotoluminescência do sensor (u.a., de 0 a 1,2) em função do comprimento de onda (nm), com um pico de 1,0 em 600 nm. Figura 1: fotografia de um bebê sob luz azul, com o sensor, um coração vermelho, colado na fralda. Figura 2: uma coluna de corações coloridos, de baixo para cima, com o tempo de exposição de 0 h (vermelho), 3 h (laranja-avermelhado), 6 h (laranja), 9 h (amarelo-esverdeado) a 12 h (verde), com a frequência aumentando para cima.",
+   "alternativas": {
+    "A": "Dois espectros: o do início (linha cheia), com pico em 600 nm; o do final (tracejada), com pico em cerca de 550 nm, deslocado para a esquerda (comprimento de onda menor).",
+    "B": "O do início, com pico em 600 nm; o do final, com pico em cerca de 640 nm, deslocado para a direita (comprimento de onda maior).",
+    "C": "Os dois com pico em 600 nm; o do final com intensidade um pouco menor.",
+    "D": "Os dois com pico em 600 nm; o do final com intensidade um pouco maior.",
+    "E": "Os dois espectros iguais, sobrepostos."
+   }
+  },
+  "2025_AZUL_D2_Q138": {
+   "figura": "Em cima, o cubo na posição inicial, em um espaço com os eixos x, y e z e malha tracejada, com as projeções ortogonais em azul nos três planos coordenados (um quadrado na parede lateral, um na do fundo e um paralelogramo no chão).",
+   "alternativas": {
+    "A": "Eixos x, y, z, com uma projeção vermelha: um quadrado pequeno na parede lateral, à esquerda, um quadrado maior na parede do fundo, à direita, e uma pequena faixa no chão, perto da origem do eixo y.",
+    "B": "Mesmos eixos: o quadrado da parede lateral encostado ao eixo z, o da parede do fundo mais perto do centro e a faixa no chão perto do eixo x.",
+    "C": "Mesmos eixos: o quadrado da parede lateral um pouco afastado do eixo z, o do fundo à direita e a faixa no chão perto do eixo x.",
+    "D": "Mesmos eixos: o quadrado da parede lateral mais abaixo, o do fundo no centro, mais à esquerda, e a faixa no chão mais à direita.",
+    "E": "Mesmos eixos: o quadrado lateral mais afastado do eixo z, o do fundo mais à direita e a faixa no chão perto do eixo y."
+   }
+  },
+  "2025_AZUL_D2_Q139": {
+   "figura": "Desenho de uma lagoa circular azul, de 1 km de raio, cercada por uma ciclovia (anel branco). Sobre a ciclovia, o ponto P, em amarelo, e um trecho cinza-escuro de cada lado dele, de 200 m para cada lado, que é a região em que um policial deve estar para proteger P."
+  },
+  "2025_AZUL_D2_Q142": {
+   "figura": "Quadro com a velocidade de referência (MB/s) de dez cidades: C1, 390; C2, 380; C3, 320; C4, 390; C5, 340; C6, 380; C7, 390; C8, 400; C9, 350; C10, 360."
+  },
+  "2025_AZUL_D2_Q145": {
+   "figura": "Gráfico da frequência respiratória (rpm) em função do tempo (min): uma reta horizontal em f₁ até o instante t₁, quando se inicia a prática meditativa; a partir daí, uma curva suave que desce até f₂ em t₂; depois, uma reta horizontal em f₂, mais baixo."
+  },
+  "2025_AZUL_D2_Q147": {
+   "figura": "À esquerda, gráfico de setores «Porcentagem de matrículas por idioma – 2023»: inglês, 60%; espanhol, 25%; francês, 10%; alemão, 5%. À direita, gráfico de barras «Quantidade de matrículas por idioma – 2024»: inglês, 280; espanhol, 80; francês, 20; alemão, 20."
+  },
+  "2025_AZUL_D2_Q149": {
+   "figura": "Três figuras da cúpula pentagonal girolongada: duas vistas do poliedro, com faces triangulares azuis, quadradas amarelas, uma face pentagonal verde e uma grande face decagonal vermelha, e, embaixo, uma planificação: um decágono vermelho no centro, rodeado de triângulos azuis, quadrados amarelos e um pentágono verde numa das pontas."
+  },
+  "2025_AZUL_D2_Q153": {
+   "figura": "Plano cartesiano com o quadrado STUV, em azul, inclinado: o ponto T, à esquerda; U, no alto; V (8; 6), à direita; e S (6; 2), embaixo."
+  },
+  "2025_AZUL_D2_Q160": {
+   "figura": "À esquerda, um recipiente em forma de taça, apoiado sobre o «tampo da mesa», com um bojo largo no alto e uma base estreita, com linhas tracejadas azuis que indicam a altura da lâmina de água. À direita, o gráfico de D (cm) em função de T (min): uma curva tangente, com assíntotas verticais em T = (5 − 2π)/2, à esquerda, e T = (5 + 2π)/2, à direita; a curva passa por D = 30 em T = 2,5, e é crescente: de um ponto aberto em T = 0 (D pouco acima de zero) até um ponto aberto em T = 4, a partir do qual continua tracejada até a assíntota."
+  },
+  "2025_AZUL_D2_Q164": {
+   "figura": "Em cima, uma bússola circular com a escala em graus, de 0 (no alto, Norte) a 360, com N, S, L e O no centro e uma agulha vermelha para o Norte (0 no topo; 90 à direita, Leste; 180 embaixo; 270 à esquerda, Oeste). Embaixo, um diagrama das rotas: a rota planejada, em laranja, do ponto P até Q, para a direita e um pouco para baixo, e de Q até R, na horizontal, para a direita; a rota executada, em verde, de P até S, para a esquerda e para cima, e de S até T, na horizontal, para a direita; e uma linha tracejada azul de T até R."
+  },
+  "2025_AZUL_D2_Q166": {
+   "figura": "Esquema do percurso de 5 km, com a linha do tempo de corrida e a linha do comprimento do percurso: marcas de tempo em 0 s, 272 s, 556 s, 844 s e 1 132 s, que correspondem a 0 km, 1 km, 2 km, 3 km e 4 km (um corredor desenhado no 4 km); o tempo gasto em cada trecho de 1 km: 1º trecho, 272 s; 2º, 284 s; 3º, 288 s; 4º, 288 s; o 5º trecho, de 4 km a 5 km, é o que falta."
+  },
+  "2025_AZUL_D2_Q169": {
+   "figura": "Quadro de safras: 11-12, 12-13, 13-14, 14-15 e 15-16; área cultivada (hectare): 200, 220, 250, 250, 200; produtividade (sacas de 50 kg por hectare): 40, 30, 45, 45, 50.",
+   "alternativas": {
+    "A": "Gráfico de linhas da produção (tonelada) por safra: 400, 330, 562,5, 562,5 e 500.",
+    "B": "Gráfico de linhas da produção: 40, 30, 45, 45 e 50.",
+    "C": "Gráfico de linhas da produção: 200, 220, 250, 250 e 200.",
+    "D": "Gráfico de linhas da produção: 240, 250, 295, 295 e 250.",
+    "E": "Gráfico de linhas da produção: 8, 6,6, 11,25, 11,25 e 10."
+   }
+  },
+  "2025_AZUL_D2_Q170": {
+   "figura": "Dois desenhos em perspectiva da caixa de descarga, em forma de paralelepípedo, com base de 2,5 dm por 1,5 dm. No de cima, a caixa com pouca água e a boia (uma bola preta presa a uma haste) em baixo, junto à torneira de abastecimento. No de baixo, a caixa cheia, até a altura de 2 dm (cota à direita), com a boia no alto e a haste horizontal, interrompendo o abastecimento."
+  },
+  "2025_AZUL_D2_Q172": {
+   "figura": null,
+   "alternativas": {
+    "A": "10^0,5",
+    "B": "10^8",
+    "C": "10^2,5 / 84",
+    "D": "10^2,5 / 99",
+    "E": "25 × 10⁻²"
+   }
+  },
+  "2025_AZUL_D2_Q173": {
+   "figura": "Dois projetos de túnel, em vista frontal, sobre um fundo marrom (a montanha). Projeto 1: um túnel semicircular para automóveis, de 12 m de largura, com as vias «volta» e «ida» separadas por uma mureta, e um túnel semicircular menor, para bicicletas, de 6 m, também com «volta» e «ida». Projeto 2: um único «túnel de uso misto», semicircular, com vias de ida e de volta, na ordem: volta (3 m), volta (6 m), ida (6 m) e ida (3 m), com 18 m no total.",
+   "alternativas": {
+    "A": "o 1, pois apresenta área de seção transversal medindo 67,5 m².",
+    "B": "o 2, pois apresenta área de seção transversal medindo 121,5 m².",
+    "C": "o 1, pois apresenta área de seção transversal medindo 135 m².",
+    "D": "o 2, pois apresenta área de seção transversal medindo 243 m².",
+    "E": "qualquer um dos dois, pois apresentam áreas de suas seções transversais com medidas iguais."
+   }
+  },
+  "2025_AZUL_D2_Q177": {
+   "figura": "À esquerda, a medalha vista de cima: um círculo dourado de 6 cm de diâmetro, com um quadrado ABCD inscrito, em cinza, com os vértices A (em cima), B (à direita), C (embaixo) e D (à esquerda) tocando o círculo; as quatro regiões dos segmentos de círculo, fora do quadrado, são douradas. À direita, a medalha em perspectiva, um cilindro baixo, de 3 mm de espessura (cota), com o prisma do quadrado visível em cinza no alto."
+  },
+  "2025_AZUL_D2_Q180": {
+   "figura": "Diagrama com quatro círculos coloridos dispostos em volta de um círculo, numerados 1 (marrom, em cima), 2 (azul, à direita), 3 (laranja, embaixo) e 4 (verde, à esquerda), com setas em sentido horário que ligam 1 a 2, 2 a 3, 3 a 4 e 4 a 1."
+  },
+  "2025_AZUL_D2_Q91": {
+   "figura": "Esquema de dois grãos de carvão em corte. À esquerda, o «carvão comum»: um círculo cinza liso, com poucos poros pequenos (um «mesoporo» indicado por uma seta). À direita, o «carvão ativado»: um grão com a superfície muito irregular, cheio de reentrâncias, com poros de vários tamanhos — «macroporo», «mesoporo» e «microporo» indicados por setas — e pontos pretos, as «impurezas adsorvidas», na superfície e dentro dos poros."
+  },
+  "2025_AZUL_D2_Q94": {
+   "figura": "Fotografia de uma régua elétrica branca, com seis tomadas, interruptor e cabo enrolado. À esquerda, quadro de aparelhos e potências (watt): luminária de LED, 5; computador, 250; impressora a laser, 660; secador de cabelos, 750; cafeteira, 900; condicionador de ar portátil, 1 100."
+  }
+ },
+ "sem_figura": [
+  "2017_AZUL_D1_Q05",
+  "2017_AZUL_D1_Q07",
+  "2017_AZUL_D1_Q12",
+  "2017_AZUL_D1_Q14",
+  "2017_AZUL_D1_Q18",
+  "2017_AZUL_D1_Q20",
+  "2017_AZUL_D1_Q23",
+  "2017_AZUL_D1_Q25",
+  "2017_AZUL_D1_Q29",
+  "2017_AZUL_D1_Q31",
+  "2017_AZUL_D1_Q35",
+  "2017_AZUL_D1_Q42",
+  "2017_AZUL_D1_Q44",
+  "2017_AZUL_D1_Q52",
+  "2017_AZUL_D1_Q62",
+  "2017_AZUL_D1_Q69",
+  "2017_AZUL_D1_Q75",
+  "2017_AZUL_D1_Q83",
+  "2017_AZUL_D1_Q85",
+  "2017_AZUL_D2_Q102",
+  "2017_AZUL_D2_Q104",
+  "2017_AZUL_D2_Q109",
+  "2017_AZUL_D2_Q115",
+  "2017_AZUL_D2_Q117",
+  "2017_AZUL_D2_Q129",
+  "2017_AZUL_D2_Q136",
+  "2017_AZUL_D2_Q179",
+  "2017_AZUL_D2_Q97",
+  "2018_AZUL_D1_Q10",
+  "2018_AZUL_D1_Q14",
+  "2018_AZUL_D1_Q16",
+  "2018_AZUL_D1_Q21",
+  "2018_AZUL_D1_Q26",
+  "2018_AZUL_D1_Q30",
+  "2018_AZUL_D1_Q35",
+  "2018_AZUL_D1_Q37",
+  "2018_AZUL_D1_Q43",
+  "2018_AZUL_D1_Q51",
+  "2018_AZUL_D1_Q54",
+  "2018_AZUL_D1_Q59",
+  "2018_AZUL_D1_Q61",
+  "2018_AZUL_D1_Q69",
+  "2018_AZUL_D1_Q77",
+  "2018_AZUL_D1_Q84",
+  "2018_AZUL_D2_Q111",
+  "2018_AZUL_D2_Q135",
+  "2018_AZUL_D2_Q164",
+  "2018_AZUL_D2_Q174",
+  "2018_AZUL_D2_Q96",
+  "2019_AZUL_D1_Q07",
+  "2019_AZUL_D1_Q08",
+  "2019_AZUL_D1_Q20",
+  "2019_AZUL_D1_Q22",
+  "2019_AZUL_D1_Q28",
+  "2019_AZUL_D1_Q34",
+  "2019_AZUL_D1_Q38",
+  "2019_AZUL_D1_Q40",
+  "2019_AZUL_D1_Q44",
+  "2019_AZUL_D1_Q56",
+  "2019_AZUL_D1_Q63",
+  "2019_AZUL_D1_Q65",
+  "2019_AZUL_D1_Q71",
+  "2019_AZUL_D1_Q73",
+  "2019_AZUL_D1_Q79",
+  "2019_AZUL_D1_Q82",
+  "2019_AZUL_D1_Q88",
+  "2019_AZUL_D2_Q104",
+  "2019_AZUL_D2_Q119",
+  "2019_AZUL_D2_Q130",
+  "2019_AZUL_D2_Q132",
+  "2019_AZUL_D2_Q142",
+  "2019_AZUL_D2_Q151",
+  "2019_AZUL_D2_Q159",
+  "2019_AZUL_D2_Q176",
+  "2019_AZUL_D2_Q94",
+  "2021_AZUL_D1_Q15",
+  "2021_AZUL_D1_Q16",
+  "2021_AZUL_D1_Q17",
+  "2021_AZUL_D1_Q19",
+  "2021_AZUL_D1_Q21",
+  "2021_AZUL_D1_Q24",
+  "2021_AZUL_D1_Q25",
+  "2021_AZUL_D1_Q26",
+  "2021_AZUL_D1_Q28",
+  "2021_AZUL_D1_Q29",
+  "2021_AZUL_D1_Q30",
+  "2021_AZUL_D1_Q31",
+  "2021_AZUL_D1_Q32",
+  "2021_AZUL_D1_Q35",
+  "2021_AZUL_D1_Q37",
+  "2021_AZUL_D1_Q38",
+  "2021_AZUL_D1_Q39",
+  "2021_AZUL_D1_Q40",
+  "2021_AZUL_D1_Q41",
+  "2021_AZUL_D1_Q44",
+  "2021_AZUL_D1_Q45",
+  "2021_AZUL_D1_Q61",
+  "2021_AZUL_D1_Q62",
+  "2021_AZUL_D1_Q63",
+  "2021_AZUL_D1_Q64",
+  "2021_AZUL_D1_Q65",
+  "2021_AZUL_D1_Q66",
+  "2021_AZUL_D1_Q70",
+  "2021_AZUL_D1_Q71",
+  "2021_AZUL_D1_Q72",
+  "2021_AZUL_D1_Q76",
+  "2021_AZUL_D1_Q77",
+  "2021_AZUL_D1_Q78",
+  "2021_AZUL_D1_Q79",
+  "2021_AZUL_D1_Q80",
+  "2021_AZUL_D2_Q100",
+  "2021_AZUL_D2_Q110",
+  "2021_AZUL_D2_Q111",
+  "2021_AZUL_D2_Q112",
+  "2021_AZUL_D2_Q117",
+  "2021_AZUL_D2_Q118",
+  "2021_AZUL_D2_Q128",
+  "2021_AZUL_D2_Q159",
+  "2021_AZUL_D2_Q165",
+  "2021_AZUL_D2_Q166",
+  "2021_AZUL_D2_Q173",
+  "2022_AZUL_D2_Q116",
+  "2023_AZUL_D2_Q134",
+  "2024_AZUL_D1_Q04",
+  "2024_AZUL_D1_Q18",
+  "2024_AZUL_D2_Q102",
+  "2024_AZUL_D2_Q105",
+  "2024_AZUL_D2_Q107",
+  "2024_AZUL_D2_Q108",
+  "2024_AZUL_D2_Q109",
+  "2024_AZUL_D2_Q116",
+  "2024_AZUL_D2_Q135",
+  "2024_AZUL_D2_Q140",
+  "2024_AZUL_D2_Q149",
+  "2024_AZUL_D2_Q156",
+  "2024_AZUL_D2_Q157",
+  "2024_AZUL_D2_Q160",
+  "2024_AZUL_D2_Q162",
+  "2024_AZUL_D2_Q165",
+  "2024_AZUL_D2_Q171",
+  "2024_AZUL_D2_Q93",
+  "2024_AZUL_D2_Q97",
+  "2025_AZUL_D1_Q06",
+  "2025_AZUL_D1_Q07",
+  "2025_AZUL_D1_Q08",
+  "2025_AZUL_D1_Q09",
+  "2025_AZUL_D1_Q10",
+  "2025_AZUL_D1_Q16",
+  "2025_AZUL_D1_Q42",
+  "2025_AZUL_D1_Q44",
+  "2025_AZUL_D1_Q48",
+  "2025_AZUL_D1_Q51",
+  "2025_AZUL_D1_Q53",
+  "2025_AZUL_D1_Q61",
+  "2025_AZUL_D1_Q69",
+  "2025_AZUL_D1_Q72",
+  "2025_AZUL_D1_Q80",
+  "2025_AZUL_D1_Q83",
+  "2025_AZUL_D1_Q90",
+  "2025_AZUL_D2_Q117",
+  "2025_AZUL_D2_Q140",
+  "2025_AZUL_D2_Q152",
+  "2025_AZUL_D2_Q159"
+ ]
+}
