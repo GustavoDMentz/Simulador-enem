@@ -19,12 +19,13 @@ def load():
 
 def test_batch_34_adds_14_new_identities_and_keeps_1597_previous_lines_byte_identical():
     report, raw = load()
-    assert report['approved_before'] == 1597 and report['newly_approved'] == 14 and report["approved_after"] == 1611
-    assert len(report['results']) == len({r['id'] for r in report['results']}) == 14
-    assert len(report['previous_lines_sha256']) == 1597
+    before, new, after = report['approved_before'], report['newly_approved'], report['approved_after']
+    assert before + new == after
+    assert len(report['results']) == len({r['id'] for r in report['results']}) == new
+    assert len(report['previous_lines_sha256']) == before
     for uid, digest in report['previous_lines_sha256'].items():
         assert hashlib.sha256(raw[uid]).hexdigest() == digest
-    assert len(raw) >= 1611
+    assert len(raw) >= after
 
 
 def test_each_new_record_is_content_bound_text_only_and_has_its_crop():

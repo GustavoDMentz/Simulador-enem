@@ -3,7 +3,7 @@
 
 Requires the unmodified official PDFs recorded in batch-34-review.json (SHA-256 checked).
 Every item is bound to its original PDF region, official answer key and final content;
-extraction never authorizes anything by itself. Batch 27 also extends the checkpoint
+extraction never authorizes anything by itself. This batch also extends the checkpoint
 inventory with the new identities as pending rows before approving them.
 """
 import argparse
@@ -88,6 +88,7 @@ def apply(pdf_root):
     manifest_path = Path('data/audit/manifest.json')
     manifest = json.loads(manifest_path.read_text()); entries = {e['id']: e for e in manifest['questions']}
     additions, decisions, checked, keymaps = [], [], set(), {}
+    identity_items = json.loads(Path('data/audit/identity-resolution.json').read_text())['items']
     for result in report['results']:
         source = result['source']; pdf = pdf_root / result['source_file']; key = pdf_root / result['key_file']
         for file, field in [(pdf, 'source_sha256'), (key, 'answer_source_sha256')]:
@@ -103,7 +104,7 @@ def apply(pdf_root):
         assert language in (None, 'ingles')
         answer = answers[number][language or 'comum']
         assert answer == result['official_answer'], 'Official answer mismatch: ' + result['id']
-        ident = json.loads(Path('data/audit/identity-resolution.json').read_text())['items'][result['id']]
+        ident = identity_items[result['id']]
         assert answer == ident['tx_gabarito'] == result['identity_reconciliation']['tx_gabarito'], 'Identity not corroborated: ' + result['id']
         assert result['pending_row']['co_item'] == ident['co_item'] == result['identity_reconciliation']['co_item'], 'CO_ITEM differs from resolved identity: ' + result['id']
         assert result['status'] == 'APPROVED' and result['classification'] == 'RECOVERABLE'

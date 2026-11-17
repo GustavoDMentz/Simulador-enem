@@ -39,7 +39,7 @@ def describe(q,flags,spec,transcribed,figures):
     fig=figures['questions'].get(uid);plain=uid in figures['sem_figura']
     out=f"Questão {q['posicao_prova']} do ENEM {q['ano']}, dia {q['dia']}, {AREAS.get(q['area_conhecimento'],q['area_conhecimento'])}. Reprodução do caderno oficial com {', '.join(parts[:-1])} e {parts[-1]}"
     if fig and fig.get('figura'): out+='. Figura: '+fig['figura'].rstrip('.')
-    elif fig: pass  # só as alternativas são figuras (descritas abaixo)
+    elif fig: assert fig.get('alternativas'),('Entrada de figura sem descrição nem alternativas',uid)  # só as alternativas são figuras (descritas abaixo)
     elif plain: out+=', sem figuras além do texto'
     elif figs: out+=f", além de {' e '.join(figs)}. O conteúdo visual das figuras não está descrito em texto: use Ampliar para vê-lo"
     out+='. O comando e as alternativas também estão disponíveis em texto fora da imagem.'
