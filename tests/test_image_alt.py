@@ -37,3 +37,23 @@ def test_formatted_support_text_only_changes_how_characters_look_and_never_edits
         assert set(alts) == set('ABCDE')
         assert all('reprodução gráfica oficial' in v for v in ROWS[uid]['conteudo']['alternativas'].values())  # o registro não guarda a fórmula
         assert all(f'{k}) {alts[k]};' in PRES[uid]['alt'] for k in 'ABCDE'), uid
+
+
+def test_every_visible_crop_with_figures_is_either_described_or_declared_text_only():
+    fig = json.loads((ROOT / 'data/audit/figure-descriptions.json').read_text())
+    described, plain = set(fig['questions']), set(fig['sem_figura'])
+    assert not described & plain and len(described) == 391 and len(plain) == 163
+    for uid in described:
+        v = fig['questions'][uid]
+        assert v.get('figura') or v.get('alternativas'), uid
+        alt = PRES[uid]['alt']
+        assert 'não está descrito em texto' not in alt, uid
+        if v.get('figura'):
+            assert v['figura'].rstrip('.') in alt, uid
+        placeholder = all('reprodução gráfica oficial' in t for t in ROWS[uid]['conteudo']['alternativas'].values())
+        if v.get('alternativas') and placeholder and uid not in FMT['alternativas_transcritas']:
+            assert set(v['alternativas']) == set('ABCDE'), uid
+            assert all(v['alternativas'][k].rstrip('.;') in alt for k in 'ABCDE'), uid  # alternativas só em imagem: vão na descrição
+    for uid in plain:
+        assert uid in ROWS and 'sem figuras além do texto' in PRES[uid]['alt'], uid
+    assert not [u for u, e in PRES.items() if 'não está descrito em texto' in e.get('alt', '')]
