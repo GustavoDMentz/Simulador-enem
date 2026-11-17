@@ -260,13 +260,24 @@ app.get('/api/questions/:id', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+// Chave BYOK: ausente -> null; com formato aceitável -> a chave; fora do formato -> false.
+function geminiKeyFromHeader(value) {
+  if (value === undefined || value === null || String(value).trim() === '') return null;
+  const key = String(value).trim();
+  return /^[A-Za-z0-9_-]{20,128}$/.test(key) ? key : false;
+}
+
 // API: Explicar questão por IA (Gemini)
 app.post('/api/questions/:id/explain', async (req, res) => {
   try {
     const { selected } = req.body;
-    const apiKey = process.env.GEMINI_API_KEY;
+    // BYOK: a chave do próprio estudante (cabeçalho) tem prioridade; a do servidor é só um padrão opcional.
+    // A chave nunca é registrada em log nem devolvida ao cliente.
+    const userKey = geminiKeyFromHeader(req.get('x-gemini-key'));
+    if (userKey === false) return res.status(400).json({ code: 'GEMINI_KEY_INVALID', error: 'A chave informada não tem o formato de uma chave de API do Gemini.' });
+    const apiKey = userKey || process.env.GEMINI_API_KEY;
     if (!apiKey) {
-      return res.status(500).json({ error: "Chave de API do Gemini não configurada no servidor." });
+      return res.status(401).json({ code: 'GEMINI_KEY_MISSING', error: 'Informe sua chave de API do Gemini para gerar a explicação.' });
     }
     
     // Read exclusively from the audited, published release; no ArangoDB dependency.
@@ -330,7 +341,13 @@ Dê um panorama geral sucinto e de alto valor (bullet points ou parágrafo curto
     
     if (!geminiRes.ok) {
       const errText = await geminiRes.text();
-      console.error('Gemini API status:', geminiRes.status, errText.slice(0, 300));
+      console.error('Gemini API status:', geminiRes.status, errText.slice(0, 300).split(apiKey).join('[chave]'));
+      if ([400, 401, 403].includes(geminiRes.status) && /API key|API_KEY|PERMISSION_DENIED|UNAUTHENTICATED/i.test(errText)) {
+        return res.status(401).json({ code: 'GEMINI_KEY_INVALID', error: 'O Google recusou a chave de API. Confira se ela foi copiada inteira e se está ativa.' });
+      }
+      if (geminiRes.status === 429) {
+        return res.status(429).json({ code: 'GEMINI_QUOTA', error: 'A cota gratuita da sua chave acabou por agora. Tente novamente em alguns minutos.' });
+      }
       return res.status(502).json({ error: 'Não foi possível obter a explicação do Gemini. Verifique a chave, a cota e o modelo configurado.' });
     }
     
@@ -351,3 +368,4 @@ if (require.main === module) app.listen(PORT, () => {
 });
 
 module.exports = app;
+module.exports.geminiKeyFromHeader = geminiKeyFromHeader;

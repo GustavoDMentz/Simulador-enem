@@ -1046,3 +1046,30 @@ mark.highlight {
 .tri-feature-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;flex-shrink:0;padding:13px 19px;border-radius:12px;background:#7143d4;color:#fff;text-decoration:none;font-size:14px;font-weight:650;box-shadow:0 5px 14px rgba(113,67,212,.2)}
 .tri-feature-cta:hover,.tri-feature-cta:focus-visible{background:#5d31b8;color:#fff}
 @media(max-width:750px){.tri-feature-banner{margin:12px;padding:18px;flex-wrap:wrap}.tri-feature-icon{width:44px;height:44px;flex-basis:44px}.tri-feature-copy{flex-basis:calc(100% - 70px)}.tri-feature-cta{width:100%}}
+
+
+/* BYOK: chave de API do Gemini do próprio estudante */
+.byok-panel {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--card-bg);
+  font-size: 14px;
+}
+.byok-panel summary { cursor: pointer; padding: 10px 14px; font-weight: 600; color: var(--text-main); }
+.byok-panel summary:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 2px; border-radius: 10px; }
+.byok-panel.byok-ok { border-color: #22c55e; }
+.byok-body { padding: 0 14px 14px; display: flex; flex-direction: column; gap: 10px; }
+.byok-help, .byok-privacy { margin: 0; color: var(--text-secondary); line-height: 1.5; }
+.byok-help a { color: var(--primary-color); font-weight: 600; }
+.byok-label { font-weight: 600; color: var(--text-main); }
+.byok-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.byok-input { flex: 1 1 220px; min-width: 0; padding: 10px 12px; border: 1px solid var(--border-color); border-radius: 8px; font: inherit; background: var(--card-bg); color: var(--text-main); }
+.byok-input:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 1px; }
+.byok-btn { padding: 10px 16px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--card-bg); color: var(--text-main); font: inherit; font-weight: 600; cursor: pointer; }
+.byok-btn:hover { border-color: var(--primary-color); }
+.byok-btn:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 2px; }
+.byok-primary { background: var(--primary-color); border-color: var(--primary-color); color: #fff; }
+.byok-primary:hover { background: var(--primary-hover); }
+.byok-msg { margin: 0; min-height: 1.2em; color: var(--text-secondary); }
+.byok-good { color: #15803d; }
+.byok-bad { color: var(--error-color); }
