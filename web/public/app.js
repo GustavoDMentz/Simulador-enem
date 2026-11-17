@@ -705,37 +705,9 @@ function initByok() {
   fillModelSelect(FALLBACK_MODELS, FALLBACK_DEFAULT);
 }
 
-// Simple Markdown parser for bolding, bullet points and paragraphs
+// Markdown da explicação da IA: renderizador seguro em markdown-lite.js (escapa todo o HTML)
 function parseMarkdown(md) {
-  // Escape HTML tags to prevent security issues (XSS)
-  let html = md
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-  
-  // Format bold headers (**Análise...**)
-  html = html.replace(/^\*\*(.*?)\*\*$/gm, "<strong>$1</strong>");
-  
-  // Inline bolding
-  html = html.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-  
-  // Bullets
-  html = html.replace(/^\s*[-*]\s+(.*)$/gm, "<li>$1</li>");
-  
-  // Wrap li groups in ul tags
-  html = html.replace(/(<li>.*<\/li>)/g, "<ul>$1</ul>");
-  html = html.replace(/<\/ul>\s*<ul>/g, "");
-  
-  // Parse paragraphs
-  html = html.split('\n\n').map(part => {
-    const trimmed = part.trim();
-    if (trimmed.startsWith('<ul>') || trimmed.startsWith('<strong>') || trimmed.startsWith('<li>')) {
-      return part;
-    }
-    return `<p>${part.replace(/\n/g, '<br>')}</p>`;
-  }).join('');
-  
-  return html;
+  return window.MarkdownLite.render(md);
 }
 
 // Startup

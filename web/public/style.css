@@ -907,24 +907,34 @@ body {
 .ai-explanation-content strong {
   color: #6b21a8; /* Deep purple */
   font-weight: 600;
-  display: block;
-  margin-top: 8px;
+}
+
+.ai-explanation-content h4 {
+  color: #6b21a8;
   font-size: 15px;
+  font-weight: 700;
+  margin: 10px 0 0;
   border-left: 3px solid #c084fc;
   padding-left: 8px;
 }
 
-.ai-explanation-content ul {
-  list-style-type: disc;
+.ai-explanation-content h4:first-child { margin-top: 0; }
+
+.ai-explanation-content ul,
+.ai-explanation-content ol {
   margin-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.ai-explanation-content li {
-  margin-bottom: 2px;
-}
+.ai-explanation-content ul { list-style-type: disc; }
+.ai-explanation-content ol { list-style-type: decimal; }
+.ai-explanation-content li { margin-bottom: 2px; }
+.ai-explanation-content code { background: #f1f5f9; border-radius: 4px; padding: 1px 5px; font-size: 13px; }
+.ai-explanation-content .md-table-wrap { overflow-x: auto; }
+.ai-explanation-content table { border-collapse: collapse; font-size: 13px; }
+.ai-explanation-content th, .ai-explanation-content td { border: 1px solid var(--border-color); padding: 4px 8px; text-align: left; }
 
 /* Floating Highlighter Tool */
 .highlighter-btn {
